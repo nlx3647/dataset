@@ -5,7 +5,7 @@
     <Name>Bio-Support Dispenser</Name>
     <Description>[H3]Bio-Support Dispenser[h3]
 Sophisticated medical technology integrated into armor can enhance the effects of in-combat treatments through carefully regulated and distributed dosages. This system applies medication automatically as the wearer's vitals begin to suffer, and It Includes an internal bacta reservoir for sealing the most grievous injuries. This attachment may only be installed on a fully enclosed suit of armor, such as laminate, clone trooper, or heavy battle armor</Description>
-    <Source Page="64">Rise of Sep</Source>
+    <Source Page="64">Rise of the Separatists</Source>
     <Custom>AddedItem</Custom>
     <Type>Armor</Type>
     <Price>4000</Price>
@@ -29,7 +29,7 @@ Sophisticated medical technology integrated into armor can enhance the effects o
     <Name>Whipcord Thrower</Name>
     <Description>[H3]Whipcord Thrower[h3]
 A whipcord thrower quickly deploys a length of high-tensile strength cable, firing it over a distance in order to secure a target. Its convenient armor mounting allows the user to act quickly, whether to arrest their own freefall, secure a loose object, or entangle a surprised opponent.</Description>
-    <Source Page="63">Collapse of Rep</Source>
+    <Source Page="63">Collapse of the Republic</Source>
     <Custom>AddedItem</Custom>
     <Type>Armor</Type>
     <Price>600</Price>
@@ -47,7 +47,7 @@ A whipcord thrower quickly deploys a length of high-tensile strength cable, firi
     <Name>Portable Plasma Shield</Name>
     <Description>[H3]Portable Plasma Shield[h3]
 Armor and weapon designs oppose one another in a cycle of endless escalation. Not surprisingly, many warriors seek out means to enhance their defenses in hopes that it will leave them free to make additional attacks. A small defensive shield can provide a substantial upgrade. energy shielfs take this a step further, offering a near-inpenetrable defense while requiring much less weight and bulk than a more traditional shield. </Description>
-    <Source Page="63">Collapse of Rep</Source>
+    <Source Page="63">Collapse of the Republic</Source>
     <Custom>AddedItem</Custom>
     <Type>Armor</Type>
     <Price>2500</Price>

@@ -7,7 +7,7 @@
 hen clone troopers need to quickly deploy in the held, they are often equipped With the JT- I QC jetpack Merr-Sonn manufactures this modified version of the JT- 1 2 for the Grand Army of the Republic. In addition to having Increased production, this variant is modified to Improve reliability for extended battlefield use. Intakes. turbines. and nozzles are hardened to reduce the need for field service. The modifications result in a slightly bulkier package. Consequently. soldiers may discard assigned units once they have  depleted their fuel cells, to reduce their encumbrance on the battlefield.[P]
 A JT-2C jetpack allows a person to function as a silhouette 1 , speed 2, handling 0, system strain threshold 4 vehicle that can only operate in atmosphere and requires Piloting (Planetary) to operate.
 </Description>
-    <Source Page="58">Collapse of Rep</Source>
+    <Source Page="58">Collapse of the Republic</Source>
     <Custom>AddedItem</Custom>
     <Type>Tools/Electronics</Type>
     <Categories />
@@ -25,7 +25,7 @@ The Z-6 provides additional tactical flexibility by incorporating a mount point 
 [P]A jetpack allows a person to function as a silhouette l . speed 2, handling 0, system strain threshold 3 vehicle that can only operate in atmosphere and requires Piloting (Planetary) to operate.[P]
 A Z-6 jetpack features an integrated missile launcher with the following profile: (Ranged [Heavyl; Damage 1 5; Critical 3; Range [Long); Blast 10, Breach l , Inaccurate l , Limited Ammo l , Prepare l ) .
 </Description>
-    <Source Page="58">Collapse of Rep</Source>
+    <Source Page="58">Collapse of the Republic</Source>
     <Custom>AddedItem</Custom>
     <Type>Tools/Electronics</Type>
     <Categories>

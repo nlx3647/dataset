@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>CLONTROOP</Key>
+  <Key>CLONETRO</Key>
   <Name>Clone Trooper</Name>
   <Description>[H4]Clone Trooper[h4]
 Standard infantry make up the largest portion to
  	soldiers in almost every army. Their units handle the direct, personal conflict on the surface of every   battlefield, whether that battlefield is on the ground, the sea, or within the confines of a space Because the Clone Troopers—the infantry—represent the front line of the Grand Army of the Republic.  basic level of competency defines the army's capabilities. In order for the army to be able to overcome   foes quickly and effectively, every Clone Trooper be more capable than the rank and file of the Separatists' droid armies.
 </Description>
-  <Source Page="21">Rise of Sep</Source>
+  <Source Page="21">Rise of the Separatists</Source>
   <Custom>AddedItem</Custom>
   <CareerSkills>
     <Key>GUNN</Key>

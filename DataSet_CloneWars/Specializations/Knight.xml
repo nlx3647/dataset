@@ -7,7 +7,7 @@ A Jedi Knight serves as warrior, diplomat, ambassador, and scholar, leading clon
 Knights receive Cool, Leadership Lightsaber, and Negotiation as additional career skills. Characters  select this as their starting specialization may choose two of these skills and gain one free rank in each without spending starting experience. The practical, handsan nature of a Jedi Knight utilizes such skills as they move toward, into, and out of trouble.  character must have a Force rating of 2 or higher in order to take the Knight specialization.
 Jedi Knights are guardians of peace and justice. Through acts of charity, assistance, teaching, and in some cases, fighting in another's defense, the Jedi Knights serve the people of the Republic. When Jedi render aid and express compassion, this motivates others to do the same. The Force exists in all living beings, and the suffering of those beings affects the Force. In addition, Knights serve as the general public's primary guide to the Force and as living examples of what one can accomplish by accepting the Force.
 </Description>
-  <Source Page="26">Rise of Sep</Source>
+  <Source Page="26">Rise of the Separatists</Source>
   <Custom>AddedItem</Custom>
   <CareerSkills>
     <Key>COOL</Key>

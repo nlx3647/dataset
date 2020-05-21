@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>ARCTROO</Key>
+  <Key>ARCTROOP</Key>
   <Name>ARC Trooper</Name>
   <Description>[H4]ARC Trooper[h4]
 While the bulk of the Grand Army of the Republic try consists of the standard clone troopers, military leadership and the engineers of Kamino recognized the need for specialized soldiers. Squads of Advanced Recon Commando troopers fulfill the need for small and flexible tactical squads to take on unconventional objectives despite everchanging and unknown  situations and lack of access to command leadership  These elite soldiers act independently and creatively. showcasing the clones' potential in a way that can only be called human.[P]
@@ -8,7 +8,7 @@ Focused on tactics for quick strikes, careful Infiltration. or overwhelming forc
  
 
 </Description>
-  <Source Page="21">Collapse of Rep</Source>
+  <Source Page="21">Collapse of the Republic</Source>
   <Custom>AddedItem</Custom>
   <CareerSkills>
     <Key>COORD</Key>

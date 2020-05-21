@@ -7,7 +7,7 @@
 The DC-1 5 was, before the introduction of the DC-15A carbine, the standard issue longarm of the GAR. Roughly as long as a clone is tall, these weapons are heavy, poorly balanced, and extremely difficult to use anywhere but in a wide-open battlefield. They tend to suffer beam cohesion issues after sustained fire,	which negatively affects their short- to medium-range accuracy, and they are generally unpleasant weapons to deal with on a daily basis.	[P]
 Despite these glaring flaws. the DC-15 remains surprisingly popular among the clone ranks for one simple reason: raw power The DC-15 is one of the most powerful heavy blaster rifles in current use. It can punch through laminate armor at I ,000 meters, and at closer ranges it can destroy lightly armored vehicles. It rarely overheats or needs to be reloaded.  is extremely reliable, and can be serviced with the  bare minimum of tools in the field. Many clone marksby men have adopted it as their primary weapon, fitting h- it with long-range optical systems and gyrostabilization units to increase combat effectiveness.
 </Description>
-    <Source Page="51">Rise of Sep</Source>
+    <Source Page="51">Rise of the Separatists</Source>
     <Custom>AddedItem</Custom>
     <Type>Energy Weapon</Type>
     <Categories>
@@ -42,7 +42,7 @@ Despite these glaring flaws. the DC-15 remains surprisingly popular among the cl
     <Name>DC-15A Blaster Carbine</Name>
     <Description>[H3]DC-15A Blaster Carbine[h3]
 Blastechs DC-1 5A blaster carbine is the GARS standard-issue carbine. Every clone, from the greenest recruit to the most seasoned special operator. can use the DC-15A from the moment they are decant ed. A lighter, shorter-ranged cousin of the heavy and cantankerous DC-15, the DC-15A is accurate, easy to handle, and as reliable as a chrono.</Description>
-    <Source Page="51">Rise of Sep</Source>
+    <Source Page="51">Rise of the Separatists</Source>
     <Custom>AddedItem</Custom>
     <Type>Energy Weapon</Type>
     <Categories>
@@ -79,7 +79,7 @@ Blastechs DC-1 5A blaster carbine is the GARS standard-issue carbine. Every clon
 The standard-issue sidearm of the GAR. BlasTechs  DC-1 7 is one of the most rugged and reliable blaster  pistols produced. Typically issued to vehicle crews weapon teams, and officers, these heavy blaster Pistols pack incredible stopping power into a relative  small package. They are lightweight and well balanced, and they have a very respectable rate of fire. Recently, ARC troopers and other special forces teams have taken to carrying the DC- 17 as a backup weapon and for close-quarters combat 
 Game Masters may spend [TH][TH][TH] (in addition to [DE]) to make a DCA-17 run out of ammo during combat.
 </Description>
-    <Source Page="51">Rise of Sep</Source>
+    <Source Page="51">Rise of the Separatists</Source>
     <Custom>AddedItem</Custom>
     <Type>Energy Weapon</Type>
     <Categories />
@@ -110,7 +110,7 @@ Game Masters may spend [TH][TH][TH] (in addition to [DE]) to make a DCA-17 run o
     <Name>AP-M1 Armor Piercing Grenade</Name>
     <Description>[H3]AP-M1 Armor Piercing Grenade[h3]
 Merr-Sonn’s AP-N1 armor piercing grenade is designed to give the conman foot soldier light antiarmor capabilities in the field. Roughly the size of a clone's fist. the APAII consists of a small shaped charge core encased gn a plasteel casing. When it detonates, the grenade produces a highly focused blast that can crack open even the toughest armor. The APAII can be thrown like a standard grenade or placed and held in position by an integral chemical adhesive system. This makes them well suited for precision demolition work as well as anti-vehicle/antiarmor use.</Description>
-    <Source Page="51">Rise of Sep</Source>
+    <Source Page="51">Rise of the Separatists</Source>
     <Custom>AddedItem</Custom>
     <Type>Explosives/Other</Type>
     <Categories />
@@ -148,7 +148,7 @@ Like most flame projectors, the XA2 can be as dangerous to friends as to enemies
 Game Masters can spend [TH][TH][TH] to cause the weapon to overheat, leaving it inoperable for three turns, or to have the weapon explode. An exploding deals full damage to the user and Blast damage to anything engaged with them.
 
 </Description>
-    <Source Page="51">Rise of Sep</Source>
+    <Source Page="51">Rise of the Separatists</Source>
     <Custom>AddedItem</Custom>
     <Type>Explosives/Other</Type>
     <Categories />
@@ -183,7 +183,7 @@ Game Masters can spend [TH][TH][TH] to cause the weapon to overheat, leaving it 
     <Name>MK II EMP Grenade</Name>
     <Description>[H3]MK II EMP Grenade[h3]
 Built by SoroSuub specifically for the GAR, the Mk Il EMP grenade is the latest word in anti-droid weapons. The size of a standard frag grenade, an EMP grenade releases a powerful electromagnetic pulse when it detonates, instead of explosive force. This pulse incapacitates droids and can knock out even hardened electronic systems.</Description>
-    <Source Page="51">Rise of Sep</Source>
+    <Source Page="51">Rise of the Separatists</Source>
     <Custom>AddedItem</Custom>
     <Type>Explosives/Other</Type>
     <Categories />
@@ -221,7 +221,7 @@ The Model 201 mortar is a portable light artillery system used by specialized cl
 The weapon consists of three parts—the launcher, a heavy bipod, and the ammunition magazine—and is operated by a specially trained mortar team. A mortar team consists of three clones: one to carry the weapon, one to carry the bipod, and one to carry the ammo. Working together, a mortar team can keep up an incredible rate of fire, and a good mortar team can be a trooper squad's best friend in the field.[P]
 The Model 201 can only be used at medium range or further due to the arc of its shells.
 </Description>
-    <Source Page="51">Rise of Sep</Source>
+    <Source Page="51">Rise of the Separatists</Source>
     <Custom>AddedItem</Custom>
     <Type>Explosives/Other</Type>
     <Categories />
@@ -267,7 +267,7 @@ Built by Sienar, the RPS-6 is the GAR's primary infantry-portable shoulder-fired
 If attacking a target of silhouette 2 or greater, an
 RPS-6 adds C] if the user performs an aim maneuver. 
 </Description>
-    <Source Page="51">Rise of Sep</Source>
+    <Source Page="51">Rise of the Separatists</Source>
     <Custom>AddedItem</Custom>
     <Type>Explosives/Other</Type>
     <Categories />

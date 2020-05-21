@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>CLONOFF</Key>
+  <Key>CLONEOFF</Key>
   <Name>Clone Officer</Name>
   <Description>[H4]Clone Officer[h4]
 Every military organization depends upon its officers t to function effectively. In most armies, this starts with non-commissioned officers, who work directly with line infantry, and extends to the highest ranking generals, who devise the force's tactics and strategies. Sometimes, an officer needs to be a friend to the soldiers for whom they are responsible. At other times, the officer represents a supreme authority, one who can tolerate no dissension. In the Grand Army of the Republic, Clone Officers assume all but the very highest level of responsibility for their fellow clones, and every officer is a career soldier</Description>
-  <Source Page="21">Rise of Sep</Source>
+  <Source Page="21">Rise of the Separatists</Source>
   <Custom>AddedItem</Custom>
   <CareerSkills>
     <Key>COOL</Key>

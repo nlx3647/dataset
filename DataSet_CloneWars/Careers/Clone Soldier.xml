@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>CLNSOLD</Key>
+  <Key>CLONE</Key>
   <Name>Clone Soldier</Name>
   <Description>[H4]Clone Soldier[h4]
 </Description>
   <Sources>
-    <Source Page="18">Collapse of Rep</Source>
-    <Source Page="18">Rise of Sep</Source>
+    <Source Page="18">Collapse of the Republic</Source>
+    <Source Page="18">Rise of the Separatists</Source>
   </Sources>
   <Custom>AddedItem</Custom>
   <CareerSkills>
@@ -20,11 +20,11 @@
     <Key>VIGIL</Key>
   </CareerSkills>
   <Specializations>
-    <Key>ARCTROO</Key>
-    <Key>CLONECOMMDR</Key>
-    <Key>CLONOFF</Key>
-    <Key>CLONPIL</Key>
-    <Key>CLONTROOP</Key>
+    <Key>ARCTROOP</Key>
+    <Key>CLONECOM</Key>
+    <Key>CLONEOFF</Key>
+    <Key>CLONEPIL</Key>
+    <Key>CLONETRO</Key>
     <Key>CLONEVET</Key>
   </Specializations>
   <Attributes />
