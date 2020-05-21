@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CR90CYBER</Key>
+  <Name>Cybershop Ship (CR90)</Name>
+  <Description>
+[H3]Cybershop Ship (CR90)[h3]
+Cybershop ships are mobile cybernetics showroom, installation and maintenance facilities. While some are deployed with energebct servuces and hospital ships, most are run by freelance cybernetics doctors and technicians. Ships with legal cybernetics masters are well known in their areas of service. Their services run from basic cybernetic prosthetics to advanced post-injury reconstruction and enhancment. Legitimate operations tend to avoid installing cybernetics with blatantly criminal utility, such as concealed weapons or built-in lock-picking tools - or at the very least, they do not advertise such services.
+[P]For those seeking illegal modifactioins or illicit cutting-edge cybernetics, unscrupulous crafters of prosthetics offer the means, provided that the Player Characters can locate them. While such outfits might operate relatively openly on the fringes of the galaxy they are forced to keep a low profile in most civilized systems. Sometimes, these illegal operations provide cheaper installations or maintenance, at a higher risk of malfunction. Those running the operations are sometimes just as skilled as their legal counterparts, but poorly trained or incompetent operators can quickly botch an operation. A poorly run or indebted organizaion migth provide the cheapest services, but its vessel workshop is often a dirty and unwelcoming house of horrors.
+[P]Cybershop ships usually originate from one of three types of vessels. The first is a hospital or emergency response ship - the conversion to its new function is relatively easy, but the ship might lack the defenses that outlaw cyberneticists may require. The second type of conversion begins with a maintenance support starship and adds medical bays and surgical suits as needed. This sort of operation caters to the cutting-edge providers who need a wider array of devices and technical resoures to build and ecperiment with. Finally, the third type of conversion uses a ship that doesn't specialize in either field as a basism but this route is much more costly and labour-intensive. On the plus side, the owner can select a ship for its performance attributes and then modify it for the cybernetics business.</Description>
+  <Source Page="63">Special Modifications</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Corvette</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>1300000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>135 officers and crew, including medical staff</Crew>
+  <EncumbranceCapacity>1000</EncumbranceCapacity>
+  <Passengers>100</Passengers>
+  <Consumables>One Year</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>50</HullTrauma>
+  <SystemStrain>25</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

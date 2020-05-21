@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MEV2</Key>
+  <Name>MEV2 "Dug Digger"</Name>
+  <Description>
+    [H3]MEV2 "Dug Digger"[h3]
+
+The Mining Excavation Vehicle, nicknamed the "Dug Digger" for a perceived resemblance to the aliens known as Dugs, has seen extensive service by the Corellia Mining Corporation. Designed to excavate mine shafts and tunnels using its high-powered drills and diggers, this low-slung walker can be found on worlds throughout the Corellian Sector and beyond, extracting mineral riches from beneath the ground. This rugged, two-legged walker is crewed by a pilot and mining operator from within the safety of its command pod, sealed to protect the crew from the extreme temperatures and poisonous gases of deep mines. MEV2s can also operate in a vacuum, allowing them to mine moons and asteroids that lack any breathable atmo-sphere. A large cargo compartment at the rear collects the valuable ore mined by the walker. 
+
+[P]While not armed or intended to be used in combat, the drills and powerful arms of the Dug Digger can be used as weapons in a crisis, and the thick armor of its hull is impervious to small arms fire and any subterranean dangers that it might encounter.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>30000</Price>
+  <Rarity>5</Rarity>
+  <Crew>One pilot, one co-pilot/mining operator</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Arm</Location>
+      <Key>BEAMDRIL</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

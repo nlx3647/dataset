@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DX9TRN</Key>
+  <Name>Delta-class DX-9 Stormtrooper Transport</Name>
+  <Description>[H3]Delta-class DX-9 Stormtrooper Transport[h3]
+
+The Delta-class DX-9 stormtrooper transport was an assault vehicle, built by Telgorn Corporation, which was designed to carry Imperial stormtroopers into battle.
+
+The Delta-class DX-9 was armed with eight KT4 laser cannons, four ion cannons, and two projectile launchers that were usually loaded with proton torpedoes. These weapons allowed the DX-9 to disable and board targets with light to moderate defenses. Very strong shielding, particularly forward of the vessel, allowed the transport to weather considerable resistance from its targets. A universal docking mechanism allowed the DX-9 to attach itself to most ships, and, if necessary, the transport could also bore its own hole into the enemy hull.[1]
+
+The DX-9 only had weapons on its forward arc, and was not very maneuverable, so it was vulnerable to starfighter attacks. These transports were usually deployed with fighter escorts or as part of a larger assault force.
+
+</Description>
+  <Source>User Data</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Armored Transport</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Rarity>8</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>3</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>30</Passengers>
+  <Consumables>Two weeks</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>4</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Qualities>
+        <Quality>
+          <Key>BLAST</Key>
+          <Count>4</Count>
+        </Quality>
+        <Quality>
+          <Key>BREACH</Key>
+          <Count>4</Count>
+        </Quality>
+        <Quality>
+          <Key>GUIDED</Key>
+          <Count>3</Count>
+        </Quality>
+        <Quality>
+          <Key>SLOWFIRING</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>VURK</Key>
+  <Name>Vurk</Name>
+  <Description>[H4]Vurk[h4]
+This reptilian race has extended their nomadic tradition to the galaxy. Galactic society underestimates them due to their lack of interest in heavy industrialization and technology. They have, however, a complex system of personal governance and political involvement that baffles Core World politicians and philosophers.
+[P][B]Physiology:[b] Reptiles with dark, bulbous eyes and tall head crests, Vurks can breathe underwater as well as they can breathe open air. The warm waters and atmosphere of their homeworld provide much-needed external energy for their metabolism. Although they can function away from such optimal conditions, Vurks do find cooler climates (and most spaceships) a bit uncomfortable. Most Vurks journeying offworld utilize a wide variety of tricks to maintain their body temperature, from wearing heavy clothing, using careful meditation, imbibing hot beverages continually throughout the day, or retiring to a nice, hour-long warm bath.
+[P][B]Society:[b] Vurks are semi-nomadic, but in a different way than other species. It is not unusual for a Vurk community or a whole village to decide to move on, not only based on the changing of a season, but also for a philosophical need. Instead of the village relocating together, each Vurk (and perhaps close friends or acquaintances, but not necessarily family) may choose to travel together. For all intents and purposes, that village no longer exists. Vurks instead integrate with other communities or form new ones based on needs and desires. It is not unusual to find a mature Vurk who has already been in half a dozen successful communities.
+[P]The galaxy considers them a primitive people, but Vurks have a sophisticated community and social status system based on reputation. Vurks judge each other by their individual accomplishments, deeds, and actions, and readily discuss those perceptions with other Vurks. They don't consider this gossip or idle chatter, but part of the process of being in a community. Of course, two Vurks may perceive a third Vurk in two different ways, but none of them see this as a negative. After all, no individuals see things in the exact same way. Vurks don't expect outsiders to participate, but those traveling offworld naturally extend this practice to friends and loved ones.
+[P]This discussion of reputation and perception leads to continual interpersonal conflicts where two or more Vurks may disagree or social or economic matters. These conflicts then lead to compromises or experiments where Vurks try one solution before attempting another. In the end, these discussions lead to a set of casual rules governing behavior for each community, prompting even more discussion. Those who don't participate in the dialogue either choose to go with the majority or simply leave to found a new community While this social structure may seem anarchic, Vurks don't object to laws or social structures per se; they simply believe that these concepts are things to be discussed and negotiated on a case-by-case basis.
+[P]Each time a Vurk integrates or forms into a new community, a new discussion over mores and consent develops. Those who disagree, leave. Those who agree, stay. This social and cultural practice has developed and changed for as long as Vurks have had recorded history. To outsiders, this makes Vurks appear mercurial or constantly changing in ethics and morals. In reality, Vurks constantly question concepts of ethics and morals in order to understand where they stand.
+[P]There are outliers. of course. There are those who intentionally break these social or cultural mores, those who withhold information and lie in order to gain some form of advantage, and those who commit violence to resolve their issues. These individuals gain a reputation that gets passed on to each community they encounter. Eventually, these outliers get exiled, effectively turning them into a community of one.
+[P][B]Homeworld:[b] Sembla (or Utavurk) is located in the Outer Rim. in the Mahrusha sector, at the far end of the Perlemian Trade Route. With four moons, tidal stresses keep the Vurk homeworld tectonically active, with shallow seas and volcanic islands.
+[P]Because Sembla doesn't sit near any major or minor trade routes, ships hardly travel there. The planet has been historically isolated from all of the Galactic Republic's wars. Some Imperial scientists, however, have established a research base to study Sembla as a source of geothermal energy and to experiment with the planet's unique magnetic magma. As a result, the Imperials have also undertaken strip-mining operations to build and power the base. pressing Vurks into a cheap source of labor and destroying nearby islands in the process.
+[P]The Empire doesn't respect the working conditions the Vurks must endure, and various pockets of resistance have appeared throughout the homeworld. Vurks on the other side of the planet don't see the results of Imperial power and have not decided yet to take up arms. In this case, the habit the Vurks have of discussing and witnessing firsthand an individual's bad actions may not be fast enough to unite the planet against the Empire.
+[P][B]Language:[b] On their homeworld, Vurks speak primarily Semblan. There are of course several hundred dialects and unrelated languages, but ages ago, through an intense period of planet-wide discussion, the majority of Vurks decided on Semblan as their language. (As a consequence, they also changed the name of their homeworld from Utavurk to Sembla to reflect this decision.) Plenty of Vurks disagreed and thus formed communities that speak other languages. Those who journey offworld, however, learn Basic.
+[P][B]Perception of the Force:[b] Describing the Force as water or a river fits well with Vurks, who not only live on an aquatic world, but have wandered their planet much like the rain, rivers, and oceans. While Vurks don't have a specific connection to, or affinity for, the Force, certain concepts are easier for them to grasp due to their cultural background. Failure isn't a setback, but simply a new experience. Pick up and move on. This gives them an openness to try something different or try again in a new way, a perfect attitude for a Mystic.
+[P]Of the Vurks who initially tried to join the Jedi Order, most failed due to the rigid discipline. Instead of becoming bitter or discouraged, these petitioners merely saw this setback as part of their continual migration. Perhaps this was not the community they should be joining at this time. Oddly, a few of those who failed the initial tests later came back as better candidates.</Description>
+  <Source Page="22">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>NEG</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>VURKCH1</Key>
+      <Name>Environment</Name>
+      <Options>
+        <Option>
+          <Key>VURKCH1OP1</Key>
+          <Name>Amphibious</Name>
+          <Description>Vurks can breathe underwater without penalty and never suffer movement penalties when travelling through water.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>VURKCH2</Key>
+      <Name>Physiology</Name>
+      <Options>
+        <Option>
+          <Key>VURKCH2OP1</Key>
+          <Name>Cold Blooded</Name>
+          <Description>Vurks add [SE] to all checks they make while in cold environments (in addition to any other penalties).</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

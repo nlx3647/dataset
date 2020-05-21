@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HSP10PURSUIT</Key>
+  <Name>HSP-10 Pursuit Airspeeder</Name>
+  <Description>[H3]HSP-10 Pursuit Airspeeder[h3]
+
+Once a common sight in the skies of Coruscant and other Core Worlds, the HSP-10 pursuit airspeeder is being phased out in favor of newer models, though it is still widely used by Imperial and local planetary security forces beyond the Inner Rim. A relatively fast airspeeder, the HSP-10 carries adequate firepower to deal with most lawbreakers, including a forward-mounted ion cannon to disable the vehicles of any fleeing suspects. Security agencies often patrol the airspace around spaceports with these airspeeders, as well as respond to incidents requiring close air support.</Description>
+  <Source>Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>40000</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>100 kilometers</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>12</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

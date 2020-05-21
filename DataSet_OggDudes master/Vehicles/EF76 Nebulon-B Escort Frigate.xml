@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>EF76</Key>
+  <Name>EF76 Nebulon-B Escort Frigate</Name>
+  <Description>
+    [H3]EF76 Nebulon-B Escort Frigate[h3]
+
+Kuat Drive Yards' Nebulon-B frigates were designated escort frigates by the Imperial Navy, and typically assigned to roles such as convoy escort, scouting, and picket duties. Long and deceptively fragile-looking, these vessels consist of a multi-deck forward section mated to a bulky aft engineering section by a single thin spar, and carry a surprising amount of weaponry for their size including a dozen turbolasers, numerous light laser cannons, and even a trio of tractor beams. Along with the energy weapons, those frigates in Imperial service carry two squadrons of twelve TIE fighters. Along with their heavy armor and sturdy shields, this makes Nebulon-B frigates formidable opponents.</Description>
+  <Sources>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Source>Edge of the Empire Core Rulebook</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <Type>Frigate</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>8500000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>920 Officers, Pilots, and Enlisted Crew</Crew>
+  <EncumbranceCapacity>4000</EncumbranceCapacity>
+  <Passengers>75</Passengers>
+  <Consumables>Two Years</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>6</Armor>
+  <HullTrauma>71</HullTrauma>
+  <SystemStrain>40</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Retractable>true</Retractable>
+      <Key>TURBOMED</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Retractable>true</Retractable>
+      <Key>TURBOMED</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERLT</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERLT</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Forward</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERLT</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Aft</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERLT</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTHVY</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

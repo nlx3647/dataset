@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HEATSINKPOW</Key>
+  <Name>Heat Sink Power Generator</Name>
+  <Description>[H3]AlderaanMotors Heat Sink Power Generator[h3]
+
+Portable power generators are a staple piece of equipment
+among explorers, homesteaders, and expeditionary
+forces. Built in a variety of sizes by companies
+such as Imperial Energy Systems, SoroSuub, and
+KravEn, power generators are designed to produce
+clean, stable electrical power in as small and efficient
+a package as possible. They generate their power via
+numerous sources, from solid and liquid fuels like
+Imperial fuel slugs or liquid hydrogen to fusion, fission,
+and other exotic reactions. They are typically used to
+power portable weapon and sensor emplacements, or
+even entire bases, depending on their output.
+[P]The AlderaanMotors heat sink power generator
+is a common, medium-output power generator. It is
+capable of powering a single modular base structure
+or equivalent structure.
+[P][I]Disclaimer: This is a piece of field equipment found in the Lead by Example Sourcebook.  It is created as a stationary "vehicle" because it is the most appropriate format.  While any mods or benefits are per the official source, the actual vehicle stats are an interpretation only and are not official.  Feel free to modify them if you think any changes are required.[i]</Description>
+  <Source Page="46">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Field Equipment</Type>
+  <Categories />
+  <Price>550</Price>
+  <Rarity>2</Rarity>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Silhouette>2</Silhouette>
+  <HullTrauma>2</HullTrauma>
+  <SystemStrain>2</SystemStrain>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

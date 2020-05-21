@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<Classes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Class>
+    <Key>LOW</Key>
+    <Name>The Down and Out</Name>
+    <Description>
+[H4]The Down and Out[h4]
+The player may decide that the character comes from humble or hardscrabble beginnings. Perhaps he was a moisture farmer on some barren world, an indentured servant working for the Hutts, or abandoned from a young age to survive in the depths of Coruscant's underworld. This character starts out knowing that life is nasty, brutish, and short and probably has seen friends and family members die from malnutrition, disease, or violence and witnessed tremendous injustice done to the weak or vulnerable.
+
+[P]Despite (or because of) this harsh, early view of the universe, characters from this type of background strive to better themselves and do their utmost to escape their plight. The character either trains incessantly, picking up knowledge any way that he can, or simply is tough and resourceful enough to go out on his own.
+
+[P]However, leaving this rough-and-tumble life might not be as easy as it seems. The character may still have family left behind in squalor, former comrades that take a dim view of him leaving a gang, or former "employers" that want the character to finish up their "contracts."</Description>
+    <Sources>
+      <Source>Edge of the Empire Core Rulebook</Source>
+    </Sources>
+    <Custom>DescOnly</Custom>
+  </Class>
+  <Class>
+    <Key>MIDDLE</Key>
+    <Name>Middle Class Struggles</Name>
+    <Description>[H4]Middle Class Struggles[h4]
+Sometimes a character comes from modest, but comfortable conditions prior to entering a life of adventure. The character and his family did not come from vast wealth and they know the meaning of hard work to get ahead. This "middle class" background may be the hardest of all to leave, for the character had a taste of the good (or at least decent) life and finds that getting into adventuring is harder than it appears.
+
+[P]This broad category could include anything from a skilled technician, minor political official, professional soldier or any other lifestyle that typically involves hard work - but with the pay to make it worthwhile. The character lived comfortably, but put in long hours to make ends meet. He's no stranger to hard work and certain levels of injustice, but may have been shielded from the truly darker side of the galaxy - crime, corruption, slavery, and conflict.</Description>
+    <Sources>
+      <Source>Edge of the Empire Core Rulebook</Source>
+    </Sources>
+    <Custom>DescOnly</Custom>
+  </Class>
+  <Class>
+    <Key>HIGH</Key>
+    <Name>The High and Mighty</Name>
+    <Description>[H4]The High and Mighty[h4]
+As the saying goes, the bigger they are, the harder they fall. Even characters from social standing, great wealth, or an existence of comfort can still be subject to the whims of fate and find themselves cast out from the life they once knew. This fall from grace could come in many forms - scandal, poor business decisions, war and revolution, or revenge from enemies. Regardless of the method, the character is irrevocably wrenched from his world and cast into the murky shadows of [B]Edge of the Empire[b].
+
+[P]Characters from this type of background include landed gentry, wealthy business owners, doctors, politicians, and any other position or upbringing that brings with it money, power, and status above that of the common rabble. After the events that push them out of that world, however, these previously entitled characters find a rough life ahead. The character might find himself fleeing his former life with only the (admittedly upscale) clothes on his back and nothing else but his abilities, skills, and will to survive in the unforgiving galaxy.
+
+[P]A character from this background typically finds his Obligations tied to the cause of his downfall. Perhaps his fall came from a huge gambling debt, blackmail from a family enemy, or bringing shame upon his clan that results in exile. As the wealthy and powerful typically rub elbows with those of their own social level, enemies or "holders" of the character's Obligation are also typically wealthy, powerful, and influential in their own right.</Description>
+    <Sources>
+      <Source>Edge of the Empire Core Rulebook</Source>
+    </Sources>
+    <Custom>DescOnly</Custom>
+  </Class>
+  <Class>
+    <Key>OUT</Key>
+    <Name>The Outsider</Name>
+    <Description>[H4]The Outsider[h4]
+A character from this background came from a society outside of the galactic norm. This includes isolated planetary systems not yet marked on the maps, prison colonies, or even the rare case of a character growing up in solitude out in the wilderness. The character is probably ill-informed about or completely unaware of the politics, customs, and even technology of the rest of the galaxy. He may be superstitious of the strange sights around him or embrace the wonders that he encounters.
+
+[P]This choice works better for some careers than others - a Mechanic from a primitive world stretches credulity, for example - unless the player and GM come up with a good reason for this to happen. Maybe the Mechanic character was the sole survivor of a downed ship on a backwater planet and learned his skills from tinkering with the ship's equipment.
+
+[P]Of course, the player must come up with a good reason regarding how the character managed to leave his isolated or primitive upbringing. Perhaps his character was brought back to civilization by an explorer or slipped on board a trade vessel that landed on his planet.</Description>
+    <Sources>
+      <Source>Edge of the Empire Core Rulebook</Source>
+    </Sources>
+    <Custom>DescOnly</Custom>
+  </Class>
+  <Class>
+    <Key>JUSTAV</Key>
+    <Name>Justified Avengers</Name>
+    <Description>
+      [H4]Justified Avengers[h4]
+
+The Alliance to Restore the Republic may exist for the sake of undoing the terrible mistake of allowing Palpatine's rise to power, but the Rebellion is sustained on the backs of those who seek to overthrow the Empire because of the evil it has wrought across the galaxy. Millions—perhaps billions by now—have already died or suffered horribly under its harsh rule, and a huge portion of the rank-and-file among the Alliance's forces come from families, planets, and even entire systems that have been victimized. 
+
+[P]The Empire's "pro-human" philosophy is perhaps one of the greatest propaganda tools the Alliance enjoys. Species that have known respect and admiration for their contributions to galactic civilization for millennia now find themselves marginalized. Their people second-class citizens of the Empire at best, and slaves all too often, more and more of the governments representing these species are throwing in their lot with the Alliance. These beings bring with them their skills, talents, resources, and passionate desire to live peacefully with their fellow sentients throughout the galaxy to the battle against Emperor Palpatine's "humans first" policies. 
+
+[P]The war machine of the Empire is voracious in its hunger, and those who seek to feed it have little or no compulsion against using wide-scale slave labor to obtain the resources and build the countless machines it needs. Entire planets and civilizations have suffered the fate of Kashyyyk and its indigenous Wookiees, enslaved en masse by the Empire and put to work. Individuals who have managed to avoid capture, or who are rescued by others, often sign on with the Alliance for the chance to strike back and, perhaps one day, free their people. Not surprisingly, the Alliance goes out of its way to free such beings whenever possible. 
+
+[P]Death and destruction are also frequent tools employed by Imperial forces for the sake of enforcing order and the Emperor's will, Any signs of opposition are usually answered with arrests, followed by banishment to distant prisons and labor camps, or outright executions. On grander scales, the Emperor employs overwhelming assault forces or orbital bombardment. Emperor Palpatine is satisfied to rule by fear, ensuring that dozens of planets within a sector bow to his will with the utter destruction of one. While this strategy keeps many systems in line, those that survive his reprisals almost invariably sign on with the Rebellion for a chance to strike back on behalf of the many who have been lost.  </Description>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Custom>DescOnly</Custom>
+  </Class>
+  <Class>
+    <Key>COMFBEN</Key>
+    <Name>Comfortable Beneficiaries</Name>
+    <Description>
+      [H4]Comfortable Beneficiaries[h4]
+
+Senator Palpatine's rise to power was no accident. He engineered matters expertly to capitalize on the desire of civilized people for law and order, peace, and security. The events of the Separatist movement and the subsequent Clone Wars, coupled with the apparent (and well-publicized) degradation of the Jedi and their inability to do anything about the ensuing chaos, provided a powerful platform upon which to sell the Republic on the need for firm measures to restore order. 
+
+[P]This could not have happened if many billions of beings weren't willing participants in the transition. The restoration of order by the central government meant a return to relative normalcy: business resuming, unimpeded shipping, threats of violence and destruction removed. For the majority of those living in the Core Worlds and related systems, this is a preferable state of affairs, no matter who is in charge or how they go about implementing their authority. If it is no longer politically or socially wise to complain about the government too loudly, so be it—dinner still gets on the table, the holovid still shows great and entertaining programs, and the average person is generally left alone to lead his life in relative peace. 
+[P]Many who join the Rebellion come from such circumstances. They join not because their lives are filled with misery or tragedy, but because they grasp the insidious nature of the powers that have taken control. They have a deeper understanding of how much is being lost, surreptitiously stripped away day by day while no one seems to notice or care. Such PCs may be idealists seeking to awaken their fellow citizens before it's too late and everything is lost to the corruption of Palpatine's absolute power. They may be malcontents who have been rejected by their families and local society for daring to speak out against the injustices others are suffering in the name of their own peace and security. 
+
+[P]Such PCs might never have intended to become caught up in any resistance against the New Order. Rather, a series of incidents could have led them accidentally (yet inexorably) toward a point of conflict with Imperial forces, driving them straight into the arms of the only people who can help them: the Rebellion.   </Description>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Custom>DescOnly</Custom>
+  </Class>
+  <Class>
+    <Key>VISOPP</Key>
+    <Name>Visionary Opportunists</Name>
+    <Description>
+      [H4]Visionary Opportunists[h4]
+
+Conflict brings change, and change brings opportunity. Many in the galaxy are unsatisfied with the status quo—especially as it exists under Palpatine's rule. The Alliance's war against the Empire provides an extraordinary chance to topple the current order and bring about more desirable changes. Whether those changes are oriented toward reestablishing the Republic as it was or installing a new structure altogether depends on the individual's frame of mind. 
+[P]Many who seek such change are genuinely altruistic in their goals. They recognize the evil of the Empire and the suffering it brings. They're motivated to end this evil, and the Rebellion's organization and resources offer the best possibility of accomplishing their goal. Whether they join the Rebellion simply because they were made aware of Imperial atrocities and destructive policies, or because they and their loved ones have been directly victimized by the Empire, is for the players to decide. 
+
+[P]Others have less idealistic, perhaps even selfish, goals. Current policies might cut into their ability to make a profit in their chosen vocation or damage the business they choose to run. Perhaps a character has run afoul of Imperial authorities one too many times, and he sees an alliance with the Rebellion as his best chance of escaping the less-than-tender mercies of the Empire's justice. Some PCs may simply see a chance to grab some credits and valuable assets while helping to strike against the Empire's forces. 
+
+[P]A technician or engineer could have had his designs rejected by Imperial agents, and the Alliance is providing him a chance to vindicate his work. A politician or political operative might have been ousted when the current regime took power; the Rebellion provides an opportunity to reclaim a sense of purpose and authority. A pilot deemed unfit for service and rejected by the Imperial Academy would consider flying for the Alliance a chance to prove his worth at the controls of a starfighter. </Description>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Custom>DescOnly</Custom>
+  </Class>
+  <Class>
+    <Key>PRIMBACK</Key>
+    <Name>Primitive Backwater</Name>
+    <Description>
+      [H4]Primitive Backwater[h4]
+
+Within the Outer Rim and the Unknown Regions, there remain worlds and civilizations isolated from the greater galaxy. Even among those that are aware of other worlds and cultures, many have only limited access to technologies. Some cultures—regardless of their location within the galaxy—choose to avoid technology or interaction with other worlds. Many of these hold a particular reverence for the natural world. Others simply feel that an overdependence on any but the most rudimentary of tools can be a corrupting influence. 
+
+[P]A character from a primitive world often lacks a full understanding of the scope of technology. Some may routinely expect a device to be able to do virtually anything. Others may have little appreciation for a tool's abilities, preferring to perform tasks manually. Often, the attitude the character feels for devices is proportionate to his loyalty toward his homeworld. If he holds it in reverence, he may be reluctant to learn about tools and techniques from other places.</Description>
+    <Source>Force and Destiny Core Rulebook</Source>
+    <Custom>DescOnly</Custom>
+  </Class>
+  <Class>
+    <Key>COMFTECH</Key>
+    <Name>Comfortable with Tech</Name>
+    <Description>
+      [H4]Comfortable with Tech[h4]
+
+Many of the worlds and cultures across the galaxy have a high level of technological sophistication. Droids and the HoloNet are tools that many sentients use on a daily basis. Starships and repulsorlift craft are a common sight on many worlds, and characters are likely comfortable using these fantastic devices. Most adult individuals from these sorts of worlds enjoyed an education that included a solid grounding in engineering and the hard sciences. This level of technological familiarity is considered the norm for the civilized galaxy. 
+
+[P]Most of the planets from the Core Worlds to the Outer Rim fall Into this category. Even frontier and colonial worlds tend to have denizens familiar with standard galactic technologies, even if said technologies are rare or unavailable. These planets are typically a part of wider galactic society. Citizens of these worlds who wish to avoid technology must make a deliberate effort to do so.</Description>
+    <Source>Force and Destiny Core Rulebook</Source>
+    <Custom>DescOnly</Custom>
+  </Class>
+  <Class>
+    <Key>PRIVFEW</Key>
+    <Name>The Privileged Few</Name>
+    <Description>
+      [H4]The Privileged Few[h4]
+
+Even on affluent worlds, there are individuals who enjoy lives of greater privilege than most. On worlds where basic necessities are precious, there exist some members of society who never want for those essentials. For children, a life of privilege is most often a quirk of birth. Generally, their family somehow earned the rank and lifestyle, and they benefit immensely from being born Into it.
+
+[P]Characters with this background have had opportunities that most have not enjoyed. This typically includes a thorough education and can also encompass other life opportunities. such as travel and cultural interactions. This background colors the character's attitude toward wealth and material possessions. Some who choose to abandon these comforts look down upon others who continue to enjoy them. </Description>
+    <Source>Force and Destiny Core Rulebook</Source>
+    <Custom>DescOnly</Custom>
+  </Class>
+  <Class>
+    <Key>POORHUNG</Key>
+    <Name>The Poor and Hungry</Name>
+    <Description>
+      [H4]The Poor and Hungry[h4]
+
+On some worlds. resources are so scarce that everyone must constantly scramble to obtain the basic necessities of life. From early childhood, individuals are expected to contribute in a meaningful way to increase their family's odds of survival. On worlds where resources are more readily available. there still exist subcultures where families live in desperation. constantly in search of their next meal. 
+
+[P]Individuals who live in constant want may be able to accept this situation as the norm, readily learning to make do with the assets that are available and living this way for the rest of their lives. Alternatively, some become obsessed with material possessions, spending all of their time focused on obtaining more. Characters with either outlook often work carefully to plan and manage their resources. When someone isn't sure where the next meal may be coming from, it helps encourage them to be cautious in their actions. Of course, some characters with this background may be exceptionally cavalier in their endeavors, secure in the knowledge that they have nothing to lose.</Description>
+    <Source>Force and Destiny Core Rulebook</Source>
+    <Custom>DescOnly</Custom>
+  </Class>
+</Classes>

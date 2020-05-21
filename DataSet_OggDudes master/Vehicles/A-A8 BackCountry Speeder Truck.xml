@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AA8BACK</Key>
+  <Name>A-A8 BackCountry Speeder Truck</Name>
+  <Description>[H3]A-A8 BackCountry Speeder Truck[h3]
+Another of Trast Heavy Transports' excellent speeder trucks, the A-A8 BackCountry is a purpose-built trekking vehicle marketed to explorers, scouts and surveyors. Based on Trast's popular A-A5 model, the A-A8 comes equipped with a number of systems designed to keep a group of sentients alive and comfortable in the wild for long periods of time.
+[P]Like the A-A5, the BackCountry has a relatively spacious crew compartment that seats the pilot and one passenger. Instead of having a bed or cargo box, the A-A8 is equipped with a modular sleeping cabin that can hold up to six in relative comfort. Both the crew compartment and the sleeping cabin are environmentally sealed and controlled to protect the inhabitants from adverse or hostil environments. The cabin can be ordered from the factory, or modified by the end user, in a dizzying array of configurations to fit nearly any need. While the options are nearly endless, A-A8s are usually equipped with fold-down bunks, a small galley; one or two folding tables, a cramped, very basic refresher, and copious amounts of storage.
+[P]A character with access to a fully loaded A-A5 add [BO] to her Survival checks.   </Description>
+  <Source Page="54">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Speeder Truck</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>8500</Price>
+  <Rarity>4</Rarity>
+  <MaxAltitude>5 meters</MaxAltitude>
+  <Crew>Onen Pilot</Crew>
+  <EncumbranceCapacity>40</EncumbranceCapacity>
+  <Passengers>5</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-1</Handling>
+  <HullTrauma>12</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

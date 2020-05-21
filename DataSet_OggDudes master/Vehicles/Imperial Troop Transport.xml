@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>IMPTROOPTRANS</Key>
+  <Name>Imperial Troop Transport</Name>
+  <Description>[H3]Imperial Troop Transport[h3]
+The Imperial Troop Transport, sometimes called the Recon Troop Transport, is a large, heavy-duty landspeeder used to move stormtroopers, prisoners, and supplies among planetside locations. Its design is blocky and unassuming, with six racks on the sides
+that stormtroopers can ride into battle, embarking and disembarking quickly. Doors toward the front of each side lead into the cab, which seats a pilot, co-pilot, and commanding officer; the rear of the ITT
+features a cargo com partm ent which can be used to house additional stormtroopers, cargo, or even prisoners. The roof of the transport can also be loaded with additional cargo.
+[P]The ITT is heavily armored, durably constructed, and dead simple in design—it is effectively a floating box with racks on the sides. Its heavy-duty repulsor engines keep it steady at 10-20 centimeters above ground, whether lightly occupied or fully packed, emitting a distinct hum at all times. Because of its large size and low ground clearance, the ITT cannot deal with adverse terrain as well as walkers or smaller speeders, but it can reach a brisk 150 kilometers per
+hour in the open.</Description>
+  <Source Page="59">Forged in Battle</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Armored Transport</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <Price>70000</Price>
+  <Rarity>4</Rarity>
+  <Restricted>true</Restricted>
+  <MaxAltitude>5 meters</MaxAltitude>
+  <Crew>One pilot, one co-pilot, one commander</Crew>
+  <EncumbranceCapacity>55</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>15</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>LASERLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

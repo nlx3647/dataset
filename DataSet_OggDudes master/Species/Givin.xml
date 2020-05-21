@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GIVIN</Key>
+  <Name>Givin</Name>
+  <Description>
+    [H4]Givin[h4]
+
+The Givin are the indigenous sentient species of the planet Yag'Dhul. They are best known for their natural mathematical ability which make them expert starship builders and astrogators. Other notable features of the Givin are their skeletal appearance, and their ability to survive in a vacuum.
+
+[P][B]Physiology:[b] Givin appear to be living humanoid skeletons, because of their hard, pale white "skin" and deep sunken black eyes. Though they have four- or five-fingered hands, they have three-toed feet. They carry their arms and legs "held out" from their bodies, making their appearance even more bizarre. Some liken their stance to Twi'lek string puppets.
+
+[P]Due to a complex system of moons that create atmospheric tidal upheavals on Yag'Dhul, the Givin evolved a hard exoskeleton that can seal all external orifices to protect against sudden depressurization and temperature changes. It also provides protection from physical harm. Thus, Givin have a phobia of exposed skin, and will avoid seeing it in others whenever possible. In order to maintain this sealed system, Givin need to eat approximately three times more than Humans of the same mass. Givin can easily survive in a total vacuum for a standard day.
+
+[P][B]Society:[b] Givin are highly intelligent, and have such a propensity for mathematics that their society is ruled over by a mathematical theocracy, or mathematocracy, with the greatest mathematicians serving in the ruling Body Calculus. Their mathematical skills are, like their sealed exoskeletons, adaptations to Yag'Dhul's complex tidal systems—their mathematics were developed to predict Yag'Dhul's randomly shifting oceans and atmosphere. The planetary governor of Yag'Dhul is decided by contests that involved calculations of complex multidimensional differentials, and all political decisions are based on null-modal probability.
+
+[P]They spent as much time designing their starships mathematically as it takes to build them, and so create some of the most impressive, complex, and sleek ships in the galaxy. Often, other species will need to modify a purchased Givin starship, installing a navicomputer or pressurization system which will often be left out as unnecessary by the Givin, who can survive in a vacuum and mentally calculate navigational vectors.
+
+[P][B]Homeworld:[b] Yag'Dhul is the home world of the Givin and capital of the Givin Domain. Small and barren, Yag'Duhl's three large moons produce tidal forces so extreme that often the planet's water and atmosphere are drawn to different parts of the planet, leaving the rest of the world in vacuum. The planet is at the intersection of the Rimma Trade Route and the Corellian Trade Spine, ensuring a heavy amount of traffic.
+
+[P][B]Language:[b] Givin language is the native language of the Givin species from planet Yag'Dhul.
+
+[P]Written Givin incorporates hundreds of mathematical symbols, requiring a great deal of calculus to be read.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>12</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>EDU</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>RESEARCH</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>GIVAB1</Key>
+      <Name>Vacuum</Name>
+      <Options>
+        <Option>
+          <Key>GIVAB1OP1</Key>
+          <Name>Sealed Exoskeleton</Name>
+          <Description>
+            Given are immune to the effects of vacuum or suffocation.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

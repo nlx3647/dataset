@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DTYPEFREIGHTER</Key>
+  <Name>D-Type Stealth Freighter</Name>
+  <Description>
+    [H3]D-Type Stealth Freighter[h3]
+
+Nubian vessels tend to be built to unusual specifications, and few are more unusual than the D-type. Most smugglers in the Corellian Sector tend towards faster, higher performance vessels. The D-type sacrifices all of these virtues in favor of stealth. 
+
+[P]Though it does not employ a true cloaking device, the D-type embraces some camouflaging aspects. Its slow, baffle-shielded engines limit it to a virtual crawl, but even at full power, their emissions are almost unnoticeable. The oddly-shaped hull distorts and absorbs most sensor radiation, scattering it harmlessly and blocking all but the most determined sensor probes. Nubian engineers even paint the hull in matte, light-absorbing black paint, so visual identification is more difficult. 
+
+[P]All this makes the D-type Stealth Freighter the perfect smuggling ship, save one aspect: like all Nubian Star Drives vessels, the D-type cannot be modified or tinkered with to any great degree. Each ship is designed to work entirely as the sum of its parts, or not at all. A buyer cannot "tweak" a Nubian Star Drives ship to his personal tastes, Instead, he must commission the company to build an entirely new vessel.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Price>200000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>25</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one engineer</Crew>
+  <EncumbranceCapacity>125</EncumbranceCapacity>
+  <Passengers>3</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-3</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>22</HullTrauma>
+  <SystemStrain>24</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

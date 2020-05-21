@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MANDAFANGFIGHTER</Key>
+  <Name>Mandalorian Protectorate "Fang" Starfighter</Name>
+  <Description>[H3]Mandalorian Protectorate "Fang" Starfighter[h3]
+A starfighter used by the Mandalorian Protectors, an elite group of warriors sworn to defend the Concord Dawn system, the Fang fighter is a formidable ship designed specifically for close combat. Featuring wings which pivot around the central cockpit, providing vector thrust control, the Fang is able to perform maneuvers few other fighters are capable of matching. The intimidating ship is armed with wing-mounted laser cannons and a proton torpedo launcher beneath the cockpit.
+[P]The legendary Fenn Rau personally trains all Protectorate fighter pilots, making the combination of pilot and vessel hard for anyone to match in battle.</Description>
+  <Source Page="62">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>175000</Price>
+  <Rarity>8</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>4</EncumbranceCapacity>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>6</Speed>
+  <Handling>3</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>WingMounted</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

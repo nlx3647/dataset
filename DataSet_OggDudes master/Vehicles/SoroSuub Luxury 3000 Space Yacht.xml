@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LUXURY3000</Key>
+  <Name>SoroSuub Luxury 3000 Space Yacht</Name>
+  <Description>
+      [H3]SoroSuub Luxury 3000 Space Yacht[h3]
+
+SoroSuub's popular space yacht is the final word in luxury VIP transportation. Each vessel is custom-built from the keel up to the specific needs of each owner. Every decision from the hyperdrive model to which rare hardwoods and precious metals to use as accents in The VIP suite are dictated by the owner and SoroSuub's expert ship system associates. This allows the ships to be outfitted for myriad uses from shuttling important government officials to mobile offices of powerful commercial concerns to extravagant party vessels. 
+
+[P]While each yacht is unique, with features and amenities as varied as the tastes of their myriad owners, there is some commonality among them. The ship's hull is long and narrow, with the command deck forward, offering a commanding view of surrounding space through its wraparound viewports. The passengers are carried in luxurious quarters abaft the command deck that contain a grand dining cabin, a single VIP suite, a recreation center, an observation deck, and a number of small, but well-appointed passenger cabins. Both the sublight and hyperdrive engines are housed in outboard nacelles located at the aft of the vessel.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Yacht</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>120000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>14</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One Pilot, One Co-Pilot/Engineer</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Consumables>One Months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>1</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

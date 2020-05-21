@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>PTOWER</Key>
+  <Name>P-Tower Light Anti-Vehicle Battery</Name>
+  <Description>[H3]1.4 FD P-Tower Light Anti-Vehicle Battery[h3]
+
+The 1.4 FD is a light anti-vehicle and anti-armor laser
+cannon battery first introduced during the opening
+years of the Clone Wars. Initially designed to counter
+medium and heavy armored repulsortanks, the 1.4 FD
+is turret-mounted, single barrel, and roughly twice as
+tall as an average human. Operated by a single gunner
+and maintained by three engineers or technicians,
+this weapon features a seriously outdated and notoriously
+inaccurate targeting computer and fire control
+system linked to a boxy, handheld remote firing unit.
+It has its own integral power generator and low-yield
+ray shield system, and it features a unique series of
+micropower capacitor-routers that store energy in a
+broad dish at the back of the weapon. It is typically
+operated remotely by the gunner while the gunner and
+the weapon’s technicians take cover behind a nearby
+fortification, as the weapon has a tendency to overload
+and burn or electrocute its users.
+[P]Due to its advanced age and a number of design
+peculiarities, the 1.4 FD suffers from a number of
+drawbacks that make it difficult to use effectively. It is
+relatively fragile and inaccurate, has a slow rate of fire,
+requires more than it’s fair share of maintenance and
+repair, and is generally unpleasant and often dangerous
+to operate. In addition, the weapon’s broad dish
+and tendency to glow brightly when fired make it an
+excellent target for enemy anti-battery fire. Despite
+these drawbacks, the 1.4 FD continues to be popular
+among Alliance leadership and quartermasters due
+to its low purchase price and ubiquity, and the fact
+that purchasing these obsolete weapons, even in bulk,
+draws very little attention from the Empire.</Description>
+  <Source Page="46">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Field Equipment</Type>
+  <Categories />
+  <Price>4000</Price>
+  <Rarity>2</Rarity>
+  <WeaponModifiers>
+    <WeaponModifier>
+      <UnarmedName>1.4 FD Anti-Vehicle Battery</UnarmedName>
+      <SkillKey>GUNN</SkillKey>
+      <Damage>4</Damage>
+      <Crit>4</Crit>
+      <Qualities>
+        <Quality>
+          <Key>BREACH</Key>
+          <Count>1</Count>
+        </Quality>
+        <Quality>
+          <Key>INACCURATE</Key>
+          <Count>2</Count>
+        </Quality>
+        <Quality>
+          <Key>SLOWFIRING</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <VehicleWeaponProperties>
+        <FiringArcs>
+          <Fore>true</Fore>
+          <Aft>true</Aft>
+          <Port>true</Port>
+          <Starboard>true</Starboard>
+        </FiringArcs>
+      </VehicleWeaponProperties>
+      <VehicleWeaponCount>1</VehicleWeaponCount>
+      <RangeValue>wrClose</RangeValue>
+      <Range>Close</Range>
+    </WeaponModifier>
+  </WeaponModifiers>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One remote gunner</Crew>
+  <Silhouette>1</Silhouette>
+  <DefFore>1</DefFore>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

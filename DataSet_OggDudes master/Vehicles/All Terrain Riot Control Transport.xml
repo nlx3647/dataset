@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATRIOT</Key>
+  <Name>All Terrain Riot Control Transport</Name>
+  <Description>[H3]All Terrain Riot Control Transport[h3]
+
+First introduced in 19 BBY, the AT-RCT is a small, two-man, open-topped walker used by Imperial police forces as a crowd control and anti-riot vehicle. Twice as tall as a man, the AT-RCT is a fast, heavily armored walker based on the AT-RT reconnaissance walker used by the Grand Army of the Republic. These agile all-terrain walkers can maneuver quickly and easily through urban environments and thanks to a specially designed gyro-stabilization system, they can traverse broken ground and barricades with remarkable ease. The light durasteel armor that protects the walkers' delicate inner workings is designed with numerous slopes and .complex angles to deflect incoming ordnance and blaster fire. These walkers mount a twin linked blaster cannon in the front of the hull, and two sets of twin linked suppression cannons on articulated arms mounted to the port and starboard sides. Although they are mainly used by Imperial police forces, many planetary and system governments field a handful of these powerful walkers to keep their citizens in line.</Description>
+  <Source>Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>35000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <Crew>One pilot, one co-pilot/gunner</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Armor>3</Armor>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>SUPPRESSCANNON</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Key>SUPPRESSCANNON</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

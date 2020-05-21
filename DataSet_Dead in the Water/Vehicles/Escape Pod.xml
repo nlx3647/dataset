@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ESCAPEPOD</Key>
+  <Name>Escape Pod</Name>
+  <Description>[H3]Escape Pod[h3]
+Please see page 14 of the Dead in the Water Adventure Module (from the Age of Rebellion Game Master's Kit) for details.</Description>
+  <Source>Dead in the Water</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Escape Pod</Type>
+  <Categories />
+  <Encumbrance>0</Encumbrance>
+  <HP>1</HP>
+  <Price>5000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <MaxAltitude />
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRange>None</SensorRange>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Passengers>5</Passengers>
+  <Consumables>Two weeks</Consumables>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>1</Armor>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>false</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons />
+</Vehicle>

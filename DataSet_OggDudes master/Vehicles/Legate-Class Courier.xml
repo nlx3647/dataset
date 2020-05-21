@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LEGATECOUR</Key>
+  <Name>Legate-Class Courier</Name>
+  <Description>[H3]Sienar Fleet Systems [I]Legate[i]-Class Courier[h3]
+The [I]Legate[i]-Class is Sienar Fleet System's latest entry in the courier ship market. Based on SFS's popular Skipray-class hull, the [I]Legate[i]-Class is a medium courier ship designed to carry passengers and medium-sized parcels over long distances. Thanks to their combat ship lineage, [I]Legates[i] are fast, well-built, sturdy vessels that can take a surprising amount of abuse. They have a small crew—only a pilot and co-pilot—and a modular hold that can be configured to carry a small amount of cargo and two human-sized passengers in a solid degree of comfort.
+[P]Like the [I]Skipray[i]-class, from which it is descended, the [I]Legat[i]-class features a sleek forward hull section with stubby, sponson-like wings port and starboard. The ship's aft section is dominated by a small SFS Mk. IX Bantam lightweight ship reactor powering two X.a-14 fusial thrust engines mounted in port and starboard nacelles. Long, thin vertical stabilizers extend from the ventral and dorsal surfaces of the reactor housing reminiscent of the [I]Skipray's[i] cruciform aft S-foil configuration. For self-defense, each mounts a pair of light laser cannons in a fixed mount under the nose and a pair of light ion cannons in a dorsal turret, giving the ship a respectable punch and allowing it to fight off all but the most dedicated attackers.
+[P]Although it has only been on the market for a few years, the [I]Legate[i]-class courier has already proven itself a rugged and reliable ship. Crews report that it is a dream to fly and is easy to maintain, with good support from SFS. Some have also stated that fitting systems from the [I]Skipray[i]-class, such as engines, weapons systems, and shield generators, is surprisingly easy. Indeed of the wiring and many fittings for the military systems are still intact behind the courier's deck, walls, and bulkheads.</Description>
+  <Source Page="62">Endless Vigil</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Courier</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>65000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>8</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>15</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>13</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

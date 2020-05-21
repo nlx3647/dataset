@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SHIST</Key>
+  <Name>Shistavanen</Name>
+  <Description>[H4]Shistavanen[h4]
+
+The Shistavanens, colloquially nicknamed wolfmen for their lupine appearance, are a biped species from the planets of the Uvena system, such as Uvena Prime and Uvena III.
+
+[P][B]Physiology:[b] Like most canine-based species, Shistavanens have pronounced muzzles, sharp claws, long pointed teeth, and pointed ears set on top of their heads. Shistavanens also possess large glowing eyes, and can also run at high speed for long periods without getting tired, alternately using two or four legs. As expected for a species of hunters, they have a keen sense of hearing, keen sense of smell, and excellent night vision.
+
+[P][B]Society:[b] As a species, the Shistavanens are isolationists. This is evident by the species colonizing all the unpopulated worlds in the Uvena system to prevent them from being settled by non-Shistavanen settlers, their restrictive trade laws (which were unapologetic in how they favored their own kind over off-world traders), and from the fact that they do not mix with non-Shistavanens much. Most of their society uses technology similar to the rest of the galaxy, though some parts of Uvena Prime use slightly less sophisticated technology.
+
+[P]A minority of Shistavanens are more outgoing, and travel the galaxy's hyperlanes. Even these Shistavanens usually remain by themselves or with other Shistavanens. Due to their natural predatory instincts, keen sense of hearing, excellent eyesight and sharp sense of smell, Shistavanens find common employment as scouts, mercenaries and bounty hunters. Many non-Shistavanens react badly to Shistavanens, since their isolationist culture makes them an unfamiliar sight, and their predatory appearance puts many other species on edge.
+
+[P][B]Homeworld:[b] Uvena Prime, or Uvena I, is the home planet of the Shistavanens in the Uvena system. The species, capable of hyperspace-level technology, emigrated to other uninhabited worlds of the system, including Uvena III, to prevent strangers from outlying systems from arriving and settling them.
+
+[P][B]Language:[b] Shistavanen is the native language of the Shistavanen species from Uvena Prime. This language is mainly formed by growls and barks.
+
+[P]Since the time of the Galactic Empire, most Shistavanen have been fluent in both Shistavanen and Basic, although they are only literate in their own language.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>VIGIL</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>SHISTCH1</Key>
+      <Name>Vision</Name>
+      <Options>
+        <Option>
+          <Key>SHISTCH1OP1</Key>
+          <Name>Night Vision</Name>
+          <Description>Shistavanens may remove a [SETBACK] imposed by concealment that is caused by darkness.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>SHISTCH2</Key>
+      <Name>Skill</Name>
+      <Options>
+        <Option>
+          <Key>SHISTCH2OP1</Key>
+          <Name>Uncanny Tracker</Name>
+          <Description>Shistavanens always treat Survival as being a career skill, regardless of their starting career.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>SURV</Key>
+              <isCareer>true</isCareer>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

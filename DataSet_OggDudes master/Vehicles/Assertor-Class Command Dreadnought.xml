@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ASSERTOR</Key>
+  <Name>Assertor-Class Command Dreadnought</Name>
+  <Description>[H3][I]Assertor[i]-Class Command Dreadnought[h3]
+Second only to the massive Executor-class dreadnought
+in size and power, the Assertor-class dreadnought is
+a powerful, imposing warship optimized for fleet and
+Sector Command duties. It is the largest vessel in a
+family of Imperial Navy dreadnoughts that includes
+the Mandator- and Bellator-class ships. The Assertor
+class has a long, thin, arrowhead-shaped hull with a
+broad ridge running from just forward of the tapering
+fantail, which overhangs the primary ion drives, roughly
+three-quarters along the dorsal face of the ship. Both
+the dorsal and ventral surfaces are crowded with laser,
+ion, and turbolaser batteries, providing each vessel of
+the Assertor class nearly enough firepower to destroy
+an entire planet. A combination command vessel and
+powerful mobile weapons platform, the Assertor is
+designed with an eye toward conventional fleet operations
+and Sector Command duties. To this end, it is
+equipped with a number of sophisticated communications
+and sensor suites, and it features command and
+control systems that allow its Commander a nearly
+unparalleled view of the battlefield.
+[P]Both the lead ship, Assertor, and her sister ship
+Wrath were laid down at Kuat Drive Yards some time
+before the Battle of Yavin. Both ships are currently
+deployed with large battle groups to provide support
+for anti-Alliance operations along the border between
+the Outer Rim and Mid Rim territories. The exact composition
+of these battle groups is currently unknown,
+but it can be assumed that Assertor and Wrath are
+traveling with dozens of other ships, including smaller
+dreadnoughts, Imperial I - class and Imperial II- class
+vessels, various cruiser-sized vessels, and numerous
+support ships.</Description>
+  <Source Page="56">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Dreadnought</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>1100000000</Price>
+  <Rarity>10</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Inspiring Presense 3[b]: When this starship is engaged with the enemy, all allies gain [BO][BO][BO] to any Cool or Discipline checks to resist fear caused by combat.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <StarFighters>120 starfighters, numerous shuttles, ground, air, and space combat vehicles, and AT-series walkers</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>20,000 troops and support staff</Crew>
+  <EncumbranceCapacity>145000</EncumbranceCapacity>
+  <Passengers>20000</Passengers>
+  <Consumables>Three years</Consumables>
+  <Silhouette>9</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <DefFore>4</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>3</DefPort>
+  <DefStarboard>3</DefStarboard>
+  <Armor>13</Armor>
+  <HullTrauma>205</HullTrauma>
+  <SystemStrain>105</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>3</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOHVY</Key>
+      <Count>20</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOHVY</Key>
+      <Count>20</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONBATT</Key>
+      <Count>15</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONBATT</Key>
+      <Count>15</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOHVY</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONBATT</Key>
+      <Count>20</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Key>IONMED</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Key>IONMED</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Forward</Location>
+      <Key>LASERQUAD</Key>
+      <Count>20</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>LASERQUAD</Key>
+      <Count>20</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Key>LASERQUAD</Key>
+      <Count>20</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>CML</Key>
+      <Count>30</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>CML</Key>
+      <Count>30</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>CML</Key>
+      <Count>30</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Key>TRACTHVY</Key>
+      <Count>20</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

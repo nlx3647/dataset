@@ -1,0 +1,220 @@
+﻿<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HUMANMANDO</Key>
+  <Name>Mandalorian Human</Name>
+  <Description>[H4]Mandalorian Human[h4]
+The planet Mandalore has been ravaged by
+centuries of war. The major population centres
+have relocated into huge domed cities, with the
+Capital City of Sundari being the largest.
+[P]
+Near the end of the Clone Wars a civil war
+rocked Mandalore. The Death Watch Clan,
+seeking a return to Mandalore's martial past
+allied itself with the Sith Lord Darth Maul and
+several criminal groups. Their plan left Sundari
+in flames, with desperate pleas to the Republic
+for aid. Republic forces eventually returned
+Mandalore to normality, by way of a large
+permanent garrison. After the formation of the
+Empire, Mandalore was under de-facto Imperial
+control, with the Imperial Academy often
+proving to be an option of last resort to
+disaffected Mandalorian youths, now finding
+the opportunity to channel their martial
+heritage in an official capacity. For some cadets
+however, this introduction to the Imperial
+regime was eye-opening enough to catapult
+them into a life of insurrection and rebellion.
+[P][B]Physiology:[b] Though Mandalorians can be as
+varied in appearance as any other human they
+tend to be slim, fair haired and fair skinned,
+with sharp, angular features.
+[P][B]Society:[b] The warrior past of Mandalore has
+given rise to two distinct philosophies in
+Mandalorian society: the pacifist New
+Mandalorians and the various scattered
+warrior clans and factions that still live by the
+martial traditions of their ancestors. Player
+characters are most likely to be from the
+Mandalorian diaspora, although they could
+also be graduates or AWOL from the
+Mandalorian Imperial Academy.
+[P][B]Homeworld:[b] The two largest and original
+centres of Mandalorian society are the planet
+of Mandalore itself and its largest moon Concordia, which was the home of the exiled
+followers of the old ways, such as the warrior
+clan Death Watch. During the Imperial Era a
+commonly heard Mandalorian phrase was
+“Home is where my armor is”.
+[P][B]Language:[b] There are a variety of old
+Mandalorian dialects, and many Mandalorians
+have a talent for languages. The common
+language on Mandalore itself is Galactic Basic,
+although many traditionalists still speak
+Mando’a, and will often use this between
+themselves if they want a conversation to
+remain discreet.
+[P]
+[B]Life Choices:[b] Most Mandalorians encountered
+on the fringe will be warriors of some
+description, often Bounty Hunters of Hired
+Guns. Those characters originating from
+Mandalore itself could be Colonists looking for
+a better life or Explorers seeking new trade
+opportunities.
+</Description>
+  <Source>Spark of Rebellion</Source>
+  <Sources />
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+    <Requirement>
+      <WearingArmor>false</WearingArmor>
+      <Career>false</Career>
+      <Specialization>false</Specialization>
+      <NonCareer>false</NonCareer>
+      <SoakAtLeast>0</SoakAtLeast>
+      <WieldingMelee>false</WieldingMelee>
+      <WieldingBrawl>false</WieldingBrawl>
+      <WieldingLightsaber>false</WieldingLightsaber>
+    </Requirement>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <DefenseRanged>0</DefenseRanged>
+    <DefenseMelee>0</DefenseMelee>
+    <SoakValue>0</SoakValue>
+    <Experience>100</Experience>
+    <ForceRating>0</ForceRating>
+    <Requirement>
+      <WearingArmor>false</WearingArmor>
+      <Career>false</Career>
+      <Specialization>false</Specialization>
+      <NonCareer>false</NonCareer>
+      <SoakAtLeast>0</SoakAtLeast>
+      <WieldingMelee>false</WieldingMelee>
+      <WieldingBrawl>false</WieldingBrawl>
+      <WieldingLightsaber>false</WieldingLightsaber>
+    </Requirement>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>RANGLT</Key>
+      <SubSpeciesKey />
+      <RankStart>1</RankStart>
+      <RankAdd>0</RankAdd>
+      <RankLimit>0</RankLimit>
+      <isCareer>false</isCareer>
+      <SkillType />
+      <Requirement>
+        <WearingArmor>false</WearingArmor>
+        <Career>false</Career>
+        <Specialization>false</Specialization>
+        <NonCareer>false</NonCareer>
+        <SoakAtLeast>0</SoakAtLeast>
+        <WieldingMelee>false</WieldingMelee>
+        <WieldingBrawl>false</WieldingBrawl>
+        <WieldingLightsaber>false</WieldingLightsaber>
+      </Requirement>
+    </SkillModifier>
+    <SkillModifier>
+      <Key>WARF</Key>
+      <SubSpeciesKey />
+      <RankStart>1</RankStart>
+      <RankAdd>0</RankAdd>
+      <RankLimit>0</RankLimit>
+      <isCareer>false</isCareer>
+      <SkillType />
+      <Requirement>
+        <WearingArmor>false</WearingArmor>
+        <Career>false</Career>
+        <Specialization>false</Specialization>
+        <NonCareer>false</NonCareer>
+        <SoakAtLeast>0</SoakAtLeast>
+        <WieldingMelee>false</WieldingMelee>
+        <WieldingBrawl>false</WieldingBrawl>
+        <WieldingLightsaber>false</WieldingLightsaber>
+      </Requirement>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>HUMANMANDOCH1</Key>
+      <Name>Special Abilities</Name>
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Options>
+        <Option>
+          <Key>HUMANMANDOCH1OP1</Key>
+          <Name>Mandalorian Legacy</Name>
+          <Description>Any gear of Mandalorian origin (e.g. ,
+Mandalorian Armor, Westar-35 blaster pistol)
+is counted as 2 rarity levels lower (to a
+minimum of 1 ) and 25% cheaper for a starting
+Mandalorian character. 
+[P]Mandalorian gear is
+never classed as Restricted to a Mandalorian
+character.</Description>
+          <Source />
+          <Sources />
+          <Custom>Base</Custom>
+          <StartingChars>
+            <Brawn>1</Brawn>
+            <Agility>1</Agility>
+            <Intellect>1</Intellect>
+            <Cunning>1</Cunning>
+            <Willpower>1</Willpower>
+            <Presence>1</Presence>
+            <Requirement>
+              <WearingArmor>false</WearingArmor>
+              <Career>false</Career>
+              <Specialization>false</Specialization>
+              <NonCareer>false</NonCareer>
+              <SoakAtLeast>0</SoakAtLeast>
+              <WieldingMelee>false</WieldingMelee>
+              <WieldingBrawl>false</WieldingBrawl>
+              <WieldingLightsaber>false</WieldingLightsaber>
+            </Requirement>
+          </StartingChars>
+          <StartingAttributes>
+            <WoundThreshold>0</WoundThreshold>
+            <StrainThreshold>0</StrainThreshold>
+            <DefenseRanged>0</DefenseRanged>
+            <DefenseMelee>0</DefenseMelee>
+            <SoakValue>0</SoakValue>
+            <Experience>0</Experience>
+            <ForceRating>0</ForceRating>
+            <Requirement>
+              <WearingArmor>false</WearingArmor>
+              <Career>false</Career>
+              <Specialization>false</Specialization>
+              <NonCareer>false</NonCareer>
+              <SoakAtLeast>0</SoakAtLeast>
+              <WieldingMelee>false</WieldingMelee>
+              <WieldingBrawl>false</WieldingBrawl>
+              <WieldingLightsaber>false</WieldingLightsaber>
+            </Requirement>
+          </StartingAttributes>
+          <StartingSkillTraining />
+          <SkillModifiers />
+          <TalentModifiers />
+          <DieModifiers />
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers />
+  <SubSpeciesList />
+  <CyberneticsAdjust>0</CyberneticsAdjust>
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>

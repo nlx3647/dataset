@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>M3ASCYK</Key>
+  <Name>M3-A Scyk Interceptor</Name>
+  <Description>[H3]MandalMotors M3-A Scyk Interceptor[h3]
+
+A small, fleet interceptor manufactured by MandalMotors, the M3-A is named after a swift, vicious lizard native to Tatooine. Lightly armored and powered by a single Koensayr R303 Ion Jet Engine, the Scyk is fast and maneuverable. Its compact design allows for the fighter to be fitted with just a single modular weapon system, which can be swapped out relatively easily, though this may limit the Scyk's role depending on its load. While an excellent interceptor, the M3-A has limited weaponry and light armor, which make it a poor choice for assaults on more heavily armored targets.
+
+[P][I]Note: The M3-A has been given an extra hard point in order to add any one of the listed modular weapon systems.[i]</Description>
+  <Source>Lords of Nal Hutta</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>55000</Price>
+  <Rarity>4</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>4</EncumbranceCapacity>
+  <Consumables>Two Days</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>2</Handling>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

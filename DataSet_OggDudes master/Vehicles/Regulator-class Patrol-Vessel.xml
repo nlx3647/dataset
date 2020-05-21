@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>REGULATOR</Key>
+  <Name>Regulator-class Patrol-Vessel</Name>
+  <Description>[H3]Regulator-class Patrol-Vessel[h3]
+
+Sienar Fleet Systems' Regulator-class patrol vessels have been a staple of intersystem law enforcement across the galaxy for decades. First introduced during the Clone Wars, the Regulator-class was designed as a high-performance pursuit craft and heavy interceptor with an eye toward policing and customs enforcement. Regulator-class ships are small for patrol boats, with an aggressively styled hull, oversized engines, and weapons systems slightly out of scale for such a small craft. Dedicated in-system craft, the short-legged Regulators have no hyperdrives and carry little in the way of provisions. Their interiors are incredibly cramped, with most of the space given over to the power, drive, flight, and weapon systems. Aside from the bare minimum facilities required to support their two man crew, Regulators also have a prisoner lockup that can hold up to six individuals in safety if not in comfort.</Description>
+  <Source>Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Patrol Boat</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>110000</Price>
+  <Rarity>6</Rarity>
+  <Crew>One pilot, one co-pilot/engineer</Crew>
+  <Passengers>6</Passengers>
+  <Consumables>Seven days</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>14</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERQUAD</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

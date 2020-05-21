@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>PATHSCOUTCIV</Key>
+  <Name>Civilian Pathfinder Scout Ship</Name>
+  <Description>
+    [H3]Civilian Pathfinder Scout Ship[h3]
+
+When released during the final years of the Old Republic, Vangaard Industries' Pathfinder-dass scout ship was considered on the bleeding edge of starship techhology. A Iong, narrow vessel with a sharply pointed bow, steeply raked, aft-mounted stabilizers, and a planform like an arrow, the Pathfinder was designed as a long-range scout and courier vessel. The Pathfinder-class reputation as a high-tech ship comes from both its advanced, sensor suite and the fact that it was one of the first mass-produced vessels of its size to feature hyperspace capabilities. Essentially oversized starfighters, Pathfinder scout ships carry two sentients seated abreast in a small, cramped, but well-laid-out cockpit. Directly abaft the cockpit is a small area with a refresher, a bunk, and a small storage area for ship's provisions and emergency supplies. Everything abaft the cockpit and rest area is packed with sophisticated long-range sensors, shield generators, and the powerful twin drive engines. 
+[P]Lightly armed and armored, Pathfinders have defensive armament comprising a single turret-mounted light laser cannon atop the hull just abaft of the cockpit. The shield generators are unique to the ship class, and the armor is typical for a light scout. vessel. At the time of their Introduction, Pathfinders were considered among the fastest scout vessels on the market, among other accolades. Their speed, handling, and powerful sensor suite, while relatively commonplace today, help maintain these tiny ships' popularity and drive their sales all these decades after their release.</Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Scout Ship</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>45000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>45</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>16</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

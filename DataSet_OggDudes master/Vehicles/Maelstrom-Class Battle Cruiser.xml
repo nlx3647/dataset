@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MAELSTROM</Key>
+  <Name>Maelstrom-Class Battle Cruiser</Name>
+  <Description>[H3][I]Maelstrom[i] -Class Battle Cruiser[h3]
+The Maelstrom-class battle cruiser belongs to the
+family of dagger-shaped proto-Star Destroyers,
+such as the Venator and Acclamator classes, used by
+the Republic Navy at the outset of the Clone Wars.
+Designed as much to inspire awe in allies and dread in
+enemies as to fight, these massive and imposing vessels
+have a long, thin, and heavily armored cranked
+delta hull and graceful twin command suites positioned
+aft over the main drives. At the time of their introduction,
+the Maelstroms were the largest, and arguably
+most impressive, vessels in the Republic Navy. Armed
+to the teeth and heavily armored, they were optimized
+for fleet command duties, with additional fleet carrier
+and planetary siege capabilities. They carried an
+entire wing of starfighters—1 20 ships and their attendant
+support staff and facilities—and a full army of
+clones with weapons, vehicles, and assorted gear, and
+they were equipped with sophisticated command and
+control systems that granted the ship’s Commander a
+near-limitless view of the theater of command.
+[P]Along with their impressive complement of starfighters
+and ground forces, the Maelstroms carry a staggering
+amount of firepower to operate in their planetary
+bombardment role. They mount various multibarrel
+turbolaser batteries in both broadside turrets and
+fixed forward emplacements. Smaller, lighter weapons
+and torpedo launchers provide anti-starfighter and
+anti-gunboat fire for those small ships that slip through
+the Maelstrom's prodigious fighter screen. The showpiece
+of the vessel’s armament, however, is its array
+of heavy assault concussion missile launchers, used for
+planetary bombardment and anti-space station operations.
+With their thick armor and powerful shields, the
+Maelstrom-class ships were incredibly tough nuts to
+crack, and they fulfilled their roles very well.
+[P]Unfortunately, for the Maelstrom-class ships and their
+crews, at least, these vessels proved unpopular and
+were phased out of use soon after their introduction. By
+that time, the Clone Wars had entered their final phase.
+Newer, faster ships were coming out of KDY, including
+the innovative Victory-class vessels, and the Maelstroms
+were never really deployed in their intended
+roles. They required a massive amount of resources to
+keep running and were generally seen as too expensive
+to operate, despite their vast power. Maelstrom,
+the lead ship of the class, served with distinction at the
+Battle of Kromus and the Battle of Cularin under the
+command of Jedi general Darrus Jeht, but most of the
+others never saw combat. Eventually, with the end of
+the Clone Wars and the rise of the Empire, bringing with
+it a reorganization of the Navy, the Maelstroms remaining
+in service were either broken up, used as technology
+test beds, or laid up in mothballs. A handful of these
+mothballed ships still exist, and at least one of them,
+a scarred old warhorse named Simoom, has found a
+home in the Alliance Navy.</Description>
+  <Source Page="57">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Battlecruiser</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>158000000</Price>
+  <Rarity>8</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Inspiring Presence 2[b]: When this ship is engaged with the enemy, all allies gain [BO][BO] to any Cool or Discipline checks to resist fear caused by combat.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <StarFighters>96 starfighters, numerous shuttles and military craft</StarFighters>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>45,000 officers, pilots, and enlisted crew</Crew>
+  <EncumbranceCapacity>12500</EncumbranceCapacity>
+  <Passengers>15000</Passengers>
+  <Consumables>Two years</Consumables>
+  <Silhouette>8</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <DefFore>3</DefFore>
+  <DefAft>3</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>8</Armor>
+  <HullTrauma>125</HullTrauma>
+  <SystemStrain>65</SystemStrain>
+  <Massive>2</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOHVY</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOHVY</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONBATT</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>IONMED</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>IONMED</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>PTL</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>PTL</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>PTL</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Retractable>true</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>ACML</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Key>TRACTMED</Key>
+      <Count>20</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Key>TRACTHVY</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

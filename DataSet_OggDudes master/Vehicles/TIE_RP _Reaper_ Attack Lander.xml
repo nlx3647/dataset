@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIERP</Key>
+  <Name>TIE/RP "Reaper" Attack Lander</Name>
+  <Description>[H3]TIE/RP "Reaper" Attack Lander[h3]
+The TIE/rp "Reaper" attack lander is easily recognizable for its trademark Sienar solar collectors, while its hull presents a marked departure from other craft in the TIE line. Forward angled collector panels serve the same aerodynamic function as those on the TIE/sk striker and, in fact, TIE strikers often serve as escorts for a Reaper during atmospheric insertions. Unlike the TIE/sk, the TIE/rp functions equally well in atmosphere and vacuum. Reapers primarily serve as transports for the Empire's elite troops, delivering them into the thick of combat, from amphibious planetary landings to deep-space boarding actions. Despite the menacing appearance of its blade-like solar collectors and coffin-like hull, the Reaper likely earned its unofficial moniker from its association with the Empire's infamous Death Troopers.
+[P]In accordance with its primary role, the craft sports considerably better defenses than others in the TIE line.
+[P]The TIE Reaper's advanced comm systems and powerful scanners are equally effective in relaying orders and monitoring a battle's progress, allowing it to fulfill a secondary function as a mobile command bunker. When it is used in this capacity, a Reaper's passenger complement might serve as bodyguards for an officer.</Description>
+  <Source Page="59">Knights of Fate</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>100000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Electronic Countermeasures:[b] The TIE Reaper's sophisticated comm systems add [BO][BO] to checks to spoof missiles or jam enemy communications. In addition, upgrade the difficulty of Computers checks to bypass a TIE Reaper's jamming once.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, one comms operator.</Crew>
+  <EncumbranceCapacity>30</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Consumables>Two weeks.</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

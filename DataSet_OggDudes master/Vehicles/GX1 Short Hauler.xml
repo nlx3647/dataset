@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GX1HAULER</Key>
+  <Name>GX1 Short Hauler</Name>
+  <Description>[H3]GX1 Short Hauler[h3]
+
+Originally designed by Lantillian ShipWrights as an affordable yet luxurious pleasure craft, the GX1 is easily converted into an excellent short hauler by removing most of its guest rooms and amenities to make way for additional cargo holds. The GX1 never met its sales forecasts, but the vessel's solid engineering and reliability make it attractive to free traders and smugglers on a budget. Though equipped with adequate shields and armaments, most owners living on the fringe opt to upgrade the ship's weaponry for added defense against pirates and other dangers.</Description>
+  <Source>Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>85000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/engineer, two stewards/cargo hands</Crew>
+  <EncumbranceCapacity>200</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>24</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

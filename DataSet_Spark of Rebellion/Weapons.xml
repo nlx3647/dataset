@@ -1,0 +1,1485 @@
+<?xml version="1.0"?>
+<Weapons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapon>
+    <Key>DLT18LASERRIFLE</Key>
+    <Name>DLT-18 Laser Rifle</Name>
+    <Description>[H3]DLT-18 Laser Rifle[h3]
+The DLT-1 8 were manufactured by BlasTech
+industries, but never saw as wide a distribution
+as many of their other rifles due to their weight
+and length, which made them difficult to carry
+comfortably. Due to these drawbacks, they
+were more commonly seen in use by combat
+droids, or the more physically imposing
+sentient species, such as Houks or
+Trandoshans.</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster</Category>
+      <Category>Blaster Rifle</Category>
+      <Category>Rifle</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Encumbrance>5</Encumbrance>
+    <HP>4</HP>
+    <Price>1100</Price>
+    <Rarity>5</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <WeaponModifiers />
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>10</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Long</Range>
+    <Ordnance>false</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>CUMBERSOME</Key>
+        <Count>2</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>STUNSETTING</Key>
+        <Count>0</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>AB75BORIFLERMODE</Key>
+    <Name>AB-75 Bo-Rifle (Rifle Mode)</Name>
+    <Description>[H3]AB-75 Bo-Rifle (Rifle Mode)[h3]
+The Bo-rifle is a weapon unique to the people of
+Lasan and rare even for them. They were granted
+to the Lasan Honor Guard upon completion of
+their apprenticeship and each one is personal to
+it’s owner. With the destruction of Lasan a few of
+these weapons have leaked out onto the black
+market, but they are extremely rare. Prized now
+by collectors, carrying one openly will cause
+great anger and offense to any surviving Lasat,
+who will view such a display as open disrespect
+for his lost people.
+[P]
+The user may use a maneuver to switch the Bo-
+Rifle from rifle to electrostaff mode. When in staff
+mode, the weapon requires two hands to wield.
+[P]
+Manufactured by Lasan-Malamut Firearms
+Corporation, under exclusive contract to the
+Lasan Honor Guard.</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster Rifle</Category>
+      <Category>Blaster</Category>
+      <Category>Rifle</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>3</HP>
+    <Price>5000</Price>
+    <Rarity>9</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>The user may use a maneuver to switch the Bo-Rifle from rifle to electrostaff mode. When in staff mode, the weapon requires two hands to wield.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers />
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>9</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Medium</Range>
+    <Ordnance>false</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>INACCURATE</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>STUNSETTING</Key>
+        <Count>0</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>CM14SHELL</Key>
+    <Name>CM-14 Concussive</Name>
+    <Description>[H3]CM-14 Concussive[h3]
+</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories />
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>500</Price>
+    <Rarity>5</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <WeaponModifiers />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>5</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Short</Range>
+    <Ordnance>true</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>3</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>3</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>GUIDED</Key>
+        <Count>3</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>SM08SHELL</Key>
+    <Name>SM-08 Cluster Shells</Name>
+    <Description>[H3]CM-14 Concussive[h3]
+</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories />
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>650</Price>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <WeaponModifiers />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>5</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Close</Range>
+    <Ordnance>true</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>ACCURATE</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>GUIDED</Key>
+        <Count>4</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>TS31SHELL</Key>
+    <Name>TS-31 "Pacifier" Ion Shell</Name>
+    <Description>[H3]CM-14 Concussive[h3]
+</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories />
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>700</Price>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <WeaponModifiers />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>5</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Short</Range>
+    <Ordnance>true</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>4</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>2</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>GUIDED</Key>
+        <Count>2</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>ION</Key>
+        <Count>0</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>XX23TRACER</Key>
+    <Name>XX-23 S-Threat Tracer</Name>
+    <Description>[H3]CM-14 Concussive[h3]
+This projectile is one of the options that can be
+launched by the SFS Missile Launcher. On a
+successful hit the tracer attaches itself to the
+target and activates. The firing vessel, or allied
+vessel with the correct frequency, can now track
+the ship anywhere within a sector with an [B]Easy
+([DI]) Computers check[b], or while either ship is in
+hyperspace as an [B]Average ([DI][DI]) Computers
+check[b]. Anyone else trying to detect, locate and
+track the ship must identify this frequency, which
+requires a [B]Hard ([DI][DI][DI]) Computers check[b].</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories />
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>1000</Price>
+    <Rarity>7</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>The firing vessel, or allied vessel with the correct frequency, can track the hit ship anywhere within a sector using an [B]Easy ([DI]) Computers check[b], or while a ship is in hyperspace an [B]Average ([DI][DI]) Computers check[b].
+[P]
+Anyone else trying to detect, locate and track the ship must identify this frequency, which requires a [B]Hard ([DI][DI][DI]) Computers check[b].</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>0</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Short</Range>
+    <Ordnance>true</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>V2SHELL</Key>
+    <Name>V-2 Decoy shell</Name>
+    <Description>[H3]CM-14 Concussive[h3]
+</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories />
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>500</Price>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>See Decoy details on page 61 of Dangerous Covenants.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>0</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Short</Range>
+    <Ordnance>true</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities />
+  </Weapon>
+  <Weapon>
+    <Key>G02SHELL</Key>
+    <Name>G0-2 Jammer shell</Name>
+    <Description>[H3]CM-14 Concussive[h3]
+</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories />
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>400</Price>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>See Jammer details on page 61 of Dangerous Covenants.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>0</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Short</Range>
+    <Ordnance>true</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities />
+  </Weapon>
+  <Weapon>
+    <Key>DETONITECAN</Key>
+    <Name>Can of Liquid Detonite (10 Charges)</Name>
+    <Description>[H3]Can of Liquid Detonite (10 Charges)[h3]
+Note: This item has no crit rating since explosive devices cannot cause critical hits.
+[P]
+Through a delicate chemical process, a
+particularly creative demolitions expert has
+perfected a method of turning detonite into a liquid form that can be dispensed from an
+aerosol can. While the process reduces the
+volatility of the explosive, the liquid form allows
+for fast and discreet deployment. A small trigger
+mechanism is required to set off the explosion.
+These mechanisms can simply be placed on the
+surface where the liquid has been applied and
+can usually be activated by timer or remote
+detonation. [P]Once applied, the liquid detonite
+may not be readily identifiable as a form of
+explosive, requiring an [B]Average ([DI][DI])
+Knowledge (Warfare)[b] check to be noticed as
+such.</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Explosives/Other</Type>
+    <Categories />
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Price>350</Price>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <WeaponModifiers />
+    <SkillKey>MECH</SkillKey>
+    <Damage>10</Damage>
+    <DamageAdd>6</DamageAdd>
+    <Crit>0</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Short</Range>
+    <Ordnance>false</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BLURRGDUAL</Key>
+    <Name>Blurrg-1120 Holdout Blaster (Dual Fire Mode)</Name>
+    <Description>[H3]Blurrg-1120 Holdout Blaster (Dual Fire Mode)[h3]
+Eiriss Ryloth Defence Tech manufactured many
+of the weapons utilised by the freedom fighters
+of Ryloth during the Clone Wars. Proudly
+carrying this maverick legacy forward, their
+guns are often seen as a symbol of resistance
+unto themselves. Being a holdout blaster it
+adds [SE] to a character’s perception check to
+find the weapon on a person’s body.
+[P]
+The Blurrg-1 1 20 is named after a large Ryloth
+reptile that while mostly docile, could chew
+through almost anything when angered. As a
+maneuver the user may switch to the more powerful, but slow-firing dual-fire mode, adding Linked 1, Prepare 1, and Inaccurate 1 . While
+in dual-fire mode the GM may spend [TH][TH][TH] or
+[DE] to make the weapon run out of ammo (see
+Edge of the Empire CRB p. 207) .</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster</Category>
+      <Category>Blaster Pistol</Category>
+      <Category>Ranged</Category>
+      <Category>Pistol</Category>
+    </Categories>
+    <Encumbrance>1</Encumbrance>
+    <HP>1</HP>
+    <Price>750</Price>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Add [SE] to a character's perception check to find the weapon on a person's body.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>As a maneuver the user may switch to the single fire mode.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers />
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>5</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Short</Range>
+    <Ordnance>false</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>INACCURATE</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>LINKED</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>PREPARE</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>BLURRGHOLDOUT</Key>
+    <Name>Blurrg-1120 Holdout Blaster (Single Fire Mode)</Name>
+    <Description>[H3]Blurrg-1120 Holdout Blaster (Single Fire Mode)[h3]
+Eiriss Ryloth Defence Tech manufactured many
+of the weapons utilised by the freedom fighters
+of Ryloth during the Clone Wars. Proudly
+carrying this maverick legacy forward, their
+guns are often seen as a symbol of resistance
+unto themselves. Being a holdout blaster it
+adds [SE] to a character’s perception check to
+find the weapon on a person’s body.
+[P]
+The Blurrg-1 1 20 is named after a large Ryloth
+reptile that while mostly docile, could chew
+through almost anything when angered. As a
+maneuver the user may switch to the more powerful, but slow-firing dual-fire mode, adding Linked 1, Prepare 1, and Inaccurate 1 . While
+in dual-fire mode the GM may spend [TH][TH][TH] or
+[DE] to make the weapon run out of ammo (see
+Edge of the Empire CRB p. 207) .</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster</Category>
+      <Category>Blaster Pistol</Category>
+      <Category>Ranged</Category>
+      <Category>Pistol</Category>
+    </Categories>
+    <Encumbrance>1</Encumbrance>
+    <HP>1</HP>
+    <Price>750</Price>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Add [SE] to a character's perception check to find the weapon on a person's body.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>As a maneuver the user may switch to the powerful, but slow-firing dual-fire mode, adding Linked 1, Prepare 1, and Inaccurate 1. 
+[BR]While in dual-fire mode, GM may spend [TH][TH][TH] or [DE] to make it run out of ammo.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers />
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>5</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Short</Range>
+    <Ordnance>false</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>STUNSETTING</Key>
+        <Count>0</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>AB75BORIFLEEMODE</Key>
+    <Name>AB-75 Bo-Rifle (Electrostaff Mode)</Name>
+    <Description>[H3]AB-75 Bo-Rifle (Electrostaff Mode)[h3]
+The Bo-rifle is a weapon unique to the people of
+Lasan and rare even for them. They were granted
+to the Lasan Honor Guard upon completion of
+their apprenticeship and each one is personal to
+it’s owner. With the destruction of Lasan a few of
+these weapons have leaked out onto the black
+market, but they are extremely rare. Prized now
+by collectors, carrying one openly will cause
+great anger and offense to any surviving Lasat,
+who will view such a display as open disrespect
+for his lost people.
+[P]
+The user may use a maneuver to switch the Bo-
+Rifle from rifle to electrostaff mode. When in staff
+mode, the weapon requires two hands to wield.
+[P]
+Manufactured by Lasan-Malamut Firearms
+Corporation, under exclusive contract to the
+Lasan Honor Guard.</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Melee</Type>
+    <Categories>
+      <Category>Bludgeoning Melee</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>0</HP>
+    <Price>5000</Price>
+    <Rarity>9</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>The user may use a maneuver to switch the Bo-Rifle from electrostaff to rifle mode. When in electrostaff mode, the staff takes two hands to wield. </MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers />
+    <SkillKey>MELEE</SkillKey>
+    <Damage>0</Damage>
+    <DamageAdd>3</DamageAdd>
+    <Crit>3</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Engaged</Range>
+    <Ordnance>false</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>DEFENSIVE</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>DISORIENT</Key>
+        <Count>2</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>STUNSETTING</Key>
+        <Count>0</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>WESTAR35</Key>
+    <Name>WESTAR-35 Blaster</Name>
+    <Description>[H3]WESTAR-35 Blaster[h3]
+The Westar-35 blaster pistol (known as
+"Jai’galaar" in Mando’a), manufactured by the
+MandalTech subsidiary of Concordian Crescent
+Technologies is a compact, reliable pistol. Used
+extensively by Mandalorian police forces, as
+well as paramilitaries such as the infamous
+Death Watch.</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster</Category>
+      <Category>Blaster Pistol</Category>
+      <Category>Pistol</Category>
+      <Category>Ranged</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <HP>3</HP>
+    <Price>1500</Price>
+    <Rarity>7</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <WeaponModifiers />
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>7</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Medium</Range>
+    <Ordnance>false</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>PIERCE</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>STUNSETTING</Key>
+        <Count>0</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>ENERGYSLINGSHOT</Key>
+    <Name>Energy Slingshot</Name>
+    <Description>[H3]Energy Slingshot[h3]
+The energy slingshot is mounted on a small
+plasteel vambrace worn on the arm. The
+emitter energy gate pops up when required,
+activated by a context-sensitive proximity
+sensor. When not in use the slingshot
+resembles a simple arm guard, adding [SE][SE] to
+any Perception check to spot it as a weapon on
+a person. Popular amongst young sentients in
+rural settings, as a prelude to a more deadly
+firearm. These users will often customise the
+slingshot with their own patterns and colours.
+[P]
+[B]Models Include[b]: LothTech 17-B, Czerka Arms
+Stinger</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Ranged</Category>
+      <Category>Non-Heavy Rifle</Category>
+    </Categories>
+    <Encumbrance>1</Encumbrance>
+    <HP>1</HP>
+    <Price>100</Price>
+    <Rarity>2</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <WeaponModifiers />
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>4</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>0</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Medium</Range>
+    <Ordnance>false</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>DISORIENT</Key>
+        <Count>2</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>INACCURATE</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>STUNDAMAGE</Key>
+        <Count>0</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>X8SNIPERBLAST</Key>
+    <Name>X-8 Night Sniper Blaster</Name>
+    <Description>[H3]X-8 Night Sniper Blaster[h3]
+Highly customizable and discreet, yet powerful,
+BlasTech Industries’ X-8 Night Sniper Blaster
+had developed a reputation as a reliable and
+effective self defense weapon for business
+people who may sometimes need some extra
+protection. Features a “silent shot” mode. This
+may be activated as an incidental and adds [SE][SE] to any Vigilance or Perception checks
+made to locate a concealed shooter.</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster</Category>
+      <Category>Blaster Pistol</Category>
+      <Category>Ranged</Category>
+      <Category>Pistol</Category>
+    </Categories>
+    <Encumbrance>1</Encumbrance>
+    <HP>2</HP>
+    <Price>1300</Price>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Adds [SE][SE] to Perception or Vigilance checks to locate the shooter.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers />
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>7</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Medium</Range>
+    <Ordnance>false</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>STUNSETTING</Key>
+        <Count>0</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>CONCUSSGRENLAUNCHER</Key>
+    <Name>Walker Concussion Grenade Launcher</Name>
+    <Description>[H3]Walker Concussion Grenade Launcher[h3]
+A lower powered version of the concussion grenade launcher for use on Walkers, Landspeeders, and other ground vehicles. Usually people shell the extra 1000 credits for a higher yield concussion grenade launcher, but this is decent for those on a budget.</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories />
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>6500</Price>
+    <Rarity>4</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <WeaponModifiers />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>8</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <SizeLow>2</SizeLow>
+    <SizeHigh>2</SizeHigh>
+    <Range>Medium</Range>
+    <Ordnance>false</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>6</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>6</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>T7IONDISRUPTOR</Key>
+    <Name>T7 Ion Disruptor</Name>
+    <Description>[H3]T7 Ion Disruptor[h3]
+The Ion Disruptor was developed as an antivehicle
+weapon, to provide ground troops with an
+efficient method of disabling enemy vehicles,
+aircraft and even starfighters without necessarily
+destroying them. A selector switch disables the
+final magnetic charge chamber, causing the
+weapon to fire a ball of superheated plasma
+rather than the ionized anti-vehicle blast. In this way the weapon can also be used to gruesome
+effect against organic targets.
+[P]
+The weapon was deployed for the first time
+during the suppression of the uprising on Lasan,
+but its widespread anti-personnel use horrified
+the Imperial Senate to such a degree that their
+use was banned within the bounds of the Empire.
+[P]
+[B]Models Include[b]: Garel HyperDynamics T7</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Ranged</Category>
+    </Categories>
+    <Encumbrance>6</Encumbrance>
+    <HP>1</HP>
+    <Price>10000</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>User may switch to an Ion Setting that allows the weapon to do system strain damage to vehicles.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers />
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>20</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>2</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Extreme</Range>
+    <Ordnance>false</Ordnance>
+    <NoMelee>false</NoMelee>
+    <Qualities>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+      <Quality>
+        <Key>VICIOUS</Key>
+        <Count>3</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Quality>
+    </Qualities>
+  </Weapon>
+</Weapons>

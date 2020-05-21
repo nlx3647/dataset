@@ -1,0 +1,2875 @@
+<?xml version="1.0"?>
+<Armors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Armor>
+    <Key>HC</Key>
+    <Name>Heavy Clothing</Name>
+    <Description>
+      [H3]Heavy Clothing[h3]
+
+A good leather jacket, technician's jumpsuit, or thick woolen cloak won't stop much damage, but it's certainly better than nothing. Most characters living on the edge of the Empire favor heavy clothing for everyday wear.</Description>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>1</Encumbrance>
+    <Price>50</Price>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>AEG</Key>
+    <Name>Adverse Environmental Gear</Name>
+    <Description>
+      [H3]Adverse Environmental Gear[h3]
+
+Anyone traveling outside the civilized planets of the galaxy should make a point of packing some form of hostile environment gear. Clothing for hot, desert environments often includes voluminous robes, goggles, headwraps, self-cooling packs, and water recyclers. Clothing for cold environments often consists of insulated parkas, quilted and layered pants, ice-goggles, and head-gear. 
+
+[P]Characters with this gear may ignore [SE] imposed by the environment they find themselves in. The gear must be appropriate to the environment at hand. 
+[BR][B]Models Include:[b] Pretormin Environmental Froz 350 and ScorSear 200 complete gear sets.</Description>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Price>500</Price>
+    <Rarity>1</Rarity>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>STEELSKIN</Key>
+    <Name>"Steelskin" Anti-Concussive Armor</Name>
+    <Description>
+      [H3]"Steelskin" Anti-Concussive Armor[h3]
+
+Some of the heaviest non-powered personal armor on the market, Steelskin armor is illegal on most worlds and sure to draw significant attention in even the roughest of Outer Rim settlements. The sheer weight of the armor deters many potential users, and only the most physically able of warriors can wear it for any amount of time. 
+
+[P]All Brawn and Agility based checks while wearing Steelskin armor gain [SE]. Whenever the bearer is staggered or disoriented from a weapon quality, reduce the rounds staggered or disoriented by 1. </Description>
+    <Source>Dangerous Covenants</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>8</Encumbrance>
+    <HP>1</HP>
+    <Price>6500</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [SETBACK] to all Brawn- and Agility-based checks.  Reduce the duration of disoriented or staggered condition by 1 round.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>3</Soak>
+  </Armor>
+  <Armor>
+    <Key>CHARGESUIT</Key>
+    <Name>"Storm" Charge Suit</Name>
+    <Description>
+      [H3]"Storm" Charge Suit[h3]
+
+The "Storm" Charge Suit offers protection similar to other makes of padded armor, but offers several unique features. The padding that makes up most of the armor is highly resistant to electrical energy. While this doesn't offer any additional protection against blasters, it ensures that the wearer suffers no ill effects from the electro-conductive wiring that girds the entire suit. When switched on, the entire suit hums with energy. Any enemy who comes into direct contact with the suit suffers a jolt comparable to a lower-end stun blaster. When struck, the electrical discharge is likely to force an assailant with a plasteel or similarly conductive weapon to drop it, and may even incapacitate him. This armor is a mainstay of riot police within the Corporate Sector, but finds its way into the hands of mercenaries and bounty hunters as well. 
+
+[P]If the wearer of the charge suit is hit by a melee attack and the attack generates [DE], the attacker is automatically hit by an attack dealing 8 damage. This damage is applied to the target's strain threshold. If the attack generates [TH][TH], the attacker is disoriented for one round. Wearing a charge suit counts as being equipped with shock gloves (Brawl; Damage +0; Critical 5; Range [Engaged]; Stun 3). </Description>
+    <Source>Dangerous Covenants</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <Price>2000</Price>
+    <Rarity>6</Rarity>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>MOUNTARMOR</Key>
+    <Name>A/KT Mountaineer Armor</Name>
+    <Description>
+      [H3]A/KT Mountaineer Armor[h3]
+
+Another offering from the utilitarians at the Ayelixe/Krongbing Textiles Corporation, the Mountaineer is a suit of light, flexible armor designed to assist the wearer in climbing and navigating mountainous terrain. Made from a thick, tear-resistant textile with excellent thermal-retention qualities and interwoven with a patented foil-fiber armor weave, Mountaineer armor provides good protection from impacts, abrasions, and falls. In addition to the armor weave, the suit is reinforced at the shoulders, knees, and elbows with impact-absorbing polymer pads and is equipped with an integral climbing and support harness. The palms of the gloves and soles of the light, flexible boots are coated in FrictionGrip, a material produced by A/KT that adheres to even the smoothest surface. The entire suit consists of the one-piece jumpsuit, gloves, boots, and a helmet. Accessories like oxygen tanks for high-altitude climbing can be added for a nominal fee, and all attachments for such accessories are already integrated into the armor. 
+[P]Mountaineer armor grants the wearer [BO][BO] to all Athletics skill checks made to climb or rappel.</Description>
+    <Source>Enter the Unknown</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <HP>2</HP>
+    <Price>1800</Price>
+    <Rarity>6</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Grants [BOOST][BOOST] to all Athletics skill checks made to climb or rappel</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>CRASHSUIT</Key>
+    <Name>A/KT Shockrider Crash Suit</Name>
+    <Description>
+      [H3]A/KT Shockrider Crash Suit[h3]
+
+Specially designed for those who make their living behind the wheel, the Shockrider crash suits from Ayelixe/Krongbing Textiles Corporation are built to help pilots of speeders, speeder bikes, swoops, and other fast atmospheric vehicles survive even the worst crashes. Made of tough synthetic materials reinforced with a light armored mesh, a crash suit consists of a snug-fitting full-body suit with heavy fasteners, gloves, boots, and a helmet. All of these components fit together to grant the greatest protection possible to the wearer. They are also reinforced with special impact-absorbing gel inserts at strategic areas, like the spine, elbows, knees, hips, palms of the hands, and shoulders. This helps mitigate shocks to the areas of the body that are typically the first to take damage in an accident. In addition to these protections, the materials of a crash suit are also embedded with a fire- and radiation-proof chemical to help wearers survive the fires that often break out during crashes. 
+
+[P]Thanks to their durable construction and integrated armor, crash suits reduce any strain received from Critical Hits dealt to the wearer's vehicle by 1 (to a minimum of 1) and the flame-resistant coating reduces damage dealt to the wearer by fires by 1.</Description>
+    <Sources>
+      <Source>Enter the Unknown</Source>
+      <Source>Stay on Target</Source>
+    </Sources>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Price>3000</Price>
+    <Rarity>3</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Reduces strain received from Critical Hits to the wearer's vehicle by 1 (min 1).</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Reduce damage from fires and weapons with the Burn quality by 1.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>UTILITYVEST</Key>
+    <Name>A/KT Tracker Utility Vest</Name>
+    <Description>
+      [H3]A/KT Tracker Utility Vest[h3]
+
+Common among outdoorsmen, scouts, and hunters, the Tracker Utility Vest from Ayelixe/Krongbing Textiles Corporation is the Explorer's best friend. These vests are simple sleeveless garments worn on the torso and made from lightweight, durable, stain-resistant, tear-resistant synthetic textiles that close in front with a heavy-duty zipper. They are covered with numerous pouches of various size, shape, and utility, which are all connected to an integral load-bearing system concealed beneath the vest's lining. When fully zipped, the garment distributes the weight of anything carried in its pouches evenly and effectively across the wearers body, allowing the wearer to carry his important tools and items where he can reach them quickly and without them weighing him down overmuch or getting in his way. 
+[P]When worn, the Tracker utility vest increases the wearer's encumbrance threshold by 2.</Description>
+    <Source>Enter the Unknown</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <HP>1</HP>
+    <Price>100</Price>
+    <Rarity>2</Rarity>
+    <BaseMods>
+      <Mod>
+        <Key>ENCTADD</Key>
+        <Count>2</Count>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>AC</Key>
+    <Name>Armored Clothing</Name>
+    <Description>
+      [H3]Armored Clothing[h3]
+
+This category of armor covers light vests, jackets, or pants plated with plastoid or ceramic pads, sometimes with mesh energy-dispersion layers. This armor type is very light but covers the most important vital organs. These plates are mostly undetectable as long as the clothing is reasonably bulky. An [B]Average ([DI][DI]) Perception check[b] detects that a person's clothing is plated. 
+[P]However, the plates woven into the fabric do not just provide absorption against blows, they also serve to deflect some shots away from vital areas entirely. 
+[BR][B]Models Include:[b] Tenloss Syndicate "ShadowStalker" Assassin Gear. 
+</Description>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <HP>1</HP>
+    <Price>1000</Price>
+    <Rarity>6</Rarity>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>BEASTHIDE</Key>
+    <Name>Beast-Hide Armor</Name>
+    <Description>
+      [H3]Beast-Hide Armor[h3]
+
+Blasters and other advanced weapons can make a mockery of even the most sophisticated armor. Perhaps it is because of this that some warriors use the same primitive armors that have been used across the galaxy for countless millennia. For some individuals, their choice of armor is made to send a message rather than for practical purposes. Armor made from the tanned hides or heavy furs of wild beasts and covered in claws and teeth is a common sight on many backwater worlds, but is also worn by some spacers who wish to demonstrate their own ferocity. Whether worn as a reminder of home or crafted from the skin of a ferocious animal slain during their travels, such a suit of armor marks the wearer as a predator among predators. 
+
+[P]When wearing beast-hide armor, the character gains automatic [AD] on Coercion checks and automatic [TH] on Charm checks. The GM may determine that this armor provides different benefits or detriments depending on the situation. The wearer of the armor may be barred from high society events on Coruscant, but automatically invited to similar events on a Rim world, for example. </Description>
+    <Source>Dangerous Covenants</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <Price>300</Price>
+    <Rarity>2</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [ADVANTAGE] to Coercion checks and [THREAT] to Charm checks. </MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>BLASTVEST</Key>
+    <Name>Blast Vest</Name>
+    <Description>
+      [H3]Blast Vest[h3]
+
+Light armor designed to protect the wearer from bullets and flying debris, militia and planetary defense forces commonly wear blast vests, as do troopers and crewmen aboard starships. Protecting just the torso of the wearer, blast vests leave the limbs uncovered, allowing for unhindered freedom of movement. While the vest provides excellent protection from flying debris, shrapnel, and projectile weapons, the materials are not designed to stop energy blasts, providing minimal defense against blasters and other energy weapons. 
+
+[P]The armor gains +2 soak when the wearer suffers damage from a slugthrower or other physical projectile.</Description>
+    <Source>Fly Casual</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <HP>1</HP>
+    <Price>200</Price>
+    <Rarity>3</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Armor gains +2 soak when wearer suffers damage from a slugthrower or other physical projectile.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>CATCHVEST</Key>
+    <Name>Catch Vest</Name>
+    <Description>
+      [H3]Catch Vest[h3]
+
+Worn by many Corellians who live on the fringe, the innocuous catch vest has saved the lives of many free traders. Made of tightly woven energy-absorbing fibers, the catch vest is able to partially diffuse blaster shots. Indistinguishable from regular clothing, the catch vest is an excellent choice for those wishing to add some extra protection without advertising the fact. 
+
+[P]Catch vests have a soak value of 2 against damage from energy-based weapons only; they provide only 1 point of soak against all other forms of damage.</Description>
+    <Source>Suns of Fortune</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>1</Encumbrance>
+    <Price>300</Price>
+    <Rarity>3</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Has soak value of 2 against all energy-based weapons</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>ENVIROSUIT</Key>
+    <Name>Enviro-suit</Name>
+    <Description>
+      [H3]Enviro-suit[h3]
+
+The number of different types of environments found in the galaxy is staggering. Every world has its own unique mix of gravity, atmosphere, and environment that forms the beings who dwell upon it. While there are numerous worlds that are considered just right in that a substantial percentage of sentient species can dwell there in relative comfort, the great majority of planets, moons, asteroids, and star bases are toxic to at least one species, if not more. To allow those with sensitive systems to operate safely in the galaxy at large, numerous companies produce enviro-suits. 
+
+[P]Enviro-suits come in a dizzying array of patterns and styles. At their most basic, enviro-suits are fully sealed, full-body suits made of sturdy materials designed to keep sentients alive in inhospitable places. They protect their wearers from toxic environments, radiological, biological, and chemical hazards, extremes of temperature, and variations of atmospheric pressure. With the right suit, a wearer can withstand the vacuum of space, the depths of the deepest oceans, and even atmospheres that are little more than choking miasmas of poisonous gasses. While most enviro-suits on the market have built-in monitoring systems that can self-adjust to a wearer's particular needs and are therefore appropriate for a variety of users, some are custom built and fitted for those species with especially delicate or bizarre physiologies. 
+
+[P]Enviro-suits typically have numerous attachment points and interface sockets for the use of Jetpacks, external tanks for those with specific environmental needs, and storage pockets. Enviro-suits have an operational life of eight hours until they need to be recharged and have their gasses and fluids refilled. Thanks to their many layers of protective shielding, enviro-suits tend to be bulky and reduce a wearer's sense of his surroundings. An individual wearing an enviro-suit suffers [SE] to any Agility or Perception based checks while wearing the suit. </Description>
+    <Source>Enter the Unknown</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Price>750</Price>
+    <Rarity>2</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Suffer [SETBACK] to any Agility- or Perception-based checks</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>HBA</Key>
+    <Name>Heavy Battle Armor</Name>
+    <Description>
+      [H3]Heavy Battle Armor[h3]
+
+Certain heavy stormtroopers, bounty hunters, and even droids are fitted with heavy armor. Ostensibly, heavy armor protects against most normal blaster shots, but in the arms race of offense versus defense, the offensive power of a good blaster is still far ahead of most anything a humanoid can wear. 
+
+[P]Heavy battle armor can be sealed and provide the same benefits as full-body laminate armor as above, or it can take the form of a heavy vest and blast helmet.
+[BR][B]Models Include:[b] Mandalorian Shock Trooper Armor. </Description>
+    <Sources>
+      <Source>Edge of the Empire Core Rulebook</Source>
+      <Source>Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>6</Encumbrance>
+    <HP>4</HP>
+    <Price>5000</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>HUTTSHELLARMOR</Key>
+    <Name>Hutt Shell Armor</Name>
+    <Description>
+      [H3]Hutt Shell Armor[h3]
+
+Crafted especially for the Shell Hutts of Circumtore, these massive exoskeletons are fashioned from segmented cylinders of durasteel. Freed from the need for any sort of physical exertion by the repulsorlifts and powerful servomechanisms built into their armored suits, the gluttonous Shell Hutts grow to be tremendously corpulent, even by Hutt standards, necessitating ever-larger suits of armor. Shell armor allows its wearer to hover up to five meters above the ground. 
+
+[P]Hutt Shell Armor allows a Hutt to ignore the effects of the Awkward and Ponderous abilities (if he possesses either or both of these). Further, the wearer does not have to spend additional maneuvers when navigating difficult terrain.</Description>
+    <Source>Lords of Nal Hutta</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>6</Encumbrance>
+    <HP>4</HP>
+    <Price>25000</Price>
+    <Rarity>9</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>May only be worn by a Hutt.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Allows wearer to hover up to five meters above the ground.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Allows wearer to ignore the affects of Awkward and Ponderous abilities.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Does not have to spend additional maneuvers when navigating difficult terrain.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>2</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>LAM</Key>
+    <Name>Laminate</Name>
+    <Description>
+      [H3]Laminate Armour[h3]
+
+Imperial stormtroopers wear fully-enclosed plastoid armor that deflects and negates incoming damage. It won't stop a direct hit from a blaster, but is reasonably effective against indirect concussive damage and shrapnel. It typically includes vision magnification.and integrated comlinks to others attuned to the same frequency. As the armor is designed to work with powered systems, it can be easily modified with after-market attachments. 
+
+[P]Laminate armor is worn over a tight-fitting body glove. This system offers significant insulation, making it easier to operate in all environments. For extended service in extreme environments, more specialized versions are made. 
+[BR][B]Models Include:[b] Imperial Department of Military Research Stormtrooper Armor.</Description>
+    <Sources>
+      <Source>Edge of the Empire Core Rulebook</Source>
+      <Source>Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>3</HP>
+    <Price>2500</Price>
+    <Rarity>5</Rarity>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>MIMETICSUIT</Key>
+    <Name>Mimetic Suit</Name>
+    <Description>
+      [H3]Mimetic Suit[h3]
+
+A combination of highly advanced materials and applied sciences, mimetic suits are the apex of personal cloaking technology. Able to bend light around the wearer to make him virtually invisible, the suit also contains sound dampeners, as well as electromagnetic and heat shielding, to make him even stealthier. While other stealth suits rely principally on special materials, mimetic suits must actually be energized in order to cloak the wearer, and they require a small power pack, generally affixed to the belt, to function properly. The power packs are usually only good for an hour of continuous use before they need to be switched out or recharged. Illegal to own and difficult to obtain, mimetic suits are much sought after by criminals, thieves, and assassins throughout the galaxy. 
+
+[P]Upgrade the ability of Stealth checks the wearer makes while wearing a mimetic suit twice while it is active. The GM may spend [TH][TH][TH] or [DE] on any Stealth check the wearer makes while the suit is active to have the battery run out of energy, causing the suit to stop functioning until it is replaced.</Description>
+    <Source>Fly Casual</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <HP>2</HP>
+    <Price>8000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Upgrade the ability of Stealth checks twice while suit is active.</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>STEAL</SkillKey>
+            <UpgradeAbilityCount>2</UpgradeAbilityCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>FLAKVEST</Key>
+    <Name>Mk. III Flak Vest</Name>
+    <Description>
+      [H3]Mk. III Flak Vest[h3]
+
+The Mk. III flak vest from Pacnorval Defense Systems is a basic jacket consisting of light durasteel plates under layered ballistic fabric. Flak vests are designed to protect against shrapnel and heat such as that created by frag grenades, and offer only limited protection against
+direct hits. Flak vests are almost useless against blasters, and as such are seldom seen outside of security forces expecting little resistance and backwater worlds.
+
+[P]This armor gains +1 soak when the wearer suffers damage from the Blast quality.</Description>
+    <Source>Dangerous Covenants</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <HP>1</HP>
+    <Price>300</Price>
+    <Rarity>2</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add +1 Soak against damage from the Blast quality.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>PAD</Key>
+    <Name>Padded Armor</Name>
+    <Description>
+      [H3]Padded Armor[h3]
+
+Local forces and soldiers of the Rebel Alliance often  wear padded armor, woven with tough, energy-resistant fibers. It tends to absorb and resist some of the power of a blaster bolt, although it often proves little use against a solid hit. It does, however, provide reasonable protection against blows or concussive damage, providing padding against such shocks. It also has the advantage of  being relatively comfortable; many individuals can wear  padded armor without generating too much attention  from local law enforcement on frontier worlds.  
+[BR][B]Models Include:[b] TaggeCo. “Protector X" Law Enforcement Armor.</Description>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <Price>500</Price>
+    <Rarity>1</Rarity>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>PDS</Key>
+    <Name>Personal Deflector Shield</Name>
+    <Description>
+      [H3]Personal Deflector Shield[h3]
+
+Though rare, bulky, and difficult to use, personal deflector shields are one of the few defenses that can stand up to blaster fire. Deflector shields use limited ray/particle shielding that deflects and blocks incoming projectiles. They are difficult to use because the power drain is extraordinary, meaning they only work for a limited length of time. When the wielder is using a personal deflector shield, the GM can spend any [DE] the wielder generates to have the shield run out of power for the remainder of the encounter.  
+
+[P]The shield has enough power to last about ten minutes. Recharging a deflector shield requires three hours and electrical facilities. 
+
+[P]Modern galactic companies do not generally produce personal deflector shields. The technology to make one that does not emit enough radiation to kill an organic user is very rare, and those that exist are almost always custom-built. </Description>
+    <Sources>
+      <Source>Edge of the Empire Core Rulebook</Source>
+      <Source>Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <Price>10000</Price>
+    <Rarity>8</Rarity>
+    <Defense>2</Defense>
+  </Armor>
+  <Armor>
+    <Key>NOMADCOAT</Key>
+    <Name>Nomad Greatcoat</Name>
+    <Description>
+      [H3]Nomad Greatcoat[h3]
+
+Long associated with the inhabitants of the Nomad Mountains, this distinctive greatcoat has become popular since its adoption by the military of Corellia as cold weather wear. Traditionally made from the tanned hide of the sharnaff, the greatcoat is a heavy, waterproof overcoat that hangs below the knees. The greatcoat typically has a removable insulated lining that provides exceptional protection against the cold and elements. 
+[P]The Nomad Greatcoat reduces the difficulty of Resilience checks made to resist the effects of extreme cold by one, and removes [SE] added to checks due to extreme cold. </Description>
+    <Source>Suns of Fortune</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>1</Encumbrance>
+    <Price>100</Price>
+    <Rarity>4</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Reduces difficulty of Resilience checks made to resist the effects of extreme cold by 1</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Removes [SETBACK] added to checks due to extreme cold</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>MODARMORIII</Key>
+    <Name>Type III "Berethron" Personal Modular Armor</Name>
+    <Description>
+      [H3]Type III "Berethron" Personal Modular Armor[h3]
+
+Manufactured for the Corellian military and CorSec forces, the Type III "Berethron" Personal Modular Armor system is a relatively lightweight form of armored clothing that allows for significant mission-specific customization. Made of an energy-dispersing mesh fiber, with strategically placed plastoid plates woven into the fabric, Berethron PMA provides a good degree of protection without severely impeding the wearer. The ability to significantly customize and upgrade the armor distinguishes Berethron PMA from other armored clothing, allowing the wearer to be prepared for many situations without donning cumbersome, restrictive laminate or heavy battle armor.</Description>
+    <Source>Suns of Fortune</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <HP>3</HP>
+    <Price>1250</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>FLIGHTTX3</Key>
+    <Name>TX-3 Combat Flight Suit</Name>
+    <Description>
+      [H3]TX-3 Combat Flight Suit[h3]
+
+An armored flight suit manufactured by Corellian Technologies primarily for starfighter pilots, the TX-3 is used by the CDF and several other system defense forces, and is also popular with pirates, mercenaries, and bounty hunters. Similar to the combat flight suits worn by Imperial pilots, the TX-3 provides slightly better protection from the vacuum of space, as well as moderate defense from concussive and energy attacks. The fibers in the suit provide decent protection from the extreme cold and radiation a pilot is likely to experience in deep space. Without an external oxygen source, a person wearing a TX-3 flight suit can survive for up to 24 hours in hard vacuum.</Description>
+    <Source>Suns of Fortune</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>2</HP>
+    <Price>3000</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <Defense>1</Defense>
+  </Armor>
+  <Armor>
+    <Key>POWARMOR</Key>
+    <Name>PX-11 "Battlement" Powered Armor</Name>
+    <Description>
+      [H3]PX-11 "Battlement" Powered Armor[h3]
+
+The PX-11 "Battlement" from Arakyd Industries exemplifies powered armor suits. The PX-11 is a fully-enclosed suit of heavy durasteel armor, motivated by synthetic muscle fiber bundles and nano-hydraulics. Despite the armor's weight, the powerful mechanical musculature actually increases his strength. 
+
+[P]The suit forms a vacuum-sealed life support system, allowing the wearer to survive in a vacuum or toxic environment for up to one hour. The suit's helmet incorporates a comlink as well as sophisticated optical and auditory sensors, allowing the wearer to deduct [SE][SE] from all Perception, Surveillance, Vigilance, and combat skill checks due to darkness, smoke, or similar environmental factors that obscure vision. PX-11 armor suit charge packs supply enough power for 12 hours of use. 
+
+[P]In addition to its protective value, the armor increases the wearer's Brawn by 1 while wearing the armor. This does not increase his soak or wound threshold. The wearer also gains +1 rank of the Athletics skill as long as he is wearing the armor. The listed encumbrance value assumes the armor is powered. If a Battlement suit loses power or ceases to function for any reason, its encumbrance becomes 12, its defense becomes 0, and the wearer loses the Brawn increase. Equipping the armor without assistance takes five minutes. Assistance cuts this time in half.</Description>
+    <Source>Dangerous Covenants</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>3</HP>
+    <Price>9000</Price>
+    <Rarity>9</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key>ATHL</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Key>BR</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Remove [SETBACK][SETBACK] from Perception, Vigilance, and combat checks imposed by darkness, smoke, or similar environmental factors that obscure vision.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>3</Soak>
+  </Armor>
+  <Armor>
+    <Key>PROTECTOR</Key>
+    <Name>Protector 1 Combat Armor</Name>
+    <Description>
+      [H3]Protector 1 Combat Armor[h3]
+
+The Protector 1 from the Tagge Company is representative of an entire class of heavy battle armor, consisting of strong durasteel plates over a ballistic mesh suit. The armor plates of the Protector 1 are not as all-encompassing as some suits of battle armor, trading a negligible amount of protection for increased mobility and lighter weight than similar armor suits. The positions of the plates distribute weight evenly, and the mesh-weave visible between the plates is still resistant to glancing hits. Overall, many mercenaries and soldiers find the Protector 1 to be an ideal trade-off between protection and mobility.</Description>
+    <Source>Dangerous Covenants</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>3</HP>
+    <Price>5500</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>RIOTARMOR</Key>
+    <Name>Mk.IV Riot Armor</Name>
+    <Description>
+      [H3]Mk.IV Riot Armor[h3]
+
+The Mk.IV Riot Armor is one of Creshaldyne Industries' most popular offerings. Sold almost exclusively to governmental and law enforcement agencies, this sophisticated riot armor is advertised as the final word in protection for law enforcement officers. Worn over a smartmesh body glove woven with foil-fiber reinforcement, the armor is composed of a lightweight clamshell to protect the torso and a number of flexible contoured plates to protect the legs, groin, arms, and shoulders. A blast helmet with a removable, polarized face shield and integrated breath mask completes the ensemble. 
+
+[P]This armor includes a breath mask that allows the user to filter out and ignore airborne toxins and gases (but not breathe in atmospheres without the character's required atmosphere mix). In addition, when staggered or disoriented, the wearer reduces the duration of the effect by one round, to a minimum of one round.</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>1</HP>
+    <Price>1850</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Built-in breath mask</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Reduce duration of disoriented or staggered results by one round (minimum of one round).</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>REINFENVIRO</Key>
+    <Name>Reinforced Environment Gear</Name>
+    <Description>
+      [H3]Reinforced Environment Gear[h3]
+
+Produced by a number of companies, such as Pretormin Environmental and Gandorthral Atmospherics. reinforced environment gear is essentially improved adverse environment gear. These suits are especially popular among colonists, who not only must brave strange and hazardous planetary conditions, but who are also more prone to injury from falls or unstable environmental formations. 
+
+[P]The reinforced environment suits allows a wearer to ignore [SE] imposed by environmental conditions, and also reduces Critical Injuries suffered from falling by 20. The suit also includes a filter, granting [BO] to Resilience checks to resist toxic atmospheres or airborne toxins.</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <HP>2</HP>
+    <Price>850</Price>
+    <Rarity>4</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Removes [SETBACK] imposed by environmental conditions.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [BOOST] to Resilience checks to resist toxic atmospheres or airborne toxins.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>TAILOREDJACKET</Key>
+    <Name>Tailored Armored Jacket</Name>
+    <Description>
+      [H3]Tailored Armored Jacket[h3]
+
+Kamperdine Clothing Specialists is a small boutique manufacturer of custom clothing items based out of the Core Worlds region. Specializing in the use of fine and exotic beast hides, Kamperdine can produce a stylish and rugged piece of clothing from the skin of nearly any known creature in the galaxy. Their line of custom tailored armored jackets are their most popular and most expensive product. Tailored to each customer's exact specifications, no two of these highly sought-after jackets are alike. Kamperdine can create a jacket to perfectly fit nearly any sentient species that wears clothes, and their client list is a who's who of politicians, entertainers, military and government officials, and various other flavors of galactic VIP. A custom Kamperdine jacket makes an incredible first impression, and is a sign that its wearer is an individual of impeccable taste. Kamperdine jackets are rarely found on the open market, and most individuals who purchase one go to their graves in them. They must be ordered directly from Kamperdine months in advance of their desired delivery date. 
+
+[P]Kamperdine Armored Jackets are each tailored to a specific wearer. When worn by that wearer, they add [AD] to any successful Charm, Deception, or Negotiation checks the character makes (the GM may decide that the bonus does not apply in certain situations, such as dealings over a comlink). </Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>1</Encumbrance>
+    <Price>6200</Price>
+    <Rarity>7</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [ADVANTAGE] to any successful Charm, Deception, or Negotiation checks.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>SAKSHADOW</Key>
+    <Name>Sakiyan Shadowsuit</Name>
+    <Description>
+      [H3]Sakiyan Shadowsuit[h3]
+
+Woven from the silk of the umbraspider, Sakiyan shadowsuits are used by assassins who wish to remain unseen. The silk has unusual properties, refracting and absorbing light in a way that makes the umbraspiders webs virtually invisible. The Sakiyans have put this extraordinary material to use in crafting body gloves that make the wearer almost impossible to see except in bright light. Chemists working for Ayelixe/Krongbing Textiles were able to synthesize shadowsilk by studying the properties of Defel fur, but Sakiyans contend that the silk of the umbraspider is superior. 
+
+[P]A Sakiyan shadowsuit grants [BO][BO] to Stealth checks.</Description>
+    <Source>Lords of Nal Hutta</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>1</Encumbrance>
+    <HP>1</HP>
+    <Price>2500</Price>
+    <Rarity>8</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Grants [BOOST][BOOST] to Stealth checks.</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>STEAL</SkillKey>
+            <BoostCount>2</BoostCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>SMUGGLERSTRENCHCOAT</Key>
+    <Name>Smuggler's Trenchcoat</Name>
+    <Description>
+      [H3]Smuggler's Trenchcoat[h3]
+
+Every smuggler gets searched; that part of the job is inevitable. Some smugglers, however, take the tact that if they simply have enough hidden compartments, at least a few will inevitably go unsearched. The smuggler's trenchcoat addresses this strategy, and is covered with pockets, minor compartments, and pouches within pouches to confound any search. 
+
+[P]Checks made to find anything hidden within a smuggler's trenchcoat while it is being worn are opposed by the Skulduggery of the wearer. The coat can conceal up to 2 encumbrance worth of items.</Description>
+    <Source>Fly Casual</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <Price>1650</Price>
+    <Rarity>7</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Checks to find anything hidden within a smuggler's trenchcoat are opposed by the Skulduggery of the wearer.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>The coat can conceal up to 2 encumbrance worth of items.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>WINGCOMMANDER</Key>
+    <Name>A/KT Wing Commander Armored Flight Suit</Name>
+    <Description>
+      [H3]A/KT Wing Commander Armored Flight Suit[h3]
+
+The popular Wing Commander armored flight suit by Ayelixe/Krongbing Textiles Corporation is the latest word in pilot comfort and protection. Similar to the Shockrider crash suit, the Wing Commander is built of sturdy synthetic textiles reinforced with a thick, energy-dispersing foil-fiber armorweave. In addition to the armorweave, the Wing Commander features thin ferro-ceramic armor plates and impact-absorbing gel inserts to protect delicate areas. The suit also features a sophisticated life support system that performs well in both atmosphere and space, and can be sealed to the gloves, boots, and helmet to form an ersatz space suit in case of emergency. To top off their protective features, Wing Commander suits are also treated with a fire-and-radiation-proof chemical to help wearers survive vehicle fires. 
+
+[P]Thanks to its rugged construction and integrated armor, the Wing Commander suit reduces any strain received from Critical Hits dealt to the wearer's vehicle by 1 (to a minimum of 1) and the flame-resistant coating reduces damage dealt to the wearer by fires and weapons with the Burn quality by 1.</Description>
+    <Source>Stay on Target</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>1</HP>
+    <Price>1500</Price>
+    <Rarity>6</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Reduces strain received from Critical Hits to the wearer's vehicle by 1 (min 1).</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Reduce damage from fires and weapons with the Burn quality by 1.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>RIDINGTACK</Key>
+    <Name>Caballerin-Series Riding Tack</Name>
+    <Description>
+      [H3]Caballerin-Series Riding Tack[h3]
+
+No matter how tame and biddable a creature is, and how much a rider believes he can trust his mount, a good set of riding tack is an indispensable part of a beast rider's accoutrement. Made in a variety of styles for nearly every known beast able to be domesticated in the galaxy, Piccatech Ltd.'s Caballerin-series beast tack is the industry leader in beast-riding equipment. A full set of riding tack includes a sturdy saddle tailored to both the beast and the type of riding expected, stirrups, headgear (bridle, halter, bit, etc), and breastplate. If the tack is purchased for a working animal as opposed to a riding animal, a harness is substituted for the saddle, and allows a creature to pull or carry vast amounts of cargo.
+[P]Tack can only be equipped to bestial riding animals. Using it allows the character to ride the beast without suffering the bareback riding penalties discussed on page 81.</Description>
+    <Source>Stay on Target</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <Price>250</Price>
+    <Rarity>4</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>May only be worn by a beast.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>May ride a beast without suffering bareback penalty.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>CAPARIBEAST</Key>
+    <Name>Capari-Series Padded Beast Armor</Name>
+    <Description>
+      [H3]Capari-Series Padded Beast Armor[h3]
+
+Lighter and more flexible than the heavy Destri-series armor, Capari-series padded beast armor by Piccatech Ltd. offers an excellent balance between protection and wearability. Similar in construction to TaggeCo.'s Protector X LEO armor, Capari armor consists of heavy-duty synthetic textiles woven with energy absorbing foil-fiber armorweave. The armor is backed with thin polycarbonate armor plates situated in strategic locations at the animal's neck, shoulders, chest, back, and legs. While it offers lighter protection than the heavy Destri-series, the Capari-series is easier to wear than its heavier cousin and does not limit a creature's speed or range of motion. 
+
+[P]Padded beast armor can only be equipped to bestial riding animals. In addition to its other effects. using it allows the character to ride the beast without suffering the bareback riding penalties discussed on page 81.</Description>
+    <Source>Stay on Target</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>4</Encumbrance>
+    <Price>2500</Price>
+    <Rarity>5</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>May only be worn by a beast.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>May ride a beast without suffering bareback penalty.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>DESTRIBEAST</Key>
+    <Name>Destri-Series Laminated Beast Armor</Name>
+    <Description>
+      [H3]Destri-Series Laminated Beast Armor[h3]
+
+Piccatech's Destri-series beast armor uses modern armor technology to provide unparalleled protection for working and riding beasts. It uses the same kinds of hard laminate composites used to make heavy battle armor and the famous laminate armor worn by Imperial Navy Stormtroopers. Sold in a dizzying variety of styles, Destri armor commonly includes articulated laminate plate armor for a creature's head, neck, back, chest, and legs. In addition to the protection, the armor is designed with mounting points for saddles, tack, panniers, and other various equipment. The armored plates are lined with a shock-absorbing coating, and the entire set is designed to distribute the weight of the armor. Destri armor is not a fully sealed suit and does not protect against chemical agents, radiation, or environmental conditions, but it does offer excellent protection against light blaster fire, projectiles, and shrapnel. 
+
+[P]Destri armor is relatively heavy, and although it's designed to be as easy as possible on the beast wearing it, the armor still necessarily restricts movement and tends to make a creature slower. Beasts wearing Destri-series beast armor have their Agility reduced by 1, to a minimum of 1. 
+
+[P]Laminate beast armor can only be equipped to bestial riding animals. In addition to its other effects, using it allows the character to ride the beast without suffering the bareback riding penalties discussed on page 81.</Description>
+    <Source>Stay on Target</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>7</Encumbrance>
+    <HP>1</HP>
+    <Price>8500</Price>
+    <Rarity>7</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>May only be worn by a beast.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>May ride a beast without suffering bareback penalty.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>4</Soak>
+  </Armor>
+  <Armor>
+    <Key>MEGAFAUNA</Key>
+    <Name>H-Series Megafauna Carriage</Name>
+    <Description>
+      [H3]H-Series Megafauna Carriage[h3]
+
+Piccatech's H-series megafauna carriage is an essential piece of kit for those working with oversized creatures. Known colloquially as a howdah, at its most basic the H-series megafauna carriage is little more than a broad platform that straps to the back of a large creature. They come in a range of sizes, can be built to fit nearly any large beast, and can be built to carry passengers, cargo, or a combination thereof. A variety of options are offered for the H-series, including different rails and safety features, canopies, environmentally sealed enclosures, or nearly anything else a customer might desire. 
+
+[P]A beast must have a silhouette of at least 3 and a Brawn of at least 5 to be fitted with a howdah. Basic howdah configurations are readily available for beasts with a tetrapodal or quadrupedal stance, like the fambaa or dewback, at the listed price. Howdahs for creatures with more appendages, like the six-legged acklay, can be had for a small additional fee, generally 500 credits. Howdahs can be armored and fitted with one or two Gunnery or vehicle-scale weapons, following the usual restrictions for silhouette as outlined on page 287 of the [B]Age of Rebellion[b] Core Rulebook. 
+
+[P]A megafauna carriage can only be equipped to bestial riding animals. In addition to its other effects, using it allows the character to ride the beast without suffering the bareback riding penalties discussed on page 81.</Description>
+    <Source>Stay on Target</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>5</Encumbrance>
+    <HP>2</HP>
+    <Price>5500</Price>
+    <Rarity>7</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>May only be worn by a beast.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>May ride a beast without suffering bareback penalty.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+  </Armor>
+  <Armor>
+    <Key>BANAL</Key>
+    <Name>Banal Apparel</Name>
+    <Description>
+      [H3]Banal Apparel[h3]
+
+Stealth equipment can render a person literally invisible to the naked eye, but sometimes simply fading into the crowd offers a more elegant and effective solution. Banal apparel is specifically chosen to encourage a wandering eye to continue to wander, allowing the wearer to hide in plain sight simply by avoiding attention. 
+
+[P]Opposing characters upgrade the difficulty of any checks made to identify the wearer once.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Price>25</Price>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Opposing characters upgrade the difficulty of checks to identify wearer once.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>CARGOCL</Key>
+    <Name>Cargo Apparel</Name>
+    <Description>
+      [H3]Cargo Apparel[h3]
+
+Having the right tools for the job can be crucial to performing any task. And some individuals believe that the best approach to life is to have the right tools for any eventuality. While not helpful with large objects such as blaster rifles, cargo clothing enables a character to carry an impressive array of small devices. 
+
+[P]A character wearing cargo clothing may carry up to three items of encumbrance 1 or lower without those items counting toward his encumbrance value.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>1</Encumbrance>
+    <Price>30</Price>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Can carry three items of encumbrance 1 without it affecting encumbrance value.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>DIPROBE</Key>
+    <Name>Diplomat's Robes</Name>
+    <Description>
+      [H3]Diplomat's Robes[h3]
+
+A diplomat's robes—whether Senatorial attire, Ambassadorial dress, or similar attire—clearly indicate that the wearer is a person of importance. Other characters often become more cautious or polite when interacting with the wearer, sometimes allowing the diplomat to access restricted areas and information. 
+
+[P]A character wearing diplomat's robes adds [BO] to social checks related to claiming diplomatic authority, accessing classified data, and using organizational status to bypass normal protocol.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <Price>400</Price>
+    <Rarity>6</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [BOOST] to social checks claiming diplomatic authority, accessing classified data, and bypassing normal protocol.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>FLAREJACK</Key>
+    <Name>Flare Jacket</Name>
+    <Description>
+      [H3]Flare Jacket[h3]
+
+Originally designed by a high-end clothes manufacturer for making literally flashy entrances, some organizations saw potential military use and contracted Ayelixe/Krongbing Textiles to produce a more intense version of their Personal Defense coat. Concealing several small charges in seams throughout the design, the jacket can release a blinding and stunning flash of light, allowing the wearer a few seconds to make an escape. The internal power source is small, and thus can take several minutes to recharge after each use. 
+
+[P]Once per encounter, a character wearing a flare jacket can trigger the charges as a maneuver. Each character within short range (besides the wearer) must make a [B]Hard ([DI][DI][DI]) Vigilance check[b]. Each character who fails is staggered for 1 round, plus 1 additional round per [TH][TH][TH]. 
+[BR][B]Models include:[b] Ayelixe/Krongbing Personal Defense Coat, Brennkeyes Syndicate flare jacket.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <Price>1500</Price>
+    <Rarity>8</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Once per encounter, can trigger flare charge. Everyone in short range makes [B]Hard ([DI][DI][DI]) Vigilance check[b]. Fail means staggered for 1 round, plus 1 round per [TH][TH][TH].</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>HAULHARN</Key>
+    <Name>Hauling Harness</Name>
+    <Description>
+      [H3]Hauling Harness[h3]
+
+Beloved by harried quartermasters across the galaxy, hauling harnesses offer convenient means to lift and move heavy loads. Essentially a light cyber-exoskeleton, the hauling harness greatly magnifies the user's ability to lift and move heavy objects, albeit with limited speed. Although not as practical as a dedicated piece of heavy machinery, the harness incorporates a folding design, enabling easy storage when not in use. 
+
+[P]A character wearing a hauling harness increases his encumbrance capacity by 6, but also upgrades the difficulty of any combat check he makes twice. 
+
+[BR][B]Models include:[b] TaggeCo. Mobile Lifting Gear.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <HP>2</HP>
+    <Price>1000</Price>
+    <Rarity>6</Rarity>
+    <BaseMods>
+      <Mod>
+        <Key>ENCTADD</Key>
+        <Count>6</Count>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Upgrade difficulty of combat checks twice.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>HOLOCOST</Key>
+    <Name>Holographic Costume</Name>
+    <Description>
+      [H3]Holographic Costume[h3]
+
+When unpowered, the holographic suit is a slightly glossy, unremarkable, form-fitting suit. A small control panel on the inside left sleeve activates numerous miniaturized holoprojectors, sheathing the wearer in a convincing facsimile of one of several preselected outfits. The holographic costume does not hide or alter the appearance of the wearer, but it does enable the wearer to switch between any of ten preloaded outfits with a simple flick of the controls. The recorder built into the suit enables a user to overwrite preloaded outfits with new designs, a process that takes roughly ten minutes. 
+
+[P]To record a new outfit, a character must make an [B]Easy ([DI]) Computers check[b] while in possession of a garment to be recorded, or a [B]Daunting ([DI][DI][DI][DI]) Computers check[b] to create a facsimile of a garment that is not on hand. 
+
+[BR][B]Models include:[b] A/KT "Versatility" Outfit, Plescinia Micro Holo Suit.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <Price>750</Price>
+    <Rarity>8</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>[B]Easy ([DI]) Computers check to record new garment, [B]Daunting ([DI][DI][DI][DI]) Computers check[b] to record facsimile of garment.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+  </Armor>
+  <Armor>
+    <Key>LECOUT</Key>
+    <Name>Lector's Outfit</Name>
+    <Description>
+      [H3]Lector's Outfit[h3]
+
+For major addresses, politicians usually rely advanced, large-scale public address systems. However, most political agents have at one time or another found themselves pressed to make a grand speech with little preparation. Quick thinking usually carries such speeches, but an outfit equipped with technology to make one audible even above a roaring crowd helps. Several small, powerful speakers and a collar microphone make sure that the wearer's words reach even distant ears. 
+
+[P]A character wearing a lector's outfit adds [BO] to any social check involving a large group of listeners, and can be heard clearly even at considerable distances.
+[BR][B]Models include:[b] TaggeCo "Confidence" Outfit.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Price>525</Price>
+    <Rarity>6</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [BO] to social checks involving large groups of listeners.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Can be heard clearly at considerable range.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>NOBREG</Key>
+    <Name>Noble Regalia</Name>
+    <Description>
+      [H3]Noble Regalia[h3]
+
+Although often inconvenient to wear, severely limiting to movement, and historically archaic, few things command innate respect as much as the traditional attire of a planet's nobility. Varying from culture to culture, noble regalia typically incorporates multiple layers of ornate, expensive clothing. Although a casual observer might not recognize the wearer's exact rank or title, noble regalia nonetheless conveys a degree of aristocratic importance. 
+[P]The wearer downgrades the difficulty of social checks to interact with other nobility and their subordinates once.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>1</Encumbrance>
+    <HP>3</HP>
+    <Price>750</Price>
+    <Rarity>7</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Downgrade difficulty of social checks to interact with nobility or subordinates once.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>PERFATT</Key>
+    <Name>Performer's Attire</Name>
+    <Description>
+      [H3]Performer's Attire[h3]
+
+Many diplomats perform not only on the political stage, but on actual stages as well. Artistic performance often requires more freedom of movement than speechgiving, however. Often colorful or sporting dazzling patterns, this type of clothing draws attention to the wearer as he dances, sings, or otherwise entertains. Although offering practically no defenses, the attire does allow unequaled freedom of movement and typically formfitting material prevents accidentally snagging or becoming caught on environmental hazards. 
+
+[P]A character wearing performer's attire adds [BO] to checks to perform or otherwise attract attention.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Price>50</Price>
+    <Rarity>4</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [BO] to checks to perform or attract attention.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>POWCAPARM</Key>
+    <Name>Powered Capacitive Armor</Name>
+    <Description>
+      [H3]Powered Capacitive Armor[h3]
+
+Another variant on the popular, lightweight line of protection, capacitive armor offers moderate protection against most forms of attack at all times. However, an expensive, miniaturized power source in the armor can be activated to make the flexible panels within stiffen, offering increased protection at the expense of mobility. 
+
+[P]As a maneuver, the wearer may power up or power down the armor. While the armor is powered and the plates are locked in place, the wearer gains + 1 soak and + 1 defense but loses his free maneuver during each of his turns.
+[BR][B]Models include:[b] A/KT Tuff-Powered Armor.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>4</Encumbrance>
+    <HP>2</HP>
+    <Price>3000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>As maneuver, power up and add +1 defense and +1 soak, but lose free maneuver.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>RESPROBES</Key>
+    <Name>Resplendent Robes</Name>
+    <Description>
+      [H3]Resplendent Robes[h3]
+
+Some beings naturally become the center of attention when they enter a room, but dressing for the part never hurts, either. Purposefully ostentatious clothing greatly aids their efforts, allowing the wearer's allies to go about other business unobserved. 
+
+[P]As long as a character wearing resplendent robes purposefully draws attention to himself, each of his allies in medium range adds [BO] to Perception, Skulduggery, and Stealth checks.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <Price>500</Price>
+    <Rarity>5</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>If wearer draws attention to himself, allies in medium range add [BO] to Perception, Skulduggery, and Stealth checks.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>SECSKIN</Key>
+    <Name>Second Skin Armor</Name>
+    <Description>
+      [H3]Second Skin Armor[h3]
+
+Like most types of armored clothing, second skin armor offers moderate protection while still enabling easy movement and flexibility. Unlike most forms, though, this variant remains remarkably thin and can often even be hidden under a layer of looser, non-protective clothes, making it almost undetectable. The lightweight nature of second skin armor, however, carries a correspondingly higher cost without offering a measurable increase in protection. 
+
+[P]Add [SE][SE] to a character's Perception checks to notice second skin armor on the wearer. 
+
+[BR][B]Models include:[b] Preparix Second Skin, Aylixe/Krongbing Undershield.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <Price>2000</Price>
+    <Rarity>7</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [SE][SE] to Perception checks to notice second skin armor on the wearer.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>ARMROBE</Key>
+    <Name>Armored Robes</Name>
+    <Description>
+      [H3]Armored Robes[h3]
+
+Often worn by Jedi engaging in dangerous activity during the Clone Wars, armored robes grant exceptional protection. Armored robes are distinct and unmistakable, however, making them uncommon in Imperial space. Durable, hard-wearing robes are draped over a variant on the standard Jedi tunic and pants. Attached to the tunic and pants are sets of plasteel plates that provide similar protection to heavy battle armor. Of course, such gear is highly illegal on any Imperial world. 
+[BR][B]Models Include:[b] Various cuts and styles.</Description>
+    <Source>Force and Destiny Core Rulebook</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <HP>2</HP>
+    <Price>4500</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>CONROBE</Key>
+    <Name>Concealing Robes</Name>
+    <Description>
+      [H3]Concealing Robes[h3]
+
+Many ancient Jedi Knights favored heavy concealing robes for their anonymity, and now Force users throughout the galaxy use them to avoid notice. While they can be made in a variety of styles from nearly any material, all concealing robes are many-layered, floor-length garments with deep hoods which can easily obscure an individual's shape and hide his face in shadow and folds of cloth. 
+
+[P]Thanks to their cut and construction, concealing robes add [SE] to checks to notice or recognize an individual wearing them. 
+[BR][B]Models Include:[b] Various cuts and combinations.</Description>
+    <Source>Force and Destiny Core Rulebook</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Encumbrance>1</Encumbrance>
+    <Price>150</Price>
+    <Rarity>2</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>
+          Add [SETBACK] to checks to notice or recognize an individual wearing concealing robes.
+        </MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>BODYSUIT</Key>
+    <Name>Polis Masson Bodysuit</Name>
+    <Description>
+      [H3]Polis Masson Bodysuit[h3]
+[P]The Polis Massans employ unique, tight-fitting bodysuits in their day-to-day lives. Not only do the suits provide some incidental protection from physical damage, but they also supply a number of load- bearing pockets, clips, and straps to keep important equipment close at hand.
+[P]All Polis Massan bodysuits include a tiny head- mounted multidirectional glow rod, as well as an integrated utility belt (which increases the wearer’s encumbrance by 1). Though designed with Polis Massan physiology in mind, bodysuits for use by other species have been commissioned.     
+    </Description>
+    <Source>Strongholds of Resistance</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>1</Encumbrance>
+    <HP>1</HP>
+    <Price>300</Price>
+    <Rarity>6</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Includes a head-mounted multidirectional glow rod.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Key>ENCTADD</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>LEVPOWARM</Key>
+    <Name>Leviathan Power Armor</Name>
+    <Description>
+      [H3]Leviathan Power Armor[h3]
+[P]Designed by the Mon Calamari for use in subaquatic military operations, Leviathan power armor has seen plenty of use within the Rebel Alliance. In particular, the Alliance employs Leviathan power armor during operations on aquatic Imperial facilities and targets. The armor not only provides protection from the pressure of deep-water operations, but acts as a stable weapons platform for its integrated flechette rifle and mini-torpedo launcher.
+[P]Though created for use by Mon Calamari, Leviathan suits can be modified to fit members of other species. More often than not, they are created for specific individuals by Mon Cal craftsmen. Much like Mon Calamari starships, each Leviathan suit is a unique work of art, and no two suits are identical in appearance.
+[P]Any character wearing a Leviathan suit that was not built for him upgrades the difficulty of Agility and Brawn-based checks once.
+[P]A Leviathan suit is fully sealed and has an integrated respirator (see page 1 95 of the Age of Rebellion Core Rulebook). It automatically possesses the following attachments: a heating system, an enhanced optics suite, and a strength enhancement system (see page 187 of the Age of Rebellion Core Rulebook). These attachments are already installed, and cannot be removed. Each suit is also equipped with one Mon Cal
+Defenses mini torpedo launcher and one Salus DF-D1 duo-flechette rifle.    
+    </Description>
+    <Source>Strongholds of Resistance</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Hard</Category>
+      <Category>Full Body</Category>
+      <Category>Powered</Category>
+      <Category>Heavy</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>8</Encumbrance>
+    <HP>1</HP>
+    <Price>15000</Price>
+    <Rarity>8</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>
+          Includes a built-in respirator
+        </MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>
+          Includes a built-in Mini-Torpedo Launcher
+        </MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>
+          Includes a built-in DF-D1 Duo-Flechette Rifle
+        </MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>
+          Reduces the difficulty of Resilience checks made
+          to resist the effects extreme cold by one.
+          Removes up to [SETBACK][SETBACK] added to checks
+          due to extreme cold.
+        </MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>
+          Removes up to [SETBACK][SETBACK] added to all Perception,
+          Vigilance, and combat skill checks
+          due to darkness, smoke, or other environmental effects
+          that obscure vision.
+        </MiscDesc>
+      </Mod>
+      <Mod>
+        <Key>BR</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers>
+      <WeaponModifier>
+        <UnarmedName>Mini-Torpedo Launcher (Built-in)</UnarmedName>
+        <SkillKey>RANGHVY</SkillKey>
+        <Damage>8</Damage>
+        <Crit>2</Crit>
+        <Qualities>
+          <Quality>
+            <Key>BLAST</Key>
+            <Count>6</Count>
+          </Quality>
+          <Quality>
+            <Key>CUMBERSOME</Key>
+            <Count>2</Count>
+          </Quality>
+          <Quality>
+            <Key>LIMITEDAMMO</Key>
+            <Count>2</Count>
+          </Quality>
+        </Qualities>
+        <BaseMods>
+          <Mod>
+            <Count>1</Count>
+            <MiscDesc>All combat checks to operate outside of water have their difficulty upgraded twice.</MiscDesc>
+          </Mod>
+        </BaseMods>
+        <RangeValue>wrLong</RangeValue>
+        <Range>Long</Range>
+      </WeaponModifier>
+      <WeaponModifier>
+        <UnarmedName>DF-D1 Duo-Flechette Rifle (Built-in)</UnarmedName>
+        <SkillKey>RANGHVY</SkillKey>
+        <Damage>9</Damage>
+        <Crit>3</Crit>
+        <Qualities>
+          <Quality>
+            <Key>BLAST</Key>
+            <Count>4</Count>
+          </Quality>
+          <Quality>
+            <Key>LIMITEDAMMO</Key>
+            <Count>5</Count>
+          </Quality>
+          <Quality>
+            <Key>LINKED</Key>
+            <Count>1</Count>
+          </Quality>
+          <Quality>
+            <Key>VICIOUS</Key>
+            <Count>2</Count>
+          </Quality>
+        </Qualities>
+        <RangeValue>wrShort</RangeValue>
+        <Range>Short</Range>
+      </WeaponModifier>
+    </WeaponModifiers>
+    <Defense>2</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>VERPFIBUARM</Key>
+    <Name>Verpine Fiber Ultramesh Armor</Name>
+    <Description>
+      [H3]Verpine Fiber Ultramesh Armor[h3]
+Fiber ultramesh armor is the standard armor worn by Verpine colony guards. It is a more advanced version of Verpine fiber mesh armor, with a tighter weave and sturdier construction. Ultramesh is provided as a flexible bodysuit, rather than as a single torso piece. It gains exceptional rigidity when exposed to an electric current, which is provided by a diminutive battery pack.
+[P]The Verpine have been exporting fiber mesh and fiber ultramesh armor for centuries, making it a relatively common sight on Outer Rim worlds. Alliance agents appreciate the versatility of being able to switch between a comfortable set of armor to a more protective, albeit less comfortable set at the push of a button.
+[P]As a maneuver, the wearer may power up or power down the armor. While the armor is powered up, the wearer gains +2 defense. However, any character may spend [AD][AD] or [TR] from a Combat check against the character to cause it to run out of power; the armor becomes powered down and cannot be powered up until the end of the encounter.
+    </Description>
+    <Source>Strongholds of Resistance</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Heavy</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>2</HP>
+    <Price>3000</Price>
+    <Rarity>5</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Armor may be powered up/down as a maneuver.  While powered up, gain +2 defenses. [AD][AD] or [TR] from hostile Combat check can cause armor to run out of power.  Cannot be powered up again until end of encounter.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>CRESHARMOR</Key>
+    <Name>Cresh "Luck" Armor</Name>
+    <Description>
+      [H3]Cresh "Luck" Armor[h3]
+[P]Creshaldyne riot armor is a popular choice among police and paramilitary units across the galaxy. It consists of an armored chest piece and accompanying helmet with a flip down face shield. With the addition of a short-range infrared sensor system, it can also warn of nearby threats within thirty meters, allowing the wearer an additional split second to respond to them. It is this feature that gives Cresh "luck" armor its name. 
+[P]When active, the infrared sensor array detects any mass greater than ten kilograms that is moving faster than one meter per second, as well as other hazards defined by its programming.
+[P]The wearer of Cresh luck armor adds automatic [AD] to Vigilance checks.    
+    </Description>
+    <Source>Keeping the Peace</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Half Body</Category>
+      <Category>Hard</Category>
+      <Category>Heavy</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>1</HP>
+    <Price>1000</Price>
+    <Rarity>5</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add automatic [AD] to Vigilance checks.</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>VIGIL</SkillKey>
+            <AdvantageCount>1</AdvantageCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>JEDIBA</Key>
+    <Name>Jedi Battle Armor</Name>
+    <Description>
+      [H3]Jedi Battle Armor[h3]
+[P]When the Jedi battled Sith warriors in ancient days, many wore suits of armor to protect themselves from the weapons of their enemies.  Crafted by some of the best armorsmiths in the galaxy, these suits of battle armor were extremely resistant to cutting edges and baster fire alike. They were also quite cumbersome, and each one was custom forged for its wearer. Though hundreds of such suits were made, only a handful have survived to the present day in anything resembling usable condition, and all specimens are still fitted to their wearers of old. 
+[P]A character wearing Jedi battle armor fitted for somebody else adds [SE][SE] to all Combat checks. A suit of Jedi battle armor can be fitted to a new wearer with a Hard ([DI][DI][DI]) Mechanics check that takes an hour to complete. Jedi battle armor is eligible to be sealed against the vacuum and other hazardous environments.</Description>
+    <Source>Keeping the Peace</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealable</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Hard</Category>
+      <Category>Full Body</Category>
+      <Category>Heavy</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>5</Encumbrance>
+    <HP>5</HP>
+    <Price>7500</Price>
+    <Rarity>9</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Wearing Jedi Battle Armor fitted for someone else adds [SE][SE] to all combat checks.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Fitting to new wearer requires a [B]Hard ([DI][DI][DI]) Mechanics check[b] and an hour to complete.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>JEDITEMGUAARM</Key>
+    <Name>Jedi Temple Guard Armor</Name>
+    <Description>
+      [H3]Jedi Temple Guard Armor[h3]
+[P]The Jedi Temple Guard were some of the best fighters the JEdi Order had to offer, sworn to protect the temple to the end. The armor they wore was as imposing as it was effective. Temple Guard armor consists of brown armored robes a helmet and an impassive, emotionless mask. Anonymity was as important to a Jedi Temple Guard as combat skill, and they were sworn to be completely impartial in the execution of their duty. Though the records state that all members of the Jedi Temple Guard were slain by Darth Vader and the 501st Legion troops he lead, some of their battlegear survives in private collections and lost corners of the galaxy.
+[P]The armored mask contains a helmet comlink and an in-helmet scanner.
+    </Description>
+    <Source>Keeping the Peace</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Half Body</Category>
+      <Category>Heavy</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>3</HP>
+    <Price>12000</Price>
+    <Rarity>10</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Contains helmet comlink.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Contains integrated scanner.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>2</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>JEDITRAINSUITW</Key>
+    <Name>Jedi Training Suit (Weighted)</Name>
+    <Description>
+      [H3]Jedi Training Suit (Weighted)[h3]
+The armor utilized by Jedi Padawans in training was far from functional, but it still shows up occasionally, especially in the possession of lose students who have lost their masters. The typical training suit features bulky, heavily padded chest, leg and arm pieces designed to absorb the stunning blows of training lightsabers. Training suits also incorporate weights in their major components so that learners can get used to the effects armor has on their mobility.
+[P]Jedi training suits were a common sight in the Jedi temple, often accompanied by WJ-880 blinding helmets. Padawans in the early phases of their training were made to wear their suits on a daily basis. The constant weight of the suit helped physically strengthen the Jedi-to-be. Most training suits incorporated bright colors so their purpose as a training tool was obvious. These colors were also used to differentiate teams of Padawans during group training.
+[P]Unless the integrated weights are removed, a Jedi training suit has an encumbrance of 6. Removal of these weights, which requires which requires an Easy ([DI]) Mechanics check, reduces the suit's encumbrance to 4. At the GM's discretion, training while wearing the weights might help a character develop physical fitness or adapt to high-gravity environments.      </Description>
+    <Source>Keeping the Peace</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Half Body</Category>
+      <Category>Heavy</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>6</Encumbrance>
+    <Price>400</Price>
+    <Rarity>9</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Removing weights requires an [B]Easy ([DI]) Mechanics check[b].</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>JEDITRAINSUIT</Key>
+    <Name>Jedi Training Suit (Unweighted)</Name>
+    <Description>
+      [H3]Jedi Training Suit (Unweighted)[h3]
+The armor utilized by Jedi Padawans in training was far from functional, but it still shows up occasionally, especially in the possession of lose students who have lost their masters. The typical training suit features bulky, heavily padded chest, leg and arm pieces designed to absorb the stunning blows of training lightsabers. Training suits also incorporate weights in their major components so that learners can get used to the effects armor has on their mobility.
+[P]Jedi training suits were a common sight in the Jedi temple, often accompanied by WJ-880 blinding helmets. Padawans in the early phases of their training were made to wear their suits on a daily basis. The constant weight of the suit helped physically strengthen the Jedi-to-be. Most training suits incorporated bright colors so their purpose as a training tool was obvious. These colors were also used to differentiate teams of Padawans during group training.
+[P]Unless the integrated weights are removed, a Jedi training suit has an encumbrance of 6. Removal of these weights, which requires which requires an Easy ([DI]) Mechanics check, reduces the suit's encumbrance to 4. At the GM's discretion, training while wearing the weights might help a character develop physical fitness or adapt to high-gravity environments.      
+    </Description>
+    <Source>Keeping the Peace</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Half Body</Category>
+      <Category>Heavy</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <Price>400</Price>
+    <Rarity>9</Rarity>
+    <Restricted>true</Restricted>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>KOROHALFVEST</Key>
+    <Name>Koromondian Half-Vest</Name>
+    <Description>
+      [H3]Koromondian Half-Vest[h3]
+[P]Referred to snidely as "bounty hunter insurance" by cynics across the galaxy, the Koromondian half-vest is a common variation of the Mk 45 protective vest produced by the Koromondian PDS, Inc. The vest is designed to protect the wearer from ambushes and sudden attacks from unexpected directions. However, its durability is sch that it quickly loses its  protective qualities as it absorbs damage. Despite this drawback, its low cost endears it to bounty hunters, paramilitary forces, security firms and anyone else short on credits. 
+[P]Whenever a character wearing a Koromondian half-vest suffers a Critical Injury, the armor suffers minor damage (or becomes damaged by one additional step if it is already damaged, as described on page 166 of the Force and Destiny core rulebook.)      </Description>
+    <Source>Keeping the Peace</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Heavy</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <Price>500</Price>
+    <Rarity>5</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>When wearer suffers Critical Injury, armor suffers minor damage, or increases current damage by one step.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>KAVDANNPA</Key>
+    <Name>Kav-Dann Power Armor</Name>
+    <Description>
+      [H3]Kav-Dann Power Armor[h3]
+[P]Developed by the various interests and groups in secret on Nubia following the Empire's rise to prominence. Kav-Dann series power armor is named after a reptilian predator native to the world. Though intended for sale to the Rebel Alliance, the Imperial presence on Nubia has prevented meaningful distribution of the experimental suit. Available at a premium price, especially considering its clandestine status. Kav-Dann power armor presents a highly customizable canvas for individuals involved in high-risk combat situations.
+[P]Bulky and intimidating, Kav-Dann power armor presents a fully sealed chassis that is impervious to most adverse environments, including open space. The suit comes equipped with few amenities by default. The Nubian engineers who created the Kav-Dann power armor intended for major modifications and upgrades to be made by the buyer, which both reduces the expense of the suit and decreases manufacturing time.
+[P]Like many other varieties of powered armor, a Kav-Dann suit is spaceworthy and includes a full life-support suite that can be modified for most alien physiologies. A wearer can survive for four hours in a vacuum or unbreathable atmosphere, and gains [BO] to checks to resist the effects of radiation. The helmet incorporates the long-range comlink and a basic visual package that allows for the wearer to remove [SE] caused by darkness, smoke or other environmental factors that might affect vision from all Perception, Vigilance, and Combat checks.
+[P]Kav-Dann power armor increases the wearer's Brawn by 1 so long as it remains powered, though this bonus does not increase the user's soak or wound threshold. The listed encumbrance of 4 reflects the bulk of the armor when powered. If the suit loses power for any reason, the encumbrance increases to 12, defense is reduced to -, and the bonus to Brawn is lost. Donning a suit of Kav-Dann power armor takes ten minutes, though this time can be halved if the wearer is assisted.</Description>
+    <Source>Keeping the Peace</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealed</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Hard</Category>
+      <Category>Full Body</Category>
+      <Category>Powered</Category>
+      <Category>Heavy</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>6</HP>
+    <Price>13500</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key>BR</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Remove [SE] caused by darkness, smoke, or other environmental factors that might affect vision from Perception, Vigilance, and Combat checks.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Gain [BO] to resist the effects of radiation.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>2</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>RIOTARM</Key>
+    <Name>Riot Armor</Name>
+    <Description>
+      [H3]Riot Armor[h3]
+[P]Produced by countless manufacturers throughout the galaxy, riot armor is a general term for light combat armor designed for personal protection in high-intensity conflicts. Though designs vary, riot armor often includes a helmet with an integrated face shield and padded vest and greaves interwoven with ballistic cloth. Given its ubiquity and customizability, riot armor remains a popular choice for anyone interested in self-defense on a budget.
+    </Description>
+    <Source>Keeping the Peace</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Half Body</Category>
+      <Category>Heavy</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>2</HP>
+    <Price>950</Price>
+    <Rarity>4</Rarity>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>CLOAKCOAT</Key>
+    <Name>Cloaking Coat</Name>
+    <Description>
+      [H3]Cloaking Coat[h3]
+While spies, thieves and saboteurs favor more expensive personal stealth fields and similar devices, a skilled Slicer typically considers staying unnoticed by sensors and probes to be the most important part of breaking through security. After all, if the slicer runs into organic guards in person, something has already gone dramatically wrong elsewhere in the planned operation or heist. To avoid automated detection measures, amny Slicers invest in or construct cloaking coats. These heavy, full-body suits are outfitted with jamming suites designed to mask the wearer's presence from detection. A cloaking coat's sensors and automated systems keep the wearer hidden by constantly broadcasting an obscuring cloud of junk data. this specialized array does nothing to stop visual recognition but it can baffle almost any scanner. A skilled Sliver can even modify the clouding signal it broadcasts on the fly to confuse droid brains into disregarding the wearer as backgroud data rather than as a being of any note.
+
+[P]Upgrade the difficulty of all checks to detect an individual wearing a cloaking coat using sensors or electronic forms of detection twice. Droids with an Intellect characteristic lower than the character's ranks in the Computers skill are also affected in the same way when trying to detect the character.
+    </Description>
+    <Source Page="47">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>1</HP>
+    <Price>550</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Upgrade difficulty of checks to detect an individual wearing a cloaking coat using sensors or electronics twice.  Droids with Intellect less than wearer's ranks in Computers are similarly affected.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>MECHUTILSUIT</Key>
+    <Name>Mechanic's Utility Suit</Name>
+    <Description>
+      [H3]Mechanic's Utility Suit[h3]
+Not so much armor as an adaptation applied to the rugged clothing common to Technicians on the go, a utility suit is bedecked with pockets, attachment hooks, and gear straps. The shape of the suit varies based on the creator, although retail models tend to resemble dusters or trenchcoats over a pocket-festooned apron.
+[P]The wearer counts as having a tool kit (see pages 181-182 of the [B]Edge of The Empire Core Rulebook[b]).</Description>
+    <Source Page="48">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>5</Encumbrance>
+    <HP>1</HP>
+    <Price>1175</Price>
+    <Rarity>3</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Counts as having a tool kit.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>N57</Key>
+    <Name>N-57 Armor</Name>
+    <Description>
+      [H3]Merr-Sonn N-57 Armor[h3]
+The latest suit in Merr-Sonn's N-series armor for combat engineers has broken with the company's typical policy of selling exclusively to established planetary militaries and is available for general purchase on the open market. unrest across the galaxy has made everyone from Rebel saboteurs to civilian contractors in dangerous areas interested in a little extra protection as they work. Fortunately, combat engineering armor exists to meet their needs. In addition to providing protection comparable to laminate armor, the suit also includes a microgenerator that can be used to power attachments or provide an emergency boost to external equipment.
+[P]As a maneuver, the wearer may recharge an energy weapon or device that has run out of power or ammunition in the manner of an extra reload/power pack (see page 181 pf the [B]Edge of The Empire Core Rulebook[b]).
+    </Description>
+    <Source Page="48">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealable</Category>
+      <Category>Full Body</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Hard</Category>
+      <Category>Heavy</Category>
+      <Category>Resistant</Category>
+      <Category>Powered</Category>
+    </Categories>
+    <Encumbrance>5</Encumbrance>
+    <HP>5</HP>
+    <Price>3000</Price>
+    <Rarity>6</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>As a maneuver, may recharge energy weapon that has run out of ammo.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>P14</Key>
+    <Name>P-14 Hazardous Industry Suit</Name>
+    <Description>
+      [H3]SoroSuub P-14 Hazardous Industry Suit[h3]
+    Hazardous industry suits, common from manufacturers accross the galaxy, allow technical experts and laborers alike to deal with workshop or factory conditions dangerous to most living species. Some models, like the Soro-Suub P-14, are heavily reinforced enough to even provide limited protection against a blaster bolt, abd they all feature extraordinary protection against heat, radiation, fumes and other perils of working with damaged or poorly maintained machinery. A hazardous industry suit creates an environmental seal when the helmet is worn and is good for up to eight hours of protection from hostile atmosphers, deadly radiation or even direct exposure to the void. Finally, the suit's special chemical coating insulates the wearer from burns and shocks. However, their extraordinary protection comes at the cost of mobility, as hazardous industry suits are extremely bulky, with barely more than the range of motion needed to wield a hydrospanner effectively.
+[P]The hazardous industry suit counts as a breath mask (see page 179 of the [B]Edge of The Empire Core Rulebook[b]). Further, the wearer adds [BO][BO] to Resilience checks to resist heat, cold, radiatin and other hostile environmental conditions. The wearer does not suffer the effects of the Burn or Disorient item qualities. When the wearer suffers strain in order to take an extra maneuver, he suffers 1 additional strain.
+    </Description>
+    <Source Page="48">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Heavy</Category>
+      <Category>Resistant</Category>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>7</Encumbrance>
+    <HP>2</HP>
+    <Price>1000</Price>
+    <Rarity>4</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Counts as wearing a breath mask.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [BO][BO] to [B]Resilience checks[b] to resist heat, cold, radiation, or other hostile environmental conditions.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Wearer does not suffer effects of Burn or Disorient qualities.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>When suffering strain to take an extra maneuver, suffer 1 additional strain.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>REBELHEAVY</Key>
+    <Name>Rebel Heavy Battle Armor</Name>
+    <Description>
+      [H3]Rebel Heavy Battle Armor[h3]
+Most Alliance field tactics focus on hit-and-fade strikes, sabotage and denial operations, but sometimes the Rebellion has no choice but to stand and fight against Imperial forces. Unfortunately, the Rebellion lacks the manpower and weapons to dominate the Empire in field warfare. Rebel infantry uses heavy battle armor to help ensure their survival when outmanned and outgunned by superior Imperial numbers.
+[P]Rebel heavy battle armor is a combination of composites, laminate and armored clothing that provides significant overall protection. The base layer is made of armorweave cloth to disspate blaster bolts and plastoid segments over top to protect from fragmentation and blunt force. The combination of materials provides heavy protection while allowing freedom of movement, unlike most full laminate battle suits.
+[P]Rebel heavy battle armor is equipped with helmet-fitted breath mask and respirator (see page 195 of the [B]Age of Rebellion [b] Core Rulebook).
+    </Description>
+    <Source Page="50">Forged in Battle</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Hard</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>5</Encumbrance>
+    <HP>5</HP>
+    <Price>6000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Equipped with a helmet-fitted breath mask and respirator.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>IMPHAZARD</Key>
+    <Name>Imperial Hazard Trooper Armor</Name>
+    <Description>
+      [H3]Imperial Hazard Trooper Armor[h3]
+Imperial stormtroopers have specialized arm or for
+nearly every situation, and the Imperial hazardous
+environment protective armor, or "hazard trooper
+armor,” is one of the most rugged armor suits in the
+corps. Using a powered arm or frame similar to that
+of space troopers, hazard trooper armor augments
+the strength of the wearer and provides protection
+against radiation, acids and toxic chemicals, and
+extreme pressures or vacuums. Movement in the armor is sluggish due to its bulk, but a neural interface
+with the wearer's cybernetics reduces response time
+to a minimum, ensuring marksmanship is unimpeded
+by the armor. While manufactured by the Empire for
+its exclusive use, hazard trooper armor often finds its
+way into the hands of the Rebel Alliance.
+[P]Hazard troopers are known for their incredible
+strength, but this actually stems from the troopers
+standard cybernetic enhancements rather than any
+quality of the armor. More than a few rebel operatives have been disappointed to discover this fact
+after claiming a set of hazard trooper armor in battle.
+[P]Once active, the arm or’s internal life support and
+power systems allow the wearer to survive in radiation zones, toxic environments, and total vacuums for
+up to twenty-four hours. The armor also incorporates
+a high-powered comlink able to communicate from
+the ground to low orbit. The helmet is equipped with
+a multi-frequency targeting and acquisition system
+which removes [SE][SE] due to darkness, smoke, or similar environmental factors that obscure vision from the
+wearer’s Perception, Vigilance, and combat checks.
+    </Description>
+    <Source Page="49">Forged in Battle</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Hard</Category>
+      <Category>Heavy</Category>
+      <Category>Powered</Category>
+      <Category>Sealed</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>3</HP>
+    <Price>18000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Remove [SE][SE] due to darkness, smoke or similar environmental factors that obscure vision from the wearer's Perception, Vigilance, and combat checks.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>3</Soak>
+  </Armor>
+  <Armor>
+    <Key>ALLIANCELTSTEALTH</Key>
+    <Name>Alliance Light Stealth Armor</Name>
+    <Description>
+      [H3]Alliance Light Stealth Armor[h3]
+The inferior numbers and resources of the Alliance
+military force rebel soldiers to rely on stealth and subterfuge to accomplish most of their missions. Unfortunately, cutting-edge Imperial sensors can often detect
+life forms and energy signatures from conventional
+blaster weaponry, making some infiltration missions
+impossible. Rebel soldiers have sometimes acquired
+functioning storm com mando armor, but stealing
+from the enemy is not an especially reliable means
+of resupplying. That is why Alliance R&amp;D reverseengineered the technology behind storm commando
+armor and developed their own, albeit lower-grade,
+stealth armor. Most Alliance stealth arm or is retrofitted Mk II Clone Trooper arm or left over from the
+final days of the Republic sprayed in various camouflage patterns or matte black. A coating of specialized
+material absorbs some light and sound waves, making
+it easier for marines and special forces troops to move
+about unnoticed by sensors and sentries.
+[P]This armor adds [BO] to the wearer’s Stealth checks.
+
+    </Description>
+    <Source Page="49">Forged in Battle</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealable</Category>
+      <Category>Full Body</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Hard</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>2</HP>
+    <Price>2200</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Adds [BO] to the wearer's Stealth checks.</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>STEAL</SkillKey>
+            <BoostCount>1</BoostCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>SURVIVALARMOR</Key>
+    <Name>Survivalist Armor</Name>
+    <Description>
+      [H3]Creshaldyne Survivalist Armor[h3]
+Creshaldyne Industries is known throughout the galaxy as a purveyor of finely made working clothes for hunters, scouts and others who live in frontier settings. It offers multiple lines of clothing and armor in a number of proprietry colors and camouflage patterns, as well as camping and hunting gear for the discerning buyer. One of the company's newer offerings in the Survivalist line of personal armor found in police forces and paramilitary organizations througout the galaxy, the Survivalist line is lightweight and hard wearing and performs well in nearly every environment.
+[P]a suit of Survivalist armor provides whole-body protection, with reinforcement patches at the elbows, knees and shoulders that combines a collection of pouches of various sizes with attachments for external bags, backpacks and sustems to aid with its load-carrying capabilities.
+[P]Wearing a suit of Survivalist armor increases the wearer's encumbrance threshold by 1.
+</Description>
+    <Source Page="45">Savage Spirits</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>2</HP>
+    <Price>350</Price>
+    <Rarity>6</Rarity>
+    <BaseMods>
+      <Mod>
+        <Key>ENCTADD</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>CHITIN</Key>
+    <Name>Chitin Armor</Name>
+    <Description>
+      [H3]Chitin Armor[h3]
+Chitin armor is usually made by hand from the husks of various giant insect species found throughout, the galaxy. Essentially a poor poerson's composite armor, chitin is made by working insect carapaces into protective plates and attaching them to a flexible backing. This is typically standard cloth but occasionally more advanced materials like mylamesh or the balistic cloth used in armored bodysuits is used. Each suit of chitin armor is unique. Depending on the materials used, a chitin suit can be any color, cut or style imaginable. The creatures whose hides are used in the construction of a suit of chitin armor might also offer protective qualities such as the ability to better deflect blaster bolts or blend into specific environments.
+[P]Chitin armor makes a strong statement about the wearer and these suits tend to have a startling effect on people in civilized society. A character wearing a suit of chitin armor adds automatic [AD] to her Coercion checks and automatic [TH] on her Charm checks. The Game Master may determine that the armor provides further benefits or drawbacks depending on the situation.</Description>
+    <Source Page="45">Savage Spirits</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Hard</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>1</HP>
+    <Price>600</Price>
+    <Rarity>6</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [ADVANTAGE] to Coercion checks and [THREAT] to Charm checks. </MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>COERC</SkillKey>
+            <AdvantageCount>1</AdvantageCount>
+          </DieModifier>
+          <DieModifier>
+            <SkillKey>CHARM</SkillKey>
+            <ThreatCount>1</ThreatCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>ANIPRO</Key>
+    <Name>AniPro Layered Beast Armor</Name>
+    <Description>
+      [H3]VeTech AniPro Layered Beast Armor[h3]
+Light and easy to maintain, the AniPro-series  layered beast armor by VeTech strikes a good balance between protection and practicality. Somewhat similar to light armor suits worn by many of the galaxy's law enforcement officers, it is made from thick layers of synthetic fibers reinforced with lengths of energy absorbing armorweave. This material is backed with thin polycarbonate plates at strategic loations on an animal's neck, shoulders, back and leg. Thanks to its design and lightweight construction, AniPro armor doesn't weigh an animal down or restrict its speed or range motion, making it easy to wear for extended lengths of time.
+[P]AniPro beast armor can only be worn by riding or working animals. In addition to providing protection to a mount, this armor allows a character to ride the animal without suffering the bareback riding penalties detailed on page 73.
+    </Description>
+    <Source Page="44">Savage Spirits</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Half Body</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <Price>2500</Price>
+    <Rarity>5</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>May only be worn by a beast.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>May ride a beast without suffering bareback penalty.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>THINSUIT</Key>
+    <Name>Karflo Thinsuit</Name>
+    <Description>
+      [H3]Karflo Thinsuit[h3]
+Used by professional scouts, science labs, and special
+forces the galaxy over, the thinsuit by Karflo Corporation is among the most popular environmental protection gear around. While most protective equipment
+specializes in keeping the wearer safe from exposure
+to a particular environmental condition, the thinsuit
+provides protection against a wide variety of dangerous environments without hampering movement or
+slowing reaction speeds. Despite the fact that it grants
+minimal protection against blasters and other armaments, the ease of transporting it makes it a popular
+addition to the kit of many elite combat units. Made
+from a proprietary material that regulates internal
+conditions while blocking external ones, the thinsuit
+protects from dangerous tem peratures, pressure,
+radiation, chemicals, and partial vacuums.
+[P]The thinsuit is a skin-tight body glove, weighing only
+one kilogram, which provides total coverage for standard humanoids, leaving only the face exposed. The
+suit comes with a facemask and filtration system th at
+purifies standard atmosphere for up to six hours and
+provides one hour of internal power. The stock suit
+comes with six removable filters and power packs,
+easily stored in the thinsuit’s many pockets.
+[P]A character equipped with a thinsuit removes [SE][SE]
+imposed by the environm ent in which she is currently
+operating from her checks.</Description>
+    <Source Page="50">Forged in Battle</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Price>1200</Price>
+    <Rarity>6</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Remove [SE][SE] from checks imposed by environment in which the user is currently operating.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>IMPSTORMCOMM</Key>
+    <Name>Imperial Storm Commando Armor</Name>
+    <Description>
+      [H3]Imperial Storm Commando Armor[h3]
+Storm commandos are among the Empire's most elite,
+with the most advanced equipment available. Their
+armor allows the same flexibility as scout trooper
+armor, but is reinforced to provide maximum protection against blaster fire and explosions. Both the
+bodysuit and laminate plates are coated in “reflec”
+polymer, which distorts light and absorbs sound,
+making the wearer incredibly difficult to detect.
+[P]The armor’s helmet is equipped with macrobinoculars and scanner goggles (see page 191 of the [B]Age of
+Rebellion[b] Core Rulebook) as well as a comlink.
+[P]While wearing storm commando armor, a character
+removes [SE] due to darkness, smoke, or similar environmental factors that obscure vision from all of her
+Perception, Vigilance, and combat checks. Additionally, storm commando armor adds [SE] to other characters’ Perception checks to detect the wearer.</Description>
+    <Source Page="49">Forged in Battle</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealable</Category>
+      <Category>Full Body</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Hard</Category>
+      <Category>Heavy</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>4</HP>
+    <Price>5000</Price>
+    <Rarity>9</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Helmet is equipped with macrobinoculars, scanner goggles, and a comlink.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>While wearing storm commando armor, a character removes [SE] due to darkness, smoke, or similar environmental factors that obscure vision from all Perception, Vigilance, and combat checks.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Adds [SE] to other characters' Perception checks to detect the wearer.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>PITCREWCOV</Key>
+    <Name>Pit Crew Coveralls</Name>
+    <Description>
+      [H3]Pit Crew Coveralls[h3]
+Working as a mechanic in a pit crew, whether fixing lowly groundcars on a dusty Outer Rim backwater or maintaining elaborate podracers in a high-end racing circuit, is a dirty job. It requires clothing that stands up to hard wear and resists chemicals, fuels, lubricants, paints, weilding spatter and anything else heavy work can throw at it. Pit crew coveralls are thus ubiquitous wherever individuals work with racing machines or other powerful vehicles. These garments are sturdy, one-piece suits that fit over regular clothes to protect both the clothes and the wearer. They are typically made of sturdy, tear-proof textiles and secured with heavy-duty clasps and zippers. Most are flame resistant and some can even be sealed up with a helmet to act as an emergency, limited-use environmental suit. No matter the type, though, pit crew coveralls are always covered in pockets and hanging tabs that alow a wearer to carry tools and parts with ease.
+[P]When wearing pit crew coveralls, a character reduces damage she suffers from fires and weapons with the Burn quality by 1. In addition, wearing pit crew coveralls increases the character's encumbrance threshold by 1.
+</Description>
+    <Source Page="44">Endless Vigil</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>1</Encumbrance>
+    <HP>1</HP>
+    <Price>150</Price>
+    <Rarity>2</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Reduce damage from fires and weapons with the Burn quality by 1.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Key>ENCTADD</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>GSUIT</Key>
+    <Name>G-Suit</Name>
+    <Description>
+      [H3]G-Suit[h3]
+G-suits, or gravity suits, are special garments worn under flight suits by pilots and racers who are regularly exposed to high g-forces, such as those experienced while racing or performing, aggressive aerobatics. G-suits use inflatable bladders, pressurized gel pockets, and compression garments to keep pilots' blood from pooling in their lower extremities, causing a dangerous condition known as g-LOC (g-induced loss of consciousness) which occurs when the brain is deprived of blood. G-suits pilots to  push their ships or vehicles further and operate them more aggressively without fear of blacking out. A character wearing a g-suit reduces the strain cost to perform a second Pilot Only maneuver during a turn by 1.
+    </Description>
+    <Source Page="44">Endless Vigil</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Price>2000</Price>
+    <Rarity>3</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Wearer reduces strain cost to perfrom a second Pilot Only maneuver by 1.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>ZEPHYRSTEALTH</Key>
+    <Name>Zephyr Stealth Suit</Name>
+    <Description>
+      [H3]Zephyr Stealth Suit[h3]
+Stealth suits, produced by comanies like Ayelixe/Kronbing Textiles and Creshaldyne, are designed to make a wearer difficult or impossible to detect by visual or technological means. Constructed from a wide array of materials and using technologies such as optical camouflage, silhouette breakers, thermal sinks and sound deadeners, they render a wearer nearly invisible under the right circumstances. Zephyr are a comon type of such stealth wear for those who often perform cover missions, and are favored amongst urban vigilantes, criminals, and industrial spies alike. These suits have dark, muted colors with matte-finish hardwar and come with gloves boots, and a head garment that covers everything but the wearer's eyes.
+[P]A character wearing a zephyr stealth suit upgrades the ability of any Stealth checks she makes once.
+    </Description>
+    <Source Page="44">Endless Vigil</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Price>5500</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Wearer upgrades the ability of any Stealth check once.</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>STEAL</SkillKey>
+            <UpgradeAbilityCount>1</UpgradeAbilityCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>CRASHGEAR</Key>
+    <Name>Crash Gear</Name>
+    <Description>
+      [H3]Crash Gear[h3]
+Most sets of crash gear consist of an assortment of protective wears designed to allow a user to better survive the inevitable collisions and buffeting that are part of every race or mission. Typical outerwear includes layers of microfiber cloth and impact-absorbing gel inserts worked into a jumpsuit or other form-fitting outfit, along with thick gloves and boots. Most importantly, crash gear comes with protective headwear. These can range from small skullcaps (known colloquially as "skid lids") to full-face, internally supported, environmentally sealed helmets that can rival military gear. Like crash gear outerwear, crash helmets inlude gel-packs and wicking microfiber but also have stron polycarbonate shells lined with dense polyfoam for greater protection. Some helmets are also equipped with integral face shields or flip-up visors that are tinted and polarized to protect the wearer's eyes from  both debris and flaring lights.
+[P]A character wearing crash gear ignores the effects of ongoing Critical Injuries on any Intellect or Cunning related checks but still suffers from the injuries themselves. She also cannot be disorientated.
+    </Description>
+    <Source Page="43">Endless Vigil</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Resistant</Category>
+    </Categories>
+    <Encumbrance>1</Encumbrance>
+    <HP>1</HP>
+    <Price>550</Price>
+    <Rarity>3</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Wearer ignores the effects of ongoing Critical Injuries on any Intellect- or Cunning-related checks, but still suffers from the injuries.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>ARMDROPSUIT</Key>
+    <Name>Armored Drop Suit</Name>
+    <Description>
+      [H3]Armored Drop Suit[h3]
+Mobility is often a decisive element in any engagement. Combatants from common killers-for-hire to Imperial storrmroopers know that taking a good position and controlling the flow of combat can be better protection than a durasteel blast door. Most armor designs factor this in to some degree, foregoing absolutely maximized plating or coverage to allow normal mobility, but a few suits go above and beyond the concept of allowing “normal mobility.”
+[P]Armored drop suits are a type of light laminate body armor constructed around a powerful repulsorift unit,
+allowing the wearer to fly between firing positions or
+spots of cover, or to rain down attacks from above.
+The arrangement of fabric and composite plating of
+the armor in such suits minimizes air resistance and
+improves maneuverabiIity, while still offering respectable protection against incoming fire.
+[P]As a maneuver, the wearer of an armored drop suit
+can engage his flight systems to function as a Silhouette 0, Speed 2, Handling + 2, System Strain Threshold 5 vehicle that; requires Piloting [Planetary] to
+operate. Further, while the flight systems are engaged
+and the wearer is conscious to guide himself down, he
+does not suffer damage from falling.
+      [P][I]Note:  A vehicle version of this armor exists with the same name.[i]
+    </Description>
+    <Source Page="49">No Disintegrations</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Hard</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Powered</Category>
+      <Category>Resistant</Category>
+      <Category>Sealable</Category>
+      <Category>Heavy</Category>
+    </Categories>
+    <Encumbrance>6</Encumbrance>
+    <HP>2</HP>
+    <Price>7500</Price>
+    <Rarity>7</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>While conscious and flight systems are engaged, wearer cannot suffer falling damage.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>HUNTTROPHARM</Key>
+    <Name>Hunter's Trophy Armor</Name>
+    <Description>
+      [H3]Hunter's Trophy Armor[h3]
+Bounty hunters who specialize in wild ammals and
+dangerous beasts sometimes make a habit of colecting trophies to show off their accomplishments. These trophies, from horns and teeth to hides and pelts, may end up on display in the bounty hunter's homes or ships, or these hunters might put them to more practical use. These hunters sometimes comission gear
+made from the trophies they have collected, gathering the toughened hides of whatever nigh-unstoppable creatures they have defeated so that their prey's resilience passes on to them.
+[P]A character wearing trophy armor suffers [SE] to Charm checks, but gains [BO][BO] to Coercion checks due to the armor's intimidating appearance. At the GM's discretion, Charm checks made to impress or persueade other character of the wearer's prowess may recieve [BO][BO] instead of [SE].
+[P]Trophy armor has two Prices and Availabilities on [B]Table 2-4: Armor[b]. Use the first price listed ([R] 2,000/9) if a character is attempting to purchase an existing suit of trophy armor outright, and the second price listed ([R] 1,000/6) if a character has already procured a suitable hide and wishes to have it fashioned into trophy armor by an artisan.
+      [P][I]Note:  If making your own suit from owned hides, price/rarity drops to 1000/6.[i]
+    </Description>
+    <Source Page="49">No Disintegrations</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Half Body</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>1</HP>
+    <Price>2000</Price>
+    <Rarity>9</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Wearer suffers [SE] to Charm checks.</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>CHARM</SkillKey>
+            <AddSetbackCount>1</AddSetbackCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Wearer gains [BO][BO] to Coercion checks due to armor's intimidating appearance.</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>COERC</SkillKey>
+            <BoostCount>2</BoostCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>MANDOARM</Key>
+    <Name>Mandalorian Armor</Name>
+    <Description>
+      [H3]Mandalorian Armor[h3]
+Although the ancient warrior culture of the Mandolorians is long past its heyday, its presence can still be felt on many worlds. Among the most recognizable Mandalorian items are their meticulously crafted suits of battle armor. Suits of Mandalorian armor offer some of the best personal protection in the galaxy, and their owner typically take advantage of the superlative construction to install numerous additional sub-systems and weapons. While there are few armorers capable of crafting this armor, the prestige of owning it comes at a premium to many bounty hunters.
+[P]Some hunters feel a spiritual kinship with the legendary Mandalorian warriros, who are described in stories across the galaxy as deadly—if ruthless—warriors and hunters. Others revel in the fear the suits still inspire, and many more simply recognize the quality of the armor as better than many of the best modern designs.
+[P]A few warriors even claim lineal descent from the old Mandalorian clans, such as the Death Watch terrorist group from the Clone Wars, although not everyone takes such claims seriously. Whatever their reasons, hunters who acquire Mandalorian armor often value their suits above nearly any other possession, and customize them with carefully selected modifications. Such upgrades make the suits even more durable, provide new utility to the wearer, or conceal deadly tricks to help a bounty hunter get the edge in any situation.
+[P]PCs who wish to obtain Mandalorian armor may find the effort of getting a suit worthy of the name more challenging than buying other gear. See [B]Acquiring Mandalorian Armor[b] for suggestions on acquiring Mandalorian armor with upgrades installed.
+    </Description>
+    <Source Page="50">No Disintegrations</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Heavy</Category>
+      <Category>Sealable</Category>
+      <Category>Hard</Category>
+    </Categories>
+    <Encumbrance>6</Encumbrance>
+    <HP>5</HP>
+    <Price>6000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>BIOGELSUIT</Key>
+    <Name>Biogel Suit</Name>
+    <Description>
+      [H3]Biogel Suit[h3]
+During martial arts training, both students and teachers put themselves at risk as they work through the process of education. A wayward strike can cause grievous injury, particularly when a participant is practicing at full speed or training with weapons. Steps must be taken to mitigate this risk, so that safety can be increased during the training process. While some argue that this decreases the sense of risk felt during training, the effective counterargument states that not every simulation has to be life threatening, particularly the earliest ones.
+[P]Biogel suits are semitranslucent, organic body gloves that completely encase the wearer. They provide protection against attacks such that while the defender can still feel an impact, the risk of injury is substantially reduced. However the suits are bulky, which can limit wearers' flexibility as well as thei ability to dodge an attack or strike at full strength.
+[P]The armor gains +1 soak when the wearer suffers damage from Brawl weapons or bludgeoning Melee weapons. A character adds [SE] to any Brawn- or Agility-based checks while wearing this armor.</Description>
+    <Source Page="45">Disciples of Harmony</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>6</Encumbrance>
+    <Price>3501</Price>
+    <Rarity>1</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Wearer gains +1 soak when hit by Brawl or bludgeoning Melee weapons.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Adds [SE] to any Brawn- or Agility-based skill checks.</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillChar>BR</SkillChar>
+            <AddSetbackCount>1</AddSetbackCount>
+          </DieModifier>
+          <DieModifier>
+            <SkillChar>AG</SkillChar>
+            <AddSetbackCount>1</AddSetbackCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>FORMCOUNARM</Key>
+    <Name>Formal Council Armor</Name>
+    <Description>
+      [H3]Formal Council Armor[h3]
+In rare circumstances, Jedi were called in to treat with societies for which status and associated symbols played a significant factor in negotiations. Some cultures maintain intricate systems of etiquette or strictly enforce caste systems. Other cultures engage in ostentatious demonstrations of wealth among their ruling classes. These societies expected any negotiator from the Republic to conform to their standards. In these circumstancesm a Jedi might don a suit of formal Council armor to aid in the critical first impression.
+[P]Never common, these ornate suits of armor are now almost unknown. While they were comparable in function to far more common armored robes, they incorporated a variety of inlays and artistic florishes-as well as a range of semiprecious metals and gemstones. Each suit was custom crafted, integration different designs.
+[P]A character wearing former Council armor adds automatic [AD] [AD] to Negotiation checks when interacting with individuals who hold Jedi in high regard. At the GM's discretion, the character may add automatic [AD] [AD] to Coercion checks when interacting with individuals who hate or fear the Jedi (such as representatives of the Galactic Empire).</Description>
+    <Source Page="45">Disciples of Harmony</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Half Body</Category>
+      <Category>Heavy</Category>
+    </Categories>
+    <Encumbrance>5</Encumbrance>
+    <HP>2</HP>
+    <Price>8000</Price>
+    <Rarity>10</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>When wearing, add [AD][AD] to negotiation checks against people who hold Jedi in high regard.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Optionally, when wearing, add [AD][AD] to Coercion checks against people who hate or fear the Jedi.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>INDFLDDISR</Key>
+    <Name>Individual Field Disruptor</Name>
+    <Description>
+      [H3]Individual Field Disruptor[h3]
+A field disruptor is normally used to disable the shields and potentially the electronic systems on a vehicle or starship. An individual field disruptor takes this functionality and brings it to a much smaller scale, enabling it to be used against a foe wearing a personal energy field, as well as offering some protection to the wearer. Because of its small size-the device is less than ten centimeters in diameter and is typically clipped to a belt-the individual field disruptor is relatively discreet. When not activated, a casual observer might mistake it for a sensor or even a simple piece of ornamentation.
+[P]In  use, the field disruptor creates a shimmering field around the wearer, forming a two-meter in diameter sphere around the device and individual while obscuring visibility of the wearer. Whenever this field comes in contact with an energy shield, it immediately deactivates it.
+[P]If the field of a disruptor contacts another energy field, the other field ceases to offer any defense as long as the two fields intersect. If a character wearing an active field enters engaged range with a droid, the droid suffers 5 Stun damage. If the field enters engaged range with any other electronic device, the device shorts out and becomes inactive for the remainder of the encounter. If the wearer makes a melee attack while the field is active, the wearer counts as being armed with a Melee weapon with +2 damage and the Stun Damage item quality.</Description>
+    <Source Page="45">Disciples of Harmony</Source>
+    <Custom>DescOnly</Custom>
+    <Categories />
+    <Price>9500</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>When in contact with another energy field, the field ceases to offer any defense.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>When entering engaged range with a droid, the droid suffers 5 Stun damage.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>When entering engaged range with an electronic device, the device becomes inactive for the rest of the encounter.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers>
+      <WeaponModifier>
+        <UnarmedName>Field Disruptor</UnarmedName>
+        <SkillKey>MELEE</SkillKey>
+        <DamageAdd>2</DamageAdd>
+        <Qualities>
+          <Quality>
+            <Key>STUNDAMAGE</Key>
+          </Quality>
+        </Qualities>
+        <Range>Engaged</Range>
+      </WeaponModifier>
+    </WeaponModifiers>
+    <Defense>1</Defense>
+  </Armor>
+  <Armor>
+    <Key>REFBODYGL</Key>
+    <Name>Reflect Body Glove</Name>
+    <Description>
+      [H3]Reflect Body Glove[h3]
+Effective body armor is conspicious. Good armor certainly provides an intimidation factor in addition to security, but it risks setting the wrong tone for a tenuous negotiation. For those times when appearances are as important as security, armor that is much less noticeable-even if it is less protective-is a necessary compromise.
+[P]A reflect body glove is a skintight suit that can be worn underneath traditional garments. It incorporates a reflective weave that is capable of dispersing the blasts from an energy weapon. The thin layer of tight weave is fragile, however, particularly for suit of armor.
+[P]Add [SE] [SE] to Vigilance and Perception checks to notice that the wearer is wearing a reflect body glove. After a successful combat check has been resolved against the wearer, the reflect body glove's soak is reduced by one, to a minumum of zero. The reflect body glove's soak may be restored to its original value by making a successful [B]Average ([DI] [DI]) Mechanics check[b].</Description>
+    <Source Page="46">Disciples of Harmony</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <Price>2500</Price>
+    <Rarity>5</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [SE][SE] to Vigilance and Perception checks to notice the body glove.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>After each successful combat check against wearer is resolved, reduce Soak by 1, to a minimum of 0.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Original Soak value may be restored by making a successful [B]Average ([DI][DI]) Mechanics check[b].</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>3</Soak>
+  </Armor>
+  <Armor>
+    <Key>DIVESUIT</Key>
+    <Name>SeaScape Diving Suit</Name>
+    <Description>
+      [H3]SeaScape Diving Suit[h3]
+A surprising number of sentients dwell in aquatic environments, far from an oxygen-enriched atmosphere. When air breathers must work closely with aquatic species-or travel beneath an ocean's surface for any other reason-a self-contained diving suit is required. A good suit must be flexible and comfortable, but it must also provide for the user's needs over multiple hours of use.
+[P]The SeaScape diving suit can provide six hours of atmostphere to an air breather. During this time, the wearer also has access to fresh water, nutrition supplements, and other biological necessities. While wearing a SeaScape diving suit, a character does not suffer movement penalties for traveling through water.
+    </Description>
+    <Source Page="46">Disciples of Harmony</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>2</HP>
+    <Price>400</Price>
+    <Rarity>2</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Wearer does not suffer movement penalties for traveling through water.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>ALLENGHELVEST</Key>
+    <Name>Alliance Engineer's Helmet and Vest</Name>
+    <Description>
+      [H3]Alliance Engineer's Helmet and Vest[h3]
+Similar to helmets worn by civilian engineers and construction workers, an Alliance engineer's helmet is made of sturdy, lightweight, fiber-reinforced polycarbonate and fitted with a shock-absorbing gel liner. They can be equipped with an optional flexible visor to protect the face and eyes from flying debris. These helmets are usually worn in conjunction with similarly sturdy protective vests made of reinforced cloth. While such helmet and vests are perhaps not the most effective armor, they have been known to turn a blaster bolt or shrapnel from a grenade.
+[P]While wearing an Alliance engineer's helmet and vest, the character counts as having 1 rank (or one additional rank) in the Durable talent.</Description>
+    <Source Page="42">Fully Operational</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Half Body</Category>
+    </Categories>
+    <Encumbrance>1</Encumbrance>
+    <Price>75</Price>
+    <Rarity>1</Rarity>
+    <BaseMods>
+      <Mod>
+        <Key>DURA</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>EODMKII</Key>
+    <Name>EOD-Mk II Armor</Name>
+    <Description>
+      [H3]Creshaldyne EOD-Mk II Armor[h3]
+EOD-Mk II armor by Creshaldyne is one of the most popular explosives disposal suits in the galaxy. Made to Creshaldyne's exacting standards, the EOD-Mk II is a heavy, bulky, awkward suit of armor designed to protect an Engineer from blast, shock, and shrapnel while working with explosive compounds and devices. These suits are constructed of thick overlapping plates covered with reinforced polycarb mesh. They also include extra integrated hard plates backed by ballistic gel pads at the knees, groin, chest, and elbows. A tall, stiff collar of gel-backed hard plates covered by poly mesh protects the neck, and the head is protected by a sealed, full-face helmet. Like most bomb-disposal suits, the EOD-Mk II does not come with gloves in order to maximize an explosive ordnance disposal (EOD) trooper's dexterity and precision. While this gives the wearer maximum hand mobility, it leaves the hands and forearms unprotected from accidental blasts.
+[P]Due to its extremely thick padding and ponderous form, characters wearing EOD-Mk II armor lose their free movement.</Description>
+    <Source Page="42">Fully Operational</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Sealable</Category>
+      <Category>Full Body</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Hard</Category>
+      <Category>Heavy</Category>
+    </Categories>
+    <Encumbrance>8</Encumbrance>
+    <Price>5300</Price>
+    <Rarity>6</Rarity>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Characters wearing this armor lose their free movement.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>4</Soak>
+  </Armor>
+  <Armor>
+    <Key>FABPROT</Key>
+    <Name>Fabricator's Protective Gear</Name>
+    <Description>
+      [H3]Fabricator's Protective Gear[h3]
+Worn by welders, machinists, tinkerers, and mechanics throughout the galaxy, fabricators' protective gear is a catchall term for a varied collection of heavy padded clothing. These outfits are designed to offer protection from industrial mishaps as well as combat explosions. Most come complete with a full coverall , heavy gloves, dark-tinted goggles or face mask, and a reinforced apron. While not as effective as real combat armor, they can still protect an individual from the blast effects from splinters and shrapnel.
+[P]This armor allows the wearer to ignore the effects of fires or acids of rating 1 or 2. It has a soak value of 3 against damage from weapons with the Blast quality, but only when that quality is activated and used to inflict damage on the wearer. It provides only 1 point of soak against all other damage that was not inflicted through that quality.</Description>
+    <Source Page="43">Fully Operational</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Heavy</Category>
+    </Categories>
+    <Encumbrance>1</Encumbrance>
+    <Price>450</Price>
+    <Rarity>1</Rarity>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Wearer ignores effects of fires or acides of rating 1 or 2.</MiscDesc>
+      </Mod>
+      <Mod>
+        <MiscDesc>Has soak 3 against damage from Blast quality.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>PIONEER</Key>
+    <Name>Pioneer Armor</Name>
+    <Description>
+      [H3]Pioneer Armor[h3]
+Designed with the combat engineer in mind, pioneer armor consists of a rugged, reinforced jacket and trousers; sturdy boots with plasteel toe caps; gloves; and a modified engineer's helmet. The suit is reinforced with thick layers of ballistic polymer to provide extra protection to sensitive areas. What sets pioneer armor apart from normal padded armor is the suit's integrated load-bearing system. Composed of numerous adjustable loops, straps, hooks, and sealable pockets and an integrated tool belt, the armor distributes weight and provides easy access to tools and supplies in the field.
+[P]Pioneer armor increases a wearer's encumbrance threshold by three.</Description>
+    <Source Page="43">Fully Operational</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Price>200</Price>
+    <Rarity>4</Rarity>
+    <BaseMods>
+      <Mod>
+        <Key>ENCTADD</Key>
+        <Count>3</Count>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>SKAKPRESS</Key>
+    <Name>Skakoan Pressure Suit</Name>
+    <Description>
+      [H3]Skakoan Pressure Suit[h3]
+Skakoans require methane to live, and wear special pressure suits to emulate the conditions on Skako. They start the game with a specialised pressure suit with methane respirator, which counts as armor with indefinite supplies of methane. The suit has + 2 soak, encumbrance of 3, 3 hard points, cannot acquired unless on Skako (at a price equivalent to laminate armor), and cannot be worn by other species.</Description>
+    <Source Page="23">Fully Operational</Source>
+    <Custom>DescOnly</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>3</HP>
+    <Price>2500</Price>
+    <Rarity>5</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Allows Skakoans to breath in non-methane atmospheres.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Cannot acquire unless on Skako.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>SITHPAINHARNESS</Key>
+    <Name>Sith Pain Harness</Name>
+    <Description>[H3]Sith Pain Harness[h3]
+Constant enemies of the Jedi Order, the Sith have always sought to dominate and destroy. They even seek to pervert the Force itself, turning its energies into a weapon to torture and maim. They build all their greatest strengths on the pain they can inflict.
+[P]Developed over generations, the Sith Pain Harness represents the pinnacle of this philosophy. It is little more than a set of interlocking metal plates, each sharp enough to easily draw blood. Any being wearing the armor must take extreme caution, lest the metal carve into their flesh. Granted, the point of the device is not to avoid hurting oneself. Instead, Sith are to embrace the pain, using it to fuel their hatred. The pain they feel suffuses all their Force power, a gruesome attempt to spread their own agony.
+[P]While wearing the Sith Pain Harness, a character can choose to suffer one wound as an incidental to add automatic [SU] to the next Discipline check they make during the current round. They then suffer 1 Conflict.</Description>
+    <Source Page="51">Unlimited Power</Source>
+    <Custom>AddedItem</Custom>
+    <Categories>
+      <Category>Half Body</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <Price>3500</Price>
+    <Rarity>9</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>While wearing the Sith Pain Harness, a character can choose to suffer one wound as an incidental to add automatic [SU] to the next Discipline check they make during the current round. They then suffer 1 Conflict.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>TIMBERCUIRASS</Key>
+    <Name>Timber Cuirass</Name>
+    <Description>[H3]Timber Cuirass[h3]
+Before the Empire, Tholothian Defense Forces looked the same as their offworld counterparts. Guards wore synthetic body armor and wielded transparisteel riot shields. When deadly force was necessary, they carried a variety of blasters to do the job. While beautiful and poignant, traditional equipment lacked the practicality of offworld gear. In the years following the Clone Wars, the Empire sought to tighten its grip over the Outer Rim. Though it took years to make it there, the full brunt of Imperial force finally made its way to Tholoth.
+[P]Imperial blockades drove the cost of importing weapons and body armor beyond feasibility. Anything deemed contraband entering the system was immediately seized. Factories mass-producing weapons were co-opted by the Empire. Traditional
+weaponsmiths became the sale reliable source of arms and armaments. Before the Empire, Tholothians took their heritage for granted. Now that it is their last weapon against the Empire, Tholothians have embraced it with open arms.
+[P]The Timber Cuirass has become one of the planet's best products-a modern update for ancient Tholothian armor. Armorers crafted the classic cuirass from a single living piece of Heartwood. Generally, a noble would commission it as soon as they came of age, as the process could take decades. The cuirass must be shaped and refined while still growing as part of the tree. On completion, the resulting armor is as strong as durasteel, but only a fraction of the weight.</Description>
+    <Source Page="51">Unlimited Power</Source>
+    <Custom>AddedItem</Custom>
+    <Categories />
+    <Encumbrance>4</Encumbrance>
+    <HP>1</HP>
+    <Price>4000</Price>
+    <Rarity>5</Rarity>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>WEATERWEAVE</Key>
+    <Name>Waterweave</Name>
+    <Description>[H3]Waterweave[h3]
+Waterweave is a composite material created out of native Semblan alloys and minerals. While it is heavy and bulky normally, its buoyancy actually increases while submerged. Most scientists are at a complete loss to explain this, and mumble something about air pockets when pressed.
+[P]Waterweave deflects even the strongest blows instead of absorbing their force. Moreover, its buoyancy allows users to fight in the water without being dragged down by what would normally be bulky, restricting clothing. Warriors equipped with waterweave report fighting better underwater than on any other terrain.
+[P]Waterweave armor has encumbrance 7. However, while submerged, the armor's encumbrance changes to 0.</Description>
+    <Source Page="51">Unlimited Power</Source>
+    <Custom>AddedItem</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>7</Encumbrance>
+    <HP>1</HP>
+    <Price>6500</Price>
+    <Rarity>5</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Waterweave armor has encumbrance 7. However, while submerged, the armor's encumbrance changes to 0.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>2</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>ANCIENTARMOR</Key>
+    <Name>Ancient Battle Armor</Name>
+    <Description>[H3]Ancient Battle Armor[h3]
+The precursors of the ancient Jedi faced much more primitive weapons than lightsabers and blasters, and so found heavy combat armor to be more worthwhile than did later generations. Although most such suits were destroyed in battle or by the passage of the millennia, on rare occasions, archaeologists or construction droids uncover ancient suits of metal armor in buried or forgotten ruins. With generous cleaning and repair work, this kind of ancient armor can prove serviceable, if heavy and burdensome. Some claim that such armor is effective against even modern blasters when worn by an individual strong in the Force, although weapon developers and metallurgists dismiss such stories.
+[P]While worn by a character with a Force rating of 1 or higher, ancient battle armor gains Defense 1.</Description>
+    <Source Page="47">Knights of Fate</Source>
+    <Custom>AddedItem</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Heavy</Category>
+    </Categories>
+    <Encumbrance>6</Encumbrance>
+    <HP>1</HP>
+    <Price>3750</Price>
+    <Rarity>9</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>While worn by a character with a Force rating of 1 or higher, ancient battle armor gains Defense 1</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>KATARNARMOR</Key>
+    <Name>Mk I Katarn-class Commando Armor</Name>
+    <Description>[H3]Mk I Katarn-class Commando Armor[h3]
+Katarn-class armor was originally designed for use by clone commandos during the Clone Wars. Named for a dangerous predatory beast native to Kashyyyk, this is one of the most advanced suits of heavy combat armor ever produced.
+[P]Each set of armor consists of a fully enclosed, environmentally sealed duraplast suit worn over an insulated, breathable, ballistic-fiber bodysuit. The armor is effective against most portable infantry weapons, light ordnance, shrapnel, and even light vehicle-mounted weapons like autoblasters and light laser cannons. It is resistant to heat, cold, toxins, radiation, and other hazardous environments and features reinforcements at strategic points such as the neck, spine, and forearms to protect against blasts and impacts. The helmet is equipped with an integrated combat scanner, an encrypted communications suite, and an on-board combat computer that monitors the physical conditions of the wearer and any nearby allies wearing Katarn-class armor. It also has an integrated breath mask and an on-board oxygen supply good for six hours of heavy combat.
+[P]In addition to its numerous on-board systems, Katarn-class armor can be equipped with a modular backpack system that can be tailored to various battlefield roles. Special plug-in modules provide long-range comms, medpacs, extended oxygen supplies, and even power generation.
+[P]A full suit of Katarn-class armor provides a wearer with all the benefits of a combat scanner and a breath mask, and increases the wearer's encumbrance threshold by 3. In addition, the suit's systems remove [SE] from all Perception and Survival checks made by the wearer.</Description>
+    <Source Page="47">Knights of Fate</Source>
+    <Custom>AddedItem</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Powered</Category>
+      <Category>Resistant</Category>
+      <Category>Sealable</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>3</HP>
+    <Price>6500</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>A full suit of Katarn-class armor provides a wearer with all the benefits of a combat scanner and a breath mask</MiscDesc>
+      </Mod>
+      <Mod>
+        <Key>ENCTADD3</Key>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>The suit's systems remove [SE] from all Perception and Survival checks made by the wearer</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>PERC</SkillKey>
+            <SetbackCount>1</SetbackCount>
+          </DieModifier>
+          <DieModifier>
+            <SkillKey>SURV</SkillKey>
+            <SetbackCount>1</SetbackCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>ARCARMOR</Key>
+    <Name>Phase I ARC Trooper Armor</Name>
+    <Description>[H3]Phase I ARC Trooper Armor[h3]
+Worn by the Grand Army of the Republic's elite Advanced Recon Commandos. Phase I ARC armor filled a gap between standard clone trooper armor and the heavy, highly advanced Katarn-class armor. Like the clone trooper armor from which it is derived, Phase I ARC armor is a full suit of plastoid armor worn over a formfitting bodysuit. It has heavier armor on the forearms, thighs, and chest, and an advanced helmet that features a hardened long-range comlink. A skirtlike kama made from advanced armored textiles is worn around the waist, providing extra protection to the legs and groin, and each suit is equipped with a built-in load-bearing harness and a survival pack.
+[P]The various systems built into Phase I ARC trooper armor remove [SE] from all Perception checks made by the wearer and provide all the benefits of a hardened comlink. In addition, the integrated load-bearing harness increases the wearer's encumbrance threshold by 3.</Description>
+    <Source Page="48">Knights of Fate</Source>
+    <Custom>AddedItem</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+      <Category>Hard Full Body</Category>
+      <Category>Hard</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>2</HP>
+    <Price>5000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>The various systems built into Phase I ARC trooper armor remove [SE] from all Perception checks made by the wearer and provide all the benefits of a hardened comlink</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>PERC</SkillKey>
+            <SetbackCount>1</SetbackCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+      <Mod>
+        <Key>ENCTADD3</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>CLIMBSUIT</Key>
+    <Name>Climbsuit</Name>
+    <Description>[H3]Ayelixe/Krongbing Climbsuit[h3]
+Ayelixe/Krongbing's Climbsuit is a popular set of lightweight armor designed specifically for climbing and rappelling. Built from light, flexible fabrics with impact-absorbing reinforcements at important points around the body, the Climbsuit is a full-body suit that includes gloves, boots, and a helmet with a built-in polarized visor. To assist the wearer in scaling or descending surfaces, the armor is equipped with two climb-assist systems: a built-in climbing harness and a patented FrictionGrip coating. 
+[P]The integrated harness includes load-bearing straps that wrap around the wearer's waist and legs, equipment buckles, and a 300-meter retractable spool of high-tensile climbing line. The FrictionGrip system is a special coating on the suit's gloves, boots, knees, elbows, and forearms that uses thousands of microscopic filaments to grip surfaces in a manner similar to that of an insect or arachnid. These systems combine to keep wearers firmly planted on a surface or to help them survive in case of a fall. 
+[P]Wearing a Climbsuit upgrades the ability of the wearer's checks to climb or rappel down a surface once. The Climbsuit also reduces damage and strain suffered from falling by 5 and reduces any related Critical Injury results from falling by 10.
+</Description>
+    <Source Page="41">Cyphers and Masks</Source>
+    <Custom>AddedItem</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <HP>2</HP>
+    <Price>1450</Price>
+    <Rarity>4</Rarity>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Wearing a Climbsuit upgrades the ability of the wearer's checks to climb or rappel down a surface once.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>The Climbsuit also reduces damage and strain suffered from falling by 5 and reduces any related Critical Injury results from falling by 10.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>MKINIGHTSTALKER SUIT</Key>
+    <Name>Mk I NightStalker Suit</Name>
+    <Description>[H3]Bantin Corp Mk I NightStalker Infiltrator Suit[h3]
+The Mk I NightStalker is a lightweight, surprisingly durable suit of armor that Bantin Corp recently produced. Marketed toward law enforcement and intelligence agencies, the NightStalker combines light-absorbing materials, armorweave, gel-insert plates, and sound dampening fabric to produce a suit that provides both respectable protection and decent passive stealth capabilities. The NightStalker is a full-body suit that covers everything but the wearer's eyes. It is typically worn with scanner goggles or other wearable vision-enhancement systems.
+[P]When wearing a NightStalker suit, the wearer adds automatic [SU] to Stealth checks he makes and adds automatic [TH] to social skill checks he makes.</Description>
+    <Source Page="41">Cyphers and Masks</Source>
+    <Custom>AddedItem</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Price>4800</Price>
+    <Rarity>9</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>When wearing a NightStalker suit, the wearer adds automatic [SU] to Stealth checks he makes and adds automatic [TH] to social skill checks he makes.</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>CHARM</SkillKey>
+            <ThreatCount>1</ThreatCount>
+          </DieModifier>
+          <DieModifier>
+            <SkillKey>COERC</SkillKey>
+            <ThreatCount>1</ThreatCount>
+          </DieModifier>
+          <DieModifier>
+            <SkillKey>DECEP</SkillKey>
+            <ThreatCount>1</ThreatCount>
+          </DieModifier>
+          <DieModifier>
+            <SkillKey>LEAD</SkillKey>
+            <ThreatCount>1</ThreatCount>
+          </DieModifier>
+          <DieModifier>
+            <SkillKey>NEG</SkillKey>
+            <ThreatCount>1</ThreatCount>
+          </DieModifier>
+          <DieModifier>
+            <SkillKey>STEAL</SkillKey>
+            <SuccessCount>1</SuccessCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>MKIXMIMETIC</Key>
+    <Name>Mk IX Personal Mimetic Concealment Suit</Name>
+    <Description>[H3]Cyricept Mk IX Mimetic Concealment Suit[h3]
+Cyricept's Mk IX Personal Mimetic Concealment Suits use active stealth technologies combined with advanced textiles to provide one of the best personal stealth suits available. When active, a mimetic suit uses an optical camouflage (OC) system that bends light around the wearer and reflects back images of the surrounding area. This OC system is combined with electromagnetic and heat shielding, sound bafflers, and other systems to render a wearer essentially invisible to both the naked eye and most common security sensors. To run these systems, mimetic suits require a small, high-output energy cell built into a belt or wristband. Mimetic suits consume energy at an extremely high rate, and a power pack is good for about an hour of constant use. Like all mimetic suits, the Mk IX is illegal to own and to sell to civilians. While they are primarily used by governmental intelligence and law enforcement agencies, many suits have found their way into the hands of dangerous criminals throughout the galaxy. 
+[P]Wearing a Mk IX Personal Mimetic Concealment Suit upgrades the ability of all Stealth checks made by the wearer twice. In addition, the Game Master may spend [TH][TH][TH] or [DE] on any Stealth check made by the wearer while the suit is active to have the suit's power pack run dry. The suit cannot be used again until the power pack is replaced; replacing a power pack requires a maneuver.</Description>
+    <Source Page="42">Cyphers and Masks</Source>
+    <Custom>AddedItem</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Price>8000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Wearing a Mk IX Personal Mimetic Concealment Suit upgrades the ability of all Stealth checks made by the wearer twice.</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>STEAL</SkillKey>
+            <UpgradeAbilityCount>2</UpgradeAbilityCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>In addition, the Game Master may spend [TH][TH][TH] or [DE] on any Stealth check made by the wearer while the suit is active to have the suit's power pack run dry. The suit cannot be used again until the power pack is replaced; replacing a power pack requires a maneuver.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+</Armors>

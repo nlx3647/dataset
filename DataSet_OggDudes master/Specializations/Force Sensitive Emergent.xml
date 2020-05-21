@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>FORCESENSITIVEEMERGENT</Key>
+  <Name>Force Sensitive Emergent</Name>
+  <Description>
+    [H4]Force Sensitive Emergent[h4]
+
+The Rebel Alliance stands for the restitution of the values and structures that were set aside during the rise of Emperor Palpatine. As Force users have been among those persecuted under the Imperial regime, many of them sympathize with the goals of the Rebellion. As a result of this, one of the Rebel Alliance's most underestimated assets is a cadre of amateur Force-sensitives who could prove decisive in the struggle against the Empire. Or at least, they would be if they were properly identified and trained. 
+
+[P]Within the ranks of Rebel organizations, Force-sensitives are safe from the Empire and have access to one of the few remaining societies in the galaxy that still openly acknowledges and encourages an understanding of the light side of the Force. While the Jedi Order has been shattered by the Empire, there are many within the Rebel Alliance who remember them and their teachings. While few Force-sensitives are ever fortunate enough to receive training from an actual Jedi, at least in the Alliance they can learn about the Order's traditions and techniques from sympathetic sources. 
+
+[P]While they were regarded by the citizens of the galaxy as a benevolent order dedicated to the promotion of peace and harmony throughout the galaxy, the Jedi Knights also had a well-deserved reputation as fierce warriors, particularly when it came to close-quarters fighting with their signature weapon, the lightsaber. While few Force-sensitives hope to develop such prowess, or come to possess a lightsaber of their own, they do tend to develop some skill at martial arts. In fact, a little training in hand-to-hand combat is recommended, both as a method of self-protection and because the associated regimen is said to help put one in the right frame of mind to contemplate the Force. 
+
+[P]The Force-Sensitive Emergent specialization does not have any career skills associated with it. When a character purchases this specialization, he automatically receives a Force rating of 1 (if he did not already have it). However, if the character already has a Force rating of 1 or higher, it does not improve when he purchases the Force-Sensitive Emergent specialization. 
+
+[P]Just like other specializations, the Force-Sensitive Emergent specialization can be taken at character creation or at any subsequent point. This represents the fact that some Force-sensitives do not become aware of their potential until a relatively late stage of their lives.</Description>
+  <Source Page="292">Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>INSIGHT</Key>
+        <Key>UNCANSENS</Key>
+        <Key>INDIS</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>1</Index>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>UNCANREAC</Key>
+        <Key>TOUGH</Key>
+        <Key>SLEIGHTMIND</Key>
+        <Key>SLEIGHTMIND</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>2</Index>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>UNCANSENS</Key>
+        <Key>UNCANREAC</Key>
+        <Key>GRIT</Key>
+        <Key>INDIS</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>3</Index>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>TOUGH</Key>
+        <Key>SENSDANG</Key>
+        <Key>TOUCH</Key>
+        <Key>BAL</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>4</Index>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>INVIG</Key>
+        <Key>FORCEWILL</Key>
+        <Key>FORCERAT</Key>
+        <Key>DEDI</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+  <Universal>true</Universal>
+  <Attributes>
+    <ForceRating>1</ForceRating>
+  </Attributes>
+</Specialization>

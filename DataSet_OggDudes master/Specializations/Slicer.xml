@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SLICER</Key>
+  <Name>Slicer</Name>
+  <Description>[H4]Slicer - Making the Data Flow[h4]
+
+[P]For the Slicer, a computer or datapad is just a puzzle to solve with prizes for doing so. "Slicing" is the term used for the invasive efforts to steal or alter data in a system. With practically the entire galaxy wired to computerized systems, Slicers are extremely valuable people to know, and dangerous to cross. 
+
+[P]Slicers naturally tend towards the underworld, yet they are also highly intelligent and knowledgeable. They add these skills to their career skills: [B]Computers, Knowledge (Education), Knowledge (Underworld),[b] and [B]Stealth[b]. If this is the character's starting Specialization, he may choose two of these skills and gain one free rank in each, without spending starting experience. Their talents mainly focus on making computerized and electronic systems dance to their tune. 
+
+[P]Slicers are among the most valued professionals in the Outer Rim, especially to the criminal world. A Slicer's worth, however, is only as good as his reputation; success and loyalty will earn him top credits, while blowing key operations or double-crossing an employer will tend to make his prospects far less attractive.
+
+[P]A Player Character group without a Slicer will have something of a handicap, especially where acquiring data or handling computerized problems is concerned. A Slicer might join a group for a chance to get away from a bad deal, or simply because he's ready to see the next planet. Slicers tend to be a quirky bunch, so there might be any number of motivations at work.</Description>
+  <Sources>
+    <Source Page="91">Edge of the Empire Core Rulebook</Source>
+    <Source Page="99">Age of Rebellion Core Rulebook</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>COMP</Key>
+    <Key>EDU</Key>
+    <Key>UND</Key>
+    <Key>STEAL</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>COD</Key>
+        <Key>GRIT</Key>
+        <Key>TECHAPT</Key>
+        <Key>BYP</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction />
+        <Direction />
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>1</Index>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>DEFSLI</Key>
+        <Key>TECHAPT</Key>
+        <Key>GRIT</Key>
+        <Key>BYP</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>2</Index>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>NATPRO</Key>
+        <Key>BYP</Key>
+        <Key>DEFSLI</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>3</Index>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>DEFSLI</Key>
+        <Key>DEFSLIIMP</Key>
+        <Key>COD</Key>
+        <Key>RESOLVE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>4</Index>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>SKILLSLIC</Key>
+        <Key>MASSLIC</Key>
+        <Key>MENTFOR</Key>
+        <Key>DEDI</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

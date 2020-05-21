@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>NOVACOURIERYKL37R</Key>
+  <Name>YKL-37R Nova Courier (Customized)</Name>
+  <Description>
+    [H3]YKL-37R Nova Courier (Customized)[h3]
+    
+The last ship produced by Gallofree Yards before its
+bankruptcy, the YKL-37R Nova Courier was a last ditch
+effort to save the struggling starship manufacturer.
+Intended to compete with Corellian Engineering’s
+series of light freighters, few Nova Couriers were sold
+prior to Gallofree Yards’ closure. Bankers overseeing
+the company’s liquidation auctioned off its vast stock
+of YKL-37Rs for bargain prices, many ending up in the
+hands of free traders, smugglers, and pirates. Unlike
+several of Gallofree’s previous freighters, which were
+plagued by problems, the Nova Courier is a reliable
+and well-armed vessel, something appreciated too
+late to save the troubled shipmaker. Though lacking
+the cargo capacity of other light freighters, the Nova
+Courier’s speed, handling, excellent stock armaments,
+and ease of maintenance and modification more than
+make up for that shortcoming.</Description>
+  <Source Page="37">Long Arm of the Hutt</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>150000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>Two pilots, two gunners</Crew>
+  <EncumbranceCapacity>65</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>22</HullTrauma>
+  <SystemStrain>14</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>18</Count>
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>2</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

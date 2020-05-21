@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ARXT3</Key>
+  <Name>ARX-T3 "Suncutter" Light Interceptor</Name>
+  <Description>[H3]ARX-T3 "Suncutter" Light Interceptor[h3]
+The ARX-T3 presents a very different approach to the starfighter compared to Koensayr Manufacturing's better-known Y-wing, with a focus on speed and maneuverability over armor or payload. The first prototypes of the ARX-T3-dubbed "Suncutter" for its crescent-like profile-were emerging from the assembly line in the first days of the Galactic Empire. As the Empire had decided to pursue a very different naval doctrine, it had no need for the expensive, yet fragile, hyperdrive-equipped interceptors. After Koensayr lst its contract, the ARX-T3 was produced only in limited numbers during a short run. In the years since, the Suncutter has gained considerable popularity among certain pilots who appreciate the craft's unique balance of defense, agility, and armament. Consequently, these ships can fetch a high price in certain markets.
+[P]Although much lighter than the Y-wing, the Suncutter mounts considerable armament for an interceptor, featuring two medium laser cannons and a proton torpedo launcher at the vessel's bow. This respectable payload, in combination with the high speed and maneuverability offered by its powerful in-line ion turbine position, makes the ARX-T3 an ideal craft for dogfighting. The Suncutter also sports heavier armor than many starfighters in its class, giving it an edge in stand-up fights.</Description>
+  <Source Page="57">Knights of Fate</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>110000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one astromech droid.</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Consumables>One week.</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>2</Handling>
+  <DefFore>1</DefFore>
+  <Armor>3</Armor>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

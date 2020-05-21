@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATAT</Key>
+  <Name>All Terrain Armored Transport</Name>
+  <Description>
+    [H3]All Terrain Armored Transport[h3]
+
+Part troop carrier, part heavy assault carrier, and part terror weapon, the Imperial Army's All Terrain Armored Transport is one of the heaviest vehicles on the modern battlefield. Designed both to carry full platoons of Imperial soldiers with their combat gear and to demoralize and strike terror into enemy combatants, AT-ATs are massive, lumbering, quadruped walkers covered in near-impregnable armor and armed with an array of heavy lasers and blaster cannons. They have four spindly yet incredibly strong legs atop of which perches a hump-backed cargo compartment that holds the embarked troops as well as a quartet of speeder bikes. A massive armored pilot compartment projects forward from the cargo compartment at the end of a short, articulated armored tunnel, adding to the vehicle's animal-like appearance. 
+
+[P]In combat, AT-ATs plod forward in a seemingly unstoppable group, softening up targets at range with their weapons and preparing the field for the deployment of their troops. Once they reach their target, the troops disembark via cables deployed from the port side hatch and take to the field. Once their troops are deployed, they typically hold their ground, providing fire support and weathering enemy fire with their powerful armor. Thanks to their sophisticated sensors and command and control systems, AT-ATs are also often used as mobile command centers, allowing a high-ranking general officer to lead his men from the front in relative safety. They have few weak spots, although they have shown a disturbing tendency to lose their footing on unstable ground or if they become entangled in an obstacle. Imperial engineers have chalked this up to an error in the gyrostabilization systems, but have yet to fix the problem.</Description>
+  <Source>Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Walker</Category>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>150000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <Crew>One pilot, one co-pilot/gunner, one vehicle commander, one engineer, one loadmaster</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>40</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <Armor>6</Armor>
+  <HullTrauma>40</HullTrauma>
+  <SystemStrain>35</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERHVY</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TOYDARIAN</Key>
+  <Name>Toydarians</Name>
+  <Description>[H4]Toydarians[h4]
+
+Prideful, stubborn, and strong willed, Toydarians are merchants and opportunity seekers who roam the galaxy searching out their fortunes. Their reputations for bad tempers and con jobs, as well as a history of being lackeys for the Hutts, makes for difficult going for many Toydarians, but their resistance to Force manipulation is seen by many others as highly valuable. 
+
+[P][B]Physiology:[b] Toydarians have smallish, squat bodies that perpetually hover over the ground, thanks to a pair of wings on their back and an abundance of natural gasses absorbed into their frames. Stubby protruding snouts dominate their craggy faces, and their spindly arms and legs end with three fingers and three toes, respectively. One of their most interesting physical features has to do with their brains; they are completely immune to any manipulations via the Force. 
+
+[P]Toydarians have extremely active metabolisms, and physical exertion of any kind burns up massive amounts of calories. As such, they are in constant need of food, eating large quantities throughout the day. Where available, Toydarians take advantage of highly concentrated processed foods that quickly fulfill their energy needs. In ancient times, Toydarian tribes fought most over food supplies. 
+
+[P]Toydarians are well known for having a natural body odor similar to sweetspice, making them pleasant to be around for at least their effect on the local air.
+
+[P][B]Society:[b] The Hutts subjugated the Toydarians long ago, yet it had little negative impact on their society's development. Effectively a grand business merger, the Toydarians enjoyed a rise in their standard of living in exchange for serving Hutt business interests. Toydarians have happily maintained a healthy distance from galactic affairs, more or less ignoring the rise of the Empire except as it impacts their mercantile interests. 
+
+[P]Most Toydarians make their way within Hutt space, generally serving the interests of the powerful crime lords and helping manage the businesses and bureaucracies that make it all work. Many, however, prefer to employ their natural gifts for business and trade elsewhere, finding the places in the galaxy where they can carve out their niche while wheeling and dealing with anyone who can pay for what they choose to sell. 
+
+[P][B]Homeworld:[b] Toydaria is a world of muck, mud, and swamps, covered in swarms of bugs and massive quantities of algae. Monsoons, plagues of fungal origin, and nasty predators like the huge carnivorous grabworms make the planet generally unpleasant for almost anyone who visits, yet Toydarians have a profound love and pride in their homeworld. 
+
+[P][B]Language:[b] Toydaria is the native tongue of the species, and most also speak Huttese fluently. Though most Toydarians endeavor to speak Basic to do business, they tend to only be literate in their native tongue.</Description>
+  <Source>Enter the Unknown</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>1</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>12</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>TOYDARIANCH1</Key>
+      <Name>Size</Name>
+      <Options>
+        <Option>
+          <Key>TOYDARIANCH1OP1</Key>
+          <Name>Silhouette</Name>
+          <Description>Toydarians are smaller than average and count as silhouette 0.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>TOYDARIANCH2</Key>
+      <Name>Wings</Name>
+      <Options>
+        <Option>
+          <Key>TOYDARIANCH2OP1</Key>
+          <Name>Hoverer</Name>
+          <Description>Toydarians have wings that allow them to hover slightly off the ground.  When hovering, Toydarians do not have
+          to spend additional maneuvers when navigating difficult terrain.  Otherwise, their wings allow them no extra capabilities
+        beyond those of a normal, walking character.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>XP40LUXURYCOACH</Key>
+  <Name>XP-40 Luxury Coach</Name>
+  <Description>[H3]XP-40 Luxury Coach[h3]
+SoroSuub Corporation's XP-40 is the massive Sullustan conglomerate's entry into the luxury landspeeder market, catering to the wealthy and powerful throughout the galaxy. From Core World nobles and corporate magnates to Imperial governors and other high officials, the XP-40 is commonly used by uncommon people.
+[P]Nearly-priceless kriin-wood from the destroyed world of Alderaan lines a soundproofed and armored interior, with seats upholstered in Gualaar leather from Naboo. The passenger cabin, seperate from the driver's compartment, features a full bar, stocked with a variety of expensive liquors.
+[P]The opulence of the expensive craft puts it well out of the range of most, but Mystics of means, such as a powerful cult leader, a noble Makashi Duelist, or an advisor to the rich and powerful, may find themselves being conveyed in such rarified surroundings.</Description>
+  <Source Page="57">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>45000</Price>
+  <Rarity>7</Rarity>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One chauffeur</Crew>
+  <EncumbranceCapacity>25</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Armor>1</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

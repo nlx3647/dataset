@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MINSTRELYACHT</Key>
+  <Name>Minstrel-Class Space Yacht</Name>
+  <Description>[H3]Ubrikkian Industries Modified Minstrel-Class Space Yacht[h3]
+Custom-made by Ubrikkian Industries for the Hutts, these large luxury space yachts rival many corvettes and smaller warships for size and power. Built to the specifications of the buyer, these vessels are often opulently appointed, no expense having been spared to ensure the comfort of their passengers. Heavily armored and shielded, equipped with batteries of light turbolasers and ion cannons discreetly mounted beneath the vessel's superstructure ridge, and able to carry a half-dozen starfighters in its small but functional hangar bay, the Minstrel-class space yacht is able to transport influential Hutts and their courts in safety and sumptuous ease.</Description>
+  <Source>Lords of Nal Hutta</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Yacht</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>1750000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <StarFighters>Six starfighters, two shuttles</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>37</Crew>
+  <EncumbranceCapacity>800</EncumbranceCapacity>
+  <Passengers>75</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>6</Armor>
+  <HullTrauma>45</HullTrauma>
+  <SystemStrain>28</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>TURBOLT</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Key>TURBOLT</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>IONMED</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>IONMED</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

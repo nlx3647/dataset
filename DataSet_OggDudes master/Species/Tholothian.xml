@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>THOLOTHIAN</Key>
+  <Name>Tholothian</Name>
+  <Description>[H4]Tholothian[h4]
+A near-human species from one of the oldest planets (at least politically) in the Republic, the Tholothians are an unassuming species, once fully integrated into galactic society, but now contained on their homeworld by the Galactic Empire.
+[P][B]Physiology:[b] Tholothians are a humanoid species with various shades of darker skin tone and a variety of blue and violet eye colors. Instead of hair, they have scales on their heads and several pale tendrils that descend from their backs. In all other aspects, they resemble humans in physiology.
+[P][B]Society:[b] Historically, Tholothian civilization changed and adapted relatively smoothly, especially compared to other species. For example, Tholothian astronomers had predicted the existence of other civilizations centuries before the first outsider hyperdrive exploration ships encountered Tholoth, and the homeworld did not suffer the culture shock that normally comes with initial contact. In fact, Tholothian culture has been remarkably adaptable and fluid, changing with the times with less-than-expected backlash, traditionalist outcry, or nativist anger.
+[P]Once highly egalitarian and cosmopolitan, Tholoth's population was majority but not plurality Tholothian. Over centuries, hundreds of cultures and species traveling through the system to settle in the Slice instead stayed on the planet. Tholothian society has added bits and pieces of these various cultures into their architecture, art, and language (with various loanwords), Linguists can't race historical layers in language, grammar, and even verb tenses. Technologically advanced but not obsessively so, Tholoth's economy has always been slow and steady.
+[P]This Tholothian cultural fusion changed when the Empire took control of their homeworld. Imperial censors removed anything considered foreign (including non-Tholothians) from Tholoth, imposing homogeny onto the language, culture, and art. If the censors could trace the origins of the offending material to a non-Tholothian species, out it went. The Empire then promoted a different kind of unity; for example, Tholoth's cities have slowly taken on the stark, imposing black and white structures of the Empire.
+[P]This in turn has brought on unprecedented cultural shock Tholothians struggle now to understand what should be considered truly Tholothian. As they resist against the Empire, they also resist against this revisionist history, wondering if they should also reject their cosmopolitan past. Some scholars fear that even if Tholoth does throw off the yoke of the Empire, Tholothian identity might be irrevocably altered. Whether or not this doubt and Imperial influence becomes a permanent part of Tholothian society remains to be seen.
+[P][B]Homeworld:[b] Tholoth, located in the Colonies region at the base of the Slice, has a warm, temperate climate. As one of the closest planets in the expansion path of the Slice, Tholoth benefited highly from trade and temporary immigration. The Tholothians established strong restrictions upon development; they welcomed immigrants, of course, but new construction needed to integrate with their ecosystem and infrastructure. Tholoth's cities took on a cosmopolitan character, blending and integrating different architectural styles that somehow still felt Tholothian. As a result, Tholoth has avoided the giant metropolises or ecumenopolises that seem to dominate the Core Worlds.
+[P]Certain areas throughout the planet were designated wildlife preserves, and up until the founding of the Galactic Empire, Tholoth had maintained an arboreal reputation. The heavier industries remained offworld in the surrounding planets of the Tholoth system. Before the Empire, Tholoth was a democracy utilizing a governmental structure similar to the Galactic Republic, with a head executive chair and a legislative senate.
+[P]Due to the homeworld 's position in the galaxy and its axial tilt, for half of the year Tholoth's night sky is dominated by the light of the Deep Core, a bright, brilliant ellipse from horizon to horizon, brighter than most moons. The other half of the year, Tholoth's sky faces the arms and the edge of the galaxy, still brilliant, but muted and dark.
+[P]Currently under heavy Imperial control, Tholoth, at least to its inhabitants, now feels like a prison. Imperial commanders have set up estates here, turning the planet (once a sanctuary to the Jedi) in to a vacation spot. The local population and economy have been retooled to serve Imperial desires to turn the planet into an officers' garden retreat.
+[P][B]Language:[b] During the Galactic Republic era, Tholothians spoke Basic, although different communities on the homeworld were more isolated than others, lending regional accents to their pronunciation. Because of their cosmopolitan nature, Tholothians commonly knew at least one or two additional languages based on need or personal interest. Near the end of the Republic, educators on the homeworld headed a movement to preserve the native Tholothian language group, but upon Imperial control of the planet, this movement went underground. Many fear the Empire's slow, methodical "Imperialization" of Tholothian culture will cause the death of the Tholothian language as well.
+[P][B]Perception of the Force:[b] As longtime members of the Galactic Republic, Tholothians have had continual contact with the Jedi and the Jedi Order. Jedi who wished to remain in contact with the temple on Coruscant but needed to get away from the people, smog, and skyscrapers would come to Tholoth to meditate. Some would hike and camp out in the various nature preserves, giving them time away from the galaxy without fear of wild, dangerous beasts. The time of year could also be useful for meditation due to the night sky: Jedi were known to come on Core or Spiral Peak nights to meditate on the light and the dark and the Republic and the Outer Rim, focusing on the inner and the outer respectively.
+[P]Since Imperial occupation, Tholoth has gone a little wild. The mountains, forests, hills, trees, and snow-covered regions have become unkempt and feral. While the Empire destroyed the obvious Jedi buildings. claiming the old aesthetic ruined Tholoth's natural beauty, storm troopers missed the smaller, hidden refuges. Small cave systems with a preternatural sense of peace, a one-story stone structure built by a Jedi monk, or the hot spring in the snow-capped mountains all have been grown over by brambles, hidden by rockslides, or buried in ice. Some Tholothians still journey to these locations. A few use them for shelter to hide from the Empire. Each of them holds a tiny bit of history of the old Jedi Order and perhaps preserves something for a searching Force-sensitive.</Description>
+  <Source Page="20">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>95</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>XEN</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>THOLOTHIANCH1</Key>
+      <Name>Social</Name>
+      <Options>
+        <Option>
+          <Key>THOLOTHIANCH1OP1</Key>
+          <Name>Cultural Adopters</Name>
+          <Description>When making a social skill check to interact with non-Tholothians, Tholothians add automatic [AD] to results.</Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>CHARM</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+            <DieModifier>
+              <SkillKey>COERC</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+            <DieModifier>
+              <SkillKey>DECEP</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+            <DieModifier>
+              <SkillKey>LEAD</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+            <DieModifier>
+              <SkillKey>NEG</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>THOLOTHIANCH2</Key>
+      <Name>Physiology</Name>
+      <Options>
+        <Option>
+          <Key>THOLOTHIANCH2OP1</Key>
+          <Name>Natural Roots</Name>
+          <Description>When making a check to heal strain while in a natural or wild setting, Tholothians heal one additional strain.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GUNSLINGER</Key>
+  <Name>Gunslinger</Name>
+  <Description>[H4]Gunslinger - The Quick Draw[h4]
+
+[P]The Outer Rim is an immense region of countless worlds, sometimes lawless but always dangerous. Life on the galactic frontier teems with vicious creatures and heartless criminals who would not think twice about gunning down innocent civilians. Bred from conflict and necessity, this is the galaxy where the Gunslinger lives and breathes. He is the best there is with a blaster, and he won't hesitate to show it.
+
+[P]The Gunslinger knows better than most that making a living in the Outer Rim Territories is a constant struggle. He needs to be fast on the draw to stay alive. The Gunslinger and his beloved sidearm are inseparable, but he often carries a holdout weapon when stuck in a hostile, target-rich environment. To face off with a Gunslinger is a dangerous and foolish proposition. 
+
+[P]The bonus career skills for the Gunslinger are [B]Coercion, Cool, Knowledge (Outer Rim),[b] and [B]Ranged (Light)[b], all of which he uses to survive on the fringe. If this is the character's starting specialization, he may choose two of these skills and gain one free rank in each without spending additional starting experience. The Gunslinger has lethal aim and an attitude to match, making him one of the deadliest beings in the Outer Rim. 
+
+[P]A Gunslinger often has a special bond with his favorite weapon. His knack for gunplay often earns him a reputation that puts him at odds with other bandits who want to prove their mettle. This lifestyle is second nature to the Gunslinger, so he knows how to keep his cool when threatened. When some thug sticks a blaster in his face, the Gunslinger doesn't flinch. He shoots first and skips asking questions. 
+[P]The Gunslinger often needs to remain one step ahead of the law, and so he wanders the Outer Rim in search of his next job. The hard life of the galactic frontier is not all gunfights, so the Gunslinger takes on work wherever he can find it. The Gunslinger uses his underworld contacts to secure odd jobs for a variety of criminal groups. Gunslingers also use their piloting knowledge to take on freight or smuggling jobs. 
+
+[P]A Gunslinger character can fill countless roles within a campaign. He might find work onboard a bulk freighter defending crew and cargo from pirates. A Bodyguard might opt to pick up the Gunslinger specialization on the side to improve his ability to defend his spoiled Coruscanti debutante client. A Tapani nobleman taking up pistols in a duel to maintain the honor of his house might also find the Gunslinger specialization invaluable.</Description>
+  <Source Page="30">Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>COERC</Key>
+    <Key>COOL</Key>
+    <Key>OUT</Key>
+    <Key>RANGLT</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>GRIT</Key>
+        <Key>QUICKST</Key>
+        <Key>RAPREA</Key>
+        <Key>QUICKDR</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>LETHALBL</Key>
+        <Key>GRIT</Key>
+        <Key>QUICKST</Key>
+        <Key>QUICKDRIMP</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>TOUGH</Key>
+        <Key>CALLEM</Key>
+        <Key>DODGE</Key>
+        <Key>SORRYMESS</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>CONF</Key>
+        <Key>LETHALBL</Key>
+        <Key>GUNSBLAZING</Key>
+        <Key>RAPREA</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>DEDI</Key>
+        <Key>SPITFIRE</Key>
+        <Key>NATMAR</Key>
+        <Key>DEADACC</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

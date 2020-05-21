@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>JTYPESKIFF</Key>
+  <Name>J-Type Star Skiff</Name>
+  <Description>
+    [H3]J-Type Star Skiff[h3]
+
+A sleek, delta-wing-shaped vessel with a distinctive teardrop fuselage, the J-type Star Skiff was designed for the Royal House of Naboo. Introduced during the height of the Clone Wars, the star skiff was intended to act as the Queen's personal transport, allowing the monarch to journey quickly and in relative comfort across the galaxy. The fast, streamlined star yacht soon became popular among the senators and the wealthy elite of the galaxy. A few discriminating crime lord and well-to-do fringers also use star skiff as status symbols. 
+
+[P]The interior of the vessel is designed with taste and comfort in mind. Passengers have small-but-tasteful staterooms in which to relax, and the ship has a top-of-the-line food preparation area, relaxing lounge, and a high-power communications suite that includes a Holo-Net transceiver. These make it perfect for diplomats or other officials who want to relax or work while traveling. 
+
+[P]Unlike previous diplomatic vessels manufactured by Nubia Star Drives for Naboo, the J-type Star Skiff was equipped with a pair of top-mounted, retractable laser cannons for defense. Though armed, the star skiff is not intended to engage in combat, instead relying on its speed and shielding to outrun any threats.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Yacht</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Price>260000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot one c-pilot/navigator, one gunner</Crew>
+  <EncumbranceCapacity>90</EncumbranceCapacity>
+  <Consumables>Six months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <Armor>4</Armor>
+  <HullTrauma>28</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Retractable>true</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AA9ASSAULT</Key>
+  <Name>Invader AA-9 Assault Airspeeder</Name>
+  <Description>
+    [H3]Invader AA-9 Assault Airspeeder[h3]
+
+The Invader is Mekuun's compact assault speeder, designed for battlefield close air supporr and squad insertion missions. The speeder's small size and low, wide profile make it more difficult to hit, but also limit the power of its weapons systems. The pilot and gunner sit one behind the other in the bow of the craft, while any troops aboard for deployment sit in a tight compartment behind them. Troops deploy out both sides, as the side hatches slide open. A variation of the Invader is the AA-9s, a stealth-enabled model with quieter repulsorlifts and custom camouflage. Both models are often used to deploy squads quickly behind enemy lines.</Description>
+  <Source>Dangerous Covenants</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>45000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <MaxAltitude>200 km</MaxAltitude>
+  <StarFighters>None</StarFighters>
+  <Crew>One pilot, one gunner</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Consumables>None</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Armor>2</Armor>
+  <HullTrauma>11</HullTrauma>
+  <SystemStrain>9</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Turret>true</Turret>
+      <Location>Forward</Location>
+      <Key>MINIROCKET</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

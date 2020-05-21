@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIESAMOD</Key>
+  <Name>Modified TIE Bomber</Name>
+  <Description>
+    [H3]Modified TIE Bomber[h3]
+Just in case he fails in his plan to retake the base, Moff
+Dardano has held one final ace in reserve: a TIE/sa tactical
+bomber that he himself has been known to fly on
+occasion. If Moff Dardano cannot retake the base, he
+intends to destroy Whisper Base. To that end, he has
+had his TIE bomber modified to carry an experimental
+new proton bomb—a charge capable of erasing the
+base (and all evidence of his schemes).
+[P]If at any point Moff Dardano believes that the battle
+has become unwinnable, or if the PCs have disabled
+the [I]Armored Fist[i], the Moff takes to the skies in his TIE
+bomber (or sends one of Moff Dardano’s Bodyguards
+to carry out the job, if he himself is indisposed, captured,
+or dying), intent on obliterating Whisper Base,
+either to cover up his failure or merely out of spite.
+  </Description>
+  <Source>Operation: Shadowpoint</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>0</HP>
+  <Price>110000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods />
+  <MaxAltitude />
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRange>Close</SensorRange>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Consumables>Two days</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>9</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Ventral</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>PROTONBOMB</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

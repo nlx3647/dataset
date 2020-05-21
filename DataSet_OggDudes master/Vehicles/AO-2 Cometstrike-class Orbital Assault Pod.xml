@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AO-2COMETSTRIKE</Key>
+  <Name>AO-2 Cometstrike-class Orbital Assault Pod</Name>
+  <Description>[H3]AO-2 Cometstrike-class Orbital Assault Pod[h3]
+The AO-2 [I]Cometstrike[i]-class orbital assault pod fulfills a niche role among combat and landing craft, and its unique attributes are such that many individuals do not consider it a proper starship at all. The AO-2 serves a single purpose-to deliver combatants to a planet's surface as rapidly as possible. To this end, its design eschews nearly all other considerations to arrive at what amounts to little more than a heavily armored passenger compartment capable of achieving impressive velocity along a straight course.
+[P]The [I]Cometstrike[i] is intended to launch from high orbit-often directly from a ship's hangar bay-hurtling directly toward a planet's surface at high speed. Once a course is set and landing coordinates programmed, an on-board computer handles any necessary course corrections. The speed of the descent prevents enemy fighters from engaging the assault pod, and even the most sophisticated ground-defense weapons have great difficulty zeroing in on such a small, rapidly moving target. Proximity sensors activate powerful repulsor engines to slow the pod's descent for a safe, if impactful, landing. Upon arrival, a single pull of a switch by any occupant drops twin boarding ramps on opposite sides of the hull, allowing passengers to swiftly engage the enemy.
+[P]The AO-2 receives its primary propulsion from powerful trifold ion turbines protruding from its dorsal hull. Once a [I]Cometstrike[i]'s trajectory is set, no pilot is necessary for the initial descent, and in fact, a pilot can make only minor course adjustments with the ventral attitude thrusters. In addition, the AO-2 is equipped with a repulsorlift engine for purposes of retrieval, allowing a pilot to move the pod slowly and ponderously to rendezvous with a landing craft or even a ship in low orbit. Retractable pintle-mounted heavy repeating blasters located above each hatch allow passengers to lay down covering fire while their teammates debark.
+[P]Cygnus Spaceworks designed the original AO-1 orbital assault pod for use by the Grand Army of the Republic. After Republic Command deemed the vehicle too dangerous for use by clone troopers and Cygnus lost its contract, the company was able to salvage the program with a handful of improved safety features, marketing the resulting AO-2 to mercenary companies and several minor warlords on the periphery of the Unknown Regions.</Description>
+  <Source Page="56">Knights of Fate</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Assault Ship</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>30000</Price>
+  <Rarity>5</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Orbital Assault:[b] The assault pod's profile represents the use of its repulsor engine after its initial descent. During the initial descent, the pod is speed 8 but it cannot significantly alter its trajectory.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot (optional).</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>14</Passengers>
+  <Consumables>Two days.</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-5</Handling>
+  <Armor>5</Armor>
+  <HullTrauma>15</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Forward</Location>
+      <Key>BLASTHVYREP</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Aft</Location>
+      <Key>BLASTHVYREP</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

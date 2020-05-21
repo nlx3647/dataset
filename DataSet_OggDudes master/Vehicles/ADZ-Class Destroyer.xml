@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ADZDEST</Key>
+  <Name>ADZ-Class Destroyer</Name>
+  <Description>
+    [H3]ADZ-Class Destroyer[h3]
+
+One of the smallest capital ships in the Imperial Navy's arsenal, the Adz-class destroyer is a relative newcomer to the galactic spacelanes. Produced by Kuat Drive Yards (KDY). the Adz-class is designed for long-range patrol duty. Best described as tall and angular, these vessels have a long, narrow, slab-sided hull flanked by port and starboard sponsons that house the primary thrusters and sensor systems. Their prows are steeply angled wedges rising to tall super-structures that house the ships' powerful soliton-wave antennae, which can sense the comings and goings of other vessels in hyperspace, and their attendant cooling systems. Thanks to state-of-the-art slave-circuit systems, these vessels have a very small crew for their size and can operate at peak efficiency with only a handful of officers and crew. 
+
+[P]The ship has some issues: the foremost that the sensor suite suffers from being mated to the finicky, high-maintenance soliton antenna and is prone to brownouts, spoofing, and signal interference. In addition, the soliton antenna drains power at a ferocious rate. Despite these complaints, many Adz-class destroyers are already patrolling out-of-the-way parts of the Outer Rim.</Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Destroyer</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Capital Ship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>4450000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <StarFighters>6 starfighters</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>30 officers, pilots, and enlisted crew</Crew>
+  <EncumbranceCapacity>400</EncumbranceCapacity>
+  <Passengers>8</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>6</Armor>
+  <HullTrauma>50</HullTrauma>
+  <SystemStrain>35</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>LASERQUAD</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Key>LASERQUAD</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>IONLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>IONLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

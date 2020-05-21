@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>NEUTRON</Key>
+  <Name>Neutron Star-Class Bulk Cruiser</Name>
+  <Description>
+    [H3]Neutron Star-Class Bulk Cruiser[h3]
+
+Rendili StarDrive's Neutron Star-class bulk cruiser was once a popular warship with planetary defense forces throughout the galaxy. Though lacking the punch of modem capital ships, the Neutron Star does sport enough turbolasers and laser cannons to be useful as an all-around warship for planets with tight defense budgets. They are effective pirate deterrents, and decent support vessels in larger fleets. Mercenaries often adapt the ship to their own specifications, and concoct methods to purchase older vessels from defense forces and then upgrade to more effective designs. The Neutron Star can be armed with a host of different weaponry, although typically they come equipped with a mix of heavy laser cannons and turbolasers. 
+
+[P]With the rise of the Empire, many military forces (including the Rebel Alliance find themselves scrambling for whatever capital ships they can find. Neutron Star cruisers are no match for Imperial Star Destroyers, but cash-strapped navies often have to take what they can get.</Description>
+  <Source>Dangerous Covenants</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Bulk Cruiser</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>2800000</Price>
+  <Rarity>4</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>20</HyperdriveBackup>
+  <StarFighters>None</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>2200 crew</Crew>
+  <EncumbranceCapacity>5000</EncumbranceCapacity>
+  <Passengers>250</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>7</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>6</Armor>
+  <HullTrauma>80</HullTrauma>
+  <SystemStrain>50</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>1</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>BREACH</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOHVY</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>BREACH</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOHVY</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>BREACH</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOHVY</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>LASERHVY</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>LASERHVY</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERHVY</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

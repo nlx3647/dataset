@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>PUNWORCCA116</Key>
+  <Name>Punworcca 116-class Interstellar Sloop</Name>
+  <Description>[H3][I]Punworcca 116[i]-class Interstellar Sloop[h3]
+The [I]Punworcca 116[i]-class Interstellar Sloop is a solar sailer-a beautiful and ancient class of vessel that uses an immense sail to draw energy particles from surrounding space to power its hyperdrive.
+[P]The [I]Punworcca 116[i] was built by the Huppla Pasa Tisc Shipwrights Collective on Geonosis, and was primarily designed as a personal yacht for the wealthy and important. It is not a practical vessel-it barely has room for 2 passengers in addition to the pilot (most owners tended to use a droid to pilot the ship), and not much cargo space. In addition, the huge sail can be an impractical method of travel, especially in dangerous regions of space.
+[P]Characters may encounter similar solar sailers when traveling in the far reaches of the Outer Rim and beyond, where older vessels are still occasionally used.</Description>
+  <Source Page="62">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Yacht</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>240000</Price>
+  <Rarity>9</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>84 miniature tractor beam projectors, collectively forming a light tractor beam</MiscDesc>
+    </Mod>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Let Out The Sail:[b] When the [I]Punworcca 116[i] has its massive sail unfurled, its silhouette is increased from 3 to 5. Its port and starboard defenses are lowered from 2 to 0. Without the sail unfurled, though, the primary hyperdrive cannot be used. If the sail is damaged, the primary hyperdrive is inoperable, forclng the use of an extremely sub-standard class 15 backup drive.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-3</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <Armor>1</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Key>TRACTLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

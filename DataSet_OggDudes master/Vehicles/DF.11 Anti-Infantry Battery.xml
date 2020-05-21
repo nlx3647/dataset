@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DF11</Key>
+  <Name>DF.11 Anti-Infantry Battery</Name>
+  <Description>[H3]DF.11 Anti-Infantry Battery[h3]
+
+Golan Arms’ DF.11 is one of the more popular antiinfantry
+artillery weapons on the galactic market
+today. Used by both the Imperial Army and Rebel
+Alliance ground forces, the DF.11 is a powerful, reliable
+weapon typically found guarding the approaches
+to permanent and semipermanent military garrisons.
+The weapon itself is a short range, turret-mounted,
+double-barrel, light laser cannon mounted atop a
+short, armored, and lightly shielded tower. It fires a
+powerful and accurate laser beam over long distances
+that creates a wide area effect burst of energy upon
+impact. This blast can destroy whole squads of unarmored
+or lightly armored infantry, and even lightly
+armored vehicles, with a single, well placed shot. The
+DF.11 comes equipped with its own power generators
+and requires a crew of three—a gunner, a technician,
+and a fire control operator—to operate at top
+efficiency.
+[P]While DF.11 s are popular and effective weapon
+emplacements, they do suffer from a handful of shortcomings.
+They are, by nature, static emplacements.
+Breaking down a DF.11 for transit is a long and arduous
+task that requires a team of at least six technicians; it
+is not something that can be undertaken in the heat of
+battle. In addition, while the DF.11 is a potent weapon, it’s also a slow-firing energy hog that requires constant
+technical attention to keep functioning properly It is best
+used in conjunction with lighter, more flexible weapons
+like E-Webs and other light and heavy repeating blasters.
+[P]The DF.11 emplacement is a small, immobile vehicle
+for game purposes.</Description>
+  <Source Page="48">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Field Equipment</Type>
+  <Categories />
+  <Price>7500</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <WeaponModifiers>
+    <WeaponModifier>
+      <UnarmedName>DF.11 Anti-Infantry Battery</UnarmedName>
+      <SkillKey>GUNN</SkillKey>
+      <Damage>15</Damage>
+      <Crit>2</Crit>
+      <Qualities>
+        <Quality>
+          <Key>BLAST</Key>
+          <Count>10</Count>
+        </Quality>
+        <Quality>
+          <Key>INACCURATE</Key>
+          <Count>2</Count>
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+        <Quality>
+          <Key>PIERCE</Key>
+          <Count>4</Count>
+        </Quality>
+        <Quality>
+          <Key>SLOWFIRING</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <VehicleWeaponProperties>
+        <FiringArcs>
+          <Fore>true</Fore>
+          <Aft>true</Aft>
+          <Port>true</Port>
+          <Starboard>true</Starboard>
+        </FiringArcs>
+      </VehicleWeaponProperties>
+      <VehicleWeaponCount>1</VehicleWeaponCount>
+      <RangeValue>wrLong</RangeValue>
+      <Range>Long</Range>
+    </WeaponModifier>
+  </WeaponModifiers>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One gunner, one technician, one fire control operator</Crew>
+  <Silhouette>1</Silhouette>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

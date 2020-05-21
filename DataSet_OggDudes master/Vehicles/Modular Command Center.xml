@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>C52MOD</Key>
+  <Name>Modular Command Center</Name>
+  <Description>[H3]Com C-52 Modular Command Center[h3]
+The
+C-52 is a smaller, more compact command
+center module designed for small bases and
+platoon-level command. It can hold between fifteen
+and twenty people and features one large
+open room good for a command and control
+space, with plenty of room for workstations,
+holotables, and assorted equipment. Its handful
+of smaller rooms are useful as comms stations,
+offices, and private meeting spaces.
+[P][I]Disclaimer: This is a piece of field equipment found in the Lead by Example Sourcebook.  It is created as a stationary "vehicle" because it is the most appropriate format.  While any mods or benefits are per the official source, the actual vehicle stats are an interpretation only and are not official.  Feel free to modify them if you think any changes are required.[i]</Description>
+  <Source Page="48">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Field Equipment</Type>
+  <Categories />
+  <Price>1750</Price>
+  <Rarity>2</Rarity>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>20</Passengers>
+  <Silhouette>5</Silhouette>
+  <Armor>1</Armor>
+  <HullTrauma>22</HullTrauma>
+  <SystemStrain>16</SystemStrain>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>JEDICAREER1</Key>
+  <Name>Jedi</Name>
+  <Description>[H4]Jedi[h4]
+</Description>
+  <Sources>
+    <Source Page="24">Rise of Sep</Source>
+    <Source Page="24">Collapse of Rep</Source>
+  </Sources>
+  <Custom>AddedItem</Custom>
+  <CareerSkills>
+    <Key>ATHL</Key>
+    <Key>COOL</Key>
+    <Key>DISC</Key>
+    <Key>LTSABER</Key>
+    <Key>LORE</Key>
+    <Key>PILOTSP</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>JGEN</Key>
+    <Key>JKNIGHT</Key>
+    <Key>JMAST</Key>
+    <Key>JEDPAD</Key>
+  </Specializations>
+  <Attributes>
+    <ForceRating>1</ForceRating>
+  </Attributes>
+  <FreeRanks>4</FreeRanks>
+</Career>

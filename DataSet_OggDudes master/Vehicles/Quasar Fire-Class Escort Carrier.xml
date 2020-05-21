@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>QUASARCARR</Key>
+  <Name>Quasar Fire-Class Escort Carrier</Name>
+  <Description>[H3]Quasar Fire-Class Escort Carrier[h3]
+
+The Rebel Alliance's Quasar Fire-class escort carriers began life as unassuming Quasar Fire-series bulk freighters produced by SoroSuub corporation. Ungainly-looking ships with a small forward command pod attached to a massive modular container ship hull by a broad, flat, triangular spar, these ships were initially designed to carry heavy, containerized cargoes on long-distance hyperspace trade routes. Acquired by a Rebel operative at auction, the handful of ships that would become the Quasar Fire-class were seen as a quick and relatively easy way to acquire vessels capable of carrying starfighters into battle and supporting them with full service hangars (instead of each individual squadron traveling to an engagement separately, hoping that they all arrive relatively close together). The vessels were flown to a secret Rebel shipyard where they were torn down to the keel, and over the course of many standard months, they were rebuilt as dedicated starfighter carriers. 
+[P]Roughly the equivalent of the Imperial Navy's Ton-Falk-class escort carriers in power and fighter capacity, these vessels have improved the efficacy of Alliance fighter operations by leaps and bounds. Extremely valuable to the Rebel cause and jealously guarded by their captains and crews, Quasar Fire-class carriers are always accompanied by a strong mixed battlegroup of gunboats and cruisers to protect the fragile carriers and their precious cargo of starfighters. Although two of the original ships have been lost in action, many still remain active, scattered throughout the galaxy and brought out whenever a large concentration of starfighters is needed in a hurry.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Carrier</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>1750000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <StarFighters>48 starfighters</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>250 officers, pilots, and enlisted</Crew>
+  <EncumbranceCapacity>5000</EncumbranceCapacity>
+  <Passengers>150</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>62</HullTrauma>
+  <SystemStrain>45</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>1</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TURBOLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Key>TRACTMED</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

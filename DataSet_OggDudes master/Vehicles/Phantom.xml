@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>PHANTOM</Key>
+  <Name>Phantom</Name>
+  <Description>[H3][I]Phantom[i][h3]
+The [I]Phantom[i] served the Spectres well, until it was unfortunately lost in a mission to recover mothballed Y-wings that were slated for destruction. It's hyperdrive capability made it especially valulable as it allowed the Spectres to split up or launch small missions where the larger [I]Ghost[i] might be impractical or too easily noticed.</Description>
+  <Source Page="77">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Shuttle</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>22000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot.</Crew>
+  <Consumables>One day.</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>12</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

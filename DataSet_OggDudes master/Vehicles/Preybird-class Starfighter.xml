@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>PREYBIRD</Key>
+  <Name>Preybird-class Starfighter</Name>
+  <Description>
+    [H3]Preybird-class Starfighter[h3]
+
+SoroSuub always intended for the Preybird-class starfighter to be sold on the open market, rather than to a specific buyer or defense force. Unfortunately, the ship fell victim to design and manufacturing conflicts, forcing it over budget. Though the production run was limited, it proved to be a popular craft in some circles. Pirates in particular like the distinctive, intimidating look of the craft, and like its powerful weapons systems even more.</Description>
+  <Source>Dangerous Covenants</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>84000</Price>
+  <Rarity>8</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>8</EncumbranceCapacity>
+  <Consumables>Four days</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>9</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Wingtip</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>6</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

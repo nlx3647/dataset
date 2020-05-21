@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LANDSPEEDERORDRAD</Key>
+  <Name>Ord Radama Landspeeder</Name>
+  <Description>[H3]Ord Radama Landspeeder[h3]
+</Description>
+  <Source>Onslaught at Arda I</Source>
+  <Sources />
+  <Custom>AddedItem</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>1</HP>
+  <Price>10000</Price>
+  <Rarity>2</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <MaxAltitude>One meter</MaxAltitude>
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRange>None</SensorRange>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables />
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>0</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <Starship>false</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons />
+</Vehicle>

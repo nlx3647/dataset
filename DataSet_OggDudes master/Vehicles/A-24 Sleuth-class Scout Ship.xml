@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>A24SLEUTH</Key>
+  <Name>A-24 Sleuth-class Scout Ship</Name>
+  <Description>
+    [H3]A-24 Sleuth-class Scout Ship[h3]
+
+Incom's A-24 Sleuth-class scout ship is a light, one-person reconnaissance ship built for stealth and speed. Slightly larger than a heavy starfighter, the Sleuth is a small, elegant craft. Long and narrow, the ship has a distinct wasp-waisted silhouette with an angular, forward command deck/cockpit, a narrow midships section mounting a small pair of canards that support the ship's sensor and communications array, and a broad aft section that flares out in a flat triangular shape that houses the engines, winglets, stabilizers, and weapons. The command deck/cockpit section can be charitably described as intimate. The cramped confines of the pilot's station are offset by the panoramic sheets of transparisteel that enclose the cockpit. These thick panes are photosensitive and grant the pilot a nearly unobstructed view of his surroundings. Aft of the pilot's chair, there is a machine closet that can house an astromech droid if so desired. 
+
+[P]For scouting and reconnaissance, the Sleuth is equipped with a powerful multirole sensor suite produced by Fabritech for Incom. Tuned for long-range scouting, these sensors use optical and electronic enhancers, as well as active and passive systems like dedicated energy receptors, full-spectrum transceivers, and life-form scanners, to give the scout pilot a comprehensive view of his surroundings. The ship's other systems include a trio of Incom's high-output 804.d Starslinger ion drives, two Taim &amp; Bak IX4 linked laser cannons, and a dependable hyperdrive and navicomputer for long scouting missions. While there are newer scout ships on the market, the A-24 remains popular for its speed and ease of use.</Description>
+  <Source>Enter the Unknown</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Patrol Boat</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>45000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>9</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

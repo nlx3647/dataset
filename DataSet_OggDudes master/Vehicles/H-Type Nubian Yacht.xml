@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HTYPENUBIANYACHT</Key>
+  <Name>H-Type Nubian Yacht</Name>
+  <Description>[H3]H-Type Nubian Yacht[h3]
+The sleek and stylish H-type vessels produced by Nubia Star Drives, Incorporated started as an exclusive commission for the royalty and government of the planet Naboo, but in the years since the rise of the Empire, as the influence and standing of Naboo's monarchy waned, the design has been made more widely available as a yacht for wealthy customers galaxy-wide. The firm outraged some traditionalists, not only by abandoning their exclusivity, but by offering the vessels in the signature chromium finish which traditionally marked the livery of the Naboo planetary monarchy.
+[P]What the vessel lacks in weapons, it makes up for with a strong deflector shield system and a powerful engine. giving it speed to rival most starfighters. The H-type is not perhaps as luxurious as the more well-known J-type vessels, being slightly smaller and intended more as a pleasure yacht than a diplomatic vessel.</Description>
+  <Source Page="60">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Yacht</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Price>800000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>7</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>75</EncumbranceCapacity>
+  <Passengers>8</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>5</Speed>
+  <Handling>1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

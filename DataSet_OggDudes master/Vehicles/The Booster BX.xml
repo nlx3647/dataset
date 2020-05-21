@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BOOSTER</Key>
+  <Name>The Booster BX</Name>
+  <Description>[H3]The [I]Booster BX[i][h3]
+The Broken Horn has been using this highly modified vessel for smash and grab operations on weapon depots. Few, if any other ships could possibly intercept one of the Imperial messenger droids inbound to Lothal.</Description>
+  <Source Page="46">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>225000</Price>
+  <Rarity>9</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>14</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, two turret gunners, one tractor beam gunner, one engineer.</Crew>
+  <EncumbranceCapacity>80</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>One month.</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>5</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>22</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Key>TRACTLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

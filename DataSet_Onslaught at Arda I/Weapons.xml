@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<Weapons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapon>
+    <Key>DORANWEP</Key>
+    <Name>Swoop Attack</Name>
+    <Description>[H3]Swoop Attack[h3]
+</Description>
+    <Source>Onslaught at Arda I</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories />
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>0</Price>
+    <Rarity>0</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>3</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Close</Range>
+    <Ordnance>false</Ordnance>
+    <Qualities />
+  </Weapon>
+  <Weapon>
+    <Key>BLASTCANLTREP</Key>
+    <Name>Light Repeating Blaster Cannon</Name>
+    <Description>[H3]Light Repeating Blaster Cannon[h3]
+</Description>
+    <Source>Onslaught at Arda I</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories />
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>0</Price>
+    <Rarity>0</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>3</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>4</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Close</Range>
+    <Ordnance>false</Ordnance>
+    <Qualities>
+      <Quality>
+        <Key>AUTOFIRE</Key>
+        <Count>0</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>AVLASCAN</Key>
+    <Name>Anti-Vehicle Laser Cannon</Name>
+    <Description>[H3]Anti-Vehicle Laser Cannon[h3]
+</Description>
+    <Source>Onslaught at Arda I</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories />
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>0</Price>
+    <Rarity>0</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>6</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Short</Range>
+    <Ordnance>false</Ordnance>
+    <Qualities />
+  </Weapon>
+  <Weapon>
+    <Key>AILASCAN</Key>
+    <Name>Anti-Infantry Laser Cannon (Personal)</Name>
+    <Description>[H3]Anti-Infantry Laser Cannon (Personal)[h3]
+</Description>
+    <Source>Onslaught at Arda I</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories />
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>0</Price>
+    <Rarity>0</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>16</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>2</Crit>
+    <SizeLow>0</SizeLow>
+    <SizeHigh>10</SizeHigh>
+    <Range>Extreme</Range>
+    <Ordnance>false</Ordnance>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>8</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Quality>
+    </Qualities>
+  </Weapon>
+</Weapons>

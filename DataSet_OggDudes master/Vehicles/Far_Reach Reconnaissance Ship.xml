@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>FARREACH</Key>
+  <Name>Far*Reach Reconnaissance Ship</Name>
+  <Description>[H3]Far*Reach Reconnaissance Ship[h3]
+Ships from Loronar's Far*Reach line of scout ships are among the most popular short range scout/reconnaissance vessels in the galaxy. Known for ships that are tough, easy to fly, and easy to maintain, the Far*Reach line is well respected in both civilian and government circles. Slightly larger than Sienar Fleet Systems' Skipray, these vessels have a long, oblong hull with short, truncate wings mounted amid-ships, smaller stabilizing wings aft, and a pair of high-output LR-850a ion drives mounted aft and fully ecnlosed within the hull. A large sensor dome dominating the dorsal side of the ship is padcked with sophisticated observation, communications, and imaging systems that give the ship the ability to see an record the smallest target from nearly a system away. While they carry little in the way of armament (only a factory fitted light-laser turret), these ships are fast and agile enought to evade all but the most dedicated pursuers.</Description>
+  <Source Page="57">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Patrol Boat</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>60000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <SensorRangeValue>srExtreme</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, one engineer, three sensor operators</Crew>
+  <EncumbranceCapacity>65</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>Six months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Extreme</SensorRange>
+</Vehicle>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>STARVIPERM2</Key>
+  <Name>StarViper M-2</Name>
+  <Description>[H3]StarViper M-2[h3]
+The StarViper M-2 is an aftermarket modification
+of the infamous MandalMotors space superiority
+starfighter. It possesses a distinctive profile, with
+four wings radiating from a central cockpit like the
+fins of a beautiful yet deadly ocean creature. Two
+“arms” extend from the cockpit, each holding a pair of
+weapons. The arms can swing forward and backward,
+enhancing targeting capability and even allowing the
+pilot to fire behind the ship.
+[P]The M-2 modification boasts improved versatility at
+the expense of raw killing power. The heavy laser cannons have been reduced in potency to save power for
+the StarViper’s boosted shields, while still leaving the
+craft with a potent punch. More importantly, the proton torpedo launchers have been replaced with a pair
+of ion cannons, making the fighter popular among
+pirates and criminal consortiums.</Description>
+  <Source>Mask of the Pirate Queen</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>160000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>12</EncumbranceCapacity>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>14</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Arm</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

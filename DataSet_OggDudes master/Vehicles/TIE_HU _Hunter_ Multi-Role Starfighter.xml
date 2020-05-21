@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIEHU</Key>
+  <Name>TIE/HU "Hunter" Multi-Role Starfighter</Name>
+  <Description>[H3]TIE/HU "Hunter" Multi-Role Starfighter[h3]
+
+After the disaster at Yavin that culminated in the destruction of the Death Star, the Imperial Navy took stock of the situation and came to two important conclusions. The first was that the Alliance to Restore the Republic was no longer just a rag-tag group of do-gooders, bleeding hearts, and revolutionary agitators who could be ignored or intimidated at will, but a dangerous, well-organized, and relatively well-supplied insurgent force. The second, and even more evident, was that the Navy needed a starfighter more capable and powerful by far than the standard TIE/In to counter the Rebellion's powerful X-wings. The first problem was dealt with relatively easily through changes in organization and deployment of Imperial forces, and the second was dealt with by the development of the TIE/hu hunter. 
+
+[P]A combination of the best parts of the TIE/In, TIE/in, and TIE/ad, the TIE hunter is the first truly multi-role starfighter to enter service with the Imperial Navy. Using data collected over the course of countless encounters with Alliance starfighters, Seinar Fleet Systems designed an all-new fighter with more robust internal systems, shields, and life support. The TIE hunter also boasts a hyperdrive and a versatile loadout of energy weapons and ordnance launchers. After initial field testing showed an extremely promising fighter, the Admiralty decided to issue the deadly new fighters to the Imperial Storm Commandos. 
+
+[P]At first glance, TIE hunters bear a striking resemblance to TIE interceptors. They have four dagger-shaped solar collector wings tipped with laser can-nons and the iconic TIE-series spherical command pod. Further inspection shows that the solar collectors are, in fact, variable geometry s-foils nearly identical to those found on the X-wing. Armed with four linked medium laser cannons, a pair of ion cannons, and two proton torpedo launchers, the hunter is easily a match for any fighter in the Alliance inventory, including the X-wing. Thankfully, for the Alliance at least, production of the TIE hunter is still in its infancy, and building squadrons up to strength is taking longer than the Imperial Navy brass would like. </Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>253000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>6</EncumbranceCapacity>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>2</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>9</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>4</Count>
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

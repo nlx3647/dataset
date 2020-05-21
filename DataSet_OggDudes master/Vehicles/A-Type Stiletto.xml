@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>STILETTO</Key>
+  <Name>A-Type Stiletto</Name>
+  <Description>
+    [H3]A-Type Stiletto[h3]
+
+Nubia Star Drives makes some of the most distinctive vessels in the galaxy. They produce vessels that meet the specifications of exacting clients, and their products are inevitably of the very highest quality. Therefore, their take on a space superiority starfighter is inevitably both unique and deadly. The A-type Stiletto was first produced for an anonymous client, after which Nubia Star Drives sold copies to others who could afford them. The sleek, needle-shaped ship has no fins or other protrusions and comes plated in a reflective onyx finish. The hull wraps around the ship's two primary weapons: a long-barreled laser cannon tooled for accuracy and a single-shot, highly sophisticated concussion missile launcher. 
+
+[P]The missiles are incredibly accurate and generally can kill another starfighter in a single shot. However, reloads must be purchased on Nubia and are expensive: each missile costs 1,000 credits and is (R).</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>90000</Price>
+  <Rarity>7</Rarity>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>8</EncumbranceCapacity>
+  <Consumables>48 hours</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>LASERLONG</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>CMLHK</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

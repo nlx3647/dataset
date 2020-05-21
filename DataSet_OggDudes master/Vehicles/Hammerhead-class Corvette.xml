@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HAMMERHEADCORVETTE</Key>
+  <Name>Hammerhead-class Corvette</Name>
+  <Description>[H3][I]Hammerhead[i]-class Corvette[h3]
+Old, slow, and as reliable as a pilot’s chrono, Rendili StarDrive’s [I]Hammerhead[i]-class corvettes are a common sight in the galaxy’s spacelanes. Based on a centuries old Rendili Hyperworks design, these staid, workaday vessels have been in space for decades now. Officially classified by Rendili as “Armed Medium Transports.” Hammerheads are big, bulky ships that were built to transport goods and people safely, comfortably, and without the need to costly escorts. They have a beamy, cylinder-shaped hull that contains a number of large modular cargo holds, external docking ports for cargo containers, and an external cargo lift. The flight deck, the crew berths, and a handful of passenger staterooms are located in the angular, vertical bow, which gives these ships their easily recognizable profile and class name. Three large, pylon-mounted RSD 88D-II BrightStar ion engines dominate the ship’s aft.
+[P]In their intended role as armed transports, Hammerheads carry a respectable armament of two heavy lasers and two light ion cannons mounted in the bow. Remarkably heavily armed for ships of their class and role, they carry sturdy shields to better withstand the vagaries and dangers of space travel. Their internal systems are easy to maintain and upgrade, and they are fitted with numerous redundancies to keep the vessels at peak operating efficiency. While they are considered outmoded today, these sturdy vessels have a well-deserved reputation for toughness and reliability not enjoyed by many newer, more advanced ships. Most notably, tales of their survivability in actual collisions have fashioned legends of Hammerheads performing deliberate rams to disable enemy ships. While often acts of desperation, such actions have forced many an Imperial vessel to disengage from combat and allow resistance ships to escape.
+[P]Most [I]Hammerhead[i]-class ships still in operation are in the hands of small, private shipping concerns that use them in low-risk, short-hop transport roles or as backup for newer and larger ships. Thanks to their easily upgradable systems and their tough hulls, a few have found their way into pirate or smuggling fleets, where they are highly modified with more powerful weapons and better cargo-hauling systems, it is rumoured that the resistance has acquired a handful of these ships and is using them to deal surprising damage to the Imperial Navy.</Description>
+  <Source Page="129">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Corvette</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>1000000</Price>
+  <Rarity>8</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Designed to Ram:[b] When a Hammerhead makes a head-on impact, this is always treated as a minor collision for this vessel and so subtracts 30 from the rolll to resolve its Critical Hit. The enemy vessel always treats this as a major collision and also adds 30 to its roll to resolve its own Critical Hit.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>35 officers and enlisted crew.</Crew>
+  <EncumbranceCapacity>2000</EncumbranceCapacity>
+  <Passengers>125</Passengers>
+  <Consumables>Six months.</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>3</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>4</Armor>
+  <HullTrauma>50</HullTrauma>
+  <SystemStrain>25</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERHVY</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

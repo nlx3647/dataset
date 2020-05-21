@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GLADSTARDEST</Key>
+  <Name>Gladiator-Class Star Destroyer</Name>
+  <Description>[H3][I]Gladiator [i]-Class Star Destroyer[h3]
+Originally conceived by the legendary Walex Blissex as a Star Destroyer escort in the heavy battle lines of the Clone Wars, the [I]Gladiator I [i] was repurposed by the Galactic Empire as an independent, long-range patrol craft. The overpowered patrol vessel is able to project Imperial strength and pacify entire systems for up to two years without resupply. The [I]Gladiator [i] also has two battalions of stormtroopers, five AT-ST walkers, and the various shuttlecraft necessary to land them.
+[P]
+The 600-meter Star Destroyer packs incredible firepower, and it is equally comfortable performing system patrol, orbital bombardment, anti-ship, and escort missions. Its relatively low price point enables the Empire to send [I]Gladiators [i] throughout the Outer Rim, where they are unlikely to encounter anything more threatening than pirates in converted haulers or salvaged starfighters.</Description>
+  <Source Page="78">Friends Like These</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Star Destroyer</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>34000000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>8</HyperdriveBackup>
+  <StarFighters>24 starfighters, numerous shuttles, landing craft, and utility vehicles</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>1,255 officers, pilots and enlised crew</Crew>
+  <EncumbranceCapacity>5000</EncumbranceCapacity>
+  <Passengers>1200</Passengers>
+  <Consumables>Two years</Consumables>
+  <Silhouette>7</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>3</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>7</Armor>
+  <HullTrauma>90</HullTrauma>
+  <SystemStrain>35</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>12</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>12</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>LASERMED</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Key>LASERMED</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Aft</Location>
+      <Key>LASERMED</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Key>ACML</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTMED</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>TRACTMED</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>TRACTMED</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

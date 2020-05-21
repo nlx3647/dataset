@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SELTISS2</Key>
+  <Name>Seltiss-2 Caravel</Name>
+  <Description>[H3]Ubrikkian Industries Seltiss-2 Caravel[h3]
+
+A high-end pleasure yacht with an equally high pricetag, the Seltiss-2 Caravel has enjoyed such success among the Hutts that it is unofficially known as the Hutt Caravel. Designed to look like a space-going sail barge, this craft is opulently appointed, finished in greel wood, chall-crystal, and aurodium. Usually not equipped with a hyperdrive, most of these vessels shuttle their owners and their courtiers between Nal Hutta and Nar Shaddaa, though some Hutts add hyperdrives to convert the caravel into an interstellar pleasure yacht. These ships come with discreet laser cannons that retract behind concealed armored plates when not in use, and many Hutts add custom defenses and hidden weapons within the corridors. In the event of an emergency, the main cabin can actually eject from the body of the ship, acting as a life boat for the owner and his closest hangers-on, though there are no additional life pods aboard (after all, a Hutt can always find new servants).</Description>
+  <Source>Lords of Nal Hutta</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Transport</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>550000</Price>
+  <Rarity>6</Rarity>
+  <Crew>One pilot, one co-pilot, two gunners, four servants</Crew>
+  <EncumbranceCapacity>200</EncumbranceCapacity>
+  <Passengers>12</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>4</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

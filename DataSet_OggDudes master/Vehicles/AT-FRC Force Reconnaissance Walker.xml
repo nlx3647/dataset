@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATFRC</Key>
+  <Name>AT-FRC Force Reconnaissance Walker</Name>
+  <Description>[H3]AT-FRC Force Reconnaissance Walker[h3]
+
+KDY’s AT-FRC is a small, two-position walker designed
+for use by ARC troopers toward the end of the Clone
+Wars. Derived from the smaller, one-position AT-RT,
+the force reconnaissance walker features a narrow,
+lightly armored body slung low between two
+reverse-articulated legs, giving the walker a surprisingly
+small silhouette and allowing it to utilize cover
+better. The two crew members sit in tandem—the
+driver in the higher, rear seat and the reconnaissance
+systems operator (RSO) in the lower, forward
+position—beneath a transparisteel bubble canopy
+that provides excellent visibility around the walker,
+with few blind spots.
+[P]The AT-FRC is fitted with a sophisticated reconnaissance
+sensor suite, Fabritech’s LongView-341 .A, and a highpowered
+encrypted comms system, which allow the
+vehicle’s crew to gather information and transmit their
+intel back to base quickly and securely. The LongView
+is a scaled-down version of FabriTech’s LongView-382.X
+sensor array. It is packed with numerous light, energy,
+sound, pressure, and seismic sensors mated to an
+encrypted recording device that can compress telemetry
+into small data packets for easy transmission. In
+addition to its sensor suite, the AT-FRC is fitted with a
+number of stealth systems, including a sound-baffling system to muffle the noise of its
+engine and drive servos, a thermal/EMP dampening
+system that hides the vehicle’s energy emissions, and a
+simple variable optical camouflage system that allows
+the walker to blend in with its surroundings.
+[P]While ostensibly an observation walker designed
+to survive by dint of speed and stealth rather than
+brute strength, the AT-FRC mounts a small assortment
+of defensive weaponry. Mounted in a ball turret
+beneath the walker’s chin is a double-barrel autoblaster
+for anti-personnel work, as well as a rapid-fire
+concussion grenade launcher for heavy infantry and
+light anti-armor defense. The walker’s light,
+armorplast-coated durasteel hull is proof against
+small arms, splinters, and even some light repeating
+blasters, but it can’t stand up to concentrated heavy
+fire or ordnance attacks. The driver’s position contains
+all piloting controls, as well as the controls for
+the weapon systems, leaving the RSO free to concentrate
+on scanners and telemetry. In an emergency,
+control can be transferred to the forward RSO position,
+but this is typically only used to escape in dire
+combat situations.</Description>
+  <Source Page="51">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>75000</Price>
+  <Rarity>8</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Sound-Dapening Camouflage System[b]: Skill checks made to detect the AT-FRC have the difficulty upgraded once.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One driver/gunner, one reconnaissance systems operator</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <Handling>1</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>CONGRENLAUNCH</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

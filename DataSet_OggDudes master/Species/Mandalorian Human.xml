@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MANDOHUMAN</Key>
+  <Name>Mandalorian Human</Name>
+  <Description>
+    [H4]Mandalorian Human[h4]
+The Mandalonans are among the most feared and
+recognizable combatants In the galaxy. Respected
+as members of the pinnacle of warrior cultures, most
+Mandalorians receive comprehensive combat training
+during adolescence. While Mandalorians once united
+to launch great crusades that reshaped galactic borders. they are now fractured and strewn about the
+galaxy, wielding little power.
+[P][B]Physiology:[b] Mandalorians are typically humans. though
+their practice of adoption allows members of any species to be raised within Mandalorian culture. Despite
+their reputation as fearsome warriors with keen tactical minds. there are no significant biological or physiological differences between Mandalorian humans and
+baseline humars. Oddly enough, there are no recorded
+instancess of Force sensitivity appearing in Mandalorian
+society, though this might be owed to a lack ofJedi testing and Republic record keeping.
+[P][B]Society:[b] Mandalonan society traditionally centered
+around warfare. Throughout history, its members
+fought for both honor and credits which equal
+fervor. Recently, Mandalorian culture has fractured into three separate groups: The New
+Mandalorians, The Death Watch, and the Old
+Mandalorians.
+[P]The New Mandalorians followed Duchess Satine
+Kryze during the Clone Wars, and believed in moving
+Mandalorian culture beyond its warrior past. These
+pacifist Mandalorians believed in the potential economic power of Mandalore, built around the export
+of Beskar, or Mandalorian Iron. With complete control of the beskar mines, the New Mandalonans, after
+years or civil war, wrested control of their homeworld
+and steered their people onto a more peaceful path.
+Unfortunately, it was nol to last.
+[P]When the New Mandalonans rose from the ashes
+of Mandalore's Civil War, they banished unrepentant
+warrior-clans to the moon of Concordia. The Death
+Watch is the most infamous group, known for their
+bloodthirsty savagery and desire for conquest. During
+the Clone Wars, the Death Watch returned to exact their revenge. They were ultimately defeated, but
+members remain in hiding on Mandalore and Concordia awaiting the next call to arms.
+[P]The Old Mandalorians also endured exile after the
+Civil War. However, rather than plot revenge on Concordia, many resettled elsewhere in the galaxy. Concord
+Dawn, Gargan, Ordo, and Vlemoth Port are but a few of
+the worlds that support Mandalonan expatriates. Here,
+the Mandalorians live as they have for millennia, working for the highest bidder. Old Mandalorians are considered honorable and dangerously competent amongst
+their deadly trade. They prioritize lheir family and clan
+above all else. and train as warriors from a young age.
+[P][B]Homeworld:[b] Mandalore is a planet scarred by years or
+civil war. While lush forests, lakes, and mountains once
+covered the planet, it is now predominantly barren
+wasteland. Inhabitants are forced to live in domed cities,
+such as Sundari, the capital during the reign of Duchess
+Kryze's New Mandalorians. Sundari enclosed one of the
+largest active beskar mines on Mandalore, making it a
+major strategic asset. Presently, the Empire has control
+of Mandalore, where it operates an Imperial Academy.
+[P][B]Language:[b] Mando'a is the traditional language of the
+Mandalorians, though most also speak fluent Basic.
+Mando'a is especially popular among the Old Mandalorians, who find the language allows a greater degree of
+precision in speech when discussing combat. In
+addition to a more traditonal alphabet,
+Mandalorians also used a set of glyphs
+unique to their society that adorned
+armor, vehicles, items, and buildings.</Description>
+  <Sources>
+    <Source Page="7">Friends Like These</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>105</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>MANDOHUMANOC1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>MANDOHUMANOC1OP1</Key>
+          <Name>Combat Skill</Name>
+          <Description>Mandalorian Humans start the game with one rank in a combat skill of their choice.</Description>
+          <StartingSkillTraining>
+            <SkillTraining>
+              <SkillCount>1</SkillCount>
+              <Requirement>
+                <FromSkillType>true</FromSkillType>
+                <SkillType>stCombat</SkillType>
+              </Requirement>
+            </SkillTraining>
+          </StartingSkillTraining>
+        </Option>
+        <Option>
+          <Key>MANDOHUMANOC1OP2</Key>
+          <Name>Knowledge Skills</Name>
+          <Description>Mandalorian Humans start the game with one rank in two knowledge skills of their choice.</Description>
+          <StartingSkillTraining>
+            <SkillTraining>
+              <SkillCount>2</SkillCount>
+              <Requirement>
+                <FromSkillType>true</FromSkillType>
+                <SkillType>stKnowledge</SkillType>
+              </Requirement>
+            </SkillTraining>
+          </StartingSkillTraining>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

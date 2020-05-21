@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>STARBOLT</Key>
+  <Name>Starbolt Assault Carrier</Name>
+  <Description>
+    [H3]Starbolt Assault Carrier[h3]
+
+Corellian Engineering Corporation's Starbolt assault carrier was a sold as an integrated ship and weapons system, complete with its own starfighter squadron, airspeeders and a command speeder. The ship entered the market a few years before the Clone Wars and was sold to mercenary units, planetary defense forces and similar units throughout the war. With the establishment of the Empire, CEC lost out to KDY and Sienar Fleet Systems for major Imperial contracts. The Starbolt was eventually discontinued partly due to reduced sales, but mainly due to Imperial edicts limiting the sale of military-grade systems to non-governmental and non-Imperial entities. 
+
+[P]Starbolts remaining in service rarely have their original complement of speeders and fighters. Most have long been replaced with more modern, better-suited, or more readily available craft. However, the ship is still an effective assault craft, and one that many star systems still employ on a regular basis in their ongoing battles with pirates and Rebels. Worn out or damaged Starbolts have been salvaged by mercenary units and the occasional pirate as well. 
+
+[P]While the Starbolt was an easy-to-purchase package system and a competent assault craft, its on-board vessels were not themselves designed specifically for the ship. Rather, CEC partnered with other manufacturers to provide an excellent deal as well as an optimized combat solution for its buyers. Speeders were always sourced from other producers, as they were not part of CEC's product line. While CEC promoted their own starfighters in a package deal, most buyers opted for other craft. The most common configuration carried a squadron of Y-wings with a package of Mekuun vehicles—Invader assault speeders, Rush transport speeders and Overwatch Command Speeders.</Description>
+  <Source>Dangerous Covenants</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Frigate</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>10000000</Price>
+  <Rarity>8</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>10</HyperdriveBackup>
+  <StarFighters>24 starfighters, 6 assault speeders, four troop speeders, two command speeders, and two shuttles</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew> 800 crew and troop support</Crew>
+  <EncumbranceCapacity>4000</EncumbranceCapacity>
+  <Passengers>250</Passengers>
+  <Consumables>Two years</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>6</Armor>
+  <HullTrauma>75</HullTrauma>
+  <SystemStrain>60</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>TURBOHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Key>IONHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>1</Count>
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

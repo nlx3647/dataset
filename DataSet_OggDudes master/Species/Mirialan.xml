@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MIRIALAN</Key>
+  <Name>Mirialan</Name>
+  <Description>
+    [H4]Mirialan[h4]
+
+Mirialans are a near-human species from the planet Mirial. Their culture is characterized by a deep-seated faith and respect for an individual's destiny. Mirialans undergo ritual tattooing to represent the ways that they have overcome the obstacles that fate placed before them. 
+
+[P][B]Physiology:[b] Mirialans are physiologically extremely similar to humans. Their most obvious departure from human norms is in their skin tone, which ranges in color from green to a paler yellow-green. Hair color tends toward blacks and browns. while eye color can encompass human tones in addition to yellow, orange, and red. They are generally regarded as capable martial artists, as Mirialans are typically both faster and more agile than humans. 
+
+[P][B]Society:[b] Mirialan culture Is defined by its religious beliefs. Mirialans believe that an individual's destiny is defined by the decisions he makes and the actions he takes. Every decision builds upon those that have gone before to determine each person's ultimate outcome. Because these choices embody an individual's personal integrity, Mirialans choose to express this 
+visually as well. Every significant event in a Mirialan's life is illustrated by a tattoo inscribed upon his face, hands, or other commonly visible location. As Mirialans age, the pattern of tattoos becomes increasingly intricate and detailed. The different geometric patterns and locations of the tattoos form a visual representation of each Mirialan's life story and suggest the role that the individual is likely to play in the planet's future. 
+
+[P]Because Mirialans are so open about their personal histories, their society holds an inherent level of stratification. Those who have enjoyed past successes are automatically recognized and lauded for their success, and trusted with greater opportunities. In contrast, an individual who has made poor choices early in life is less likely to receive opportunities for redemption. After all, anyone who meets an individual can immediately recognize the Mirialan's past transgressions. Many who have made poor choices feel constrained to paths that limit them to an unfortunate ultimate outcome. However, for many, their faith in fate can provide the motivation to transfonrn their lives. Some believe that their mistakes serve as learning experiences for later challenges. 
+
+[P][B]Homeworid:[b] Mirial is located near the Hydian Way, not far from the Corporate Sector. The world is both dry and cold, which has forced the Mirialans to go to great lengths just to survive its challenges. Prior to the Clone Wars, the Trade Federation used Mirial's need for imports to keep its inhabitants under its sway. 
+
+[P][B]Language:[b] Mirialan is the native tongue of Mirial, though most Mirialans also learn Basic during childhood.</Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>DISC</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+    <SkillModifier>
+      <Key>COOL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+</Species>

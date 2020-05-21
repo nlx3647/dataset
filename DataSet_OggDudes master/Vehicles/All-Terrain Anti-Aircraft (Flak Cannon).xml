@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATAAFLAK</Key>
+  <Name>All-Terrain Anti-Aircraft (Flak Cannon)</Name>
+  <Description>[H3]All-Terrain Anti-Aircraft (Flak Cannon)[h3]
+
+One of the less well-known members of Rothana Heavy Industries' AT-series walker family, the AT-AA was first produced during the final years of the Clone Wars. Slow and tough, these walkers are fielded by the Imperial Army as mobile heavy air defense vehicles. A rarity among walker designs, the AT-AA is long and low to the ground, with four short legs ending in three-toed feet that extend out from the sides of the hull rather than straight down like an AT-AT or AT-ST This gives the walker a lizard-like, rather than mammal-like gait and appearance. These walkers are operated by a crew of three-pilot, gunner, and commander-housed in a cramped forward-mounted control pod. The rest of the vehicle is given over to the power, drive, and fire-control systems. 
+
+[P]Heavily armored for a walker of its size, the AT-AA is a slow, plodding vehicle better suited to rear-echelon, over the horizon artillery support and air defense rather than front line combat. In its role as an air defense walker, the AT-AA is armed with either a turret-mounted twin flak cannon or a turret-mounted quad concussion missile battery. This armament, combined with the vehicle's sophisticated air defense targeting system, allows a squad of AT-AAs to deny a remarkably broad swath of sky to enemy airspeeders and starships. While they can keep entire squadrons at bay with their flak bursts and concussion missiles, AT-AAs lack any secondary armaments and thus are woefully susceptible to attack from ground vehicles and infantry. While the walkers are equipped with firing ports from which the crew can fire their personal weapons, the vehicles have few defenses against a determined ground-based enemy. As such, AT-AAs are typically fielded with infantry and AT-ST support. </Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Walker</Category>
+  </Categories>
+  <Price>135000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <Crew>One pilot, one gunner, one commander</Crew>
+  <EncumbranceCapacity>25</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-2</Handling>
+  <Armor>4</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>FLAKLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AT-ACT</Key>
+  <Name>All Terrain Armored Cargo Transport</Name>
+  <Description>[H3]All Terrain Armored Cargo Transport[h3]
+The All Terrain Armored Cargo Transport is a heavy-duty logistics walker and cargo hauler based on the successful All Terrain Armored Transport. Like the AT-AT from which it was developed, the AT-ACT is a tall, imposing, lumbering, four-legged walker with a decidedly elephantine appearance. That’s where the similarities end, however. Unlike the heavy-hitting troop-carrying AT-AT, the AT-ACT was designed to haul munitions and materiel in support of military operations. Used by both the Imperial Army’s corps of engineers and the Imperial Navy’s logistics corps, these massive cargo-carrying walkers are typically deployed at shipyards and major Imperial military construction sites throughout the galaxy.
+[P]Like the combat-oriented AT-AT, the AT-ACT features a spacious, heavily armored slab of a hull supported by four multi-jointed legs with broad, round feet. The walker’s command deck is mounted on the end of an articulated neck and contains a cramped two-position cockpit as well as its weapon systems. Taking the place of the AT-AT’s troop compartment and small speeder bike hangar is a capacious, two-decked cargo hold. Equipped with a sophisticated cargo-handling and inventory system, the AT-ACT can load or unload immense amounts of materiel in a matter of minutes. To keep that materiel safe, the walker features armor that can shrug off nearly anything short of an anti-armor missile or a direct hit from a turbolaser. Each AT-ACT is fitted with a pair of high-output heavy lasers for defense and, in a pinch, light anti-vehicle support.</Description>
+  <Source Page="121">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Heavy Assault Walker</Type>
+  <Categories>
+    <Category>Walker</Category>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>125000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <EncumbranceCapacity>500</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <Armor>3</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>30</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

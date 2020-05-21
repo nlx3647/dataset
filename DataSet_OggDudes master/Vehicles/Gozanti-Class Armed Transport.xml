@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GOZANTI</Key>
+  <Name>Gozanti-Class Armed Transport</Name>
+  <Description>
+    [H3]Gozanti-Class Armed Transport[h3]
+
+Built for durability and firepower over speed and cargo capacity, the Gozanti-class cruiser is a peculiar transport intended to escort unarmed bulk container ships and provide and-piracy capabilities to freighter convoys. Introduced by Corellian Engineering Corporation nearly half a century ago, the company generally subcontracted out the actual construction of the Gozanti to smaller shipbuilders, notably Gallofree Yards, Inc. Intentionally designed to be too slow for use by pirates, the Gozanti cruiser is typically used by corporations and traders transporting valuable goods or individuals.</Description>
+  <Sources>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Source>Fly Casual</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <Type>Transport</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>200000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot, one engineer, one comms/sensors operator, two loadmasters, six gunners</Crew>
+  <EncumbranceCapacity>1000</EncumbranceCapacity>
+  <Passengers>12</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-3</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>50</HullTrauma>
+  <SystemStrain>36</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERQUAD</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERQUAD</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Retractable>true</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Retractable>true</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

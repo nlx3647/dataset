@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>KEELKANASUB</Key>
+  <Name>Keelkana-Class Attack Submersible</Name>
+  <Description>[H3]Mon Calamari Keelkana-Class Attack Submersible[h3]
+[P]Mon Calamari Subworks has created a number of distinct submarines, and the Keelhana-class attack submersible is one of its greatest triumphs. Considered by many to be one of the finest aquatic weapons platforms in the galaxy, the vessel is provided in large numbers to the Rebel Alliance.
+[P]Like other Mon Cal designs, the Keelkana is quite organic in its appearance. The sub’s hull resembles the body of a narrow manta ray, with twin water jets flanking the pilot’s compartment and twin torpedo tubes alongside them. The sub’s stubby wings are tipped with a pair of linked heavy blaster cannons.
+[P]Though all Keelkanas share the same basic design, the appearance of each submersible is unique in some way. While these variations are not as radical as those that differentiate Mon Calamari capital ships, they nonetheless fulfill the species’ aesthetic values.</Description>
+  <Source>Strongholds of Resistance</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Submersible</Type>
+  <Categories />
+  <HP>3</HP>
+  <Price>32000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>4</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>4</Count>
+        </Quality>
+      </Qualities>
+      <Key>TORPLAUNCH</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIESK</Key>
+  <Name>TIE/SK Striker Multi-Role Fighter</Name>
+  <Description>[H3]TIE/SK Striker Multi-Role Fighter[h3]
+The TIE/sk is a rarity among the many TIE-series fighters. Designed from the ground up as an air superiority fighter, the Striker is optimized to fly and fight in atmosphere. Somewhat larger and faster than a TIE/ln, it is still roughly on par in both speed and firepower with that starfighter. The Striker fills a number of roles—dogfighter, interdiction, and ground attack—and does so extremely well. Striker squadrons are typically deployed to important Imperial planetary facilities and operate alongside other TIE squadrons.
+[P]The design of the TIE/sk is as much of a departure from the rest of the TIE series as its intended role. Instead of the usual spherical fuselage, the Striker features an elongated, lozenge-shaped fuselage equipped with advanced avionics, a life-support system, a low-yield shield generator, and a small space that can hold small cargoes or a single passenger. Two variable-geometry S-foils, similar in shape to those found on the TIE/ln, are mounted to the fighter and give it its distinctive silhouette. Depending on flight conditions and angle of attack, the S-foils automatically position themselves to maximize performance. Standard weapon loadout consists of linked heavy blaster cannons and a pair of medium laser cannons. These can be augmented with the addition of bombs or versatile flex-warhead launchers mounted on external hard points. All of these systems combine to create a flexible, hard-hitting fighter.</Description>
+  <Source Page="126">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>50000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Optimized for Atmosphere:[b] While in space, the handling of the TIE/sk switches to (+0) and speed to (4).</MiscDesc>
+    </Mod>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Multi-Role Fighter:[b] The TIE/sk can also be fitted to deploy proton bombs in a ground assault role from a ventral-mounted ejector. These explode with the following profile: (Fire Arc All; Damage 8; Critical 2; Range [Close]; Blast 6, Breach 6).</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <Crew>One pilot, one gunner/bombadier.</Crew>
+  <EncumbranceCapacity>4</EncumbranceCapacity>
+  <Consumables>One day.</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>6</Speed>
+  <Handling>3</Handling>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>7</HullTrauma>
+  <SystemStrain>9</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Hull</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

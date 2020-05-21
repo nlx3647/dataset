@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<Weapons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapon>
+    <Key>DC15BLRIF</Key>
+    <Name>DC-15 Blaster Rifle</Name>
+    <Description>[H3]DC-15 Blaster Rifle[h3]
+The DC-1 5 was, before the introduction of the DC-15A carbine, the standard issue longarm of the GAR. Roughly as long as a clone is tall, these weapons are heavy, poorly balanced, and extremely difficult to use anywhere but in a wide-open battlefield. They tend to suffer beam cohesion issues after sustained fire,	which negatively affects their short- to medium-range accuracy, and they are generally unpleasant weapons to deal with on a daily basis.	[P]
+Despite these glaring flaws. the DC-15 remains surprisingly popular among the clone ranks for one simple reason: raw power The DC-15 is one of the most powerful heavy blaster rifles in current use. It can punch through laminate armor at I ,000 meters, and at closer ranges it can destroy lightly armored vehicles. It rarely overheats or needs to be reloaded.  is extremely reliable, and can be serviced with the  bare minimum of tools in the field. Many clone marksby men have adopted it as their primary weapon, fitting h- it with long-range optical systems and gyrostabilization units to increase combat effectiveness.
+</Description>
+    <Source Page="51">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster Rifle</Category>
+    </Categories>
+    <HP>4</HP>
+    <Price>2200</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>10</Damage>
+    <Crit>3</Crit>
+    <SizeHigh>10</SizeHigh>
+    <RangeValue>wrLong</RangeValue>
+    <Qualities>
+      <Quality>
+        <Key>CUMBERSOME</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>PIERCE</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>STUNSETTING</Key>
+      </Quality>
+    </Qualities>
+    <Range>Long</Range>
+  </Weapon>
+  <Weapon>
+    <Key>DC15ABLCARB</Key>
+    <Name>DC-15A Blaster Carbine</Name>
+    <Description>[H3]DC-15A Blaster Carbine[h3]
+Blastechs DC-1 5A blaster carbine is the GARS standard-issue carbine. Every clone, from the greenest recruit to the most seasoned special operator. can use the DC-15A from the moment they are decant ed. A lighter, shorter-ranged cousin of the heavy and cantankerous DC-15, the DC-15A is accurate, easy to handle, and as reliable as a chrono.</Description>
+    <Source Page="51">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Energy Weapon</Type>
+    <Categories>
+      <Category>Blaster Carbine</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>4</HP>
+    <Price>1500</Price>
+    <Rarity>5</Rarity>
+    <Restricted>true</Restricted>
+    <SkillKey>RANGHVY</SkillKey>
+    <Damage>9</Damage>
+    <Crit>3</Crit>
+    <SizeHigh>10</SizeHigh>
+    <RangeValue>wrMedium</RangeValue>
+    <Qualities>
+      <Quality>
+        <Key>AUTOFIRE</Key>
+      </Quality>
+      <Quality>
+        <Key>PIERCE</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>STUNSETTING</Key>
+      </Quality>
+    </Qualities>
+    <Range>Medium</Range>
+  </Weapon>
+  <Weapon>
+    <Key>DC17HBL</Key>
+    <Name>DC-17 Hand Blaster</Name>
+    <Description>[H3]DC-17 Hand Blaster[h3]
+The standard-issue sidearm of the GAR. BlasTechs  DC-1 7 is one of the most rugged and reliable blaster  pistols produced. Typically issued to vehicle crews weapon teams, and officers, these heavy blaster Pistols pack incredible stopping power into a relative  small package. They are lightweight and well balanced, and they have a very respectable rate of fire. Recently, ARC troopers and other special forces teams have taken to carrying the DC- 17 as a backup weapon and for close-quarters combat 
+Game Masters may spend [TH][TH][TH] (in addition to [DE]) to make a DCA-17 run out of ammo during combat.
+</Description>
+    <Source Page="51">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Energy Weapon</Type>
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <HP>3</HP>
+    <Price>1000</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>7</Damage>
+    <Crit>3</Crit>
+    <SizeHigh>10</SizeHigh>
+    <RangeValue>wrMedium</RangeValue>
+    <Qualities>
+      <Quality>
+        <Key>ACCURATE</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>STUN</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+    <Range>Medium</Range>
+  </Weapon>
+  <Weapon>
+    <Key>APM1APGRE</Key>
+    <Name>AP-M1 Armor Piercing Grenade</Name>
+    <Description>[H3]AP-M1 Armor Piercing Grenade[h3]
+Merr-Sonn’s AP-N1 armor piercing grenade is designed to give the conman foot soldier light antiarmor capabilities in the field. Roughly the size of a clone's fist. the APAII consists of a small shaped charge core encased gn a plasteel casing. When it detonates, the grenade produces a highly focused blast that can crack open even the toughest armor. The APAII can be thrown like a standard grenade or placed and held in position by an integral chemical adhesive system. This makes them well suited for precision demolition work as well as anti-vehicle/antiarmor use.</Description>
+    <Source Page="51">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Explosives/Other</Type>
+    <Categories />
+    <Encumbrance>1</Encumbrance>
+    <Price>200</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>13</Damage>
+    <Crit>3</Crit>
+    <SizeHigh>10</SizeHigh>
+    <RangeValue>wrShort</RangeValue>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>4</Count>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>PIERCE</Key>
+        <Count>4</Count>
+      </Quality>
+    </Qualities>
+    <Range>Short</Range>
+  </Weapon>
+  <Weapon>
+    <Key>BTX42HFLPR</Key>
+    <Name>BT X-42 Heavy Flame Projector</Name>
+    <Description>[H3]BT X-42 Heavy Flame Projector[h3]
+The BT X-42 heavy flame projector, from BlasTech, is one of the most destructive and terrifying weapons in the CAR's arsenal. Carried by specially trained clone flame troopers, this weapon is used primarily against massed, unarmored opponents in an anti-personnel role It IS also well suited to clearing rooms and bunkers, denying areas, and destroying enemy material.[P]
+Like most flame projectors, the XA2 can be as dangerous to friends as to enemies and has a nasty reputation for overheating or even exploding when damaged.[P]
+Game Masters can spend [TH][TH][TH] to cause the weapon to overheat, leaving it inoperable for three turns, or to have the weapon explode. An exploding deals full damage to the user and Blast damage to anything engaged with them.
+
+</Description>
+    <Source Page="51">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Explosives/Other</Type>
+    <Categories />
+    <Encumbrance>6</Encumbrance>
+    <HP>2</HP>
+    <Price>2000</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>10</Damage>
+    <Crit>2</Crit>
+    <SizeHigh>10</SizeHigh>
+    <RangeValue>wrMedium</RangeValue>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>6</Count>
+      </Quality>
+      <Quality>
+        <Key>BURN</Key>
+        <Count>4</Count>
+      </Quality>
+      <Quality>
+        <Key>VICIOUS</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+    <Range>Medium</Range>
+  </Weapon>
+  <Weapon>
+    <Key>MKIIEMPGR</Key>
+    <Name>MK II EMP Grenade</Name>
+    <Description>[H3]MK II EMP Grenade[h3]
+Built by SoroSuub specifically for the GAR, the Mk Il EMP grenade is the latest word in anti-droid weapons. The size of a standard frag grenade, an EMP grenade releases a powerful electromagnetic pulse when it detonates, instead of explosive force. This pulse incapacitates droids and can knock out even hardened electronic systems.</Description>
+    <Source Page="51">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Explosives/Other</Type>
+    <Categories />
+    <Price>150</Price>
+    <Rarity>5</Rarity>
+    <SkillKey>RANGLT</SkillKey>
+    <Damage>1</Damage>
+    <Crit>1</Crit>
+    <SizeHigh>10</SizeHigh>
+    <RangeValue>wrShort</RangeValue>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>6</Count>
+      </Quality>
+      <Quality>
+        <Key>DISORIENT</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>ION</Key>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+    <Range>Short</Range>
+  </Weapon>
+  <Weapon>
+    <Key>M201MORTAR</Key>
+    <Name>Model 201 Mortar System</Name>
+    <Description>[H3]Model 201 Mortar System[h3]
+The Model 201 mortar is a portable light artillery system used by specialized clone artillery troopers. Built by Merr-Sonn, the Model 201 is a smoothbore weapon that uses an electromagnetic mass-driver system to launch large caliber shells over long distances. The shells are fired in an arc instead of a direct line, which makes the 201 the weapon of choice for striking enemies behind heavy cover. Primarily a support weapon, the GAR usually deploys the 201 behind the front lines.[P]
+The weapon consists of three parts—the launcher, a heavy bipod, and the ammunition magazine—and is operated by a specially trained mortar team. A mortar team consists of three clones: one to carry the weapon, one to carry the bipod, and one to carry the ammo. Working together, a mortar team can keep up an incredible rate of fire, and a good mortar team can be a trooper squad's best friend in the field.[P]
+The Model 201 can only be used at medium range or further due to the arc of its shells.
+</Description>
+    <Source Page="51">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Explosives/Other</Type>
+    <Categories />
+    <Encumbrance>10</Encumbrance>
+    <HP>1</HP>
+    <Price>5400</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>15</Damage>
+    <Crit>3</Crit>
+    <SizeHigh>10</SizeHigh>
+    <RangeValue>wrExtreme</RangeValue>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>12</Count>
+      </Quality>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>5</Count>
+      </Quality>
+      <Quality>
+        <Key>PREPARE</Key>
+        <Count>2</Count>
+      </Quality>
+      <Quality>
+        <Key>SLOWFIRING</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+    <Range>Extreme</Range>
+  </Weapon>
+  <Weapon>
+    <Key>RPS6ROKLA</Key>
+    <Name>RPS-6 Rocket Launcher</Name>
+    <Description>[H3]RPS-6 Rocket Launcher[h3]
+Built by Sienar, the RPS-6 is the GAR's primary infantry-portable shoulder-fired missile launcher. A flexible, versatile weapon, the RPS-6 can fire a variety of different missiles, from frag and armor piercing to plasma and EMP missiles. Equipped with a sophisticated optics system and fed from a seven-round magazine, the RPS-6 is highly effective against both ground and air targets in the hands of a well-trained clone trooper.[P]
+If attacking a target of silhouette 2 or greater, an
+RPS-6 adds C] if the user performs an aim maneuver. 
+</Description>
+    <Source Page="51">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Explosives/Other</Type>
+    <Categories />
+    <Encumbrance>8</Encumbrance>
+    <HP>4</HP>
+    <Price>8200</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <SkillKey>GUNN</SkillKey>
+    <Damage>33</Damage>
+    <Crit>2</Crit>
+    <SizeHigh>10</SizeHigh>
+    <RangeValue>wrEngaged</RangeValue>
+    <Qualities>
+      <Quality>
+        <Key>BLAST</Key>
+        <Count>14</Count>
+      </Quality>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>CUMBERSOME</Key>
+        <Count>4</Count>
+      </Quality>
+      <Quality>
+        <Key>GUIDED</Key>
+        <Count>2</Count>
+      </Quality>
+      <Quality>
+        <Key>LIMITEDAMMO</Key>
+        <Count>7</Count>
+      </Quality>
+    </Qualities>
+    <Range>Engaged</Range>
+  </Weapon>
+  <Weapon>
+    <Key>M3BBSH</Key>
+    <Name>M3 Bulwark Blast Shield</Name>
+    <Description>[H3]M3 Bulwark Blast Shield[h3]
+Typically carried by riot or military police, or security in particularly rowdy ports, blast shields are as much a weapon as a protective device. Roughly as tall as a full-grown clone, the MS Bulwark is a curved sheet of reinforced plasteel that can be strapped to one arm. A small, narrow viewport is set in the top of the shield, which allows the user to see while using it. Thanks to its shape and the inherent strength of plasteel, the Bulwark can shrug off most small-arms and light blaster rifle fire, as well as shrapnel and splinters from grenades and other explosive devices.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Brawling</Type>
+    <Categories />
+    <Encumbrance>6</Encumbrance>
+    <HP>1</HP>
+    <Price>600</Price>
+    <Rarity>5</Rarity>
+    <Restricted>true</Restricted>
+    <SkillKey>MELEE</SkillKey>
+    <DamageAdd>1</DamageAdd>
+    <Crit>6</Crit>
+    <SizeHigh>10</SizeHigh>
+    <RangeValue>wrEngaged</RangeValue>
+    <Qualities>
+      <Quality>
+        <Key>CUMBERSOME</Key>
+        <Count>3</Count>
+      </Quality>
+      <Quality>
+        <Key>DEFENSIVE</Key>
+        <Count>2</Count>
+      </Quality>
+      <Quality>
+        <Key>DEFLECTION</Key>
+        <Count>2</Count>
+      </Quality>
+    </Qualities>
+    <Range>Engaged</Range>
+  </Weapon>
+  <Weapon>
+    <Key>M8COMKN</Key>
+    <Name>M8 Combat Knife</Name>
+    <Description>[H3]M8 Combat Knife[h3]
+Made for the GAR by MerrSonn, the MB is based on MerrSonn's popular Treppus 2 vibroknife. The MB has a lone. Single-edged, clip-point blade with a serrated back ridge. The handle is made from a flat-black polycarbonate, and the grip is covered in a textured material that provides comfort and extra grip. Every clone IS Issued an M8 for use in the field, and the knife has gamed wide renown as both a tool and a weapon.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Melee</Type>
+    <Categories />
+    <Encumbrance>1</Encumbrance>
+    <HP>1</HP>
+    <Price>150</Price>
+    <Rarity>4</Rarity>
+    <SkillKey>MELEE</SkillKey>
+    <DamageAdd>1</DamageAdd>
+    <Crit>6</Crit>
+    <SizeHigh>10</SizeHigh>
+    <RangeValue>wrEngaged</RangeValue>
+    <Qualities>
+      <Quality>
+        <Key>ACCURATE</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>PIERCE</Key>
+        <Count>1</Count>
+      </Quality>
+    </Qualities>
+    <Range>Engaged</Range>
+  </Weapon>
+  <Weapon>
+    <Key>TZ97ZAPSB</Key>
+    <Name>TZ-97 "Zapper" Shock Baton</Name>
+    <Description>[H3]TZ-97 "Zapper" Shock Baton[h3]
+This weapon, issued to clone military police, shore patrol, and anti-riot units, is essentially a law enforcement officer's truncheon equipped with a stun-field generator When it strikes a target, it releases a powerful stored charge that short-circuits most sentients' nervous systems.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Melee</Type>
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <HP>2</HP>
+    <Price>900</Price>
+    <Rarity>6</Rarity>
+    <SkillKey>MELEE</SkillKey>
+    <Damage>5</Damage>
+    <Crit>4</Crit>
+    <SizeHigh>10</SizeHigh>
+    <RangeValue>wrEngaged</RangeValue>
+    <Qualities>
+      <Quality>
+        <Key>CONCUSSIVE</Key>
+        <Count>1</Count>
+      </Quality>
+      <Quality>
+        <Key>STUNDAMAGE</Key>
+      </Quality>
+    </Qualities>
+    <Range>Engaged</Range>
+  </Weapon>
+</Weapons>

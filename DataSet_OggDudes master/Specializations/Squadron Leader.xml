@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SQUADLEADER</Key>
+  <Name>Squadron Leader</Name>
+  <Description>
+    [H4]Squadron Leader - Ship-to-Ship[h4]
+
+Though perhaps the most important engagements involve capital ships, the daily struggle for survival and victory happens at a much smaller scale. Snubfighters, small gunships, combat airspeeders, and hovertanks go hammer-and-tongs against the massive Imperial war machine, and it's only the tactical genius and daring of those who lead these units keeping them alive. The best Squadron Leaders even manage to pull out more than their fair share of victories. 
+
+[P]Squadron Leaders have access to [B]Gunnery, Mechanics, Piloting (Planetary),[b] and [B]Piloting (Space)[b] as their additional career skills. As the first specialization choices, two of these skills can begin with a free rank. Squadron Leaders tend to know their machines very well, and of course they need to be able to operate the same types of vehicles they are commanding. 
+
+[P]Squadron Leaders rarely lead from the rear. More often than not, theirs are the first ships or vehicles to engage the enemy, and they're the last ones out of a combat zone Of they get out at all). Leading by example is a way of life for a Squadron Leader, and he won't ask anyone to do what he's not ready to do himself. He rides his team to keep their machines in top shape, and he trains them constantly. He wants both crew and machines back in the hangar when the mission is over, and he does whatever it takes to make it happen. 
+
+[P]Alliance High Command knows every single battle is important, and most of them are won at the front line, by mechanized detachments and starfighter squadrons under the command of Squadron Leaders. The upper echelons are constantly on the lookout for anyone with the right qualities to inspire and lead pilots and vehicle crews into the worst kinds of hell and back again.</Description>
+  <Source Page="74">Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>GUNN</Key>
+    <Key>MECH</Key>
+    <Key>PILOTPL</Key>
+    <Key>PILOTSP</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>GRIT</Key>
+        <Key>QUICKST</Key>
+        <Key>LETSRIDE</Key>
+        <Key>DEFDRI</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>1</Index>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>FLDCOMM</Key>
+        <Key>CONF</Key>
+        <Key>QUICKST</Key>
+        <Key>SITAWARE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>2</Index>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>COM</Key>
+        <Key>GRIT</Key>
+        <Key>FULLSTOP</Key>
+        <Key>DEFDRI</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>3</Index>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>FLDCOMMIMP</Key>
+        <Key>COM</Key>
+        <Key>FORMONME</Key>
+        <Key>TRICK</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>4</Index>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>MASLEAD</Key>
+        <Key>CONF</Key>
+        <Key>DEDI</Key>
+        <Key>BRI</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

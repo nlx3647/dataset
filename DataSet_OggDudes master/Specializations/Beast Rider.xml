@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BEASTRIDER</Key>
+  <Name>Beast Rider</Name>
+  <Description>[H4]Beast Rider - Mounted Marauders[h4]
+
+Many worlds in the galaxy are too backward, too poor, or have environments too extreme to support modern vehicles. Sometimes, instead of spending credits to adapt a speeder to the cold or create a filter that can keep sand out of a repulsordrive, it is simply easier to use a native mount that has evolved and adapted to local conditions for untold millennia. 
+
+[P]While most any being can ride a trained mount, it is the Beast Rider who can break in wild mounts and train them. Once he has trained a mount, the skilled Beast Rider can coax his mount to perform incredible feats, even in the heat of battle. The Beast Rider is also something of an outdoorsman, and is. a valuable member of a team with or without his creature companion.
+
+[P]Beast Riders might be expert riders on a single type of mount or experienced creature wranglers who have spent time with all manner of riding creatures. Most cultures and militaries, despite the broader reliance on modern machinery, still rely heavily on mounts. The Imperials ride lizard-like dewbacks on desert worlds like Tatooine, while the Rebels famously saddled up tauntauns on Hoth. Indigenous cultures throughout the galaxy depend on Beast Riders, including the bantha-obsessed Tusken Raiders of Tatooine and the ruping riders of Onderon. 
+
+[P]Beast Riders receive [B]Athletics, Knowledge (Xenology), Perception,[b] and [B]Survival[b] as additional career skills. If this is the character's starting specialization, he gains one free rank in each of two of these skills of his choice, without spending experience. Unlike their fellow Aces, the Beast Rider is at home outdoors, where he can feel the wind on his face. He fits in just as well with the soldiers and scouts of the Rebel Army as with his fellow Aces in starfighters and speeders. 
+
+[P]The Rebellion often assigns Beast Riders as scouts at Rebel bases and outposts, conducting patrols and setting up advance defenses and other contingency measures to prepare for potential Imperial discovery. When an Imperial or one of his allies spots creature tracks, he might think it belongs to a wild creature—whereas, if he sees vehicle tracks, he is very likely to investigate. In battle, mounted cavalry might not be quite as fast, agile, or heavily armed and armored as its mechanized counterparts, but it has several advantages. Creature mounts have better camouflage, more mobility in close quarters, and in battle, Imperial vehicles often ignore them outright. 
+
+[P]Most groups can benefit from a Beast Rider in their ranks. The Beast Rider is second only to the Spy carer's Scout specialization in matters of wilderness survival and guerrilla warfare. His ability to traverse difficult terrain, capture and train indigenous mounts, and locate food and shelter are critical to a number of Rebel mission profiles. Further, should a team member crash land, or otherwise become stranded, a Beast Rider might be critical to their very survival.</Description>
+  <Source Page="26">Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>ATHL</Key>
+    <Key>PERC</Key>
+    <Key>SURV</Key>
+    <Key>XEN</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>FORAG</Key>
+        <Key>TOUGH</Key>
+        <Key>OUTDOOR</Key>
+        <Key>BEASTWRANG</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>OUTDOOR</Key>
+        <Key>EXTRACK</Key>
+        <Key>TOUGH</Key>
+        <Key>EXHANDLER</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>EXTRACK</Key>
+        <Key>BEASTWRANG</Key>
+        <Key>LETSRIDE</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>SPURIMP</Key>
+        <Key>SPUR</Key>
+        <Key>NATOUT</Key>
+        <Key>EXHANDLER</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>SPURSUP</Key>
+        <Key>DEDI</Key>
+        <Key>GRIT</Key>
+        <Key>SOOTHTONE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

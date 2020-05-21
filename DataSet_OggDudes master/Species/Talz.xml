@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TALZ</Key>
+  <Name>Talz</Name>
+  <Description>[H4]Talz[h4]
+
+The Talz are a culturally and technologically primitive species native to the frigid world of Alzoc III in the Outer Rim system of Alzoc.
+
+[P][B]Physiology:[b] They stand an average of 2 meters tall and are completely covered in thick, shaggy white fur, with sharp talons capping oversized hands. The only obvious feature of their furry faces is their four black eyes, but it also holds a proboscis through which they speak their buzzing native language and feed. [P]They are gently, kind-hearted beings who are slow to anger. The four eyes of the Talz are perhaps his or her most remarkable feature. One pair is adapted to see clearly in light so blinding that it might burn the corneas of most other beings, while the other pair can see in near total darkness. The end result is that Talz can see in virtually any lighting conditions and are not blinded by bright flashes.
+
+[P][B]Society:[b] Most Talz are unaware that a vast galactic civilization exists beyond their world. Imperial scouts discovered them as the New Order was putting a final end to the Republic. The Empire recognized that they had discovered a ready-made slave labor force to extract the mineral wealth of Alzoc III. But all the Talz know is that one day, rocks fell from the sky, and out of these rocks stepped strange beings who forced them to give up their normal routines to make caves. The Talz live in the hope that the strange beings will leave someday so that life can return to normal.
+
+[P]Due to the timing of the world's discovery, the New Order did not log the existence of the Talz, not wanting to be burdened by the Senate regulations relating to the treatment and handling of primitive sentients. Even after the Empire was firmly entrenched, they kept the mines on Alzoc III and the enslaved Talz a secret. As such, the Talz are very rarely encountered anywhere but Alzoc III, and those who do show up elsewhere tend to be in the service of Imperial officials. A few Talz have fled their homeworld and escaped Imperial custody through a variety of means, but those who stray too far from loosely controlled systems on the far fringes of the Outer Rim tend to be captured and sent back to their homeworld.
+
+[P][B]Homeworld:[b] Alzoc III is the only truly habitable world in the Alzoc system, and yet thanks to its axial inclination of 23 degrees, it is largely covered with frozen plains, broken up only by the occasional volcanoes and icy seas. Alzoc III’s sidereal orbital period is over five hundred and twenty two days long, with a day last nearly seventy three hours. The temperate rarely rises above five degrees Celsius, though at the equator it can sometimes rise as high as twenty Celsius, though the weather is surprisingly calm for a world of its type. The atmosphere is comprised of fairly typical gases, most notably nitrogen and oxygen, though there has been a gradual build up of carbon dioxide due to the industrial pollution created by the Empire’s unrestricted mining enterprises on the planet.
+
+[P][B]Language:[b] Talz or Talzzi is the native language of the Talz species from Alzoc III. It is mainly formed by buzzes and chirps, with variable pitch being an essential feature.
+
+[P]The Talz throat and proboscis structure make them unable to speak most languages of the galaxy except for their own. Most Talz are not fluent in Basic and have no understanding of it. As Talz language is not very well-known outside Alzoc III, protocol droids are usually not fluent in that language, although they could easily be programmed to translate it.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>1</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>12</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>PERC</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>TALZCH1</Key>
+      <Name>Environment</Name>
+      <Options>
+        <Option>
+          <Key>TALZCH1OP1</Key>
+          <Name>Insulated fur</Name>
+          <Description>When making skill checks, Talz remove [SETBACK] imposed due to actic or cold environmental conditions.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers>
+    <WeaponModifier>
+      <AllSkillKey>BRAWL</AllSkillKey>
+      <DamageAdd>1</DamageAdd>
+      <Crit>3</Crit>
+      <Range>Engaged</Range>
+    </WeaponModifier>
+  </WeaponModifiers>
+</Species>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIEPH</Key>
+  <Name>TIE/PH "Phantom" Multi-Role Stealth Starfighter</Name>
+  <Description>[H3]TIE/PH "Phantom" Multi-Role Stealth Starfighter[h3]
+
+Perhaps the most terrifying and dangerous new TIE-series variant, the TIE/ph phantom is the first true stealth fighter fielded by the Imperial Navy. Produced in extremely limited numbers due to the cost and complexity of its systems, and assigned only to the most trusted and experienced Imperial Navy pilots for the same reasons, the TIE phantom is a heavily modified V38 assault fighter with an almost-unheard-of cloaking capability. A deadly-looking fighter. the phantom is a departure from the standard TIE-series design. The cockpit is a truncated cone similar to those found on CEC YT-series freighters, and it is mated to a heavily armored triangular hull that houses the fighter's engines, power generators, and stealth systems. Three TIE Interceptor-style solar collector arrays are arranged around the fighter's fuselage in a way that makes it resemble a Lambda-class utility shuttle. 
+
+[P]Remarkably heavily armed, the phantom mounts five forward-mounted linked light laser cannons—three on the wingtips and two beneath the cockpit. In addition, the phantom is equipped with life support, a hyperdrive, shields, and numerous other systems unknown on other TIE variants, which is surprising enough given the Imperial Navy's order of battle and the value they place on their pilots. The most surprising system of all, however, is the recently rediscovered stygium cloaking device. 
+
+[P]Banned by the Galactic Republic decades before the rise of the Empire, the production or use of cloaking devices using the rare stygium crystals from Aeten II was aggressively prosecuted by Republic authorities. With the fall of the Republic and the rise of the Empire, both the proscription on stygium crystals and interest in the cloaking technology itself waned. After the Battle of Yavin, however, the Empire began dredging up old ship designs and analyzing them for anything of value. During this mostly fruitless search, SFS engineers rediscovered the plans for a miniaturized stygium cloaking device that could be mounted in a starfighter or shuttlecraft, and they set to work Immediately perfecting this hypothetical device. Only a handful of TIE phantoms are currently in service. and while no one is sure exactly where they are stationed or by whom they are operated, the Rebellion has decided that despite their dangerous potential, the phantoms pose less of a risk to the Alliance than many other, more immediate Imperial threats.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>365000</Price>
+  <Rarity>9</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/gunner</Crew>
+  <EncumbranceCapacity>8</EncumbranceCapacity>
+  <Consumables>Two weeks</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>2</Handling>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>4</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

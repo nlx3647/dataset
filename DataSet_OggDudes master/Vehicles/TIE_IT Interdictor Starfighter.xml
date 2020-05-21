@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIEIT</Key>
+  <Name>TIE/IT Interdictor Starfighter</Name>
+  <Description>[H3]TIE/IT Interdictor Starfighter[h3]
+
+Another advanced TIE-series variant developed in the wake of the Rebellion's stunning victory at Yavin, the TIE/it interdictor is a heavy bomber used during missions where massive payloads need to be delivered to places a Star Destroyer cannot venture. Based on the TIE/sa tactical bomber spaceframe, the TIE/it frame packs almost four times the ordinance of its predecessor. Capable of unloading their huge payloads while weathering enemy fire, TIE interdictors have proven themselves indispensable to the Imperial Navy as they hunt down and crush various Rebel bases sprouting up around the galaxy. 
+
+[P]Given the price of the weapons systems on board, and the loss of maneuverability, TIE interdictors have sturdier defenses than other ships in the TIE series. While they are not equipped with hyperdrives, TIE interdictors do posses shield systems to ensure their payloads make it to their destinations. Their armament consists of the standard forward-mounted light laser cannons and two linked sets of launchers capable of firing either concussion missiles or proton torpedoes (depending on the mission). Additionally, the TIE interdictor is equipped with two linked copies of the TIE bomber's signature proton bomb release chute, which are capable of releasing the bombs in tandem for maximum devastation.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>253000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Consumables>Two days</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-2</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>MONCALMISSILE</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>16</Count>
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PROTONBOMB</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

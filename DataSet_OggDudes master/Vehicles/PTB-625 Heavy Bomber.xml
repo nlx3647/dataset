@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>PTB625</Key>
+  <Name>PTB-625 Heavy Bomber</Name>
+  <Description>[H3]PTB-625 Heavy Bomber[h3]
+
+One of a trio of heavy fightercraft produced by a joint Incom/SubPro venture, the PTB-625 is an old, tried-and-true airspeeder design that has proven itself time and again during its decades of service. Designed as a heavy atmospheric bomber, the PTB-625 was first introduced into the Republic Navy arsenal alongside the ARC-170 reconnaissance fighter and the NTB-630 orbital bomber sometime before 22 BBY. A design departure from other Incom/SubPro products, the PTB-625 is a massive flying wing-style airspeeder driven by six powerful ion turbofan thrusters mounted in the trailing edge of the wing/fuselage. These airspeeders carry a crew of five in two cramped, pressurized cabins with just enough storage room for a small flight bag and a sidearm at each station. There is also a small crew area between the cabins that contains two bunks, a small refresher and even smaller galley for long-range bombing missions. PTB-625s are also equipped with ejection capsules for each crew member that automatically seal and launch through the speeder's belly should the computers sense an imminent crash. 
+
+[P]Optimized for strategic bombing missions, the PTB-625 has a cavernous modular ventral-mounted bomb bay that can carry any kind of ordnance from standard proton or concussion bombs to sophisticated rotary launchers designed to launch heavy missiles from beyond visual range. In addition to the speeder's ordnance, it also carries turret and fixed position-mounted auto-blasters and light laser cannons for fending off interceptors and incoming missiles. Although the PTB-625 is slower than its space-going siblings, even today it is faster than most heavy airspeeders of similar type and role. While certainly a powerful and capable airspeeder, the PTB-625 is considered antiquated in modern orders of battle, its role overtaken by multi-role speeders and small, fast, dedicated strike fighters. Despite their age and limited usefulness however, numerous PTB-625s still serve with the Rebel Alliance, brought in when overwhelming force is required to destroy heavy Imperial installations and planetary infrastructure. </Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>130000</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>100 kilometers</MaxAltitude>
+  <Crew>One pilot, one co-pilot, one engineer, two weapon systems operators</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <Armor>3</Armor>
+  <HullTrauma>15</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>24</Count>
+        </Quality>
+      </Qualities>
+      <Key>PROTONBAY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ENTREPRENEUR</Key>
+  <Name>Entrepreneur</Name>
+  <Description>[H4]Entrepreneur - The Burden of Vision[h4]
+
+Entrepreneurs know that there is only one thing worth investing in—the future. Entrepreneurs are not unlike explorers in the world of business; they want to be the first to open up new markets, to revolutionize industrial practices, or to create new service industries people hadn't realized they needed, but once sampled, cannot live without. 
+
+[P]Entrepreneurs receive [B]Discipline, Knowledge (Education), Knowledge (Underworld),[b] and [B]Negotiation[b] as additional career skills. If this is the character's starting specialization, he gains one free rank in each of two of these skills of his choice, without spending experience. While the Entrepreneur is willing to bully, charm, or mislead others to achieve his ends, he prefers to rely on negotiations, bringing to bear facts, graphs, and projections for the future. In this way the Entrepreneur is similar to the Scholar. However, unlike Scholars, the Entrepreneur operates under the assumption that every problem can be overcome with a big enough credit stick. 
+
+[P]Entrepreneurs may be free with their money, but they are never wasteful, and they are always looking for ways to cut costs, even if it skirts regulations. Most savvy businesspeople know that if one only plays by the rules, then one can only ever be as successful as the rules allow. Since the rules are usually written by the established corporations the Entrepreneur competes against, he believes the rules exist solely as a means to restrict progress, stifle innovation, and suppress competition. In short, rules were made to be broken. Even the most upstanding businessperson occasionally contracts operatives for industrial espionage or corporate intelligence gathering, and even if he morally objects to that behavior, he needs to know how to defend against it. 
+
+[P]It is said that a sucker is born every second, and the Entrepreneur takes great pains to make certain he is never one of them. In all of his dealings, the Entrepreneur must remain vigilant against conversational traps laid by opponents during delicate negotiations. Preparedness is always a part of the plan, so that risk is mitigated and no circumstances result in absolute failure. 
+
+[P]Every group can benefit from counting an Entrepreneur among its number. Their ability to negotiate a favorable deal in any number of circumstances, and the resources at their disposal, make Entrepreneurs invaluable members of the team. They make excellent leaders, and any party who allows an Entrepreneur to negotiate on its behalf will be pleased with the results. The Entrepreneur can also act as team quartermaster, outfitting the group with specialized, hard-to-find equipment with little notice, and both his pool of contacts and credit pouch are deep enough to keep the party informed on almost any subject.</Description>
+  <Source Page="26">Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>DISC</Key>
+    <Key>EDU</Key>
+    <Key>NEG</Key>
+    <Key>UND</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>SOUNDINV</Key>
+        <Key>PLAUSDEN</Key>
+        <Key>RAPREC</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>RAPREC</Key>
+        <Key>WHEEL</Key>
+        <Key>SOUNDINV</Key>
+        <Key>WHEEL</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>GREASE</Key>
+        <Key>THROWCRED</Key>
+        <Key>BOUGHT</Key>
+        <Key>SOUNDINV</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>SOUNDINV</Key>
+        <Key>TOUGH</Key>
+        <Key>MASMERC</Key>
+        <Key>KNOWSOM</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>NATMERCH</Key>
+        <Key>INTENSFOC</Key>
+        <Key>DEDI</Key>
+        <Key>SOUNDINV</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CROCGOZ</Key>
+  <Name>C-ROC Gozanti-Class Light Cruiser</Name>
+  <Description>[H3]C-ROC [I]Gozanti[i]-Class Light Cruiser[h3]
+The C-ROC is a shipyard custom configuration for Corellian Engineering's [I]Gozanti[i]-class cruiser, Bulkier than the original [I]Gozanti[i]-class ships, the C-ROC was designed more for transport and cargo duties than for combat. Offered initially to the Imperial Navy—and rejected as inappropriate in the Imperial Navy's order of battle—as an armed, long-range ransport, the C-ROC has become popular among both legitimate cargo operations and criminal organizations. These ships are especially popular in the Outer Rim, where the combination of hauling capactiy, rugged construction, and respectable fighting capablities have gained the class many admirers.
+[P]There are many modifications, both cosmetic and mechanical, that seperate the C-ROC from its predecessor. Unlike the bold, square-shouldered lines of the original [I]Gozanti[i]-class ships, the C-ROC has a softer, more rounded hull design. The forward two-thirds of the ship has a sloping, bell-shaped cross-section that is narrow at the dorsal side and flaring out below the midships line. This new hull shape gives the ship a bit of extra protection as the slop of the hull deflects incoming blasts and ordnance more efficiently than its slab-sided predecessor. The cranked delta wings of the old ship are gone, replaced by outrigger cargo trays designed to carry modular shipping containers similar to those used by the venerable GR-75 medium transport. The outriggers, and a complete redesign of the ship's interior, give the C-ROC an impressive hauling capability at the expense of the ship's noted combat and fleet support utility.
+[P]The two original Girodyne Ter58 ion engines were  replaced by five newer, more efficient JV-80 ion drives by Novaldex—two each mounted port and starboard and one mounted on a dorsal spar. While the ship's armor and shielding remain largely unchanged from the orginal desing, the weapons loadout has been drastically reduced. Two quad laser turrets—one ventral and one dorsal—provide good defense against small ships, such as starfighters and patrol boats. Each of the ship's broad flanks mounts a pair of heavy laser cannons, just enough to keep determined pirates and other undesirables at bay. While it carries nowhere near the firepower of the orignal design, the C-ROC is quite capable of handling most foreseeable threats without trouble.
+[P]While it hasn't been a wildly succesful product, sales of the C-ROC are steady and CEC continues to produce updates and replacements for the ship's various systems. With the rise of the Empire and the increasing lawlessness in the Outer Rim, many of these ships have been pressed into duty by various rebel cells as ersatz captial ships. While unsuited to serving as front line warships, C-ROCs are capable enough—especially when manned by a cunning and motivated crew—to deal with most of the old vessels the Imperial Navy uses to maintain law and order out on society's fringes.</Description>
+  <Source Page="62">No Disintegrations</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Cruiser</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Capital Ship</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>190000</Price>
+  <Rarity>8</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, one engineer, one comms/sensor, two loadmasters, six gunners</Crew>
+  <EncumbranceCapacity>1800</EncumbranceCapacity>
+  <Passengers>20</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-3</Handling>
+  <DefFore>3</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>55</HullTrauma>
+  <SystemStrain>40</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERQUAD</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERQUAD</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Retractable>true</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Retractable>true</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

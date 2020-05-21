@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GYMSNOR3</Key>
+  <Name>Gymsnor-3 Light Freighter</Name>
+  <Description>[H3]Corellispace Gymsnor-3 Light Freighter[h3]
+
+Produced by CorelliSpace, a well-funded private firm that sought to compete with the CEC juggernaut, the Gymsnor series of light freighters saw limited success. While never coming close to rivaling the YT-series in sales, the Gymsnor series did make a small dent in the market with the Gymsnor-3. Significantly different from CEC designs, the Gymsnor-3 is a long, segmented vessel with a cockpit section connected to a larger cargo hold and engine housing by a narrow neck. In the event of an emergency, the cockpit can detach from the rest of the vessel. Though adequate for shipping cargo, the Gymsnor-3 suffers from poor handling and a large defensive blind spot to the aft of the vessel. 
+
+[H4]Modular Cockpit[h4]
+As an action, the pilot may disconnect the cockpit, abandoning the rest of the vessel.  The craft's silhouette becomes 2 and its encumbrance capacity becomes 10.  Anything in the back of the ship (potentially including systems and attachments) is left behind.</Description>
+  <Source>Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>80000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/engineer</Crew>
+  <EncumbranceCapacity>160</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-3</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>1</Armor>
+  <HullTrauma>26</HullTrauma>
+  <SystemStrain>14</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

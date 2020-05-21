@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GOSSAM</Key>
+  <Name>Gossam</Name>
+  <Description>
+    [H4]Gossam[h4]
+
+A small species of reptilian origin, Gossams have exerted a greater influence on galactic history than their slender frames might suggest. Gossams have a reputation for being unable to resist a profitable venture, such as prominent colonies and even pirate fleets. In a move that turned out to be spectacularly unprofitable, the Gossam leader of the Republic's Commerce Guild secretly colluded with the Confederacy of Independent Systems in the Separatist crisis, but the Gossam species weathered the fallout more easily than other Separatist allies. The Empire's retribution was typically indiscriminate, but the Gossams' natural independence and diversified interests weakened any attempts to pin consequences upon them. Gossams on their homeworld—Castell—were enslaved by the Empire, and the species was banned from setting foot on Coruscant. However, independent members of the species remain spread throughout the galaxy, waiting for the right moment to assert their interests. Many of these individuals—entrepreneurs, explorers, and members of a thousand other profes-sions—have thrown in their sympathy or resources with the Rebellion. 
+
+[P][B]Physiology:[b] Although they rarely stand over 1.25 meters tall, Gossams have a striking appearance, with vivid yellow eyes and rugged, bumpy blue or green skin. Though they are short, their long necks and lithe forms lend them a semblance of greater height. Gossams move with an easy grace on three-toed feet, and their three-fingered hands are just as capable of fine manipulation as those of species with more digits. 
+
+[P][B]Society:[b] After a devastating economic depression that crippled their society, Gossams restructured their lives around the Republic's Commerce Guild. Initially, all Gossams were indentured to the Commerce Guild to pay off a debt for the stabilization of their homeworld, Castell. Their situation improved over time, but their society has retained the tradition of beginning adult life with a period of indenture in order to gain experience with the galaxy at large. 
+
+[P]Of course, Gossams have never been great sticklers for tradition, so with the dissolution of the Commerce Guild and the Empire's seizure of Castell, few cultural factors remain to unify Gossams still at large in the galaxy. Their shrewd ability to avoid being pinned down defines them more than anything else.
+
+[P][B]Homeworld:[b] The Gossam homeworld of Castell is a heavily industrialized foundry world. Before the rise of the Empire, the production lines of Castell were a source of wealth and influence for the species, even if their exploitative indenture system kept the workers from receiving direct benefit. Castell produced virtually everything, including luxury goods, speeders, and even advanced starship components. Now, the Imperial occupation has forced Gossams to retool their manufacturing plants to produce the munitions and other tools of conquest that keep them oppressed. The indenture experienced in the years prior to the occupation pales in comparison to the grinding slave labor Imperial overseers now demand, and as long as the Empire stands, no end is in sight. 
+
+[P][B]Language:[b] The Gossam language, consisting primarily of croaking and trilling, is nearly impossible for other species to reproduce or understand, so most Gossams speak fluent Basic. The written form of Gossam is easier for other species to learn, and features a structure that links numerous small words to describe a larger concept. Thus, Gossams have a habit for wordy, verbose writing, even in Basic.</Description>
+  <Source>Desperate Allies</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>DECEP</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>GOSSAMOC1</Key>
+      <Name>Size</Name>
+      <Options>
+        <Option>
+          <Key>GOSSAMOC1OP1</Key>
+          <Name>Small</Name>
+          <Description>
+            Gossam are smaller than average and count as silhouette 0.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

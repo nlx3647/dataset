@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>XANTER</Key>
+  <Name>Xanter-class Deep-Space Exploration Frigate</Name>
+  <Description>
+    [H3]Xanter-class Deep-Space Exploration Frigate[h3]
+
+The Xanter-class deep-space exploration frigate is an ancient vessel. Created by Rendilli Stardrives almost five hundred years ago to capitalize on one of the many Outer Rim expansion and colonization drives, the Xanter trades the weaponry of other, similar-sized vessels for unparalleled endurance. 
+
+[P]The ship can last for years without resupply, and every aspect of living space is designed with long-term habitation in mind. The Xanter's crew quarters are spacious and well appointed, each crew member has his own berth to provide guaranteed privacy and personal space. The galley can create a wide variety of passable and varied food, and the recreational facilities provide a number of enjoyable amusements. There is even a hydroponic garden that doubles as an observation dome, providing fresh food and oxygen while also giving the crew a place to relax amongst vegetation and the vastness of space. 
+
+[P]However, the Xanter is still a warship and exploration vessel. Emergency bulkheads can seal off most ppparts of the ship, and even the observation dome has a retractable cover of hardened durasteel. The YDFed ion drives and hyperdrive systems have triple redundancies built in, almost guaranteeing that the ship cannot be stranded in wild space. Finally, the Xanter mounts turbolasers, ion cannons, and heavy laser cannons for starfighter and capital-ship defense. 
+
+[P]Although the Xanter is no longer produced, it is still possible to find these ships amongst some corporations and expeditions in the Outer Rim. Tough, durable, and reliable ships such as these will always have a place in exploration.</Description>
+  <Source>Enter the Unknown</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Frigate</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>3750000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>9</HyperdriveBackup>
+  <StarFighters>Six starfighters</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>150 officers, pilots, and crew</Crew>
+  <EncumbranceCapacity>2000</EncumbranceCapacity>
+  <Passengers>50</Passengers>
+  <Consumables>Two-and-a-half years</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>6</Armor>
+  <HullTrauma>80</HullTrauma>
+  <SystemStrain>32</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>LASERHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>LASERHVY</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>LASERHVY</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Key>IONHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

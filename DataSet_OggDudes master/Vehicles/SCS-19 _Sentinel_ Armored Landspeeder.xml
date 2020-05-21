@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SCS19SENTINEL</Key>
+  <Name>SCS-19 "Sentinel" Armored Landspeeder</Name>
+  <Description>[H3]SCS-19 "Sentinel" Armored Landspeeder[h3]
+A transport intended to convey valuable items or important individuals, the SCS-19 "Sentinel" is among the most heavily armored personal vehicles available on the civilian market. The Sentinel is fully enclosed in advanced durasteel alloy, with transparisteel windows rated to withstand heavy blaster fire. It is equipped with a pair of powerful TurboToo JT9-D repulsorlift engines that can keep the speeder going even if one is knocked out. Although armed with a pair of forward-mounted blaster cannons, the Sentinel is not an assault vehicle and lacks the firepower to be an effective military speeder. As such, the Sentinel is used primarily to transport high-value cargo or consequential beings such as diplomats, corporate executives, and crime lords. It has also found some use by mercenaries and other militant groups in search of a more discreet option for getting to or from a skirmish site.</Description>
+  <Source Page="54">Knights of Fate</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>60000</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>20 meters.</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot.</Crew>
+  <EncumbranceCapacity>15</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <Armor>3</Armor>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

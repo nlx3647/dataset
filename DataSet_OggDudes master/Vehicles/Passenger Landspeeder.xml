@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LANDSPEEDPAS</Key>
+  <Name>Passenger Landspeeder</Name>
+  <Description>
+    [H3]Passenger Landspeeder[h3]
+
+Passenger landspeeders are the go-to personal transport vehicle throughout the galaxy. Produced in countless styles by SoroSuub. Trask, Mobquet. and others, they range from sporty two-seater hot rods to staid commuter vehicles to the opulent VIP landspeeders used to ferry around Imperial officials. Passenger landspeeders typically require one driver and can carry upwards of four passengers. Depending on their equipment and configuration, they can travel at various speeds and altitudes. They do not commonly come equipped with armor or weapons. The following profile represents a typical five-person landspeeder used for commuting and short-range planetary travel.</Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>3500</Price>
+  <Rarity>3</Rarity>
+  <MaxAltitude>10 meters</MaxAltitude>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

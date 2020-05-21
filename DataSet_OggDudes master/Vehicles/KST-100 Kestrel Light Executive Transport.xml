@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>KESTRELTRANSPORT</Key>
+  <Name>KST-100 Kestrel Light Executive Transport</Name>
+  <Description>[H3]KST-100 Kestrel Light Executive Transport[h3]
+Corellian Engineering Corporation’s KST-100 Kestrel light executive transport is yet another largely failed attempt by CEC to gain entrance into the competitive VIP transport market. Almost more starfighter than freighter, the KST-11 entered service towards the end of Clone Wards. A dashing-looking ship by anyone’s standards, the Kestrel has small, saucer-shaped hull reminiscent of CEC’s popular YT-series light freighters. Four powerful ion engines, two to a side, are mounted port and starboard, and a spacious side-by-side cockpit provides the pilot and co-pilot with an unparalleled field of vision through its numerous viewports. Two long forward-mounted booms house sensors, a pair of light laser cannons, and variable geometry winglets to provide stability and maneuverability when flying in atmosphere.
+[P]The main hull is given over almost entirely to passenger facilities. Four small but well-appointed staterooms surround a common galley and lounge. A small engineering station is located along the aft bulkhead, and a single small, cramped crew berth is located beneath the cockpit. Like the HWK-series ships from which they borrowed much inspiration, the Kestrels are fine ships but suffer from limited utility, high price, and a market already crowded with established, well-respected ship classes. The KST-100 was only produced for five years, and the total production was less than one thousand hulls. Most are still operating, mostly as military and governmental transports or as personal starships for wealthy individuals. A small handful have found their way into the hands of smugglers such as Janus Kasmir who trade in small, valuable, sensitive cargoes or who provide no-questions-asked transport services.</Description>
+  <Source Page="124">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>120000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot.</Crew>
+  <EncumbranceCapacity>70</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>Two months.</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>25</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

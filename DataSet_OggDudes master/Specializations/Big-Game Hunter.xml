@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BGMHUNTER</Key>
+  <Name>Big-Game Hunter</Name>
+  <Description>[H4]Big-Game Hunter - The Thrill of the Hunt[h4]
+
+[P]With the skills of a survivalist, the instincts of a bounty hunter, and the courage of a madman, the Big-Game Hunter tends to baffle everyone with his desire to actively track down, confront, and do battle with the most terrifying creatures in the galaxy. He understands and respects the environments he must contend with in order to pursue his quarry, yet he is less interested in where he is going than in what he is going to kill when he gets there. 
+
+[P]Though some true pacifists may take great exception to the notion, Big-Game Hunters tend to believe they are performing a service to the people of the galaxy. They generally seek out truly dangerous and deadly creatures to fight and kill, thus making more areas in the galaxy safe for sentient habitation. 
+
+[P]With a focus on all aspects of the hunt, the bonus career skills for a Big-Game Hunter are [B]Knowledge (Xenology), Ranged (Heavy), Stealth,[b] and [B]Survival[b]. If this is the character's starting specialization, he may choose two of these skills and gain one free rank in each without spending starting experience. Big-Game Hunters tend to know how to get where their prey is, how to stay alive once they get there, and all about whatever it is they are there to do battle with. 
+
+[P]Of course, there are plenty of hunters who are more than willing to kill pretty much anything that can net them a hefty profit, whether for pelts, horns, organs, or whatever else someone is willing to pay for. There are some hunters who take specific contracts from local governments to thin out a herd of something that is growing too large or to eliminate particularly enraged (and possibly infected) creatures that pose a danger to civilization. 
+
+[P]For a Player Character, a Big-Game Hunter may not seem like a good fit at first. However, his general Explorer capabilities combined with his survival skills and his talent for fighting particularly dangerous foes may well make him a linchpin for a group's success. Many Big-Game Hunters will take whatever jobs they can find out in the Rim just for the chance to travel to new places and see what there is to hunt.</Description>
+  <Source Page="27">Enter the Unknown</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>RANGHVY</Key>
+    <Key>STEAL</Key>
+    <Key>SURV</Key>
+    <Key>XEN</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>FORAG</Key>
+        <Key>GRIT</Key>
+        <Key>STALK</Key>
+        <Key>OUTDOOR</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>TOUGH</Key>
+        <Key>OUTDOOR</Key>
+        <Key>CONF</Key>
+        <Key>SWIFT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>STALK</Key>
+        <Key>NATHUN</Key>
+        <Key>EXTRACK</Key>
+        <Key>HEIGHT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>GRIT</Key>
+        <Key>HUNTERQUARRY</Key>
+        <Key>QUICKST</Key>
+        <Key>EXTRACK</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>BRNGITDWN</Key>
+        <Key>HUNTQIMP</Key>
+        <Key>DEDI</Key>
+        <Key>SUPREF</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

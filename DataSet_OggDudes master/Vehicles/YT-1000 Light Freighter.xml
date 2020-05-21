@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>YT1000</Key>
+  <Name>YT-1000 Light Freighter</Name>
+  <Description>
+    [H3]YT-1000 Light Freighter[h3]
+
+The third ship of Corellian Engineering's flagship YT class of modular light freighters, the YT-1000 series was the first of the YT-series ships to gain any popularity in the galaxy. A vast improvement over the awkward YT-450a and the undistinguished YT-700, the YT-1000 set the standard to which all subsequent YT-class ships would be held. The first of CEC's ships to be built around the now common Corellian saucer-shaped deck plan, the YT-1000 series possesses many of the features for which CEC is so famous and respected today. 
+
+[P]Quicker in its stock configuration and smaller by a few meters than subsequent YT-series ships, these vessels were an instant sensation upon their release. First made available in the waning years of the Old Republic before the outbreak of the Clone Wars, YT-1000s offered a quick, efficient, versatile freighter with a large cargo capacity at a very respectable price. These ships were sold by the thousands, and they served as couriers, light freighters, VIP shuttles, and in countless other roles all across the galaxy. They remained popular even after the introduction of the improved YT-1100 and YT-1200 series and are still in demand today, especially among individuals in the Outer Rim who are just starting out life in the intergalactic trade industry. 
+
+[P]YT-1000-series light freighters have the iconic saucer hull that has come to be a trademark of Corellian Engineering's ship-manufacturing arm. Its two-seat cockpit is located dorsally along the forward center line of the ship and is flanked by two cargo-loading mandibles. The main hull spars, corridors, and escape pods are located amidships, and two powerful ion engines dominate the aft section. They were equipped with turret-mounted laser cannons in the dorsal weapons mount from the factory, but as with all CEC ships, the weapons are easily upgraded for more powerful or accurate models. 
+
+[P]The crew and passenger berths, while relatively spartan, are comfortable, and the ships are equipped with decent galley, refresher, and head facilities. As with subsequent YT-series ships, the cargo hold is large and modular and can be easily modified to carry any size or shape of cargo that will fit in the ship. Cargo and passengers are loaded from a ventral ramp, and a small hatch abaft the command deck gives access to the ship's dorsal surface.
+
+[P]While the YT-1000s have waned in popularity, especially after the introduction of the YT-1300-series freighters, they still remain in service throughout the Outer Rim and still fetch a respectable price when available for sale.</Description>
+  <Source>Enter the Unknown</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>75000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>16</HyperdriveBackup>
+  <StarFighters>None</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one copilot/engineer</Crew>
+  <EncumbranceCapacity>150</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>14</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

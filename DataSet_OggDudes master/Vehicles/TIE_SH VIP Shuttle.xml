@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIESH</Key>
+  <Name>TIE/SH VIP Shuttle</Name>
+  <Description>
+    [H3]TIE/SH VIP Shuttle[h3]
+
+The TIE/sa is, perhaps, the most versatile of the TIE starfighters. With its second hull and modular components supplied by SFS, the TIE/sa can be converted to a number of different configurations. Two of the more common are the /sh VIP shuttle and the /br boarding shuttle. The VIP shuttle replaces the ordnance launchers and the bomb delivery system with a small, well-appointed passenger pod suitable for up to four individuals. These small craft are typically used as ships' boats to ferry admirals, captains, and other high-ranking Imperial Navy officers to and from their commands. The TIE/br trades the heavy ordnance for an extended passenger pod capable of carrying a full squad of stormtroopers and all of their equipment. The pod is also equipped with a forward boarding hatch with docking clamps and powerful plasma cutters for cutting through ship hulls. These variants have the same performance characteristics as the standard TIE/sa, and the TIE/sh mounts a shield generator that provides defense value of 1/1.</Description>
+  <Source>Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>110000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>Two days</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>9</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

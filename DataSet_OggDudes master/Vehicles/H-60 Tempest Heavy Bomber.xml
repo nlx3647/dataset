@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>H60BOMB</Key>
+  <Name>H-60 Tempest Heavy Bomber</Name>
+  <Description>[H3]H-60 Tempest Heavy Bomber[h3]
+
+Developed for the Republic Navy during the waning days of the Clone Wars, Slayn &amp; Korpil's H-60 Tempest Heavy Bomber is a now uncommon but well-respected heavy strike fighter. Designed by the team that would go on to build the Rebel Alliance's B-wing heavy attack starfighter, the Tempest is a large, flying wing style starfighter with a number of unique design elements. Like its B-wing successor, the core of the H-60 is a long, steeply angled, blade-like wing with a high-output reactor powering a quartet of powerful ion engines located amidships at the widest point of the fuselage. Unlike the newer, more advanced B-wing, the Tempest features two fixed-position cockpits, one mounted at each end of the central wing. The pilot controls the ship and its flight systems from the starboard cockpit, and the weapon systems engineer controls the various heavy weapon and bomb delivery systems from the port cockpit.
+
+[P]Heavily armored and featuring a sturdy, reinforced hull, the Tempest could absorb incredible amounts of punishment from both the environment and incoming enemy fire. Initially, the big fighter's armament consisted of a variety of laser cannons, ion cannons, and ordnance launchers combined with a ventral-mounted bomb bay. The bomb bay could carry a mix of guided and unguided dropped ordnance which was typically used against stationary positions, massed infantry or armor, and large, slow moving starships. While it showed great promise, a combination of bad timing and political wrangling within the dying Republic Navy quickly scuttled the H-60 program, and the entire line was discontinued after only a handful of squadrons were delivered. Those few remaining H-60s that survived the rise of the Empire were snatched up by the Rebel .ante at a drastic discount after languishing in cards a d on used ship lots for decades, and rrentl r ing action throughout the Outer Rim with their younger B-wing cousins.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>172000</Price>
+  <Rarity>5</Rarity>
+  <Crew>One pilot, one weapon systems operator</Crew>
+  <EncumbranceCapacity>12</EncumbranceCapacity>
+  <Consumables>One week</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>4</Armor>
+  <HullTrauma>22</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>12</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>12</Count>
+        </Quality>
+      </Qualities>
+      <Key>PROTONBAY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

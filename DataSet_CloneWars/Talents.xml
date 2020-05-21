@@ -1,0 +1,1535 @@
+<?xml version="1.0"?>
+<Talents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Talent>
+    <Key>LEARNOPP</Key>
+    <Name>Learning Opportunity</Name>
+    <Description>Once per round, the character may spend [AD][AD][AD] from a checlk they fail to upgrade the ability of their next check once.
+</Description>
+    <Source Page="27">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>SOMEPROVE</Key>
+    <Name>Something to Prove</Name>
+    <Description>Once per session, suffer 4 strain to reroll a failed check. if the succeeds the character heals 4 strain
+</Description>
+    <Source Page="27">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>ADAPTBL</Key>
+    <Name>Adaptable</Name>
+    <Description>When resolving a check that uses a skill in which they have no ranks, the character may spend one Destiny Point to remove [DE] or to remove [TH] equal to their ranks in Cool
+</Description>
+    <Source Page="27">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>BEGLUCK</Key>
+    <Name>Beginner's Luck</Name>
+    <Description>Once per session when the character makes a check, may add [SU] equal to the nmber  of light side Destiny Points in the Destiny pool to the results
+</Description>
+    <Source Page="27">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>TEMPTRAIN</Key>
+    <Name>Temple Training</Name>
+    <Description>Before making a Lightsaber skill check, the character may spend one Destiny Point to add damage to the attack equal to their ranks in Knowledge(Lore)
+</Description>
+    <Source Page="27">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>SINFLAT</Key>
+    <Name>Sincerest Flattery</Name>
+    <Description>Once eper encounter when the character makes a check using a skill that another character has previously used durint the encounter, they add [BO][BO]
+
+</Description>
+    <Source Page="27">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>RAVG</Key>
+    <Name>Ravage</Name>
+    <Description>Once per encounter, the character may suffer 3 strain to add [FO] up to their current Force rating to a combat check targeting an engaged opponent. the character may spend [FP] to add [SU] or [AD] to the results of the check
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>RENFORM</Key>
+    <Name>Renegade Form</Name>
+    <Description>When the character purchases this talent, they choose one characteristic. they may use this characteristic in plance of Brawn when making Lightsaber checks.
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <SkillChars>
+      <SkillChar>
+        <SkillKey>LTSABER</SkillKey>
+        <CharKey>AG</CharKey>
+      </SkillChar>
+    </SkillChars>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>SECFORCE</Key>
+    <Name>Secrets of the Force</Name>
+    <Description>Knowledge[Lore] and Lightsaber become career skills for the character
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <NewSkills>
+        <Key>LTSABER</Key>
+      </NewSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>SIDESIDE</Key>
+    <Name>Side By Side</Name>
+    <Description>While the character and one or more engaged allies are wielding lightsabers, add [TH] to all combat checks that target the character or the allies.</Description>
+    <Source Page="26">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>WILLFORCE</Key>
+    <Name>Will of the Force</Name>
+    <Description>Once per round after failing a skill check, the character may convert one dark side Destiny Point to a light side Destiny Point</Description>
+    <Source Page="26">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>GUARDREP</Key>
+    <Name>Gaurdian of the Republic</Name>
+    <Description>After the charaacter uses Parry or Reflect to reduce damage to an ally, that ally cannot be targeted by combat checks for the remainder of the round
+</Description>
+    <Source Page="26">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>ORDSAT</Key>
+    <Name>Ordnance Saturation</Name>
+    <Description>When the character or certain allies activate the Blast quality of a planetary scale weapon, all ships or vehicles within close range of the target suffer damage equal to the weapon's blast quality
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>FIREREADY</Key>
+    <Name>Fire When Ready</Name>
+    <Description>Take the Fire When Ready action make a [B]Hard ([DI][DI][DI]) Leadership check[b].  Choose a number of crew equal to Presence who downgrade the difficulty of their next Gunnery check once, plus once per additional [SU][SU]
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>ONORDER</Key>
+    <Name>On My Order</Name>
+    <Description>As an actioni, make a [B]Hard ([DI][DI][DI]) Leadership check.[b] Choose a number of crew equal to Presence who upgrade the ability of their next Gunnery check once plus once per additional [SU][SU]
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>HYPERASSAULT</Key>
+    <Name>Hyperspace Assault</Name>
+    <Description>The character may use Astrogation or Knowledge(Warfaere) to determine initiative during an encounter in which they are piloting or commanding a starship and may spend [TR] from the check to choose the starting location of allies
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>OUTMAN</Key>
+    <Name>Outmaneuver</Name>
+    <Description>As an action, make a [B]Hard ([DI][DI][DI]) Knowledge(Warfare) check.[b] Choose one ship or vehicle per [SU]. Until the end of the character's next turn, the chose ships must perform one extra maneuver to move</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>LEVRG</Key>
+    <Name>Leverage</Name>
+    <Description>The character removes [SE] per rank of Leverage from their Cool and Negotiation checks
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Ranked>true</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>RESPDEL</Key>
+    <Name>Respected Delegate</Name>
+    <Description>Downgrade the difficulty of social checks made to interact with government institutions outside of homeworld a number of times equal to ranks in Respected Delegation
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Ranked>true</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>TRANSERROR</Key>
+    <Name>Translation Error</Name>
+    <Description>Once per encounter the character may remove [TH] from the resultes of a social skill check they make
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>CONSOPTS</Key>
+    <Name>Consider Our Optioins</Name>
+    <Description>Take the Consider Our Options action, make a [B]Hard ([DI][DI][DI]) Negotiation check[b]. Until the character's next turn, a chatacter who attacks them first suffers 2 strain, plus 1 strain per [SU][SU] on the character's check
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>CONSOPTSIMP</Key>
+    <Name>Consider Our Options (Improved)</Name>
+    <Description>Allies within short range may also benefit from Consider Our Options
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>BACKRDE</Key>
+    <Name>Backroom Deal</Name>
+    <Description>Once per encounter, make a [B]Hard ([DI][DI][DI]) Negotiation check[b] to reveal how previously unknown dealings have a meaningful impact on the current scene
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>EXCSPEC</Key>
+    <Name>Exceed Specifications</Name>
+    <Description>When making a check using an item, may add [BO]. The GM may spend [TH][TH] on the check to damage the item one step, or [DE] to damage it beyond usability
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>EXCSPECIMP</Key>
+    <Name>Exceed Specifications (Improved)</Name>
+    <Description>When the character takes the Exceed Specifications incidental, upgrdae the ability of the check once instead of the standard effect</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>EXCSPECSUP</Key>
+    <Name>Exceed Specifications (Supreme)</Name>
+    <Description>If a check benefitting from Exceed Specifications generates [TR], may damage the item to roll additional [PR] and addit to the check results. If the check generates [DE], add [CH] to the check results</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>ONEPERTRASH</Key>
+    <Name>One Person's Trash</Name>
+    <Description>May make a Pereption check in order to locate a particular item at no cost in a location with potential salvage. The difficulty of the check is determined by the item's rarity
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>ANOTREAS</Key>
+    <Name>Another's Treasure</Name>
+    <Description>the condition of an item does not affect its sale price. In addition, the character can always find a buyer for an item, no matter its condition or apparent value
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>UTILBELTIMP</Key>
+    <Name>Utility Belt (Improved)</Name>
+    <Description>Once per session when the character performs a Utility Belt Incidental, They may produce up to fice functionally identical items
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>USERTALENT2</Key>
+    <Name>Tactical Advance</Name>
+    <Description>The character may suffer 2 strain to perform the Tactical Advance incidental. Until the end of the character's next trun, the character and allies within short range may leave cover and continue to receive its benefits
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>USERTALENT3</Key>
+    <Name>First Among Brothers</Name>
+    <Description>When the character makes a check that does not generate any [TH], the check gains [AD] equal to ranks in First Among Brothers. The charactermay only spend these additional [AD] to affect allied clones
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Ranked>true</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>CLANKKILL</Key>
+    <Name>Clanker Killer</Name>
+    <Description>Before rolling a combat check that targets a droid, remove [BO] up to character's ranks in Clanker Killer from the pool and add an equal number of [SU] or [AD] to the results
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Ranked>true</Ranked>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>TACTADVIMP</Key>
+    <Name>Tactical Advance (Improved)</Name>
+    <Description>The character may spend [AD][AD] from any check they make or [TH][TH] from a combat check targeting them to perform the Tactical Advance Incedental insteead of suffering strain
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>SCRAEM</Key>
+    <Name>Scrap 'Em</Name>
+    <Description>On a successful attack, may suffer 2 strain and select allies up to ranks in Leadership who add [BO] to attacks against the target until the character's next turn
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>SCRAEMIMP</Key>
+    <Name>Scrap 'Em (Improved)</Name>
+    <Description>Scrap 'Em! effects twice the number of allies and allies add [BO][BO] to combat checks against the target
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>FORREP</Key>
+    <Name>For The Republic</Name>
+    <Description>When an ally is incapacitated or killed, the character can make a [B]Daunting ([DI][DI][DI][DI]) Leadership check[b]. If successful, the ally is not defeated until the end of the following round
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>FIRSPRT</Key>
+    <Name>Fire Support</Name>
+    <Description>After the character makes a successful combat check using a vehicle weapon the next ally to make a check adds [BO] equal to ranks of Fire Support
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Ranked>true</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>ASSDROP</Key>
+    <Name>Assault Drop</Name>
+    <Description>Once per session, the character may perform the Assault Drop incidental to allow allies to embark or disembark from a vehicle or ship they are piloting as an incidental
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>BARROLL</Key>
+    <Name>Barrel Roll</Name>
+    <Description>when piloting a vehicle or starship of silhouette 3 or less, when hit by an attack, suffer 3 system strain to reduce the damage of one hit by ranks in Piloting
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>BARROLLIMP</Key>
+    <Name>Barrel Roll (Improved)</Name>
+    <Description>when the character takes the Barrel Roll incidental, reduce the damage of all hits of the attack by ranks in Piloting
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>BARROLLSUP</Key>
+    <Name>Barrel Roll (Supreme)</Name>
+    <Description>When using Barrel Roll against certain weapons may spend [DE] or [TH][TH][TH] to infllict once hit on an enemy vehicle wihin close range, dealing base damage of the original attack
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>NATOP</Key>
+    <Name>Natural Operator</Name>
+    <Description>Once per session may roll any 1 Piloting (Planetary) or Piloting (Space) check
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>MISSCRIT</Key>
+    <Name>Mission Critical</Name>
+    <Description>Once per session after rolling a Piloting (Planetary) or Piloting(Space) check but before resolving it, the character may spend a Destiniy Point to add [SU] or [AD] to the results equal to their ranks in that skill
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>BRACIMP</Key>
+    <Name>Brace (Improved)</Name>
+    <Description>When the character performs the Brace maneuver they may choose one environmental circumstance. The benefits of Brace apply to that circumstance until the end of the encounter
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>BRACSUP</Key>
+    <Name>Brace (Supreme)</Name>
+    <Description>When the character performs the Brace maneuver the benefits apply to all allies within short range
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>NATTROOP</Key>
+    <Name>Natural Trooper</Name>
+    <Description>Once per session, may reroll any one Gunnery of Ranged (Heavy) check
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>LATTHINK</Key>
+    <Name>Lateral Thinking</Name>
+    <Description>Once per encounter spend one Destiny Point to force an enemy to reroll a successful check targetin the character. does not require a Destiny Point if the enemy is a droid
+</Description>
+    <Source Page="41">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>NATCOMMAN</Key>
+    <Name>Natrural Commando</Name>
+    <Description>Once per session, the character may reroll one Ranged (Light) or Stealth check
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>RAPFIRE</Key>
+    <Name>Rapid Fire</Name>
+    <Description>May add the Autofire item quality to a Ranged (Light) combat check. After resolving the attack, the weapon runs out of ammo
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>TACTEVAS</Key>
+    <Name>Tactical Evasion</Name>
+    <Description>Upgrade the difficulty of ranged combat checks targeting the character a number of times equal to the number of maneuvers they performed to move during this round
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>DETDROP</Key>
+    <Name>Get The Drop</Name>
+    <Description>Once per session, the character and any number of allies in the encounter may add [SU] equal to the character's rank in Stealth to their checks to determine initiative
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>INGLOY</Key>
+    <Name>Ingrained Loyalty</Name>
+    <Description>When the character makes a Leadership check trageting on eor more clones, they may change the resilt of one [CH] to any non-blank face
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>ENDPRES</Key>
+    <Name>Enduring Presence</Name>
+    <Description>Once per session the character may upgrade a Mass Combat check even if the characer is not present or is prevented from communicating with their troops
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>FORMTACTS</Key>
+    <Name>Formation Tactics</Name>
+    <Description>Make a [B]Hard ([DI][DI][DI]) Leadership check[b]. If successful choose a number of allies within short range equal to [SU]. Upgrade the difficulty of attacks against these allies until the end of character's next turn.
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>FORMTACTSIMP</Key>
+    <Name>Formation Tactics (Improved)</Name>
+    <Description>The difficulty of Formation Tactics is reudced to [B]Average ([DI][DI]). [b] May spend [TR] or [AD][AD][AD][AD][AD][AD] to have effect last until the end of encounter
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>TACTPLAN</Key>
+    <Name>Tactical Planning</Name>
+    <Description>Once per session, the character may substitute a Knowledge(Warfare) skill check for another skill check
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>ATCOST</Key>
+    <Name>At Any Cost</Name>
+    <Description>May suffer a Critical Injury to reroll a Mass Combat check. At GM's discretion, may sacrifice an item or individual of personal significance instead
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>PRACTSTRAT</Key>
+    <Name>Practiced Stragist</Name>
+    <Description>Once per session, make an [B]opposed knowledge(Warfare) check[b] against a leader of enemy forces to gain a narrative advantage
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>USERTALENT4</Key>
+    <Name>Combat Veteran</Name>
+    <Description>the character adds [BO] to their Brawl and Discipline checks equal to their ranks in Combat Veteran</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <Ranked>true</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>CLANKILLIMP</Key>
+    <Name>Clanker Killer (Improved)</Name>
+    <Description>Decrease the critical rating of Brawl and melee attacks targeting droids by 1 per rank of Clanker Killer, to a minimum of 1
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>KNOWNPROG</Key>
+    <Name>Known Programming</Name>
+    <Description>Once per session, make a [B]Hard ([DI][DI][DI]) Vigilance check[b] to upgrade the difficulty of a certain droid model's check against the character, plus one ally per [SU] after the first, once for the rest of the encounter
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>SURVINS</Key>
+    <Name>Survivor's Instincts</Name>
+    <Description>Once per session when the character suffers a Critical injury spend 1 Destiny Point. Then the atacker must roll two results for the Critical Injury and the player chooese which will apply to their character
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>KNOWNPROIMP</Key>
+    <Name>Known Programming (Improved)</Name>
+    <Description>Allies affected by Known Programming also upgrade the ability of their checks targeting the chose droid model once
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>FALLBAK</Key>
+    <Name>Fall Back</Name>
+    <Description>While engaged with an opponent, the characer may suffer a number of strain up to their Leadership to allow an equal number of allies engaged with theat oppnent to immediately disengage as an out of turn incidental
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>STANDFRM</Key>
+    <Name>Stand Firm!</Name>
+    <Description>As an action, make a [B]Hard ([DI][DI][DI]) Leadership check[b]. Choose one ally per [SU] who increase their wound threshold by the character's Presence until the end of the encounter
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>PREINTER</Key>
+    <Name>Preemptive Intervention</Name>
+    <Description>Immediately after an opponent moves to engage an ally within short range, the character may spend one Destiny Point to engage that opponent as an out of turn incidental
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>STANFIRMIMP</Key>
+    <Name>Stand Firm! {Improved}</Name>
+    <Description>Stand Firm action also increase affected allies strain threshold by an amount equal to the character's Presence rating
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>NATCHAMP</Key>
+    <Name>Natural Champion</Name>
+    <Description>Once per session may reroll any 1 Leadership or Lightsaber check
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>INSPKILL</Key>
+    <Name>Inspiring Kill</Name>
+    <Description>The character may spend 1 Destiny Point to take the Inspiring Kill maneuver after incapacitating or inflicting a Critical Injury.  Roll [FO] no greater than force Rating and spend [FP] to heal 2 strain from each ally within medium range
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taManeuver</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Maneuver</Activation>
+  </Talent>
+  <Talent>
+    <Key>KNOWSTR</Key>
+    <Name>Knowledge is Strength</Name>
+    <Description>Once per session when making a check, the character may increase their Force rating by their ranks in Knowledge(Warfare)
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>EXEMPREP</Key>
+    <Name>Exemplar of the Republic</Name>
+    <Description>Add [FO] to mass combat checks up to Force rating and spend [FP] to add [SU] or [AD] to the result
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>NOBFOOLIMP</Key>
+    <Name>Nobody's Fool {Improved)</Name>
+    <Description>May spend [TR] or [TH][TH] from an incoming Charm, Coercion, or Deception check to inflict strain on the opponent equal to the character's ranks in Nobody's Fool
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>FLOWTHINGS</Key>
+    <Name>Flows Through All Things</Name>
+    <Description>The character may perform a maneuver to recover strain equal to their Force rating
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taManeuver</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Maneuver</Activation>
+  </Talent>
+  <Talent>
+    <Key>BOUNDTOG</Key>
+    <Name>Bound Together</Name>
+    <Description>Perform the Bound Together maneuver. Until the character's next turn, when the character or an ally within short range suffers strain involuntarily, they reduce the amount by the current number of lightside Destiny Points
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taManeuver</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Maneuver</Activation>
+  </Talent>
+  <Talent>
+    <Key>MASTERORDER</Key>
+    <Name>Master Of The Order</Name>
+    <Description>The character can spend 2 Destiny Points during a single action
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>POWERALLY</Key>
+    <Name>Powerful Ally</Name>
+    <Description>The character may spend a Destiny Point to use the basic version of a Force power they have not purchased or apply the effects of a control upgrdae to a power they have purchased
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>THERETRY</Key>
+    <Name>There Is No Try</Name>
+    <Description>Once per session before an ally rolls the dice for a check, the character may spend 1 Destiny Point to allow the ally to automatically succeed at the check with one [SU] ad no other results</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>CENTERSUPR</Key>
+    <Name>Center Of Being (Supreme)</Name>
+    <Description>When the character performs the Center of Being maneuver, the effects apply to ranged attacks as well
+</Description>
+    <Source Page="21">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>JETEXP</Key>
+    <Name>Jetpack Expertise</Name>
+    <Description>The character may spend [AD] from their checks to remove 1 system mstrain from their jetpack. They may choose the effect multiple times when spending [AD]
+</Description>
+    <Source Page="27">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>HITRUN</Key>
+    <Name>Hit And Run</Name>
+    <Description>After the character completes an attack targeting an opponent they are engaged with, they may immediately move to short range using a jetpack
+</Description>
+    <Source Page="27">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>DEATHABOVE</Key>
+    <Name>Death From Above</Name>
+    <Description>Once per encounter, inflict 1 system strain on jetpack and make a [B]Hard ([DI][DI][DI]) Pilotingcheck[b]. For each [SU], one adversary in short range is knocked prone. May spend [TR] to stagger one affected target
+</Description>
+    <Source Page="27">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>TODEATH</Key>
+    <Name>To The Death</Name>
+    <Description>Once per session, suffer strain up to Willpower and add a +10 per strain suffered to critical rolls the character inflicts or suffers until the end of the encounter
+</Description>
+    <Source Page="27">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taManeuver</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Maneuver</Activation>
+  </Talent>
+  <Talent>
+    <Key>SIDESTIMP</Key>
+    <Name>Side Step (Improved)</Name>
+    <Description>Whenever the character performs a Side Step maneuver, until the start of their next turn they may spend [TH][TH][TH] or [DE] from an attacker's check to inflict one hit with a ranged weapon they are wielding
+</Description>
+    <Source Page="27">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>MOMTUM</Key>
+    <Name>Momentum</Name>
+    <Description>The character deals additional damage to their first hit equal to the number of range bands they moved during the current round
+</Description>
+    <Source Page="27">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <Ranked>true</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>WITCHCRFT</Key>
+    <Name>Witchcraft</Name>
+    <Description>The character gains Force Rating 1
+</Description>
+    <Source Page="27">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <Attributes>
+      <ForceRating>1</ForceRating>
+    </Attributes>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>SUMMITEM</Key>
+    <Name>Summon Item</Name>
+    <Description>As a maneuver, the character can summon or dismiss a ritually prepared item
+</Description>
+    <Source Page="31">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taManeuver</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Maneuver</Activation>
+  </Talent>
+  <Talent>
+    <Key>ICHBLADE</Key>
+    <Name>Ichor Blade</Name>
+    <Description>The character chooses one Melee or Brawl weapon they possess, which gains the Cortosis and Pierce 2 qualities and reduces its critical rating by 1 to a minimum of 1. If the weapon is lost or destroyed, the character can apply Ichor Blade to a new weapon
+</Description>
+    <Source Page="31">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>ICHBLDIMP</Key>
+    <Name>Ichor Blade (Improved)</Name>
+    <Description>The chosen weapon also gains the Sunder quality and Defensive 1 quality and increases its damage by 2
+</Description>
+    <Source Page="31">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>ICHTRANS</Key>
+    <Name>Ichor Transfusion</Name>
+    <Description>Once per encounter, the character may perform the Ichor Transfusion maneuver to heal any number of strain by suffering that number of wounds +1. The character may instead heal any number of wounds by suffering that number of strain +1
+</Description>
+    <Source Page="31">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taManeuver</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Maneuver</Activation>
+  </Talent>
+  <Talent>
+    <Key>COVN</Key>
+    <Name>Coven</Name>
+    <Description>May take the Coven maneuver. On the character's next Force power check, they may reroll one [FO] for each ally with Coven within short range
+</Description>
+    <Source Page="31">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taManeuver</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Maneuver</Activation>
+  </Talent>
+  <Talent>
+    <Key>USERTALENT5</Key>
+    <Name>Ichor Reserve</Name>
+    <Description>Once per session as a maneuver, the charcter may suffer 2 strain to increase Force rating by 1 until the end of the encounter
+</Description>
+    <Source Page="31">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taManeuver</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <ForceTalent>true</ForceTalent>
+    <Activation>Maneuver</Activation>
+  </Talent>
+  <Talent>
+    <Key>SAVY</Key>
+    <Name>Savvy</Name>
+    <Description>The character adds [BO] to Charm and Negotiation checks per rank of Savvy
+</Description>
+    <Source Page="31">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <Ranked>true</Ranked>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>RESQUES</Key>
+    <Name>Resist Questioning</Name>
+    <Description>When targeted by an oppsed social skill check, the character may suffer strain to add [SE] to the check. If the check fails, the character may spend [DE] to indicate they have provided false information
+</Description>
+    <Source Page="31">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>BLAT</Key>
+    <Name>Blather</Name>
+    <Description>Take the Blather action, making a [B]Hard ([DI][DI][DI]) Charm or Deception check[b]. If successful, one adverary per [SU] is Disoriented for rounds eqqual to the character's Presence. The character may spend [TR] from the check to Stagger one affected target
+</Description>
+    <Source Page="31">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>DIPIMM</Key>
+    <Name>Diplomatic Immunity</Name>
+    <Description>As an out-of-turn incidental, the character spends one Destiny Point and adversaries cannot choose them as a target of a combat check until the end of their next turn
+</Description>
+    <Source Page="31">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>RESALLO</Key>
+    <Name>Resource Allocation</Name>
+    <Description>At the beginning of a Mass Combat, make a [B]Hard ([DI][DI][DI]) Charm or Negotiation check[b] to increase their force's strength by one step for the duration of the encounter. May spend [TR] from the check to upgrade the ability of their force's first Mass Combat check
+</Description>
+    <Source Page="31">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taAction</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Action</Activation>
+  </Talent>
+  <Talent>
+    <Key>USERTALENT6</Key>
+    <Name>Cruel Commander</Name>
+    <Description>May use ranks in Coercion to upgrdae Mass Combat chekcs instead of ranks in Leadership
+</Description>
+    <Source Page="35">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taPassive</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Passive</Activation>
+  </Talent>
+  <Talent>
+    <Key>DROIDCOMM</Key>
+    <Name>Droid Commander</Name>
+    <Description>Once per encounter may perform Field Commander as a maneuber instead of an action. All affected allies must be droids
+</Description>
+    <Source Page="35">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>LEADFRONT</Key>
+    <Name>Lead From the Front</Name>
+    <Description>After succeeding on a Leadership check or other check to inspire, lead, or rally an audience, the character may spend 1 Destiny Point to upgrdae the ability of the next combat check made by all allies within short range
+</Description>
+    <Source Page="35">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <Ranked>true</Ranked>
+    <ActivationValue>taIncidental</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>Incidental</Activation>
+  </Talent>
+  <Talent>
+    <Key>LEADBACK</Key>
+    <Name>Lead From The Back</Name>
+    <Description>Once per round, may spend 1 Destiny Point to redirect a successful attack against the character to an allied NPC
+</Description>
+    <Source Page="35">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <ActivationValue>taIncidentalOOT</ActivationValue>
+    <ChooseCareerSkills>
+      <ChooseByType>true</ChooseByType>
+      <TypeValue>stGeneral</TypeValue>
+      <Type>General</Type>
+    </ChooseCareerSkills>
+    <Activation>OOT Incidental</Activation>
+  </Talent>
+</Talents>

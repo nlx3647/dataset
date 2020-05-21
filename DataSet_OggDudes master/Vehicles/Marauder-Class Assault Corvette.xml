@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MARAUDER</Key>
+  <Name>Marauder-Class Assault Corvette</Name>
+  <Description>
+    [H3]Marauder-Class Assault Corvette[h3]
+
+The reliable Marauder-class corvette is an old, tried-and-true that has seen service in navies the galaxy over since the days of the Galactic Republic. Designed and built by Sienar Technologies, the Marauder was envisioned as a fast, flexible patrol and escort vessel. While these ships were initially slated for the Republic Navy, they decided against the ship, and RSS was left with an unwanted design. Eventually, RSS sold the Marauder's production rights to the Corporate Sector Authority where it found a home among the CSA's navy and numerous planetary governments and law enforcement organizations throughout the Outer Rim.
+
+[P]Today, the venerable Marauder corvettes still see service with numerous governmental, paramilitary, and pirate organizations in the Outer Rim. The ships themselves are long and graceful with a heavily armored, wedge-shaped forward section and broad, downward-sloping wings aft above the drives. Thanks to their favorable power-to-weight ratio, Marauders are relatively quick and agile for their size. With their good handling characteristics, a heavy armament of light turbolasers and tractor beams, and the capability of carrying a squadron of fightercraft, these ships can hold their own against nearly anything in their class.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Corvette</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>3000000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>177 Officers, Pilots, and Enlisted Crew</Crew>
+  <EncumbranceCapacity>175</EncumbranceCapacity>
+  <Passengers>80</Passengers>
+  <Consumables>Three Months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>65</HullTrauma>
+  <SystemStrain>35</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTLT</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

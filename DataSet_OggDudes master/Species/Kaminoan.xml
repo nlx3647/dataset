@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>KAMINOAN</Key>
+  <Name>Kaminoan</Name>
+  <Description>
+    [H4]Kaminoan[h4]
+The secretive and isolationist Kaminoans saw the end of an ice age flood their planet, and their scientists turned to genetic manipulation to survive. Society changed rapidly as bioengineering became an integral part of their life. Not content with simply altering the genetics of native flora and fauna to prevent a mass extinction, the Kaminoans began to alter themselves.
+[P]Kaminoans isolated genes for intelligence, strength, speed, grace, abstract thinking, linear thinking, sensory perception, and in some cases, aesthetics. They also developed a caste-like society based on genetic selection. Determining the caste focus of the next generation combined a complex mixture of societal pressure, personal preferences, economic considerations, and other current concerns.
+[P]This concentration on genetic manipulation pulled their society further away from galactic interaction. Eventually, however, the Kaminoans saw a market for one of their skills: cloning. Their work attracted the attention of the Republic, and the Kaminoans turned all their efforts toward creating its Grand Army.
+[P][B]Physiology:[b] Taller on average than humans, Kaminoans tend to be slender, with an elongated neck and oblong head. Descended from an aquatic species, they retain the flowing, graceful movements of their ancestors as well as the ability to see into the ultra-violet spectrum with their large eyes. Although Kaminoans seem to favor white as a design aesthetic, they are able to discern a vast range of patterns and colors that appear simply as white to other species.
+[P]Unlike most species, Kaminoans utilize their knowledge of genetic engineering on themselves. Whether their current physical presentation is as much a product of that engineering as it is "natural" is a matter of some debate. Kaminoans enjoy an extended but healthy old age without the usual physical debility or mental degradation. Gender is considered an aesthetic choice, the only difference being that male Kaminoans sport a headcrest, while female Kaminoans do not.
+[P][B]Society:[b] Kaminoans generally maintain an air of polite impassiveness. As a result, outsiders consider them emotionless and identical. It doesn't help that Kaminoans choose similar clothing, although many important individuals wear a large, pale collar around their neck. In reality, Kaminoans express a more relaxed emotional attitude with each other.
+[P]As a genetically and socially engineered society, the Kaminoans remain isolationist and culturally naive. Their caste structure assigns each Kaminoan to a specific duty based on genetic and intellectual predisposition. Outliers do exist, and though they are not shunned, they tend to become curiosities as others try to determine how the deviation occurred.
+[P][B]Homeworld:[b] The thawing at the end of its last ice age dramatically changed Kamino. The world, now covered in a global ocean, suffers from constant storms and massive winds. Cities provide shelter from the wind, rain, and water, rising high above the ocean surface on stilted anchors. The cities harness electricity from the storms, while the warm ocean provides plenty of rich nutrients and biodiversity. Kaminoan trade in genetic samples means that several offworld creatures, such as the aiwha, now also live there.
+[P]Of particular note is that many stellar databases don't contain Kamino's location, beyond the Outer Rim near the Rishi Maze. When they developed the cloning program for the Republic, the Kaminoans asked to have the location of their planet redacted to protect their privacy. Since the Clone Wars ended, that information has trickled back sporadically.
+[P][B]Language:[b] While Kaminoans speak their native language, those who choose to deal with outsiders learn Basic. Conversely, very few outsiders speak Kaminoan, and those who do are reluctant to teach others. Kaminoans guard their written language carefully, relying on written Basic in their communications with other species.
+[P][B]Life in the Alliance:[b] Kaminoans have a difficult relationship with the Rebel Alliance. Their species not only developed and supplied the clone army for the Republic, but also joined the Galactic Senate to fight against the Separatists. Some have joined the Alliance as engineers, biogeneticists, and physicians. Their amorality In medical matters and others' general distrust of them due to their role in the Empire's ascendency puts these Kaminoans under scrutiny.</Description>
+  <Source Page="20">Fully Operational</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>MED</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>RESEARCH</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>KAMINOANOC1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>KAMINOANOC1OP1</Key>
+          <Name>Expressionless</Name>
+          <Description>Kaminoans add [SE] to all Charm checks they make.</Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>CHARM</SkillKey>
+              <AddSetbackCount>1</AddSetbackCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>KAMINOANOC2</Key>
+      <Name>Opposing Skills</Name>
+      <Options>
+        <Option>
+          <Key>KAMINOANOC2OP1</Key>
+          <Name>Expressionless</Name>
+          <Description>Other characters add [SE] to all social skill checks made against Kaminoans.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HUTTREPULSOR</Key>
+  <Name>Hutt Repulsorsled</Name>
+  <Description>[H3]SakTek HF-2 Hutt Repulsorsled (Hutt Floater)[h3]
+
+Among Hutts, only the very young and the very poor move under their own power, and physical exertion is seen as a sign of weakness. As such, virtually every Hutt owns a personal repulsorsled to get from place to place, even if those places are mere meters apart. Several companies, notably Ubrikkian Industries, Gefferon Pleasure Craft, and the SakTek Corporation, offer a wide variety of repulsorsleds to meet any Hutt's tastes. SakTek's HF-2 is a common model favored by many Hutts both for its functionality and the availability of a variety of luxury option upgrades.</Description>
+  <Source>Lords of Nal Hutta</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Repulsorsled</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>8000</Price>
+  <Rarity>3</Rarity>
+  <MaxAltitude>5 meters</MaxAltitude>
+  <Crew>One Hutt</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>1</Speed>
+  <Armor>1</Armor>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

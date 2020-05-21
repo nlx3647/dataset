@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CURICHSHUTTLE</Key>
+  <Name>Curich-Class Shuttle</Name>
+  <Description>[H3][I]Curich[i]-Class Shuttle[h3]
+
+Sienar Fleet Systems is best known for production of TIE-series starfighters and other military craft for the Empire, but they do not design only warships. The Curich-class shuttle is an older Sienar design often sold to a civilian market. Its long, ovoid hull features extended landing struts on the center of the ship's flanks. A single turret mounted with a pair of linked heavy blaster cannons sits on top of the hull for protection. 
+
+[P]Capable of hauling large groups or stockpiles at a respectable speed, the Curich-class is often used by nonmilitary Imperial officials or other dignitaries who travel with a large staff. The Rebellion has acquired several Curich-class shuttles, including a few equipped with Imperial transponder codes for infiltration missions. The vessels' light armament makes them vulnerable to interception, but it also reduces the likelihood for troublesome attention. </Description>
+  <Source>Desperate Allies</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Shuttle</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>130000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/engineer, one gunner</Crew>
+  <EncumbranceCapacity>300</EncumbranceCapacity>
+  <Passengers>50</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>38</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

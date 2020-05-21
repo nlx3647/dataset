@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ORTOLAN</Key>
+  <Name>Ortolan</Name>
+  <Description>[H4]Ortolan[h4]
+
+The Ortolans, elephantine bipeds, have a distinctive appearance, reinforced by their habit of dying their short, thick velvet fur that is generally white or grey into various bright colours. The color of the fur denotes the Ortolan's role in society: orange is a political career, green is a military career, red is a domestic job such as a doctor or a keeper of the peace, and blue is an entertainer, such as a musician or an actor.  They are short in stature with big black eyes, a characteristic descended from their nocturnal ancestors that allows them to see well in dim light but can hinder or potentially even hurt them in bright light.
+
+[P][B]Physiology:[b] Known for their excellent sense of smell, Ortolans can detect food from great distances. Because food is scarce on their planet they are obsessed with it, which has led them to become renowned chefs and food connoisseurs. They use their fingertips to absorb their food, and also to use various fingered instruments to produce the fine tunes for which Ortolan musicians have become famous. This attribute is complemented by their trunk-like noses, which contain a tympanic organ that also contributes to their hearing.
+
+[P]Their outstanding hearing aids them in their musical endeavours, covering the entire sound range from subsonic to ultrasonic. To outside observers Ortolans may seem mute, but they communicate in the aforementioned extreme ranges of sound frequencies, using their noses and the small mouth located underneath. However, they are also able to communicate in the normal auditory range that can be heard by the majority of sentients.
+
+[P]Ortolans have adapted to the harsh conditions of their homeworld, Orto, with a layer of blubber beneath the surface of their skin, which insulates them against the ice-cold temperatures. This provides energy reserves in time of need and also results in their obese build.
+
+[P][B]Society:[b] The tradition of dying their fur began when a Devaronian trader tried to sell Ortolans a shipment of food dyes—they considered dyeing their food a waste of time, but found dyed fur to be quite stylish. 
+
+[P]Education is the responsibility of their parents, though gifted youngsters would often be traded to other families to get specialized education. At the age of seven, Ortolans are expected to support themselves, and will be forced out of the family unit unless they had a particularly valuable talent. 
+
+[P]Ortolan society is reasonably industrialized, though not as technologically advanced as other species. Despite this, their economy is mostly based on barter, with credits primarily used to trade with offworlders. Common names among the Ortolans include: Bedo, Eembek, Miebar, Nabkess, Ooben, Ruznee. 
+
+[P][B]Homeworld:[b] Orto is a desolate planet, found uncomfortable by most humanoids. A majority of the planet is covered in tundra, with a cluster of forests along the equator. It was originally discovered several years after the Great Sith War, though none of the humans on the survey ship attempted to explore in the subzero temperatures. It took a group of Talz adventurers to explore the planet during the Third Galactic Survey, towards the end of the reign of the Old Republic.
+
+[P]The Talz mentioned the planet was unremarkable on the surface, though complex clusters of natives could be found. Deep holes were dug near the equator, and small villages of Ortolans resided on the bottom of these deep holes. The Ortolans are large, pudgy creatures with long trunks, and come in a variety of shades, similar to Twi`leks. Many of Ortolans left their planet with the Talz expedition, a majority of them being entertainers. Quickly establishing themselves, Ortolan entertainers became known as the best of the best
+
+[P]Orto is rarely visited by others, and is known to be a peaceful home to the Ortolan species. It is generally considered to be of little importance on a galactic scale, and the Ortolans are confident that by spreading their music and entertainment, they are making the galaxy a more aesthetic place that hopefully will not cast its eye on their homeplanet.
+
+[P][B]Language:[b] Ortolan is the native language of the Ortolan species from planet Orto. Most Ortolans are fluent in both Ortolan language and Basic, although they are only literate in their own language.
+
+[P]Ortolan language is formed of grunts and hoots. Its words are formed of one hard syllable followed by a soft syllable for declension.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>1</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>SURV</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>ORTOLANCH1</Key>
+      <Name>Resilience</Name>
+      <Options>
+        <Option>
+          <Key>ORTOLANCH1OP1</Key>
+          <Name>Intestinal Fortitude</Name>
+          <Description>Ortolans downgrade the
+difficulty of Resilience checks made to resist
+the effects of any poison by one.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>ORTOLANCH2</Key>
+      <Name>Perception</Name>
+      <Options>
+        <Option>
+          <Key>ORTOLANCH2OP1</Key>
+          <Name>Keen Senses</Name>
+          <Description>Ortolans receive a [BOOST]
+on Perception checks.</Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>PERC</SkillKey>
+              <BoostCount>1</BoostCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>USERSPECIES4CH3</Key>
+      <Name>Size</Name>
+      <Options>
+        <Option>
+          <Key>UORTOLANCH3OP1</Key>
+          <Name>Reduced Silhouette</Name>
+          <Description>Ortolans have a Silhouette of 0.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

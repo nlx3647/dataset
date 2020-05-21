@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>V19BDART</Key>
+  <Name>V-19b Dart Personal Flyer</Name>
+  <Description>[H3]V-19b Dart Personal Flyer[h3]
+Once a mainstay of military forces across the galaxy, the V-19 Torrent was eventually replaced by more versatile and heavily armored starfightsers, and the V-19 fell out of use in all but the poorest, most backwater systems. Eventually, even the most disadvantaged systems replaced their Torrents with more modern fighters, and these beautiful ships were left behind. However, some enterprising aftermarket corporations refurbished the fighters, removing their weapon systems and upgrading their navicomputers and sensor suites, and marketed them as fast, inexpensive courier ships.
+[P]With its forward-percherd, for-and-after cockpit, the V-19b's distinctive thin hull is often perceived as cramped, even without the two passengers the official manifests claim it can hold. Emergency gear, rations, and very limited storage space occupy the oddly shaped spaces in and around the turbine engines housed in a flaring cowl at the rear of the ship. Its thick, short wings (more vanes housing its repulsor lift generators than actual control surfaces) contributed to the ship's nickname as well as its reputation for poor handling in thicker atmospheres.
+[P]When one is searching for a means of transportation that will be able to penetrate a hostile system, anything from a tense border situation to an active war zone, the V-19b Dart is a perfect choice. With the handling and armor of a fighter, this ship will be able to withstand nearly anything the galaxy can throw at it, delivering its crew with a minimum of fuss. The repurposed V-19b Dart Personal Flyer is ideal when timing is critical, danger is high, and the need is great for an envoy or small party to arrive safely.</Description>
+  <Source Page="60">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>60000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>30</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>14</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

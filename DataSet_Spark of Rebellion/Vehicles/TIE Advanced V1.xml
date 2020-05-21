@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIEADVV1</Key>
+  <Name>TIE Advanced V1</Name>
+  <Description>[H3]TIE Advanced V1[h3]
+The TIE advanced V1 is heavily influenced in its
+design by the earlier Scimitar class star courier
+and shares that vessel's folding wing design,
+although it lacks the former's expensive and rare
+cloaking device. Unlike most TIE fighter variants,
+the Advanced V1 has basic shields and a
+hyperdrive, as well as a projectile launcher capable
+of firing missile shells with various payloads
+including the XX-23 S-thread hyperspace tracking
+beacon. The initial prototype was scheduled to be
+publicly test flown by Baron Valen Rudor during
+Empire Day celebrations on Lothal but was
+destroyed by insurgents. One of the subsequent
+production prototypes was entrusted to The
+Inquisitor assigned to Lothal to assist his mission
+of hunting down those same insurgents.</Description>
+  <Source>Spark of Rebellion</Source>
+  <Sources />
+  <Custom>AddedItem</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>0</HP>
+  <Price>200000</Price>
+  <Rarity>8</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods />
+  <WeaponModifiers />
+  <MaxAltitude />
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>true</NaviComputer>
+  <SensorRange>Short</SensorRange>
+  <Crew>One pilot.</Crew>
+  <EncumbranceCapacity>4</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Consumables>Four days</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>6</Speed>
+  <Handling>2</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Chin</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+          <QualReplace>false</QualReplace>
+          <SkillIsCareer>false</SkillIsCareer>
+          <SkillIsRanked>false</SkillIsRanked>
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+          <InnateSkills />
+          <ActiveQualityKey />
+          <Failed>false</Failed>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <BuiltInAttachments />
+</Vehicle>

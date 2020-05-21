@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ROD</Key>
+  <Name>Rodian</Name>
+  <Description>
+    [H4]Rodians[h4]
+
+Rodians are born to hunt, coming from a hostile world that breeds killer instincts. For those with a price on their heads, a glimpse of a tapered green snout or an unmistakably putrid odor means a Rodian bounty hunter is on their tail. 
+
+[P][B]Physiology:[b] Rodians evolved from climbing lizards and retain some of their ancestor's characteristics, particularly the large eyes and climbing suction cups on their fingers and toes. Nowadays, these physical features cannot hold an adult Rodian of 1.6 meters to a rock or tree for very long, but they have saved many Rodians from falls that would kill most other species. 
+
+[P][B]Society:[b] The history of Rodia is a history of violence. Long ago, the tropical world teemed with vicious predators, necessitating that the Rodians' defenseless ancestors either adapt or die. Adapt they did, hiding in the boughs of trees or climbing high into mountain caves, where they fashioned tools and formulated plans to hunt down the predators. Their skills in the hunt grew quickly, and soon became the central focus of their society. 
+
+[P]Rodians became so proficient at hunting that they gradually forced most of Rodia's other predators into extinction. With nothing much left to hunt, they turned on each other. Gladiatorial hunts between champions morphed into skirmishes and eventually tribal wars. 
+
+[P]Rodia was almost blockaded when first discovered by Old Republic scouts due to the warlike Rodian culture. However, Rodian leadership was able to suppress their culture's violent tendencies long enough to make contact with the rest of the galaxy. Now, millennia later, Rodian culture has moved beyond the worst of its violent impulses; although, hunting is still a venerated tradition. 
+
+[P][B]Homeworld:[b] The world of Rodia in the Mid Rim is the Rodians' planet of origin. It merges urban and industrial development with tracts of untouched rainforest, providing brave Rodian youths with environments in which to test their hunting skills. 
+
+[P][B]Language:[b] Because of the structure of their mouths, Rodians have a difficult time speaking Basic and some choose not to even try, relying exclusively on their native tongue, Rodese.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>SURV</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>EXTRACK</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+</Species>

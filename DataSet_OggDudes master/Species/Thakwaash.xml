@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>THAKWAASH</Key>
+  <Name>Thakwaash</Name>
+  <Description>[H4]Thakwaash[h4]
+
+Thakwaash are an equinoid biped species from Thakwaa.
+
+[P][B]Physiology:[b] Each Thakwaash has many different personalities, each performing some specialized function. This is their normal mental state and is not considered a psychosis, as it would be in a Human. As they grow older and develop, they usually discover more "minds," and gradually improve upon their skill in switching between them. These personalities have various abilities and skills, behaviors, and views on life. These could include an undisciplined yet skilled pilot, a calm and polite socializer, an arrogant, elitist mind, an insane one (which only caused slight problems, since they could still switch to other "minds"), and others. This ability also helps them figure out how others would think, increasing their ability to imitate their target's writings or thought processes.
+
+[P]They also possess, on average, three times the strength of an average human male.  They are also usually very tall at an average height of three meters.
+
+[P][B]Homeworld:[b] Thakwaa is a planet located in the Thakwaa system of the Outer Rim Territories. The Galactic Empire gave up trying to take over this planet due to its its native species' unpredictable natures as well as their size and strength, not because the planet was useless.
+
+[P][B]Language:[b] Thakwaese or Thakwaashi is the native language of the Thakwaash species. The verbal form consists of a variety of growls, snorts, and whinnies, while the written form is made up of intricate symbols.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>12</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>THAKWAASHCH1</Key>
+      <Name>Checks</Name>
+      <Options>
+        <Option>
+          <Key>THAKWAASHCH1OP1</Key>
+          <Name>Multiple Personalities</Name>
+          <Description>At the start of their turn, Thakwaash can choose to suffer 2 strain to upgrade the dice pool once for a specific skill until the start of their next turn.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ARKANOFF</Key>
+  <Name>Arkanian Offshoot</Name>
+  <Description>
+    [H4]Arkanian Offshoot[h4]
+
+The Arkanian Offshoots are a sub-species of the Arkanian race, genetically engineered by the famed Arkanian scientists and genetic researchers of the Old Republic era.
+
+[P]Known to be unscrupulous when it came to the bounds of scientific exploration, the geneticists of Arkania began to experiment on their own species, mixing the blood of other races with their own to create offshoots of the Arkanian species. 
+
+[P][B]Physiology:[b] Most Arkanian Offshoots are of a particular sub-species bred as workers for the famed Arkanian gem mines.  These people have five-fingered hands and eyes resembling the Human race after which their blood was mixed. They also have the pointed ears of the Sephi of Thustra, a species of humanoids with whom they also share genetic material.  
+
+[P]With stark white skin, the offshoots are easily distinguished from the pure-bloods and are often times shunned, even if covertly.
+
+[P][B]Society:[b] The Arkanians themselves are not above genetic experimentation with this avenue of research leading to the creation of the Arkanian Offshoots that are engineered to perform specific tasks. Occasionally, a number of racist pure blood Arkanians were known to conduct purges of the Offshoot population. Reactions to the Offshoots varied as some Arkanians viewed them as little more than tools or even as slaves but many believed that they are an example of the cruel consequences of Arkanian corporate greed.
+
+[P][B]Homeworld:[b] Arkania is the adopted homeworld of the Arkanian species. It is covered with tundra and rich in diamonds and other precious minerals, which the Arkanians mine to further their offworld connections and master their technology. Arkanian cities are designed to keep the cold out, and are mostly completely enclosed. Off-world visitors rarely have to deal with the frigid conditions of the planet.
+
+[P][B]Language:[b] The language of the Arkanian people was developed on their homeworld, Arkania before they made contact with the civilized galaxy and the Galactic Republic. When contact with the greater galaxy was established, young Arkanians were taught Arkanian and Basic, so the majority of the population is bilingual. Among the Arkanian Offshoots, a slightly different dialect gradually emerged, emphasizing words of submission and forgetting those of victory or the desire to challenge.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>110</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>ARKANOFFAB1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>ARKANOFFAB1SK</Key>
+          <Name>Additional Career Skills</Name>
+          <Description>May train in two additional career skills</Description>
+          <StartingSkillTraining>
+            <SkillTraining>
+              <SkillCount>2</SkillCount>
+              <Requirement>
+                <Career>true</Career>
+              </Requirement>
+            </SkillTraining>
+          </StartingSkillTraining>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>ARKANOFFAB2</Key>
+      <Name>Determination</Name>
+      <Options>
+        <Option>
+          <Key>ARKANOFFAB2CON</Key>
+          <Name>Genetically Engineered</Name>
+          <Description>
+            Arkanian Offshoots may choose
+            to suffer one Strain to receive a [BOOST] to a
+            single Brawn or Agility-based check made on
+            their turn.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

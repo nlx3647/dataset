@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LUXURYSAILBARGE</Key>
+  <Name>Luxury-Class Sail Barge</Name>
+  <Description>[H3]Ubrikkian Industries Luxury-Class Sail Barge[h3]
+
+Few of a Hutt's possessions are more significant than the sail barge. These repulsorcraft are built to order and are perhaps the ultimate symbols of luxury and status among the Hutts. Propelled by powerful triple-chambered repulsorlift engines, these ponderous-looking vessels can glide smoothly over virtually any terrain and are equipped with large, retractable sails that can be used to catch the wind for leisurely cruises. To Hutts, owning a sail barge that serves no practical purpose aside from scenic cruises and the indulgence of hedonistic pleasure is an indicator of success.</Description>
+  <Source>Lords of Nal Hutta</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Sail Barge</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>300000</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>10 meters</MaxAltitude>
+  <Crew>26</Crew>
+  <EncumbranceCapacity>1000</EncumbranceCapacity>
+  <Passengers>300</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <Armor>3</Armor>
+  <HullTrauma>35</HullTrauma>
+  <SystemStrain>25</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Deck</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

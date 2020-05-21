@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DARVROLTFR</Key>
+  <Name>Darvro-Class Light Freighter</Name>
+  <Description>[H3]Darvro-Class Light Freighter[h3]
+[P]Along with the Tallanx fighter, the Darvro is a ship built on stealth and speed commonly used by the Ord Gimmel Defense Fleet. Named after a beast of burden found in the rural regions of Ord Gimmel, the Darvro is a highly effective smuggling vessel. Fitted with a cloaking device and equipped with numerous smuggling compartments and an ECM suite, the ship is designed to evade enemies rather than confront them directly.
+[P]Used by the Rebel Alliance to smuggle high-profile prisoners, passengers, and cargo through Imperial lines, the Darvro is also equipped with a powerful self-destruct mechanism so that its contents—whatever they may be—don’t fall
+into enemy hands.</Description>
+  <Source>Strongholds of Resistance</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>250000</Price>
+  <Rarity>9</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one-co-pilot, one gunner</Crew>
+  <EncumbranceCapacity>120</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>14</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERQUAD</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Key>TRACTLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <BuiltInAttachments>
+    <Key>ECMSUITETALLANX</Key>
+    <Key>GIMMELSTEALTH</Key>
+  </BuiltInAttachments>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

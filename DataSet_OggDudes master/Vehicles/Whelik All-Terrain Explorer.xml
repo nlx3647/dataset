@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>WHELIKAT</Key>
+  <Name>Whelik All-Terrain Explorer</Name>
+  <Description>[H3]Whelik All-Terrain Explorer[h3]
+Designed and produced by Corellian Mining Corporation to fill the need for a civilian vehicle capable of penetrating the most dense, inhospitable terrain, the Whelik has six high-arching legs that give the vehicle its distinctive silhouette while at the same time making it ideal for accessing rugged, nearly impossible-to-reach locations on remote planets. The Whelik has seen duty chiefly as a relief and rescue vehicle, although there have been instances when its durable construction and ability to deal with any type of terrain have seen it used as a transport for high-value personnel under trying circumstances.
+[P]Unlike most military walker variants, the Whelik lacks a powerful droid brain, requiring a co-pilot for safe operation. Although this is not available as a standard feature, some Whelik Explorers have been retrofitted to utilize military-style drop cocoons, enabling them to deploy nearly anywhere on a planet's surface. There is almost no terrain the Whelik Explorer is incapable of traversing. Whether transporting high-priority personnel, important cargo, or search and rescue assets to the least civilized locales in the galaxy, there are few vehicles better suited than the Whelik.</Description>
+  <Source Page="59">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>50000</Price>
+  <Rarity>6</Rarity>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, one sensor/comms operator</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>1 month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-1</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

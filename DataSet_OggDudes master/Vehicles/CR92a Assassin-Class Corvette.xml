@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CR92ACORVETTE</Key>
+  <Name>CR92a Assassin-Class Corvette</Name>
+  <Description>
+    [H3]CR92a Assassin-Class Corvette[h3]
+
+Based on the highly successful CR90 corvette, the CR92a Assassin-class corvette is a more heavily armed and armored variant designed with naval and long-range patrol duties in mind. A sleek, purpose-built capital ship, the Assassin-class has been readily adopted by the Imperial Navy and Corellian defense fleet. These vessels fulfill several roles, serving as pickets and starfighter screens for larger ships, escorting convoys, or patrolling space lanes. Like most CEC-built vessels, the CR92a is fast and agile for a ship of its size, allowing it to rapidly react to threats or chase down pirates. 
+
+[P]The corvettes boast six Taim &amp; Bak dual turbolasers, two quad laser cannons for point defense, and a proton torpedo launcher. While the heavy armament of the CR92a allows it to outgun most ships of comparable size and even be a threat to frigates and light cruisers, starfighters can still pose a problem for these vessels. To contend with this shortcoming, Corellian doctrine typically pairs a CR92a with a DP20 gunship for long-range patrols. Such a patrol can readily deal with any threat it is likely to encounter.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Corvette</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Capital Ship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>2500000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>16</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>60-150</Crew>
+  <EncumbranceCapacity>1000</EncumbranceCapacity>
+  <Passengers>60</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>55</HullTrauma>
+  <SystemStrain>25</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOMED</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOMED</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERQUAD</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Key>LASERQUAD</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

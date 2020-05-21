@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>IMPDROPTRANS</Key>
+  <Name>Imperial Dropship Transport</Name>
+  <Description>[H3]Imperial Dropship Transport[h3]
+The Imperial Dropship Transport bears more than a slight resemblance to the Low Altitude Assault Transport, although its smaller and more angular build is distinctly in the modern Imperial style. Its side profile is trapezoidal, with a gently sloping forward face
+that holds the main blaster cannons below the cockpit. The center body is a wide-open bay that can fit two full squads of stormtroopers. Large wings, joined along the top line of the body, overhang the troop compartment. Cargo doors, protecting the troop bay, fold under the main body when not in use.
+[P]In combat situations, the Imperial Dropship Transport is significantly less threatening than the various Republic gunships that preceded it, but this is by design. A factory-fresh IDT comes from Rothana Heavy Engineering for half the price of a used LAAT/i,
+and the IDT takes up slightly less hangar space, too. With a simple mechanical system and a roomy cargo hold that is suitable for delivering troopers, weapons, and medical droids through dangerous territory as needed, the IDT is to the air what the Imperial Troop
+Transport is to the ground: a simple tool that powers the logistical might of the Empire.</Description>
+  <Source Page="63">Forged in Battle</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Transport Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>42500</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B][U]Armored Boarding Ramp[u][b]: The boarding ramp of an Imperial Dropship Transport provides cover to all characters who are in the midst of embarking or disembarking.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <MaxAltitude>100 kilometers</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one gunner</Crew>
+  <EncumbranceCapacity>16</EncumbranceCapacity>
+  <Passengers>18</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>9</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>WingMounted</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Nose</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

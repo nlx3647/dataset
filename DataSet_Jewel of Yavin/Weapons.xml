@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Weapons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapon>
+    <Key>VELKBIO</Key>
+    <Name>Bioelectric Disruption Field</Name>
+    <Description>[H3]Bioelectric Disruption Field[h3]
+</Description>
+    <Source>Jewel of Yavin</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories>
+      <Category>Velker</Category>
+    </Categories>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>0</Price>
+    <Rarity>0</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>3</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>3</Crit>
+    <SizeLow>3</SizeLow>
+    <SizeHigh>3</SizeHigh>
+    <Range>Short</Range>
+    <Ordnance>false</Ordnance>
+    <Qualities>
+      <Quality>
+        <Key>ION</Key>
+        <Count>0</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Quality>
+    </Qualities>
+  </Weapon>
+  <Weapon>
+    <Key>VELKBITE</Key>
+    <Name>Velkor Bite</Name>
+    <Description>[H3]Velkor Bite[h3]
+</Description>
+    <Source>Jewel of Yavin</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <Categories>
+      <Category>Velker</Category>
+    </Categories>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Price>0</Price>
+    <Rarity>0</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods />
+    <SkillKey>GUNN</SkillKey>
+    <Damage>2</Damage>
+    <DamageAdd>0</DamageAdd>
+    <Crit>2</Crit>
+    <SizeLow>3</SizeLow>
+    <SizeHigh>3</SizeHigh>
+    <Range>Close</Range>
+    <Ordnance>false</Ordnance>
+    <Qualities>
+      <Quality>
+        <Key>BREACH</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Quality>
+      <Quality>
+        <Key>PREPARE</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Quality>
+    </Qualities>
+  </Weapon>
+</Weapons>

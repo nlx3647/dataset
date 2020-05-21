@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MAKASHI</Key>
+  <Name>Makashi Duelist</Name>
+  <Description>[H4]Makashi Duelist[h4]
+
+The presence and showmanship that can come naturally to all Mystics reflects itself in the way of a duelist. For practitioners of Makashi, dominating a combat through one's presence is just as important as dominating it through martial prowess, and the Makashi Duelist is the ultimate expression of that art. 
+
+[P]Makashi Duelists acquire [B]Charm, Cool, Coordination,[b] and [B]Lightsaber[b] as additional career skills. If this is the character's starting specialization, he may choose two of these skills and gain one free rank in each, without spending starting experience. This combination reflects the showmanship and presentation so intrinsic to the duelist's art. A true Makashi Duelist must always fight with poise and grace, never showing the slightest strain and keeping complete control over his facial expressions and his body's most minute movements. 
+
+[P]Though some detractors may dismiss this fighting style as overly foppish and vain, a Makashi Duelist remains an exceptionally potent combatant. Those detractors forget that the Makashi form was developed to fight against other lightsaber-armed opponents. At its heart, Makashi focuses on one goal: to meet an enemy with a sword or lightsaber and slay him. A true Makashi Duelist never loses sight of this goal, and all his flourishes and feints are but means to an end. Movements that work to deflect and exhaust an opponent—particularly if the foe is not prepared for battle with a Force-sensitive—can soon leave an enemy frustrated with the entire experience. As the opponent becomes increasingly worn down, the Makashi Duelist soon finds an opportunity to exploit the foe's exhaustion. 
+
+[P]A Makashi Duelist's force of personality, rather than natural athleticism, often drives his combat technique. Elements of personal flair become an effective means of disorienting and distracting an opponent during a battle. Sometimes a verbal misdirection can be every bit as effective as a physical one, leaving an opponent open to a single master stroke.</Description>
+  <Source Page="82">Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>CHARM</Key>
+    <Key>COOL</Key>
+    <Key>COORD</Key>
+    <Key>LTSABER</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>GRIT</Key>
+        <Key>RESDISARM</Key>
+        <Key>GRIT</Key>
+        <Key>PARRY</Key>
+      </Talents>
+      <Directions>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction />
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>PARRY</Key>
+        <Key>MAKTECH</Key>
+        <Key>DUELTRAIN</Key>
+        <Key>FEINT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>PARRY</Key>
+        <Key>FEINT</Key>
+        <Key>PARRY</Key>
+        <Key>PARRY</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>INTENSPRE</Key>
+        <Key>PARRYIMP</Key>
+        <Key>GRIT</Key>
+        <Key>DEFTRAIN</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>DEDI</Key>
+        <Key>SUMDJEM</Key>
+        <Key>MAKFIN</Key>
+        <Key>MAKFLOUR</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

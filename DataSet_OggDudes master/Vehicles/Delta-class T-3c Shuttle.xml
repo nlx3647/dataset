@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DELTASHUTTLE</Key>
+  <Name>Delta-class T-3c Shuttle</Name>
+  <Description>[H3][I]Delta[i]-class T-3c Shuttle[h3]
+The Sienar [I]Delta[i]-class T-3c is a heavily armed command shuttle used by high-ranking Imperial officers and other valued officials. Related to the lighter and more common [I]Lambda[i]-class shuttle, the T-3c is a big, lumbering shuttle designed to carry VIPs and sensitive cargo safely into combat zones. It has a stark and angular hull divided into two decks, a single vertical stabilizer, and two long folding wings similar to those on other Cygnus and Sienar shuttles to provide stability in atmosphere. The shuttle’s upper deck houses the cockpit, a small and well-appointed passenger compartment, and a pair of private staterooms. The lower deck is a secure modular cargo hold that can be configured to carry nearly any kind of cargo. While it not as common as other Imperial shuttle classes, the [I]Delta[i]-class it still an important part of the Imperial Navy’s order of battle.</Description>
+  <Source Page="123">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Shuttle</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>160000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>10</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, one navigator, one gunner, one comms operator, one engineer.</Crew>
+  <EncumbranceCapacity>250</EncumbranceCapacity>
+  <Passengers>30</Passengers>
+  <Consumables>Three months.</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>4</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>WingMounted</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>2</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

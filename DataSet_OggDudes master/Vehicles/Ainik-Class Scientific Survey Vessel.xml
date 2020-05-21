@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AINIKSURVEY</Key>
+  <Name>Ainik-Class Scientific Survey Vessel</Name>
+  <Description>[H3][I]Ainik[i]-Class Scientific Survey Vessel[h3]
+SoroSuub's [I]Ainik[i]-class is a small survey vessel designed for remote scientific missions. Designed decades ago, these small and sturdy ships were named for the famous astronomer Renn Ainik. Popular with the galaxy's scientific community, the [I]Ainik[i]-class is a long, broad, three-decked vessel with much of its interior given over to cargo holds, sensor arrays, and laboratory space. The top deck, which houses a lounge and meeting rooms, is covered in transparisteel, giving passengers an unparalleled view of the surroundings. The midships deck offers crew and passenger berthing, a galley, four modular laboratory spaces, and the flight deck. The bottom deck houses storage and engineering facilities.
+[P]As they are primarily survey vessels, [I]Ainik[i] -class ships are relatively lightly armed. They carry two quad laser turrets for self-defense, but largely rely on their shields and hyperdrives to survive hostile interactions. While their hulls are incredibly sturdy and they carry a respectable amount of armor, these ships' power systems have a poor reputation. Brownouts, burned-out equipment, fires, and electrical failures are distressingly common, especially in ships that have been in space for a long time.</Description>
+  <Source Page="57">Fully Operational</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Survey Vessel</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>120000</Price>
+  <Rarity>7</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Research Labs:[b] Characters add [BO] to Education and Xenology checks made while in this vessel.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srExtreme</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, two engineers/scientists</Crew>
+  <EncumbranceCapacity>150</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>Six months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>22</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Extreme</SensorRange>
+</Vehicle>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>V5CARGO</Key>
+  <Name>V5 Medium Cargo Floater</Name>
+  <Description>
+    [H3]V5 Medium Cargo Floater[h3]
+
+These cheap but reliable graysleds are ubiquitous on space stations and in starports throughout the galaxy. They are used for transporting smaller cargoes (and sometimes droids) from one hangar to another. They can reach maximum speeds of up to 30km per hour but are ill-suited for sharp turns and are not designed to be able to stop quickly.</Description>
+  <Source>Beyond the Rim</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Cargo Floater</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <Price>1225</Price>
+  <Rarity>2</Rarity>
+  <MaxAltitude>1 meter</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>55</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-2</Handling>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

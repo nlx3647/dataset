@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<ItemAttachments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemAttachment>
+    <Key>HELMRANGEFIND</Key>
+    <Name>Helmet Mounted Rangefinder</Name>
+    <Description>[H3]Helmet Mounted Rangefinder[h3]
+Note: This attachment can only be added to an armor with a helmet.
+[P]
+A fairly common piece of equipment for citizens
+often performing surveillance or scouting, the
+helmet mounted rangefinder packs all of the
+functionality of the more common hand-held
+electrobinoculars into a hands free device. When
+activated, the rangefinder allows its wearer to
+zoom in and view distant targets. Data about
+objects viewed through the rangefinder is shown
+on a heads up display installed into the helmet
+as part of the modification. This requires a round
+of observation, or a Maneuver in structured
+gameplay. The information received will be basic,
+generally the make and model of the item or
+vehicle being viewed, although more detailed
+information may be available at the discretion of
+the GM. Standard modes in most models include
+night vision and environmental condition
+filtering. Using the rangefinder allows the
+character to see normally in poor lighting and to
+mitigate other vision impairing conditions. The
+rangefinder also contains a small holorecorder which may record for up to 30 minutes and may
+be played back through any available standard
+holo-playback device.
+[P]
+Upgraded and customized versions include
+additional features such as a further view range,
+additional data processing and identification of
+items targeted by the sight, and assisted
+targeting for long-range sniper shots.</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Armor</Type>
+    <ItemLimit />
+    <SkillLimit />
+    <TypeLimit />
+    <CategoryLimit />
+    <Price>1600</Price>
+    <Rarity>4</Rarity>
+    <Restricted>false</Restricted>
+    <ModPrice>0</ModPrice>
+    <HP>1</HP>
+    <JuryRigged>false</JuryRigged>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Removes up to one [SE] caused by darkness, smoke, or other conditions that obstruct vision on any Perception or Vigilance checks.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key />
+        <Count>3</Count>
+        <Index>0</Index>
+        <MiscDesc>Additional Setback Reduction.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Add [BO] on any Ranged (Heavy) attack made at Long and Extreme range when a character performs an aim maneuver.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </AddedMods>
+    <MustHaveHyperdrive>false</MustHaveHyperdrive>
+    <MustBeStarship>false</MustBeStarship>
+    <MinEncumCap>0</MinEncumCap>
+    <MinSize>0</MinSize>
+    <MaxSize>0</MaxSize>
+    <PriceSizeMult>false</PriceSizeMult>
+    <MinEnc>0</MinEnc>
+    <MaxEnc>0</MaxEnc>
+    <WeaponModifiers />
+    <PricePassMult>false</PricePassMult>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>SFSMISSILELAUNCHER</Key>
+    <Name>Sienar Fleet Systems Missile Launcher</Name>
+    <Description>[H3]Sienar Fleet Systems Missile Launcher[h3]
+This missile launcher attachment was made by SFS to
+improve versatility of missile weapon systems. It carries
+up to six missiles and a rotating warhead selector serves
+as a magazine holding up to six shells of one or more
+shell types. SFS developed six different types of shells to
+show the Empire the potential of such a versatile weapon
+system. From somewhat weaker concussive shells, to
+accurate and overwhelming cluster shells to jamming and
+decoy firing shells, an ion shell and an experimental shell
+firing a tracer, serving as a homing beacon.
+The weapon system can carry a number of different types
+of missiles up to its limited ammo rating, however to
+switch between different missile types requires one
+maneuver as per the Prepare 1 quality. Therefore most
+pilots prefer to limit the missile selection to one, two or
+three different types, depending on mission
+requirements.</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <ItemLimit />
+    <SkillLimit />
+    <TypeLimit />
+    <CategoryLimit />
+    <Price>11000</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <ModPrice>0</ModPrice>
+    <HP>1</HP>
+    <JuryRigged>false</JuryRigged>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Once installed, it becomes a weapon
+using the profile of the missile type prepared. In addition
+the weapon profile gains the following qualities: Limited
+ammo 6 and Prepare 1 . Changing between missiles types
+(and weapon profile) requires one maneuver
+represented by Prepare 1 .</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key />
+        <Count>2</Count>
+        <Index>0</Index>
+        <MiscDesc>Increase limited ammo
++ 1 mods.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </AddedMods>
+    <MustHaveHyperdrive>false</MustHaveHyperdrive>
+    <MustBeStarship>false</MustBeStarship>
+    <MinEncumCap>0</MinEncumCap>
+    <MinSize>0</MinSize>
+    <MaxSize>0</MaxSize>
+    <PriceSizeMult>false</PriceSizeMult>
+    <MinEnc>0</MinEnc>
+    <MaxEnc>0</MaxEnc>
+    <WeaponModifiers>
+      <WeaponModifier>
+        <Unarmed>false</Unarmed>
+        <UnarmedName>Sienar Fleet Sysyems Missile Launcher</UnarmedName>
+        <SkillKey>GUNN</SkillKey>
+        <AllSkillKey />
+        <Damage>0</Damage>
+        <DamageAdd>0</DamageAdd>
+        <Crit>0</Crit>
+        <CritSub>0</CritSub>
+        <Range />
+        <Qualities>
+          <Quality>
+            <Key>LIMITEDAMMO</Key>
+            <Count>1</Count>
+            <Index>0</Index>
+            <MiscDesc />
+            <DefZone />
+            <QualReplace>false</QualReplace>
+            <SkillIsCareer>false</SkillIsCareer>
+            <SkillIsRanked>false</SkillIsRanked>
+            <VehicleWeaponUpgrades />
+            <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+            <DieModifiers />
+            <InnateSkills />
+            <ActiveQualityKey />
+            <Failed>false</Failed>
+          </Quality>
+          <Quality>
+            <Key>PREPARE</Key>
+            <Count>1</Count>
+            <Index>0</Index>
+            <MiscDesc />
+            <DefZone />
+            <QualReplace>false</QualReplace>
+            <SkillIsCareer>false</SkillIsCareer>
+            <SkillIsRanked>false</SkillIsRanked>
+            <VehicleWeaponUpgrades />
+            <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+            <DieModifiers />
+            <InnateSkills />
+            <ActiveQualityKey />
+            <Failed>false</Failed>
+          </Quality>
+        </Qualities>
+        <VehicleWeaponProperties>
+          <Location>Unspecified</Location>
+          <Turret>false</Turret>
+          <Retractable>false</Retractable>
+          <FiringArcs>
+            <Fore>false</Fore>
+            <Aft>false</Aft>
+            <Port>false</Port>
+            <Starboard>false</Starboard>
+            <Dorsal>false</Dorsal>
+            <Ventral>false</Ventral>
+          </FiringArcs>
+          <Qualities />
+        </VehicleWeaponProperties>
+        <VehicleWeaponCount>0</VehicleWeaponCount>
+      </WeaponModifier>
+    </WeaponModifiers>
+    <PricePassMult>false</PricePassMult>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>SENSORSCRAM</Key>
+    <Name>Sensor Scrambler</Name>
+    <Description>[H3]Sensor Scrambler[h3]
+The sensor scrambler is a rare and illegal device
+that can emit a counterwave signal keyed to
+many common sensor systems. It does not make
+the vessel invisible, and if the target ships is
+using a customised or unusual sensor system it
+may not be effective at all. The sensor scrambler
+is an experimental technology and are quite rare.
+[P]
+[B]Models Include[b]: CEC-Shadowshell, Fabritech
+IlusiV</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <ItemLimit />
+    <SkillLimit />
+    <TypeLimit />
+    <CategoryLimit />
+    <Price>4500</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <ModPrice>0</ModPrice>
+    <HP>1</HP>
+    <JuryRigged>false</JuryRigged>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>The ship will not appear on
+passive sensor scans, and requires a [B]Hard
+([DI][DI][DI]) Computers check[b] to be seen on an
+active sensor scan. Note that the scrambler only
+affects detection systems, sensors used in
+guiding projectile weapons (ie weapons
+posessing the Guided quality) etc are not
+affected.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Increase detection
+difficulty by one mod.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </AddedMods>
+    <MustHaveHyperdrive>false</MustHaveHyperdrive>
+    <MustBeStarship>false</MustBeStarship>
+    <MinEncumCap>0</MinEncumCap>
+    <MinSize>0</MinSize>
+    <MaxSize>0</MaxSize>
+    <PriceSizeMult>false</PriceSizeMult>
+    <MinEnc>0</MinEnc>
+    <MaxEnc>0</MaxEnc>
+    <WeaponModifiers />
+    <PricePassMult>false</PricePassMult>
+  </ItemAttachment>
+</ItemAttachments>

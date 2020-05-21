@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LAVRQH7</Key>
+  <Name>LAVR QH-7 Chariot Command Speeder</Name>
+  <Description>[H3]LAVR QH-7 Chariot Command Speeder[h3]
+
+The LAVr QH-7 is a combination staff car, VIP transport,
+and command, comms, and control speeder
+used by the Imperial armed forces. Designed and
+built by Uulshos Manufacturing, the Chariot, as it’s
+colloquially known, provides an officer and staff with
+a fast, agile, relatively well-armed and armored vehicle
+from which to observe and guide events on the
+battlefield. Within its wedge-shaped hull, the Chariot
+mounts a powerful sensor and comms array, a continuous
+orbital data uplink, and numerous electronic
+counter-measure and counter-countermeasure systems.
+The hull is heavily shielded against electronic
+attack and disruption caused by ion weapons, and it
+features a number of redundant systems that make
+the vehicle exceptionally difficult to neutralize, short of completely destroying it.
+[P]For non-electronic defense, the vehicle carries respectable
+anti-splinter and anti-small arms armor, and it
+mounts a light laser cannon in a retractable ventral turret.
+The armor, combined with the vehicle’s sloping,
+angular hull and low profile, make the Chariot a remarkably
+tricky target to hit. Despite their respectable
+defenses, Chariots are rarely seen on the front lines.
+Instead, they are typically used to move quickly about a
+battlefield, appearing wherever and whenever they are
+needed at strategically important points to provide assistance,
+or to whisk officers away from dangerous areas.</Description>
+  <Source Page="51">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>40000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>One vehicle commander, one driver, one guard/gunner, four coms/electronic warfare droids</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>3</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

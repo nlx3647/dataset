@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>IE440NIGHTHAWK</Key>
+  <Name>IE-440 "Nighthawk" Multi-Role Starfighter</Name>
+  <Description>[H3]IE-440 “Nighthawk” Multi-Role Starfighter[h3]
+Old and largely forgotten save by historians and enthusiasts, Koensayr's IE-440 starfighter is now a mainstay of Alliance Intelligence. Introduced in the waning years of the Clone Wars, the Nighthawk was intended to replace the Y-wing as the Grand Army of the Republic's premier fighter/bomber. The final design resulted in a nimble, well-built ship that featured greater adaptability for wider mission profiles. However, the Clone Wars came to an abrupt end while the program was still in its prototype stage.
+[P]After the fall of the Republic, Koensayr was confident enough in its design to produce a handful of Nighthawks and attempt to sell them to the growing Imperial Navy. Unfortunately, Sienar Fleet Systems had already won a massive contract to produce the cheaper TIE-series of fighters for the Empire, and the Koensayr sales reps were turned away. Over the next few years, Koensayr produced the Nighthawk in limited numbers until eventually discontinuing the model around six years into the reign of the Emperor. Few of these forgotten fighters are in use today. Those ships that are still around soldier on in the hands of backwater planetary defense forces and private military concerns. A handful were recently discovered moth-balled at an old Koensayr warehouse, and after a thorough refit, they were offered on the open market. Alliance acquisition personnel immediately snapped them up; the starships disappeared after purchase and their whereabouts are currently unknown.
+</Description>
+  <Source Page="61">Cyphers and Masks</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>124800</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot.</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Consumables>One week.</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>2</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>1</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Retractable>true</Retractable>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

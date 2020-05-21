@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>STYPESLOOP</Key>
+  <Name>S-Type Racing Sloop</Name>
+  <Description>
+    [H3]S-Type Racing Sloop[h3]
+
+The Nubia Star Drives S-type Racing Sloop is one of the latest racing vessels created by the design collective and offered to discriminating buyers. Built entirely for interstellar racing, these ships have nevertheless found a valuable niche as couriers for sensitive messages and high-value, extremely compact cargos. 
+
+[P]These ships feature long, narrow, and blocky hulls that sweep backwards into large engines built into the hull above and below the inset cockpit. The cockpit holds a pilot, navigator, and can also carry two passengers in foldable jump-seats (although this space is often used by experienced racers to store food or supplies). The entire living space is horribly cramped, and traveling long distances quickly becomes an ordeal. 
+
+[P]In tandem, the engines can accelerate the vessel to incredible speeds. However, this stretches the Racing Sloop's power plant to the maximum. Little remains for shields, and none for weapons.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Racing Vessel</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Price>160000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>0.8</HyperdrivePrimary>
+  <HyperdriveBackup>18</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one navigator</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>6</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <Armor>1</Armor>
+  <HullTrauma>11</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

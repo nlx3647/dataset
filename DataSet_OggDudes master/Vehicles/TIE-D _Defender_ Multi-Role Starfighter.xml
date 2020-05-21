@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIED</Key>
+  <Name>TIE-D "Defender" Multi-Role Starfighter</Name>
+  <Description>
+    [H3]TIE-D "Defender" Multi-Role Starfighter[h3]
+
+The TIE defender is the latest evolution of SFS's Twin Ion Engine fighter series, and perhaps its most radical departure. Most of the familiar design cues are there—the spherical cockpit, the solar collectors in the wings, the twin SFS ion engines, but beneath the relatively familiar skin is a completely different fighter than what has come before. Designed to counter the wave of new and extremely competent Alliance fighters, such as the indomitable X-wing and the hard to kill B-wing, the TIE/d was built from the ground up to be a competent and durable multi-role fightercraft. Unlike its simpler, ostensibly disposable cousins, the TIE/d is heavily armored, shielded, and even equipped with a hyperdrive. Its pilots are the cream of the crop, high-ranking ace pilots culled from interceptor squadrons who have survived multiple sorties against the Alliance and who have proven themselves loyal to the Emperor beyond a shadow of a doubt. 
+
+[P]As a multi-role fighter, the defender carries a broad mix of weapons, from long range laser cannons to blasters to ordnance launchers, all of which allow it to excel in both fighter combat and attack roles. In their short career in the Imperial Navy, TIE defenders have proven to be highly effective, albeit frightfully expensive in raw unit cost, training time, and maintenance, and are referred to as "X-wing Killers" among their pilots and crews.</Description>
+  <Source>Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>300000</Price>
+  <Rarity>8</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>2</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Wingtip</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Cockpit</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Cockpit</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>6</Count>
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

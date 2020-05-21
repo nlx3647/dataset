@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AKAJOR</Key>
+  <Name>Aka'jor-class Shuttle</Name>
+  <Description>[H3]Aka'jor- class Shuttle[h3]
+Kad Solus named his ship [I]Dikutruni[i] , which translates roughly as "soul of the fool". He has modified the [I]Aka'jor[i]-class shuttle by adding armament, shielding, and a faster hyperdrive. Kad uses the ship to track bounties across the region, and to make contacts for new bounty acquisition. It features a narrow, boxy fuselage with a pair of large S-foilds that rotate into a vertical position for landing. The rear of the ship has a small lift for boarding and cargo.</Description>
+  <Source Page="38">Friends Like These</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Shuttle</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>103300</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>4</HyperdrivePrimary>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>75</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <Armor>4</Armor>
+  <HullTrauma>25</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

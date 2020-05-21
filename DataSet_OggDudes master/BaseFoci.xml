@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<BaseFoci xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BaseFocus>
+    <Key>BASERETAIL</Key>
+    <Name>Retail</Name>
+    <Description>
+      [H4]Retail[h4]
+
+[B]Party Career Skill:[b] Negotiation
+
+[P]Retail shops stock and sell a single category of gear, such as ranged weapons, melee weapons, armor, communications, detection devices, medical, cybernetics, recreational entertainment, security, survival, tools, droids, ground vehicles, airspeeders, or starships.
+    </Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <CareerSkillKeys>
+      <Key>NEG</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASEENT</Key>
+    <Name>Entertainment</Name>
+    <Description>
+      [H4]Entertainment[h4]
+
+[B]Party Career Skill:[b] Negotiation
+
+[P]Entertainment venues include cantinas, nightclubs, casinos, and restaurants.</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <CareerSkillKeys>
+      <Key>CHARM</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASESERVICE</Key>
+    <Name>Service</Name>
+    <Description>
+      [H4]Service[h4]
+
+[B]Party Career Skill:[b] Choose either Mechanics, Computers, or a single applicable Knowledge skill for the entire party.
+
+[P]Service businesses might include a repair shop, medical clinic, gym, adventure travel firm, consulting firm, a taxi stand, or countless others. </Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <CareerSkillKeys>
+      <Key>MECH</Key>
+      <Key>COMP</Key>
+      <Key>MECH</Key>
+      <Key>CORE</Key>
+      <Key>EDU</Key>
+      <Key>LORE</Key>
+      <Key>OUT</Key>
+      <Key>UND</Key>
+      <Key>XEN</Key>
+      <Key>WARF</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASEMEET</Key>
+    <Name>Meeting Center</Name>
+    <Description>
+      [H4]Meeting Center[h4]
+
+At times, emissaries require a clandestine location where they can meet discreetly with representatives of groups that oppose the Empire. Bases that serve as private, secure meeting centers must have Improved Security. Additionally, they might benefit from a Landing Bay or an Armory.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASEFARM</Key>
+    <Name>Farm</Name>
+    <Description>
+      [H4]Farm[h4]
+
+[B]Party Career Skill:[b] Resilience
+
+[P]Farms grow crops for food or industrial purposes. </Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <CareerSkillKeys>
+      <Key>RESIL</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASEMINE</Key>
+    <Name>Mine</Name>
+    <Description>
+      [H4]Mine[h4]
+
+[B]Party Career Skill:[b] Athletics
+
+[P]Mines extract natural resources from the environment.</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <CareerSkillKeys>
+      <Key>ATHL</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASERANCH</Key>
+    <Name>Ranch</Name>
+    <Description>
+      [H4]Ranch[h4]
+
+[B]Party Career Skill:[b] Survival
+
+[P]Ranches focus on raising animals for pets, food, or labor.
+</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <CareerSkillKeys>
+      <Key>SURV</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASESTATION</Key>
+    <Name>Space Station</Name>
+    <Description>
+      [H4]Space Station[h4]
+
+[B]Party Career Skill:[b] Piloting (Space)
+
+[P]The Space Station usually sells consumables, repairs, and entertainment to passing ships (although this could also be considered a business, its self-sufficiency makes the homestead rules more appropriate).</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <CareerSkillKeys>
+      <Key>PILOTSP</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASEWEAP</Key>
+    <Name>Weapon Depot</Name>
+    <Description>
+      [H4]Weapon Depot[h4]
+</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASESAFE</Key>
+    <Name>Safe House</Name>
+    <Description>
+      [H4]Safe House[h4]
+
+Some bases are designed to accommodate a small number of people deep within enemy territory providing them with a place for private communications as well as a facility to store contraband. A safe house would benefit from Improved Security and, in some instances, a Medical Facility.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASERESEARCH</Key>
+    <Name>Research Facility</Name>
+    <Description>
+      [H4]Research Facility[h4]</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASETRAIN</Key>
+    <Name>Training Camp</Name>
+    <Description>
+      [H4]Training Camp[h4]
+
+A training camp prepares units in essential tactics. Some trainees might have already undergone some level of orientation, but often they are largely untrained. A training camp requires a Training Facility. Depending on the nature of the training, the base might also require an Armory, a Mechanic's Garage, a Landing Bay, or a Supply Depot.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>WORKCOMP</Key>
+    <Name>Computer Shop</Name>
+    <Description>
+      [H4]Computer Shop[h4]
+[B]Party Career Skill:[b] Computers
+[P]Shop dealing with computer repairs and services.</Description>
+    <Source Page="94">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <CareerSkillKeys>
+      <Key>COMP</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>WORKMED</Key>
+    <Name>Cybernetics Shop</Name>
+    <Description>
+      [H4]Cybernetics Shop[h4]
+[B]Party Career Skill:[b] Cybernetics
+[P]Shop dealing in the construction and maintenance of cybernetic limbs.
+    </Description>
+    <Source Page="94">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <CareerSkillKeys>
+      <Key>MED</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>WORKMECH</Key>
+    <Name>Repair Shop</Name>
+    <Description>
+      [H4]Repair Shop[h4]
+[B]Party Career Skill:[b] Mechanics
+[P]Workshop dealing in all kinds of repairs.
+    </Description>
+    <Source Page="94">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <CareerSkillKeys>
+      <Key>MECH</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+</BaseFoci>

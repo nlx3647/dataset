@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIEADVANCEDV1</Key>
+  <Name>TIE Advanced V1</Name>
+  <Description>[H3]TIE Advanced V1[h3]
+Sienar Fleet Systems designed the TIE Advanced v1 to be a sturdy starfighter capable of operating independently of fleet support. To achieve this objective, it added shields, a hyperdrive, and armor plating. The ship's curved S-foils fold inwards when the vessel lands to minimize its storage footprint.
+[P]Factories on Lothal made the initial production run for the TIE Advanced v1, but local rebels destroyed the first model. Once the ships were back in production, they quickly became the primary transports for the Inquisitorious.</Description>
+  <Source Page="64">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>150000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot.</Crew>
+  <EncumbranceCapacity>8</EncumbranceCapacity>
+  <Consumables>Two days.</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>2</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Key>XX23TRACER</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

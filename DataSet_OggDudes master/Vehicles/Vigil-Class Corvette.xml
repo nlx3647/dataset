@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>VIGILCORV</Key>
+  <Name>Vigil-Class Corvette</Name>
+  <Description>
+    [H3]Vigil-Class Corvette[h3]
+
+Produced by Kuat Drive Yards for the Imperial Navy, the Vigil-class corvette is the smallest vessel in the iconic Star Destroyer class of ships. Lightly armed and armored, it shares the dagger-shaped hull and large crew of its larger siblings, and operates as both a picket and reconnaissance vessel as well as an escort ship for larger, cruiser-sized ships. Their command decks sit flush with the hull, all the way aft over the main drive thrusters. This gives the Vigil-class a smaller silhouette and protects the crew better than the tall, exposed control towers found on larger KDY vessels. For its primary armament, the Vigil-class carries a trio of turret-mounted heavy turbolasers on the dorsal hull, giving it quite a heavy punch for so small a vessel. In addition, smaller turbolaser turrets are scattered over the ship's hull along with smaller, anti-starfighter laser cannons. Thanks to their size and role, these vessels rarely serve in the line of battle with larger types of Star Destroyers. Instead, they patrol trade routes, serve as battlegroup leaders for small, backwater fleets, and operate as lone cruisers among the fringes of the Inner and Outer Rim, battling pirates and smugglers and rooting out Alliance agents.</Description>
+  <Source>Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Corvette</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>3500000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>10</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>200 Officers, enlisted, and troops</Crew>
+  <EncumbranceCapacity>1800</EncumbranceCapacity>
+  <Passengers>200</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>55</HullTrauma>
+  <SystemStrain>35</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERHVY</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>YT1210FREIGHTER</Key>
+  <Name>YT-1210 Light Freighter</Name>
+  <Description>
+    [H3]YT-1210 Light Freighter[h3]
+
+An older, reliable light freighter, the YT-1210 was a variant of another freighter in the YT series, the 1200. Since the release of the famous YT-1300, sales of the YT-1210 have slipped; doubly so because the ship competes with its close cousin, the YT-1200. 
+
+[P]After the successful release of the YT-1200 (a reliable stock light freighter), Corellian Engineering Corporation designed a derivative design in an attempt to appeal directly to Corellians. Simply put, the YT-1210 is much like the YT-1200, only faster. A third main engine in the rear propels the ship to higher speeds, giving a freighter that can match some starfighters on a straight run. 
+
+[P]Sadly, the freighter did not prove any more maneuverable, and the added engine reduced cargo space and armor-carrying capacity. The cost of manufacturing the YT-1210 also proved higher than anticipated. While the model still sells reasonably well, sales tend to be limited to Corellia and the surrounding sector.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>120000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>16</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one gunner</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <Armor>2</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

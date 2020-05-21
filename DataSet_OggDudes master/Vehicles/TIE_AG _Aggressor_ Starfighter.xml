@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIEAG</Key>
+  <Name>TIE/AG "Aggressor" Starfighter</Name>
+  <Description>[H3]TIE/AG "Aggressor" Starfighter[h3]
+
+Introduced into the Imperial Navy just prior to the Battle of Yavin, the TIE/ag Aggressor is an advanced medium strike starfighter and one of a line of newly introduced advanced TIE-series variants. Developed in response to a sharp increase in both smuggling and legal shipping carried out on behalf of the Alliance to Restore the Republic, the Aggressor is a heavily armed fast-attack fighter designed for commerce raiding and interdiction. Longer than a common TIE/In, the TIE/ag is a two-position fighter featuring a number of design features common to all TIE-series ships such as the lack of shields or native hyperdrive capabilities, the signature twin ion engines, the spherical command pod, and the broad solar collector wings. Unlike the TIE/In, the Aggressor features an extended hull that provides room for a dedicated gunner to operate the dorsal turret-mounted light laser cannons which are the fighter's primary weapons. Rounding out the Aggressor's impressive loadout are a pair of medium laser cannons mounted on external hardpoints beneath the solar collector spars. 
+[P]Although the Aggressor has only been in Imperial service for a short time, the new fighter has already garnered a reputation as a reliable, easy to fly, and deadly combatant. Flown only by experienced TIE pilots of at least the rank of lieutenant, the combination of TIE-series speed and maneuverability and the heavy punch of the weapons systems makes the Aggressor well-suited for its role. This is, of course, very much to the chagrin of Rebel starfighter pilots and freighter captains who have had the dubious pleasure of tangling with an Aggressor squadron.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>75000</Price>
+  <Rarity>9</Rarity>
+  <Restricted>true</Restricted>
+  <Crew>One pilot, one weapon systems operator</Crew>
+  <EncumbranceCapacity>7</EncumbranceCapacity>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <Armor>3</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

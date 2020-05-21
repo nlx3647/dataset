@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ZEPHYRG</Key>
+  <Name>Zephyr-G Swoop</Name>
+  <Description>
+    [H3]Zephyr-G Swoop[h3]
+
+First produced by Mobquet in the decades leading up to the Clone Wars, the Zephyr-G is a relative oddity among swoops. Unlike most other swoops, the Zephyr-G was built for endurance rather than raw speed. While it was initially designed for racing, it was specialized for endurance racing in harsh conditions, where survivability and maneuverability are more important than straight-line speed. The Zephyr-G was built to last, with a sturdy frame and an engine designed to work hard for long periods of time in harsh conditions. In their stock configurations, they are equipped with special filters to keep sand and debris out of the engine and control surfaces, protective scuff plates that cover important equipment that is closest to the ground, and a number of other features to increase durability and efficiency. A surprisingly positive side effect of the Zephyr-G's construction is that all of the equipment and design elements that go into making it a great endurance racer also make it a phenomenal and rugged personal transport among the wilder worlds of the Outer Rim.</Description>
+  <Source>Enter the Unknown</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Swoop</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>5700</Price>
+  <Rarity>4</Rarity>
+  <MaxAltitude>6 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>4</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SC2MTANK</Key>
+  <Name>SC2-M Repulsor Tank</Name>
+  <Description>[H3]SC2-M Repulsor Tank[h3]
+The Scout-class 2-M Repulsor Tank is a cutting-edge
+addition to the Imperial military. This small repulsor
+tank is derived from the more established 2-M Saberclass. The Scout-class tank has a very similar silhouette, with a triangular cockpit in a roughly square
+chassis, with pointed "wings” swooping forward on
+either side. Like its predecessor, the Scout-class is
+equipped with a shield generator for unprecedented
+beam defense in a ground based craft, but the SC-2M
+cuts back on the heavy armament of the Saber-class.
+Instead, the Scout-class clears room for a third passenger and a variety of possible advanced sensors,
+although none of them come standard in the vehicle.
+Its stripped-down weapons loadout still brings a
+frightening amount of power to the battleheld. When
+firing in salvo mode, its twin blaster cannons can tear
+into even heavy targets with a terrifying barrage.
+[P]In terms of mission duty, the SC2-M plays a similar role to that of the venerable AT-ST walker, but its
+repulsor drive and ray shielding make it a faster and
+more aggressive craft, ideal for hit-and-run tactics. It is
+resilient against the weapons most troops carry, and
+its high maneuverability makes it difficult for heavier
+assault craft to pin it down. Despite the various costcutting simplifications unique to the Scout-class, it suffers from the same problems as many other repulsor tanks: long, expensive periods of maintenance in between tours of duty and infamously tempermental electronics systems.</Description>
+  <Source Page="60">Forged in Battle</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Repulsor Tank</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>65000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B][U]Salvo Fire[u][b]: As a maneuver, if the SC2-M's current speed is 0, pilot may prime guns for salvo fire.  Until the vehicle moves, increase the value of the Linked quality of its light blaster cannons to 4.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <MaxAltitude>3 meters</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one gunner</Crew>
+  <EncumbranceCapacity>25</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>1</Armor>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

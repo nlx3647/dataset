@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TONFALK</Key>
+  <Name>Ton-Falk-Class Escort Carrier</Name>
+  <Description>[H3]Ton-Falk-Class Escort Carrier[h3]
+
+Before the Battle of Ton-Falk, the Imperial Navy saw little need for dedicated fighter carriers. Indeed, starfighters were more of an afterthought in the Imperial order of battle rather than a primary means of projecting the Empire's force throughout the galaxy. Content to rely on large, imposing ships like the Victory-class Star Destroyers and the threat of overwhelming force, the Imperial Navy continued using fighters simply to screen larger vessels or to patrol Imperial-held star systems until an entire Imperial Navy battlegroup was completely annihilated by a handful of Rebel starfighters over Ton-Falk. In the wake of that embarrassing encounter, Admiralty opinion slowly began to change on the matter of starfighters. and the Ton-Falk-class escort carrier was born. 
+
+[P]Vaguely resembling KDY's Super Transport-series container ships, Ton-Falk-class carriers are large, lumbering, boxy vessels with rounded edges and elongated fantails that extend aft over the massive ion drives. Equipped with the latest in fighter handling and traffic control systems, these ships are the smallest vessels capable of carrying a full flight of TIE-series starfighters—six squadrons of twelve ships each for a total of 72 fighters of varying models—along with all its attendant pilots, support staff, technicians, and equipment. Due to their light armament for a capital ship and the nature of their mission. these ships typically travel with a battlegroup of corvettes, frigates, and gunboats that provides fire support and screening for the carrier's starfighter operations. The carrier's powerful navicomputer and precision hyperdrive allow it to drop unexpectedly into a group of enemy ships with its smaller escort ships, quickly release its fighters while the frigates and gunboats distract the enemy, then jump again to another location while the fighters tear the enemy formation to shreds. This tactic has served the Imperial Navy quite well since the Ton-Falk-class came online.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Carrier</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>3500000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <StarFighters>72 starfighters</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>4000 officers, pilots, and enlisted</Crew>
+  <EncumbranceCapacity>9000</EncumbranceCapacity>
+  <Passengers>800</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>7</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-3</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>4</Armor>
+  <HullTrauma>80</HullTrauma>
+  <SystemStrain>60</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>1</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>VL6</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Location>Hull</Location>
+      <Key>TRACTMED</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

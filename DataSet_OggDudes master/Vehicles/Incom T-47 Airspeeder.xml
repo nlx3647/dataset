@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>T47AIRSPEEDER</Key>
+  <Name>Incom T-47 Airspeeder</Name>
+  <Description>
+      [H3]Incom T-47 Airspeeder[h3]
+
+Incom's T-47 is a powerful, low-altitude airspeeder. This low-profile, wedge-shaped airspeeder seats its two crew back-to-back in a cramped but well laid-out cockpit with the pilot facing forward and the systems operator facing aft. The T-47 draws power from Karydee's reliable KD49 repulsorlift engine, which gives it immense towing power while providing better than average speed and agility. Supplementing the KD49 is one of Incom's 5i.2 ion afterburners, which provides extra thrust when needed. 
+
+[P]Like many of Incom's products, the T-47s were designed with an eye to end-user modification. In this case, Incom designers felt that since the industrial and commercial economies of the galaxy are so varied, a vehicle designed to work in these environments should be easily adaptable to any job or environment. The speeders repulsorlift engine produces an immense amount of power, and combined with a number of redundant electrical systems and a modular design, the T-47 can easily handle both the weight and power demands of aftermarket modifications. Incom itself sells a number of modification packages for the T-47, as do a number of smaller manufacturers, It's also rumored that some paramilitary and insurgent forces in the galaxy have modified these stout vehicles with weapons and heavy armor, a rumor not outside the realm of possibility, but one that is officially denied by Incom.</Description>
+  <Sources>
+    <Source>Edge of the Empire Core Rulebook</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>18000</Price>
+  <Rarity>3</Rarity>
+  <MaxAltitude>175 meters</MaxAltitude>
+  <Crew>One Pilot, One Co-Pilot/Cargo Handler</Crew>
+  <EncumbranceCapacity>6</EncumbranceCapacity>
+  <Consumables>None</Consumables>
+  <Silhouette>2</Silhouette>
+  <Speed>4</Speed>
+  <Armor>1</Armor>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Aft</Location>
+      <Key>ELECHARPOON</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

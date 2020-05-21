@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SHADOWCASTER</Key>
+  <Name>Shadow Caster</Name>
+  <Description>[H3][I]Shadow Caster[i][h3]
+This highly modified pursuit craft was intentionally designed to provide planetary security for worlds that couldn't afford to maintain their own starfighter squadrons or to purchase extravagant capital ships with which to defend themselves. Based on some early SoroSuub light freighter designs, the [I]Lancer[i]-class pursuit craft gave up what would have been ample cargo space in favor of heavier armament. A standard install normally inclues a triple light laser cannon mounted on a rotating base to provide the ship a 360-degree firing arc. Ketsu Oryo has made extensive modifications to the [I]Shadow Caster[i], including mounting a highly illegal turbolaser on the ship and installing advanced internal dampers to improve the ship's maneuverability.</Description>
+  <Source Page="89">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Pursuit Craft</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>155000</Price>
+  <Rarity>6</Rarity>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot.</Crew>
+  <EncumbranceCapacity>35</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>One month.</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>5</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>22</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>2</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Key>TRACTLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CONSCRUIS</Key>
+  <Name>Consular-Class Light Assault Cruiser</Name>
+  <Description>
+    [H3]Consular-Class Light Assault Cruiser[h3]
+
+In service since before the Clone Wars, CEC's Consular-class light cruiser is yet another outdated, outgunned ship pressed back into combat duty by the cash-strapped Rebel Alliance. Related to Corellian Engineering's CR70 and CR90 corvettes, the Consular-class served the Old Republic as an unarmed VIP transport, carrying diplomats and other government officials throughout the galaxy on official business. In the deep crimson livery of the Republic Diplomatic Corps, these ships cut a dashing figure with their bluff-bowed, wasp-waisted profile. Lightly crewed, they carried their VIPs in style in a detachable, modular "salon pod" slung beneath the ship's command deck. Large enough for a handful of people, and extremely well-appointed with all of the privacy and communications technology required by a diplomatic mission, the Consulars were among the most recognizable vessels in space before the fall of the Old Republic. 
+
+[P]Few of these once proud ships survived the rise of the Empire. Many were destroyed, and those that weren't were mothballed or broken apart and recycled. However, a few have been brought back into service by the Alliance, armed with a motley array of laser cannons and turbolasers and used as light assault carriers and command ships. While they are often outclassed by Imperial ships, Consular-class cruisers still perform well, and they are well liked by their Rebel crews and those who must travel in them. </Description>
+  <Source>Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Cruiser</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>3400000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>14</HyperdriveBackup>
+  <Crew>One captain, one pilot, one co-pilot, one navigator, one comms operator, four engineers</Crew>
+  <EncumbranceCapacity>3200</EncumbranceCapacity>
+  <Passengers>16</Passengers>
+  <Consumables>Eight months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>46</HullTrauma>
+  <SystemStrain>24</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONHVY</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

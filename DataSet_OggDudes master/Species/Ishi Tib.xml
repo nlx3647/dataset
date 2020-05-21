@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ISHITIB</Key>
+  <Name>Ishi Tib</Name>
+  <Description>[H4]Ishi Tib[h4]
+
+Hailing from the planet of Tibrin in the Mid Rim, the
+Ishi Tib are an amphibious species that evolved from
+large, bony fish native to the reefs of their homeworld.
+They are keenly aware of their world’s natural balance,
+and have striven for millennia to ensure its ecology
+is not unduly affected by their presence. They are
+a pensive species and rarely act impulsively, making
+them excellent planners and strategists. They are also
+dedicated to the tasks they pursue, finding it difficult
+to abandon an assignment once they set their minds
+to accomplishing it.  A number of Ishi Tib have joined
+the Rebel Alliance, where they are greatly valued as
+tacticians and planners.
+[P][B]Physiology:[b] Ishi Tib are amphibious humanoids who
+possess leathery green skin and two eyestalks that
+extend from their heads at a somewhat jaunty angle.
+Their eyes are typically yellow with slitted pupils,
+though colors such as orange and yellow-green have
+also been observed. Ishi Tib faces also feature two
+pouch-like cheeks, which are used to store food such
+as algae, microscopic organisms, and small crustaceans.
+In the center of the face is a powerful beaklike
+mouth. While Ishi Tib commonly use their beaks
+to crack open crustacean exoskeletons or shellfish
+shells, their mouthparts can also provide an improvised
+weapon in dire circumstances.
+[P]The bodies of Ishi Tib are bulky and muscular.
+Their thick limbs end in two-fingered hands and finlike
+feet that allow them to swim unimpeded through
+the water. Though their thick skin is resistant to water
+evaporation, the Ishi Tib are forever tied to the seas of
+their homeworld. To prevent their bodies from drying
+out, Ishi Tib must regularly immerse themselves in a
+saline liquid similar to that of Tibrin’s oceans. Failure
+to see to this basic need can result in disability and
+death, often within a matter of days.
+[P]Ishi Tib reproduce by laying eggs. Once fertilized, the
+eggs are tended to in communal hatcheries dug into
+sandbars near the coral reefs where the Ishi Tib build
+their settlements. Reproduction is rarely done out of
+personal desire. Eggs are fertilized only as their communities
+require. After six years of maturation, Ishi Tib
+children are developed enough to emerge from the
+water. Due to the communal nature of child rearing,
+Ishi Tib never know who their parents or children are.
+[P][B]Society:[b] Ishi Tib society is based on communities
+called "schools,” which can consist of up to 10,000
+individuals. Each school is governed by a representative
+who is elected to a one-year term of office. Representatives
+rule based on ecological law—a series
+of strictures that look to nature and the environment
+.above all other things, for guidance. Ecological law
+dictates that the needs of the environment take precedence
+over the needs of groups or individuals.
+[P]Due to this unique outlook, Ishi Tib are suspicious
+of new technologies. Each new device, technology, or
+scientific process introduced to their planet is rigorously
+reviewed according to ecological law, with the
+potential impact to the environment analyzed from
+countless angles. Without approval, such advances are
+immediately outlawed. Even those that are approved
+are subject to intense regulation until such time as
+their benefit is proven beyond a reasonable doubt.
+It is for this reason that many offworld corporations
+avoid business with the Ishi Tib on their homeworld.
+[P]Emigration from Tibrin is a rarity, and most Ishi Tib
+are content to live out their lives on their homeworld.
+Those Ishi Tib who do choose to leave their planet are
+often tempted by job offers in the greater galaxy, for
+members of their species are in great demand by other
+governments and corporations. Due to their innate
+ability to oversee complex projects, Ishi Tib are most
+often desired as tacticians, executives, project managers,
+planners, and accountants. Unfortunately, many
+such Ishi Tib have been victimized by unscrupulous
+corporations and then found themselves cut adrift in a
+vast and unfamiliar galaxy.
+[P]Ishi Tib do not marry, and mating is conducted only
+in times of low population or some other pressing need.
+This, of course, is not to say that they do not seek out
+social interaction with others. Although they prefer relationships
+with other Ishi Tib, in the absence of their own
+kind, they focus these feelings on their associates.</Description>
+  <Source Page="21">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>12</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>DISC</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>ISHITIBCH1</Key>
+      <Name>Environment</Name>
+      <Options>
+        <Option>
+          <Key>ISHITIBCH1OP1</Key>
+          <Name>Amphibious</Name>
+          <Description>Ishi Tib can breathe underwater without penalty and never suffer movement penalties for traveling through water.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>ISHITIBCH2</Key>
+      <Name>Requirement</Name>
+      <Options>
+        <Option>
+          <Key>ISHITIBCH2OP1</Key>
+          <Name>Water Dependence</Name>
+          <Description>If an Ishi Tib has not been doused in salt water in the last twenty-four hours, the character's wound threshold is reduced by 2.  This condition remains in effect until the ishi Tib is doused in salt water.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

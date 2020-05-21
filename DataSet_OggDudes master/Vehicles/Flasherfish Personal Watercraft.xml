@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>FLASHWATER</Key>
+  <Name>Flasherfish Personal Watercraft</Name>
+  <Description>[H3]Flasherfish Personal Watercraft[h3]
+Based upon the popular [I]Undicur[i]-class jumpspeeder, the Flasherfish was designed specifically to fill the personal transportation niche on water planets where the local meteorlogical conditions precluded standard flyers and swoops. Using both hydrojet and repulsorlift technologies, the Flasherfish provides ideal personal transportation under the most extreme weather conditions, as well as among the coral caves of many ocean-world archipelagoes. Capable of brief periods of actual flight before the generators require a recharge, the Flasherfish is in its element slicing through the water under nearly any conditions.
+[P]The Flasherfish lacks the ability to travel beneath the surface, but its enclosed cabin means that harsh weather will not affect its ability to skim the surface of any ocean. In particularly rough seas, or when seeking an ideal perch for rest and refit, the Flasherfish is capable of short flights, giving it the appearance of a glittering fish skipping across the waves.
+[P]When one must travel alone to a water planet or visit a culture that lives within a fluid medium, these swift craft are ideal. In the pilot's seat of a Flasherfish, one can reach entire worlds that would otherwise be inaccessible. The Flasherfish is perfect for the adventurous spirit veering off the beaten path, or for students of the galaxy seeking to learn about the aquatic cultures of the Outer Rim.</Description>
+  <Source Page="57">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+    <Category>Watercraft</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>5000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>20 meters</MaxAltitude>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>1</Silhouette>
+  <Speed>4</Speed>
+  <Handling>2</Handling>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

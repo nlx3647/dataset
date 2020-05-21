@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GUNGANBONGO</Key>
+  <Name>Gungan Bongo Submarine</Name>
+  <Description>[H3]Gungan Bongo Submarine[h3]
+Bongos are the unique, handcrafted, submersible vehicles made by the Gungans of Naboo. Constructed around a rigid coral-like structure, each bongo is heavily armored against potential attack from the array of sea creatures found in the planet's oceans. The propulsion system of a bongo drives a long, twisting set of turbines, almost tentacle-like in appearance. which give the submarine an unusually high speed for an underwater craft. There appears to be no limit to the maximum depth attainable by a bongo, as they are able to withstand the crushing depths of the waterways that traverse the planetary core of Naboo.
+[P]Bongos are incredibly versatile and are constructed for a wide array of functions, from passenger transport to cargo hauling and military troop deployment. The example provided here is a tribubble bongo, a personal passenger version.</Description>
+  <Source Page="59">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Submersible</Type>
+  <Categories>
+    <Category>Watercraft</Category>
+  </Categories>
+  <Price>10000</Price>
+  <Rarity>7</Rarity>
+  <MaxAltitude>Standard Diving Depth: 500 meters</MaxAltitude>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Handling>2</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

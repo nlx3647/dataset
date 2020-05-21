@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>RZ1AWING</Key>
+  <Name>RZ-1 A-Wing Light Interceptor</Name>
+  <Description>
+    [H3]RZ-1 A-Wing Light Interceptor[h3]
+
+Recently developed as a joint venture between Incom and the Rebel Alliance's Underground Engineering cell, the A-wing light interceptor is the fastest and currently the rarest fighter in the Alliance arsenal. The brainchild of General Jan Dodonna and former KSE engineer Walex Blissex, the RZ-1 is an evolution of two previous fighters: the R-22 Spearhead and the Clone Wars-era Delta-7 light interceptor. It is a lightweight, lightly-armed fighter capable of incredible straight-line speed as well as superior maneuverability, and it is every bit the match for the fast-moving Imperial fighters like the TIE/in and TIE/d. In practice, the A-wing is deployed to engage Imperial fast movers with its laser cannons and to harry smaller capital ships with concussion missiles while heavier fighters such as X-wings and B-wings deal with the larger Imperial fightercraft. It also makes for a very competent scout vessel and is equipped with data recording equipment and a powerful electronics countermeasures suite. 
+[P]Dubbed "the missile with a man in it" by test pilots, the RZ-1 mounts twin Novaldex J-77 sublight engines, which produce enough thrust to move a ship many times the A-wing's mass. Coupled with a revolutionary hull pattern that combines inherently unstable design characteristics with a powerful flight control system, this tiny fighter can outpace and outmaneuver even the quickest enemy fighters. All of this speed and maneuverability comes at a cost, however. The ship is incredibly unforgiving to fly and requires intense concentration and high levels of prowess on the part of its pilots. It is also the most fragile fighter in the arsenal, having been designed to rely on its speed and agility to protect it.rather than armor plating or heavy-duty hull fittings.</Description>
+  <Source>Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>150000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>4</EncumbranceCapacity>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>6</Speed>
+  <Handling>3</Handling>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>6</Count>
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

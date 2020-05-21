@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MUUN</Key>
+  <Name>Muun</Name>
+  <Description>
+    [H4]Muun[h4]
+Despite being an Outer Rim society, the Muun remain an important center in galactic politics; they started and maintain the InterGalactic Banking Clan (otherwise known as the Banking Clan or the IGBC) and stabilized the credit used from the deepest Core World all the way to the edge of the Outer Rim. While Muun culture as a whole is conservative and rigid, the personal beliefs of individual Muun vary wildly especially among those who travel the galaxy and mingle with other species. The Muun feel the same passions as any other species when facing moral and ethical decisions, fighting for survival or being influenced by the Force.
+[P][B]Physiology:[b] The humanoid Muun stand nearly two meters tall on average. Compared to humans, they have elongated heads and slim build, giving them a guant look. Their skin tone falls on the paler end of the spectrum, usually appearing white, pink, or gray. Their features—a small nose, mouth and ears—are subtle. Due tot ehir three-heart circulatory system, the Muun have a robust constitution and can often live about a century.
+[P]Whether gained through natural ability or cultural influence, the Muun pride themselves on their advanced mathematical skills. Their children boast mathematical capabilities that rival those of university students on other worlds. Possessing a strong grounding in mathematics, logic, and science, the Muun have a repuation for intellegence and rationality. However, their history shows that they have some of their own harmful and dangerous biases, rooted in their pride and ego.
+[P][B]Society:[b] The traditionalist and conservative Muun believe their society a meritocracy in which the intellegent rise as through the ranks. Muun culture praises business and economiccs as the most intellectual and practical of pursuits. Those who don't join the IGBC, usually start their own corporation. Neverthe less, since the Banking Clan is such a massive and pervasive entity, it is difficult to know where it begins and where Muun society ends.
+[P]The InterGalactic Banking Clan, and thus the Muun people remained neutral in galactic politics throughout the Republic era to keep the economy stable. Muun internal politics tend to be similarly neutral and supportive of the status quo. This attitude has trickled down to individual Muun, who consider neutrality the highest form of political practice. In fact, most Muun believe they shouldn't concern themselves with the Galactic Civil War, an apathy that the Empire encourages. However, this conflict differs from others in that the Empire now controls the IGBC.
+[P]On the other hand, Imperial control over the Banking Clan and the soft occupation of Muun worlds have caused an increase in radicalized Muun, who reject the ideal of neutrality as a societal default. This new militancy is tempered by their conservative background. Rather than participate in outright violence or public protests, these budding activists engage in economic and corporate crimes, such as embezzlement and speculation, to siphon funds from Imperial accounts and disrupt Imperial businesses on Scipio. A few take these funds to fill Rebel treasuries, knowing that if the Rebellion succeeds, the Muun can become truly independent again. These brave few face myriad challenges; their peers' conservatism, their own doubts over their intuition and emotions about their homeworld, and the Empire's consistent message that a strong Muun is a compliant Muun.
+[P][B]Homeworld:[b] The Muun originated from the icy planet of Scipio in the Albarrio sector. Though it had powreful geothermal energy, the planet offered little in the way of natural resources. Another planet the Muun colonized, which they named Muunilist, was more temperate with rich mineral deposits. Drawing on Muunilist's abundant resources, the Muun were able to spread outwards into the galaxy. It wasn't new resources that rocketed them literlay and figuratively into galactic politics, however. Instead, it was their establishment of the common credit—soon to become the standard currency for the galaxy—and the InterGalactic Banking Clan.
+[P]The rise fo the IGBC on Scipio, and espeically the laws the Muun put in place to keep its transactions as secretive as possible, have made that world a hotbed of power and intrigue. Hosts of outside agencies, power brokers, "respectable" representatives of crime cartels, and others reside here along with the native Muun, all endlessly plotting and dealing to better their economic interests. The Empire's powerful presence here watches over the flow of credits, working to ensure none are directed towards disloyal factions. All of this has transformed Scipio from a desolate ball of ice into a world filled with spectacular structures to house all of these players and their support personnel. Graceful arches and towering columns mix with stone cliffs and ice pillars to create wondrous vistas. The main vault of the IGBC itself is one of the most impressive architectural edifices in the region, but like everything else on Scipio, it is the credits within that make the greatest impression.
+[P][B]Language:[b] The Muun rarely use their own language with outsiders, despite their insistence that the vocabularly and grammar possesses perfect mathmatical clarity. One of the few intelligently constructed languages in teh galaxy (as opposed to organically formed), Muun uses tones that make some species disparagingly call it an offshoot of Binary. The language's creators designed it to evolve by establishing new compound words instead of adopting loan words from other languages. This feature might be due to egecentric preference rather than any claim to logic as some newer words end up dozens of syllables long.
+[P]Muun traditional education teaches Basic less as a courtesy to other races and more as a practicallity, since Muun deal with species from across the galaxy. Rather than learn additonal languages, most Muun simply utilize protocol droids. Muun who travel widely may learn more due to circumstance, as a protocol droid might not always be nearby to hire or purchase.</Description>
+  <Source Page="20">Endless Vigil</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>EDU</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+    <SkillModifier>
+      <Key>CORE</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>MUUNOC1</Key>
+      <Name>Credits</Name>
+      <Options>
+        <Option>
+          <Key>MUUNOC1OP1</Key>
+          <Name>Deep Pockets</Name>
+          <Description>
+            Muun characters start the game with an additional 1,000 credits.  They may not be spend during character creation.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

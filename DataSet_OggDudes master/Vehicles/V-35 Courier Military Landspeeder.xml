@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>V35COUR</Key>
+  <Name>V-35 Courier Military Landspeeder</Name>
+  <Description>[H3]V-35 Courier Military Landspeeder[h3]
+
+A common sight throughout the galaxy, the V-35 courier is a simple, durable craft useful in a variety of situations. Designed as a family vehicle, the model's popularity and staying power have led to the speeders being put to nearly every use imaginable at one point or another. The V-35 is easy to maintain, even in harsh conditions. The small, roof-mounted scanner scope assists navigation in poor visibility. The V-35's simplicity and practicality make it the choice of innumerable Rebel cells and operations, especially those where blending in to local traffic is a priority. The craft's only notable weakness is its limited top speed, which is approximately half that of comparable models.</Description>
+  <Source>Desperate Allies</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>5500</Price>
+  <Rarity>2</Rarity>
+  <MaxAltitude>0.5 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>1</Speed>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

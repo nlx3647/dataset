@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATEST</Key>
+  <Name>AT-EST Exploration and Survey Walker</Name>
+  <Description>
+      [H3]AT-EST Exploration and Survey Walker[h3]
+
+Developed by Rothana Heavy Engineering to serve the needs of the Old Republic's civilian exploratory corps, the AT-EST is a six-legged, low-slung walker designed to haul both passengers and cargo through rough terrain and hazardous environments. Resembling a scaled-down version of the Old Republic's AT-TE combat walker, the AT-EST consists of a bulbous, heavily armored hull supported by six sturdy multi-jointed legs with broad, four-toed feet. The hull contains a forward cockpit, a central living and working area with tiny, two-person private berths, a common area, a workshop, and a secure cargo hold. 
+
+[P]In its role as an exploration and survey vehicle, the AT-EST is equipped with a number of sophisticated computers and sensors that can detect sound, radiation, and energy, as well as take samples and assess the exact nature of a world's environment. Since it is designed to operate on untamed worlds and in hostile environments, the entire vehicle is environmentally sealed. These walkers are a common sight among the worlds of the Outer Rim, and are in high demand among militaries and civilian groups alike.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>12000</Price>
+  <Rarity>5</Rarity>
+  <Crew>One Pilot, One Co-Pilot, One SensorComms Operator</Crew>
+  <EncumbranceCapacity>50</EncumbranceCapacity>
+  <Passengers>8</Passengers>
+  <Consumables>None</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-2</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

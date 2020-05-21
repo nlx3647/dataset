@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>STORMIVCLOUDCAR</Key>
+  <Name>Storm IV Cloud Car</Name>
+  <Description>
+      [H3]Storm IV Cloud Car[h3]
+
+The first high-atmospheric airspeeder to be classified as a cloud car, the Storm IV was built by Bespin Motors for use by Cloud City's Bespin Wing Guard. Designed as a fast patrol and interdiction craft, the Storm IV is a sturdy, reliable airspeeder composed of two single-occupant armored pods joined by a central spar. The port side pod holds the pilot and is equipped with a number of sophisticated sensors and an advanced navigation system. The starboard pod holds the craft's gunner along with the targeting and fire-control computers. While the Storm IV can't leave the atmosphere, each pod is pressurized and provides oxygen for high altitude flights. While they are typically used in patrol and interdiction roles, they can also be used in more martial roles to give air support to law enforcement.</Description>
+  <Sources>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Source>Edge of the Empire Core Rulebook</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <Type>Cloud Car</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>30000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>100 kilometers</MaxAltitude>
+  <Crew>One Pilot, One Gunner</Crew>
+  <EncumbranceCapacity>8</EncumbranceCapacity>
+  <Consumables>None</Consumables>
+  <Silhouette>2</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

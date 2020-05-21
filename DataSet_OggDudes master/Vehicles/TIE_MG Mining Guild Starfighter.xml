@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIEMG</Key>
+  <Name>TIE/MG Mining Guild Starfighter</Name>
+  <Description>[H3]TIE/MG Mining Guild Starfighter[h3]
+Thanks to its close working relationship with the Empire, the Mining Guild is one of the few non-Imperial organizations that are permitted to operate TIE-series starfighters. Known unofficially a TIE-mgs, Mining Guild TIEs are surplus TIE/ln starfighters purchased in bulk from the Imperial Navy and modified by Mining Guild shipwrights. They are deployed to Mining Guild sites all across the galaxy and provide protection against thieves, pirates, and resistance saboteurs.
+[P]Painted in the Guild’s yellow-and-black livery, these fighters are a common sight around mining facilities. Their most obvious modification is the removal of the forward two panels of each of the fighter’s solar arrays. While this greatly improves pilot visibility, it noticeably reduces speed and power. Additionally, these fighters are equipped with upgraded life-support systems to allow Mining Guild pilots to fly without bulky TIE-style flight suits. While Guild pilots are not as highly trained or skilled as Imperial Navy pilots, they still use their secondhand TIE fighters to great effect.</Description>
+  <Source Page="125">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>40000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <Crew>One pilot.</Crew>
+  <EncumbranceCapacity>2</EncumbranceCapacity>
+  <Consumables>One day.</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>3</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

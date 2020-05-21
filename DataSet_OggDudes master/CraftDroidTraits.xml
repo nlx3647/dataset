@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<CraftDroidTraits xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CraftDroidTrait>
+    <Key>POS1</Key>
+    <Name>Loyal</Name>
+    <Description>The droid puts its creator's needs above its own, and always looks for ways to help—whether asked or not.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>POS2</Key>
+    <Name>Resourceful</Name>
+    <Description>Some droids can adapt to problems quickly, and do not get trapped in their own overly narrow programming.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>POS3</Key>
+    <Name>Patient</Name>
+    <Description>Unlike organic beings, droids are theoretically immortal as long as they recieve proper maintenance. Thus, a droid can have a capacity for patience that even the most long-lived organic beings lack.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>POS4</Key>
+    <Name>Enthusiastic</Name>
+    <Description>The droid has a boundless capacity to see oppurtunities, and it frequently points them out.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>POS5</Key>
+    <Name>Compassionate</Name>
+    <Description>Some droids are very caring, and seek to nurture the best in those around them.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>POS6</Key>
+    <Name>Efficient</Name>
+    <Description>The droid abhors waste, and does everything in the most timely and precise manner it can muster.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>POS7</Key>
+    <Name>Well-Mannered</Name>
+    <Description>This droid always maintains perfect etiquette, even when dealing with individuals it does not particularly like.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>POS8</Key>
+    <Name>Cheerful</Name>
+    <Description>A good attittude is the first step to success (or so says this droid anyway).
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>POS9</Key>
+    <Name>Reliable</Name>
+    <Description>This droid always comes through for its creator or friends.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>NEG1</Key>
+    <Name>Cowardly</Name>
+    <Description>This droid sets survival as a top pritoriy, and shies away from any potential danger.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <IsNegative>true</IsNegative>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>NEG2</Key>
+    <Name>Overly Literal</Name>
+    <Description>Many droids (and some organic sentients) fail to grasp the nuances of language beyond its direct meaning. This is one of those droids.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <IsNegative>true</IsNegative>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>NEG3</Key>
+    <Name>Arrogant</Name>
+    <Description>Whether it believes itself to have been built better than other droids or it believes that droids are intrinsically superior to more temporary life forms, this droid has a high opinion of its own abilities.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <IsNegative>true</IsNegative>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>NEG4</Key>
+    <Name>Impulsive</Name>
+    <Description>The droid has a boundless capacity to see opportunities, and it usually acts on them without warning..
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <IsNegative>true</IsNegative>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>NEG5</Key>
+    <Name>Ruthless</Name>
+    <Description>It might be spiteful, or it might just see emotion as inefficient, but this droid destroys anything that gets in its way.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <IsNegative>true</IsNegative>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>NEG6</Key>
+    <Name>Lazy</Name>
+    <Description>Droids are built to fulfill certain purposes, but this droid isn't particularly interested in doing so if it can avoid it.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <IsNegative>true</IsNegative>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>NEG7</Key>
+    <Name>Abrasive</Name>
+    <Description>Dealing with this droid is extraordinarily frustrating. Whether it answers with sarcasm or not at all, its words and actions are always barbed.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <IsNegative>true</IsNegative>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>NEG8</Key>
+    <Name>Pessimistic</Name>
+    <Description>Apparent doom lurks around every corner for this droid, and it expresses this belief at every oppurtunity.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <IsNegative>true</IsNegative>
+  </CraftDroidTrait>
+  <CraftDroidTrait>
+    <Key>NEG9</Key>
+    <Name>Unhinged</Name>
+    <Description>The only certainty with this droid is that its decisions can't be predicted.
+</Description>
+    <Source Page="83">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <IsNegative>true</IsNegative>
+  </CraftDroidTrait>
+</CraftDroidTraits>

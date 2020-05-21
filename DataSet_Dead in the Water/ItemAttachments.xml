@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<ItemAttachments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemAttachment>
+    <Key>ADVCTL</Key>
+    <Name>Advanced Control Systems</Name>
+    <Description>[H3]Advanced Control Systems[h3]
+A series of advanced controls and hull modifications that increase the handling ability of any vehicle.  The hull modifications also allow for the vehicle to withstand more system strain.
+</Description>
+    <Source>Dead in the Water</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Vehicle</Type>
+    <ItemLimit />
+    <SkillLimit />
+    <TypeLimit />
+    <CategoryLimit />
+    <Price>3000</Price>
+    <Rarity>5</Rarity>
+    <Restricted>false</Restricted>
+    <ModPrice>0</ModPrice>
+    <HP>1</HP>
+    <JuryRigged>false</JuryRigged>
+    <BaseMods>
+      <Mod>
+        <Key>HANDLINGADD</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>HANDLINGADD</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Mod>
+      <Mod>
+        <Key>SSTRAINADD</Key>
+        <Count>2</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZone />
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Mod>
+    </AddedMods>
+    <MustHaveHyperdrive>false</MustHaveHyperdrive>
+    <MustBeStarship>false</MustBeStarship>
+    <MinEncumCap>0</MinEncumCap>
+    <MinSize>0</MinSize>
+    <MaxSize>0</MaxSize>
+    <PriceSizeMult>true</PriceSizeMult>
+  </ItemAttachment>
+</ItemAttachments>

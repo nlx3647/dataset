@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MELITTOS</Key>
+  <Name>Melittos</Name>
+  <Description>[H4]Melittos[h4]
+Melittos are insectile, chitin-plated bipeds who hail from the volcanic Inner Rim planet of Li-Toran. Lacking eyes, they rely on auditory organs and feathery cilia to sense their surroundings. The cilia cover their bodies, allowing them to detect vibrations, scents, and even electrical fields. Through powerful scent-memories, Melittos can identify and track specific targets and penetrate clever disguises. They can even sense the chemical compounds that identify diseases, making them gifted natural physicians. Many Melittos use their abilities to become renowned bounty hunters or trackers. 
+[P]Nearly all Melittos live in densely packed underground hives, although a few exist outside of hive society. Most of the latter, known as ronin, leave their homeworld to travel the galaxy. Some of them find new purpose in contributing to the Alliance via their rare abilities. 
+[P][B]Physiology:[b] Melittos are cold-blooded, preferring hot climates whenever possible. Newborns lack the species' distinctive chitin scales, which grow as they mature, making it possible to judge age by the number, size, and condition of the plates. Melittos' cilia also grow with age, beginning as brightly hued strands and becoming less colorful over the years. Chitin and cilia coloration indicates a Melitto's hive of origin, though the sightless Melittos rely on individual scent-memories for this information.
+[P]Melittos can only digest sugary liquids. Their diet consists primarily of the crimson sap from a native coral-like organism known as bleeding rock, which grows in the thick steam within Li-Toran's underground tunnels. The air in the tunnels contains much higher densities of toxic compounds than the world's already dangerous surface atmosphere. As the Melittos evolved in this harsh environment, their very survival depends on these toxins. When offworld, they must wear a special survival device that lets them breathe the same compounds; the device also distills local foodstuffs into sweet-smelling liquids that simulate bleeding-rock sap.
+[P][B]Society:[b] Melittos live in caste-based hives, each controlled by a single queen, who is supported by younger females known as myrmitrices. Queens and myrmitrices emit special pheromones that control the males, who are called myrmites. The myrmites make up the majority of the population and perform almost all hive activities, including combat, maintenance, and, most importantly, agriculture.
+[P]Hive society is built around tending bleeding-rock coral farms and harvesting the highly nutritious red sap the coral produces. This is a difficult process, and poor harvests can rapidly lead to population pressures. Thus, when a hive becomes too large to operate given its food supply, groups of myrmitrices and their myrmite followers soon leave, either voluntarily or forcibly. The exiles create a new hive in another underground region, and soon the myrmitrices vie to become its new queen in a deadly struggle. The victorious myrmitrix and her myrmites take control of the new hive. Surviving myrmites belonging to defeated myrmitrices become hiveless ronin, most of whom leave Li-Toran for new lives. Some seek out organizations on other worlds to act as surrogate hives for them, while others strike out on their own and become independent agents.
+[P][B]Homeworld:[b] Li-Toran is a harsh world of violent storms. The intense volcanic activity creates dark, noxious clouds that let almost no light pierce through to the ground. These factors have made the planet extremely hot and unpleasant to outsiders. Rivers of molten rock carve complex networks of constantly shifting tunnels through the crust, where most of the native flora and fauna evolved. Many of the tunnels expand into huge caverns, some kilometers in size, where Melittos make their hives.
+[P]On the surface, the Empire has a garrison named Dometown to monitor the population. The posting has become somewhat of a punishment detail due to the dangerous conditions; stormtroopers here sometimes refer to it as Doomtown. Traveling elsewhere on the planet (or rather, below its surface) demands heavy environmental suits for even short durations.
+[P][B]Language:[b] Melittos communicate primarily through pheromones; even their written language is composed of scents rather than letters. This makes it hard for outsiders to communicate with them. To mitigate this issue, the Melittos' survival device includes a vocoder to translate their pheromones into Basic and others' Basic into their scent-language.
+[P][B]Life in the Alliance:[b] The major hives of Li-Toran are highly isolationist; citizens care little for the barely comprehensible politics of the Empire or Alliance. Li-Toran itself has few valuable resources of interest to the Empire. However, the Empire conscripts ronin from across the galaxy into forced labor in harsh environments and toxic factories where the conditions would be fatal to others. Such practices have led to a growing hatred for the Empire among the ronin.
+[P]Melitto ronin have much to offer the Alliance: their combat skills make them excellent Soldiers, and their unique senses make them particularly well-suited for the Spy careen Their innate medical skills facilitate work as field Medics as well, Though many ronin find themselves confused by the social interactions of other species, the tactical abilities many develop in hive warfare can also make them skilled Commanders.</Description>
+  <Source Page="21">Cyphers and Masks</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>PERC</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>MELITTOSCH1</Key>
+      <Name>Physiology</Name>
+      <Options>
+        <Option>
+          <Key>MELITTOSCH1OP1</Key>
+          <Name>Sightless Vision</Name>
+          <Description>Melittos can perceive their surroundings without needing light, and they never suffer penalties on combat or Perception checks due to darkness or other environmental factors that affect vision.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>MELITTOSCH2</Key>
+      <Name>Atmosphere</Name>
+      <Options>
+        <Option>
+          <Key>MELITTOSCH2OP1</Key>
+          <Name>Reliant on Toxins</Name>
+          <Description>Melittos require the toxins of their native atmosphere to live; offworld, they gain free special respirators to emulate the conditions of their homeworld. They treat standard planetary air composition as a corrosive atmosphere with rating 6.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

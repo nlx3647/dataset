@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIELN</Key>
+  <Name>TIE/LN Starfighter</Name>
+  <Description>
+      [H3]TIE/LN Starfighter[h3]
+
+The primary space superiority fighter of the Imperial Navy, the tiny and fragile Twin Ion Engine fighter has been in service for decades. Light, fast, and incredibly nimble, the iconic TIE fighter is a bare-bones, no-nonsense fightercraft. Consisting of a spherical, lightly armored command module with a large circular transparisteel viewport attached to two massive hexagonal wing and solar panel assemblies, the TIE fighter has no shields, no landing gear, no hyperdrive, few computerized systems, and no life support system, requiring the pilots to wear vacuum suits. Every bit of fat was trimmed from the initial design, resulting in a blisteringly fast and shockingly agile ship, albeit one with a high attrition rate. 
+
+[P]Along with being light, the ship is also incredibly simple. It draws its power from a miniature version of SFS's I-a2b solar ionization reactor, which collects solar energy from the panels in the fighter's wing assemblies. This generator powers the twinned, high-output SFS P-s4 ion engines from which the craft takes its name, as well as the twin linked laser cannons under the cockpit. TIE fighters are necessarily short-range fighters. When not based at planetary or orbital naval installations, they must be carried into battle by carrier ships such as Star Destroyers or escort frigates.</Description>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>50000</Price>
+  <Rarity>4</Rarity>
+  <Restricted>true</Restricted>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>4</EncumbranceCapacity>
+  <Consumables>Two days</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>3</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

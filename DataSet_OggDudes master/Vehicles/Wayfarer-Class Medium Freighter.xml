@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>WAYFARER</Key>
+  <Name>Wayfarer-Class Medium Freighter</Name>
+  <Description>
+    [H3]Wayfarer-Class Medium Freighter[h3]
+
+Kuat Systems Engineering's Wayfarer class, is a relatively new entry to the medium transport market. Designed accommodate unique modular shipping containers built specifically for the ship, the Wayfarer was designed to revolutionize galactic shipping. In reality these ships had a rocky development process. By the time the first Wayfarers came off the stocks for their shakedown cruise's, the project was terribly over budget and behind schedule. Only one of the many types of shipping container was actually built, the bulk cargo container. This, combined with the fact that the Wayfarer's cargo containers are bespoke and the ship can't carry standard shipping containers, limited its usefulness. Although they never revolutionized shipping, they have found a niche among wealthy shipping conglomerates in the developed parts of the galaxy where their owners have custom containers fabricated.
+
+[P]The vessel itself has a strange, ungainly design, with the modular cargo container hung from an armature that extends from the port side of the ship's hull. The ship is slightly unbalanced and requires a talented and even-handed pilot to make the most of it.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>120000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>14</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One Captain, One Pilot, One Co-Pilot, One Engineer, One Cargo Master, Six Crew</Crew>
+  <EncumbranceCapacity>850</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>Three Months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>4</Armor>
+  <HullTrauma>32</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Key>LASERQUAD</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

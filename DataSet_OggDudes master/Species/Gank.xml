@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GANK</Key>
+  <Name>Gank</Name>
+  <Description>
+    [H4]Gank[h4]
+
+A mysterious species of mercenaries in the employ of the Hutts, the Ganks are among the most feared and bloodthirsty killers in Hutt Space. Clad from head to toe in high-tech battle armor, these faceless thugs and enforcers are rarely seen in the flesh by non-Ganks. The Ganks act as bounty hunters, assassins, and bodyguards for Hutts and others willing to pay the credits for their services and to condone their methods. They established a reputation for unparalleled brutality several thousand years ago during the infamous Gank Massacres, when they wiped out the whole Porporite species to protect Neimoidian ryll-trading interests. Since then, the Ganks have solidified their position as some of the most dangerous guns for hire in the galactic underworld. 
+
+[P][B]Physiology:[b] Beneath their armor and cybernetics, Ganks are powerfully built, carnivorous bipeds with fur ranging in color from golden yellow to a mix of dark brown to red. Their snarling visages and beady eyes give them a dangerous, predatory appearance. Aggressive and belligerent, Ganks are known to have short tempers and few scruples, though they are strongly protective of their own kind. Cybernetics are such an important element of Gank society that they are virtually a part of their physiology, with every Gank having at least a few different implants or prosthetics. 
+
+[P][B]Society:[b] Militaristic and warlike, Gank society is highly regimented and organized into familial packs, sometimes not so inappropriately referred to as murders. While not readily apparent to outsiders, Ganks conform to a strict hierarchy among themselves, with alphas—often the most experienced, veteran warriors—directing packs of their fellows. Ganks rarely operate independently, instead preferring to coordinate with other Ganks in small groups. Ganks are masters of ambush and squad tactics, functioning with an efficiency and lethality rarely seen outside of elite units. When forced to work with other, less disciplined species, Ganks frequently become frustrated by their disordered approach to combat. 
+
+[P]Ganks often take trophies from their foes, a habit that has garnered them the reputation of being thieves as well as killers. Certainly, many Ganks are prone to looting their victims' bodies, to claim tokens that show the quality and number of foes they have slain. Even amongst Ganks who do not lead a life of violent crime, trophy-taking is often a culturally important practice.
+
+[P][B]Homeworld:[b] The homeworld of the Ganks is unknown. Many suspect that they originally hail from a planet somewhere within the Bootana Hutta itself, or possibly from a world hidden within the dense, radioactive clouds of the Oktos Nebula. Whatever the case may be, most Ganks can be found working for the Hutts within the vertical cities of Nar Shaddaa. 
+
+[P][B]Language:[b] While Casks have their own language, it is completely unknown to non-Ganks, as it is almost never spoken out loud. Ganks prefer to communicate silently among themselves via their cybernetic comlinks. Most Ganks also speak at least some Basic and are generally fluent in Huttese.</Description>
+  <Source>Lords of Nal Hutta</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>110</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>GANKOC1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>GANKOC1OP1</Key>
+          <Name>Coercion</Name>
+          <Description>Ganks may begin the game with one rank in Coercion.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>COERC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GANKOC1OP2</Key>
+          <Name>Vigilance</Name>
+          <Description>Ganks may begin the game with one rank in Vigilance.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>VIGIL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>GANKOC2</Key>
+      <Name>Cybernetics</Name>
+      <Options>
+        <Option>
+          <Key>GANKOC2OP1</Key>
+          <Name>Cyborg</Name>
+          <Description>Ganks may begin play with up to two cybernetic implants that cost up to 5,000 credits.  Extra credits for obligation may be applied to purchase these cybernetics.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <CyberneticsAdjust>3</CyberneticsAdjust>
+</Species>

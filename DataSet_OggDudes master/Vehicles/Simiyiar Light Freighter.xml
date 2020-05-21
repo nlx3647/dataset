@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SIMIYIARLT</Key>
+  <Name>Simiyiar Light Freighter</Name>
+  <Description>
+    [H3]Simiyiar Light Freighter[h3]
+
+One of the more popular ships to come out of the vaunted Mon Calamari Shipyards, the Simiyiar-class light freighter is a study in both form and function. A lovely ship by any standard, this small, nimble freighter shows all the hallmarks of the smooth-edged, quasi-organic styling for which the Mon Calamari shipwrights are so famous. A Simiyiar-class vessel is flat, low-slung, and single-decked, with a bulbous forward section, a narrow midships section. and a flaring, wing-like aft section. The entire forward third of the ship is given over to its cargo hold, a capacious modular space accessed by port and starboard cargo lifts and a ventral loading ramp. The midships section contains crew and passenger berthing and common areas, as well as a ladderway to the small, two-person command deck. In addition to its drive, most of the ship's power, weapons, and hyperspace systems are housed in the outboard wing sections or the flaring forward section, and a pair of escape pods are mounted directly aft, over the primary thrusters. 
+
+[P]Relatively heavily armed for a vessel of its class, the Simiyiar is armed with a turret-mounted twin light laser cannon on the dorsal surface and a single light ion cannon in a fixed forward position. Speed and handling are a little above average, and the stout, ablative armor and well-tuned shields provide more than adequate protection. Although popular, Simiyiar-class light freighters suffer many of the downsides common to Mon Calamari ships. Each ship is unique, essentially hand-made, and there is little-to-no parts commonality from one to another. As such, they are among the most expensive light freighters on the market. They are very reliable, however, and achingly beautiful. These two traits alone are enough to explain the popularity of these fine little ships.</Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>165000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>90</EncumbranceCapacity>
+  <Passengers>5</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>4</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>16</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

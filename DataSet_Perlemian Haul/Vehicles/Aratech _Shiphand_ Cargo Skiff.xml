@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SHIPHANDSKIFF</Key>
+  <Name>Aratech "Shiphand" Cargo Skiff</Name>
+  <Description>[H3]Aratech "Shiphand" Cargo Skiff[h3]
+Please see page 447 of the Age of Rebellion Core Rulebook for details.</Description>
+  <Source>Perlemian Haul</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Cargo Floater</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>1</HP>
+  <Price>12000</Price>
+  <Rarity>3</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <MaxAltitude>2 meters</MaxAltitude>
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRange>None</SensorRange>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>250</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables />
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>0</Armor>
+  <HullTrauma>12</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>false</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons />
+</Vehicle>

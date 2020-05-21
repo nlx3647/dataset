@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>Z95AF4H</Key>
+  <Name>Z-95-AF4-H "Heavy-95" Multi-Role Starfighter</Name>
+  <Description>[H3]Z-95-AF4-H "Heavy-95" Multi-Role Starfighter[h3]
+
+A variant of the old, reliable Z-95 Headhunter, the Heavy-95 is the result of a recent service life extension program for Headhunters serving in the Rebel Alliance. The Heavy-95 project sought to extend the service life of existing Z-95s by performing numerous upgrades and overhauls to bring the elderly fighters up to the standard of modern lightweight starfighters. Each Heavy-95 was stripped of all its systems and rebuilt from the ground up using upgraded systems where they were needed and new original production parts where available. The four low-output Incom 2a ion fission engines were replaced with a pair of 4L4 fusial thrust engines typically found on the T-65 X-wing, an astromech socket and hyperdrive were fitted, and the wingtip-mounted light laser cannons were replaced with T&amp;B Kx5 medium laser cannons. The fighter also houses an alternating-fire concussion missile launcher system that allows the pilot to fire off a steady stream of concussion missiles. The resulting fighter is a capable, easy-to-fly, lightweight multi-role fighter that features a good mix of speed, protection, and firepower.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>85000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <Crew>One pilot, one astromech droid</Crew>
+  <EncumbranceCapacity>6</EncumbranceCapacity>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <DefFore>2</DefFore>
+  <Armor>3</Armor>
+  <HullTrauma>12</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Wingtip</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>8</Count>
+        </Quality>
+      </Qualities>
+      <Key>AFCML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>YT2000</Key>
+  <Name>YT-2000 Light Freighter</Name>
+  <Description>[H3]YT-2000 Light Freighter[h3]
+
+Intended to be the pinnacle of the YT-series, the YT-2000 is by any measure an impressive light freighter. Retaining the distinctive saucer shape and powerful Girodyne engines of previous models, the YT-2000 features an in-line cockpit, giving the vessel a symmetrical appearance. The YT-2000 also boasts better armaments, improved maneuverability, and greater cargo capacity than its predecessors. Unfortunately for Corellian Engineering, however, industrial espionage resulted in the ship's designs leaking to its competitors, causing CEC to rush the YT-2000 into production before working out all of the avionics and component integration issues. As a consequence, the freighter is more temperamental than other YT models, causing grief for the mechanics and engineers tasked with keeping these ships in working order. Nevertheless, the YT-2000 was well-received by the public. The ship saw substantial sales prior to Corellian Engineering discontinuing it in favor of the newer YT-2400, the designs of which CEC kept closely under wraps until it entered production.</Description>
+  <Source>Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>120000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/engineer</Crew>
+  <EncumbranceCapacity>170</EncumbranceCapacity>
+  <Passengers>7</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>24</HullTrauma>
+  <SystemStrain>14</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

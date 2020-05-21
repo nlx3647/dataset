@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>YKL37RNOVA</Key>
+  <Name>YKL-37R Nova Courier</Name>
+  <Description>[H3]YKL-37R Nova Courier[h3]
+      
+The last ship produced by Gallofree Yards before its
+bankruptcy, the YKL-37R Nova Courier was a last ditch
+effort to save the struggling starship manufacturer.
+Intended to compete with Corellian Engineering’s
+series of light freighters, few Nova Couriers were sold
+prior to Gallofree Yards’ closure. Bankers overseeing
+the company’s liquidation auctioned off its vast stock
+of YKL-37Rs for bargain prices, many ending up in the
+hands of free traders, smugglers, and pirates. Unlike
+several of Gallofree’s previous freighters, which were
+plagued by problems, the Nova Courier is a reliable
+and well-armed vessel, something appreciated too
+late to save the troubled shipmaker. Though lacking
+the cargo capacity of other light freighters, the Nova
+Courier’s speed, handling, excellent stock armaments,
+and ease of maintenance and modification more than
+make up for that shortcoming.</Description>
+  <Source Page="56">Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>130000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot/engineer</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>24</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>BLAST</Key>
+          <Count>4</Count>
+        </Quality>
+        <Quality>
+          <Key>BREACH</Key>
+          <Count>4</Count>
+        </Quality>
+        <Quality>
+          <Key>GUIDED</Key>
+          <Count>3</Count>
+        </Quality>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>6</Count>
+        </Quality>
+        <Quality>
+          <Key>SLOWFIRING</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Qualities>
+        <Quality>
+          <Key>BLAST</Key>
+          <Count>4</Count>
+        </Quality>
+        <Quality>
+          <Key>BREACH</Key>
+          <Count>4</Count>
+        </Quality>
+        <Quality>
+          <Key>GUIDED</Key>
+          <Count>3</Count>
+        </Quality>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>6</Count>
+        </Quality>
+        <Quality>
+          <Key>SLOWFIRING</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

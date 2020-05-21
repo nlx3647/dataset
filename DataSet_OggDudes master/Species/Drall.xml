@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DRALL</Key>
+  <Name>Drall</Name>
+  <Description>[H4]Drall[h4]
+
+The Drall are renowned throughout the galaxy as thinkers. A race of scholars and scientists, relatively few Drell ever journey beyond the bounds of the Corellian System, preferring to pursue sensible, quiet lives of study and reflection. Those Drall who undertake a life of perilous travel and adventure in the wider galaxy are rare indeed. 
+
+[P][B]Physiology:[b] Averaging about one meter tall, with females being slightly taller, the Drall are covered in fur ranging from a ruddy brown to shades of grey and black. Drell have short snouts and small, almond-shaped black eyes which are sensitive to bright light. Their limbs are relatively short, giving them a somewhat dwarfish appearance, with well-articulated four-fingered hands and back-bent legs ending in slender, clawed feet. Drall mature quickly relative to humans, and tend to live for about one hundred galactic standard years. 
+
+[P][B]Society:[b] Practical, dignified, and highly intelligent, the Drall tend to be very level-headed and unflappable, with a penchant for order and stability. Analytical and meticulous by their nature, the Drell excel at scientific investigation and research, record-keeping, and other scholarly pursuits. Throughout history, the Drall have produced countless brilliant scientists and engineers, and Drall theories undoubtedly helped lead to the development of hyperspace travel. There is little that does not interest them to some extent, yet for all their genius, Drall prefer to tackle problems in the abstract rather than implement their ideas to practical ends. As a result, the Drall rarely innovate new technologies, but instead adapt the tools of other species. 
+
+[P]Drall society is ordered around extended family clans headed by a matriarch known as a Duchess. Rather than a hereditary or elected position, Duchesses are chosen by their predecessors or a council of elders based on merit, and they retain their title for life or until they choose to step down and appoint a successor. Once appointed, a Duchess owns all of her clan's property and goods, and she governs the clan as a sort of benevolent dictator, often taking direct interest in the lives of her individual subjects. Though no Duchess holds absolute sway over their homeworld, most clans tend to follow the general direction set by the Duchess of the most prosperous and influential clan (which can vary as clans' fortunes rise and fall). 
+
+[P]Among the Drall, gossip is practically an art form, and a Drall will talk for hours about the latest news regarding his extended family or rumors about other clans. This tendency towards gregariousness can wear on other species, especially when a Drall begins to recount every trivial event regarding themselves and their families. While few Drall ever venture beyond the Corellian System—something frowned up0n by most clans as aberrant and overly-adventurous behavior—Drall elsewhere in the galaxy are often employed by megacorporations, such as Athakam MedTech, Chiewab Amalgamated Pharmaceuticals, or TaggeCo, as researchers and pharmaceutical consultants. A few even earn their credits as information brokers or through criminal associations. 
+
+[P][B]Homeworid:[b] A relatively temperate world of rolling grasslands and forests, the Drall homeworld is the second planet from Corell. Dotted with several large, land-locked seas—the most famous of which is the Boiling Sea—Drall remains sparsely populated and largely rural, with only a few small urban regions and scattered townships. The climate is uncomfortably warm during the summer, only cooled by mild winter precipitation.
+
+[P][B]Language:[b] The Drall speak Drallish. As might be expected of a species obsessed with knowledge and record-keeping, Drallish is a very precise language with an enormous vocabulary and different words to describe subtle variations of the same thing or concept. Truly mastering the language is difficult for native speakers, and most non-Drall are lucky to be at best conversant. Nearly all Drall also speak Basic fluently, and most tend to speak multiple languages.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>1</Agility>
+    <Intellect>4</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>8</WoundThreshold>
+    <StrainThreshold>12</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>EDU</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>DRALLCH1</Key>
+      <Name>Checks</Name>
+      <Options>
+        <Option>
+          <Key>DRALLCH1OP1</Key>
+          <Name>Skilled Assistance</Name>
+          <Description>Drall add [BOOST] when providing skilled assistance.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>74ZSPEEDERBIKE</Key>
+  <Name>Aratech 74-Z Speeder Bike</Name>
+  <Description>
+      [H3]Aratech 74-Z Speeder Bike[h3]
+
+A militarized version of Aratech's successful 74-Y speeder bike, the 74-Z is a high-performance speeder bike used by Imperial military forces as a scout, courier, and fast combat transport vehicle. Roughly four and a half meters long, the 74-Z is, like most speeder bikes and swoops, little more than a powerful repulsorlift engine with a saddle and flight controls strapped to it. The pilot controls its movements via two sets of handlebar mounted controls and two sets of footrest mounted controls. Those in Imperial military service are equipped with comlinks, rudimentary optical sensors, and a close-range comlink jammer, as well as a light repeating blaster.</Description>
+  <Sources>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Source>Edge of the Empire Core Rulebook</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <Type>Speeder Bike</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>3000</Price>
+  <Rarity>4</Rarity>
+  <MaxAltitude>25 meters</MaxAltitude>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Consumables>None</Consumables>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Handling>1</Handling>
+  <HullTrauma>2</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>BLASTLTREP</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

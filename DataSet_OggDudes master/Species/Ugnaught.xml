@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>UGNAUGHTS</Key>
+  <Name>Ugnaught</Name>
+  <Description>[H4]Ugnaught[h4]
+
+The Ugnaughts are porcine humanoids with slightly upturned noses from the planet Gentes. Compared to baseline humans, their height would be considered short or dwarfed. 
+
+[P]Ugnaughts are industrious and loyal workers and also have a rich oral tradition. They are quite hardy, able to withstand long periods of discomfort, and live to around two hundred years of age.
+
+[P][B]Physiology:[b] The Ugnaught are a race of small, pig like creatures known for their mechanical abilities. The Ugnaughts are native to the planet Gentes. There, they have grown to become strong, efficient creatures, able to withstand a great deal of discomfort. 
+
+[P][B]Society:[b] Ugnaughts are ruled by elected terend councils, which are led by elected ufflor officers. They were also represented in the Cloud City's Parliament of Guilds. Ugnaughts live their lives in accordance to their "blood profession", with Ugnaught parents teaching their children their trade. Infant Ugnaughts are known as Ugletts. If the number of new Ugnaughts in a given profession exceeded the needed, a blood duel was called. When the Ugnaughts reached their twentieth year of age, these fights were held to the death, with the victor winning the right to inherit their blood profession. Despite this outdated and violent custom, the Ugnaughts are generally a peaceful people with a rich culture. 
+
+[P][B]Homeworld:[b] Gentes is known to most only as the home world to the Ugnaughts, industrious pig like creatures common on Bespin and other planets in the sector. Once a swampy paradise, sadly the planet has suffered from environmental damage from slave traders. In attempts to make the Ugnaught population more willing to be transported off their home planet, the slave traders poured toxins into the rivers and oceans, killing off many of the basic food species the Ugnaughts relied on, and though it is still a life supporting planet, the life it has is a shadow of the rich diversity that blossomed there before.
+
+[P][B]Language:[b] Ugnaught is the native language of the Ugnaught species from Gentes. It is mainly composed of grunts, squeals and chatters. It is considered a difficult language to learn, requiring as much time and effort as Cheunh.
+
+[P]Few Ugnaughts learn Basic, because they are not fond of prolonged contact with Humans or other species. Those who do, however, are quickly fluent in both Ugnaught language and Basic, being literate in both languages.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>1</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>UGNAUGHTSCH1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>UGNAUGHTSCH1OP1</Key>
+          <Name>Mechanics</Name>
+          <Description>Ugnaughts may begin the game with one free rank in Mechanics.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>MECH</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>UGNAUGHTSCH1OP2</Key>
+          <Name>Negotiation</Name>
+          <Description>Ugnaughts may begin the game with one free rank in Negotiation.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>NEG</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>UGNAUGHTSCH2</Key>
+      <Name>Resilience</Name>
+      <Options>
+        <Option>
+          <Key>UGNAUGHTSCH2OP1</Key>
+          <Name>Exceptionally Hardy</Name>
+          <Description>Ugnaughts add [ADVANTAGE] to Resilience checks.</Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>RESIL</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>UGNAUGHTSCH3</Key>
+      <Name>Size</Name>
+      <Options>
+        <Option>
+          <Key>UGNAUGHTSCH3OP1</Key>
+          <Name>Silhouette</Name>
+          <Description>Ugnaughts have a Silhouette of 0.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

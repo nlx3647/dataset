@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CSS1</Key>
+  <Name>CSS-1 Corellian Star Shuttle</Name>
+  <Description>
+    [H3]CSS-1 Corellian Star Shuttle[h3]
+
+Designed to replace the old Consular-class star cruisers, the Corellian Star Shuttle was designed to transport senators, ambassadors, and other important dignitaries. Spacious and well-appointed, the CSS-1 can accommodate up to two hundred passengers in relative comfort, and can be fitted out for extended voyages for smaller numbers. These vessels saw extensive use by the Republic during the Clone Wars, and many more ended up in private hands following the establishment of the Galactic Empire. 
+
+[P]Being essentially diplomatic ships, Corellian Star Shuttles were unarmed, though their armor and shields provided significant protection from attack. While never intended to fulfill a combat role, many of these vessels were armed and reconfigured to be pressed into service as military transports during the Clone Wars.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Shuttle</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>325000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>1.5</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot, one navigator, two comm officers, three engineers</Crew>
+  <EncumbranceCapacity>1000</EncumbranceCapacity>
+  <Passengers>200</Passengers>
+  <Consumables>Three months to three years</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>4</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>22</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

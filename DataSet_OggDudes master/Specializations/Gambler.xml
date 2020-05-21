@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GAMBLER</Key>
+  <Name>Gambler</Name>
+  <Description>[H4]Gambler -  The Wild Card[h4]
+
+[P]When the chips are down, the Gambler holds all the cards. Like the devious Thief, the Gambler loves misleading others and taking big risks to profit. Like the clever Trader, the Gambler has a knack for convincing others to part with their valuables for next to nothing. The Gambler has a unique variety of tricks up his sleeve to deceive or misdirect opponents, keeping them guessing as to whether he has a winning or losing hand. However, the Gambler knows that there is no such thing as a losing hand; winning is all about knowing how to play the cards that have been dealt. 
+
+[P]The Gambler knows how to play all the most popular games of chance; however, he also recognizes there is far more to winning than just knowing the rules. His ability to identify subtle clues in the body language, mannerisms, voice patterns, and behavior of his opponents gives the Gambler all the information he needs to decide when to make his move. The Gambler prides himself on being unpredictable, denying his opponents any hints to his intentions with his stone-cold expression. Whether the situation is a game of sabacc, betting on Podraces, or talking a thug out of blasting his companions, the Gambler has a strategy, and rarely the one people expect. 
+
+[P]The list of a Gambler's bonus career skills clearly shows his strong suit lies in sleight of hand and trickery: [B]Computers, Cool, Deception,[b] and [B]Skulduggery[b]. If this is the character's starting specialization, he may choose two of these skills and gain one free rank in each without spending additional starting experience. By doubling down on skills that allow him to keep his opponents guessing, the Gambler ensures the odds are always stacked in his favor. As a competent liar, the Gambler is not above using a skitter to win a hand if the stakes are high enough. 
+
+[P]A Gambler may not always look like much, but looks can be deceiving. The Gambler is an excellent actor, always able to project an air of calm confidence so he seems as cool as carbonite even when he is as tense as an Alderaanian on an ImpStar. A great Gambler knows to never count his credits at the table, so to speak, but sometimes playing hurt can throw his opponents. Some Gamblers love baiting their opponents by looking vulnerable just so they can gloat while raking in the pot. A fool and his money are soon parted, and the Gambler is always happy to oblige. 
+
+[P]The Gambler is a fantastic specialization for playing a number of character types in a variety of settings. A player could create an aboveboard, aristocratic Core dweller participating in high-stakes betting just for thrills; a suave, small-time card shark flitting about the Colonies scamming amateur players; or a downtrodden Smuggler dropping his last fifty credits into the pot trying to win enough to repair his ship. He is not limited to playing games, however, as a Gambler fits into any setting where fists full of credits or unbelievable thrills are up for grabs. The negotiation skills of the Gambler could make him the brains of a trade or smuggling operation. A Thief may even supplement his abilities with Gambler to mingle among high society and case locations for upcoming jobs.</Description>
+  <Source Page="28">Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>COMP</Key>
+    <Key>COOL</Key>
+    <Key>DECEP</Key>
+    <Key>SKUL</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>CONV</Key>
+        <Key>GRIT</Key>
+        <Key>TOUGH</Key>
+        <Key>UPANTE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction />
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>GRIT</Key>
+        <Key>SECCHANCE</Key>
+        <Key>DEDI</Key>
+        <Key>DOUBLEORNOTHINGSUP</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>SECCHANCE</Key>
+        <Key>CONV</Key>
+        <Key>FORTFAVORBOLD</Key>
+        <Key>NATROG</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>UPANTE</Key>
+        <Key>UPANTE</Key>
+        <Key>CLEVERSOLN</Key>
+        <Key>SECCHANCE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>DOUBLEORNOTHING</Key>
+        <Key>SMOOTHTALK</Key>
+        <Key>NATNEG</Key>
+        <Key>DOUBLEORNOTHINGIMP</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

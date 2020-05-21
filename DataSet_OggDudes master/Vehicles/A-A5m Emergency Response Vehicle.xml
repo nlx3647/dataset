@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AA5M</Key>
+  <Name>A-A5m Emergency Response Vehicle</Name>
+  <Description>[H3]A-A5m Emergency Response Vehicle[h3]
+Developed based on the highly successful A-A5 speeder truck, the A-A5m is a purpose-built emergency response vehicle specifically designed to operate in harsh, inhospitable scenarios, whether unforgiving inclement weather or terrible disasters. Equipped with all the latest medical technology and available with a fully compatible medical droid for a nominally increased price, the A-A5m is the most reliable vehicle when time is of the essence and lives are on the line.
+[P]Medical and rescue personnel, as well as relief workers around the galaxy, have made the A-A5m synonymous with salvation for years. Its expanded sensor suite means that the A-A5m is able to find those in need despite the chaos of a situation while delivering the lifesaving aid it requires. With a limited cargo capacity and the option for further external cargo modules, this workhorse of the Trast stable is fully capable of saving lives and salvaging entire settlements no matter the harrowing circumstances.</Description>
+  <Source Page="58">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Speeder Truck</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>10000</Price>
+  <Rarity>5</Rarity>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>One pilot, one medic/medical droid, one liaison officer</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

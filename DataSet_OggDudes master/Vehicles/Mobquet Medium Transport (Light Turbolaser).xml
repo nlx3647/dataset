@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MOBQUETTRANSPORTLTL</Key>
+  <Name>Mobquet Medium Transport (Light Turbolaser)</Name>
+  <Description>[H3]Mobquet Medium Transport (Light Turbolaser)[h3]
+
+Manufactured by Mobquet Swoops and Speeders, a company that, as its name suggests, is more known for personal repulsorlift vehicles like the Flare-S, their medium transport is a popular cargo hauler. TaggeCo. does significant business with the Galactic Empire, and so its subsidiary Mobquet managed to get this vessel designated as a medium transport rather than a bulk freighter or heavy cargo hauler, thereby avoiding many of the restrictions normally imposed on a vessel of its size.</Description>
+  <Source>Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Transport</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>275000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/engineer, two gunners/crew</Crew>
+  <EncumbranceCapacity>5000</EncumbranceCapacity>
+  <Passengers>90</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-4</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>40</HullTrauma>
+  <SystemStrain>28</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Forward</Location>
+      <Retractable>true</Retractable>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Aft</Location>
+      <Retractable>true</Retractable>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

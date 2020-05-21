@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AT-AP</Key>
+  <Name>All Terrain Attack Pod</Name>
+  <Description>[H3]All Terrain Attack Pod[h3]
+Initially produced during the height of the Clone Wars, the AT-AP self-propelled artillery walker is a small, three-position walker developed from both the AT-PT and the AT-TE. Designed as a self-propelled artillery piece, the walker has an angular armored hull perched atop two multi-jointed legs. Its profile resembles that of the forward hull section of an AT-TE. A smaller, retractable third leg mounted forward of the main walking legs is deployed to steady the vehicle when it moves over difficult ground and to brace it when it fires its big artillery gun. Despite its awkward appearance, the AT-AP is relatively well balanced and is no more prone to stability issues than a bipedal walker.
+[P]The AT-AP's main gun is a powerful, long-range mass driver mounted in the forward hull. This big cannon throws a solid durasteel penetrator at hypersonic speeds over extreme distances and, with proper targeting data, can hit targets beyond visual range. To keep the mass driver on target, the AT-AP is equipped with a sophisticated targeting and data-relay suite combined with integrated recoil compensation and gyrostabilization systems. The deadly accuracy exhibited by these walkers during the Clone Wars earned the AT-AP the nickname "Sniper Tank." In addition to the mass driver, the AT-AP mounts a heavy laser cannon in an open-topped, dorsal-mounted turret for short-range anti-vehicle work and an underslung heavy repeating blaster to protect itself from enemy troops and droids.
+[P]Production of the AT-AP has continued since the fall of the Republic, and the dangerous little walker was adopted by the Imperial Army to support its new AT-AT and AT-ST walkers. New units are still produced today, primarily in older Kuat Drive Yards facilities in the Outer Rim Territories.</Description>
+  <Source Page="55">Knights of Fate</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>100000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, two gunners.</Crew>
+  <EncumbranceCapacity>12</EncumbranceCapacity>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Armor>2</Armor>
+  <HullTrauma>15</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>HEAVYMASSDRIVER</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Key>BLASTHVYREP</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CHARMER</Key>
+  <Name>Charmer</Name>
+  <Description>[H4]Charmer -  The Smooth Operator[h4]
+
+[P]Confident and elegant, the Charmer employs his wits and wiles with more precision than a laser scalpel. Rather than resorting to uncivilized intimidation tactics or distasteful acts of violence, the Charmer believes the best way to get what he wants is to simply ask for it. A Charmer knows how to talk the talk, possessing natural charisma that makes him irresistible. Struck by the flash of his smile or the wink of his eye, people have a hard time denying anything to the Charmer. 
+
+[P]The Charmer combines the silver tongue of a Politico, the street smarts of a Scoundrel, and the keen mind of a Trader. Where the Politico might rally, chastise. or even bribe to achieve his objective, the Charmer showers his mark with flattery. While the Trader relies on his ability to haggle down a price, the Charmer convinces others that lowering the price is their idea. When a Scoundrel resorts to coercion and violence, a Charmer applies a softer touch to disarm his opponents with words alone. 
+
+[P]In addition to the Smuggler's eight career skills, the Charmer also receives [B]Charm, Cool, Leadership,[b] and [B]Negotiation[b] as bonus career skills. If this is the character's starting specialization, he may choose two of these skills and gain one free rank in each without spending starting experience. 
+
+[P]The chief weapon in a Charmer's arsenal is clearly his undeniable charisma. When coaxing his way into a private club or restricted area, the Charmer knows how to compliment without sounding sycophantic. In rare cases when his debonair appearance and refined taste fails him, the Charmer knows how to resort to negotiation and trickery to get his way, doing so with his own smooth brand of flair and style. The Charmer keeps a cool head in the hottest situations, which often serves as inspiration to others, and he has no qualms with taking a leadership role if it furthers his purposes. Whether or not he knows the right thing to say, the Charmer always knows how to say it. 
+
+[P]Despite all his silvered words, the Charmer is no gilded flower. When all else fails, if the Charmer cannot diffuse the situation before it escalates, or cannot convince others to fight in his place, the Charmer holds his own in combat. In a fight, the Charmer can cause opponents to doubt their motives and lower their guard. The Charmer's Smuggler career gives him the knowledge to navigate the underworld, the ability to escape a jail cell, and the skill to steal a starship for a quick getaway. 
+
+[P]A Smuggler who chooses Charmer as his specialization is an exceptional choice for nearly any campaign. His emphasis on social interaction makes the Charmer handy in any intrigue-oriented campaign, but his Smuggler fundamentals and ability to negotiate with merchants, distract would-be attackers, or diffuse combat encounters make him a welcome addition to underworld- or combat-focused campaigns as well.</Description>
+  <Source Page="26">Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>CHARM</Key>
+    <Key>COOL</Key>
+    <Key>LEAD</Key>
+    <Key>NEG</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>SMOOTHTALK</Key>
+        <Key>INSPRHET</Key>
+        <Key>KILL</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>KILL</Key>
+        <Key>INSPRHETIMP</Key>
+        <Key>CONGENIAL</Key>
+        <Key>PLAUSDEN</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>DISARMSMILE</Key>
+        <Key>WORKLIKECHARM</Key>
+        <Key>DISARMSMILE</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>SMOOTHTALK</Key>
+        <Key>CONGENIAL</Key>
+        <Key>JUSTKID</Key>
+        <Key>INTENSPRE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>NATCHARM</Key>
+        <Key>DEDI</Key>
+        <Key>DONTSHOOT</Key>
+        <Key>RESOLVE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

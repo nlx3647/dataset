@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>INVESTIGATOR</Key>
+  <Name>Investigator</Name>
+  <Description>[H4]Investigator - A Living Chronicle[h4]
+
+
+Investigators examine unsolved crimes, using their knowledge and skills to figure out the who, what, when, where, and why. They don't seek this information merely to satisfy some obsession over the ufly side of society but rather to honor the victims by bringing the perpetrators to justice.
+[P]Investigators receive [B]Knowledge (Education)[b], [B]Knowledge (Underworld)[b], [B]Perception[b] and [B]Streetwise[b] as additional career skills. Characters who select this as their starting specialization may choose two  of these skills and gain one free rank in each without spending starting experience.
+[P]Investigators piece together what has been lsot or stolen by uncovering the past. Weaving the stories of what happened into a living chronicle, they discover secrets and untangle lies. Only by undertandint the how and why of a crime can Investigators bring the one who did it to justice.
+[P]Since crimes are inflicted upon (and inflicted by) people these acts leave an impression in the Force. Particularly violent crimes leave a stron disturbance. Extremely evil crimes leave a wound—a cold, dark space that frightens the unwary and consumes the foolhardy. Investigators can tease out details from those impressions, unwinding them so they can heal. In many ways, investigators are physicians for the souls of communities, solving festering mysteries, airing out toxic secrets, and cauterizing hidden crimes.
+[P]These violent impressions can also affect individuals. Even if they haven't witnessed the crime in question, investigators have heard rumors, have felt their community suffer, and can read their peers with the insight of an insider. In many ways, a community functions as a single, living organism, and damage to that organism reverberates in both predictable and surprising ways. By tracing those symptoms, Investigators get to the source.
+[P]Investigators have many tools in their kits besides the Force. Understanding the local customs and language, being familiar with the unspoken rules of a community, and knowing how to bluff their way into a back-room requires knowledge and social skills. Slicing a security camera picking a lock to search an apartment, or staking out a person of interest in an investigation means breaking laws without getting cuaght. And sometimes—oftentimes—successfully sneaking into and out of a building can bring the Investigator one step closer to the truth.
+[P]The greatest tools of Investigators, though, can often become their greatest weaknesses. Their emotions can help them understand a person's motives giving context to a fact. If a perpatrator killed a dangerous drug lord, is that persona  murderer or a savior? However, emotions can cloud an investigator's judgement. If the good friend who saved a life turns out to be a slaver, is it betrayal to turn that friend in? Finally, the constant exposure to suffering can burn out even the most stalwart Investigators.
+[P]In the final analysis, Investigators see crime and victimization as a corruption of the Force. They feel the Force as something that flows through people, affecting their health, psychology, and well-being. A corruption of the Force makes people angrier, more fearful, and more likely to lash out and harm others. These constant cuts caused by crime chip away at a society wouding the Force until the whole society falls to the dark side. Airing out the source of the wound allows the society to finally heal.</Description>
+  <Source Page="24">Endless Vigil</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>EDU</Key>
+    <Key>PERC</Key>
+    <Key>SW</Key>
+    <Key>UND</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>STRSMART</Key>
+        <Key>KEENEYED</Key>
+        <Key>UNCANSENS</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>TALKTALK</Key>
+        <Key>GRIT</Key>
+        <Key>STRSMART</Key>
+        <Key>TOUGH</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>TOUGH</Key>
+        <Key>KEENEYED</Key>
+        <Key>STRSMART</Key>
+        <Key>RECSCENE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>SENSEADV</Key>
+        <Key>UNRELSKEP</Key>
+        <Key>CLEVERSOLN</Key>
+        <Key>SENSESCENE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>VALFACT</Key>
+        <Key>DEDI</Key>
+        <Key>STRSMARTIMP</Key>
+        <Key>FORCERAT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

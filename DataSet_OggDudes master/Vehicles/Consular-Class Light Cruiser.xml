@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CONSLTCRUIS</Key>
+  <Name>Consular-Class Light Cruiser</Name>
+  <Description>[H3][I]Consular[i]-Class Light Cruiser[h3]
+Designed specifically to ferry diplomats and Consulars for the Galactic Republic, the [I]Consular[i]-class light cruiser has been central to some of the most important negotiations and parleys in galactic history. With sufficient armor to survive all but the most concerted attack and sensors, computers, and facilities sufficient to conduct a major system-wide operation, it is easy to see how this ship earned its place in the annals of diplomatic history.
+[P]The long, thin hull of the [I]Consular[i]-class cruiser swells in the middle, containing a comfortable living area and cabin space for important envoys and diplomats as well as quarters for the small, often elite crew. The power and speed of the ship are apparent in the three massive radial atomizer engines. The infamous profile of the [I]Consular[i]-class is completed by the jowly pod that hangs between the ship's towerlike bridge.
+[P]The [I]Consular[i]-class cruiser has no place in the Imperial Fleet today. Those few remaining examples of the class can be found in the Outer Rim. Used primarily by system governments, coporate councils, and trading federations, the ship continues to serve across the galaxy. A major selling point of the [I]Consular[i]-class cruiser is a self-contained module that can act as a completely secure setting for negotiations as well as a fully functional escape pod.</Description>
+  <Source Page="62">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Cruiser</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Capital Ship</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>3000000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>14</HyperdriveBackup>
+  <StarFighters>One salon pod</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srExtreme</SensorRangeValue>
+  <Crew>One captain, one pilot, one co-pilot, one navigator, one comms operator, four engineers</Crew>
+  <EncumbranceCapacity>4000</EncumbranceCapacity>
+  <Passengers>24</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>4</Armor>
+  <HullTrauma>46</HullTrauma>
+  <SystemStrain>24</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Extreme</SensorRange>
+</Vehicle>

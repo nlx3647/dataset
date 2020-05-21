@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HOTSHOT</Key>
+  <Name>Hotshot</Name>
+  <Description>[H4]Hotshot - The Loose Cannon[h4]
+
+Where the Ace Pilot uses hard-won skill, technique, and by-the-book tactics, the Hotshot is naturally gifted, overly aggressive, and makes the rest up as he speeds along. For the Hotshot, risk-taking isn't just a style of flying, it's a way of life. You can always depend on a Hotshot to go for it when he sees an opportunity to achieve a goal. There are few things in the galaxy more impressive than watching a Hotshot when everything is going his way, though it's best to switch channels on the comms, because the only thing a Hotshot likes more than his own flying is bragging about it afterward.
+
+[P]The Rebellion has a nearly endless supply of new Hotshot bush pilots accustomed to racing T-16s on their backwater homeworlds, but very few Hotshot veterans. These courageous freedom fighters prefer improvisation to careful planning, much to their commanders' chagrin. Those Hotshots whose luck never seems to run out quickly become heroes and legends to the rank and file of the Rebel Alliance. 
+[P]Hotshots receive [B]Cool, Coordination, Piloting (Planetary),[b] and [B]Piloting (Space)[b] as additional career skills. If this is the character's starting specialization, he gains one free rank in two of these skills of his choice, without spending experience. The Hotshot keeps his head in the face of overwhelming odds, and has a great degree of control over his chosen vehicle. Finesse and precision flying, combined with the Hotshot's unrestrained bravery, mean that Hotshots prefer to go after the toughest or biggest groups of enemies first, diving headlong into the thickest part of the battle. 
+[P]The Hotshot is all about taking the big risks, both in combat and in life. He rarely considers the consequences or the alternatives. When he sees a chance, he takes it without blinking. This unpredictable and often irrational behavior, combined with the raw talent and control a Hotshot has in the cockpit, makes him a lethal adversary. Of course, there is no reward without risk, and sometimes the Hotshot risks too much. If not for the support of their allies, most Hotshots would probably have died a dozen times over. 
+
+[P]The Rebellion usually puts Hotshots through their paces in simulators before letting them get into a real fight. However, the Rebels can't afford to keep their best combat Aces sidelined for long. Command usually assigns Hotshots to X-wing or A-wing squadrons, or to other light, maneuverable vehicles that take full advantage of a Hotshot's preternatural skill. Veteran Hotshots are usually retired once their value as a symbol eclipses whatever good they might do on the battlefield. High Command often parades them around on low-risk, high-visibility missions, or transfers them to training commands. 
+
+[P]Any group can benefit from the honed dogfighting skills of a Hotshot. However, despite the Hotshot's predilection for flying into combat ahead of his squadron, he works best when he has a team not far behind, cleaning up whatever enemies the Hotshot misses. A vehicle formation with a Hotshot in the lead usually results in a costly engagement for the enemy, as long as the Hotshot's luck holds out.</Description>
+  <Source Page="28">Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>COOL</Key>
+    <Key>COORD</Key>
+    <Key>PILOTPL</Key>
+    <Key>PILOTSP</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>SHORTCUT</Key>
+        <Key>HIGHGTRAIN</Key>
+        <Key>SKILLJOCK</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>SECCHANCE</Key>
+        <Key>GRIT</Key>
+        <Key>SHORTCUT</Key>
+        <Key>HIGHGTRAIN</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>DEAD</Key>
+        <Key>HIGHGTRAIN</Key>
+        <Key>GRIT</Key>
+        <Key>INTENSPRE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>SECCHANCE</Key>
+        <Key>CORSEND</Key>
+        <Key>KOITURN</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>DEADIMP</Key>
+        <Key>CORSENDIMP</Key>
+        <Key>DEDI</Key>
+        <Key>SHOWBOAT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

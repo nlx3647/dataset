@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>YG4400FREIGHTER</Key>
+  <Name>YG-4400 Light Freighter</Name>
+  <Description>
+    [H3]YG-4400 Light Freighter[h3]
+
+Although the design is almost 50 years old, the YG-4400 still holds a sentimental place in most Corellians' hearts. A purpose-built smuggling vessel, the YG-4400 is a small, stocky ship with a blocky body and three bulky engines aft. The powerful engines provide impressive straight-line speed, at the cost of maneuverability. However, this is part of the YG-4400's overall design. 
+
+[P]Between the three engines, CEC's engineers nestled a "getaway" concussion missile launcher. When the YG-4400 makes a run for it, any ships in pursuit find themselves taking point-blank missile-fire. This tends to discourage even the most die-hard customs enforcers. 
+
+[P]Law enforcement officials have long tried to gain injunctions to stop CEC from producing the YG-4400. Of course, megacorporations as powerful as CEC can usually laugh off these legal maneuverings, and CEC keeps full time staff in Coronet simply to deal with such attempts.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>110000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>18</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/gunner</Crew>
+  <EncumbranceCapacity>75</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>2</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>21</HullTrauma>
+  <SystemStrain>14</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Key>CML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

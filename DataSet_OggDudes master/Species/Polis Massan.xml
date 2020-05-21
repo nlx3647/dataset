@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>POLISMASSAN</Key>
+  <Name>Polis Massan</Name>
+  <Description>[H4]Polis Massan[h4]
+Originally hailing from the Outer Rim world of Kal-lidah, the Kallidahin are more often referred to as Polis Massans. They are best known for their vast and intricate archaeological digs in the asteroid field that shares their adopted name. The Polis Massan people have searched for centuries, looking for a link between themselves and an enigmatic species—now extinct—called the Eellayin. Peaceful and isolationist, Polis Massans are experts in the fields of archaeology, medicine, and xenobiology.
+[P][B]Physiology:[b] Polis Massans are a small-bodied species standing an average of 1.4 meters tall. They are descended from a cetacean ancestor, as evidenced by smooth, gray skin covering a thin layer of insulating blubber. With the exception of a pair of expressionless black eyes, Polis Massans possess no facial features at all. Despite this, they are incredibly communicative in their use of gestures, signs, and body language. Though the majority of Polis Massans lack vocal chords, they are able to communicate with others using a simple form of telepathy.
+[P][B]Society:[b] Polis Massan society is based on community, the desire for fulfilling work, and a deep hunger for knowledge. Though they lack a shared consciousness, Polis Massans see their species as a collective in which everyone is supportive of one another and each
+member serves an important role. As such, every Polis Massan views his fellows as siblings. Though there are invariably differences of opinion between individuals, they attempt to bridge these gaps by using their shared ancestry as common ground.
+[P]Polis Massans are kind and pacifistic to a fault. While fully capable of defending themselves, they seldom take up arms due to their belief that all life is sacred. Aggression is not in their nature, and anger and hatred are foreign concepts to them. This often leads to their being taken advantage of, since they rarely, if ever, put up any sort of struggle when their interests are threatened.
+[P]The overwhelming focus of the Polis Massan people is their attempt to find some link between themselves and the Eellayin. They view the Eellayin as kin, however distant, who were lost to some unknowable apocalypse. They seek to keep the memory and works of this mysterious species alive through their own research, even going so far as to attempt to clone them from Eellayin genetic material discovered in their explorations of the asteroids’ depths.
+[P][B]Homeworld:[b] The Polis Massans are originally from Kallidah, a moist and temperate world in the Subterrel sector. Soon after establishing a base on Polis Massa in an attempt to research the Eellayin people, the entire species relocated to the barren asteroid in order to support the excavations there. Though Kallidah is relatively close to Polis Massa, the Polis Massans have found no reason to return to their original homeworld.
+[P]Polis Massa is the largest asteroid in the Polis Massa Asteroid Field. The field is composed of countless fragments of the Eellayin homeworld, which was destroyed by some kind of cataclysm long ago. Though the asteroid is airless and incapable of supporting life, the Polis Massans have established a number of outposts where they can live and perform their research in peace.
+[P][B]Language:[b] The native language of the Polis Massan species is known as Massan. Because few Polis Massans possess vocal chords, the language is a combination of elaborate signs, body language, and telepathy. Though they are able to learn the languages of other species, the average Polis Massan lacks the organs required to actually speak them. A rare few Polis Massans do possess vocal chords, however, and many such individuals have proven to be skilled linguists.
+[P][B]Life in the Rebellion:[b] While Polis Massans have long supported the Rebel Alliance indirectly, it is a rare individual who actively seeks to fight against the Empire in a more direct capacity. When a Polis Massan does join the Rebellion, it is often in the role of a doctor, medic, or other healer. Polis Massan scholars have also been known to join the Alliance for a chance to see other parts of the galaxy for themselves and to meet members of other alien species first hand.</Description>
+  <Source>Strongholds of Resistance</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>8</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>MED</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>POLISMASSANCH1</Key>
+      <Name>Vocal Chords</Name>
+      <Options>
+        <Option>
+          <Key>POLISMASSANCH1OP1</Key>
+          <Name>No Vocal Chords</Name>
+          <Description>
+            A vast majority of Polis Massans are born without vocal chords.
+          </Description>
+        </Option>
+        <Option>
+          <Key>POLISMASSANCH1OP2</Key>
+          <Name>Posesses Vocal Chords</Name>
+          <Description>
+            A small minority of Polis Massans do possess vocal chords.  Referred to as "speakers" by their people, these rare individuals can physically speak languages, though their voices are soft and strangely resonant.
+          </Description>
+          <StartingAttributes>
+            <Experience>-10</Experience>
+          </StartingAttributes>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>POLISMASSANCH2</Key>
+      <Name>Communication</Name>
+      <Options>
+        <Option>
+          <Key>POLISMASSANCH2OP1</Key>
+          <Name>Telepathy</Name>
+          <Description>Polis Massans can communicate with other beings using a simple form of telepathy.  At short range, this is akin to a broadcast, and any being will "hear" what the Polis Massan says.  They can "whisper" to individuals at engaged range.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

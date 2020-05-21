@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DRIVER</Key>
+  <Name>Driver</Name>
+  <Description>[H4]Driver - The Need for Speed[h4]
+
+[P]Pilots are great for traveling from one system to another, but it's the Drivers that move beings around once they hit dirtside. While nearly anyone can manage the basics of a ground vehicle or a speeder, a Driver is priceless when the blaster bolts start flying or the weather turns particularly nasty. It's one thing to know how to go forward and back and how to apply the breaks. It's another thing entirely to know how far one can flip a speeder over to one side without stalling while skirting the wall of a canyon, swerving through rocky outcroppings and avoiding a hail of plasma fire from the swoop gang that's chasing the group.
+
+[P]Drivers understand the machines they operate, and they are exceptionally skilled with nearly anything that moves from one place on a planet to another, typically demonstrating some higher level of style or finesse. 
+
+[P]In addition to the skills that round out an Explorer, Drivers have access to [B]Cool, Gunnery, Mechanics,[b] and [B]Piloting (Planetary)[b] as their bonus career skills. If this is the character's starting specialization, he may choose two of these skills and gain one free rank in each without spending starting experience. As always, remember that no starting skill may have higher than two ranks. 
+
+[P]Drivers are highly valued almost anywhere they go. Companies, military and security units, governments, and criminal factions all have a regular need for those who can transport personnel and goods over a planet's surface. Additionally, more than a few planets in the Outer Rim have traditions of racing of one style or another, and Drivers are naturals for being able to enter such competitions and walk away with a decent purse. Naturally, this depends on their skill and their ability to avoid being killed by other Drivers. 
+
+[P]An Explorer with a Driver specialization is a natural fit for almost any Player Character group. His basic skill set as an Explorer is already helpful, and his talents for moving the group around on a planet automatically make him exceedingly valuable. This is especially true when the inevitable situation arises demanding a quick getaway under a hail of blaster fire.</Description>
+  <Sources>
+    <Source Page="67">Age of Rebellion Core Rulebook</Source>
+    <Source Page="29">Enter the Unknown</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>COOL</Key>
+    <Key>GUNN</Key>
+    <Key>MECH</Key>
+    <Key>PILOTPL</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>FULLTH</Key>
+        <Key>ALLTERDRIV</Key>
+        <Key>FINETUN</Key>
+        <Key>GEARHD</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>1</Index>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>GRIT</Key>
+        <Key>SKILLJOCK</Key>
+        <Key>RAPREA</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>2</Index>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>FULLTHIMP</Key>
+        <Key>TRICK</Key>
+        <Key>FINETUN</Key>
+        <Key>TOUGH</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>3</Index>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>DEFDRI</Key>
+        <Key>SKILLJOCK</Key>
+        <Key>NATDRIV</Key>
+        <Key>GEARHD</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>4</Index>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>FULLTHSUP</Key>
+        <Key>FULLSTOP</Key>
+        <Key>MASDRIV</Key>
+        <Key>DEDI</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

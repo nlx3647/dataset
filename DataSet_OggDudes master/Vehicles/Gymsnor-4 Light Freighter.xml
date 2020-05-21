@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GYMSNOR4</Key>
+  <Name>Gymsnor-4 Light Freighter</Name>
+  <Description>[H3]Corellispace Gymsnor-4 Light Freighter[h3]
+
+The Gymsnor-4 was CorelliSpace's fourth and final model in its light freighter series. A radical redesign from previous models, the Gymsnor-4 is a flying wing with a cockpit (which, like that of its predecessor, can separate and act as an escape pod) attached to the body by a narrow neck, giving the vessel an appearance resembling a mynock, something not lost on most spacers. Despite boasting several significant improvements over its predecessor, the Gymsnor-4 never managed to make a large impact on the light freighter market, spelling the end for CorelliSpace's aspirations to challenge CEC. While few Gymsnor-4 freighters can be found outside of Corellian space, the pilots and traders who operate them tend to view the ships fondly.
+
+[H4]Modular Cockpit[h4]
+As an action, the pilot may disconnect the cockpit, abandoning the rest of the vessel.  The craft's silhouette becomes 2 and its encumbrance capacity becomes 10.  Anything in the back of the ship (potentially including systems and attachments) is left behind.</Description>
+  <Source>Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>95000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/engineer</Crew>
+  <EncumbranceCapacity>160</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

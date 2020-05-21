@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>QUERMIAN</Key>
+  <Name>Quermian</Name>
+  <Description>
+    [H4]Quermian[h4]
+
+  The Quermian species is an offshoot of the Xexto, produced through genetic tampering long ago by Arkanian scientists. Though larger than their Xexto cousins, Quermians tend to be less physically adept; they rarely make full use of their great height or the extended reach of their four arms. Most rely instead on the extensive mental processing power offered by their dual brains which they use to read other species for their own benefit/
+[P][B]Physiology:[b] The Quermians are a tall, spindly species with slender torsos surrounded by six limbs—including two pairs of arms—and extended necks nearly as lenthy as the trunks from which they  rise. Their skin tends toward a pale, ashen hue and is frequently wrinkled with slight folds. Their faces hav only smooth skin where the nose is found on many other species, instead, olfactory organs on their hands perform the function of detecting scents.
+[P]Like the Xexto, Quermians have two brains, one in their head and one in their chest. Unlike their cousins, who divide different functions between the two brains, Quermians each have two fully developed brain. In some Quermians each of the two brains even develops its own seperate personality. In Quermians  who are controlled by a unified minds, the secondary brain operates in tandem with the first, processing input with a level of detail and insight that can seem uncanny to many other species. In particular, the dual brains of the Quermians allow them to read otherwise undetectable signals in the body language of any species. Quermians sometimes expose this understanding to communicate silently through minute shifts in posture, alling them to act in concert without any words being exchanged. The level of insight and communication Quermians are known to display has given them a strange reputation among other species who sometimes suspect them of possessing further gifts of even an innate force sensitivity.
+[P][B]Society:[b] Quermian society is largely focused inward, with a simple, communal lifestyle allows that individuals to concentrate on their own needs. By the standards of most advanced societies, the Quermians consume very little. Many members of the species spend much of their time on intangable pursuits such as philosophy or the production of art, literature and music. The nature of Quermian intuition and communication is such that members of their society who want for basic necessities are easy to identify, and swift aid is typically rendered to these individuals. Even the most selfish Quermians can rarely stomach reading the pain of these felows for long.
+[P]When in the company of sentients outside their species, Quermians often operate very differntly. Their ability to read other species is not as sharp as their understanding of each other. However, it does offer them an edge in most social maneuvering, giving them something of a reputation as manupulators or hucksters. Certainly, some Quermians revel in their ability to so easily discern hidden motives and desires, although many simply use the talents to avoid being manipulated themselves.
+[P][B]Homeworld:[b] The ancestors of  modern Quermians were named for Quermia, the world on which the Arkanians settled them. After the ancient Arkanians moved on, the Quermians developed their own society, centered on a largely peacful communal lifestyle and the contemplation of philosophy. The long peace of Quermian society can at least partially be attrubuted to the ease with which the species is able to communicate and share its feelings and concerns.
+[P]Of course, Quermia's history is not entirely peaceful, although strife usually has come from outside influence, rather than internal struggles. During the Clone Wars, Quermia was isolated from the Republic in Seperatist space, and it suffered heavily under an extensive blockade. With the fall of the Seperatist cause, the blockade was lifted, but Imperial rule is not usually considered a substantial improvement among the generally peaceful Quermians. Given the Empire's propaganda campaign agains the Jedi and its purges of Force users, some Quermians even fear that their frequently misunderstood talents might lead the Empire to take drastic measures against them.
+[P][B]Language:[b] The Quermian language, which goes by the same name as the speies, is known mostly for its melodious sound. However, it is also a language with a great deal of specialized vocabularly, developed over the species' long history of philosophical introspection. Although most Quermians also speak fluent Basic, they take great pride in their own language, enjoying it for its sound as well as for the ease with which it can express complex abstract concepts.</Description>
+  <Source Page="98">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>85</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>PERC</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>QUERMOC1</Key>
+      <Name>Combat</Name>
+      <Options>
+        <Option>
+          <Key>QUERMOC1OP1</Key>
+          <Name>Additional Limbs</Name>
+          <Description>Quermians have four arms and gain an additional free maneuver per turn.  They still may not perform more than two maneuvers per turn, however.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

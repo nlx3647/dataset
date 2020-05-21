@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AIRSPEEDERARROW7</Key>
+  <Name>Arrow 7 Airspeeder</Name>
+  <Description>
+    [H3]Arrow 7 Airspeeder[h3]
+
+The Arrow-7 airspeeder is manufactured and sold by Aratech Repulsor Company. It requires one pilot to operate, and has room for three passengers. The back of the airspeeder contains enough room to mount a rack of blaster rifles.</Description>
+  <Source>Jewel of Yavin</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>12000</Price>
+  <Rarity>2</Rarity>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <HullTrauma>2</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Key>BLASTLTREP</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

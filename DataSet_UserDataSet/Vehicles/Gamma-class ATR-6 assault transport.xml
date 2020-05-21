@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATR6TRN</Key>
+  <Name>Gamma-class ATR-6 assault transport</Name>
+  <Description>[H3]Gamma-class ATR-6 assault transport[h3]
+
+The Gamma-class ATR-6 assault transport was a heavily armed and shielded vessel produced by KonGar Ship Works for transporting stormtroopers and conducting boarding actions against starships and space stations. The Rebel Alliance and various pirate factions also made wide usage of the craft.
+
+Like the preceding Delta-class DX-9 transport, the ATR-6 had two general purpose warhead launchers, and a pair of forward-firing ion cannons. Both were designed to ferry troops into the combat zone to capture enemy craft.
+
+Unlike the Delta-class DX-9 transport, the ATR-6 has no frontal laser cannons. However, it more than made up for it with its four turrets, on the top, bottom, and both sides, which covered all arcs. This allowed the ATR-6 to fire upon its target without having to fly directly at it, giving it more opportunity to inflict damage. It also crucially enabled the ATR-6 to fend off all but the most concentrated starfighter attacks on its own. Its turrets, coupled with heavier shielding, and armor, allowed the ship to press attacks in the face of heavy fire, relying less upon supporting starfighters to soften up well defended targets.
+The ATR-6 also featured stronger shields and a more heavily reinforced hull than the DX-9. While the DX-9 could be destroyed with a pair of proton torpedoes, it was reported that an ATR-6 could survive three hits from such warheads.
+A further development of the ATR-6 was the Beta-class ETR-3 escort transport. The ETR-3 retains the ATR-6's base hull, giving it approximately the same size same troop-carrying capacity. However, the ETR-3 has an additional dorsal pod, reintroduces frontal laser cannons, and has stronger shields and reinforced armor. The ATR-6, however, remained the mainstay of the forces already using it.
+</Description>
+  <Source>User Data</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Armored Transport</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Rarity>8</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>15</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>40</Passengers>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-4</Handling>
+  <DefFore>3</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>5</Armor>
+  <HullTrauma>50</HullTrauma>
+  <SystemStrain>25</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>8</Count>
+        </Quality>
+        <Quality>
+          <Key>SLOWFIRING</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

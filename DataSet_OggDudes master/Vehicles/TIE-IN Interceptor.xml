@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIEIN</Key>
+  <Name>TIE-IN Interceptor</Name>
+  <Description>
+    [H3]TIE-IN Interceptor[h3]
+
+Referred to as "fast movers" by many Alliance fighter pilots, the Imperial Navy's TIE/in light interceptor is one of the most feared fightercraft in the Empire's arsenal. A development of the standard TIE/In space superiority fighter, the TIE interceptor is even faster, more agile, and, if possible, more fragile than its hangar mates. These fighters are reserved for the finest pilots in the Imperial Navy, as their inherently unstable design and lightning fast agility require an incredible amount of flying prowess to tame. Relatively rare among Imperial fighter squadrons, TIE/in squadrons are typically reserved for front-line battle groups. There, they are used as shock troops, screaming in on enemy fighters and destroying them with their powerful quad-linked heavy blaster cannons before their unfortunate targets know what's hit them. 
+
+[P]TIE/in interceptors and their pilots are regarded by their counterparts in the Alliance with a mixture of respect, admiration, and dread. They are considered to be mad or suicidal, or probably both, by those with the luxury of a shielded fighter with a reliable hyperdrive, systems that the TIE/in pilots must do without. Their skill as pilots is without question, and the bravery they show entering combat in their extremely fragile and near-uncontrollable fighters engenders grudging respect from even the most hard-line Rebel in the fleet. TIE interceptors are not to be underestimated, a lesson learned the hard way by many a cocky or ill-prepared Alliance pilot.</Description>
+  <Source>Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Price>75000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>4</EncumbranceCapacity>
+  <Consumables>Two days</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>6</Speed>
+  <Handling>3</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Wingtip</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

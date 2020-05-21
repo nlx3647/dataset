@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>EXSUBM</Key>
+  <Name>Explorer Submersible</Name>
+  <Description>[H3]Hydrospeare Corp Explorer Submersible[h3]
+[P]Designed for underwater exploration and combat, Hydrospeare Corporation’s Explorer is a durable submersible walker. Standing six meters tall and over nine meters in diameter, with four legs ending in sconcelike grips, the Explorer is capable of navigating nearly any underwater terrain with ease at relatively high speeds.
+[P]Fielded by the Empire for underwater operations, the Explorer saw extensive use during the Imperial subjugation of Mon Cala. Following the expulsion of Imperial forces from the Mon Calamari homeworld, scores of these powerful vehicles were left behind, subsequently captured, and eventually given over to the Rebel Alliance.
+[P]The biggest drawback of the Explorer is the cramped nature of its interior. With the exception of the turret gunner, all crew members must lie flat on their bellies during the walker’s operation. To make matters worse, the passenger space amounts to little more than a tiny area more akin to a trunk than a passenger compartment.</Description>
+  <Source>Strongholds of Resistance</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Submersible</Type>
+  <Categories>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>55000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, two gunners</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>1 week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Armor>3</Armor>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>BLASTCANHVY</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

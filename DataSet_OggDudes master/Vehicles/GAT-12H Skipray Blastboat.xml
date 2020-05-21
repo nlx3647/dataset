@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GAT12HSKIPRAY</Key>
+  <Name>GAT-12H Skipray Blastboat</Name>
+  <Description>
+      [H3]GAT-12H Skipray Blastboat[h3]
+
+Another pre-Clone Wars design, Sienar Fleet Systems'. Skipray Blastboat is a heavily armed and armored patrol craft and gunboat descended from the ancient Turbostorm-class gunships used by the Old Republic. Officially listed as a patrol boat in SFS advertising, the Skipray seems to defy classification. Slightly larger than a typical heavy starfighter, these ships consist of a narrow, heavily reinforced and armored forward hull section and an aft rotating wing and pylon section. The forward section houses the four crew in a reinforced command cabin. Two short canards angle down from the sides of the cockpit, each equipped with a Siep-Irol Omni-Vu sensor array that gives the Skipray exceptional battlespace awareness. The forward hull section also houses the majority of the ship's weapons systems, with an ion cannon, proton torpedo launcher, and concussion missile launcher clustered in the nose and a turret-mounted twin laser cannon aft of the cockpit on the ship's dorsal ridge. The rotating wing assembly that makes up the aft third of the ship consists of two swept-forward wings connected to an armored collar rotating around the ship's powerful single ion engine. The wings are deployed in a vertical configuration for flight and rotate horizontally for landing, and each is tipped with an ion cannon. 
+
+[P]Although it was initially designed for use by the Imperial Navy as a heavy, hyperspace-capable starfighter, it was largely rejected by the Admiralty as it didn't fit into the Navy's rigid order of battle, which at the time eschewed heavy, multi-crewed fighters. In response, SFS began selling the Skipray on the open market. There it garnered a loyal following among both planetary defense forces and the various corporate, mercenary, and pirate fleets that operate in the Outer Rim. Skiprays make a deadly and competent patrol and anti-shipping vessels, and can easily threaten ships many times their size. </Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Patrol Boat</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>150000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One Pilot, One Co-Pilot, One Comms/Sensor Operator, Two Gunners</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Consumables>One Month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>4</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>2</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>CML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DELTA7STAR</Key>
+  <Name>Delta-7/7B Aethersprite Light Interceptor</Name>
+  <Description>
+    [H3]Delta-7/7B Aethersprite Light Interceptor[h3]
+
+Released with much fanfare three decades ago, Kuat Systems Engineering's Delta-7 Aethersprite-class light interceptor was a revolution in small starfighters. The Aethersprite was designed to replace the aging Delta-6 in military, paramilitary, and private defense forces. Like its Delta-6 forebear, the Delta -7 has a long, narrow, arrowhead-shaped hull with two forward-mounted medium laser cannons and an aft-mounted cockpit with bubble canopy. Longer than the old Sprite interceptor, the Aethersprite features more powerful engines, better maneuvering systems. a higher-resolution sensor suite, and improved targeting and life support systems. The most dramatic evident change is the inclusion of an astromech droid to handle fire control and hyperspace navigation duties. The droid allows the Delta-7 to interface with the Syliure-31 hyperspace docking ring, giving the tiny ship good medium-range hyperspace capabilities. 
+[P]From the outset, the Delta-7 showed excellent promise as a light interceptor and reconnaissance starfighter. Purchased in large numbers by the Republic Judicial Department and fielded by the Jedi Order, the Delta-7 quickly proved its worth. Most Aethersprites were lost in action during the Clone Wars, and many that survived have languished for decades In hangars and scrapyards throughout the Outer Rim.</Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>78000</Price>
+  <Rarity>6</Rarity>
+  <Crew>One pilot, one astromech droid</Crew>
+  <EncumbranceCapacity>4</EncumbranceCapacity>
+  <Consumables>5 days</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>2</Handling>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>7</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

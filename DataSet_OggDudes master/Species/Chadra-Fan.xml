@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CHADRA</Key>
+  <Name>Chadra-Fan</Name>
+  <Description>
+    [H4]Chadra-Fan[h4]
+
+There are few species in the galaxy as gregarious or as overwhelmingly cheerful and talkative as the Chadra-Fan. The enthusiastic rodents have propagated throughout the galaxy as free traders or slaves, enjoying life in what they view as a series of exciting adventures. Though bereft of any formal training, most Chadra-Fan are accomplished mechanics, and fiddle with almost every device they encounter. As such, shopkeepers have a tendency to lock their display cases if a Chadra-Fan walks in. 
+
+[P][B]Physiology:[b] Descended from small, mammalian tree-dwellers, the Chadra-Fan have retained a natural climbing ability. As a species, Chadra-Fan are small, rodent-faced humanoids covered in short, thick fur, ranging in color from a light tan to dark umber or black. Their faces have large black eyes, massive, bat-like ears, and four nostrils at the end of a short snout, which ends in buckteeth. Chadra-Fan sometimes wear long dresses and smocks over their furry bodies, though they are just as often seen wearing little more than a tool belt.
+
+[P]Chadra-Fan have sharp senses. Their vision extends into the infrared range, and their hearing likewise extends into much higher ranges than most humanoids. Their upper nostrils are chemoreceptive, enabling them to sample pheromones, which they can also exude. These scent markers are crucial in distinguishing males from females, and in Chadra-Fan courting rituals. Chadra-Fan metabolism is very high, and their sleep cycle is divided into brief, two-hour naps. 
+
+[P][B]Society:[b] The overly social Chadra-Fan are friendly to a fault, and they have a tendency to latch on to almost everyone they meet. It is common to insult someone by saying they have a personality only a Chadra-Fan could love. However, while the Chadra-Fan enjoy the company of anyone and everyone, they don't do particularly well on their own. A number of Chadra-Fan have actually died of loneliness when forced to spend extended periods of time in solitude. Depression and other psychological maladies are common among those who have endured stretches of time without company. 
+
+[P]On Chad, the Chadra-Fan live in small cyperill tree-top dwellings connected by a series of makeshift bridges and platforms. Over the past few centuries, the planet has suffered several ocean floor groundquakes that created powerful tsunamis, including a gargantuan disaster a decade ago that wiped out most life on the planet. These giant waves have destroyed most Chadra-Fan attempts at urbanization, limiting them to the flexible cyperill trees. The tsunamis have also created an unnatural fear of drowning and water in general across the species. 
+
+[P]The storms are so central to Chadra-Fan life that many still follow a religion organized around a deity thought to live at the bottom of the ocean. This deity controls the entire ocean, and when the Chadra-Fan upset Him, He fans His tail violently and creates a tsunami. The religion is ancient, and though only a small percentage are devote, most every Chadra-Fan is aware of it. 
+
+[P]Due to these frequent disasters, the Chadra-Fan often find themselves picking up and rebuilding elsewhere. Asa result, the concepts of personal space and private property are foreign to them, and Chadra-Fan infamously tinker with strangers' technological items without asking permission. This irresistible compulsion often gets them into trouble. 
+
+[P]Demand for Chadra-Fan scratch-built technology is growing, thanks to a recent movement that treats the gadgets like masterful sculptures. These gizmos are cobbled together from spare parts and common items and components adapted for unexpected uses, with a Chadra-Fan kit-basher's design aesthetic. Custom-built devices often go for top credit in silent auctions, thanks to a number of major corporate representatives with an eye for patent chasing added to the bidding wars. Chadra-Fan are popular in engineering think-tanks because of their unorthodox approach to cannibalizing existing technology and re-purposing it as something unexpected. 
+[P][B]Homeworld:[b] Also known as Chad Ill and Chadra, Chad is a sparsely populated water world located just off the Perlemian Trade Route in the Outer Rim's Jospro sector. Chad has an eccentric orbit that makes it alternately the third or fourth planet in the Chad system. Chad has nine moons, which contribute to a complex tide system that can create massive tsunamis with only the slightest influence from semi-regular groundquakes. The Chadra-Fan live in treetop cities among the cyperill bayous, while human colonists live onboard massive rancher-arks. 
+
+[P]Chad is an agriworld, and one of the largest exporters of milk in the galaxy. The lactil is a docile, hoofed herd beast that generates a large quantity of milk despite the scarcity of grazing land. Chad is well-regarded throughout the galaxy for their cheese and gourmet caf creamer. Despite the popularity of their dairy products, the bulk of Chad's agricultural exports are water-based.
+
+[P]Chadra-Fan farm wander-kelp and slugs in paddies, most of which are exported as feed for herd animals, though the wander-kelp also has medicinal properties with applications across the galaxy. The bravest Chadra-Fan and human colonists live in large ocean platforms or mobile arks, where they live as ranchers, raising the massive, corvette-sized bildogs and docile sea cows. Most of these ranches have a remote-controlled buoy system that emits a shock if a branded creature swims too close. Ranchers often tend their herd from the back of a cy'een, tsaelke, or methnap, three very similar, long-necked amphibians known for their grace in the water and melodic calls. 
+
+[P][B]Language:[b] The Chadra-Fan have a native language of high-pitched chitters and squeaks that reach into the ultra-sonic range. Due to the limits of most humanoid hearing and vocal chords, Chadra-Fan not fluent in Basic often need an interpreter or protocol droid. However, most Chadra-Fan speak Basic, thanks to dozens of human colony arks floating on Chad's oceans. The Chadra-Fan language does not use a pause or silence to separate words or thoughts, and as a result, they tend to speak Basic very quickly, endlessly stringing words and sentences together without pause. Their Basic comes out high-pitched and squeaky, and can quickly grate on those with a preference for peace and quiet.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>3</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>MECH</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>CHADAB1</Key>
+      <Name>Perception</Name>
+      <Options>
+        <Option>
+          <Key>CHADAB1OP1</Key>
+          <Name>Acute Senses</Name>
+          <Description>
+            Chandra-Fan remove up to [REMSETBACK][REMSETBACK] from Perception checks due to superior senses.
+          </Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>PERC</SkillKey>
+              <SetbackCount>2</SetbackCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>CHADAB2</Key>
+      <Name>Size</Name>
+      <Options>
+        <Option>
+          <Key>CHADAB1SIZ</Key>
+          <Name>Reduced Silouette</Name>
+          <Description>
+            Chadra-Fan have a Silhouette of 0.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

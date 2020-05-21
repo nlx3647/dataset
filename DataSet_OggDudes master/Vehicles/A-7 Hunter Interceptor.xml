@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>A7HUNTER</Key>
+  <Name>A-7 Hunter Interceptor</Name>
+  <Description>
+    [H3]A-7 Hunter Interceptor[h3]
+
+The A-7 Hunter Interceptor was Kuat Drive Yards' updated snub fighter entry into the inexpensive starfighter market in the years following the Clone Wars. As KDY provided Imperial Star Destroyers and other starships to the Imperial fleet, many Imperial officers felt the company was the logical choice to supply fighters as well. Some arranged procurement of the A-7 for their own vessels. When Sienar Fleet Systems' cheaper TIE fighters became the standard Imperial fighter, the A-7 was relegated to lesser roles and locales. Eventually, the A-7s were sold off to planetary governments, corporations, and selected paramilitary organizations. They became a staple of mercenary units, and inevitably trickled into pirate and criminal fleets. 
+
+[P]The A-7 is a basic short-range fighter, with no hyperdrive or shields, and limited weaponry. It is comparable to the TIE fighter, its main marketplace competitor.</Description>
+  <Source>Dangerous Covenants</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>80000</Price>
+  <Rarity>6</Rarity>
+  <StarFighters>None</StarFighters>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>4</EncumbranceCapacity>
+  <Consumables>One day</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>2</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SS54</Key>
+  <Name>SS-54 Light Assault Gunship</Name>
+  <Description>[H3]SS-54 Light Assault Gunship[h3]
+Botajef Shipyards is a small shipbuilding concern located on the Outer Rim world of Botajef. A relative newcomer to the galactic shipbuilding industry, its most famous product is the hulking AA-9 Coruscant-class freighter, which brought the company to prominence during the Clone Wars. Recently, the company has branched out and entered the military starship market with the release of the SS-54.
+[P]Designed to compete with the likes of the GAT-12 Skipray and the [I]Firespray-31[i]-class patrol craft, the SS-54 is a small, relatively fast vessel built for short-range patrols and ground attack. Vaguely insect-like in profile. SS-54s have a bulbous, well-armored command deck and a hull that tapers from the large prow to a high, squared-off stern similar to that of a LAAT/c heavy vehicle carrier. The ship's engines-a pair of powerful Incom HA-980a H/O ion engines-are mounted on the ends of short, adjustable spars that extend from the ship's sides. The interior of the SS-54 is largely open, with room enough for a squad of troops or a handful of passengers to ride in relative comfort. Standard armament consists of four fire-linked laser cannons mounted forward in the prow and a twin light laser turret mounted dorsally just aft of the engine spars.
+[P]Since its introduction, the SS-54 has gained a small but loyal following among mercenaries and bounty hunters.Among its users, this ship has a reputation as a simple, reliable, and versatile vessel that can fill a number of roles remarkably well.</Description>
+  <Source Page="58">Knights of Fate</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Gunship</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>110000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot.</Crew>
+  <EncumbranceCapacity>30</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>14</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

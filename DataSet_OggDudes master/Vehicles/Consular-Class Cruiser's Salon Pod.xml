@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CONSSALONPOD</Key>
+  <Name>Consular-Class Cruiser's Salon Pod</Name>
+  <Description>[H3][I]Consular[i]-Class Cruiser's Salon Pod[h3]
+Located directly beneath the bridge of the standard-format [I]Consular[i]-class cruiser, the salon pod is a multiuse module that can serve as a lounge for the crew or passengers, a conference room for conducting delicate negotiations, or an escape pod. The salon is completely shielded to defeat any attempts at surveillance or recording and is heavily armored against any form of attack. Once the salon pod has been released from the cruiser, it has limited autonomous flight capability and should be able to reach any planet within its current system in a matter of days. The Salon pod's piloting station is hidden within one of the couches lining the circumfrence of the chamber, allowing a pilot to access rudimentary senorm communications, and flight operation systems. A holoprojector, conference table, and other paraphernalia usually occupying the center of the space are stowed beneath the deck plating after ejection, while the couches and chairs are easily transformed into crash couches for reentry, should that prove necessary. Due primarily to its dual role, the salon pod is considered by many to be the most comfortable escape craft in the galaxy.</Description>
+  <Source Page="63">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Salon Pod</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Rarity>5</Rarity>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-4</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>T65BXWING</Key>
+  <Name>T-65B X-Wing Starfighter</Name>
+  <Description>
+    [H3]T-65B X-Wing Starfighter[h3]
+
+Incom's T-65B X-wing is the Rebel Alliance's primary force projection starfighter. A powerful, capable, easy to fly starfighter, the X-wing combines speed and hitting power into a potent package. These new fighters were brought into the Alliance Fleet to replace the aging Koensayr Y-wings and to provide more versatility in starfighter operations for Alliance commanders. Designed by Rebel sympathizers within Incom's fighter design bureau, these ships were acquired by the Rebellion after a daring raid orchestrated by Alliance intelligence and Incom executives on a lightly guarded Incom test facility netted the Rebels not only two full squadrons of brand-new fighters, but also the plans for building them. The blueprints were immediately disseminated to numerous shipyards under Rebel control, and production started within weeks of the raid. 
+
+[P]X-wings are a true multi-role fighter, extremely effective in numerous missions from reconnaissance to attack to ship-to-ship dogfighting. With its four powerful Incom 4L4 engines and advanced avionics, the X-wing is more than a match for the Imperial TIE fighters, and its loadout of four linked T&amp;B laser cannons and proton torpedo launchers makes it a serious threat to gunboats and small capital ships, especially when X-wings are deployed in large groups. In large battles, the X-wing acts as an escort fighter, keeping enemy fighters away from slower-moving attack fighters and bombers and protecting the precious Alliance capital ships. Thus far, the X-wing has proven to be an incredible asset to the Alliance. Some Rebel tacticians suggest that it is the game changer the Alliance needs to succeed against the Empire. Thanks to its numerous high-profile victories in its short service and to the daring way in which it was acquired, the X-wing has quickly become a symbol of Rebel ingenuity, resilience, and fighting spirit.</Description>
+  <Sources>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Source>Force and Destiny Core Rulebook</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>120000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <Crew>One pilot, one astromech droid</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>SFoil</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>6</Count>
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

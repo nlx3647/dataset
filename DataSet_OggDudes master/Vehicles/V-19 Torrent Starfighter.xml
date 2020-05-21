@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>V19TORRENT</Key>
+  <Name>V-19 Torrent Starfighter</Name>
+  <Description>[H3]V-19 Torrent Starfighter[h3]
+Introduced during the Clone Wars, V-19 Torrent still see use in the Outer Rim among local planetary governments large corporations, free traders, and pirates. Although they were originally produced without hyperdrives, later models were equipped with them and virtually all early models were retrofitted to make them hyperspace capable. Fast and maneuverable, with decent armor and good firepower, Torrents are still respectable starfighters despite their age and lack of deflector shields. The V-19s' distinctive trio of folding airfoils combined with powerful repulsorlift engines make them excellent at vertical take off and landing, though they can also make these ships somewhat tempermental to handle for inexperienced pilots. </Description>
+  <Source Page="57">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>75000</Price>
+  <Rarity>4</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>6</EncumbranceCapacity>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>2</Handling>
+  <Armor>3</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>9</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASCAN</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>CML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

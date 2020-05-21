@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BLADEWING</Key>
+  <Name>Prototype-B6</Name>
+  <Description>[H3]Prototype-B6[h3]
+Prototype-B6, also known as the Blade Wing, is a one-off starfighter that served as the prototype for the Rebellion’s powerful B-wing heavy attack starfighter. Hand-built in a floating junkyard by an elderly and cantankerous Mon Calamari naval engineer named Quarrie, the B6 was as much a design exercise as his attempt to build a functioning starfighter. Long and thin, this proto-B-wing is a rough-hewn machine clearly assembled from secondhand, reclaimed, and recycled parts. Despite its unpromising looks, after a stunning maiden flight in which it destroyed an Imperial Navy [I]Arquitens[i]-class light cruiser and broke a blockade, the fighter and its creator were brought into the resistance’s early research divisions for further research and development.
+[P]When first discovered by resistance operatives, the Blade Wing already exhibited most the features that would eventually be built into the B-wing: a long, narrow, dagger-shaped fuselage with two short, variable-geometry S-foils tipped with weapon clusters. One end of the fuselage holds the one-position cockpit in a gyroscopically stabilized ring that allows the entire fuselage to rotate around it. A second, smaller pod mounted opposite the cockpit houses a gunner, who operates many of the ship’s weapon systems. Four massive ion engines provide copious amounts of thrust and give the prototype incredible straight-line speed, while a finely tuned repulsorlift generator and a handful of maneuvering thrusters give the big fighter a surprising amount of agility.
+[P]In an attempt to see just how much firepower he could fit in his revolutionary new fighter, Quarrie jammed as many weapon systems into the Blade Wing as he could find. Auto-blasters, ion cannons, various calibers of laser cannons, and a pair of ordnance launchers salvaged from a Skipray patrol craft make up the ship’s primary weapons loadout. Not content with this, Quarrie has designed a unique fire-linking system that draws power from all weapon systems-along with the shields, engines, and numerous other systems by accident-to create an ersatz energy weapon he calls the composite laser weapon, or CLW. Although wildly unstable and prone to knocking half the ship’s systems offline when used, the CLW provides the Blade Wing with a weapon equal to light turbolaser in power and armor-piercing capabilities. Using the CLW is always a risk, and it was deleted from the B-wing before that ship went into production.</Description>
+  <Source Page="125">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>2147483647</Price>
+  <Rarity>10</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Price/Rarity:[b] Unique, not for sale.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one gunner.</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Consumables>One day.</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>SFoil</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Cockpit</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Key>CLW</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

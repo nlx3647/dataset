@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HWK290LTFREIGHT</Key>
+  <Name>HWK-290 Light Freighter</Name>
+  <Description>
+    [H3]CEC HWK-290 Light Freighter[h3]
+
+First designed decades before the Battle of Naboo, these tough little freighters were Corellian Engineering Corporation's first attempt to break into the rapidly expanding "executive light freighter" market. Unlike the relatively staid and workmanlike YT-series, which was marketed toward smaller profile traders and tramp freighter operators, the HWK-290 was targeted at wealthy, high-profile clients such as powerful interstellar shipping conglomerates and planetary governments. While they enjoyed modest success, and were highly praised for their performance and ease of operation, the Hawk-290s never reached the sales numbers of the more popular VT-series, and the entire line was discontinued during the Clone Wars to free up production lines for military use. 
+
+[P]The Hawk-290 is a light, fast, agile craft designed for speed and comfort rather than heavy lifting. They are handsome vessels with lean, angular hulls and narrow, deeply tinted viewports that make them look fast and aggressive, even when parked in a hangar. While they were never designed to carry much cargo, the HWK-series still has a respectable lift capacity for vessels of their size, and are well suited for courier work and the transportation of small, highly valuable cargoes. They have light armor and were originally designed with no weapon systems, relying instead on raw speed and maneuverability for protection. Of course, being CEC products, they are incredibly versatile and modular, and most Hawks still plying the spacelanes are so heavily modified as to be nearly unrecognizable. </Description>
+  <Sources>
+    <Source>Force and Destiny Core Rulebook</Source>
+    <Source>Far Horizons</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>70000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>75</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

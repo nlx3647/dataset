@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>POLICEINTRCPT</Key>
+  <Name>Panther Police Interceptor</Name>
+  <Description>[H3]Panther Police Interceptor[h3]
+
+Perhaps the most popular and iconic police vehicle in the galaxy, the Panther Police Interceptor is one of SoroSuub's best selling vehicles. Derived from the civilian market P71 Sport Speeder, the Panther is a dedicated law enforcement speeder featuring more powerful engines, a higher output power generator, and improved handling and sensors. Sold in bulk lots to police forces throughout the galaxy, the Panther is a common sight both in teeming mega cities and backwater Outer Rim colony worlds. 
+
+[P]The vehicle itself is a small, wedge-shaped speeder with twin side by side bubble canopies covering the pilot's and co-pilot's compartments. Behind the crew, separated by a thick wall of transparisteel, is a passenger compartment that can hold two human-sized prisoners cuffed to a thick durasteel restraining bar. At the rear of the vehicle, in external side-mounted nacelles, are a quartet of powerful drive thrusters that give the Panther incredible straight-line speed, a useful feature in a speeder chase. Panthers carry no mounted weapon systems, but are equipped with good sensors, a pod-mounted searchlight, long-range comlinks, and integrated datapads permanently synced to the police force's criminal database. A few of these capable speeders find their way into the civilian used speeder market where they are instantly snapped up by commercial transportation compa-nies, taxi services, and hot-rodders.</Description>
+  <Source>Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>11000</Price>
+  <Rarity>4</Rarity>
+  <Restricted>true</Restricted>
+  <MaxAltitude>10 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <Passengers>3</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>4</Speed>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

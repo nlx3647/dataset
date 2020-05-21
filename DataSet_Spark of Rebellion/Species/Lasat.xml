@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LASAT</Key>
+  <Name>Lasat</Name>
+  <Description>[H4]Lasat[h4]
+The world of Lasan is located in the Outer Rim,
+but is far from well travelled hyperspace lanes.
+This galactic isolation along with the native
+population's insular outlook meant that Lasan
+developed without outside interference until
+very recently. It is a conquered world, with a
+heavy Imperial strip mining presence.
+[P][B]Physiology:[b] Lasat are physically imposing,
+being slightly taller and bulkier than an
+average human, although their slightly hunched
+posture sometimes disguises their size. They
+are covered with a very fine felt-like fur, and the
+males can grow impressive facial hair, which is
+often a status symbol depicting clan or social
+standing. Although stronger than most
+humanoids, they are more wiry than brawny,
+with the highly developed musculature in their
+legs and prehensile feet making them naturally
+athletic. They are capable of great feats of
+running, jumping and climbing, and can grip and hang from objects with their feet.
+[P]
+Lasat have a strong musky odor which other
+species often find unpleasant, but among their
+own kind it acts as a unique identifier just as
+much as their facial features.
+[P]
+Female Lasat are slightly smaller than their male
+counterparts, but possess all the same physical
+characteristics, except the facial hair. They were
+equally represented in all areas of Lasat society,
+including the Honor Guard.
+[P][B]Society:[b] Lasat society must unfortunately be
+spoken of in the past tense, as their homeworld
+was devastated by the Empire and the Lasat race
+was virtually wiped out. Although proficient with
+technology, the Lasat were insular and never
+developed their own space faring tradition,
+relying on passing traders or explorers for any
+interplanetary travel. Some xeno-historians
+attribute this to a deeply felt attachment to their
+home planet Lasan, for cultural or spiritual
+reasons. Others feel that they suffered from a
+deep-rooted fear of the unknown. The exception
+to this was the tradition of “roamabout”, where
+unusually inquisitive Lasat found their way off
+world somehow and spent several years
+exploring the galaxy, returning home with
+enlightening and often cautionary tales.
+[P]
+Lasat history is rife with internecine conflict
+between different tribes and later nations.
+Whether these battles were fought over territory,
+resources or religion is unknown, as Lasan in
+recent decades was much more unified. Old
+traditions died hard though, and the Lasan
+Honor Guard remained as an elite group of
+highly trained military special forces, which led a
+hastily formed militia in the defense of the planet
+in the face of Imperial invasion.
+[P][B]Homeworld:[b] Lasan was a planet of tundra,
+forests and oceans. It was also rich in natural
+resources which had remained untapped by the
+native Lasat. The Empire identified Lasan as a
+source of materials for their resource-hungry
+shipyards, as well as a potential source of slave
+labor. But the Lasat proved to be too
+uncontrollable, and the garrison forces led by an
+ISB contingent ordered the extermination of the
+local populace. The planet was subjected to the
+Base Delta Zero protocol, with orbital
+bombardment destroying most population
+centers, while elite Imperial forces armed with
+prototype Ion Disruptors finished the job on the
+ground. With no space fleet of their own to lead
+the fight or evacuate the planet, the Lasat
+people were all but wiped out.
+[P][B]Language:[b] Lasat speak their own language, and
+any Lasat at large in the galaxy have learnt
+standard Basic as well, all be it spoken
+with a heavy accent.
+[P]
+[B]Life on the Fringe:[b]
+Any remaining Lasat are few
+and far between. Their physical prowess often
+finds them gravitating towards martial careers,
+such as Hired Guns or Bounty Hunters, although
+any with an Honor Guard background will be
+very choosy about their employers or the
+contracts they take. Some Lasat were on
+roamabout when Lasan was conquered, and
+decided to continue with the lifestyle of
+Explorers or Colonists.</Description>
+  <Source>Spark of Rebellion</Source>
+  <Sources />
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>1</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+    <Requirement>
+      <WearingArmor>false</WearingArmor>
+      <Career>false</Career>
+      <Specialization>false</Specialization>
+      <NonCareer>false</NonCareer>
+      <SoakAtLeast>0</SoakAtLeast>
+      <WieldingMelee>false</WieldingMelee>
+      <WieldingBrawl>false</WieldingBrawl>
+      <WieldingLightsaber>false</WieldingLightsaber>
+    </Requirement>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <DefenseRanged>0</DefenseRanged>
+    <DefenseMelee>0</DefenseMelee>
+    <SoakValue>0</SoakValue>
+    <Experience>90</Experience>
+    <ForceRating>0</ForceRating>
+    <Requirement>
+      <WearingArmor>false</WearingArmor>
+      <Career>false</Career>
+      <Specialization>false</Specialization>
+      <NonCareer>false</NonCareer>
+      <SoakAtLeast>0</SoakAtLeast>
+      <WieldingMelee>false</WieldingMelee>
+      <WieldingBrawl>false</WieldingBrawl>
+      <WieldingLightsaber>false</WieldingLightsaber>
+    </Requirement>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>ATHL</Key>
+      <SubSpeciesKey />
+      <RankStart>1</RankStart>
+      <RankAdd>0</RankAdd>
+      <RankLimit>0</RankLimit>
+      <isCareer>false</isCareer>
+      <SkillType />
+      <Requirement>
+        <WearingArmor>false</WearingArmor>
+        <Career>false</Career>
+        <Specialization>false</Specialization>
+        <NonCareer>false</NonCareer>
+        <SoakAtLeast>0</SoakAtLeast>
+        <WieldingMelee>false</WieldingMelee>
+        <WieldingBrawl>false</WieldingBrawl>
+        <WieldingLightsaber>false</WieldingLightsaber>
+      </Requirement>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>LASATCH1</Key>
+      <Name>Special Abilities</Name>
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Options>
+        <Option>
+          <Key>LASATCH1OP1</Key>
+          <Name>Lasat Agility</Name>
+          <Description>Lasat gain a [BO] when attempting climbing, or jumping vertically or horizontally.</Description>
+          <Source />
+          <Sources />
+          <Custom>Base</Custom>
+          <StartingChars>
+            <Brawn>1</Brawn>
+            <Agility>1</Agility>
+            <Intellect>1</Intellect>
+            <Cunning>1</Cunning>
+            <Willpower>1</Willpower>
+            <Presence>1</Presence>
+            <Requirement>
+              <WearingArmor>false</WearingArmor>
+              <Career>false</Career>
+              <Specialization>false</Specialization>
+              <NonCareer>false</NonCareer>
+              <SoakAtLeast>0</SoakAtLeast>
+              <WieldingMelee>false</WieldingMelee>
+              <WieldingBrawl>false</WieldingBrawl>
+              <WieldingLightsaber>false</WieldingLightsaber>
+            </Requirement>
+          </StartingChars>
+          <StartingAttributes>
+            <WoundThreshold>0</WoundThreshold>
+            <StrainThreshold>0</StrainThreshold>
+            <DefenseRanged>0</DefenseRanged>
+            <DefenseMelee>0</DefenseMelee>
+            <SoakValue>0</SoakValue>
+            <Experience>0</Experience>
+            <ForceRating>0</ForceRating>
+            <Requirement>
+              <WearingArmor>false</WearingArmor>
+              <Career>false</Career>
+              <Specialization>false</Specialization>
+              <NonCareer>false</NonCareer>
+              <SoakAtLeast>0</SoakAtLeast>
+              <WieldingMelee>false</WieldingMelee>
+              <WieldingBrawl>false</WieldingBrawl>
+              <WieldingLightsaber>false</WieldingLightsaber>
+            </Requirement>
+          </StartingAttributes>
+          <StartingSkillTraining />
+          <SkillModifiers />
+          <TalentModifiers />
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>ATHL</SkillKey>
+              <SkillType />
+              <BoostCount>1</BoostCount>
+              <SetbackCount>0</SetbackCount>
+              <ForceCount>0</ForceCount>
+              <AdvantageCount>0</AdvantageCount>
+              <ThreatCount>0</ThreatCount>
+              <AddSetbackCount>0</AddSetbackCount>
+              <UpgradeAbilityCount>0</UpgradeAbilityCount>
+              <BoostRanked>false</BoostRanked>
+              <SetbackRanked>false</SetbackRanked>
+              <ForceRanked>false</ForceRanked>
+              <AdvantageRanked>false</AdvantageRanked>
+              <ThreatRanked>false</ThreatRanked>
+              <AddSetbackRanked>false</AddSetbackRanked>
+              <UpgradeAbilityRanked>false</UpgradeAbilityRanked>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers />
+  <SubSpeciesList />
+  <CyberneticsAdjust>0</CyberneticsAdjust>
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>

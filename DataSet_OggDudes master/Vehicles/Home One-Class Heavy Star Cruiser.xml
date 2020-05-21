@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HOMEHVYSTCR</Key>
+  <Name>Home One-Class Heavy Star Cruiser</Name>
+  <Description>[H3][I]Home One[i]-Class Heavy Star Cruiser[h3]
+[P]The flagship of the Rebel Fleet, the Independence was home to Alliance High Command until shortly after the Battle of Hoth, when the flag was transferred to Home One.
+[P]Once a deep-space exploration vessel, the Independence was equipped with specialized sensors and comms equipment. During most of the Clone Wars, the ship was cruising Rimward of the far-flung Mon Calamari sector, taking readings and exploring worlds at the edge of the galaxy. 
+[P]The crew of the Independence returned home to Mon Cal in the last months of the Clone Wars to many changes. Their king, Yos Kolina, had been murdered, and Prince Lee-Char had succeeded him. War had ravaged the planet, and many crew members saw their homecomings soured by news of lost loved ones. After the Clone Wars, the Independence was still docked in the shipyards above Mon Cala, having just finished the refitting of a new comms suite, when the Imperial invasion began. With only a skeleton crew of 1,230 aboard, Independence, alongside Liberty and Defiance, punched a hole through the blockade and jumped to hyperspace.
+[P]The ships hid deep within the Calamari sector for years, harassing Imperial forces when able, but primarily focused on their own survival. Prior to the Battle of Yavin, the cruisers fell in with the Rebel Alliance and assisted in liberating their homeworld. After the battle, Mon Calamari Commander Ackbar was elevated to Alliance Fleet Admiral, and given Independence as his flagship.
+[P]The Independence led the Rebel Fleet through hyperspace, always a step ahead of the Empire, while countless guerrilla operations and fighter strikes launched from her hangars. The cruiser also serves as home to Alliance High Command, including Mon Mothma. As such, the Independence participates in a number of diplomatic summits and recruiting efforts.
+</Description>
+  <Source>Strongholds of Resistance</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Heavy Star Cruiser</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>150000000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>9</HyperdriveBackup>
+  <StarFighters>120 starfighters, detachable shuttlecraft, numerous shuttles, landing craft, and utility vehicles</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>5,400 officers, pilots, and enlisted crew</Crew>
+  <EncumbranceCapacity>20000</EncumbranceCapacity>
+  <Passengers>1200</Passengers>
+  <Consumables>Two years</Consumables>
+  <Silhouette>8</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <DefFore>4</DefFore>
+  <DefAft>3</DefAft>
+  <DefPort>4</DefPort>
+  <DefStarboard>4</DefStarboard>
+  <Armor>10</Armor>
+  <HullTrauma>150</HullTrauma>
+  <SystemStrain>90</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>2</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOHVY</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOHVY</Key>
+      <Count>12</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOHVY</Key>
+      <Count>12</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOHVY</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONBATT</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONBATT</Key>
+      <Count>12</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONBATT</Key>
+      <Count>12</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONBATT</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Hull</Location>
+      <Key>TRACTHVY</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BARRGUN</Key>
+  <Name>Barrage Gunship</Name>
+  <Description>[H3]Barrage Gunship[h3]
+[P]The [I]Barrage[i]-class gunship was designed to provide long-distance, overwhelming missile barrages against key enemy starships. While its design maximizes full broadside potential, this comes at the cost of a relatively fragile frame. Thus, this gunshop must be closely protected by more durable craft. Certain tacticians have learned that a carefully placed [I]Barrage[i] gunship can utterly incapacitate a key enemy vessel before the foe realizes that the first volley is away. Many buyers shy away from the vessel due to the high maintenence costs (and the high costs of ammunition). However, owners of [I]Barrage[i] gunships always speak highly of these vessels, and perhaps more tellingly, so do those who have faced them.</Description>
+  <Source>Keeping the Peace</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Gunship</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>145000</Price>
+  <Rarity>8</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Interior Ordnance[b]: Unlike most ship-mounted weapons, a [I]Barrage[i]'s torpedo tubes can be manually reloaded from internal reserves.  As an action, anyone onboard may make an [B]Average ([DI][DI]) Athletices check[b] to reload one proton torpedo launcher.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, one mechanic, four gunners</Crew>
+  <EncumbranceCapacity>90</EncumbranceCapacity>
+  <Passengers>5</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>25</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>CML</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

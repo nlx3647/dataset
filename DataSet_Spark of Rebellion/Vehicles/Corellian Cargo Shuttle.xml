@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CORELCARGOSHUT</Key>
+  <Name>Corellian Cargo Shuttle</Name>
+  <Description>[H3]Corellian Cargo Shuttle[h3]
+Developed in conjunction with the VCX-1 00
+freighter, the CCS is intended to be viewed by its
+customer base as an integral component of that
+ship, although as it is sold separately it never
+became ubiquitous. It is very common though.
+[P]
+Generally used for cargo collections and deliveries
+from locations where the larger freighter cannot
+fit, or the owner doesn't want to risk his primary
+ship. The shuttle is also smaller and less
+conspicuous than the parent freighter.
+[P]
+Some enterprising owners have used the shuttle's
+integrated expansion hard points to add weaponry,
+turning the shuttle into a fairly capable short
+range fighter, or even adding a rear-firing weapon
+to the parent ship.</Description>
+  <Source>Spark of Rebellion</Source>
+  <Sources />
+  <Custom>AddedItem</Custom>
+  <Type>Shuttle</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>3</HP>
+  <Price>21000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <WeaponModifiers />
+  <MaxAltitude />
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRange>Short</SensorRange>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>30</EncumbranceCapacity>
+  <Passengers>5</Passengers>
+  <Consumables>Two Weeks</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>14</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons />
+  <BuiltInAttachments />
+</Vehicle>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TAG102LIFTER</Key>
+  <Name>Cargohopper 102 Cargo Lifter</Name>
+  <Description>[H3]Taggeco. Cargohopper 102 Cargo Lifter[h3]
+
+A small airspeeder designed to transfer cargo to and from smaller spaceports and locations inaccessible to large freighters and transports, the Cargohopper 102 is a familiar sight throughout the galaxy. Capable of vertical takeoff and landing and relatively easy to handle with little or no training, these cargo lifters are a vital part of galactic trade, as well as a necessity for smugglers doing business in remote systems and sectors. The Cargohopper 102 comes equipped with a small, industrial-grade tractor beam to aid in the loading and unloading of cargo.</Description>
+  <Source>Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <Price>14500</Price>
+  <Rarity>3</Rarity>
+  <MaxAltitude>300 kilometers</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>75</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Key>TRACTLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

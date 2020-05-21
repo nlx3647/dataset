@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SKAKOAN</Key>
+  <Name>Skakoan</Name>
+  <Description>
+    [H4]Skakoan[h4]
+Although it is a Core World, Skako remained disconnected from the Republic for millennia for several reasons. Skako's high-pressure methane atmosphere has proven uncomfortable at best, and deadly at worst, to the majority of the galaxy's life forms. Likewise, physical participation in galactic culture requires Skakoans to wear hardened encounter suits. These challenges reinforced the Skakoans' cultural tendencies toward xenophobia and isolationism.
+[P]While the galaxy spun around them, the Skakoans developed a sophisticated civilization, harnessing the power of their atmosphere, improving their technology, and covering their planet with industry. Although members of the species possess a wide variety of interests and professions, the Skakoans most willing to venture from their homeworld-even if only to nearby Skako Minor-have tended to be technological industrialists. This has established Skakoans in the galactic eye as a technologically obsessed species. 
+[P]The stereotype has a measure of truth to it. The massive planetwide city on Skako requires constant maintenance and improvement, and these industrialists have seen an opportunity to trade for technologies and sciences to bring back to Skako. Overcoming their reluctance to deal with outsiders, they have invested in companies, negotiated limited trade with their homeworld, and maneuvered themselves in to executive positions at various organizations, most notably in the Techno Union.
+[P]However, industrialist Skakoans originally avoided membership in the Republic, preferring not to deal with Senate representation or political shenanigans. Homebound Skakoans didn't care who or what empire or government controlled the surrounding systems as long as Skako was left alone, and the industrialists felt that technology and industry knew no political borders. This changed when Wat Tambor rose up the ranks of the Techno Union, eventually serving as its foreman and representative in the Galactic Senate, thus becoming the de facto representative of Skako.
+[P]The onset of the Clone Wars changed Skako's political attitudes rapidly. Unaware of the Sith manipulations, Wat Tambor and other Skakoan business interests sided with the Separatists, fearing Republic overreach. Although the Techno Union had officially declared neutrality, Wat Tambor directly and Skako indirectly provided support to the Separatists. Tambor's expansionist leanings turned the Republic against Skako, and upon his assassination and the dissolution of the Separatists, the Empire inherited the prejudice.
+[P]Currently, the Empire has Skako under emigration restriction, and the majority of Skakoans prefer being cut off from the galaxy. A few think their people have learned the wrong lessons from the failures of Wat Tambor. Instead of withdrawing from galactic participation, they want Skakoans, not the Empire, to decide the fate of their homeworld and citizens.
+[P][B]Physiology:[b] Thin in build, Skakoans have pale skin in folds, little facial or body hair, nasal slits, and toothless mouths. While they ingest liquid food, Skakoans can sustain their metabolism with atmospheric methane if it remains the proper pressure. For this reason, Skakoans can't simply use a rebreather like the Gand; they require a fully pressurized suit. Other than the pressurized methane requirement, Skakoans resemble humans in physiological matters. They have roughly the same lifespan and the same biological issues in health, reproduction, and old age.
+[P][B]Society:[b] Logic and mathematics dominate the discourse on Skako , but its people remain highly emotional and passionate. Outsiders mistake them to be a robotic species due to their pressure suits and translator units. Skakoans see no contradictions between emotion and logic, though even they admit that their fear of the galaxy is partially irrational.
+[P]Skako's environment doesn't welcome outsiders. Even other methane breathers find the pressure uncomfortable. Skakoans find existence offworld equally uncomfortable, and the need for hardened pressure suits naturally causes them to see the galaxy as a dangerous and hostile place. This xenophobia extends to visitors to the planet, who must wear their own pressure suits.
+[P]Despite this difficulty, or perhaps because of it, Skakoans formed galactic companies such as Baktoid Armor Workshop, placing their headquarters on Skako, forcing outsiders to adjust to Skako's environment while living on the planet. This practice eventually led the Techno Union to do the same.
+[P]The logistical difficulties of living on Skako have given Skakoans an interesting perspective on technology. While some species think technology invasive or in opposition to the natural world. Skakoans see technology as necessary, essential, and an evolution of nature. Methane being a plentiful and powerful fuel source, metallic resources abundant, and oxygen a controllable and useful waste product (although a flammable toxin), machines and industry are a natural and inevitable end result of their intelligence.
+[P]Skakoans practice a mystery religion that is led by the Elders of the Power Mounds. Rising in the ranks of the religion allows them access to the holy site and contact with mystic artifacts. The religion bases itself on belief in the existence of an alternate dimension and the mythical creature living within it. Whether or not this creature exists or if the Elders can travel to this dimension is known only to the Elders and a select few.
+[P][B]Homeworld:[b] Much like Coruscant, Skako hosts a planetwide city, or ecumenopolis, demonstrating its advanced technological civilization. With rich resources, especially of methane and metals, the Skakoans have had plenty with which to build and experiment. Due to so lar radiation striking the dense atmosphere, though, the upper layers of the atmosphere are an alkaline haze. This limited astronomical science until the development of low orbital flight.
+[P]With a lack of cultural desire to explore the stars, the Skakoans focused on managing their planet, covering their homeworld with an ecumenopolis much earlier than other civilizations. Their interstellar neighbors ignored the planet, thinking it uninhabitable and dangerous to explore. Any power signatures they detected, they attributed to methane flares. Only when the Skakoans ventured beyond their hazy atmospheric borders did the galaxy take notice. Still, because of Skakoan xenophobia and personal secrecy about their lives and homeworld, few outsiders know much about Skako or its people.
+[P][B]Language:[b] The Skakoans speak their native Skakoverbal, a complex language that shares similarities with Binary. Most Skakoans don't learn Basic, since few venture offworld. Those who do travel abroad tend to rely on language translation modules attached to their heavy pressure suits, adding to the myth that the Skakoans are cybernetic or machine beings. Again, due to the complexity of Skakoverbal, translation modules often spit out junk sounds when compressing down to simpler languages. Technology has been such a prominent part of their lives that the current symbol set of their written language, Skakoform, resembles circuitry.
+[P][B]Life in the Alliance:[b] The Skakoans have suffered greatly at the hands of the Empire. Once the Confederacy of Independent Systems fell, the Republic quickly turned toward sanctioning Skako. When the Republic became the Empire, the Skakoans found themselves shunned as enemies of the Emperor. Most are content, or at least willing, to remain on their planet with the Empire watching from the skies above.
+[P]The ones who have joined the Rebel Alliance know that hiding from the galaxy won't save them or their homeworld. Still, living among low-pressure oxygen breathers is isolating, and the heavy pressure suits increase their distance from their peers. These difficulties serve to heighten Rebel Skakoans' militancy. They are willing to sacrifice breath, touch, and their xenophobia to work with outsiders, and every moment the Empire remains standing is a moment away from home.</Description>
+  <Source Page="21">Fully Operational</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>8</StrainThreshold>
+    <Experience>80</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>EDU</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+    <SkillModifier>
+      <Key>MECH</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>SKAKOANOC1</Key>
+      <Name>Equipment</Name>
+      <Options>
+        <Option>
+          <Key>SKAKOANOC1OP1</Key>
+          <Name>Methane Breather</Name>
+          <Description>Skakoans start the game with a Skakoan Pressure Suit.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>SKAKOANOC2</Key>
+      <Name>Environment</Name>
+      <Options>
+        <Option>
+          <Key>SKAKOANOC2OP1</Key>
+          <Name>Methane Breather</Name>
+          <Description>Skakoans treat standard planetary air and pressure as a corrosive atmosphere with rating 6.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

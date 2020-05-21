@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>L2783</Key>
+  <Name>L-2783 Deep Space Recovery Vessel</Name>
+  <Description>[H3]L-2783 Deep Space Recovery Vessel[h3]
+Starships of all types and sizes can encounter trouble anywhere in the galaxy. Much like planetside recovery service craft, the L-2783 can travel to  a remot site to repair, or recover a damaged starship, sometimes as salvage. Based on a bulk cargo capital ship, the cavernous cargo hold of the L-2783 is capable of containing and carrying ships and debris up to the size of an old-style cruiser. Powerful tractor beams pull in ships or wreckage as needed. and the hold can be partitioned off by enormous force feilds. The tractor beam can tow smaller craft at sublight speeds.
+[P]A small fleet of twin seated scavenger pods operate from an aft-facing hanger bay. The pods are armed with plasma cutters and clamps, enabling them to retrieve smaller objects and deposit them into L-2783's pair of large dorsal holds. An array of repair shops and supply vaults allow the ship to make repairs to other craft vessel when needed. The L-2783 comes standard with minimal weaponry, but its strong shields protect it from pirates and aggressive scavengers. A regular crew can reach into the hundreds, though it can operate with a skeleton crew of twenty-five.
+[P]Over the years, many scavengers have converted the L-2783 to be full-time salvage craft, making their living by harvesting materials from wrecks new and old. A few Outer Rim crime lords and mercenary groups have refitted these vessels as small cariers, which also requires substantial upgrades to weaponry and shielding. Pirates occasionally use ships of this model to waylay and abscond with entire freighters, using the pods as makeshift assault craft, though they are easy targets for any serious military vessel. A few true entrepreneurs use L-2783s as massive mobile repair centers, regularly servicing orbital space stations and deep space outposts, and even carrying out in-flight repairs.</Description>
+  <Source Page="64">Special Modifications</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Bulk Cruiser</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>7</HP>
+  <Price>6500000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>4</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <StarFighters>50 maintenance/scavenger pods, 4 cargo shuttles</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>100 officers and crew</Crew>
+  <EncumbranceCapacity>5000</EncumbranceCapacity>
+  <Passengers>100</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-4</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>4</Armor>
+  <HullTrauma>55</HullTrauma>
+  <SystemStrain>35</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Key>TRACTHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

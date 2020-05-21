@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>UHXH</Key>
+  <Name>UH-XH Heavy Work Platform</Name>
+  <Description>[H3]Baktoid UH-XH Heavy Work Platform[h3]
+The Baktoid UH Work Platform is a construction assistance speeder manufactured before the advent of the Clone Wars. The open-top platform can be used to transport personnel to a construction site and then serve as a stable work platform at heights of up to one hundred meters. The platform has removable perimeter railing and extendable planks for bridging over to a structure under construction. The rear of the vehicle includes an extendable ramp for unloading materials or machinery. The UH is controlled from a standing pilot station at the front center of the platform. Long benches with backs provide seating for passengers and can be retracted when not. A supercharged generator at the center of the platform provides ample energy for power-hungry construction equipment. The platform is several meters thick to shield its inner workings againsthe environment and it houses powerful repulsorlifts and retractable landing gear.
+[P]The Techno Union found these platofmrs useful for their lava mining operations on Mustafar, and ordered a new heavy duty UH model for harsh environments like that of the lava world. As the new UH-XH Heavy Work Platform was expected to work directly above active lava flows, Baktoid added even more resilient metal shielding to its sides and to the bottom of the platform. The designers also reinforced the deck plating and attached cooling modules to each corner of the vehicle. While passengers can divert a small amount of cooling from the modules for themselves, these units are designed to protect the platform more than the personnel.</Description>
+  <Source Page="59">Special Modifications</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>30000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>500 meters</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one crane operator</Crew>
+  <EncumbranceCapacity>350</EncumbranceCapacity>
+  <Passengers>24</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>25</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

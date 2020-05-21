@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>STEELHANDADEPT</Key>
+  <Name>Steel Hand Adept</Name>
+  <Description>[H4]Steel Hand Adept - Unarmed and Dangerous[h4]
+
+The Jedi were known for, and even symbolized by, their distinctive use of lightsabers. For those who also know of the Sith and their own use of lightsabers, it would seem that these weapons are a universal feature of Force users. This was never truly the case, especially not in this age of the Empire, when most Force sensitives must do without formal training in any Force tradition. Through necessity or choice, Force users do battle with a variety of weapons, from vibro-axes to repeating blasters. And some fight with no weapons at all.
+[P]Steel Hand Adepts gain [B]Brawl, Coordination, Discipline,[b] and [B]Vigilance[b] as additional career skills. If this is the character's starting specialization, the player chooses two of these skills and gains one free rank in each, without spending starting experience. These skills allow Adepts to fight with, their mind and body in perfect harmony, and with mastery over both.
+[P]Countless martial arts disciplines have focused on unarmed combat through the millennia, from Ter&amp;auml;s K&amp;auml;si to Zavat.
+[P]Even the most renowned masters of hand-to-hand combat face certain limitations when compared to wielders of the variety of advanced weapons in use throughout the galaxy. No fist or claw can breach heavy armor, or overcome the range advantage of a blaster-none, that is, except those of beings who wield the Force like a weapon.
+[P]As [B]Force and Destiny[b] characters, Steel Hand Adepts might represent Force users with training in a variety of martial arts forms. Some might specialize in a particular form, while others might blend techniques from many practices. Alternatively, an Adept could be self-taught, augmenting an improvisational combat style honed through years of cantina brawls with an instinctive use of the Force. Regardless of their background, Steel Hand Adepts draw on the Force to accomplish seemingly impossible maneuvers, from punching through heavy combat armor to striking enemies beyond arms' reach.
+[P]The ways of Steel Hand Adepts have little basis in the teachings of the Jedi Order. Although the Jedi trained in some hand-to-hand techniques, these were generally used as a recourse should a Knight be disarmed or ambushed without a lightsaber at hand. However, many other Force disciplines have come and gone throughout the galaxy's history, and some of these have focused more prominently on unarmed combat. Conversely, many martial arts traditions have a strong mystical component. tapping into the Force in varying capacities. Although martial arts schools of this kind generally accept members who are not particularly Force-sensitive, those who are so gifted tend to excel, becoming masters and legends.
+[P]The capabilities of Steel Hand Adepts can be astounding for onlookers and terrifying for foes. Not only can adepts exhibit the same range of abilities other Force users draw upon to augment their lightsaber strikes, but they can fight just as effectively without a weapon of any kind. A practiced Adept can even be a match for an accomplished lightsaber duelist. Against more ordinary combatants. they spin and leap with frightening grace, laying foes low with rapid strikes.
+[P]A Steel Hand Adept can easily disarm all but the most skilled opponents through a variety of techniques. Some adepts can even shatter weapons with their bare hands. An unarmed opponent of an Adept, far from being on equal rooting, is almost certainly at an insurmountable disadvantage. Enemies with the seeming advantage of range are not safe, either. Blaster-wielding foes are often surprised when a Force user affects objects and even sentients at a distance, but no Force ability is as shocking as Adepts' ability to lash out with punishing strikes, laying into foes at range with the full strength and impact of their fists and feet.</Description>
+  <Source Page="28">Knights of Fate</Source>
+  <Custom>AddedItem</Custom>
+  <CareerSkills>
+    <Key>BRAWL</Key>
+    <Key>COORD</Key>
+    <Key>DISC</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>GRIT</Key>
+        <Key>IRONBODY</Key>
+        <Key>IRONBODY</Key>
+        <Key>TOUGH</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>MARTIALGRACE</Key>
+        <Key>ACKLAY</Key>
+        <Key>UNARMPARRY</Key>
+        <Key>PRECSTR</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>DODGE</Key>
+        <Key>SWIFT</Key>
+        <Key>PARRY</Key>
+        <Key>PRECSTRIMP</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>IMPDODGE</Key>
+        <Key>TOUGH</Key>
+        <Key>GRIT</Key>
+        <Key>SAPITHSUND</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>FORCERAT</Key>
+        <Key>FARSTRIKE</Key>
+        <Key>DEDI</Key>
+        <Key>DODGE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

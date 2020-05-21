@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>STARWIND</Key>
+  <Name>Starwind Pleasure Yacht</Name>
+  <Description>
+      [H3]Starwind Pleasure Yacht[h3]
+
+The Starwind-class pleaure yacht was originally Kuat Drive Yards' attempt to create a competitor for Corellian Engineering Corporation's VT series. However, before the project even launched, KDY changed their mind and repackaged the ship as a luxury yacht. 
+
+[P]The Starwind has been moderately successful on the market, although its redesign never quite shook its light freighter origins. The trident-shaped starship has two side sections mounted along each side of the ship's main hull. One side section houses the ship's crew quarters, the other contains a reasonable sized cargo hold. The central spar contains the bridge, guest quarters, stateroom, lounge, galley, conference room, holotheater, and even a zero-gee relaxation table. All in all, the ship has a thorough catalog of amenities, as well as substantial cargo space. 
+
+[P]However, the Starwind's main drawback is that it costs as much as a light freighter and luxury yacht combined. This has kept sales lukewarm, although some particularly rich smuggler barons and criminal lords have taken the ship as their personal vessel/command center.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>210000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One Pilot, One Co-Pilot, One Engineers, Two Gunners</Crew>
+  <EncumbranceCapacity>85</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Consumables>Four Months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>25</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

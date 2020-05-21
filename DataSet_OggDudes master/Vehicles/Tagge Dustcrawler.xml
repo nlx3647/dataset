@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TAGGEDUSTCRAWLER</Key>
+  <Name>Tagge Dustcrawler</Name>
+  <Description>[H3]Tagge Dustcrawler[h3]
+Designed by the House of Tagge for mining operations on airless moons and large asteroids, the Dustcrawler is a connected train of six-wheeled hauling vehicles. The standard configuration features three connected cars, each with six large independently-articulated knobbed wheels. The wheels offer excellent traction in the fine dust of most lunar surfaces (which often causes venting and overheating problems for landspeeders), and the independent suspension of each wheel enables the Dustcrawler to traverse any manner of difficult terrain.
+[P]The Dustcrawler can be customized for either cargo-hauling or personnel transport. For example, the resort at the Kaelen Drift, where visitors enjoy the sights of the light from the system's twin suns coruscating through the belt of crystalline shards, uses Dustcrawlers on its tours of the larger asteroids.
+[P][H4]Longer Dustcrawlers[h4]
+The standard Dustcrawler features three connected cars, but Dustcrawlers are designed to be modular and customizable, so additional cars can be added to create a larger train. Adding cars to a Dustcrawler has the following effects upon the vehicle's statistics:
+[P]Each additional car adds 1 to the Dustcrawler's silhouette, an additional crew member (a conductor, who coordinates their car with the others), and an additional + 100 to encumbrance capacity. The passenger capacity increases by 10 for each additional car, and 2 additional hard points are added as well. Each car adds another 20,000 credits to the Dustcrawler's price.
+[P]Dustcrawlers of four or more cars are often found in use as mass transit vehicles in airless environments. For example, Polis Massa Base uses 5-car Dustcrawlers to ferry workers between the living quarters and the mining operation, carrying an entire shift of workers at a time.</Description>
+  <Source Page="60">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Groundcar</Type>
+  <Categories>
+    <Category>Wheeled Vehicle</Category>
+    <Category>Land Vehicle</Category>
+    <Category>Bulk Transport</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>60000</Price>
+  <Rarity>5</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Expandable:[b] The standard Dustcrawler is three cars long, each additional car increases silhouette by 1, crewmembers by 1 (a conductor, who coordinates their car with the others), encumbrance capacity by 100, passenger capacity by 10, hard points by 2, and price by 20,000 credits.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>300</EncumbranceCapacity>
+  <Passengers>30</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-3</Handling>
+  <Armor>4</Armor>
+  <HullTrauma>35</HullTrauma>
+  <SystemStrain>30</SystemStrain>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

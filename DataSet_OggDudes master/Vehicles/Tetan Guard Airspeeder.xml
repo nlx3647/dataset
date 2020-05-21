@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SEC22M</Key>
+  <Name>Tetan Guard Airspeeder</Name>
+  <Description>[H3]SEC-22m Tetan Guard Airspeeder[h3]
+
+Kodoos Repulsor Ltd. is a speeder manufacturing company based on Empress Teta. Well known for creating high-end racing swoops, the manufacturer was contracted by the Tetan Guard to design its patrol and defense airspeeders. What the Tetan Guard Airspeeder sacrifices in maneuverability, it gains in durability and armament. The semi-open air cockpit features two externally sealed prisoner pods, a loudspeaker, and built-in encrypted comms.</Description>
+  <Source Page="124">Nexus of Power</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>25000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <WeaponModifiers>
+    <WeaponModifier>
+      <UnarmedName>Suppressor Cannon</UnarmedName>
+      <SkillKey>GUNN</SkillKey>
+      <Damage>10</Damage>
+      <Crit>5</Crit>
+      <Qualities>
+        <Quality>
+          <Key>AUTOFIRE</Key>
+        </Quality>
+        <Quality>
+          <Key>STUNDAMAGE</Key>
+        </Quality>
+      </Qualities>
+      <VehicleWeaponProperties>
+        <Location>Forward</Location>
+        <FiringArcs>
+          <Fore>true</Fore>
+        </FiringArcs>
+      </VehicleWeaponProperties>
+      <VehicleWeaponCount>1</VehicleWeaponCount>
+      <RangeValue>wrLong</RangeValue>
+      <Range>Long</Range>
+    </WeaponModifier>
+  </WeaponModifiers>
+  <MaxAltitude>1,000 meters</MaxAltitude>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>15</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Armor>2</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

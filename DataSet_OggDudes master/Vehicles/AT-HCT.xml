@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATHCT</Key>
+  <Name>AT-HCT</Name>
+  <Description>
+    [H3]AT-HCT[h3]
+
+A derivative of the popular AT-EST, Rothana Heavy Engineering's All Terrain Heavy Civilian Transport has served the needs of isolated colonies for decades. Designed for simplicity and versatility, the AT-HCT resembles an eight-legged beast of burden. A single driver controls the vehicle from a saddle-seat mounted off its front. Behind the driver, the rest of the AT-HCT consists of a single open-topped bed. The vehicle is not flashy, fast. or particularly combat-capable, but it is tough and durable, and it can carry a great deal of cargo over lone distances.</Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Tunneling Vehicle</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>3000</Price>
+  <Rarity>3</Rarity>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>200</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-1</Handling>
+  <HullTrauma>15</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

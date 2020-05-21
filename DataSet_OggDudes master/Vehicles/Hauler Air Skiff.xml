@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HAULER AIR SKIFF</Key>
+  <Name>Hauler Air Skiff</Name>
+  <Description>[H3]Ubrikkian Industries Hauler Air Skiff[h3]
+The Hauler air skiff is a higher-altitude version of the ubiquitous Ubrikkian Industries cargo skiff. Air skiffs were originally designed for cargo and transportation duties at tibanna gas mining operations in the upper atmospheres of gas giants. Simple to use and featuring a large open deck for ease of hauling cargo, air skiffs have spread throughout the galaxy, and can be found in use wherever the terrain is unsuited to the more common repulsorcraft cargo skiff.
+[P]Air skiffs are quite customizable, and it is not unusual to see them adapted for uses far beyond the cargo hauling of their original design, whether pressed into service as mass public transportation or fitted with armor and weapons for use as troop carriers.</Description>
+  <Source Page="57">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Cargo Skiff</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>10000</Price>
+  <Rarity>4</Rarity>
+  <MaxAltitude>100 kilometers</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>20</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

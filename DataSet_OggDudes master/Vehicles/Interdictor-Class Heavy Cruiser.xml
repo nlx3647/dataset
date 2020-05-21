@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>INTERCRUISER</Key>
+  <Name>Interdictor-Class Heavy Cruiser</Name>
+  <Description>
+    [H3]Interdictor-Class Heavy Cruiser[h3]
+
+Perhaps nothing in the galaxy inspires more dread in a smuggler than the sight of an Interdictor-class cruiser. Based on the Vindicator-class heavy cruiser, these large, wedge-shaped cruisers superficially resemble mighty Imperial Star Destroyers, though they perform a very specific role. By projecting a gravity shadow, known as a gravity well or interdiction field, across local space, Interdictor cruisers simulate the presence of a massive celestial body, keeping ships within the field from entering hyperspace and pulling ships in hyperspace back into realspace. Though an Imperial Naval asset, Interdictor-class cruisers frequently patrol trade routes, thwarting smugglers inclined to try outrunning Imperial authorities.</Description>
+  <Sources>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Source>Fly Casual</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <Type>Heavy Cruiser</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+    <Category>Capital Ship</Category>
+  </Categories>
+  <Price>15400000</Price>
+  <Rarity>8</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <StarFighters>24 starfighters</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>2,807 officers, pilots, and enlisted</Crew>
+  <EncumbranceCapacity>6500</EncumbranceCapacity>
+  <Passengers>80</Passengers>
+  <Consumables>Sixteen months</Consumables>
+  <Silhouette>7</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <DefFore>3</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>3</DefPort>
+  <DefStarboard>3</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>75</HullTrauma>
+  <SystemStrain>65</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>1</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERQUAD</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Key>LASERQUAD</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>LASERQUAD</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>LASERQUAD</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Aft</Location>
+      <Key>LASERQUAD</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AD1SMOD</Key>
+  <Name>AD-1S Modular Multi-Role Starfighter</Name>
+  <Description>[H3]Koensayr AD-1S Modular Multi-Role Starfighter[h3]
+As one of the galaxy's major starship parts suppliers, Koensayr seeks to maximize profits through the combination of parts expertise and supply distribution system. One result of this union of skills is the AD-1S Modular Multi-Role Starfighter. It was designed around a standard selection of modules users can employ to adapt the fighter as needed for different missions. Corporate designers believed that
+governments and militaries would like the economics of purchasing of one central chassis to build around, rather than paying for multiple classes of specialized ships for each task that might not always be needed. Thus, they developed the magnetic modular rail system that came to define the AD-1 S, which lets users rapidly equip new attachments.
+[P]Unfortunately, the cost to actually equip the fighter with components that meet military standards and Koensayr's noncompetitive lock on its proprietary parts and maintenance supplies diminished interest in the ship. However, the AD-1S found some success as a defender on board corporate and exploration
+starships with limited hangar space, where its multimission capability became an asset. A starfighter of otherwise average capabilities, the AD-1S has always been more popular with Technicians than pilots. Its adaptable nature makes it very easy to swap in and out custom-made modules, many of which are
+scratch-built by enterprising owners. Despite Koensayr's attempted monopoly on the parts, many Technicians have found and modified similar products that work just as well with the ship’s magnetic modular rails, if not better.</Description>
+  <Source Page="62">Special Modifications</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>8</HP>
+  <Price>25000</Price>
+  <Rarity>7</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Magnetic Module Rails[b]: Adding or removing an attachment takes 10 minutes and requires a successful [B]Average ([DI][DI]) Mechanics check[b].  Each [SU] reduces time by 1 minute, and each [TH] inflicts 1 system strain on vehicle.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Armor>2</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

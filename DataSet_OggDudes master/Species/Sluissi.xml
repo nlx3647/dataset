@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SLUISSI</Key>
+  <Name>Sluissi</Name>
+  <Description>[H4]Sluissi[h4]
+
+The Sluissi are the indigenous sentient species of the planet Sluis Van, located in the Outer Rim Territories. While their bodies above the waist are humanoid, their lower halves are serpentine, long and heavily muscled. Sluissi are noted for their calm temperament, aversion to rushing and impatience, compliance to protocol, no matter how trivial, and their technical aptitude. Like most reptiles, Sluissi can use their forked tongues to sense heat.
+
+[P][B]Physiology:[b] Sluissi's upper torsos are similar to a human's, with two arms, each with four-fingered hands. Their fourth finger is an opposable digit. Their arms have almost winglike extensions of skin, which aid their movement while they aree flat on the ground. The bottom half of their body is similar to a snake's, with a long, heavily muscled, singular tail. Their bodies are covered in fine scales which range in color from light brown to dark green. Other colored scales on Sluissi are not unheard of, however they are quite rare. Sluissi have round black eyes and a swooping, hoodlike fold of tough skin at the back of their heads. They have forked tongues that aid their sense of smell. The average member of the species weighs 60 kilograms.
+
+[P][B]Society:[b] Sluissi are patient, sociable, relaxed, easy-going beings, famous for remaining calm under pressure. Their patient, calm nature—combined with their seeming inability to have become genuinely upset or angry—often baffles, and sometimes even infuriates other species. Extremely industrious, Sluissi love to tinker with technology and mechanical objects, and Sluissi technicians are able to improve the engine efficiency, power output and system response in even archaic, worn out ships.
+
+[P]The Sluissi are extremely methodical, and work extremely slowly at their work. To them, starship construction is an art form. Although jobs done by Sluissi always take longer than expected, most clients are willing to be patient, because Sluissi technicians can make improvements upon or salvage vessels when no other mechanics can. Even the Empire realizes that rushing a Sluissi operation is a bad idea.
+
+[P][B]Homeworld:[b] Sluis Van is the primary planet in the Sluis sector of the Outer Rim Territories and the homeworld of the Sluissi race.
+
+[P][B]Language:[b] Sluissese is the native language of the Sluissi species from Sluis Van. Most Sluissi are fluent in both Sluissese and Basic, being literate in both languages. However, when speaking Basic, Sluissi tend to lisp and slur many words because of their snakelike mouths and viperine tongue.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>MECH</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>SLUISSICH1</Key>
+      <Name>Talents</Name>
+      <Options>
+        <Option>
+          <Key>SLUISSICH1OP1</Key>
+          <Name>Gearhead</Name>
+          <Description>Sluissi may begin play with one rank in Gearhead.</Description>
+          <TalentModifiers>
+            <TalentModifier>
+              <Key>GEARHD</Key>
+              <RankAdd>1</RankAdd>
+            </TalentModifier>
+          </TalentModifiers>
+        </Option>
+        <Option>
+          <Key>SLUISSICH1OP2</Key>
+          <Name>Solid Repairs</Name>
+          <Description>Sluissi may begin play with one rank in Solid Repairs.</Description>
+          <TalentModifiers>
+            <TalentModifier>
+              <Key>SOLREP</Key>
+              <RankAdd>1</RankAdd>
+            </TalentModifier>
+          </TalentModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>SLUISSICH2</Key>
+      <Name>Mechanics</Name>
+      <Options>
+        <Option>
+          <Key>SLUISSICH2OP1</Key>
+          <Name>Practiced Mechanic</Name>
+          <Description>A Sluissi can choose to spend a maneuver just prior to making a Mechanics roll, upgrading the dice pool by one.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

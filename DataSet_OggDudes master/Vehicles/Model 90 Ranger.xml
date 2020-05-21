@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MODEL90RANG</Key>
+  <Name>Model 90 Ranger</Name>
+  <Description>[H3]Model 90 Ranger[h3]
+Cryospac Repulsorlift Corporation is a relative newcomer to the galactic landspeeder market. Based on Seikosha, the fourth planet of the Breago System in the Outer Rim's Borderlands Regions, they produce a small handfull of rugged, surprisingly well-built landspeeders for export. Of their six current models, the M90 Ranger is he most popular, and with good reason. Built for exploration and travel in hazardous environments, the Ranger was designed primarily with surveyors and back country search and rescue teams in mind. Due to its tough build and spcialized systems, however, the Ranger has slowly gained popularity in other market segments, including the galaxy's bounty hunter community.
+[P]Long and sleek, the Ranger has a sturdy, blade-shaped hull with a thin nose and a broad, flat rear, giving it a silhouette simliar to that of a fast and powerful watercraft. The passenger compartent, shaped like a pointed oval and running almost the entire length of the vehicle, is equipped with three rows of seats, A pilot and one passenger sit far forward while behind them are two bench seats that can hold three passengers each.
+[P]A reinforced transparisteel canopy covers the passenger compartment, and is both polarized and equipped with a pilot-controlled system that changes the surface from opaque to completely transparent to anywher in between depending on the needs of the passengers. This convenicne might seem minor, but it can dramatically improve the performance and waulity of life of the operator in extremely bright environments, such as deserts, snowy wastes, ocens and other regions with terrain that reflects light. For a bounty hunter, having clear vision might mean the difference between spotting a key detail and missing it, prolonging a pursuit or failling behind the competition.
+[P]A heavy-duty CRC-X80 repulsor generator feeds six powerful coils spread throughout the vehicle's hull. Two high-output LX990 Whirlwind trubine engines mounted on triangular outriggers provide the Ranger with copious amounts of thrust, and a simple vectored thrust system gives the speeder better than average agility. The Ranger's real worth, however, is in its stout frame and rugged internal systems. The cabin can be environmentally sealed and is shielded from most forms of chemical, biological, and radiation contamination. The internal systems are hardened and designed in such a way as to reduce shock, vibration, and other damaging effects from heavy use in dangerous environments. All of this makes for a vehicle that can take inordinate amounts of abuse and keep working.</Description>
+  <Source Page="56">No Disintegrations</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>19500</Price>
+  <Rarity>4</Rarity>
+  <MaxAltitude>10 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Handling>1</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>14</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

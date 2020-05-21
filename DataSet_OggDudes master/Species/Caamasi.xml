@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CAAMASI</Key>
+  <Name>Caamasi</Name>
+  <Description>
+    [H4]Caamasi[h4]
+
+The Caamasi are a species of furred humanoids recovering from the brink of extinction. Their pacifist society integrated with the Old Republic early in galactic history, working to maintain peace, stability, and freedom. For millennia, Caamasi were trusted advisors and mediators throughout the Republic, and many served as Jedi Knights. 
+
+[P]For all their dutiful service and loyalty, the Caamasi's stubborn refusal to participate in the Republic's militarization during the Clone Wars made them enemies of the new Empire. Shortly after his coronation, Emperor Palpatine secretly arranged for the destruction of the Caamasi homeworld. Although his involvement is not public knowledge, many Caamasi suspect that he could not tolerate the idea of a species loyal to the Old Republic or its ideals operating within the heart of his New Order in the Core Worlds. 
+
+[P]Although the Caamasi have suffered greatly since the rise of the Empire, they have refused to yield to oppression. They maintain their old traditions in defiance of their recent trials, including favoring peaceful solutions over lashing out with violence. Not even the loss of their homeworld has broken their spirit or transformed their culture. The unique capability to share certain important memories, or memnii, among members of their species aids them, as the Caamasi elders pass on the teachings of peace more vividly than words could. 
+
+[P][B]Physiology:[b] Caamasi are unexceptional in size, with a typical male averaging 1.8 meters tall and 80 kilograms in weight. They are more notable for other aspects of their appearance, including a dense coat of gray or brown fur. Their hands are unusually thin, with only three fingers, but Caamasi can grip a blaster or datapad firmly. Perhaps the most unusual aspect of their appearance is a beak-like snout, lined with sharp teeth, creating a far more fearsome impression than the species' pacifist culture would indicate. 
+
+[P]Caamasi are also notable for their highly developed sense of smell, and for the odor they emit. Other species have likened it to the sharp, woody scent of Corellian whiskey. The Caamasi do not seem to notice the smell despite their finely tuned noses, perhaps due to over-familiarity. 
+
+[P][B]Society:[b] Few societies value peace more than the Caamasi. They were staunch loyalists to the Republic's ideals, and the Caamasi remained firmly dedicated throughout the Separatist Crisis. However, the Caamasi opposed the Republic's armament for the Clone Wars, including the Senate's adoption of clone troopers, so the Caamasi lobbied for a peaceful end to the conflict. Both their love of the Republic and their condemnation of its war effort led the emergent Empire to label the Caamasi as dissidents, leading to the bombardment of their homeworld and the devas-tation of the species.
+
+[P][B]Homeworld:[b] The planet Caamas is the second planet in the Cirius system, along the Commenor Run hyperlane in the Core Worlds. Once a temperate world with a highly varied climate and ecosystem, Caamas is now scorched and polluted beyond habitability. Shortly after the rise of the Empire, the planet was bombarded by Star Destroyers on the Emperor's orders. The planetary shields were lowered by infiltrating agents, allowing the orbital firepower to saturate the planet. The little life that survived the assault was devastated by the total collapse of the planet's ecosystem and the firestorms that raged across the planet's surface for years. 
+
+[P]The Caamasi species was reduced to a slim fraction of its former numbers, but a new generation has since pulled them from the brink of extinction. Officially, the devastation wrought on Caamas was the result of bombs planted by the Separatists, and too few survivors made it offworld to contradict the Imperial propaganda. However, many Caamasi find the Empire's story too convenient for their liking, especially in the wake of the destruction of Alderaan. The Rebellion is a popular cause for the new generation of Caamasi, who join in the hope that no one else loses a homeworld to the Empire. 
+
+[P][B]Language:[b] Caamasi is the name of both the language and the species that originated on the world of Caamas, and with its bombardment, both are in danger of disappearing from the galaxy. Caamasi make a habit of learning the native languages of other species they encounter, and a Caamasi without fluency in Basic is practically unheard of. Their emphasis on learning the languages of others may have put their own language in danger, but surviving Caamasi elders have begun passing down their native tongue through lessons and the sharing of memnii.</Description>
+  <Source>Desperate Allies</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>CAAABSK</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>CAASKCH</Key>
+          <Name>One Rank in Charm</Name>
+          <Description>Caamasi may begin the game with one rank in Charm.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>CHARM</Key>
+              <RankAdd>1</RankAdd>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>CAASKDEC</Key>
+          <Name>One Rank in Discipline</Name>
+          <Description>Caamasi may begin the game with one rank in Discipline.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DISC</Key>
+              <RankAdd>1</RankAdd>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>CAAAB2</Key>
+      <Name>Memories</Name>
+      <Options>
+        <Option>
+          <Key>CAAAB2CLAW</Key>
+          <Name>Memnii</Name>
+          <Description>
+            Once per game session, a Caamasi may form a new memnis that encompasses one scene or encounter.  At any time, a Caamasi may perfectly recall any memnis that he has formed or witnessed, or share it with another Caamasi or Force-sensitive.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

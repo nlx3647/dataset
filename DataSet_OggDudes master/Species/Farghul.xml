@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>FARGHUL</Key>
+  <Name>Farghul</Name>
+  <Description>
+    [H4]Farghul[h4]
+
+The Farghul were felinoid sapients indigenous to Farrfin. They had claws, incredible strength and speed, and were covered with tawny fur and possessed prehensile tails.
+
+[P][B]Physiology:[b] Farghul have feline characteristics, as well as prehensile tails.  They average in height between 1.7 and 2.0 meters and have light brown to dark brown skin and fur.  They are long-lived, averaging 215 standard years.
+
+[P][B]Society:[b] The species has a reputation for being both fearsome fighters as well as cunning thieves. The Farghul are also generally distrustful of politicians and are considered slightly xenophobic. Despite this, they are known to friends as mischievous and playful beings who love telling bad jokes. Many Farghul are also known to rig games. Their reputation for being cheaters, con artists, and thieves originates from this; though, upon being caught, those Farghul will often return their illicit winnings. Farghul are extremely self-conscious about their appearance, and often wear elaborate clothes or jewelry.
+
+[P][B]Homeworld:[b] Farrfin is the capital of Farrfin sector and the Farghul homeworld. It has three major cities: Farlhu, Jahhnu and Geltyu. A strong criminal element thrives in these cities, with con-artists running sabacc scams on every street corner, and pockets being picked often. The famed Jahhnu betting houses take in incredible sums of currency, as gullible off-worlders and bored smugglers gamble away their earnings.
+
+[P][B]Language:[b] Farghul is the native language of the Farghul species from Farrfin. Most Farghuls also learn to speak Basic, which has hindered the expansion of the Gotal language.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>CONV</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>FARAB1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>FARAB1OP1</Key>
+          <Name>One Rank in Deception</Name>
+          <Description>Farghul may begin the game with one rank in Deception.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DECEP</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>FARAB1OP2</Key>
+          <Name>One Rank in Skulduggery</Name>
+          <Description>Farghul may begin the game with one rank in Skulduggery.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>SKUL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

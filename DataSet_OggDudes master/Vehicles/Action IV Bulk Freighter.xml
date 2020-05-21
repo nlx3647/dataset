@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ACTIONIV</Key>
+  <Name>Action IV Bulk Freighter</Name>
+  <Description>[H3]Action IV Bulk Freighter[h3]
+An ancient design, the Corellian Engineering Action IV has been a mainstay of the great hyperlanes for eons. Unlike its newest cousin, the Action VI, the Action IV is one of the largest star freighters in the Corellian fleet with the capacity for planetary landings, explaining in large part the allure of the old ship in the modern mark. Although there are larger bulk freighters capable of moving more cargo with greater economy, the need for orbital facilities and dedicated landers limits the usefulness of those ships for certain markets and purposes.
+[P]The Action IV's block, utilitarian design bears little resemblance to the more streamlined hull design of the latest Action variants. The cargo bays of the IV are more uniform, and the intervening bulkheads are capable of being removed to create a more versatile cargo space than the two hunched-looking bays of the Anchor VI. The crew is housed primarily in the forward environment pod, although there are variants that utilize some of the cargo space aft of that segment for passengers and expanded living space.
+[P]There are few options available if the goal is to deliver a great deal of cargo to a planet's surface quickly without extensive and advanced local infrastructure and the involvement of local authorities. With the Action IV, food, clothing, medical supplies, building materials, and more can be dropped exactly where needed and unloaded quickly and efficiently, allowing the freighter to be back up in orbit before the drop is recorded. Unfortunately, these hulking ships are quite unwieldy and, aside from their tractor beams, lack any sort of defensive equipment.</Description>
+  <Source Page="61">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Bulk Transport</Type>
+  <Categories>
+    <Category>Bulk Transport</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>150000</Price>
+  <Rarity>4</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, 25 crew</Crew>
+  <EncumbranceCapacity>8500</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>Six months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <DefFore>1</DefFore>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>35</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Hull</Location>
+      <Key>TRACTMED</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

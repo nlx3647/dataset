@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>64YSWIFT</Key>
+  <Name>64-Y Swift 3 Repulsorsled</Name>
+  <Description>[H3]64-Y Swift 3 Repulsorsled[h3]
+The Swift 3 is a fast, rugged, versatile repulsorsled made by Aratech Repulsor Company. Built more like a one-person landspeeder than a true speeder bike, it is essentially the front part of a speeder bike grafted to a large cargo bed. Powered by Aratech's LM01 high-outpuit ion turbine engine, it is remarkably fast and agile for such a bulky looking vehicle. Designed initially to assist law enforcement agencies in combatting the rise of swoop gang violence throughout the galaxy, the Swift 3 is equipped with a number of unique systems. The rear compartment can be configured to haul cargo, passengers or suspects, or on-board comms or surveillance equipment. An auto-blaster is slung from the vehicle's undercarriage, and a magnetic grapnel launcher is mounted forward of the pilot in the vehicle's fairing.
+[P]The Swift 3 also features a relatively sophisticated communications and sensor suite, allowing the pilot to listen in on or jam other vehicles' comms systems as well as an on board computer with a comprehensive vehicle identification database. While they are built primarily for law enforcement and the military, these vehicles are also available in limited numbers on the civilian market. Both the Imperial Army and Imperial Navy's Military Police branches use Swift 3 as patrol and pursuit vehicles to great effect.</Description>
+  <Source Page="53">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Repulsorsled</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>8000</Price>
+  <Rarity>7</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>Using the magnetic grapnel launcher to control or tow a piloted vehicle requires a [B]Hard ([DI][DI][DI]) Piloting - Planetary check[b].</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <WeaponModifiers>
+    <WeaponModifier>
+      <UnarmedName>Magnetic Grapnel Launcher</UnarmedName>
+      <SkillKey>GUNN</SkillKey>
+      <Qualities>
+        <Quality>
+          <Key>KNOCKDOWN</Key>
+        </Quality>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>1</Count>
+        </Quality>
+        <Quality>
+          <Key>TRACTOR</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <VehicleWeaponProperties>
+        <Location>Forward</Location>
+        <FiringArcs>
+          <Fore>true</Fore>
+        </FiringArcs>
+      </VehicleWeaponProperties>
+      <VehicleWeaponCount>1</VehicleWeaponCount>
+      <RangeValue>wrClose</RangeValue>
+      <Range>Close</Range>
+    </WeaponModifier>
+  </WeaponModifiers>
+  <MaxAltitude>25 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Armor>1</Armor>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

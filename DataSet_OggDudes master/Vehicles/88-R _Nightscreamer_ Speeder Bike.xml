@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>88RNIGHTSCREAMER</Key>
+  <Name>88-R "Nightscreamer" Speeder Bike</Name>
+  <Description>[H3]88-R "Nightscreamer" Speeder Bike[h3]
+An exceptionally high-performance speeder bike manufactured
+by Ikas-Adno, the 88-R "Nightscreamer" is faster than some airspeeders. The Nightscreamer is equipped with forward deflector shields to protect the pilot from sand and debris particles-and even glancing collisions-that would be dangerous at the extreme maximum speeds it achieves. Though the Nightscreamer comes at a price that matches its impressive performance, many mercenaries and other fighters keep one in the hold of their ship for use as a rapid transport and scout vehicle. Some reckless warriors instead employ a Nightscreamer to swiftly close with enemies in order to deliver point -blank blaster shots or even melee weapon strikes.</Description>
+  <Source Page="53">Knights of Fate</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Speeder Bike</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>5500</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>25 meters.</MaxAltitude>
+  <Crew>One pilot.</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LIGHTREPVEHICLE</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

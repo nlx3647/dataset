@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SATHARI</Key>
+  <Name>Sathari</Name>
+  <Description>[H4]Sathari[h4]
+[P]Sathari are a humanoid species of avian ancestry native to the planet Arbooine. Sathari are rarely encountered away from their home planet, for Sathari culture values family above all else. For Sathari, to travel off-planet or even to leave their hometown is seen as abandoning family, so few depart. Sathari are fiercely loyal to their family and friends, but many Sathari are known to harbor significant grudges against their foes.
+[P]Though the Sathari's ancestors were likely once capable of true flight, this ability disappeared millions of years ago. However, their avian heritage is apparent in their plumage, which varies in color and pattern by individual, and in their rapid, precise movements. Of particular note are the facial plumes of the Sathari, which grow outward from near the beak or eye. These long, tufted feathers can extend up to a meter in adult Sathari. The relatively subtle sexual variance of the Sathari species leads to adult males frequently having four such feathers and adult females frequently having two, although various genetic, environmental, cultural, and individual factors mean that plumage, sex, and gender vary across a spectrum and can appear in any grouping.
+[P]Although Sathari average from 1.7 to 2 meters in height, they weigh significantly less than humans of similar size. Sathari skeletons are far less dense than those of most humanoid species, allowing them to move more quickly and dexterously, but leaving them more susceptible to fractures and other damage. Sathari possess four clawed digits, including one that is opposable, on their hands and three clawed toes, one of which is largely vestigial, on their feet.
+Like most species of large fauna that evolved on Arbooine, Sathari have four eyes.
+[P]Sathari speech is by turns measured and raucous. Conversations are often begin restrained, then suddenly burst into lively discussions that sound like chirping chaos to many outsiders. Sathari rhetoric and plans alike tend to be swift and exact. Most Sathari prefer to study a challenge for a long time before implementing an efficient solution rather than working in stops and starts and adapting the plan on the fly.</Description>
+  <Source>Chronicles of the Gatekeeper</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>8</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>COORD</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>SATHARICH1</Key>
+      <Name>Avian</Name>
+      <Options>
+        <Option>
+          <Key>SATHARICH1OP1</Key>
+          <Name>Glider</Name>
+          <Description>A Sathari can fall safely from any height and can glide over small gaps or distances while falling.  While conscious, a Sathari character does not suffer damage from falling (see page 221 of the [B]Force and Destiny[b] Core Rulebook).</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

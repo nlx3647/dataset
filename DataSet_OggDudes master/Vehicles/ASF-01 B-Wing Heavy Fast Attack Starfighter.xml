@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ASF01BWING</Key>
+  <Name>ASF-01 B-Wing Heavy Fast Attack Starfighter</Name>
+  <Description>
+    [H3]ASF-01 B-Wing Heavy Fast Attack Starfighter[h3]
+
+Like the fast and deadly A-wing, the B-wing heavy attack fighter is a relatively new addition to the Alliance arsenal. Designed by Alliance commander Gial Ackbar and produced by the Verpine shipbuilding consortium Slayn &amp; Korpil, the B-wing is the largest, most heavily armed fighter in the Alliance arsenal. Relatively rare due to their high cost and complex design, these ships are also the most visually striking of the Alliance's fightercraft. They have a long, thin, blade-like fuselage that serves as a weapons platform with two small retractable S-foils that rotate around a heavily armored, ovoid pilot compartment. When deployed, they have a slim cruciform cross-section that, paired with their ability to rotate out of harm's way, makes them quite hard to hit despite their size. In combat, they spin like dervishes, their rotating hulls bringing their powerful weapons to bear on targets in an instant while the pilot stays still and correctly oriented in his capsule. They have a strange kind of grace that not even Imperial pilots deny. In their first few deployments, they carried the day as much through surprise and novelty as through their inherent fighting qualities; the Imperial pilots were often too stunned, or too wracked with laughter at these gangly fighters, to effectively fight back. 
+
+[P]B-wings, like their older Y-wing cousins, are dedicated attack fighters. They are specifically designed to destroy capital ships and orbital installations using ion weaponry and heavy ordnance such as proton torpedoes and pro-ton bombs. They are heavily armored and shielded, and equipped with a quartet of heavy S&amp;K sublight engines usually mounted on heavy gunboats and light capital ships. This gives them an incredible straight-line speed, especially given their great mass and awkward shape, and makes them extremely effective at their given mission. B-wings are still very rare in Alliance squadrons. They cost a mint of credits to build, are considered finicky maintenance hogs due especially to their surpris-ingly delicate gyro-stabilization system, and the Alliance has few pilots who can fly them effectively. Thanks to this, they are still an uncommon sight in Rebel formations Even so, their reputation precedes them, and the,. Imperial Navy knows that they're in for serious fighting when the Rebels bring B-wings to a fight.</Description>
+  <Source>Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>150000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>15</EncumbranceCapacity>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>15</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Hardpoint</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>2</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Hardpoint</Location>
+      <Key>LASERHVY</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>8</Count>
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Hardpoint</Location>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

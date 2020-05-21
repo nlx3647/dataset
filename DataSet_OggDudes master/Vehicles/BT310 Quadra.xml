@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BT310</Key>
+  <Name>BT310 Quadra</Name>
+  <Description>[H3]BT310 Quadra[h3]
+Balta Trabaat's fearsome BT310 is one of the fastest and most dangerous, factory custom Podracers on the market. Targeted towards experienced or particularly daring Podracer pilots, theBT310 was largely designed for straight up speed, with little consideration given to maneuverability or stability. Equipped with four massive T-990 Mk. II afterburning turbo fans, the Quadra—as the BT310 is also known—is an imposing sight on a race circuit. The four engines are bound with a crackling, X-shaped energy binder, and they make a tremendous screeching racket when active. Everything about the Quadra is designed to overpower the senses, both of the pilot and of any spectatots, and to awe wit sound, fury, and speed.
+[P]The downside to all of this power is that, despite a remarkably sophisticated handling and avionics suite, the Quadra is difficylt to fly and nearly impossible to handle on highly technical or obstacle filled tracks. The thrust of the engine overpowers the fligth controls, and it is said that only those species with four or more arms can really wring all of the racer's potential out of it. In fact, the cockpit itself it optimized for multilimbed species, with a control and instrument layout that suggests a need for at least four arms to properly pilot the vehicle.</Description>
+  <Source Page="54">Endless Vigil</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Podracer</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>14200</Price>
+  <Rarity>8</Rarity>
+  <MaxAltitude>50 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>1</EncumbranceCapacity>
+  <Silhouette>3</Silhouette>
+  <Speed>6</Speed>
+  <Handling>-2</Handling>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

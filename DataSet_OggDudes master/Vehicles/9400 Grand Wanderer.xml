@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>9400GRANDWANDER</Key>
+  <Name>9400 Grand Wanderer</Name>
+  <Description>[H3]9400 Grand Wanderer[h3]
+The Ubrikkian Industries 9400 Grand Wanderer is more a mobile home than a vehicle. It was initially designed for use as a recreational vehicle for vacationing in the wilderness areas of well-developed Core Worlds during the days of the Republic. Over the ensuing years, the 9400 Grand Wanderer became a popular choice in the less-developed worlds of the Mid and Outer Rim, not for recreation, but as a relatively cheap dwelling-and one that could be moved from location to location as needs dictated.
+[P]The 9400 Grand Wanderer requires only a single pilot, but can accommodate up to 8 passengers in varying degrees of comfort. The speeder features a small, utilitarian galley, refresher station, and a complete communications and sensor package. Sleeping accommodations depend upon the individual custom configuration but range from fold-down racks of bunks to large, luxurious sleeping quarters for one or two occupants. The main living quarters often feature a small seating area with a Dejarik table, which can double as a dining surface.
+[P]Especially in the less-civilized regions of the galaxy, it is rare to find any two 9400s which are identical. Not only were the original vehicles shipped customized to the individual customer's specifications, but over the years, Grand Wanderers have been repaired, kit-bashed, modified, stripped down, and rebuilt extensively. Today, no two are alike.
+[P]A Seer might use the 9400 as a traveling caravan, moving from settlement to settlement, dispensing prophecy like a fortune-teller. A Prophet could find themselves using a 9400 Grand Wanderer as a temporary home, or even a permanent one, from which to base a cult of Force worshippers.</Description>
+  <Source Page="57">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>35000</Price>
+  <Rarity>6</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Smooth Ride:[b] A character who lives in a 9400 gains [BO] on any checks to recover strain while in the 9400.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>60</EncumbranceCapacity>
+  <Passengers>8</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-3</Handling>
+  <Armor>3</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

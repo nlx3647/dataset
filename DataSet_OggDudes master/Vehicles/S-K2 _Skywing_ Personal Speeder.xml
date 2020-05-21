@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SK2SKYWING</Key>
+  <Name>S-K2 "Skywing" Personal Speeder</Name>
+  <Description>[H3]S-K2 "Skywing" Personal Speeder[h3]
+The "Skywing" is a unique vehicle marketed for recreational use by manufacturer Ubrikkian Industries. Difficult to categorizem, the Skywing can achieve altitudes usually reserved for airspeeders, while its chassis is even lighter (and likely less safe) than a swoop's. It might be more accurate to say that a user wears a Skywing rather than occupies it. Resembling the primitive gliders still in use on some worlds, a Skywing features a control cradle suspended from a lightweight alloy wing structure tipped with twin high-thrust turbines and mounting a repulsorlift engine.
+[P]Considering the sorts of speeds and altitudes an S-K2 can achieve, the lack of an enclosed cabin is inarguably dangerous for the user. Skywings are primarily the province of adventurous thrill seekers, but no few mercenaries and roving fighters have found the vehicles useful for swiftly closing with foes or launching a surprise aerial attack. Some such users even consider Skywings disposable tools.
+[P]Ubrikkian Industries strongly recommends the use of a flight suit with helmet and full breath mask when operating an S-K2 personal speeder.</Description>
+  <Source Page="53">Knights of Fate</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <Price>1000</Price>
+  <Rarity>4</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Rapid Debarkation:[b] The pilot of the Skywing can choose to dismount as an out-of-turn incidental.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <MaxAltitude>500 meters.</MaxAltitude>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot.</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Handling>2</Handling>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>3</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

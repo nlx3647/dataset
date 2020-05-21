@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>JAWASALSKIFF</Key>
+  <Name>Jawa Salvage Skiff</Name>
+  <Description>
+    [H3]Jawa Salvage Skiff[h3]</Description>
+  <Source>Beyond the Rim</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Cargo Floater</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>4000</Price>
+  <Rarity>2</Rarity>
+  <MaxAltitude>15 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>60</EncumbranceCapacity>
+  <Passengers>15</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-1</Handling>
+  <HullTrauma>2</HullTrauma>
+  <SystemStrain>2</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

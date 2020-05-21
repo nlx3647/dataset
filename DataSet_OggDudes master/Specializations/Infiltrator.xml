@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>INFILTRATOR</Key>
+  <Name>Infiltrator</Name>
+  <Description>
+    [H4]Infiltrator - Finding the Secrets[h4]
+
+When most people hear the word Spy, the operatives of this specialization are what come to mind. Infiltrators endeavor to place themselves in the very den of the beast, usually sneaking or lying their way in undetected. All too often, Infiltrators face the worst possible odds without the benefit of direct backup, and frequently without a way out if they are discovered by the wrong people at the wrong time. 
+
+[P]Infiltrators gain [B]Deception, Melee, Skulduggery,[b] and [B]Streetwise[b] as their additional career skills; taking this as the first specialization for a PC grants a free rank in two of these skills. Masters of covert work, Infiltrators know how to con or lie their way past almost anyone, and they know all of the tricks necessary to break into and out of secure locations, as well as everything else needed for underhanded operations. They tend to prefer silent and deadly attacks, often best accomplished with hand-to-hand weapons. 
+
+[P]An Infiltrator rarely relies upon brute force or direct confrontation to accomplish his goals. Instead, he uses stealth, guile, subterfuge, and disguise to integrate himself among his enemies. He gains access to sensitive areas, talks to the right people, and employs every other available tactic to obtain valuable information, steal important secrets and assets, and leave behind a target who is reeling from his efforts. 
+
+[P]Lately, Infiltrators are used by the Alliance as part of special strike teams sent throughout Imperial-controlled space, where they are used in combined operations intended to disrupt the Empire's plans while gathering information at the same time. For more direct combat missions, Infiltrators tend to operate in a support role. When the mission calls for subterfuge and more covert operations, Infiltrators are often the ones in charge.</Description>
+  <Source Page="97">Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>DECEP</Key>
+    <Key>MELEE</Key>
+    <Key>SKUL</Key>
+    <Key>SW</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>GRIT</Key>
+        <Key>DODGE</Key>
+        <Key>FRENZ</Key>
+        <Key>DEFSTA</Key>
+      </Talents>
+      <Directions>
+        <Direction />
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>1</Index>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>STUNBL</Key>
+        <Key>GRIT</Key>
+        <Key>SOFTSP</Key>
+        <Key>JUMP</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>2</Index>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>KNOCK</Key>
+        <Key>FRENZ</Key>
+        <Key>GRIT</Key>
+        <Key>DODGE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>3</Index>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>NATBRAW</Key>
+        <Key>TOUGH</Key>
+        <Key>STUNBLIMP</Key>
+        <Key>DEFSTA</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>4</Index>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>DEDI</Key>
+        <Key>CLEVERSOLN</Key>
+        <Key>MASSHAD</Key>
+        <Key>NATROG</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

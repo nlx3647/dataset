@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>JM5000</Key>
+  <Name>JM-5000 Jumpmaster Long Range Scout</Name>
+  <Description>
+      [H3]JM-5000 Jumpmaster Long Range Scout[h3]
+
+Corellian Engineering's JumpMaster-class long range scouts are small, one-person vessels designed for autonomous, long-range scouting and reconnaissance. Relatively fast and agile, JumpMasters have a flat, roughly crescent-shaped hull packed with the ship's powerful and sensitive sensor systems. An off-set, cylindrical pod located to starboard of the ship's centerline houses the cockpit, the pilot's small and spartan quarters, and the ship's power generators and drive system. Lightly armored and carrying only a light laser cannon as armament, JumpMasters rely on their speed and sensors to avoid trouble. 
+
+[P]Thanks to their powerful sensor suite, JumpMasters serve in many planetary militaries as picket ships and early warning patrol craft within star systems. Their primary user, however, is the galaxy's Civilian Astrogation Corps, the volunteer group of explorers, astrogators, and cartographers responsible for keeping hyperspace navigation charts up to date.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Patrol Boat</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>55000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>30</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Consumables>Two month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>14</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

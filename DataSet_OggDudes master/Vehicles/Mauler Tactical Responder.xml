@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MAULER</Key>
+  <Name>Mauler Tactical Responder</Name>
+  <Description>[H3]Mauler Tactical Responder[h3]
+
+Sienar Fleet Systems' Mauler airspeeder is a fast, lightweight troop carrier and gunship marketed to law enforcement agencies and private security companies. Based on the design of the rugged Republic Police Gunship, itself a stripped down version of Rothana Heavy Engineering's LAAT/i Attack Gunship, the Mauler is designed to carry two squads of law enforcement officers or an equivalent amount of cargo into a conflict then retreat to altitude and provide air support to officers on the ground. Maulers are popular in the Outer Rim. In addition to law enforcement, they are also used as search and rescue vehicles, heavy pursuit, and even as cargo lifters if need be. Many colonies possess at least one of these vehicles, using them as all-purpose heavy-duty utility airspeeders. 
+
+[P]Maulers are tall, long, narrow bodied airspeeders with blunt noses and tapered rear hulls that bear a passing resemblance to the Imperial Navy's TIE/In starfighter. A hexagonal viewport of reinforced transparisteel protects the pilot and gunner and affords them an expansive view of their surroundings. A large hatch is located on each side of the Mauler for loading and unloading of crew and passengers, and a drop-down ramp at the rear of the vehicle allows all passengers to disembark quickly in combat or emergency situations. Although Maulers are neither as heavily armored nor as heavily armed as their military forebears, they still have a respectable amount of armor and a pair of blaster cannons.</Description>
+  <Source>Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>76000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <MaxAltitude>200 kilometers</MaxAltitude>
+  <Crew>One pilot, one co-pilot/gunner</Crew>
+  <EncumbranceCapacity>12</EncumbranceCapacity>
+  <Passengers>24</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Armor>2</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

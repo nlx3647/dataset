@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>INTERCEPIV</Key>
+  <Name>Interceptor IV-Class Frigate</Name>
+  <Description>[H3][I]Interceptor IV[i]-Class Frigate[h3]
+The Interceptor Four was an upgrade of the Interceptor-class frigate widely used by pirate forces, which was itself a modified Action VI transport.
+[P]With superior shielding and improved weaponry, as well as the "full salvo" missile capabilities that allowed the frigate to fire a barrage of missiles at its target, the Interceptor was a cheap, yet versatile, vessel. It also possessed powerful engines allowing it to reach extremely high sublight velocities for a vessel of its size. The ship's weakness was its lightly armored hull. </Description>
+  <Sources>
+    <Source Page="81">Mask of the Pirate Queen</Source>
+    <Source Page="http://starwars.wikia.com/wiki/Interceptor_IV_frigate">Wookieepedia</Source>
+  </Sources>
+  <Custom>CustomItem</Custom>
+  <Type>Frigate</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>300000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>20</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>Twenty crew</Crew>
+  <EncumbranceCapacity>10000</EncumbranceCapacity>
+  <Passengers>5</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>3</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>40</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>TURBOHVY</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>TURBOHVY</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>CML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

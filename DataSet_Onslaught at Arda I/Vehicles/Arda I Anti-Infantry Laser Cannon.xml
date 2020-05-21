@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AIAILASCAN</Key>
+  <Name>Arda I Anti-Infantry Laser Cannon</Name>
+  <Description>[H3]Arda I Anti-Infantry Laser Cannon[h3]
+See page 34 of the Onslaught at Arda I adventure book.</Description>
+  <Source>Onslaught at Arda I</Source>
+  <Sources />
+  <Custom>AddedItem</Custom>
+  <Type>Artillery</Type>
+  <Categories />
+  <Encumbrance>0</Encumbrance>
+  <HP>0</HP>
+  <Price>0</Price>
+  <Rarity>0</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <MaxAltitude />
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRange>None</SensorRange>
+  <Crew />
+  <EncumbranceCapacity>0</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Consumables />
+  <Silhouette>1</Silhouette>
+  <Speed>0</Speed>
+  <Handling>0</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>0</Armor>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>2</SystemStrain>
+  <Starship>false</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Unspecified</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>AILASCAN</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MC18FREIGHT</Key>
+  <Name>MC-18 Light Freighter</Name>
+  <Description>[H3]MC-18 Light Freighter[h3]
+
+Mon Calamari Shipyards is one of the few manufacturers in the galaxy openly supporting the Rebellion, and many of the most advanced Rebel ships are produced by the skilled artisans working there. Most such vessels are warships, including the devastating MC80 star cruisers—mainstays of the rare Rebel fleet engagement. However, the Mon Calamari take pride in producing a wide range of starships to fulfill needs beyond warfare. The MC-18 light freighter is one such ship. Earlier runs of the vessel were sold to the civilian market, but the ship has become so closely associated with the Rebel Alliance that flying one is, in the eyes of the Empire, essentially a declaration of Rebel allegiance. 
+
+[P]Like all Mon Calamari ships, the MC-18 design is not uniform from ship to ship. However, the ships share common traits, such as a wedge-shaped hull dotted with bulbous emplacement pods, crucial systems, redundant shield generators for increased protection, and protective seals and shielding adaptations allowing the vessel to function underwater at depths of up to 1,000 meters.</Description>
+  <Source>Desperate Allies</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>140000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>10</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/engineer</Crew>
+  <EncumbranceCapacity>150</EncumbranceCapacity>
+  <Passengers>5</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>22</HullTrauma>
+  <SystemStrain>16</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

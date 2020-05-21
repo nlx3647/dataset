@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ZABRAK</Key>
+  <Name>Zabrak</Name>
+  <Description>[H4]Zabrak[h4]
+
+Zabrak resemble humans in skin tone and physique. but they are easily distinguished by their vestigial horns. They are renowned for both their inherent confidence and their martial prowess. 
+
+[P][B]Physiology:[b] Zabrak physiology is similar to human, with several notable differences, including the presence of a second heart and a heightened resistance to physical pain. Zabrak vestigial horns emerge at puberty; they are a sign that an individual is reaching maturation and nearing the age of the traditional rite of passage. Zabrak skin colors range from near-ivory through browns to near-black, in a broad range of tones. Some have hair, but many are completely bald. Eye colors include the common human range, but can also include yellow, red, and orange. 
+
+[P][B]Society:[b] Upon completing the rite of passage, Zabrak adopt a pattern of facial tattoos. These are generally made up of a pattern of thin lines and elegant designs. They are often based on family tradition, but can also incorporate personal designs or representations associated with significant events. 
+
+[P]Zabrak are renowned for their self-assurance and independent natures. The harsh conditions of their homeworld, Iridonia, led to a particularly competitive and warlike nature in Its inhabitants. Thus, study in martial arts is common throughout Zabrak cultures. The bladed quarterstaff—known as a zhaboka—is a culturally significant weapon to Zabrak; historically, Zabrak would wield zhabokas while riding reeks, their war mounts. The combination of determination and military prowess has made Zabrak culture extremely resistant to Imperial domination. 
+
+[P]In concert with their militaristic tendencies, Zabrak have established a reputation as exceptional weaponsmiths. They craft both traditional melee weapons and reliable blasters. While none of these armaments are mass-produced, they can still be found throughout the galaxy (sometimes when Zabrak surreptitious-ly arm other oppressed species). 
+
+[P][B]Homeworld:[b] Zabrak are native to Iridonia, a world located in the Mid Rim. Because its environment is so hostile to life—conditions include brutal weather. acidic seas, and a host of predatory wildlife—many Zabrak were quick to embrace spacefaring and migrate to other worlds. Consequently, many Zabrak identify themselves with their colony world rather than the homeworld of their species. Zabrak colonies can now be found spread across the galaxy. from established colonies on major metropolitan worlds to enclaves in entirely unexpected locations, such as the mountain colonies found on Dathomir. The Dathomirian Zabrak emphasize their culture's warlike tendencies to the exclusion of all else, and tend to be even more violent and dangerous than their off-world kin.
+
+[P][B]Language:[b] The native language of Zabrak from Iridonia is Zabraki. However, because of their long association with broader galactic civilization, almost all Zabrak also speak Basic.</Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>SURV</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>ZABRAKOC1</Key>
+      <Name>Fear</Name>
+      <Options>
+        <Option>
+          <Key>ZABRAKOC1OP1</Key>
+          <Name>Fearsome Countenance</Name>
+          <Description>
+            A Zabrak
+            adds automatic [ADVANTAGE] to all Coercion checks he makes.
+          </Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>COERC</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

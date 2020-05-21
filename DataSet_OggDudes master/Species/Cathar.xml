@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CATHAR</Key>
+  <Name>Cathar</Name>
+  <Description>
+    [H4]Cathar[h4]
+
+The Cathar are a species of feline, bipedal humanoids native to Cathar, a planet of savannas and rough uplands. They are known for their loyalty, passion, and temper. Quick and powerful, they are considered great warriors and dedicated, efficient predators. Cathar have high moral values, learned from both family and society. Their females are prized as slaves, whereas the males are generally regarded as too uncontrollable for slavery.
+
+[P][B]Physiology:[b]The baseline Cathar has fur-covered bodies with thick manes. They have prominent, retractable claws that can deliver powerful killing attacks on foes and prey. Their bodies also possess rapid healing abilities. On average, Cathar are 1.5 to 1.9 meters tall. These traits make them the perfect hand-to-hand specialists.
+
+[P]The Cathar species also had two additional subspecies, known as the Juhani and the Myr Rho. Both of these are notably less catlike than mainline Cathar. Cathar are born into a litter.
+
+[P][B]Society:[b] On their homeworld, Cathar live in cities built into giant trees, and are organized into clans governed by "Elders." Stories of their great heroes are often carved into the trunks of these tree-homes for following generations to see. The Cathar mate for life, to the extent that when one mate dies, the survivor never has a relationship with another. Cathar clan society includes great pageants and celebrations, especially for their heroes. Their religion includes a ritual known as the "Blood Hunt," in which Cathar warriors individually engage in combat against entire nests of Kiltik in order to gain honor and purge themselves of inner darkness.
+
+[P][B]Homeworld:[b] Cathar is the homeworld of the Cathar species, filled with many ecological niches and huge insect predators. The natives live in city-trees, while wide areas of the planet are made barren by kiltik beetles. The Giant horned hopper are often killed  by the Cathar species in blood hunts.
+
+[P][B]Language:[b] The native language of the Cathar was Catharese, which included the emphasis of some spoken words with a growl.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>1</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>CATHABSK</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>CATHSKCH</Key>
+          <Name>One Rank in Athletics</Name>
+          <Description>Cathar may begin the game with one rank in Athletics.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>ATHL</Key>
+              <RankAdd>1</RankAdd>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>CATHSKDEC</Key>
+          <Name>One Rank in Stealth</Name>
+          <Description>Cathar may begin the game with one rank in Stealth.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>STEAL</Key>
+              <RankAdd>1</RankAdd>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>CATHAB1</Key>
+      <Name>Claws</Name>
+      <Options>
+        <Option>
+          <Key>CATHAB1CLAW</Key>
+          <Name>May use claws when brawling</Name>
+          <Description>
+            When a Cathar makes a
+            Brawl check to deal damage to an opponent,
+            their attack deals +1 point of damage and has
+            a Crit Rating of 3.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers>
+    <WeaponModifier>
+      <AllSkillKey>BRAWL</AllSkillKey>
+      <DamageAdd>1</DamageAdd>
+      <Crit>3</Crit>
+      <Range>Engaged</Range>
+    </WeaponModifier>
+  </WeaponModifiers>
+</Species>

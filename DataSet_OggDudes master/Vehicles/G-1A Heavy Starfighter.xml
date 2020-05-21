@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>G1AHVYSTAR</Key>
+  <Name>G-1A Heavy Starfighter</Name>
+  <Description>[H3]G-1A Heavy Starfighter[h3]
+The G-1A Heavy Starfighter is a large, sturdily built craft with a flexible battlefield role that endears it to some Outer Rim freelancers. Originally designed as an all-purpose system patrol craft by Byblos Drive Yards, the G-1A is a handsome, well-designed ship constructed for speed rather than agility. It has a tall, narrow, single-decked hull with bluff bows and a long, fixed position, transparisteel canopy that stretches nearly the entire length of the ship's dorsal side. Two powerful Byblos BPS-980 ion drives are mounted in tandem high on the ship's stern, and a massive articulated wing assembly mounted abaft the canopy provides lift and maneuverabliity. The ship's cramped interior holds five crewmembers and is accessed through an armored midships hatch on the starboard side.
+[P]Designed originally as a system patrol and interdiction craft, the G-1A shares a number of features in common with other popular ships of its size. It is moderatly armored, but has a sturdy hull with reinforced keel and one of the highest-performance shield generators of any ship in its class. From the factory, it carries a respectable weapons loadout consisting of energy weapons and heavy ordnance launcers. Its sensors and comms package is respectable, if not particularly outstanding, and its targeting and flight control systems are intuitive and well designed.
+[P]Overall, the G-!A is a well-liked, well-designed vessel, if perhaps a bit unexciting. While it doesn't stand out in any one particular way performance-wise, where it does shine is in its modification potential.
+[P]Byblos envisioned the G-1A as a basic ship that could be outfitted with aftermarket wepaons and sensor packages—designed and sold by BDY, of course—to tailor the ship to a particular user's needs. Unfortunately, due to a number of market factors, the G-1A never gained the popularity or sales numbers that BDY expected, and plans for th product line were drastically scaled back. Few of the aftermarket packages were ever built, and those that remain are vanishingly rare. Due to their modular nature, however, these ships are eminently modifiable, and can withstand an enormous amout of tinkering and jury rigging without suffering in their perfromance.</Description>
+  <Source Page="59">No Disintegrations</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Patrol Boat</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>130000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>10</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot/gunner</Crew>
+  <EncumbranceCapacity>25</EncumbranceCapacity>
+  <Passengers>3</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>14</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

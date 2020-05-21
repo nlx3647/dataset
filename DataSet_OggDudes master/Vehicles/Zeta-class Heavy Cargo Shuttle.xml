@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ZETACARGOSHUTTLE</Key>
+  <Name>Zeta-class Heavy Cargo Shuttle</Name>
+  <Description>[H3][I]Zeta[i]-class Heavy Cargo Shuttle[h3]
+Awkward and unlovely, the [I]Zeta[i]-class was designed as a short-haul heavy lifter capable of carrying large cargoes in highly secure holds. It has a broad, flat, rectangular hull with a heavily armored, forward-mounted flight deck. Four long, angular S-foils are mounted port and starboard, two to a side, to give the heavy vessel additional lift and stability in atmosphere. The interior cargo hold is modular and can be configured to carry nearly any sort of materiel needed by the Imperial military. When sealed, the modular cargo hold is shielded against scanners and separated from the ship’s onboard networks, an excellent feature for delicate or top-secret cargoes. These vessels also feature a series of ventral-mounted cargo clamps that can carry containerized cargo. These containers can be dropped onto targets while the ship is still moving; many supply or delivery missions are carried out simply by flying by the landing zone, slowing down to drop the containers, and then flying away to safety.
+[P]While ostensibly a non-combat vessel, the [I]Zeta[i]-class is remarkably heavily armed and armored. A trio of hull-mounted medium lasers makes up the ship’s primary armament. These are backed up by four fire-linked light lasers mounted in the forward pair of S-foils. The ship’s armor is both thick and angled in such a way as to deflect energy blasts, projectiles, and shrapnel. They powerful weapons loadout and sturdy armor more than make up for the shuttles’ slow speed and poor handling, allowing good crews to shrug off or blast through most opposition.
+[P]Since the [I]Zeta[i]-class is relatively new, very few are currently in service with the Imperial Navy. Those that are have quickly proven their worth, and most have been scooped up by the special projects bureaus and naval engineering corps.</Description>
+  <Source Page="127">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Cargo Shuttle</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>95000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot.</Crew>
+  <EncumbranceCapacity>750</EncumbranceCapacity>
+  <Passengers>50</Passengers>
+  <Consumables>Two weeks.</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-3</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <Armor>4</Armor>
+  <HullTrauma>35</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>WingMounted</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

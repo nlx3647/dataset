@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CAISSONCAR</Key>
+  <Name>Caisson-Class Engineering Troop Carrier</Name>
+  <Description>[H3][I]Caisson[i]-Class Engineering Troop Carrier[h3]
+A survivor of the Clone Wars, the [I]Caisson[i]-class is a heavy dropship designed to carry combat engineers and their equipment into action. A derivative of Corellian engineering Corporation's CR-20 troop carrier, the [I]Caisson[i]-class is a tall, narrow, two-decked ship that strongly resembles CEC's [I]Consular[i]-class cruiser and YV-666 light freighter. Its aft is dominated by three massive ion engines that provide the blocky ship with surprising speed and agility. Directly below them is a reinforced boarding ramp for loading and unloading the ship. A blunt-faced flight deck rises from the forward section of the hull, and two small sponsons extend down the ship's sides, carrying its light weapons.
+[P]Like that of most troop carriers, the [I]Caisson[i]-class's interior is barren but cramped. The upper deck holds twenty combat engineers and their equipment, while the lower deck is designed to carry vehicles such as the UEV-M 1 Marauder Engineer Squad Carrier, or a handful of speeder bikes or small construction vehicles. Few of these dropships survived the Clone Wars, and nearly all of them are currently in service with the Alliance Army. The Alliance Corps of Engineers is constantly on the lookout for these ships and their parts, as their age and the hard usage they are put to are slowly whittling away the Rebels' small fleet of these useful vessels.</Description>
+  <Source Page="58">Fully Operational</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Shuttle</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>190000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, one comms operator</Crew>
+  <EncumbranceCapacity>110</EncumbranceCapacity>
+  <Passengers>40</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>5</Armor>
+  <HullTrauma>25</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BITH</Key>
+  <Name>Bith</Name>
+  <Description>
+    [H4]Bith[h4]
+Centuries ago, the Bith homeworld, Clak'dor VII, was a strong member of the Galactic Senate. Its citizens travelled widely, debated science and philosophy, and helped their world and the galaxy prosper intellectually and economically.
+[P]Clak'dor VII was divided into city-states. Though chaotic, this method of governance functioned smoothly until the Nozho-Weogar War. The civil war between these city-states was short-lived but devastating. Both launched chemical, biological, and mutagenic weapons that shattered the ecosystem and eventually claimed nearly all of the planetary population. Off-world Bith tried to return, but the Bith governments set up a planetwide quarantine. Unafflicted Bith scattered across the Outer Rim to work and to find aid for their homeworld.
+[P]In the three centuries since, the Bith have suffered the effects of losing a homeworld without actually losing it. The quarantine convinced outsiders that the Bith carried a plague. Since all of the economic support went to repairing their planet, Bith colonies and outposts dissolved or integrated with other communities. Clak'dor VII virtually disappeared from galactic life. Although the planet-bound Bith have stabilized their culture and governments, the planet has remained toxic. A cultural split endures between those on Clak'dor VII and the other Bith, but all use the war as an object lesson on the futility of violence.
+[P]Disillusionment with the Republic led the Bith to side with the Separatists, although not in a military capacity. Not only did they object to the corruption of the Republic (which mirrored their own before their civil war), but the Confederacy of Independent Systems promised much-needed supplies and aid. With the collapse of the Republic, the Bith now face the wrath of the Empire, which uses Separatist worlds as scapegoats for various propaganda purposes.
+[P]Bith have a strong history of adaptation. They survived the loss and slow restoration of their homeworld, and they continue to adjust to life under Imperial rule. As the Galactic Civil War grows, the Bith not only must adapt to the idea of widespread warfare but must decide which side to support.
+[P][B]Physiology:[b] With their large eyes, high cranial bone, and lack of a prominent nasal organ, the Bith are one of the more recognizable species. Their large black pupils allow for a wider range of wavelengths, giving them exceptional eyesight. They have olfactory facial folds but don't use them to breathe; instead, the absorb air through their skin. Despite the lack of any obvious aural organs, Bith have sensitive hearing. While tales of Bith heads exploding due to sonic attacks are a popular fiction, they do find loud noises very painful.
+[P][B]Society:[b] Bith pacifism arises less out of cultural tradition than historical exhaustion. After the terrible civil war left their homeworld devastated, pacifism became their watchword. They continued to have a voice in the Galactic Senate, but centuries of begging for aid to repair their homeworld left them convinced of the Republic's corruption and ineffectualness. Bith are a species both with a home and without.
+[P]The Republic's war with the Seperatists and the subsequent rise of the Rebellion have placed the Bith in an uncomfortable position. Centuries without a stable homeworld have taught them that violence solves nothing, but the Empire's persecution threatens to destroy what culture they have managed to preserve.
+[P]Bith also struggle with the legacy of the civil war in the form of offshoot subspecies such as the Y'bith. The war's resultant mutations killed many, but those who survived stabilized their genetic drifts through bioengineering. Now a distinct and separate subspecies, the Y'bith are similar in appearance to their genetic cousins, with darker and more orange skin and pronounced facial features and fingers. The Y'bith endure a high level of social prejudice from the Bith even though they have the same legal rights.
+[P][B]Homeworld:[b] Clak'dor VII currently exists in ecological collapse as chemical, radioactive, and biological effects from the ancient civil war continue to ravage the environment. The poisoned jungles and swamps are filled with rapidly mutating flora and fauna.
+[P]Bith live in domed cities, the majority of which lie nestled in the crags of Clak'dor VII's mountain ranges. They rely on subterranean engineering and urban-architectural advances to burrow deeper and build higher to alleviate the cramped conditions. While the planet is safe to visit (if one stays within the domed cities), many species, including offworld Bith, find Clak'dor VII harsh and depressing.
+[P][B]Language:[b] The Bith language originally had a symbolical and numerical structure, but the modern version of the language has been divorced from the numerology. Some still use the old numerical words in codes or communications with other Bith. Due to their dependence on offworld trade for necessities, all Bith learn Basic at an early age.
+[P][B]Life in the Alliance:[b] After seceding from the Republic to join the Seperatists, Clak'dor VII found itself facing a tyrannical Empire whose constant persecution forced the Biths to side with the Rebel Alliance. Still, participation in what some Bith see as terrorist attacks have made many uncomfortable. The destruction of Alderaan reminds the Bith that in any war, there are always unintended casualties.</Description>
+  <Source Page="18">Fully Operational</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>PERC</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>BITHOC1</Key>
+      <Name>Skill</Name>
+      <Options>
+        <Option>
+          <Key>BITHOC1OP1</Key>
+          <Name>Sensitive Hearing</Name>
+          <Description>
+            Bith add [BO] whenever they make a hearing-based Perception check.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>BITHOC2</Key>
+      <Name>Environmental</Name>
+      <Options>
+        <Option>
+          <Key>BITHOC2OP1</Key>
+          <Name>Sensitive Hearing</Name>
+          <Description>
+            When Bith suffer strain due to loud noises, they suffer twice the normal amount of strain.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

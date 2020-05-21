@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>85XSSPEEDBIKE</Key>
+  <Name>85-XS Odyssey Heavy Speeder Bike</Name>
+  <Description>
+    [H3]85-XS Odyssey Heavy Speeder Bike[h3]
+
+Aratech's Odyssey is a speeder bike built for adventure. Based on the reliable 74-Y speeder bike platform, this two-person speeder bike was designed for long-distance travel over rough terrain. Built with exploration in mind. the Odyssey features a reinforced frame, heavy-duty power systems, improved repulsorlift drives, and capacious storage for luggage and supplies. A compact and extremely powerful ground-following sensor suite mated to a navigation system makes handling the heavy vehicle easy for nearly any sentient. Not as common or popular as the 74-Y, the 85-XS enjoys slow-but-steady sales and can be found relatively easily on less-developed worlds where ruggedness and reliability take precedence over speed and handling.</Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Speeder Bike</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>4500</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>25 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>15</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <Armor>1</Armor>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

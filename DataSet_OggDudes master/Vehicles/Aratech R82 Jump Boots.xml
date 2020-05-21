@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>R82JUMPBOOTS</Key>
+  <Name>Aratech R82 Jump Boots</Name>
+  <Description>[H3]Aratech R82 Jump Boots[h3]
+ [P]Aratech's R82 jump boots are commonly used for sports and leisure activities, but the Rebel Alliance has also found them useful for exploring less accessible areas on newly located worlds. The boots employ a pair of repulsorlift generators and rocket units that allow the user to boost jumps or glide at altitudes of up to thirty-five meters for short distances.
+[P]Jump boots allow the user to function as a Silhouette 1, Speed 2, Handling -1, System Strain Threshold 3 vehicle that can only operate in atmosphere, has a maximum altitude of 35 meters, and requires Piloting (Planetary) to operate. </Description>
+  <Source>Strongholds of Resistance</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Jump Boots</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <Price>2000</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>35 meters</MaxAltitude>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <Silhouette>1</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <SystemStrain>3</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

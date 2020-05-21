@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SENTINEL</Key>
+  <Name>Sentinel</Name>
+  <Description>
+    [H4]Sentinel[h4]
+
+The Sentinel's six career skills are [B]Computers, Deception, Knowledge (Core Worlds), Perception, Skulduggery,[b] and [B]Stealth[b]. These characters automatically gain a rank in three of these skills without spending experience and gain a discount on increasing them with future experience points. [B]Sentinels begin the game with a Force rating of 1.[b]
+
+[P][H4]A SENTINEL'S ROLE[h4] 
+
+[P]Every city has its secrets, and every shining beacon of civilization has its seedy underworld. Within these shadowy depths, miscreants and malcontents prey on the helpless, committing heinous crimes and leaving misery and chaos in their wake. 
+
+[P]Most law enforcement agencies try to combat criminals without violating the very laws the agencies exist to uphold. Thus, their agents must abide by strict regulations that restrain their behavior. Even institutions that exist to uphold evil laws, such as the Empire, have codes of conduct that apply to their enforcers. The Sentinel, however, plays by his own rules.
+
+[P]During the time of the Old Republic, the Jedi Sentinels were Force adepts who blended combat expertise and training in the Force with a more pragmatic approach to their duties. Sentinels embraced practical technologies and utilized techniques borrowed from police forces, skip tracers, spies, and even law-breakers. Sentinels relied on quick thinking and cunning to accomplish their tasks, and they quickly found their calling in the owns of urban environments. tin the streets. Sentinels could fight criminals by using their own tactics against them. 
+
+[P]Such an approach was not without risk. Even as Sentinels skirted the law to enforce justice, they skirted the dark side of their own morality as well. A Sentinel had to maintain constant vigilance over his own actions, analyzing each choice he made to ensure it was the right one. The best Sentinels avoided falling to the dark side by cultivating a fierce intellect and a brilliant cunning-to see all sides of a no-win situation and find the unexpected solution. 
+
+[P]Although the Empire has long since wiped out the Jedi Order, and with it the Jedi Sentinels, some remain who follow these guiding principles. Many quick-witted Force-sensitives living in urban areas find themselves unconsciously adopting a Sentinel's tactics as they unlock their own hidden potential. 
+
+[P]Characters with a strong moral imperative may see these crusading skills as a means of Investigating powerful individuals. If they find powerful villains who are above the law, then employing less ethical approaches might be the only means to bring these rogues to justice. Under these circumstances, a Sentinel could readily justify deception and even minor crimes if they were undertaken to assure that a tyrant's excesses could be curbed.</Description>
+  <Source Page="90">Force and Destiny Core Rulebook</Source>
+  <Custom>CustomItem</Custom>
+  <CareerSkills>
+    <Key>COMP</Key>
+    <Key>CORE</Key>
+    <Key>DECEP</Key>
+    <Key>PERC</Key>
+    <Key>SKUL</Key>
+    <Key>STEAL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>ARTISAN</Key>
+    <Key>FORCEADHERENT</Key>
+    <Key>IMPERIALACADEMYCADET</Key>
+    <Key>INVESTIGATOR</Key>
+    <Key>PADAWANSURVIVOR</Key>
+    <Key>PIRATE</Key>
+    <Key>RACER</Key>
+    <Key>RETIREDCLONETROOPER</Key>
+    <Key>SENTRY</Key>
+    <Key>SHADOW</Key>
+    <Key>SHIEN</Key>
+    <Key>SHIPCAPTAIN</Key>
+  </Specializations>
+  <Attributes>
+    <ForceRating>1</ForceRating>
+  </Attributes>
+  <FreeRanks>3</FreeRanks>
+</Career>

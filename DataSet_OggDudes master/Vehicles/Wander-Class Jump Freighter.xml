@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>WANDERFR</Key>
+  <Name>Wander-Class Jump Freighter</Name>
+  <Description>[H3][I]Wander[i]-Class Jump Freighter[h3]
+Built specifically to compete with Corellian Engineering Corporation's HWK series freighters, [I]Wander[i]-class freighters have been plying the spacelanes since the Clone Wars. Small and quite quick, [I]Wander[i]-class ships have a reputation, like all Mon Calamari Shipyards (MCS) vessels, for being beautiful practical, and affordable. Described by many spacers as "a liberty type cruiser that got shrunk". [I]Wander[i]-class freighters have the smooth lines and organic shapes typical of MCS ships. About the same size as teh HWK series ships, these freighters were designed to carry light, sensitive cargo and VIPs quickly and safely over long distances. They have remarkably well appointed passenger berths and a small secure, internally shielded cargo hold with sliding bulkheads that can hold a surprising amount of cargo.
+[P][I]Wander[i]-class freighters prved wildly popular when first released but their star soon faded as they entered service and owners, pilots, and crews came face to face with the idiosyncrasies of Mon Calamari design. Like their larger MCS cousins, [I]Wander[i]-class vessels have very little commonality from ship to ship. Each one is essentially handmade from whatever parts are at hand and beneath their organic-appearing hulls is a hodgepodge of parts and components from nearly every supplier in the galaxy. This makes working on them a nightmare, as there is no standardization of parts or systems. Little exists in the way of official technical documentation, and tracking parts down requires equal measures of detective work and luck. Despite this, they are still popular enough, thanks to their looks, their performance, and the reputation of MCS vessels as excellent ships. </Description>
+  <Source Page="59">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>65000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>10</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, one engineer</Crew>
+  <EncumbranceCapacity>50</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>17</HullTrauma>
+  <SystemStrain>17</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

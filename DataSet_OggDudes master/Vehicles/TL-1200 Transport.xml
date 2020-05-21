@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TL1200</Key>
+  <Name>TL-1200 Transport</Name>
+  <Description>[H3]Suwantek TL-1200 Transport[h3]
+
+Barely a blip on the sensor screens of the Corellian Engineering and Kuat Drive Yards companies, Suwantek Systems has managed to achieve some success with its TL-series transports. The TL-1200 is a reliable medium-sized freighter with decent cargo capacity. While the ship comes equipped with a pair of laser cannons mounted on other side of the bow, many owners add additional weaponry to deal with pirates and other threats. 
+
+[P]Though not exceptional, the TL-1200 is a solidly built and dependable vessel, and thus it is a relatively common sight throughout Hutt Space and the Outer Rim. In fact, some traders and smugglers have been said to seek it out for this very reason, for it tends to go unnoticed where flashier vessels might attract the unwanted attentions of pirates, thieves, creditors, or criminal syndicates.</Description>
+  <Source>Lords of Nal Hutta</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>170000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot, one engineer, three crew</Crew>
+  <EncumbranceCapacity>600</EncumbranceCapacity>
+  <Passengers>1200</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-3</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>26</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

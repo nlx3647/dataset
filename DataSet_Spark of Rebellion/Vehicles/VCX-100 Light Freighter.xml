@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>VCX100LIGHFREI</Key>
+  <Name>VCX-100 Light Freighter</Name>
+  <Description>[H3]VCX-100 Light Freighter[h3]
+Corellian Engineering Corporation was faced with
+a dilemma. The enduring YT-1 300 proved to be
+so capable and customizable that it rapidly
+established itself as the de-facto freighter for
+both legitimate transportation and more
+nefarious spacefarers. The newer YT-2400 was
+an attempt to capitalize on the 1 300's
+customizability whilst adding some upgraded
+weaponry and defense. The VCX-1 00 was
+intended to fit somewhere between the two,
+being extremely sturdy and packing some decent
+armaments for its size.
+[P]
+Although it looks bulky and unwieldy, modern
+control systems and responsive thrusters give it
+a handling profile more suited to a smaller ship.
+Skilled pilots are able to thread the VCX-1 00
+through hazardous terrain that would stymie
+similar ships in its class.
+[P]
+To the rear is a dedicated docking platform
+intended to berth the sister vessel, the Corellian
+Cargo Shuttle. This vessel is not included with
+the stock VCX-1 00, but is a very common
+addition. Alternatively, the bay can be used for
+an additional modular crew compartment or
+extended cargo hold.</Description>
+  <Source>Spark of Rebellion</Source>
+  <Sources />
+  <Custom>AddedItem</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>5</HP>
+  <Price>120000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <WeaponModifiers />
+  <MaxAltitude />
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>true</NaviComputer>
+  <SensorRange>Short</SensorRange>
+  <Crew>One pilot, one co-pilot, two</Crew>
+  <EncumbranceCapacity>130</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>Two months.</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>0</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>24</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Chin</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>LASERHVY</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>LASERMED</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <BuiltInAttachments />
+</Vehicle>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>XEXTO</Key>
+  <Name>Xexto</Name>
+  <Description>[H4]Xexto[h4]
+
+The Xexto are a wiry, six-limbed species of humanoids with tiny heads atop long necks. Thanks to Arkanian experimentation, the Xexto are the genetic progenitors of the Quermians, and seem to share evolutionary similarities to the Kaminoans. Xexto have an insatiable demand for adventure and excitement, and there is little in the galaxy considered more dangerous than a pair of bored Xexto. While some regard their courage as false bravado and pride, the Rebel Alliance is proud to count the Xexto among its ranks, and have honored many for valor, though often posthumously. 
+
+[P][B]Physiology:[b] The Xexto are a slight species with pale, chalky skin and lithe bodies that sprout six, spindly limbs, four of which Xexto use as arms. Their small, round heads sit atop long necks, and feature large dark eyes and tiny mouths. Their skin is pale and can be shaded yellow, green, purple, or blue. 
+
+[P]The Xexto have two brains, with basic body functions under the purview of the head, and higher functions carried out in the chest. Their large, black eyes are well suited to seeing in dark forests and caves, and Xexto often wear tinted goggles to protect their eyes when in areas of harsh, direct sunlight. Their reflexes are incredibly sharp, and they are mentally resilient in the face of trauma. Predators once dominated their homeworld, which helped test and develop Xexto quickness and resilience for millennia. 
+
+[P]While academic circles are familiar with the story of how Arkanian geneticists experimented on Xexto to create the Quermian species, there is a more recent, lesser-known theory postulated by a number of fringe researchers. Their theory suggests that early Kaminoan geneticists created the Xexto as laborers for Troiken's spice mines on behalf of ancient Hutts almost twenty-thousand years ago, and claim they have proof in the form of key Kaminoan markers present in Xexto DNA. They believe the Arkanians were only interested in the Xexto to gauge the Kaminoan threat to business. 
+
+[P][B]Society:[b] The Xexto primarily live in sprawling, technologically advanced arboreal villages throughout Troiken's forests; they have also constructed a number of modern cities and spaceports. Veterned is the capital, and consists of buildings and facilities inspired by Core World architecture akin to that found on Corellia. Intricate mosaics of blue, purple, green, and yellow silicates adorn interior walls of both the villages and cities, featuring themes that conjure feelings of speed and motion, sometimes including native fauna such as the skizzard. 
+
+[P]As a species, the Xexto have grown used to a lifestyle of risk-taking, and bravery in the face of a challenge is their most valued quality. Political campaigns for leadership often boil down to a series of escalating dares, where the first to back down or die loses. Some Xexto, such as those starring in the Cresh Krill Yirt series of holovids, have developed cult-like followings for their daring stunts, which often result in predictably awful injuries. 
+
+[P]While the Xexto have many pursuits, including mosaic art, traditional drum music, and teasing local predators, their cultural obsession is Podracing. Their world has a number of tracks that run through the dense forests and mountains of Troiken, and some cross over to the uninhabitable portions of the planet. Gasgano has long been a racing legend on Troiken, and many young Xexto idolize him and purchase merchandise related to the aging racer to this day. Xexto off Troiken are often competing in or following a racing circuit, usually that of Podracing, though anything fast is appealing to them. 
+
+[P][B]Homeworld:[b] Troiken is a tidally locked planet in the Colunda sector's Troiken system near the Rimward edge of the Perlemian Trade Route, which causes the inner half of the planet to burn under the heat of its star and the outer half to freeze. A large moon in a polar orbit traces a narrow ring of habitable land to provide something approaching a day-night cycle. 
+
+[P]The mountains are large, purple-hued rocks with labyrinthine mines tunneled over thousands of years. The Hormick Range once harbored large deposits of andris and collafa spice, though most believe those mines are dry. Hormick Ranges Mount Avos was the historical site of the decisive battle of the Stark Hyperspace War, a conflict that preceded the Clone Wars. The mountains are home to the carnivorous challat eaters, fist-sized bioluminescent insects that flew in massive swarms, devouring everything in their path. The mountains also feature predatory, cat-like leaptigs, which stalk the nearby valleys and plains in packs for grazers and bantha offshoots. 
+
+[P]The forests of Troiken house two-thirds of the world's Xexto. Historically, the Xexto's earliest cities were primitive tree houses connected by cables near mountains. Early Xexto had to contend with dozens of forest predators, and while most predators still exist on Troiken today, they are predominantly in zoological exhibits and preserves. Of course, this only rarely stops Xexto from hopping a fence to slap a horn-faced surtops in the flank. 
+
+[P][B]Language:[b] The Xexto have developed the Xextese language, which consists of rapid nasal jabbering. Xextese also has a written component, but few non-Xexto bother to learn to speak or read Xextese. Most Xexto have learned to speak at least a broken version of Basic or Huttese, which sounds like a reedy and nasal jabbering in their long throats.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>85</Experience>
+  </StartingAttrs>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>CONF</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>XEXTOCH1</Key>
+      <Name>Limbs</Name>
+      <Options>
+        <Option>
+          <Key>XEXTOCH1OP1</Key>
+          <Name>Additional Limbs</Name>
+          <Description>Xexto have four arms and gain an additional free maneuver per turn.  They still may not perform more than two maneuvers per turn, however.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

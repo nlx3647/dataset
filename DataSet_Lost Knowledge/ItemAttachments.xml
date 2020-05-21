@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<ItemAttachments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemAttachment>
+    <Key>ATHISSCRYSTAL</Key>
+    <Name>Athiss Cave Crystal</Name>
+    <Description>[H3]Athiss Cave Crystal[h3]
+Please see page 251 of the Force and Destiny Beta Rulebook for details.
+</Description>
+    <Source>Lost Knowledge</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type>Weapon</Type>
+    <ItemLimit />
+    <SkillLimit />
+    <TypeLimit />
+    <CategoryLimit>
+      <Category>Lightsaber</Category>
+    </CategoryLimit>
+    <Price>7000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <ModPrice>0</ModPrice>
+    <HP>2</HP>
+    <Encumbrance>0</Encumbrance>
+    <JuryRigged>false</JuryRigged>
+    <BaseMods>
+      <Mod>
+        <Key>DAMSET</Key>
+        <Count>6</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZoneValue>None</DefZoneValue>
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+        <DefZone />
+      </Mod>
+      <Mod>
+        <Key>CRITSET</Key>
+        <Count>3</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZoneValue>None</DefZoneValue>
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+        <DefZone />
+      </Mod>
+      <Mod>
+        <Key>BREACH</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZoneValue>None</DefZoneValue>
+        <QualReplace>true</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+        <DefZone />
+      </Mod>
+      <Mod>
+        <Key>SUNDER</Key>
+        <Count>0</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZoneValue>None</DefZoneValue>
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+        <DefZone />
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>DAMADD</Key>
+        <Count>2</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZoneValue>None</DefZoneValue>
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+        <DefZone />
+      </Mod>
+      <Mod>
+        <Key>CRITSUB</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZoneValue>None</DefZoneValue>
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+        <DefZone />
+      </Mod>
+      <Mod>
+        <Key>VICIOUS</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+        <DefZoneValue>None</DefZoneValue>
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+        <DefZone />
+      </Mod>
+    </AddedMods>
+    <MustHaveHyperdrive>false</MustHaveHyperdrive>
+    <MustBeStarship>false</MustBeStarship>
+    <MinEncumCap>0</MinEncumCap>
+    <MinSize>0</MinSize>
+    <MaxSize>0</MaxSize>
+    <PriceSizeMult>false</PriceSizeMult>
+    <MinEnc>0</MinEnc>
+    <MaxEnc>0</MaxEnc>
+    <WeaponModifiers />
+    <PricePassMult>false</PricePassMult>
+    <IsCrystal>true</IsCrystal>
+  </ItemAttachment>
+</ItemAttachments>

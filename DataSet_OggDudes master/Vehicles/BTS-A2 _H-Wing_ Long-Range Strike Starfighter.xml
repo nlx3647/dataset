@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BTSA2</Key>
+  <Name>BTS-A2 "H-Wing" Long-Range Strike Starfighter</Name>
+  <Description>[H3]BTS-A2 "H-Wing" Long-Range Strike Starfighter[h3]
+
+A follow-up to Koensayr's wildly successful Y-wing starfighter, the BTS-A2 H-wing is a heavily armed and armored, three-man fighter designed for long-range strike and interdiction missions. Essentially an up-armored and up-gunned Y-wing equipped with modern avionics and fire control systems, the H-wing is a steady, reliable fighter that can punch well above its weight thanks to a broad collection of ordnance and energy weapons. Taking the lessons learned from the production and long life of the venerable Y-wing, the H-wing's hull is a broad, lifting body design with a unique tandem-style cockpit. The port cockpit houses the ship's pilot, while the starboard cockpit houses the two weapon systems operators responsible for the fighter's onboard weap-ons. In addition, a tiny. cramped compartment with a bunk, chemical refresher, and soundproof divider is located aft of the cockpits for use by the crew on long-distance hyperspace jumps. Powered by a pair of Koensayr's relatively new R440 Ion Jet Engines fitted with the company's iconic thrust vectral vanes, the H-wing is remarkably fast for such a heavy fighter. Other systems familiar to V-wing pilots and technicians are used in the H-wing, such as an upgraded version of Fabritech's ANx-Y sensor package and the successor to SubPro's NH-7 comprehensive avionics package. 
+
+[P]The H-wing is very well-suited to its role as a strike/attack starfighter with its diverse array of armaments. The ship's primary weapon is a dorsal turret-mounted Taim &amp; Bak KY12 medium laser cannon which gives the H-wing excellent anti-ship and anti-armor capabilities. Secondary weapon systems include a linked pair of forward-mounted ArMek light ion cannons and two Arakyd flex tube proton torpedo launchers. This versatile loadout, combined with its powerful shields, reliable systems, sturdy construction, and long-range capabilities, make the H-wing perfect for far-ranging patrols, commerce raiding, and solo cruises. 
+
+[P]Although envisioned by Koensayr as a replacement for the aging V-wings in the Rebel arsenal and a heavy-strike counterpart to the new B-wings, widespread use of the H-wing has yet to catch on among the members of the Alliance. While there are a number of reasons to explain the halting adoption of this new fighter, the primary reason is that the H-wing is a large, expensive, and complex new fighter trying to force its way into a niche already filled by two capable and well-liked fighters with established support infrastructure. In addition, very few Rebel installations have the facilities or manpower required to maintain a single H-wing, let alone an entire squadron. As it stands, those few H-wings in Alliance service are used as escorts for freighter-tonvoys and system patrol craft in Rebel-held star systems.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>225000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, two weapon systems operators</Crew>
+  <EncumbranceCapacity>15</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>4</Armor>
+  <HullTrauma>15</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>12</Count>
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

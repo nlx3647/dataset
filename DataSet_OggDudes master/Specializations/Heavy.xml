@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HEAVY</Key>
+  <Name>Heavy</Name>
+  <Description>[H4]Heavy - Overwhelming Firepower[h4]
+
+[P]For a Heavy, size really does matter. These characters prefer to use the biggest guns possible, and usually have the physique to match. Heavies are often physically impressive, a necessity for effectively wielding the heaviest man-portable weapons. Heavies are inevitably found at the front in combat, as allies back away and give them space. 
+
+[P]The list of additional career skills for a Heavy consists of [B]Gunnery Perception, Ranged (Heavy),[b] and [B]Resilience[b]. If this is the character's starting specialization, he may choose two of these skills and gain one free rank in each, without spending starting experience. This straightforward list of skills allows a Heavy to do primarily one thing: wield large, dangerous weapons. From heavy blasters to missile tubes, Heavies favor big, loud, and devastating weaponry. Using such weapons is often punishing for the wielder, and characters must possess great fortitude in order to wield such weapons extensively. A high Resilience skill is often a side effect of the Heavy's actions, rather than the result of conscious training. Lugging around heavy weapons builds stamina, and simply dealing with the recoil provides a workout. 
+
+[P]Heavies generally approach combat in the most direct way possible—stealth and duplicity are not becoming of a walking arsenal. Similarly, Heavies tend to be very straightforward in their dealings. This bluntness sometimes comes across as a lack of intellect, though few would be brave enough to say so to the Heavy's face. There may be some truth to the perception that Heavies sacrifice brains for brawn, but as with all generalizations, there are many exceptions. In a galaxy of double-crosses and altered deals, steadfastness and blunt honesty can be seen as virtues. 
+
+[P]While some Heavies may work as independent operators, most find themselves as a permanent addition to a group. Heavies can easily find a place among a mercenary band. Having a Heavy in a group is a great boon. The mere sight of the heavy weapons they carry can ensure that no one hassles them, and a single Heavy—when properly equipped—is easily a match for numerous foes. 
+
+[P]In a Player Character group, a Heavy fulfills a similar role to that of a light battle tank in a military force. Heavies can often deal out enough damage to wipe out entire groups of enemies single-handedly, and are also typically able to absorb a great deal of punishment. Heavies must have a high Brawn in order to wield heavy, cumbersome weapons, which helps them to shrug off damage, and also allows them to wear heavy armor that may be too encumbering for other characters. A Heavy's skills and talents are narrowly focused, but they make him a master of ranged combat.</Description>
+  <Sources>
+    <Source Page="30">Dangerous Covenants</Source>
+    <Source Page="28">Forged in Battle</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>GUNN</Key>
+    <Key>PERC</Key>
+    <Key>RANGHVY</Key>
+    <Key>RESIL</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>BURLY</Key>
+        <Key>BAR</Key>
+        <Key>GRIT</Key>
+        <Key>TOUGH</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>1</Index>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>BAR</Key>
+        <Key>BRA</Key>
+        <Key>SPARECL</Key>
+        <Key>DURA</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>2</Index>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>SIDESTEP</Key>
+        <Key>BURLY</Key>
+        <Key>HERO</Key>
+        <Key>TOUGH</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>3</Index>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>BRA</Key>
+        <Key>BAR</Key>
+        <Key>RAINDEATH</Key>
+        <Key>HEROICRES</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>4</Index>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>BURLY</Key>
+        <Key>DEDI</Key>
+        <Key>ARM</Key>
+        <Key>HEAVYHITTER</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>T85JOBEN</Key>
+  <Name>Joben T-85 Speeder Bik</Name>
+  <Description>[H3]Joben T-85 Speeder Bik[h3]
+The T-85 Joben is a sporting and enthusiast's speeder bike produced by the Zebulon Dak Speeder Corporation, a small speeder manufacturing company located in the Outer Rim. Solidly built and reliable, the T-85 is easy to ride and simple to maintain. The bike contains few advanced systems and has no weapons, relying instead on speed, comfort, and style to attract buyers. A cruiser style speeder bike, the Joben has high-rise handlebars and forward foot controls, putting the plint in a more relaxed riding position than on a more aggressive bike like a 74-Y or a swoop. Its drive system, an ion engine  licensed from Aratech tuned more for endurance than speed, provides ample power but is more suited ot long distance, open-country riding than to city travel.
+[P]Although it is a small company, Zebulon Dak provides a health variety of performance and comfort-enhancing parts for the T-85 and other speeder bikes the company produces. These, along with aftermarket accessories offered by  other companies, allow T-85 owners to customize the bike to their exact needs.</Description>
+  <Source Page="54">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Speeder Bike</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>1500</Price>
+  <Rarity>4</Rarity>
+  <MaxAltitude>25 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

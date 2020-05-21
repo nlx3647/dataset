@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>IC2IND</Key>
+  <Name>I-C2 Civil-Industrial Droid</Name>
+  <Description>[H3]I-C2 Civil-Industrial Droid[h3]
+
+Produced by Veril Line Systems for use in the construction and civil engineering fields, the I-C2 is the latest in a long line of autonomous construction and fabrication droids. Designed to replace the towering, dim-witted but reliable EVS construction droid, the I-C2 is a massive, slow moving vehicle similar in size and shape to the ancient CMC Digger-Crawlers. Commonly found building far flung Outer Rim colonies or performing massive construction projects on heavily populated worlds, these droids are long, stoutly built, slab-sided affairs propelled by massive independently suspended tread arrays. They are equipped with a versatile fabricating furnace that can produce finished building materials from raw materials, and countless retractable building, lifting, and fabricating appendages. The droid brain that controls the majority of the I-C2's systems is highly intelligent and analytical, programmed for engineering and construction expertise with powerful analysis and problem solving sub-routines. In terms of personality, I-C2 droids tend to be slow and methodical individuals who speak in an impenetrable mix of technical lingo and jargon, when they bother to speak at all. In addition to the droid operator, a small crew of engineers and technicians are assigned to each vehicle, keeping an eye on the simpler propulsion, power, and control systems while the droid does the heavy intellectual lifting and actual construction.</Description>
+  <Source>Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Groundcar</Type>
+  <Categories>
+    <Category>Wheeled Vehicle</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>1700000</Price>
+  <Rarity>6</Rarity>
+  <Crew>None (droid operated)</Crew>
+  <EncumbranceCapacity>200</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-2</Handling>
+  <Armor>3</Armor>
+  <HullTrauma>38</HullTrauma>
+  <SystemStrain>30</SystemStrain>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

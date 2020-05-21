@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>YV865</Key>
+  <Name>YV-865 Freighter</Name>
+  <Description>[H3]YV-865 Freighter[h3]
+The YV-865 is best known for its association with the Zygerrian Slave Empire, which uses the transport with regularity. The standard modification to the base model is called the [I]Aurore-[i]class and features a bank of grappling turrets that can fire from the back when the bay doors are opened. Ensnared victims are reeled into the cargo bay after four combat rounds.</Description>
+  <Source Page="88">Friends Like These</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>240000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, co-pilot, engineer, coms/sensors, two loadmasters, four gunners</Crew>
+  <EncumbranceCapacity>800</EncumbranceCapacity>
+  <Passengers>115</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-3</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>50</HullTrauma>
+  <SystemStrain>36</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

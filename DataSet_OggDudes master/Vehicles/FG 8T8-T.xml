@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>FG8T8T</Key>
+  <Name>FG 8T8-T</Name>
+  <Description>[H3]FG 8T8-T[h3]
+Perhaps the most unique and visually striking Podracer currently on the market, the 8T8 is a technological wonder in the world of Podracing. It is produced by Farwan &amp; Glott, a small, boutique producer of Podracers and high performance Podracer parts. The 8T8, also known as the Twin Block2 Special, is a remarkably agile, maneuverabilite-focused Podracer powered by a pair of LGN-19 Magna-Pulse ion drives designed for use in starfighters and patrol boats. Instead of having the engines mounted in free-flouting nacelles connected to the cockpit by control cables, the Twin Block2's engines are hard-mounted directly to the Podracer cockpit via a pair of short, reinforced, fully faired spars. This places the engines aft of the pitlo, giving the vehilce a more tradtional airspeeder appearance. While a radical configuration for a Podracer, the hard-mounted nacelles give the 8T8 better control thanks to the stiffer hull offering a stable platform for the engines.
+[P]The Twin Block2's cockpit is another oddity in Podracer construction. It features a more aerodynamic shape and a fully enclosed pilot's compartment with advanced safety and control features. It even has a factory equipped ejection system,  an almost unheard of luxury in Prodracing circles. These features—and its advanced handling and braking system—increase pilot safety and comfort at the cost of speed and acceleration. Despite all of its technical advances, and the nearly unmatched power of tis ion engines, the 8T8 is among the slowers of the current crop of factory customs, due to its weight and its overbearing pilot assistance system.</Description>
+  <Source Page="56">Endless Vigil</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Podracer</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>16200</Price>
+  <Rarity>7</Rarity>
+  <MaxAltitude>45 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>2</EncumbranceCapacity>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <BuiltInAttachments>
+    <Key>PODEJECT</Key>
+  </BuiltInAttachments>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

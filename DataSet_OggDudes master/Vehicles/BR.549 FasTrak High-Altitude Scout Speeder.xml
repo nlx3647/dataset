@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BR549</Key>
+  <Name>BR.549 FasTrak High-Altitude Scout Speeder</Name>
+  <Description>[H3]BR.549 FasTrak High-Altitude Scout Speeder[h3]
+The FasTrak by Bespin Motors is a small, fast four person airspeeder designed for high-altitude observation and reconnaisance. With an elegent airframe, powerful afterburning ion-turbofan engines, and a sophisticated scout/reconnaissance sensor package, the Br.549 is popular both with military and paramilitary organizations and with civilian scout and survey companies. It has a tight but comforable cockpit with room for four crew—the pilot and co-pilot sitting tandem facing forward, and the sensor operators sitting tandem facing aft—and a small amount of cargo, typically survival gear and personal weapons.
+[P]The heart of the FasTrak is its powerful Fabritech An AQS.5 multi-role tactical observation avionics package. The TOA package includes a number of scanners and sensors that provide high-quality, three dimensional renderings of the air, sea, land and near orbit space in the vehicle's line of sight. It also contains comlink scanners and decryptors, comms and scanner jamming systems, and various other sensors that allow the crew to intercept comms and data traffic, jam transmissions and generally gain a clear view of a large area with ease.
+[P]While they are typically used by planetary governments for reconnaissance, many of these speeders ahve found their way into the hands of small survey outfits. Their small size, speed, and ease of maintenance allow them to serve as excellent survey vehicles. </Description>
+  <Source Page="53">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>25000</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>150 kilometers</MaxAltitude>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, two sensor operators</Crew>
+  <EncumbranceCapacity>15</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Handling>1</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

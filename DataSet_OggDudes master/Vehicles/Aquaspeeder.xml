@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AQUASPEEDER</Key>
+  <Name>Aquaspeeder</Name>
+  <Description>[H3]Aquaspeeder[h3]
+Repulsorlift vehicles like landspeeders can cross water as easily as land. However, the potential for water to have an unstable surface, with swells and waves, makes for a difficult ride. This can lead to a landspeeder taking on water, growing too heavy as a result, and sinking, For planets where water travel is expected to be common, a dedicated aquaspeeder is preferable.
+[P]Aquaspeeders use a series of specialized repulsors, each constantly adjusting to the surface of the water beneath it, allowing the vessel to maintain stability. The hull and passenger compartment are sealed against water, and the internal workings feature a pump system to constantly expel any liquid that manages to get in, thereby preventing the speeder from foundering.
+[P]Aquaspeeders come in almost as many design options as their land-based cousins, but generally have the following features in common: a closed passenger compartment and stabilizing outriggers with fins that cut downward into the water, to assist with maneuverability.</Description>
+  <Source Page="58">Unlimited Power</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Watercraft</Category>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>7000</Price>
+  <Rarity>2</Rarity>
+  <MaxAltitude>1 meter</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

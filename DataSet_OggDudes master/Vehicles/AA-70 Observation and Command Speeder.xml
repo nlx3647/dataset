@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AA70COMM</Key>
+  <Name>AA-70 Observation and Command Speeder</Name>
+  <Description>[H3]AA-70 Observation and Command Speeder[h3]
+
+The AA-70 is simply a medium-duty civilian speeder
+truck, typically the ubiquitous A-A5, modified for use
+by Alliance military personnel. Used primarily as a
+mobile command post and observation vehicle, the
+AA-70 is operated by a crew of four. It features a
+small but well-equipped command center complete
+with a comms suite, environmental protection, storage,
+and command and control systems. The command
+center has enough room and workstations for a
+general officer and staff to operate in relative ease
+and comfort for days on end. These vehicles are also
+equipped with light armor, proof against small arms
+and shrapnel, and they mount a light auto-blaster in a
+remote-controlled turret.</Description>
+  <Source Page="50">Keeping the Peace</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>16000</Price>
+  <Rarity>4</Rarity>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One vehicle commander/gunner, one driver, two comms/electronic warfare operators</Crew>
+  <EncumbranceCapacity>40</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-2</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>11</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

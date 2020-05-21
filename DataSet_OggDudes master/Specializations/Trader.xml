@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TRADER</Key>
+  <Name>Trader</Name>
+  <Description>[H4]Trader - Discovering New Markets[h4]
+
+Those seeking to take what they discover as they explore the Outer Rim and beyond (and turn a serious profit from it) are Traders. For a Trader, a new planet represents nigh-infinite potential for resource exploitation, while a new culture or hidden community is a customer base just begging for his particular talents. 
+
+[P]Traders gain access to the additional Career skills of [B]Deception, Knowledge (Core Worlds), Knowledge (Underworld),[b] and [B]Negotiation[b]. If this is the character's starting Specialization, he may choose two of these skills and gain one free rank in each, without spending starting experience. Most Traders know how to build connections between the center of civilization and the far reaches, and they are often educated folks who bring knowledge and proficiency in economics, sociology, and politics with them.
+
+[P]Traders are exceptionally adept at commerce, naturally; they know how to find what is needed, and can usually bypass the kinds of restrictions that stymie others. At the same time, Traders can get the most out of a transaction, as well as talk themselves into or out of almost anything. Traders are strategic thinkers, planning ahead for contingencies. They are also strong-willed, making them excellent companions in a crisis. 
+
+[P]A Trader played in a campaign will likely serve as the group's public face, though not necessarily as the leader. He will be one of the best first choices for interacting with public officials, money men, and anyone with whom the group seeks to do business. When it comes to finding and buying something that the team needs, or fencing something that they wish to get rid of for a profit, he is invaluable. 
+</Description>
+  <Source Page="73">Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>DECEP</Key>
+    <Key>CORE</Key>
+    <Key>UND</Key>
+    <Key>NEG</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>KNOWSOM</Key>
+        <Key>CONV</Key>
+        <Key>WHEEL</Key>
+        <Key>SMOOTHTALK</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction />
+        <Direction />
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>1</Index>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>WHEEL</Key>
+        <Key>GRIT</Key>
+        <Key>SPARECL</Key>
+        <Key>TOUGH</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>2</Index>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>KNOWSOM</Key>
+        <Key>NOBFOOL</Key>
+        <Key>SMOOTHTALK</Key>
+        <Key>NOBFOOL</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>3</Index>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>WHEEL</Key>
+        <Key>STNERV</Key>
+        <Key>BLA</Key>
+        <Key>BLA</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>4</Index>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>KNOWSOM</Key>
+        <Key>NATNEG</Key>
+        <Key>DEDI</Key>
+        <Key>MASMERC</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<Armors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Armor>
+    <Key>MANDARMOR</Key>
+    <Name>Mandalorian Armor</Name>
+    <Description>[H3]Mandalorian Armor[h3]
+The heavy armor worn by Mandalorians is an
+important part of their culture. Practical in its
+design and protection, the distinct look is
+unmistakable throughout the galaxy. While the
+colors and patterns decorating the armor are
+often customized by its owner, the helmet has a
+distinguishable visor design common to most
+models and features a built-in Comlink.</Description>
+    <Source>Spark of Rebellion</Source>
+    <Sources />
+    <Custom>AddedItem</Custom>
+    <Type />
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>5</Encumbrance>
+    <HP>4</HP>
+    <Price>7500</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Add [AD] to any
+Coercion check;</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>COERC</SkillKey>
+            <SkillType />
+            <BoostCount>0</BoostCount>
+            <SetbackCount>0</SetbackCount>
+            <ForceCount>0</ForceCount>
+            <AdvantageCount>1</AdvantageCount>
+            <ThreatCount>0</ThreatCount>
+            <AddSetbackCount>0</AddSetbackCount>
+            <UpgradeAbilityCount>0</UpgradeAbilityCount>
+            <BoostRanked>false</BoostRanked>
+            <SetbackRanked>false</SetbackRanked>
+            <ForceRanked>false</ForceRanked>
+            <AdvantageRanked>false</AdvantageRanked>
+            <ThreatRanked>false</ThreatRanked>
+            <AddSetbackRanked>false</AddSetbackRanked>
+            <UpgradeAbilityRanked>false</UpgradeAbilityRanked>
+          </DieModifier>
+        </DieModifiers>
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Built-in comlink.</MiscDesc>
+        <DefZone />
+        <QualReplace>false</QualReplace>
+        <SkillIsCareer>false</SkillIsCareer>
+        <SkillIsRanked>false</SkillIsRanked>
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+        <InnateSkills />
+        <ActiveQualityKey />
+        <Failed>false</Failed>
+      </Mod>
+    </BaseMods>
+    <WeaponModifiers />
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+  </Armor>
+</Armors>

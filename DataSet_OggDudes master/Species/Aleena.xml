@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ALEENA</Key>
+  <Name>Aleena</Name>
+  <Description>
+    [H4]Aleena[h4]
+The diminutive Aleena are enthusiastic explorers and travelers, making them a common sight throughout the galaxy. Renowned for their quickness and adaptability, Aleena readily embrace adventure, often in the form of competitive sports, including Podracing. Some use their natural athleticism to fund their travels, working as entertainers or athletes. Others take on service with military groups. Their small stature makes them ideally suited to roles as explorers or scouts.
+[P][B]Physiology:[b] Aleena are a reptilian species. Their skin is covered in scales that typically range in color from tan to blue or purple. Their elongated skulls house two large eyes, a broad nose, and a large, tooth-filled mouth. The curvature of their mouth suggests a perpetual smile to many non-Aleena. Mature Aleena average about eighty centimeters in height.
+[P]Unlike many reptilian species, Aleena are warm-blooded. They maintain their body temperature in part through a particularly rapid digestive system, believed to be a by-product of the competitive nature of their homeworld. The ability to rapidly convert food into energy is tightly linked to the species’ characteristic quickness. Aleena are omnivores who typically prefer very spicy cuisine, but there is no clear physiological basis for this preference. Visitors to their homes and world are often surprised by the food's intensity.
+[P][B]Society:[b] Aleena are fiercely loyal to their families. In their native cultures, extended families dwell together, often sharing interlinked rooms within a larger structure. All Aleena within a village typically share blood ties.
+[P]This strong connection continues when they travel beyond their worlds of origin. It is rare for an Aleena to travel alone. Instead, family members commonly travel together. In cases where a single Aleena travels as a performer, relatives join the performer as an entourage. They rejoice in their kin’s success and offer comfort at times of disappointment.
+[P][B]Homeworld:[b] Aleen Minor is an Inner Rim world and the species’ planet of origin. It held membership in the Galactic Senate for millennia. The world’s climate is unrelentingly harsh, and the planet is home to such vicious predators as sagcatchers. Frequent travelers, Aleena have colonized other worlds,including Aleen, a world in the Mid Rim that many galactic citizens understandably confuse with the Aleena world of origin. Their population has grown substantially through their travels, such that far more Aleena live elsewhere in the galaxy than on Aleen Minor.
+[P][B]Languages:[b] All Aleena are fluent in their native language of Aleena. Most also learn Basic, especially those who choose to travel from their homeworld.
+[P][B]Perception of the Force:[b] Aleena do not have their own distinct cultural Force tradition. As the Aleena were long-time members of the Galactic Republic, the Jedi Order typically inducted young Aleena who evinced Force sensitivity. Aleena familial loyalty sometimes created a conflict for Padawans. Family members reestablished contact with their children, and many Aleena Jedi spent their careers upon Aleena. This was officially frowned upon by the Jedi Order, because Aleena Jedi were seen as not contributing to the greater galaxy.</Description>
+  <Source Page="98">Nexus of Power</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>8</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>95</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>COORD</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>DURA</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>ALEENAAB1</Key>
+      <Name>Size</Name>
+      <Options>
+        <Option>
+          <Key>ALEENAAB1OP1</Key>
+          <Name>Silhouette</Name>
+          <Description>Aleena are smaller than average and count as silhouette 0.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>UBESE</Key>
+  <Name>Ubese</Name>
+  <Description>[H4]Ubese[h4]
+
+To most inhabitants of the galaxy, members of the enigmatic Ubese, or Ubesian, species are generally known as mysterious wanderers and nomadic savages. Their xenophobic nature makes them ideally suited for professions such as mercenaries or bounty hunters. Normally, they are a very aggressive people, though loyal to one another. The Ubese homeworld is little known to the rest of the galaxy, as they tended to be very secretive, associating only within their own circles.
+
+[P][B]Physiology:[b] The Ubese are near-Humans who appear graceful but frail. They tend to have fair skin and dark hair, with eye colors of brilliant green or blue. They cannot grow any facial hair. Their facial structure is narrow, with high cheekbones and eyes that appear much too large for their faces when compared to baseline Humans. Males and females of the species both stand roughly the same height – around 1.4 meters and 1.9 meters – with males being slightly heavier of build than females. Their vocal chords cannot produce speech above a rasping whisper sound, so they use a highly refined form of sign language called Ubeninal when communicating with other Ubese.
+
+[P]Few beings know what an Ubese looks like – they rarely, if ever, appear to non-Ubese unless concealed by masks, battle armor, or enviro-suits. Those who have interacted face to face with an Ubese have not recognized them as such, because there are no records in any databases that describe their appearances.
+
+[P][B]Society:[b] Little is known about Ubese culture. Away from their homeworld, wayward Ubese seem to care little for other societies' laws, customs and mores. They are mysterious wanderers, nomadic warriors who hide their inner secrets and agendas just as they hide their faces behind helmets and breath masks. Although most Ubese understand Basic, they rarely deigned to speak it, preferring to express themselves in their own language.
+
+[P]They seem to be loyal to one another, despite nurturing a profound hatred toward most other members of the galactic community. They generally make their livings as mercenaries, bounty hunters, slavers, or assassins – professions where they get to vent their hatred without fear of retribution. 
+
+[P][B]Homeworld:[b] Ubertica is a planet located within the Ubertica system of the Mid Rim. While habitable, it has a relatively low level of atmospheric oxygen.
+
+[P]Ubertica was settled by Ubese refugees after the destruction of Uba III. The Ubese who live here were called "yrak pootczk Ubese" by their cousins in the Uba system, a phrase implying cowardice and impure parentage.
+
+[P][B]Language:[b] Ubese is the native language of the Ubese, a species of Near-Humans that hail from Ubertica, Uba III and Uba IV. It is a metallic language, well-adapted to the rarefied atmosphere of the home planet from which the nomadic Ubese came.
+
+[P]Ubese vocal cords cannot produce sound above raspy whispers, making them difficult to understand when their voices weren't amplified. The Ubese also developed a sign language, Ubeninal, as an alternative to communicate with other Ubese. Ubeninal has no written form. Most Ubese are fluent in Ubese language, Ubeninal and Basic, the common language of the galaxy, although they are only literate in their own language. Ubese rarely choose to speak Basic.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>UBESECH1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>UBESECH1OP1</Key>
+          <Name>Perception</Name>
+          <Description>Ubese may begin the game with one free rank in Perception.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>PERC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>UBESECH1OP2</Key>
+          <Name>Survival</Name>
+          <Description>Ubese may begin the game with one free rank in Survival</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>SURV</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

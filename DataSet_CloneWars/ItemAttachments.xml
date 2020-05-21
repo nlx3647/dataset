@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<ItemAttachments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemAttachment>
+    <Key>BIOSPTDIS</Key>
+    <Name>Bio-Support Dispenser</Name>
+    <Description>[H3]Bio-Support Dispenser[h3]
+Sophisticated medical technology integrated into armor can enhance the effects of in-combat treatments through carefully regulated and distributed dosages. This system applies medication automatically as the wearer's vitals begin to suffer, and It Includes an internal bacta reservoir for sealing the most grievous injuries. This attachment may only be installed on a fully enclosed suit of armor, such as laminate, clone trooper, or heavy battle armor</Description>
+    <Source Page="64">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Armor</Type>
+    <Price>4000</Price>
+    <Rarity>6</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>When the wearer heals strain at the end of an encounter, they also heal I wound if they suffered any wounds during the encounter. In addition, the first time in an encounter that the character's current wounds exceed half their wound threshold, the armor automatically applies a stimpack to the character</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Heal 1 additional wound at the end of an encounter</MiscDesc>
+      </Mod>
+    </AddedMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>WHIPCRDTH</Key>
+    <Name>Whipcord Thrower</Name>
+    <Description>[H3]Whipcord Thrower[h3]
+A whipcord thrower quickly deploys a length of high-tensile strength cable, firing it over a distance in order to secure a target. Its convenient armor mounting allows the user to act quickly, whether to arrest their own freefall, secure a loose object, or entangle a surprised opponent.</Description>
+    <Source Page="63">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Armor</Type>
+    <Price>600</Price>
+    <Rarity>1</Rarity>
+    <HP>1</HP>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Whipcord throwers can be used as climbing gear to assist the wearer in climbing a steep vertical surface, reducing the difficulty to climb by one. they may support a weight up to 200 kilograms. Further, the thrower may be used as a weapon with the following profile: {Melee, Damage +1, Critical 5; Range [Short]; Ensnare 2)</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </ItemAttachment>
+  <ItemAttachment>
+    <Key>PORTPLASHLD</Key>
+    <Name>Portable Plasma Shield</Name>
+    <Description>[H3]Portable Plasma Shield[h3]
+Armor and weapon designs oppose one another in a cycle of endless escalation. Not surprisingly, many warriors seek out means to enhance their defenses in hopes that it will leave them free to make additional attacks. A small defensive shield can provide a substantial upgrade. energy shielfs take this a step further, offering a near-inpenetrable defense while requiring much less weight and bulk than a more traditional shield. </Description>
+    <Source Page="63">Collapse of Rep</Source>
+    <Custom>AddedItem</Custom>
+    <Type>Armor</Type>
+    <Price>2500</Price>
+    <Rarity>4</Rarity>
+    <HP>2</HP>
+    <BaseMods>
+      <Mod>
+        <Key>DEFENSIVE</Key>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+    <AddedMods>
+      <Mod>
+        <Key>DEFLECTION</Key>
+        <Count>3</Count>
+      </Mod>
+      <Mod>
+        <Key>DEFENSIVE</Key>
+        <Count>2</Count>
+      </Mod>
+
+    </AddedMods>
+  </ItemAttachment>
+</ItemAttachments>

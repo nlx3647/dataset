@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ARCHEOLOGIST</Key>
+  <Name>Archaeologist</Name>
+  <Description>[H4]Archaeologist - The Thirst For Discovery[h4]
+
+[P]Most Explorers are searching for the new—new opportunities, new planets, new civilizations, new marketplaces, etc. Archaeologists, on the other hand, are firmly entrenched in the old. The galaxy is impossibly old, and nigh-infinite millennia have witnessed the rise and fall of countless civilizations. The Archaeologist endeavors to find these lost cultures and unlock the secrets of their history, art, science, and everything else about them. 
+
+[P]Though Archaeologists have a strong focus on their scholastic pursuits and understanding of history, they tend to have a rough-and-tumble approach to dealing with the, inevitable challenges they are likely to face in the field. 
+
+[P]An Archaeologist's list of bonus career skills is a clear indication of his particular areas of focus: [B]Athletics, Discipline, Knowledge (Education),[b] and [B]Knowledge (Lore)[b]. If this is the character's starting specialization, he may choose two of these skills and gain one free rank in each without spending additional starting experience. 
+
+[P]Most Archaeologists believe very passionately that what they do is noble and important to the people of the galaxy. They tend to be less concerned with who is currently in charge, except for how the prevailing policies of the current government impact their studies and digs. Unfortunately for the current state of the field, the Empire tends to take a very heavy hand in matters of "revisionist history," preferring to alter findings to best fit its agendas. As such, most Archaeologists either work outside of Imperial channels or wish they did. 
+
+[P]Player Character Archaeologists can easily be the centerpiece of a new campaign, building a team of other specialists to help in a recently embarked-upon expedition. Otherwise, such a character may be between digs and looking either for an expedition to,join or "filler work" until he can make the right kinds of contacts. 
+
+[P]Perhaps an archeology-oriented Explorer joins a group that's journeying to an area for completely different reasons; he trades his skills and knowledge for the chance to investigate rumors of a potentially valuable find once he gets to where they are going.</Description>
+  <Source Page="25">Enter the Unknown</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>ATHL</Key>
+    <Key>DISC</Key>
+    <Key>EDU</Key>
+    <Key>LORE</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>WELLROUND</Key>
+        <Key>HARDHD</Key>
+        <Key>RESEARCH</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>DURA</Key>
+        <Key>TOUGH</Key>
+        <Key>RESOLVE</Key>
+        <Key>KNOWSPEC</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>STUNBL</Key>
+        <Key>KNOCK</Key>
+        <Key>RESPSCHOL</Key>
+        <Key>RESEARCH</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>HARDHD</Key>
+        <Key>ENDUR</Key>
+        <Key>GRIT</Key>
+        <Key>KNOWSPEC</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>PIN</Key>
+        <Key>DEDI</Key>
+        <Key>RESPSCHOL</Key>
+        <Key>MUSEUMWORTHY</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>IR3FFRIG</Key>
+  <Name>IR-3F-Class Light Frigate</Name>
+  <Description>
+    [H3]IR-3F-Class Light Frigate[h3]
+
+The predecessor to Republic Sienar Systems' IPV-1- class corvette, the IR-3F-class light frigate is an old and outdated patrol craft first introduced during the later decades of the Old Republic. Long and sleek, the IR-3F is a short-range patrol craft designed for intra-system picket and customs duty. Fitted from the shipyard with a high-output power system and powerful sublight engines usually fitted to larger, cruiser-sized vessels, these ships had a reputation for blistering speed and relatively good maneuverability for vessels of their size. This, along with limited atmospheric capabilities, gives the IR-3F-class a well-deserved reputation as a dangerous and hard-to-elude ship, especially when handled by a competent crew. 
+
+[P]While its speed and maneuverability are certainly respectable, this ship also carries a flexible and powerful array of weapons. Armed with a combination of medium laser cannons and light turbolaser batteries, the IR-3F-class punches well above its weight, allowing it to engage and defeat opponents considered impossible for a ship of its size. 
+
+[P]It is lightly armored, a compromise made to wring more speed out of the vessel, but its Novaldex shield systems are quite robust and make up for any deficiencies in its armor. If this ship has a major flaw it is that, being designed as short-range craft, it has no hyperdrive or navicomputer. In addition. Its power and computer systems are designed in a way that makes retrofitting these systems quite difficult. Despite their advanced age, lack of hyperspace capabilities, and scarcity of parts, many of these ships are still serving throughout the galaxy.</Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Frigate</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Capital Ship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>1000000</Price>
+  <Rarity>6</Rarity>
+  <Crew>20 officers and enlisted crew</Crew>
+  <EncumbranceCapacity>1800</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>40</HullTrauma>
+  <SystemStrain>35</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

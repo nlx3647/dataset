@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SU40SPEEDER</Key>
+  <Name>SU-40 High-Performance Airspeeder</Name>
+  <Description>[H3]SU-40 High-Performance Airspeeder[h3]
+
+Where the AV-21 is among the most highly sought after high-performance landspeeders in the galaxy, SoroSuub's SU-40 is its airborne counterpart. Built for sporting and racing, the SU-40 is a lightweight airspeeder with a long, dart-like fuselage, short truncated wings, and a two-position cockpit covered by a polarized bubble canopy. The SU-40's heart is a single SoroSuub IN-780 supercharged ion turbofan engine delivering power through a precision-vectored thrust nozzle and various attitude thrusters scattered around the hull. Nearly as fast as a TIE/In starfighter, the SU-40 is all engine, with nearly every comfort and safety feature sacrificed in the name of raw speed and handling. 
+
+[P]SU-40s are custom-built to each individual customer's specifications, and as such are both rare and frightfully expensive. Coveted by the wealthy and powerful, most of these airspeeders are sold in the Core Worlds and on Coruscant where they fetch exorbitant prices.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>150000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>100 kilometers</MaxAltitude>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>6</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>5</Speed>
+  <Handling>2</Handling>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

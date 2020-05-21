@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>57DSSPDRBIKE</Key>
+  <Name>Aratech 57-D Speeder Bike</Name>
+  <Description>
+    [H3]Aratech 57-D Speeder Bike[h3]
+
+Designed with scouting and exploration in mind, the 57-D is a rugged, medium-frame speeder bike built to withstand rough handling and hard work. It has a reinforced frame that not only improves its strength and carrying capacity but also its handling; a stiffened frame improves maneuverability. The control layout is simple and easy to read, with only a few gauges and indicator lights to distract the rider. While it resembles its more martial cousins, the 57-D is fitted with a front and rear fairing that covers the repulsor engine and most of the bike's internals, protects the rider from wind and some inclement weather, and provides ample storage by means of built-in panniers and a luggage rack with tie-down points. It lacks the military sensor package and the mounted blaster of other bikes of its class, and is instead fitted with a simple ground-following radar, inertial-mapping system, collision-warning system, and a short-range comlink.</Description>
+  <Source>Enter the Unknown</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Speeder Bike</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>2800</Price>
+  <Rarity>4</Rarity>
+  <MaxAltitude>20 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Handling>1</Handling>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>3</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Moralities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Morality>
+    <Key>BRAVERY</Key>
+    <Name>Bravery</Name>
+    <Description>      [H4]Bravery (Strength)[h4]
+      Please see page 50 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="50">Force and Destiny Core Rulebook</Source>
+    <Custom>DescOnly</Custom>
+    <Type>Strength</Type>
+    <WeakKey>ANGER</WeakKey>
+    <Pairs>
+      <MoralityPair>
+        <Name>Keeping the Peace</Name>
+        <WeakKey>RECKLESSNESS</WeakKey>
+      </MoralityPair>
+      <MoralityPair>
+        <Name>Savage Spirits</Name>
+        <WeakKey>RECKLESSNESS</WeakKey>
+      </MoralityPair>
+      <MoralityPair>
+        <Name>Endless Vigil</Name>
+        <WeakKey>DEFIANCE</WeakKey>
+      </MoralityPair>
+      <MoralityPair>
+        <Name>Disciples of Harmony</Name>
+      </MoralityPair>
+      <MoralityPair>
+        <Name>Unlimited Power</Name>
+      </MoralityPair>
+    </Pairs>
+  </Morality>
+</Moralities>

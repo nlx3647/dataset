@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>COMMSTATION</Key>
+  <Name>Comm Station</Name>
+  <Description>[H3]Comm Station[h3]
+Please see page 26 of the Age of Rebellion Beginner Game Adventure Book for details.</Description>
+  <Source>Takeover at Whisper Base</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Building</Type>
+  <Categories />
+  <Encumbrance>0</Encumbrance>
+  <HP>0</HP>
+  <Price>0</Price>
+  <Rarity>0</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <MaxAltitude />
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRange>None</SensorRange>
+  <Crew />
+  <EncumbranceCapacity>0</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Consumables />
+  <Silhouette>4</Silhouette>
+  <Speed>0</Speed>
+  <Handling>0</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <Starship>false</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Unspecified</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>LASERLT</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

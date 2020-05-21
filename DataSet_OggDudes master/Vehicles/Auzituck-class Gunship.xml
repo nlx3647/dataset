@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AUZITUCKGUNSHIP</Key>
+  <Name>Auzituck-class Gunship</Name>
+  <Description>[H3][I]Auzituck[i]-class Gunship[h3]
+Produced by Appazanna Engineering Works, a small, highly respected shipyard on the Wookiee homeworld of Kashyyyk, the [I]Auzituck[i]-class gunship is a prime example of Wookiee engineering. Used primarily for patrol and interdiction, these ships are commonly put to use chasing down and destroying slavers who prey on Wookiees in and around Kashyyyk’s system. Like most gunships, the [I]Auzituck[i] class (“Auzituck” translates roughly as “liberated one” in Shyriiwook) is a relatively fast, well-armored, heavily armed vessel with a narrow profile, big engines, and an ability to punch well above its weight class. It has a two-position tandem cockpit that houses the pilot in the upper position and the co-pilot/gunner in the lower forward position. Aft of the cockpit is room for up to eight individuals on wall mounted benches for hauling troops or beings rescued from slavery. Two powerful ion drives are mounted outboard on swooping pylons fitted to the aft dorsal section of the hull, and a single boarding hatch is mounted aft.
+[P]In its role as both a patrol boat and antislaver vessel, the [I]Auzituck[i]-class carries a repectable weapons loadout. Two fire-linked medium laser cannons are mounted on either side of the hull beneath the gunner’s canopy, a dorsal turret houses twin medium ion cannons, and a single-tube concussion missile launcher is mounted beneath the vessel’s chin in an amored housing. These weapons give the [I]Auzituck[i]-class good flexibility and the ability to easily disable or destroy the kinds of ships typically used by pirates and slavers, especially when working in groups. Their thick armor and high-output shield generators can shrug off quite a bit of damage, and their sturdy build and redundant systems make them incredibly hard to disable.</Description>
+  <Source Page="123">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Gunship</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>95000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot/gunner</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Passengers>8</Passengers>
+  <Consumables>One month.</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

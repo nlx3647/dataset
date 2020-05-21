@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ADVOCATE</Key>
+  <Name>Advocate</Name>
+  <Description>[H4]Advocate - Kingmakers[h4]
+
+Not all politicians contribute to the cause through stirring speeches to win the hearts and minds of the public. Part political strategist and part counselor, the Advocate uses argumentation and insight to expose the flaws in political opponents and accentuate the best qualities of allies. A skilled Advocate turns the words of a foe back upon him or rephrases a friend's thoughtless comment, casting it in a positive light. Backed by an Advocate, even a political novice can become a force to be reckoned with, and a truly skilled politician can soar to untold heights of power and influence.
+
+[P]To assist with his unique political role, the Advocate receives the [B]Coercion, Deception, Negotiation,[b] and [B]Vigilance[b] skills as additional career skills. If this is the character's starting specialization, he may choose two of these skills, gaining one free rank in each without spending starting experience. These skills reflect an Advocate's need to remain alert at all times, and his tendency to undertake tasks others might find onerous or unethical. Vigilance helps an Advocate determine when a situation is growing dangerous, while Coercion is crucial to badgering opponents into backing down once the Advocate has the right piece of evidence in hand. more personable politicians. Others hurl themselves into the fray, undermining opponents with a solidly constructed argument or strengthening the rhetoric of political allies by subjecting it to the harshest scrutiny. A good Advocate can be a trusted mentor or a hated rival, and a great Advocate knows how to be either one as the situation demands. 
+
+[P]Advocates work best within a group, either backing up a skilled speaker or elevating a less experienced but more personable character to act as the faction's public face. While an Advocate can apply pressure effectively, his greatest potential is in the role of a mentor or manipulator, directing other, more visible actors. 
+
+[P]A veteran Diplomat might want to take Advocate as a second specialization after investing heavily in interpersonal skills, combining the rhetorical skills of another specialization with the Advocate's emphasis on applying pressure to get results. Alternatively, a Soldier, Spy, or other character with a more combat-oriented focus might find the Advocate helpful as a secondary specialization, enabling that character to more effectively contribute to social encounters. 
+
+[P]An Advocate benefits greatly from a high Cunning or Willpower characteristic. One who invests in both can be extremely flexible in social situations, filling the role of mentor, manipulator, mediator, or attack dog as the circumstances of the negotiation require. Whatever skills the character wields to this end, a good Advocate gets results above all. 
+
+[P]Advocates approach the negotiation table in several different ways. Some seek to act entirely behind the scenes, writing speeches or giving guidance to assist </Description>
+  <Source Page="26">Desperate Allies</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>COERC</Key>
+    <Key>DECEP</Key>
+    <Key>NEG</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>PLAUSDEN</Key>
+        <Key>NOBFOOL</Key>
+        <Key>GRIT</Key>
+        <Key>CONF</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>DISCREDIT</Key>
+        <Key>PLAUSDEN</Key>
+        <Key>SUPPEVI</Key>
+        <Key>NOBFOOL</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>TWISTWORD</Key>
+        <Key>PLAUSDENIMP</Key>
+        <Key>GRIT</Key>
+        <Key>ENCWORD</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>PLAUSDEN</Key>
+        <Key>GRIT</Key>
+        <Key>SUPPEVI</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>BLACKMAIL</Key>
+        <Key>DEDI</Key>
+        <Key>INTERJECT</Key>
+        <Key>CONTPLAN</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

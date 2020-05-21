@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GUNGAN</Key>
+  <Name>Gungan</Name>
+  <Description>
+    [H4]Gungan[h4]
+
+Few Gungans travel away from their homeworld of Naboo. Instead, most prefer to live in cooperation with their planet’s natural ecosystems. In fact, Gungan galactic travelers are often exiles. Gungan law is unforgiving, and expulsion is a common form of punishment. Consequently, Gungans found offworld are seldom characteristic of the species.
+[P][B]Physiology:[b] Gungans are a bipedal, amphibious species. They are tall and thin, averaging nearly two meters in height. Their expressive, long ears and eyestalks are set around a bill-like mouth. They are omnivorous, with a diet composed largely of mollusks and aquatic plants. Gungan compound lungs are capable of efficiently extracting oxygen from both air and water. Gungan infants are born as tadpoles within water cradles. Their limbs develop within a month of birth.
+[P][B]Society:[b] The various Gungan cities are largely stratified according to residents’ membership in particular clans. Interrelations between cities have been established through carefully worded treaties. A High Council serves as an overall governing body that exists largely to resolve disputes between the different cities.
+[P]Gungan society places a very high value on peace and order. While they are a generally happy people, they have little tolerance for elements that disrupt their lives. Even minor crimes are treated severely; Vandalism, for example, merits corporal punishment or even exile.
+[P]Gungans are proud of their independence and are willing to go to great lengths to defend it. Each city maintains its own militia armed with energy shields and plas- mic energy balls. Gungans make extensive use of animal mounts, and their natural tools remain effective in combination with their shield technologies. The various militias train together regularly and can assemble into a planetary Grand Army to face broader threats.
+[P][B]Homeworld:[b] Gungans are native to the planet Naboo near the Outer Rim Territories, though they share habitation with humans on that world. The planet’s climate is primarily temperate. Substantial oceans separate its heavily forested landmasses. Almost all Gungan habitats are largely underwater,
+while cities dominated by humans are located upon dry land. The two species have a long history of interacting peacefully with one another. The Gungan High Council links Gungan and human societies together to form a planetary government. Members of both species contribute to the democratic process, particularly for interaction with offworld entities. Currently, this government is under the oversight of the Empire.
+[P]Naboo’s oceans have a broad range of predators, including the sando aqua monster and the opee, both large enough to swallow a bongo sub in a single bite. Areas immediately surrounding their cities are largely secure, but extended journeys can incorporate a high degree of risk.
+[P][B]Languages:[b] All Gungans speak their native Gungan as well as Basic.
+[P][B]Perception of the Force:[b] Gungans do not have a native Force tradition or a strong tradition of membership in the Jedi Order. However, their cultural tendencies to live in connection with the natural world are consistent with an understanding of the Living Force. Gungan underwater cities are relatively isolated, even from Naboo’s human population. It is likely that Jedi simply failed to discover the majority of Gungan Force sensitives who might have joined the order.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>COORD</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>GUNGAB2</Key>
+      <Name>Breath</Name>
+      <Options>
+        <Option>
+          <Key>GUNGAB2OP1</Key>
+          <Name>Hold Breath</Name>
+          <Description>Gungans can hold their breath for
+          a number ofrounds equal to 10 times their Brawn
+        rating before they risk drowning.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>GUNGAB3</Key>
+      <Name>Swim</Name>
+      <Options>
+        <Option>
+          <Key>GUNGAB3OP1</Key>
+          <Name>Natural Swimmers</Name>
+          <Description>
+            Gungans never suffer penalties to movement while traveling through water.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <SubSpeciesList>
+    <SubSpecies>
+      <Key>GUNGSUB1</Key>
+      <Name>Otolla</Name>
+      <Description>
+        The Otolla subspecies has long ears and eyes on extendable and
+        retractable stalks.  Otolla skin is either
+        orange or purple in hue.
+      </Description>
+      <StartingChars>
+        <Brawn>-1</Brawn>
+        <Agility>-1</Agility>
+        <Intellect>-1</Intellect>
+        <Cunning>-1</Cunning>
+        <Willpower>-1</Willpower>
+        <Presence>-1</Presence>
+      </StartingChars>
+      <StartingAttrs>
+        <WoundThreshold>-1</WoundThreshold>
+        <StrainThreshold>-1</StrainThreshold>
+        <DefenseRanged>-1</DefenseRanged>
+        <DefenseMelee>-1</DefenseMelee>
+        <SoakValue>-1</SoakValue>
+        <Experience>-1</Experience>
+        <ForceRating>-1</ForceRating>
+      </StartingAttrs>
+      <CyberneticsAdjust>-100</CyberneticsAdjust>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>GUNGSUB2</Key>
+      <Name>Ankura</Name>
+      <Description>
+        The Ankuras have hooded eyes, broad wide heads, and green skin.
+        Like the Otolla, they also have long ears, which are sometimes tied together
+        behind the head.
+      </Description>
+      <StartingChars>
+        <Brawn>-1</Brawn>
+        <Agility>-1</Agility>
+        <Intellect>-1</Intellect>
+        <Cunning>-1</Cunning>
+        <Willpower>-1</Willpower>
+        <Presence>-1</Presence>
+      </StartingChars>
+      <StartingAttrs>
+        <WoundThreshold>-1</WoundThreshold>
+        <StrainThreshold>-1</StrainThreshold>
+        <DefenseRanged>-1</DefenseRanged>
+        <DefenseMelee>-1</DefenseMelee>
+        <SoakValue>-1</SoakValue>
+        <Experience>-1</Experience>
+        <ForceRating>-1</ForceRating>
+      </StartingAttrs>
+      <CyberneticsAdjust>-100</CyberneticsAdjust>
+    </SubSpecies>
+  </SubSpeciesList>
+</Species>

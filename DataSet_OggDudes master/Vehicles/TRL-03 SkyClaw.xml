@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TRL03</Key>
+  <Name>TRL-03 SkyClaw</Name>
+  <Description>[H3]SoroSuub J-15 Rapid Service Speeder[h3]
+The SoroSuub Rapid Service Speeder is a mobile emergency workshop designed to rush to a disabled vehicle in virtually any location and get it back up and running as quickly as possible. Larger repair services in urbanized areas often utilize a fleet of these craft for rapid response services, which they sell to companies and individuals looking for a bit of extra help in a pinch. Some small settlements rely on a J-15 as their general technical service station and for field repairs.
+[P]The J-15 is a large, bulky airspeeder with oversized engines. It carries basic repair gear, torces, welding equipment, cutting tools and electronic repair stations. Some of the machinery is quite heavy, which means that even though the designers kept the speeder relatively fast for its type, the weight and bulk makes maneuverability difficult, especially at high speed. Improving maneuverability is the first order of business for anyone who depends on the J-15 regularly, especially in urban and other congested settings. Notably, the speeder has no built-in cables or standard towning ability, as it designed for repair rather than salvage services.</Description>
+  <Source Page="61">Special Modifications</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>60000</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>1,000 meters</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one tractor beam operator</Crew>
+  <EncumbranceCapacity>1000</EncumbranceCapacity>
+  <Passengers>24</Passengers>
+  <Silhouette>5</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-2</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>28</HullTrauma>
+  <SystemStrain>30</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>TRACTLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Key>TRACTLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

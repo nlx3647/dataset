@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATDP</Key>
+  <Name>All Terrain Defense Pod</Name>
+  <Description>[H3]All Terrain Defense Pod[h3]
+Kuat Drive Yards’ All Terrain Defense Pod is a light, fast, bipedal patrol walker recently introduced into the Imperial Army. Descended from the Republic’s single-seat AT-RT reconnaissance walker and cousing to the Imperial Army’s new All Terrain Scout Transport (AT-ST), the AT-DP was designed primarily for policing instead of frontline combat. Deployed to occupied worlds throughout the Empire, these walkers are used principally to defend important Imperial assets such as military facilities, shipyards, distribution centers, and vital infrastructure. On worlds plagued with unrest or high rebellious activity, the AT-DP is used for patrol and policing where its speed, agility, and firepower can be put to good use.
+[P]Like its AT-ST cousin, the AT-DP is a tall, awkward-looking vehicle consisting of an armored hull perched atop two birdlike legs. Unlike the boxy AT-ST, the AT-DP has a long, more rounded hull with a narrow cross section that allows it to move easily through dense urban environments. Broad, round feet keep these walkers stable on broken ground and in hilly or mountainous environments. The tandem cockpit is tight but well laid out to improve the efficiency and combat effectiveness of the two-person crew. Lightweight armor and the angled hull provide respectable protection against small arms and even light anti-vehicle weapons while maintaining the walker’s speed and maneuverability. A single heavy laser cannon mounted in a forward-facing ball turret is the AT-DP’s only weapon, but one that gives the walker a surprisingly powerful punch for such a relatively light vehicle.</Description>
+  <Source Page="121">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Walker</Category>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>50000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one gunner.</Crew>
+  <EncumbranceCapacity>15</EncumbranceCapacity>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Armor>2</Armor>
+  <HullTrauma>13</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>LASERHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TOGNATHS</Key>
+  <Name>Tognaths</Name>
+  <Description>[H4]Tognaths[h4]
+Hailing from the planet Yar Togna, the mysterious Tognaths are tall, quiet humanoid adorned with cybernetic enhancements and life-support equipment. Renowned for their commitment to confidentiality and their quiet nature, Tognaths, some joke, could rival the infamous Bothans as information brokes, if only they'd share their secrets with each other.
+[P][B]Physiology:[b] Tognaths are a curious insecto-mammalian species with smooth, fleshy skin and beady, lidless compound eyes. They stand just under two meters on average. Evolutionarily ancient, with robust but underdeveloped nervous systems, they often use cybernetic enhancments to augment their otherwise sub-par hearing and balance. Many wear special lenses to aid in vision as well. Such augmentations might appear painful, but their primitive nervous systems mean they are immune to such annoynaces. Tognath share many genetic ties with the Kel Dors and Gands, but whether this genetic relationship is the result of evolution or experimentation is unknown.
+[P]Tognaths begin life as larvae born from egg clutches hatched in a suspension jelly, and latch onto one of their parents, feeding directly from their bloodstream. Six months later, parents visit a nursery tree, where the young detach from them and spin a cocoon. Within, the offspring undergo a metamorphosis, developing both and endoskeleton and an exoskeleton to resist the high gravity and atmospheric pressure of Yar Togna. This metamorphosis, together with their primitive innate nervous system, dulls most of their pain receptors, causing adult Tognaths to feel little, if any, pain. Several months after spinning its cocoon, a child-sized Tognath emerges.
+[P][B]Society:[b] Tognath live in stilted homes with lava channels near the mean mountain range of Yar Togna, where they have access to mountain springwater. Most of Tognath society believes that mate selection and egg laying should occur late in life, after having dedicated most of one's prime years to a career. This means that parents are generally retired and dote on their children relentlessly, often homeschooling them after their transformation.
+[P]Most Tognath work as crystal miners of magma skimmers, though others farm the more rural flatlands. However, the most romanticized Tognath career is that of a float farmer. Float farmers raise delicacies directly on the backs of float-jellies, massive floating gasbags that eat ash from erupting volanoes. The secretions on the float-jelly's back makes for a rich soil capable of growing mushrooms, mosses, and molds prized throughout the galaxy. Float farming is very dangerous, whether a Tognath farmer is a pilot braving volcanic updrafts and float-jelly collisions or a leaper harvesting produce from the back of a float-jelly. The most successful float farmers are egg mates, able to sense each other's location and judge their safety at all times.
+[P][B]Homeworld:[b] Yar Togna is a foul-smelling, high-gravity world with a toxic, fume-saturated atmosphere. Continental subduction created a gargantuan volcanic mountain range that has pumped ash and sulfur into the air for millions of years. The planet's dense atmosphere causes particulates to remain airborne, which would have plunged the world into a deep freeze long ago if not for lumbering herds of massize, ash-eating float-jellies.
+[P]Intense fault-line pressure on Yar Togna creates unique crystalling elements vital to sensor-array manufacturing. Tognath once mined and sold crystals to corporations like Fabritech and Idellian Arrays, but Count Denetrius Vidian convinced the Empire that nationalization would increase output. The Empire took over Yar Togna and enslaved the populace. Even Tognath who have escaped still feel imprisoned, as they are kept far from the nurseries essential to perpetuating their civilization. Like all Tognath away from Yar Togna, they also require pressure suits and respiratots to replicate the atmospheric conditions of their homeworld.
+[P][B]Language:[b] Tognath vocal cbhords evolved for an unusually dense, sulfur-rich atmosphere and, as such, their deep voices are too faint for most species to hear without technological aid. Tognath seldom speak; and when they do, their respirator amplifiers ofter garble their words.
+[P][B]Life under the Empire:[b] Tognath who escape Yar Togna are often skilled pilots. Many find work as couriers for secret or sensitive goods and information, as their ability to ignore pain makes them ideal for resisting torture. This has given them a reputation for keeping secrets, which has helped other Tognath find work as advisors and corporate or military analysts. It has also, unfortunately, led soem beings to find them untrustworthy, as in some circles such resilience means it is impossible to determine whether a subject is telling the truth. No matter what they do, almost all Tognath bear a grudge against the Empire over the treatment of their people and the co-opting of their planet. Most find their way to anti-Imperial extremist groups or the nascent rebellion.</Description>
+  <Source Page="96">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>95</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>COORD</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+    <SkillModifier>
+      <Key>PERC</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>TOGNATHSCH1</Key>
+      <Name>Physiology</Name>
+      <Options>
+        <Option>
+          <Key>TOGNATHSCH1OP1</Key>
+          <Name>Primitive Nerves</Name>
+          <Description>Add [SE][SE] to Coercion checks targeting Tognath characters.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>TOGNATHSCH2</Key>
+      <Name>Requirement</Name>
+      <Options>
+        <Option>
+          <Key>TOGNATHSCH2OP1</Key>
+          <Name>Atmospheric Requirement</Name>
+          <Description>Tognaths must wear a specialized mask or breathing apparatus to breathe outside their native atmosphere. Tognath characters start the game with a breath mask and treat oxygen as a corrosive atmosphere with rating 5. However, they can surivive in vacuum for up to five minutes before suffering its effects.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>TOGNATHSCH3</Key>
+      <Name>Egg Mates</Name>
+      <Options>
+        <Option>
+          <Key>TOGNATHSCH3OP1</Key>
+          <Name>Egg Mates</Name>
+          <Description>If Tognath characters have an egg-mate, they may spend a Destiny Point as an incidental to learn the general location or direction of that egg mate, as long as the egg mate is within extreme rage of their location. They also learn the current emotional state of the egg mate as well.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

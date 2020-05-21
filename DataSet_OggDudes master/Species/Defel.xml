@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DEFEL</Key>
+  <Name>Defel</Name>
+  <Description>
+    [H4]Defel[h4]
+
+The Defel (colloquially known as Wraiths) are barely visible beings native to the Outer Rim planet Af'El who appear to most other species as shadows, re-enforcing the misconception that they are chameleon-like beings or "living shadows".
+
+[P][B]Physiology:[b] Defel are from Af'El, a large, high-gravity, seldom-visited world orbiting the ultraviolet supergiant Ka'Dedus. Since Af'El has no ozone layer, ultraviolet light passes freely to the surface, while other light wavelengths are mostly blocked by the heavy gases in the planet's atmosphere. Thus, all lifeforms on Af'El can see in ultraviolet light ranges, but are blinded by all but the dimmest light in other wavelengths. This is why Defels normally wear a visor when they leave Af'El, and expect to be exposed to daylight at their destination. Compared to other species, they can see exceptionally well in the dark.
+
+[P]Defel are short, stocky beings, averaging 1.3 meters tall and nearly as wide. Though they are nearly invisible in normal light, Defel are actually colorful beings. Viewed under ultraviolet light, their fur appear in colors ranging from yellow to blue. Their snouts appear green, with orange, gill-like slits at the base of their jawlines. Elderly Defel lose their ability to absorb light, fading to a dull dark brown under visible light.
+
+[P][B]Society:[b] Due to the harsh conditions of Af'El, Defel have a society based on communal resource sharing. Co-operation is vital for survival. As a result, the typical Defel is a tough, independent being, with a strong sense of honor. Defel stand by their word, and refuse to associate with anyone who has broken a promise. The Defel live in underground cities to escape Af'El's violent storms. Their subterranean society has developed highly advanced mining and metallurgical technology, though they have not developed space travel or agriculture on their own.
+
+[P]Their homeworld is seldom visited due to the difficulty of escaping its gravity well, making Defel rare outside of the Ka'Dedus system. This rarity, combined with their unusual abilities, mean that much of the galaxy believes they are mythical or supernatural beings. Some of the few Defel who leave their homeworld go in search of adventure, and often employ their natural stealth abilities to become assassins, bodyguards, or thieves. Most Defel who leave Af'El, however, are prized more for their skills in metallurgy, and are contracted by smelting operations and starship manufacturers.
+
+[P]The Defel see some trade in meleenium, a rare substance used in durasteel production, which is only found naturally on Af'El. Vulca Minerals sends one ship a year to the Defel to trade fresh food for meleenium.
+
+[P][B]Homeworld:[b] Af'El is the homeworld to the Defel, whom dwell in underground cities. It is a high-gravity planet with no ozone layer, and it orbits the ultraviolet supergiant Ka'Dedus. Because of the lack of ozone, ultraviolet light passed freely to the surface, while other light wavelengths are blocked by the heavy gases in the planet's atmosphere. Thus, all animals on Af'El can only see in ultraviolet light ranges. A main export of the planet is the metal meleenium used in durasteel.
+
+[P]Due to the tremendous velocity necessary for a starship to escape Af'El's gravity well, the planet was rarely visited. It was the only known source of naturally occurring meleenium, and as a result, Vulca Minerals made annual trips to the world. A number of private metallurgists and scientists also visited the world to conduct research.
+
+[P][B]Language:[b] Defel is the official language of Af'El, used by the native Defel species. Defels are not fond of languages other than their own, so most of them do not learn  Galactic Basic Standard unless they have need for it, mainly because they need to leave  Af'El. Ironically, more often than not, it is easy to find a Basic-speaking Defel (other than  the difficult task of finding a Defel at all).</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>1</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>VIGIL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>INDIS</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>DEFAB1</Key>
+      <Name>Sensitivity</Name>
+      <Options>
+        <Option>
+          <Key>DEFAB1CON</Key>
+          <Name>Light Sensitive</Name>
+          <Description>
+            In bright light, without protective goggles,
+            Defel suffer [SETBACK][SETBACK] on all skill checks.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DEFAB2</Key>
+      <Name>Invisibility</Name>
+      <Options>
+        <Option>
+          <Key>DEFAB2SHA</Key>
+          <Name>Shadowed</Name>
+          <Description>
+            In darkness, Defel gain [BOOST][BOOST]
+            to Stealth checks.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DEFAB3</Key>
+      <Name>Size</Name>
+      <Options>
+        <Option>
+          <Key>DEFAB2SIZ</Key>
+          <Name>Reduced Silhouette</Name>
+          <Description>
+            Defel have a Silhouette of 0.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

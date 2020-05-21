@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>1LTANK</Key>
+  <Name>1-L Imperial-Series Repulsor Tank</Name>
+  <Description>[H3]1-L Imperial-Series Repulsor Tank[h3]
+
+Produced for the Imperial Army by Ubrikkian Industries, the 1-L is the lightest and fastest member of the well-respected Imperial series of repulsor tanks. Small and lightly armored with a blocky, wedge-shaped hull, the 1-L is a light armored cavalry tank used to scout ahead of Imperial Army armored units and to attack smaller, lighter fighting vehicles. Operated by a crew of three Imperial armored cavalrymen, the 1-L is relatively fast and nimble for an armored fighting vehicle, and is a fine complement to its 1-M and 1-H siblings. 
+[P]Primary armament for the 1-L is a turret-mounted light blaster cannon mounted at the aft of the vehicle. Controlled by the gunner, this weapon provides excellent range and punch, allowing a squad of light repulsor tanks to destroy enemy AFVs with ease. Although lightly armored, the sloping hull of the 1-L assists in deflecting incoming blaster fire and ordnance, providing respectable protection for the crew. In addition, the tank can be buttoned up and sealed against heat, cold, radiation, and chemical and biological agents. When sealed, the crew is protected from foreign contaminants and the tank's life support system can keep the crew supplied with fresh air and water for up to 72 standard hours.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>50000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <MaxAltitude>3 meters</MaxAltitude>
+  <Crew>One pilot, one gunner</Crew>
+  <EncumbranceCapacity>12</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Handling>1</Handling>
+  <Armor>3</Armor>
+  <HullTrauma>12</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

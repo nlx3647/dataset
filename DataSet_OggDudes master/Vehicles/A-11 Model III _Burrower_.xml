@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>A11BURR</Key>
+  <Name>A-11 Model III "Burrower"</Name>
+  <Description>
+    [H3]A-11 Model III "Burrower"[h3]
+
+Designed to excavate mine shafts, the Model III Tunnel Boring Vehicle is a sophisticated machine capable of burrowing through virtually any material. Equipped with a massive Karflo TS-Titan beamdrill, the TBV burrows through rock by reducing it to melted slag. Rated to tunnel down to 10 kilometers on most geologically active terrestrial planets, the TBV can burrow straight through asteroids and small, inert moons. The TBV is piloted by a two-man crew, who are kept safe in a heavily shielded command capsule within the body of the vehicle. 
+
+[P]While not a practical vehicle for transport, TBVs have from time to time been used for unorthodox purposes; on at least one occasion, a TBV was used to gain access to an InterGalactic Banking Clan bullion depository beneath Coronet City.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Tunneling Vehicle</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Wheeled Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>45000</Price>
+  <Rarity>7</Rarity>
+  <Crew>One pilot, one co-pilot/engineer</Crew>
+  <EncumbranceCapacity>25</EncumbranceCapacity>
+  <Passengers>3</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>BEAMDRILHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

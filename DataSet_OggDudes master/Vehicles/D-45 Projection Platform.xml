@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>D45PROJPLAT</Key>
+  <Name>D-45 Projection Platform</Name>
+  <Description>[H3]D-45 Projection Platform[h3]
+[P]After the success of the D-4, Icnom realized that the large generator necessary for the shield system could be used to power other devices. This craft is marketed as a way to keep building facades "intact" while under repairs, but many underworld elements quickly realized that a portable, large-scale hologram could be used to mask illicit activities.</Description>
+  <Source>Keeping the Peace</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Heavy Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>10000</Price>
+  <Rarity>6</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Holographic Camouflage[b]: As a maneuver, driver may extend the craft's holographic field to display a preprogrammed building, structure, or other object of silhouette 4.  if vehicle moves, the illusion persists, but is obvious to observers that it is a hologram.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <MaxAltitude>5 meters</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One driver, one operator, one gunner</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <HullTrauma>9</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

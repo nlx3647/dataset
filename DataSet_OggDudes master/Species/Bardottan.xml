@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BARDOTTAN</Key>
+  <Name>Bardottan</Name>
+  <Description>
+    [H4]Bardottan[h4]
+    
+Bardottans are characteristically intelligent and deeply spiritual, and many demonstrate high levels of physical skill as well. They are often scholars, devoting their lives to the intense study of a specific field. Many travel the galaxy in pursuit of their research. Academic Bardottans typically only continue a journey after they have uncovered all information in their current location that is relevant to their research. As they study, Bardottans tend to meditate as a key component of the learning process. Often, these meditations include reflections upon history, family, and their cultural interpretation of the Force.
+[P][B]Physiology:[b] Bardottans are a saurian species, with scaled skin. Their lower legs bend backward, and they walk on three-toed feet. Their forearms are shorter than their lower extremities and end in three fingers and a thumb. Their long necks are heavily wrinkled and can bend in any direction. A beak-like snout dominates their head. Bardottans vary substantially in height at maturity, ranging from just over a meter to more than two meters tall. Their skin tones range from pale gray to yellow, green, and even purple. Some have a consistent tone across their bodies, but others have distinctive markings, including striped and spotted patterns.
+[P][B]Society:[b] Bardottan culture traditionally values knowledge and education very highly, and cultivates an intense devotion to spiritual matters. Bardottan scholars tend toward a high degree of secrecy with the information that they uncover in the course of their research, only sharing details with outsiders when it becomes absolutely necessary. They are proud and independent beings who are reluctant to ask for assistance. Instead, they prefer to resolve issues internally whenever possible. They expect outside intervention only when situations become particularly dire.
+[P]Bardottans deliberately isolate their society into groups within different academic and religious fields. Because they
+consider all information precious, earning the right to information is a part of their educational and professional process. They become quite loyal to their immediate peers, but they are reluctant to work with those outside of their group.
+[P][B]Homeworld:[b] Bardotta is the homeworld of the Bardottan people. The planet’s government is a monarchy, though the king or queen is assisted by a contingent of Dagoyan Master advisors. Bardotta has isolationist tendencies. Almost all of the planet’s inhabitants are members of the native species.
+[P]After their exposure to the larger galaxy millennia ago, Bardottans colonized other worlds, including Phu. Cultural norms on some colonies vary substantially from the culture native to Bardotta; for instance, Bardottans from other worlds are not always as secretive or isolationist as those from the species’ homeworld.
+[P][B]Languages:[b] All Bardottans are fluent in Basic and many also study the traditional Bardottan language. Those who explore other cultures often master other languages as part of their studies.
+Perception of the Force: The Bardottans have a strong cultural Force tradition, whose skilled practitioners are known as the Dagoyan Masters. This tradition links the Force to the idea of living in harmony with the galaxy. The Dagoyan Masters use the Force as a tool for education and understanding, sometimes integrating its use into negotiations. They are nonviolent, believing that the Force should never be used to injure another living being.</Description>
+  <Source Page="99">Nexus of Power</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>105</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>LORE</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+</Species>

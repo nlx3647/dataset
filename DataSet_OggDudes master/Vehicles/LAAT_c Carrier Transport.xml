@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LAATC</Key>
+  <Name>LAAT/c Carrier Transport</Name>
+  <Description>[H3]LAAT/I Carrier Transport[h3]
+The LAAT/c (carrier is a variant of the Low Altitude Assault Transport designed to carry large vehicles into battle, in particular the All Terrain Tactical Enforcer. Its profile is similar to the other LAAT models, with the central body hollowed out to make room for its vehicle component and four magnetic holding clamps. Additionally, the LAAT/c strips out most of the weapons systems, reducing the necessary crew to a single pilot.</Description>
+  <Source Page="62">Forged in Battle</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Heavy Assault Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>75000</Price>
+  <Rarity>4</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B][U]Rapid Walker Deployment[u][b]: As an action, pilot may make a [B]Hard ([DI][DI][DI]) Piloting Planetary check[b] upgraded a number of times equal to the LAAT/c's current speed. If successsful, walker deploys safely.  If failed, walker deploys, but suffers a Critical Hit as if it had suffered a collision.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <MaxAltitude>100 kilometers</MaxAltitude>
+  <StarFighters>One AT-TE</StarFighters>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>15</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>LASERLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

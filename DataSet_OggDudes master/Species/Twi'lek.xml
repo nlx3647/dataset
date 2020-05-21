@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TWI</Key>
+  <Name>Twi'lek</Name>
+  <Description>
+    [H4]Twi'leks[h4]
+
+The Twi'leks are among the most prominent non-human species in the galaxy. They are expert bargainers, sly at reading other species and using cunning to get what they want. 
+
+[P][B]Physiology:[b] Twi'leks possess two prehensile tentacles, their tchun-tchin, or lekku, that project from the back of their heads. These "head-tails" serve as a second tongue by which they can communicate through signs and gestures. The rainbow of flesh tones found among the Twi'leks are indicators of clan and region of ancestry. 
+
+[P][B]Society:[b] Family is everything in Twi'lek society. The government on Ryloth is an alliance of "head clans," each of which control a small town or larger districts in the city. A family's five most important Twileks lead their respected head-clans, with the power of influence radiating down the bloodline. According to tradition, when one leader of the head clan dies, the four remaining members must take exile in the sun-baked Bright Lands where the vicious lyleks roam. In practice, however, clan leaders find new and cunning ways to subvert exile. 
+
+[P]The clan system has stratified Twi'lek society into castes. Twi'leks at the bottom of a bloodline are considered of the low birth caste and used as chattel in the slave trade. Twi'lek leaders exhibit disgust at any accusation of slavery and deny that they would ever put their own people in bondage, shifting the blame to other clans. Nonetheless, nearly every clan engages in "contracted indenturehood ."
+
+[P][B]Homeworld:[b] Though their home planet of Ryloth is located in the Outer Rim, Twi'leks can be found on many worlds throughout the galaxy, due to their enterprising nature and the effects of slavery. 
+
+[P][B]Language:[b] Ryl is the native tongue of Ryloth, yet there are few Twi'leks who cannot speak Basic fluently. What separates Twi'leks from other species is their second, nonverbal language called Lekku, or "Twi'leki." In everyday conversation, Twi'leks add texture and emphasis to their speech by moving and twitching their head-tails. If privacy is necessary, Twi'leks can converse in complete silence, using only the gestures of their head-tails to pass on complicated information. </Description>
+  <Sources>
+    <Source>Edge of the Empire Core Rulebook</Source>
+    <Source>Force and Destiny Core Rulebook</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>TWIABSK</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>TWISKCH</Key>
+          <Name>Charm</Name>
+          <Description>Twi'leks may begin the game with one rank in Charm.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>CHARM</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>TWISKDEC</Key>
+          <Name>Deception</Name>
+          <Description>Twi'leks may begin the game with one rank in Deception.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DECEP</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>TWIENV</Key>
+      <Name>Environmental</Name>
+      <Options>
+        <Option>
+          <Key>TWIENVHOT</Key>
+          <Name>Arid/Hot Environments</Name>
+          <Description>
+            When making skill checks, Twi'leks may remove [SETBACK] imposed due to arid or hot environmental conditions.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

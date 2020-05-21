@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<SigAbility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ROUSOR</Key>
+  <Name>Rousing Oratory</Name>
+  <Description>Many in the Empire think that a commander is defined
+by the loyalty and service that the soldiers serving
+under them owe to the office. What they fail to realize
+is that the true definition of a commander comes from
+his responsibility to those soldiers. A true commander
+is responsible for seeing the mission through, but not
+at the callous disregard for his troops. A true commander
+is responsible for defeating the enemy, but
+not at the sacrifice of his army’s humanity. A true commander
+is responsible for winning the war, but more
+importantly, for winning the war for the right reasons.
+The commander that can live up to these ideals is an
+inspiration to his troops and can drive them to ever
+greater feats of heroism for the cause.</Description>
+  <Source Page="38">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <AbilityRows>
+    <AbilityRow>
+      <Abilities>
+        <Key>ROUSORBASIC</Key>
+        <Key>ROUSORBASIC</Key>
+        <Key>ROUSORBASIC</Key>
+        <Key>ROUSORBASIC</Key>
+      </Abilities>
+      <Directions>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+      </Directions>
+      <AbilitySpan>
+        <Span>4</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>4</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>4</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>4</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+      </AbilitySpan>
+      <Costs>
+        <Cost>30</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>30</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>30</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>30</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+      </Costs>
+    </AbilityRow>
+    <AbilityRow>
+      <Abilities>
+        <Key>ROUSORCHANGESKILL</Key>
+        <Key>ROUSORREDUCESETBACK</Key>
+        <Key>ROUSORRECOVERSTRAIN</Key>
+        <Key>ROUSORCHANGESKILL2</Key>
+      </Abilities>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+      <AbilitySpan>
+        <Span>1</Span>
+        <Span>1</Span>
+        <Span>1</Span>
+        <Span>1</Span>
+      </AbilitySpan>
+      <Costs>
+        <Cost>10</Cost>
+        <Cost>10</Cost>
+        <Cost>10</Cost>
+        <Cost>10</Cost>
+      </Costs>
+    </AbilityRow>
+    <AbilityRow>
+      <Abilities>
+        <Key>ROUSORBOOSTALLIES</Key>
+        <Key>ROUSORREDUCEDIFF</Key>
+        <Key>ROUSORTURNINGPOINT</Key>
+        <Key>ROUSORDESTINY</Key>
+      </Abilities>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+      <AbilitySpan>
+        <Span>1</Span>
+        <Span>1</Span>
+        <Span>1</Span>
+        <Span>1</Span>
+      </AbilitySpan>
+      <Costs>
+        <Cost>15</Cost>
+        <Cost>15</Cost>
+        <Cost>15</Cost>
+        <Cost>15</Cost>
+      </Costs>
+    </AbilityRow>
+  </AbilityRows>
+  <Careers>
+    <Key>COMMANDER</Key>
+  </Careers>
+  <MatchingNodes>
+    <Node>false</Node>
+    <Node>true</Node>
+    <Node>true</Node>
+    <Node>false</Node>
+  </MatchingNodes>
+</SigAbility>

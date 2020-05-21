@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DUROS</Key>
+  <Name>Duros</Name>
+  <Description>
+    [H4]Duros[h4]
+
+The species most often celebrated as granting the gift of hyperspace travel to the rest of the galaxy, Duros are revered as pilots, explorers, and storytellers. They are also widely sought after as ships engineers and mechanics. 
+
+[P][B]Physiology:[b] Descended from reptiles, Duros are bipedal humanoids with large red eyes; smooth blue-green skin; long fingers; bald, bulbous heads; and tiny slits below the eyes that provide their olfactory sense. Their young hatch as larvae from eggs laid by the females, but they are raised in a recognizable family unit. Duros aren't particularly brawny, but they possess sharp minds and keen intellects. Both males and females are bald, but other characteristics distinguish the sexes. 
+
+[P][B]Society:[b] Most scholars believe the Duros actually invented the first hyperdrive craft, and their contributions to interstellar navigation are impossible to overstate. They are inquisitive and adventurous, taking great pride in their extensive travels throughout the galaxy. It is considered polite to refer to any Duros by the honorific "Traveler," such is their passion for astrogation and exploration of the galaxy. 
+
+[P]With a history of enslavement by beings of great technological prowess and the capacity for terrible destruction in the name of advancing their empire, the Duros developed a profound thirst for knowledge of the very science being used to subdue them. When the time came, they employed all they learned to not only throw off the shackles of their oppressors but to reach out to the stars and never look back. Shortly thereafter, the course of Duros society was charted by a highly regarded monarchy, but as that once-great dynasty fell to corruption, enduring Duros pragmatism led to a corporatocracy that focused on asset management and development. 
+
+[P]In the era of the Empire, the Duros have not fared well. Their home—long devastated by unchecked pollution from rampant industrialization—has become an occupied territory, their resources managed by the Imperial bureaucracy. Many Duros have chosen to scatter to the Outer Rim rather than be enslaved by the Emperor's war machine, where there are still those who value the gifts and knowledge they bring. 
+
+[P][B]Homeworld:[b] Duro was once a lush, green world. Due to ecological disasters on an extinction scale, it is now completely uninhabitable without extensive biohazard protections. Hungry to reach out far and wide to the galaxy, the Duros allowed manufacturing, mining, and production to go unchecked and unregulated. The resultant pollutants and hazardous wastes ultimately drove them from their homeworld to live in massive orbital cities and space stations all around the planet. 
+
+[P][B]Language:[b] Using a syllable-driven written component, Durese (also called Durosian) is a well-known and widely spoken language throughout the Corellian Sector and many other Core Worlds. It is one of the foundation languages for the construction of Basic.</Description>
+  <Sources>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Source>Enter the Unknown</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>PILOTSP</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>DUROSCH1</Key>
+      <Name>Navigator</Name>
+      <Options>
+        <Option>
+          <Key>DUROSCH1OP1</Key>
+          <Name>Intuitive Navigation</Name>
+          <Description>Add [ADVANTAGE] to all Astrogation checks.</Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>ASTRO</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

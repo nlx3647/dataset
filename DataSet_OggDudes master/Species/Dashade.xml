@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DASHADE</Key>
+  <Name>Dashade</Name>
+  <Description>
+    [H4]Dashade[h4]
+
+The Dashade are tall, reptilian humanoids notable for their resistance to the powers of the Force.
+
+[P][B]Physiology:[b] Dashade are tall reptilians with dark skin, lamprey-like mouths, and powerful claws. In addition to their partial Force-resistance, they are resistant to radiation. They also have an ability to dissipate heat which made them hard to detect using standard life-form sensors.
+
+[P][B]Society:[b] Thanks to their Force-immunity, Dashade warriors easily found employment as combat instructors for the Jedi and assassins for the Sith. They also use their natural abilities to their advantage as elite assassins, mercenaries, and among similar professions.
+
+[P][B]Homeworld:[b] Urkupp was a planet located within the Urkupp system of the Outer Rim Territories. The homeworld of the Dashade race, Urkupp was destroyed in 3,996 BBY by the creation of the Cron Drift during the Great Sith War. However the Dashade survived by having offworld colonies.
+
+[P][B]Language:[b] Dashadi was the official language of Urkupp. It was used by the planet's native species, the Dashades.  As Dashadi has never been a widely-used language beyond Urkupp, its speakers have increasingly seen  the advantages of using Basic to communicate with other species.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>12</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>OUTDOOR</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>DASHABSK</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>DASHSKCO</Key>
+          <Name>One Rank in Coercion</Name>
+          <Description>Dashade may begin the game with one rank in Coercion.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>COERC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>DASHSKVI</Key>
+          <Name>One Rank in Vigilance</Name>
+          <Description>Dashade may begin the game with one rank in Vigilance.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>VIGIL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DASHAB2</Key>
+      <Name>Resistance</Name>
+      <Options>
+        <Option>
+          <Key>DASHAB2RES</Key>
+          <Name>Force Resistance</Name>
+          <Description>
+            Upgrade the difficulty of
+            Discipline checks to affect a Dashade with a
+            Force power or talent by one.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

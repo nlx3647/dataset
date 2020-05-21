@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SURVFRIG</Key>
+  <Name>Surveyor-Class Reconnaissance Frigate</Name>
+  <Description>[H3][I]Surveyor[i]-Class Reconnaissance Frigate[h3]
+
+The Imperial Navy’s Surveyor class is a small, fast,
+frigate-sized vessel used for reconnaissance and long
+range exploration. Based on Kuat Drive Yards’ Activeclass
+fast attack frigate, these vessels are a relatively
+common sight in battle groups operating in the Core
+and Mid Rim regions of the galaxy. Lightly armed
+and armored, they have a thin, dagger-shaped hull
+similar to that of the larger Vindicator-class cruisers.
+Unlike those ships, however, the Surveyor class has
+no command tower. Instead, a broad, heavily shielded
+structure like a bunker rises at the aft of the ship and
+extends over the main drives; a similar structure can be seen on Bellator-class dreadnoughts. This structure
+houses not only the command deck, but also the powerful
+sensor suites with which the ship is equipped.
+[P]While the Surveyor class can fight — it possesses a
+respectable collection of turbolasers and ion cannons,
+along with one squadron of fightercraft — its primary
+purpose is reconnaissance and exploration. The reconnaissance
+and sensor suites these ships carry are
+among the most sophisticated in the Imperial Fleet. A
+collection of passive and active sensors, multispectrum
+detection arrays, signals and data intercept systems,
+and a powerful dedicated computer system that collates
+and analyzes incoming data makes these small
+ships frighteningly effective at scouting and information
+gathering. In addition to their sensors, these ships
+are also equipped with a number of stealth systems
+that allow them to hide in star systems, relatively safe
+from detection, as they gather their information and
+feed it back to their battle groups.</Description>
+  <Source Page="53">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Frigate</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>9600000</Price>
+  <Rarity>8</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Sensor Suite[b]: Upgrade the ability of any Perception or Computers checks once when using the sensors.</MiscDesc>
+    </Mod>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Run Silent[b]: Add [SE][SE] to any skill check made to detect a [I]Surveyor[i]-class ship.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>11</HyperdriveBackup>
+  <StarFighters>Twelve starfighters and assorted shuttles</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srExtreme</SensorRangeValue>
+  <Crew>900 officers, pilots, and enlisted crew</Crew>
+  <EncumbranceCapacity>3700</EncumbranceCapacity>
+  <Passengers>80</Passengers>
+  <Consumables>Two Years</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>3</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>6</Armor>
+  <HullTrauma>75</HullTrauma>
+  <SystemStrain>45</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Key>TURBOLT</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Key>TURBOLT</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>TURBOMED</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>TURBOMED</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>IONMED</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Extreme</SensorRange>
+</Vehicle>

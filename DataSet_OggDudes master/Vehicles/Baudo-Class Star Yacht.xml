@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BAUDOYACHT</Key>
+  <Name>Baudo-Class Star Yacht</Name>
+  <Description>[H3]Baudo-Class Star Yacht[h3]
+
+Custom built by the small shipyard of the reclusive and eccentric Aqualish Mendel Baudo, each Baudo-class star yacht is a unique work of art. Extremely popular among the wealthy elite of the galaxy, these ships are prized as much for the status they convey as for their exceptional speed and craftsmanship. Taking only commissions from the referrals of previous clients, Baudo engineers all of his yachts along similar lines, customizing the vessels' interiors and finishes to meet the demands of his clientele. As a result, every Baudo-class is a sleek, fast star yacht of roughly the same size and shape, with the opulent internal architecture and luxurious amenities of the finest quality to suit the tastes of the individual owners.</Description>
+  <Sources>
+    <Source>Fly Casual</Source>
+    <Source>Desperate Allies</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <Type>Yacht</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>250000</Price>
+  <Rarity>9</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/engineer</Crew>
+  <EncumbranceCapacity>60</EncumbranceCapacity>
+  <Passengers>8</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>1</Armor>
+  <HullTrauma>26</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

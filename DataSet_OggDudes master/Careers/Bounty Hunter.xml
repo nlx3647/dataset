@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BOUNT</Key>
+  <Name>Bounty Hunter</Name>
+  <Description>
+    [H4]Bounty Hunter[h4]
+
+[P]The Bounty Hunter's eight career skills are [B]Athletics, Brawl, Perception, Piloting (Planetary), Piloting (Space), Ranged (Heavy), Streetwise,[b] and [B]Vigilance[b]. He automatically gains one rank in four of these skills (of his choosing) without spending experience, and he receives a discount when he spends experience to purchase ranks in any of these skills. 
+
+[P][H4]A BOUNTY HUNTER'S ROLE[h4]
+
+[P]The name says it all: this is a hunter who seeks to collect bounties for his work. Bounty Hunters tend to be feared, reviled, looked down upon—and in great demand throughout the galaxy. They are expert trackers, brutal combatants, and effective investigators. They tend to prefer skulduggery, stealth, and traps over frontal assaults, but the most respected Bounty Hunters will do whatever it takes to catch their quarries and collect their fees. 
+
+[P]Bounty Hunters generally fall within three categories: Imperial Bounty Hunters, Guild Bounty Hunters, or Independents. Imperial Bounty Hunters are essentially on permanent contract to the Imperial Security Bureau (or a similar arm of Imperial law), and they never take assignments from corporations, smaller governments, or individuals. They are highly-trusted members of the extended law-enforcement community of the Empire, usually ex-military personnel that prefer a less-regimented (if possibly dangerous) way to serve. 
+[P]Those Bounty Hunters who join a guild enjoy many excellent benefits: room and board wherever the guild has a presence, exceptional training and access to high-end equipment as needed for specific assignments, and a steady stream of jobs given to them by the guild brokers acting on their behalf. The downside to all of this is the fact that Guild Bounty Hunters have little-to-no say in what jobs they get, and failure to accept an assignment is grounds for immediate termination of a guild contract. 
+
+[P]The greatest freedom comes with being an Independent Bounty Hunter; it also comes with the greatest challenges and dangers. Although Independents often take Imperial contracts, which are usually the most readily available and lucrative, they enjoy knowing they are not exactly a part of the Empire. Not being a part of a guild also serves an Independent Bounty Hunter's sensibilities; he can pick and choose his contracts as he likes, and has only himself to credit for success or failure. 
+
+[P]Player Characters are almost certainly going to be either Guild or Independent Hunters. However, regardless of what type of Bounty Hunter is played, the character will need to have a current and legitimate Imperial Peace-Keeping Certificate (IPKC). This is the specific license that all Bounty Hunters are required to have on file with the Empire in order to operate as professionals. Without such documentation and status, a Bounty Hunter is little more than a kidnapper and, possibly, a murderer. Any character with the Bounty Hunter career automatically gains an IPKC—unless the player would prefer his character not start with one. Although this may seem like an odd choice, it could make for a particularly compelling story or character background.</Description>
+  <Source Page="56">Edge of the Empire Core Rulebook</Source>
+  <Custom>CustomItem</Custom>
+  <CareerSkills>
+    <Key>ATHL</Key>
+    <Key>BRAWL</Key>
+    <Key>PERC</Key>
+    <Key>PILOTPL</Key>
+    <Key>PILOTSP</Key>
+    <Key>RANGHVY</Key>
+    <Key>SW</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>ASSAS</Key>
+    <Key>FORCEADHERENT</Key>
+    <Key>GADG</Key>
+    <Key>IMPERIALACADEMYCADET</Key>
+    <Key>MARTIALARTIST</Key>
+    <Key>OPERATOR</Key>
+    <Key>PADAWANSURVIVOR</Key>
+    <Key>PIRATE</Key>
+    <Key>RETIREDCLONETROOPER</Key>
+    <Key>SHIPCAPTAIN</Key>
+    <Key>SKIPTRACER</Key>
+    <Key>SURV</Key>
+  </Specializations>
+  <Attributes />
+  <FreeRanks>4</FreeRanks>
+</Career>

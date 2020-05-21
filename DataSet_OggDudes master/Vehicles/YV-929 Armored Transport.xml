@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>YV929</Key>
+  <Name>YV-929 Armored Transport</Name>
+  <Description>
+    [H3]YV-929 Armored Transport[h3]
+
+A rarity among Corellian Engineering vessels, which have always been cargo vessels first and foremost, the W-929 was designed from the keel up as an armed transport. Classified as a light freighter similar to the popular YT-1300 and YT-2400 series, the 929 is a bulky, heavily armed and armored transport vessel designed to operate in hostile areas of space without armed escort. Unlike the iconic saucer shaped ships that typically come from CEC's shipyards, the 929 series is a hard-edged, slab-sided ship described as a "flying brick" by those familiar with it. It carries a wide array of laser and ion weaponry, as well as a powerful concussion missile launcher, and its shields are exceedingly powerful for a ship of its size and class. Its large, powerful drives provide immense thrust, propelling the ship to speeds surprising in so bulky a ship, and its cargo holds are relatively vast despite all of the military-style systems. 
+
+[P]A number of these vessels have fallen into Alliance hands, where they are used as blockade runners and fast transports. While this state of affairs has understandably angered Imperial officials, who have levied numerous sanctions and fines against CEC, they continue to sell these capable ships to anyone with the credits.</Description>
+  <Source>Age of Rebellion Core Rulebook</Source>
+  <Custom>CustomItem</Custom>
+  <Type>Transport</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>380000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One captain, one pilot, one co-pilot, two gunners</Crew>
+  <EncumbranceCapacity>80</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>Six months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>4</Armor>
+  <HullTrauma>23</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>2</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+        <Quality>
+          <Key>ION</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>10</Count>
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>10</Count>
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HUNCHBACK</Key>
+  <Name>Hunchback Construction Strider</Name>
+  <Description>
+[H3]Hunchback Construction Strider[h3]
+
+The Hunchback is a lightweight utility walker designed for construction and civil engineering work. Similar to the Republic's AT-PT, the Hunchback is a bipedal walker with a sturdy, lightly armored, slab-sided rectangular command pod perched atop a pair of powerful reverse-articulated legs. That's where the similarities end, however. The Hunchback carries no offensive weapons. Instead, a pair of articulated utility arms are mounted 0n each side of the cockpit. The arms carry a wide array of tools such as plasma cutters, saws, welders, drills, compressed air guns, and small, dextrous manipulators for fine work. Two powerful floodlights flank the viewport, and the walker is equipped with a multi-spectrum sensor suite that contains a thermal imager, passive night vision, ultrasound transceivers, surface penetrating radar, and a number of other sophisticated sensors to assist an engineer in his work.</Description>
+  <Source>Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>28000</Price>
+  <Rarity>4</Rarity>
+  <Crew>One pilot, one co-pilot/engineer</Crew>
+  <Silhouette>2</Silhouette>
+  <Speed>1</Speed>
+  <HullTrauma>7</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

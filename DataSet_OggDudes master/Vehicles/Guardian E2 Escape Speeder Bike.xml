@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>E2ESCAPEBIKE</Key>
+  <Name>Guardian E2 Escape Speeder Bike</Name>
+  <Description>
+    [H3]Guardian E2 Escape Speeder Bike[h3]
+
+The Guardian is Ubrikkian's specialized speeder for transporting VIPs and dignitaries during their day-to-day duties. The speeder presents a classic look that is suitable for important gatherings, but not distinctive. Its defenses are concealed, including its substantial armor and retractable weapons. The Guardian is a favorite of bodyguards, security firms, and governments. 
+
+[P]The 5e's ultimate secret is a built-in, two-person speeder bike that serves as an emergency escape vehicle. The speeder bike can launch while the Guardian is in flight, though the more limited maximum altitude of the bike means that it is not always instantly usable. The Guardian's back seat swings away to reveal the bike. The bike can drop out of the bottom or launch out of the back of the Guardian, whichever is safer at the moment. While security experts know some Guardians have this feature, most vehicles of the 5 series are indistinguishable from each other on the outside.</Description>
+  <Source>Dangerous Covenants</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Speeder Bike</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <MaxAltitude>350 meters</MaxAltitude>
+  <StarFighters>None</StarFighters>
+  <Crew>One pilot</Crew>
+  <Passengers>1</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <HullTrauma>2</HullTrauma>
+  <SystemStrain>3</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

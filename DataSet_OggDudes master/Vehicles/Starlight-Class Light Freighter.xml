@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>STARLIGHTLTFREIGHTER</Key>
+  <Name>Starlight-Class Light Freighter</Name>
+  <Description>[H3]Starlight-Class Light Freighter[h3]
+
+A joint venture of the venerable Rendili StarDrive and Surron StarTech, the Starlight-class light freighter is a hybrid of human and Surronian design and technology. Renowned for their innovative starship designs, the insectoid inhabitants of Surron lacked the business and marketing savvy to make much of an impact on galactic markets, and a partnership with Rendili seemed mutually beneficial. From early on, major differences in design philosophies marred the project, ensuring that the Starlight was the first and last vessel produced by the Rendili-Surron union. 
+
+[P]Nonetheless, the final production version of the Starlight-class is a unique freighter that has seen some limited success. A large forward-swept wing with a Corellian-inspired cockpit and cylindrical hull on the starboard side, the Starlight-class light freighter is virtually impossible to mistake for any other ship traveling the space lanes. A sophisticated repulsorlift loading platform makes the freighter incredibly quick and efficient at loading and unloading cargo. While possessing a spacious cargo hold, the substandard Materials used by Rendili to cut costs resulted in a fairly weak frame, limiting the weight of goods the freighter can safely carry. In spite of its shortcomings, the Starlight-class has found a niche among free traders and smugglers.</Description>
+  <Source>Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>69995</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/navigator</Crew>
+  <EncumbranceCapacity>85</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>16</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

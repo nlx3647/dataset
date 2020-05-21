@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SPEEDERSERAPH</Key>
+  <Name>Seraph "Flash Speeder"</Name>
+  <Description>
+    [H3]Seraph "Flash Speeder"[h3]
+
+The Seraph-class landspeeder, colloquially known as the "Flash Speeder," is a small, relatively common model produced by the SoroSuub Corporation. Popular on Corellia for its compact size and speed, the Flash Speeder is a common sight on the streets of Coronet City and other cities, as well as rural areas of the planet. The Seraph is operated by a single driver, with room for three passengers in its open-topped interior. A pair of triple-drive turbine engine pods, which are mounted on an airfoil at the rear of the speeder, provide excellent speed and maneuverability. 
+
+[P]CorSec utilizes an armed version of the Flash Speeder for security, patrol, and pursuit duty, mounting a light blaster cannon on a rotating swivel atop the rear spoiler.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>5200</Price>
+  <Rarity>4</Rarity>
+  <MaxAltitude>2 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>18</EncumbranceCapacity>
+  <Passengers>3</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Top</Location>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

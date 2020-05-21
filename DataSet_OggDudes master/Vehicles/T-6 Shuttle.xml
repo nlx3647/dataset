@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>T6SHUTTLE</Key>
+  <Name>T-6 Shuttle</Name>
+  <Description>[H3]T-6 Shuttle[h3]
+First produced by the hives of Stayn &amp; Korpil, the distinctively designed T-6 shuttle was a mainstay of the Jedi Order before and during the Clone Wars, when its strange circular design was often embossed with the emblem of the Galactic Republic. After the Clone Wars and with the rise of the Galactic Empire, the T-6 shuttle fell out of favor; many were moth-balled or relegated to the scrap yards of the Core Worlds. However, some few still saw service, especially in the Rim systems and other out-of-the-way locations.
+[P]The most familiar aspect of the old T-6 shuttles today is the cockpits, which have been repurposed for use on the A/SF-01 B-wing starfighter. The semicircular hull of the shuttle's main body, containing a small, cramped passenger compartment and what limited storage the shuttle possesses, rotates around the cockpit in a manner similar to the rotation of the hull and wing assembles of the B-wing.
+[P]The attributes that made the T-6 shuttle ideal for the Jedi still lend it to certain uses today. With its precision handling, speed, and incorporated armor, this small ship can safely and quickly convey important sentients to their destination, no matter what obstacles stand in their way. There have been reports of unsanctioned private, corporate, and system negotiation teams using old T-6 shuttles to operate beneath the Empire's watchful eye. When safety and security trump comfort and flash, one can do far worse than finding one the remaining T-6's and bringing it back into service.</Description>
+  <Source Page="60">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Shuttle</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>100000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>80</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <Armor>3</Armor>
+  <HullTrauma>25</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

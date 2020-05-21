@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>UWING</Key>
+  <Name>UT-60D U-Wing Troop Transport</Name>
+  <Description>[H3]UT-60D U-Wing Troop Transport[h3]
+Incom’s UT-60D is a small personnel carrier and light attack craft marketed to planetary governments and private military concerns. A cross between a starfighter and a dropship, the UT-60D, also called the U-wing, was designed to carry squad-sized units into combat zones quickly and safely, then take to the air again and provide air support and instant extraction when needed. It has a squared-off hull that contains a two-seat cockpit and a ventral passenger compartment big enough for a fully equipped squad of soldiers. Two long and slender variable-geometry S-foils run the length of the ship on the port and starboard sides, providing lift and maneuverability while in atmosphere. At the aft of the ship four Incom Mk VIII fusial thrust engines mounted in outboard nacelles provide more than enough power for getting in and out of hot landing zones.
+[P]The laser cannons on U-wings give these ships a powerful punch and good versatility for both shooting their way in and out of landing zones and providing air support to ground troops. U-wings are lightly armored, as they rely more on speed and maneuverability for survival than on bulky armor, but their high-output shield generator provides very good protection against small arms and light anti-aircraft ordnance. Troops are loaded and deployed via port and starboard sliding doors, with a dedicated door gunner using a hard-mounted weapon to provide cover. Rebels have liberated a handful of these extremely useful ships from a sympathetic arms dealer and have been using them to wonderful effect ever since.</Description>
+  <Source Page="127">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Troop Transport</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>65000</Price>
+  <Rarity>6</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>The port and starboard hatches can be fitted with one pintle-mounted weapon manned by door-gunner troops, either a heavy ion blaster or a light repeating blaster.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>10</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot, two door gunners.</Crew>
+  <EncumbranceCapacity>25</EncumbranceCapacity>
+  <Passengers>8</Passengers>
+  <Consumables>Two weeks.</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>HEAVYIONBLAS</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Key>LIGHTREPBLASVEH20</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

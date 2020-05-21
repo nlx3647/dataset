@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SWOOPS5</Key>
+  <Name>S-5 "Flashfury" Swoop</Name>
+  <Description>
+    [H3]S-5 "Flashfury" Swoop[h3]
+
+Mobquet Swoops and Speeders maintains its dominance in the swoop-racing market with vehicles like the Flashfury. A no-frills, blisteringly fast swoop, the Flashfury is as sure to win races as it is dangerous to drive. The swoop is infamous for having no protective equipment at all, lacking even a windscreen or safety restraints. However, it responds to the slightest touch of the controls and can outrun nearly every other ground vehicle, meaning Mobquet sells tens of thousands of them on Corellia every year.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Swoop</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>5500</Price>
+  <Rarity>3</Rarity>
+  <MaxAltitude>50 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <Silhouette>2</Silhouette>
+  <Speed>5</Speed>
+  <Handling>1</Handling>
+  <HullTrauma>2</HullTrauma>
+  <SystemStrain>2</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

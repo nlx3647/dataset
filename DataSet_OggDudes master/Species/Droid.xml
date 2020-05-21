@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DROID</Key>
+  <Name>Droid</Name>
+  <Description>
+    [H4]Droid[h4]
+
+A typical fringer may ridicule his droid to no end, yet without it, he is usually lost. Droids serve a variety of roles on the fringe, including security and conflict resolution, surgery and medicine, mechanical repairs, construction, astrogation and piloting, and mechanical labor. While many of these droids have only rudimentary intelligence, some are capable of independent thought. 
+
+[H3]PLAYING A DROID[h3] 
+
+[P]Creating droid characters in [B]Edge of the Empire[b] is easy. Treat them as a separate species, with bonuses and abilities that reinforce their robotic natures. Players should be creative when coming up with their description, and also with how the droid uses its equipment. Instead of a droid wearing Laminate Armor, for example, it could have reinforced metal plates attached directly to its chassis, and instead of carrying a blaster pistol, it could have one built into its arm. 
+
+[P]The personality of a droid is a more delicate matter. The very fact that the droid is a Player Character means that it is self-aware and independent-minded (unless the player wants to play a character who is completely subservient to the surrounding biologicals, of course). Players who want to make a droid character should remember the droid's origins and try to incorporate elements of their original function into their personality, even if their droid character has taken on roles far beyond what he was originally pro
+grammed for. A traffic control droid, for example, may take up the career of a mechanic, but still grumble endlessly whenever his pilot colleague breaks local flight and traffic laws. 
+
+[P][B]Physical Description:[b] Droids are assembled in many different body types, from chassis that follow bipedal standards, to those of various animals, to completely utilitarian boxes or cylinders.
+
+[P][B]Society:[b] Smugglers have long traded rumors of "droid worlds," where automatons and cyborgs govern a society of their own. Aside from such tall tales, droids do not have their own society, instead laboring within the society of their human and non-human masters. Unless a droid's personality has reprogrammed its cogni-tive faculties, droids are built to obey, and they do. 
+
+[P]However, the droids played by PCs present a special case. Over the millennia there have been countless examples of droids that have transcended their original programming to become self-aware and self operating. Some of these automata last for hundreds of years, repairing and upgrading themselves to remain at peak efficiency. 
+
+[P]Some of these droids take pride and satisfaction in continuing to do the jobs they were designed for as well as possible, such as an R2 unit that constantly works to become a better pilot and astrogator. Others break with their programming entirely and choose new enterprises to pursue. The infamous 4-LOM started out life as a protocol droid, before becoming a jewel thief and eventually one of the galaxy's most well-known bounty hunters.</Description>
+  <Sources>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Source>Edge of the Empire Core Rulebook</Source>
+  </Sources>
+  <Custom>CustomItem</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>1</Agility>
+    <Intellect>1</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>175</Experience>
+  </StartingAttrs>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>ENDUR</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>DROIDAB</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>DROIDABSK</Key>
+          <Name>Additional Career Skills</Name>
+          <Description>May train in two additional career skills and one additional specialization skills</Description>
+          <StartingSkillTraining>
+            <SkillTraining>
+              <SkillCount>2</SkillCount>
+              <Requirement>
+                <Career>true</Career>
+              </Requirement>
+            </SkillTraining>
+            <SkillTraining>
+              <SkillCount>1</SkillCount>
+              <Requirement>
+                <Specialization>true</Specialization>
+              </Requirement>
+            </SkillTraining>
+          </StartingSkillTraining>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DROIDAB2</Key>
+      <Name>Droid</Name>
+      <Options>
+        <Option>
+          <Key>DROIDAB2OP1</Key>
+          <Name>Features</Name>
+          <Description>Droids do not need to eat, sleep, or breath, and are unaffected by vacuum, toxins, and poisons.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DROIDAB2</Key>
+      <Name>Droid</Name>
+      <Options>
+        <Option>
+          <Key>DROIDAB2OP1</Key>
+          <Name>Inorganic</Name>
+          <Description>Droids do not gain benefits from bacta, stimpacks, or Medicine checks.  They must be repaired with repair patches and Mechanics checks.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DROIDAB2</Key>
+      <Name>Droid</Name>
+      <Options>
+        <Option>
+          <Key>DROIDAB2OP1</Key>
+          <Name>Mechanical Being</Name>
+          <Description>Droids cannot become Force sensitive, cannot acquire a Force Rating or Force powers, and are not affected by mind-altering Force powers.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DROIDAB2</Key>
+      <Name>Droid</Name>
+      <Options>
+        <Option>
+          <Key>DROIDAB2OP1</Key>
+          <Name>Cybernetics</Name>
+          <Description>Droids have a cybernetics implant cap of 6.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <SubSpeciesList>
+    <SubSpecies>
+      <Key>DROIDSUB1</Key>
+      <Name>2-1B Surgical</Name>
+      <Description> The 2-18 Surgical Droid is a highly intelligent and flexible thinker; as one would expect of a droid whose decisions involve life and death. Its rather ugly chassis hides a remarkably complex and flexible behavioral circuitry matrix, and the droids are intelligent and capable in equal measure.</Description>
+      <StartingChars>
+        <Brawn>-1</Brawn>
+        <Agility>-1</Agility>
+        <Intellect>-1</Intellect>
+        <Cunning>-1</Cunning>
+        <Willpower>-1</Willpower>
+        <Presence>-1</Presence>
+      </StartingChars>
+      <StartingAttrs>
+        <WoundThreshold>-1</WoundThreshold>
+        <StrainThreshold>-1</StrainThreshold>
+        <DefenseRanged>-1</DefenseRanged>
+        <DefenseMelee>-1</DefenseMelee>
+        <SoakValue>-1</SoakValue>
+        <Experience>-1</Experience>
+        <ForceRating>-1</ForceRating>
+      </StartingAttrs>
+      <CyberneticsAdjust>-100</CyberneticsAdjust>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>DROIDSUB2</Key>
+      <Name>3P0 Protocol</Name>
+      <Description>The 3P0 series of protocol droids are some of the most human-like automata ever developed—perfect for their assigned tasks as ambassadors, political aids, translators, and personal attaches. However, their advanced SyntheTech AA-1 verbobrains can some-times develop neuroses or other "quirks."</Description>
+      <StartingChars>
+        <Brawn>-1</Brawn>
+        <Agility>-1</Agility>
+        <Intellect>-1</Intellect>
+        <Cunning>-1</Cunning>
+        <Willpower>-1</Willpower>
+        <Presence>-1</Presence>
+      </StartingChars>
+      <StartingAttrs>
+        <WoundThreshold>-1</WoundThreshold>
+        <StrainThreshold>-1</StrainThreshold>
+        <DefenseRanged>-1</DefenseRanged>
+        <DefenseMelee>-1</DefenseMelee>
+        <SoakValue>-1</SoakValue>
+        <Experience>-1</Experience>
+        <ForceRating>-1</ForceRating>
+      </StartingAttrs>
+      <CyberneticsAdjust>-100</CyberneticsAdjust>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>DROIDSUB3</Key>
+      <Name>IG Assassin</Name>
+      <Description>Culminating with the feared and deadly IG-88 model, the IG series is infamous as one of the most lethal assassin droids in the galaxy. IG droids rarely meet an opponent they cannot eliminate, and true to their humorless nature, they follow the instructions for a particular bounty to the letter.</Description>
+      <StartingChars>
+        <Brawn>-1</Brawn>
+        <Agility>-1</Agility>
+        <Intellect>-1</Intellect>
+        <Cunning>-1</Cunning>
+        <Willpower>-1</Willpower>
+        <Presence>-1</Presence>
+      </StartingChars>
+      <StartingAttrs>
+        <WoundThreshold>-1</WoundThreshold>
+        <StrainThreshold>-1</StrainThreshold>
+        <DefenseRanged>-1</DefenseRanged>
+        <DefenseMelee>-1</DefenseMelee>
+        <SoakValue>-1</SoakValue>
+        <Experience>-1</Experience>
+        <ForceRating>-1</ForceRating>
+      </StartingAttrs>
+      <CyberneticsAdjust>-100</CyberneticsAdjust>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>DROIDSUB4</Key>
+      <Name>LE-V0 Law Enforcement</Name>
+      <Description>The success of LE-VOs in deterring crime in the Rseikharhl sector has led to their adoption galaxy-wide as appropriate models for police assistance and private security. Their programming requires them to follow Imperial codes to the letter and only use force when absolutely necessary. Though they are hardly ever equipped with lethal weaponry, they know how to target a stun weapon for maximum effect.</Description>
+      <StartingChars>
+        <Brawn>-1</Brawn>
+        <Agility>-1</Agility>
+        <Intellect>-1</Intellect>
+        <Cunning>-1</Cunning>
+        <Willpower>-1</Willpower>
+        <Presence>-1</Presence>
+      </StartingChars>
+      <StartingAttrs>
+        <WoundThreshold>-1</WoundThreshold>
+        <StrainThreshold>-1</StrainThreshold>
+        <DefenseRanged>-1</DefenseRanged>
+        <DefenseMelee>-1</DefenseMelee>
+        <SoakValue>-1</SoakValue>
+        <Experience>-1</Experience>
+        <ForceRating>-1</ForceRating>
+      </StartingAttrs>
+      <CyberneticsAdjust>-100</CyberneticsAdjust>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>DROIDSUB5</Key>
+      <Name>LOM Protocol</Name>
+      <Description>The LOM series was Industrial Automaton's attempt to upset a market dominated by Cybot Galactica. IA attempted to make a protocol droid very similar to the 3P0 units but with an insectoid head to appeal to niche markets. However, bad PR from at least one unit's career as a jewel thief caused IA to scrap the line. Some of the remain-ing LOM droids do have a habit of developing interesting and unexpected personalities.</Description>
+      <StartingChars>
+        <Brawn>-1</Brawn>
+        <Agility>-1</Agility>
+        <Intellect>-1</Intellect>
+        <Cunning>-1</Cunning>
+        <Willpower>-1</Willpower>
+        <Presence>-1</Presence>
+      </StartingChars>
+      <StartingAttrs>
+        <WoundThreshold>-1</WoundThreshold>
+        <StrainThreshold>-1</StrainThreshold>
+        <DefenseRanged>-1</DefenseRanged>
+        <DefenseMelee>-1</DefenseMelee>
+        <SoakValue>-1</SoakValue>
+        <Experience>-1</Experience>
+        <ForceRating>-1</ForceRating>
+      </StartingAttrs>
+      <CyberneticsAdjust>-100</CyberneticsAdjust>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>DROIDSUB6</Key>
+      <Name>R-Series Astromech</Name>
+      <Description>The wildly successful R-series ranges from the original and cumbersome RI to the famous R2 unit and all the way to the soon-to-be-released R6. Aside from the RI (which is more than two meters tall and works aboard capital ships), all of the R-series astromechs are roughly a meter or so tall, and designed to ride in sockets aboard snubfighters to perform astrogation calculations and allow hyperspace jumps. A wide variety of tools also make them decent repair droids.</Description>
+      <StartingChars>
+        <Brawn>-1</Brawn>
+        <Agility>-1</Agility>
+        <Intellect>-1</Intellect>
+        <Cunning>-1</Cunning>
+        <Willpower>-1</Willpower>
+        <Presence>-1</Presence>
+      </StartingChars>
+      <StartingAttrs>
+        <WoundThreshold>-1</WoundThreshold>
+        <StrainThreshold>-1</StrainThreshold>
+        <DefenseRanged>-1</DefenseRanged>
+        <DefenseMelee>-1</DefenseMelee>
+        <SoakValue>-1</SoakValue>
+        <Experience>-1</Experience>
+        <ForceRating>-1</ForceRating>
+      </StartingAttrs>
+      <WeaponModifiers>
+        <WeaponModifier>
+          <UnarmedName>Arc Welder</UnarmedName>
+          <SkillKey>MELEE</SkillKey>
+          <Damage>3</Damage>
+          <Qualities>
+            <Quality>
+              <Key>STUNDAMAGE</Key>
+            </Quality>
+          </Qualities>
+          <Range>Engaged</Range>
+        </WeaponModifier>
+      </WeaponModifiers>
+      <CyberneticsAdjust>-100</CyberneticsAdjust>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>DROIDSUB7</Key>
+      <Name>Other Model</Name>
+      <Description>Please see "Notable Features" for a description of this type of droid</Description>
+      <StartingChars>
+        <Brawn>-1</Brawn>
+        <Agility>-1</Agility>
+        <Intellect>-1</Intellect>
+        <Cunning>-1</Cunning>
+        <Willpower>-1</Willpower>
+        <Presence>-1</Presence>
+      </StartingChars>
+      <StartingAttrs>
+        <WoundThreshold>-1</WoundThreshold>
+        <StrainThreshold>-1</StrainThreshold>
+        <DefenseRanged>-1</DefenseRanged>
+        <DefenseMelee>-1</DefenseMelee>
+        <SoakValue>-1</SoakValue>
+        <Experience>-1</Experience>
+        <ForceRating>-1</ForceRating>
+      </StartingAttrs>
+      <CyberneticsAdjust>-100</CyberneticsAdjust>
+    </SubSpecies>
+  </SubSpeciesList>
+  <NoForceAbilities>true</NoForceAbilities>
+</Species>

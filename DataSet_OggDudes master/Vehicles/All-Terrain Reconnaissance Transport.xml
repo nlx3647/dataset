@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATRT2</Key>
+  <Name>All-Terrain Reconnaissance Transport</Name>
+  <Description>[H3]All-Terrain Reconnaissance Transport[h3]
+Kuat Drive Yards' All Terrain Reconnaissance Transport (AT-RT) is a small, lightly armed, one-person walker built for scouting and force reconnaissance duties. Once a mainstay of the Grand Army of the Republic, the AT-RT was produced by the thousands during the Clone Wars, and used to great effect by the Advanced Recon Force. Each is just over three meters tall, with a basic form and leg geometry similar to those of the Imperial Army's AT-ST or the old AT-PTs from Rothana Heavy Engineering. The driver sits exposed in an open cockpit behind an armored fairing, and operates the vehicle with hand nad foot controls similar to those found on most speeder bikes. While this open-cockpit configuration makes the pilot vulnerable to incoming fire. It provides an unparelled field of view and keeps the vehicle's weight and sensor signature low, thus improving overall survivability.
+[P]During the Clone Wars, the AT-RT was typically piloted by specifically trained recon clone troppers and deployed in squads of five to ten vehicles. It was used mainly as a scout or raiding vehicle, but some did duty as a pathfinder as well as a picket for larger armored columns or forward bases. Although not a frontline combat unit, the AT-RT packs a respectable punch from a heavy repeating blaster mounted in the vehicle's nose. For reconnaissance duty, it can be equipped with powerful multi-spectrum sensors and a heavily encrypted comlink and data uplink, allowing secure transmissions between squad members and with forward operating bases.
+[P]Although the AT-RT went out of production more than twenty years ago, many are still in use throughout the galaxy. Bothe the Imperial Army and Imperial Navy use them in small numbers for their reconnaissance units, and many planetary militaries and law enforcement agencies use them, especially in the Outer Rim. A few have found their way into civilian hands, mostly older, demilitarized surplus models from the Clone Wars, and they have gained a repuation as reliable, swift, and sure footed vehicles that are easy to drive and maintain.
+</Description>
+  <Source Page="56">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Walker</Type>
+  <Categories />
+  <HP>2</HP>
+  <Price>8000</Price>
+  <Rarity>8</Rarity>
+  <Restricted>true</Restricted>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>7</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>BLASTHVYREP</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

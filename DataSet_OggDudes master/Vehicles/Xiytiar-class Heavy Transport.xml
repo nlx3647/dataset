@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>XIYTIAR</Key>
+  <Name>Xiytiar-class Heavy Transport</Name>
+  <Description>
+    [H3]Xiytiar-class Heavy Transport[h3]
+
+Known primarily as a manufacturer of military starships and fighters, their most famous being the titanic Bulwark I-class heavy warships, TransGalMeg also produces a line of well-made and well-respected unarmed transport vessels. Perhaps the most popular of this small line of transports is the massive, lumbering Xiytiar-class heavy transport. Relatively new and uncommon, the Xiytiar-class ships are sturdy, cavernous cargo haulers equipped with the very latest in navigation, hyperdrive, and load-management systems. 
+
+[P]Roughly the same size as Mobquet's Mb-C1 class of heavy transports, these haulers are among the quickest ships of their type both in realspace and hyperspace. Due to their size, high crew requirements, and the cost of maintaining these mammoth vessels, the Xiytiar-class ships are not particularly well suited for small private commercial concerns or smuggling operations. They are, however, gaining acceptance among larger, more established transport and trade companies that can absorb their operating costs and use their speed and hauling capacity to their fullest extent. 
+
+[P]The ship itself is shaped rather like a piece of sporting equipment, with a large, bulbous forward section connected to the aft engine and engineering section by a thin, cylindrical midships section. The forward section houses the command deck, the crew quarters, a 
+few passenger berths, and the cargo holds. The holds are efficiently and intelligently laid out and are managed by a sophisticated lading system that tracks and inventories cargoes. 
+
+[P]The midships section is largely machine spaces, sensor arrays, kilometers of cable, and a cramped walkway connecting the forward and aft sections. The engine and engineering section contains the majority of the power-generation and drive systems, along with the main computer bus and the shield generators. While these ships are highly mission focused with not much room for aftermarket modifications, particularly ingenious operators can squeeze a few weapons into the hull for defensive purposes or lay a little more armor over the midships section should they feel the need.</Description>
+  <Source>Enter the Unknown</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Transport</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>200000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>16</HyperdriveBackup>
+  <StarFighters>None</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one copilot, one engineer, one loadmaster, six technicians</Crew>
+  <EncumbranceCapacity>2000</EncumbranceCapacity>
+  <Passengers>12</Passengers>
+  <Consumables>Six months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-3</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>35</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

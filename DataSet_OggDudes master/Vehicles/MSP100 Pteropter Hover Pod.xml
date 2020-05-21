@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MSP100</Key>
+  <Name>MSP100 Pteropter Hover Pod</Name>
+  <Description>[H3]MSP100 Pteropter Hover Pod[h3]
+
+Based off the design originally used by Trandoshans in their hunts on their hunts on their homeworld and surrounding colonies, the Pteropter is perfectly suited for short exploratory expeditions. With open-air cockpits, camouflage pain jobs, and mounted floodlights, the Rebel Alliance has acquired a number of these antiquated models over the years for scouting temperate yet treacherous planets.</Description>
+  <Source>Onslaught at Arda I</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>30000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>2 kilometers</MaxAltitude>
+  <Crew>One pilot, two gunners</Crew>
+  <EncumbranceCapacity>8</EncumbranceCapacity>
+  <Passengers>3</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Key>ROTREPBLASTCAN</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASCAN</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

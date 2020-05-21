@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LUXURIOUS</Key>
+  <Name>Luxurious-class Yacht</Name>
+  <Description>[H3]Luxurious-class Yacht[h3]
+
+Relatively unknown and vastly under-appreciated, the Luxurious-class was Ghtroc Industries' only entry into the luxury yacht market. Smaller and faster than SoroSuub's more popular Luxury 3000, the Luxurious-class ships were marketed toward aficionados of exclusivity and high performance. They possessed the singular, quirky charm common to Ghtroc products, and were, in their time, among the fastest and most finely appointed yachts in the galaxy. Each yacht was hand built from the keel up to the specifications of each owner. Ghtroc offered a dizzying array of options, allowing a buyer to hand pick everything from the ship's power systems to the fixtures in the captain's head. Luxurious-class yachts were especially popular among media moguls, professional ship racers, and sports stars. Even Raith Sienar himself owned one of these ships, a vessel rumored to be quicker than a TIE fighter and nearly indestructible. 
+[P]Like other custom built starships, no two Luxurious-class are alike. That said, they do share a number of superficial similarities. Their hulls are relatively short and broad in the beam, and from above they resemble an oversized Y-wing starfighter. The forward half of the central hull is dominated by a half-domed, four decked, transparisteel fronted section that contains the command deck and bridge, staterooms, common area, and observation deck. Engineering and crew accommodations are located abaft the passenger decks in a spartan, utilitarian section, and the ship's powerful engines are housed in sleek port and starboard sponsons. While each ship has some of the best systems and accommodations to be found in a civilian vessel, they possess no combat capabilities and are relatively thin skinned.</Description>
+  <Source>Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Yacht</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>210000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/engineer, one steward</Crew>
+  <EncumbranceCapacity>80</EncumbranceCapacity>
+  <Passengers>12</Passengers>
+  <Consumables>Six months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>1</Armor>
+  <HullTrauma>25</HullTrauma>
+  <SystemStrain>22</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

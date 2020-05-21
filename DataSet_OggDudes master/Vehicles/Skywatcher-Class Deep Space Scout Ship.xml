@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SKYSCOUT</Key>
+  <Name>Skywatcher-Class Deep Space Scout Ship</Name>
+  <Description>
+    [H3]Skywatcher-Class Deep Space Scout Ship[h3]
+
+The Deep Dark is a Sienar Fleet Systems Skywatcher-class deep space scout ship. It is designed for fast deployment to poorly scouted sections of Known Space, Wild Space, and the Unknown Regions. It is the size of a light freighter and carries a crew of three to twelve, depending on the mission. The ship carries a complement of six probe droids of various types. Two of the droids can be deployed in space with a hyperspace pod for a pre-programmed return trip. The pods can also be used for transporting messages, as the ship does not carry a HoloNet transceiver. Ten scout troopers are on board, along with their speeder bikes. The Deep Dark is shielded but lightly armed. It is more likely to run than fight when outnumbered or outgunned. 
+
+[P]The Skywatcher class is fast and extraordinarily reliable. It has an austere interior that drives users to provide decoration of their own, or at least seek out better accommodations when returning from long trips. Despite the decor, the ship has proven to be a favorite among deep space scouts, at least for relatively short excursions.</Description>
+  <Source>Beyond the Rim</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Scout Ship</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>120000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>10</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>Three to twelve crew</Crew>
+  <EncumbranceCapacity>50</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>4</Armor>
+  <HullTrauma>25</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

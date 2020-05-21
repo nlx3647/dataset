@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ARQUITENSCRUISER</Key>
+  <Name>Arquitens-class Light Cruiser</Name>
+  <Description>[H3][I]Arquitens[i]-class Light Cruiser[h3]
+Known colloquially as the Imperial light cruiser, the [I]Arquitens[i]-class is the Imperial Navy’s premier light multipurpose cruiser. Descended from the Republic Navy’s [I]Arquitens[i] class, which served so well during the Clone Wars, this new ship shares little aside from a class name and basic hull shape with its predecessors. Years ago, as part of a service-life extension program, the newly created Imperial Navy recalled all of the old [I]Arquitens[i]-class ships still on duty to the dry docks at Kuat Drive Yards. These, the ships were given an extensive overhaul, increasing their speed, agility, combat ability, power output, and other systems to bring them more in line with the Imperial Navy’s order of battle. When the new [I]Arquitens[i]-class ships were brought into the Navy officially, they were faster, tougher, and sleeker; hit harder; and could withstand more punishments. Most of this first generation of [I]Arquitens[i]-class ships was scrapped some time ago, victims of attrition, age, and the march of technology. The ships currently in service with the Imperial Navy are all newly built vessels with cutting-edge systems; they are considered a variant of the old [I]Arquitens[i] starship.
+[P]In the Imperial Navy’s order of battle, [I]Arquitens[i] vessels fill a number of roles. Typically, they are stationed at out-of-the-way Imperial worlds to keep the peace and protect Imperial assets. They are also often sent of detached service throughout the Outer Rim, given to trustworthy captains to cruise Imperial space for pirates, resistance vessels, and other dangerous malcontents. These fast and useful cruisers are also found as support ships in larger battlegroups headed by Star Destroyers, battle cruisers, or dreadnoughts. A handful of these useful vessels have even been fitted for electronic warfare, reconnaissance, and armed transport.
+[P][I]Arquitens[i]-class cruisers have a broad, flat, kite-shaped hull with three powerful main engine mounted aft in a horizontal housing. They have a ship docking ring at the port and starboard points of the hull, and a squat, rectangular bridge tower mounted just forward of the engines. The forward third of the ship’s hull is split into two spars, between which lies the small craft launch and recovery systems that house the vessel’s small supply of fighters and shuttles. Two large turbolaser batteries dominate the dorsal side of the hull, and they are matched by another pair on the ventral side. These batteries give the [I]Arquitens[i]-class excellent offensive and defensive capabilities.</Description>
+  <Source Page="128">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Light Cruiser</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+    <Category>Capital Ship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>5000000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <StarFighters>Three TIE-series fighters, two TIE-series bombers, or one [I]Sentinel[i]-class landing craft. Assorted landspeeders, small shuttles, and ship's boats.</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>750 officers, enlisted crew, and pilots.</Crew>
+  <EncumbranceCapacity>1200</EncumbranceCapacity>
+  <Passengers>100</Passengers>
+  <Consumables>Three months.</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>60</HullTrauma>
+  <SystemStrain>45</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>LASERQUAD</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>LASERQUAD</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>CML</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

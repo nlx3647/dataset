@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DREADCRUISER</Key>
+  <Name>Dreadnought-Class Heavy Cruiser</Name>
+  <Description>
+    [H3]Dreadnought-Class Heavy Cruiser[h3]
+
+Considered old and outdated at the outbreak of the Clone Wars, Rendili StarDrive's Dreadnought-class heavy cruiser is still considered one of the more capable vessels of its class and size in use today. Designed with heavy space combat and planetary occupation in mind, these powerful ships serve both the Imperial and Rebel Alliance Navies as workhorse cruisers. They fill a number of roles and are typically employed in missions that larger vessels cannot or will not undertake. They mount a strong mix of weapon systems and can carry a single squadron of starfighters in a dedicated hangar, a feature that is extremely attractive to the Rebel Alliance, whose commanders rely so much on fighter tactics. Although once quite common, Dreadnoughts are becoming increasingly rare as they succumb to fatigue, accident, combat, and parts scarcity. With their large crew requirement and antiquated systems, Dreadnoughts are often simply left to deteriorate in shipyards or in orbit above planets when they break down, as the Empire considers them not worth the price of repair. This doesn't stop the Alliance from salvaging and refitting them, however, and many a former Imperial Dreadnought has found a new and loving home in the Alliance fleet. </Description>
+  <Source>Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Heavy Cruiser</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+    <Category>Capital Ship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>7200000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>4</HyperdrivePrimary>
+  <HyperdriveBackup>18</HyperdriveBackup>
+  <StarFighters>Twelve starfighters</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>9000 to 16000 officers, pilots, and enlisted</Crew>
+  <EncumbranceCapacity>7500</EncumbranceCapacity>
+  <Passengers>3000</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>7</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>7</Armor>
+  <HullTrauma>100</HullTrauma>
+  <SystemStrain>40</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>1</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOMED</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOMED</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>LASERHVY</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>LASERHVY</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

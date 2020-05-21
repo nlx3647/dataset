@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HAET221</Key>
+  <Name>HAET-221 Transport</Name>
+  <Description>[H3]HAET-221 Transport[h3]
+The High-Altitude Entry Transport-221 is a military
+dropship that dates back to the Clone Wars. These
+highly aerodynamic craft sport a smooth, bubbled
+nose and a long, thin tail, which allow them to maintain stability even at incredible velocity. From ground
+level, the HAET-221 has a relatively weak repulsorlift
+flight system that cannot achieve more than a few hundred meters of altitude, but the craft’s main purpose
+is to be launched from cruisers in orbit. From there,
+the HAET-221 descends upon unknown territory at a
+terrifying clip. Enemies often don't see the craft until
+it is almost upon them, but the HAET-221 's superb
+sensor array gives it plenty of forewarning of upcoming obstacles, its main laser cannon ready to pick off
+other vehicles as soon as they come into range.
+[P]As it arrives in the target area, the High-Altitude
+Entry Transport can deploy its crew of five through
+the top-rear hatch, then circle around the battlefield
+providing reconnaissance and medium-range support. The craft is surprisingly durable, although its
+utilitarian construction precludes the use of deflector
+shields. The HAET-221 has grown uncommon following the Republic’s transform ation into the Galactic
+Empire. Stormtroopers tend to treat the HAET-221
+with suspicion, having swapped many tales of dropships that were abandoned to the atmosphere after
+the interstellar cruiser that deposited them fled a battle turning sour. In truth, the disuse of the HAET-221
+has more to do with the Empire's position, where it
+wages more defensive battles over territory already in
+its control. Still, the Alliance to Restore the Republic
+has found more than a few fully functional craft abandoned on the surfaces of various planets, corroborating the stories of the stranded soldiers.</Description>
+  <Source Page="63">Forged in Battle</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Recon Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>50000</Price>
+  <Rarity>4</Rarity>
+  <MaxAltitude>100 kilometers</MaxAltitude>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, one gunner</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>5</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Armor>2</Armor>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Key>BLASTCANLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

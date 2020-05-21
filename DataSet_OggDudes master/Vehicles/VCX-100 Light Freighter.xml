@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>VCX100FR</Key>
+  <Name>VCX-100 Light Freighter</Name>
+  <Description>[H3]VCX-100 Light Freighter[h3]
+[P]Corellian Engineering Corporation boasts a wide array of freighters that have proven tremendously popular, and the VCX-100 is yet another solid entry into the line. Even more so than teh majority of Corellian freighters, the ship is easily and extensively modifiable, and can easily be configured to any individual crew's needs, whtehr it be combat, mass transport or even sneaking past Imperial sensors. It is quite rare to see a stock VCX-100, and certain crews are identified merely by the changes made to the base model - frequently the addition of more firepower. While the ship is not as common as some of the more widespread freighter models, such as the YT-1300, many spaceports often have at least one VCX-100 among their more regular visitors.</Description>
+  <Source>Keeping the Peace</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories />
+  <HP>5</HP>
+  <Price>155000</Price>
+  <Rarity>8</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>14</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot/engineer, two gunners, two crew</Crew>
+  <EncumbranceCapacity>200</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-3</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>32</HullTrauma>
+  <SystemStrain>28</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATCE</Key>
+  <Name>AT-CE Combat Excavator</Name>
+  <Description>[H3]AT-CE Combat Excavator[h3]
+The AT-CE combat excavator is another in Rothana Heavy Engineering's versatile walker series. Like its cousin the AT-EST exploration walker, the AT-CE is a low-slung, six-legged walker. Designed for use in construction and excavation, the AT-CE is a sturdy machine that performs exceedingly well in the rough-and- tumble conditions of a construction site. Its legs are heavily articulated and equipped with broad, four-toed feet for maximum stability. A forward, open-air tandem cockpit holds a pilot and a systems operator.
+[P]While the AT-CE is not designed to fight, as a combat engineering vehicle it has a number of defense systems. The sturdy frame is covered in remarkably heavy armor-ostensibly for deflecting falling debris, collisions. and explosions-that can easily turn a blaster bolt. It has only a single actual weapon system, a pintle-mounted heavy repeating blaster that can be fired by the systems operator to defend the walker from infantry and light vehicles.
+[P]The AT-CE has a wide variety of equipment. A pair of low-output light tractor beam emitters allows the crew to pick up and move equipment or lift items or building material into the air. A long, multi-jointed, hydraulic arm mounted to the back is equipped with a deep excavating bucket for digging holes and trenches. An articulated blade mounted to the front of the walker allows it to push soil and debris around, smooth out surfaces, and breach obstacles. The AT-CE also has a powerful beamdrill on a long, turret-mounted hydraulic arm in the center of its back that can drill through even the sturdiest, densest materials. In a pinch, a competent crew can use these tools as weapons to inflict shocking damage on troops, vehicles, and materiel.</Description>
+  <Source Page="56">Fully Operational</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>95000</Price>
+  <Rarity>6</Rarity>
+  <WeaponModifiers>
+    <WeaponModifier>
+      <UnarmedName>Articulated Excavator Arm</UnarmedName>
+      <SkillKey>MECH</SkillKey>
+      <Damage>8</Damage>
+      <Crit>5</Crit>
+      <Qualities>
+        <Quality>
+          <Key>BREACH</Key>
+          <Count>2</Count>
+        </Quality>
+        <Quality>
+          <Key>INACCURATE</Key>
+          <Count>3</Count>
+        </Quality>
+        <Quality>
+          <Key>KNOCKDOWN</Key>
+        </Quality>
+        <Quality>
+          <Key>SLOWFIRING</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <VehicleWeaponProperties>
+        <Location>Aft</Location>
+        <FiringArcs>
+          <Fore>true</Fore>
+          <Aft>true</Aft>
+          <Port>true</Port>
+          <Starboard>true</Starboard>
+        </FiringArcs>
+      </VehicleWeaponProperties>
+      <VehicleWeaponCount>1</VehicleWeaponCount>
+      <RangeValue>wrShort</RangeValue>
+      <Range>Short</Range>
+    </WeaponModifier>
+  </WeaponModifiers>
+  <Crew>One pilot, one systems operator</Crew>
+  <EncumbranceCapacity>15</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <DefFore>1</DefFore>
+  <Armor>3</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Key>BLASTHVYREP</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Hull</Location>
+      <Key>TRACTLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

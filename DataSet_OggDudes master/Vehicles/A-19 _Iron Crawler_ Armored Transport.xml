@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>APCA19</Key>
+  <Name>A-19 "Iron Crawler" Armored Transport</Name>
+  <Description>
+    [H3]A-19 "Iron Crawler" Armored Transport[h3]
+
+Following the loss of several mining facilities and digger crawlers in the Outer Rim Territories, the need to provide adequate defense for its valuable assets on uncivilized, frontier worlds of the galaxy led the Corellia Mining Corporation to manufacture a new armored transport with enough firepower to deter marauders and large, aggressive predators. Since repulsorcraft were unsuited for certain environments and walkers proved too expensive to deploy and maintain, the A-19 "Iron Crawler" was developed to fill this role. 
+
+[P]A rugged, heavily armed and armored tracked vehicle, the A-19 is powered by a scaled-down version of the nuclear fission reactor found in the digger crawler. Dependable and easily maintained and repaired, the Iron Crawler can operate for extended periods in the harshest climes. Armed with a heavy blaster cannon, auto-blaster, and concussion grenade launcher, the A-19 can deal with virtually any ground-based threat it is likely to encounter on the fringe.</Description>
+  <Source>Suns of Fortune</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Armored Personnel Carrier</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Tracked Vehicle</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>12500</Price>
+  <Rarity>6</Rarity>
+  <Crew>One pilot, one co-pilot/engineer, two gunners</Crew>
+  <Passengers>8</Passengers>
+  <Silhouette>5</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <Armor>4</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>BLASTCANHVY</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Top</Location>
+      <Key>CONGRENLAUNCH</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

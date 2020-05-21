@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>RHO1LUMULUS</Key>
+  <Name>Rho-1 Limulus-Class Courier</Name>
+  <Description>[H3]Kuat Systems Engineering Rho-1 [I]Limulus[i]-Class Courier[h3]
+Kuat Systems Engineering's [I]Limulus[i]-class was a common courier ship used by the Jedi during the final years of the Old Republic. Related to KSE's [I]Delta[i]- and [I]Eta[i]-class starfighters, and sharing many systems with those thips, the [I]Limulus[i]-class is a small, fast, one-position craft designed to move a pilot, and a small cargo through space in safety and comfort. Jedi ambassadors and couriers commonly used them to move between assignments. Sentinels have also made use of them in tracking down lawbreakers and patrolling the outer edges of the galaxy.
+[P]These small vessels cut a striking figure in the spacelanes. They have a broad, half moon-shaped hull reminiscent of a sea creature. They carry little in the way of armor and shields, and mount only a pair of light laser cannons for defense. The cockpit is straight from a [I]Delta[i]-class fighter and sits forward on top of the hull, giving the pilot an excellent view. The flat side of the hull faces aft and is dominated by a pair of powerful KSE L1011.a fusial thrust ion engines that provide immense amounts of thrust, moving the little ship through space at a respectable pace. A long, tapering spar extends aft between the engines, providing stabilization in atmosphere and carrying a sensor suite.
+[P]While these ships were once common, espectially in the Core region, [I]Limulus[i]-class couriers are a rare sight in today's spacelanes. Those few that have survived the decades since the collapse of the Republic and the purge of the Jedi are held together with scavenged parts and wishes, but they still soldier on.</Description>
+  <Source Page="62">Endless Vigil</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Courier</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>55000</Price>
+  <Rarity>8</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>10</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>6</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>1</Armor>
+  <HullTrauma>15</HullTrauma>
+  <SystemStrain>14</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

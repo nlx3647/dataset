@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>1000XTC</Key>
+  <Name>Hyperfoil 1000-XTC (Airspeeder)</Name>
+  <Description>[H3]Hyperfoil 1000-XTC (Airspeeder)[h3]
+
+The Hyperfoil 1000 is unusual among airspeeders for its dual-drive system. It makes use of both simple hovercraft technologies and more advanced repulsorlift drives, for a combined effect greater than the sum of its parts. The vehicle is capable of direct vertical liftoff and landing with barely any audible output from its engines, and it operates at a flight ceiling far beyond common civilian craft. Despite the complexity of its engines, the dual-drive system is surprisingly easy to maintain, but it does take up the bulk of the vehicle's seven-meter frame. 
+
+[P]The Rebellion favors the Hyperfoil 1000 for its ability to quietly and rapidly deploy personnel across the surface of a planet. Lacking armor and weaponry, it is ill suited for combat missions, but it is the perfect choice for clandestine meetings or undetected remote pickups.</Description>
+  <Source>Desperate Allies</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>12500</Price>
+  <Rarity>4</Rarity>
+  <MaxAltitude>50 kilometers</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>15</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <HullTrauma>9</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

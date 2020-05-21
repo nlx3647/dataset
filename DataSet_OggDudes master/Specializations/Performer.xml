@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>PERFORMER</Key>
+  <Name>Performer</Name>
+  <Description>[H4]Performer - The Burden of Art[h4]
+
+[P]The Performer must always be the center of attention, and if all eyes aren't on the Performer, he has ways to make them shift their focus. For them, all the world is a stage, and the Performer is always putting on a show. They can lie with more sincerity than even the Politico, and do so as easily as if they were running lines for a one-man showing of the Kallea Cycle. They can be as charming as a diplomat, and leave their targets enchanted and completely manipulatable. And far too many people underestimate the strength many Performers must possess for acrobatics, athletics, and even live theater. 
+
+[P]Performers receive [B]Charm, Coordination, Deception,[b] and [B]Melee[b] as additional career skills. If this'Is the character's starting specialization, he gains one free rank in each of two of these skills of his choice, without spending experience. The Performer often leans on pouts, winks, warm smiles, and well timed physical contact mixed with outright lies to get whatever he wants from whomever he wants. He draws on the best lines from the greatest works of literature, theater, and holo from millennia past, and always has a unique, flattering compliment for any being from whom he might want something. 
+
+[P]Other Performers may rely on different tactics in their interactions. A cutting comedian or brilliant actor can hurl a litany of insults that cut to the core of most beings, making them question their worth and their right to deny the Performer what he wants. Unfortunately, these almost psychotic breaks are just as likely to be directed against their closest allies and assistants as enemies. The Performer knows how to use this to his advantage, though, and can create a scene to distract a bouncer while his friends sneak into a club that would otherwise never have granted them access. 
+
+[P]However, there is often more to a Performer than just words. Performers may include dancers, acrobats, jugglers, and other individuals who must possess impressive coordination and be at peak physical condition. Their acrobatic abilities can give some Performers an unexpected edge in a fight. In addition, many have been trained in martial arts and the use of stage weaponry for roles in theater or holovids. The agility and overall fitness required to perform on stage means they are often in great shape, and as such, it is not uncommon for the Performer to be the last one standing when the dust settles. 
+
+[P]Whether the character is a galaxy-famous magician or merely the member of a traveling troupe of acrobats, the players can build their entire party around a Performer. Performers need an agent, bodyguards, assistants, technicians for their performance, a pilot, perhaps a personal physician, and certain friends or family for their entourage. Performers are able to take the lead in social situations and provide support during combat, but can also take a back seat to a diplomatic leader able to wrangle him. The only downside to including a Performer in the party is that whatever his specialty, he makes his living through some sort of acting. Once can never be sure what a Performer thinks about everyone else.</Description>
+  <Source Page="30">Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>CHARM</Key>
+    <Key>COORD</Key>
+    <Key>DECEP</Key>
+    <Key>MELEE</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>SMOOTHTALK</Key>
+        <Key>KILL</Key>
+        <Key>DISBEH</Key>
+        <Key>CONV</Key>
+      </Talents>
+      <Directions>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>DISBEH</Key>
+        <Key>CONGENIAL</Key>
+        <Key>DODGE</Key>
+        <Key>JUMP</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>DISBEH</Key>
+        <Key>INTENSPRE</Key>
+        <Key>NATATHL</Key>
+        <Key>SECWIND</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>SMOOTHTALK</Key>
+        <Key>DISBEHIMP</Key>
+        <Key>GRIT</Key>
+        <Key>TOUGH</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>BIGGESTFAN</Key>
+        <Key>DECEPTAUNT</Key>
+        <Key>COORDODGE</Key>
+        <Key>DEDI</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

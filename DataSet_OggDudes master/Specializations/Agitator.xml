@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AGITATOR</Key>
+  <Name>Agitator</Name>
+  <Description>
+    [H4]Agitator - Rousing the Masses[h4]
+
+The Empire's main weapon, more effective than all of the incredible firepower at its disposal, is fear. Fear lets it maintain order and authority over the countless beings in its thrall. The Agitator's primary goal is to remove that fear and replace it with anger, or courage, or a sense of righteousness—whatever it takes to get the people to rise up, take up arms, reject Palpatine's tyranny, and restore freedom and justice to the galaxy. 
+
+[P]For Agitators, [B]Coercion, Deception, Knowledge (Underworld),[b] and [B]Streetwise[b] are all added as career skills. So long as this is the first specialization for the PC, he gains a free rank in two of these four skills. Agitators often bully the bullies to move them out of the way, and when they are able to get the people to follow them, they know how to lead. Understanding the ways of the streets is also vital to survival and success. 
+
+[P]Most Agitators come by the calling through hardship and suffering. Their own personal tragedies at the hands of their oppressors drive them to call upon others to resist injustice and authoritarianism. Some are more altruistic in nature, sufficiently moved,by the suffering of others to take action and rouse the people to a cause in which they can believe. Only those with charisma and will in sufficient quantities can truly succeed in this dangerous and demanding course. 
+
+[P]Many in the Alliance's upper levels consider Agitators a necessary evil; they are not keen to move populations of untrained civilians to go to war against the Empire's stormtroopers and other resources, yet they accept that, ultimately, it will take the entire galaxy doing just that if victory is to be achieved. When possible, Agitators are supported by other Alliance operatives, and a plan to arm and support the populace is usually in place before the Agitator goes to work.</Description>
+  <Source Page="80">Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>COERC</Key>
+    <Key>DECEP</Key>
+    <Key>UND</Key>
+    <Key>SW</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>PLAUSDEN</Key>
+        <Key>NOBFOOL</Key>
+        <Key>GRIT</Key>
+        <Key>INTIM</Key>
+      </Talents>
+      <Directions>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>1</Index>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>STRSMART</Key>
+        <Key>STRSMART</Key>
+        <Key>CONV</Key>
+        <Key>INTIM</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>2</Index>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>CONV</Key>
+        <Key>PLAUSDEN</Key>
+        <Key>SCATH</Key>
+        <Key>GRIT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>3</Index>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>NATENF</Key>
+        <Key>NOBFOOL</Key>
+        <Key>SCATHIMP</Key>
+        <Key>INTIM</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Index>4</Index>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>INTIM</Key>
+        <Key>DEDI</Key>
+        <Key>SCATHSUP</Key>
+        <Key>INCITE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATTE</Key>
+  <Name>All Terrain Tactical Enforcer</Name>
+  <Description>[H3]All Terrain Tactical Enforcer[h3]
+Before the All Terrain Armored Transport became a symbol for the Empire’s dominance, its stouter predecessor, the All Terrain Tactical Enforcer, menaced battlefields throughout the galaxy. This six-legged walker’s profile is dominated by a mass-driver cannon, mounted top and forward, and projecting from a swiveling arm or pod where the gunner sits. This fearsome weapon of war fires slowly but devastatingly,
+launching fist-sized projectiles that plow through light
+shields and arm or as easily as open air. Supplementing this main weapon are a half-dozen blaster cannons for anti-personnel purposes, ball-mounted on
+the front and rear of the walker. The one weakness
+of the AT-TE is its lightly armored underbelly, where a
+direct hit can have devastating consequences on the
+legs’ drive system.
+[P]The AT-TE was first used in the Clone Wars as an assault and support vehicle that carried a platoon of clone troopers into battle and provided covering fire,
+especially against large targets. Over time, the AT-TE
+proved itself a versatile weapon in any arsenal. Its magnetic feet and pressurized interior mean that AT-TEs  can be deployed even in the vacuum of space clinging to asteroids or sheer surfaces to mete out punishment from various vantage points.
+[P]In the years following the Clone
+Wars, the Empire has gradually replaced
+the AT-TE with the larger, more durable AT-AT,
+banishing its remaining AT-TE walkers to backwater worlds and logistical roles away from front-line
+combat. Their wide range of possible uses, and
+the massive numbers that were manufactured
+for the Clone Wars, make the AT-TE an appealing
+choice for cash-strapped forces.
+[P]As such, a few AT-TEs are still in
+service in various roles. Some have
+been refitted entirely for civilian use,
+while others are kept in com bat condition
+by mercenary forces and others who
+managed to acquire them—legally or
+otherwise—in the twilight of the
+Clone Wars.
+[BR][H4]Additional Rules[h4]
+[B]Dynamic Actuator Pistons:[b] Unlike an AT-At, an AT-TE's wide stance and low center of mass allow it to operate with one or more legs damaged, as this is a real risk of most combat drops. As a result, AT-TE pilots have been known to intentionally collide with enemy craft, counting on their machine's powerful actuator pistons and thick hull plating to ccompensate for even the most devastating impacts. Reduce any Critical Hit an AT-TE would suffer due to collisions by 30 to a minimum of 1.</Description>
+  <Source Page="57">Forged in Battle</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Heavy Assault Walker</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>100000</Price>
+  <Rarity>4</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B][U]Dynamic Actuator Pistons[u][b]: Reduce any Critical Hits an AT-TE would suffer due to collisions by 30, to a minimum of 1.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot/spotter, one vehicle commander, up to 5 gunners</Crew>
+  <EncumbranceCapacity>40</EncumbranceCapacity>
+  <Passengers>20</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-2</Handling>
+  <Armor>4</Armor>
+  <HullTrauma>40</HullTrauma>
+  <SystemStrain>35</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>MASSDRIVERCANNON</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Key>BLASTCANLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

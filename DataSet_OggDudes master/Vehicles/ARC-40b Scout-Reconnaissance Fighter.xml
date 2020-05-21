@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ARC40B</Key>
+  <Name>ARC-40b Scout-Reconnaissance Fighter</Name>
+  <Description>[H3]ARC-40b Scout-Reconnaissance Fighter[h3]
+Kuat Drive Yards' ARC-40b is one of the unsung heroes of the Clone Wars. Built by KDY to be an escort fighter for the venerable ARC-170, the ARC-40b is a lightweight starfighter absolutely packed with weapon systems and sophisticated avionics. Fast and nimble, the 40b is a three-position multi-role fighter with an astromech socket. Armed to the teeth with laser cannons and ordnance launchers, this medium fighter was designed to fight its way into enemy territory, collect data, amd then fight its way back to base. While most of these old fighters were destroyed during the Clone Wars or were broken up for scrap by the Imperial Navy, some still remain in use in the Outer Rim, where their speed, stamina and respectable loadout make them highly attractive to mercenary survey outfits.</Description>
+  <Source Page="57">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>85000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>8</HyperdriveBackup>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, one co-pilot/sensor operator, one gunner</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Consumables>Two months</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>14</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Aft</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

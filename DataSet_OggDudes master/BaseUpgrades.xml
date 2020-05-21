@@ -1,0 +1,1753 @@
+<?xml version="1.0"?>
+<BaseUpgrades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BaseUpgrade>
+    <Key>HOMECORE</Key>
+    <Name>Increase Core Focus</Name>
+    <Description>
+      [H4]Increase Core Focus[h4]
+
+[B]Upgrade Description:[b] The size and scope of the homestead grows, increasing the scale of operations and the profits for those invested in it. If the homestead is a ranch or farm, the land area may increase, mines may dig additional tunnels, and a space station may expand in size. Alternatively, the homestead may hire more employees or invest in better technology and infrastructure. Once a month, each PC in the party receives 100 credits in profits from the homestead. 
+
+[P]This upgrade may be taken up to four additional times, each time increasing the profits received by 100 credits.
+
+[P][B]Upgrade Cost:[b] 2500 credits or +2 Obligation</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>5</PurchaseCount>
+    <MonthlyProfit>100</MonthlyProfit>
+    <ProfitPerPC>true</ProfitPerPC>
+    <Cost>
+      <Credits>2500</Credits>
+      <Obligation>2</Obligation>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>HOMESEC</Key>
+    <Name>Improve Security</Name>
+    <Description>
+      [H4]Improve Security[h4]
+
+[B]Upgrade Description:[b] The homestead's security improves, better protecting the people within. When this upgrade is purchased, select one of the following: 
+
+[P]• All buildings (or doors within the space station) gain electronic locks that can only be broken with a [B]Hard ([DI][DI][DI]) Computers check[b]. 
+
+[P]• The homestead gains a security droid (See [B]Edge of the Empire[b] Core Rulebook page 412). 
+
+[P]• The homestead gains reinforced fences around the main buildings, or if it is a space station, it gains shields granting it defense 1. 
+
+[P]• The homestead gains security cameras that can be accessed from a central control room. 
+
+[P]This upgrade may be purchased two additional times, each time selecting a different option.
+
+[P][B]Upgrade Cost:[b] 10,000 credits or +2 Obligation</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>10000</Credits>
+      <Obligation>2</Obligation>
+    </Cost>
+    <Options>
+      <Option>
+        <Key>HOMESEC1</Key>
+        <Name>Electronic Locks</Name>
+        <Description>
+          All buildings (or doors within the space station) gain electronic locks that can only
+          be broken with a [B]Hard ([DI][DI][DI]) Computers check[b].
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>HOMESEC2</Key>
+        <Name>Security Droid</Name>
+        <Description>
+          The homestead gains a security droid.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <LastChanged>0001-01-01T00:00:00</LastChanged>
+            <NotPersisted>false</NotPersisted>
+            <FileName>Adver0.xml</FileName>
+            <Name>Security Droid</Name>
+            <Key>84a95648-9fb5-4306-b124-d98259709240</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Skills>
+              <CharSkill>
+                <Key>RANGLT</Key>
+                <Rank>
+                  <PurchasedRanks>3</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>VIGIL</Key>
+                <Rank>
+                  <PurchasedRanks>3</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience>
+              <ExperienceRanks />
+              <UsedExperience>0</UsedExperience>
+            </Experience>
+            <Attributes>
+              <SoakValue>
+                <CharRanks>2</CharRanks>
+              </SoakValue>
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+                <CharRanks>2</CharRanks>
+              </WoundThreshold>
+              <StrainThreshold>
+                <CharRanks>1</CharRanks>
+              </StrainThreshold>
+              <DefenseRanged />
+              <DefenseMelee />
+              <ForceRating />
+            </Attributes>
+            <Weapons>
+              <CharWeapon>
+                <ItemKey>BLASTPIS</ItemKey>
+                <Key>fc81838e-a0ee-4584-836b-4bebac9b6809</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+              </CharWeapon>
+            </Weapons>
+            <Abilities>
+              <AdvAbility>
+                <Key>0</Key>
+                <Name>Droid</Name>
+                <Description>Does not need to breathe, eat, or drink and can survive in vacuum or underwater.  Immune to poisons or toxins.</Description>
+              </AdvAbility>
+            </Abilities>
+            <SpecialWeapons>
+              <AdvWeapon>
+                <Key>0</Key>
+                <Name>Snare Launcher</Name>
+                <SkillKey>RANGLT</SkillKey>
+                <Crit>5</Crit>
+                <Descriptors>
+                  <Descriptor>
+                    <Key>ENSNARE</Key>
+                    <Count>5</Count>
+                  </Descriptor>
+                  <Descriptor>
+                    <Key>LIMITEDAMMO</Key>
+                    <Count>1</Count>
+                  </Descriptor>
+                </Descriptors>
+                <Range>Short</Range>
+                <RangeValue>wrShort</RangeValue>
+              </AdvWeapon>
+            </SpecialWeapons>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>HOMESEC3</Key>
+        <Name>Reinforced Fence/Shields</Name>
+        <Description>
+          The homestead gains reinforced fences around the main buildings, or if it is a space
+          station, it gains shields granting it defense 1.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>HOMESEC4</Key>
+        <Name>Security Cameras</Name>
+        <Description>
+          The homestead gains security cameras that can be accessed from a central control room.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>HOMENPC</Key>
+    <Name>NPC Ally</Name>
+    <Description>
+      [H4]NPC Ally[h4]
+
+[B]Upgrade Description:[b] The homestead includes an NPC ally who can help the party with certain tasks. This may be an employee of the party, or a wandering merchant or doctor who decides to settle at the homestead for a time. When this upgrade is selected, choose one of the following: 
+
+[P]• A NPC merchant who can obtain items (some of dubious legal value) for the party. The merchant has a Presence of 3, Cunning of 3, 2 ranks in Negotiation. and 2 ranks in Streetwise. He can obtain and sell any legal or Restricted item with a modified rarity of 5 or lower to the party. 
+
+[P]• An NPC doctor who can heal characters on the homestead and treat ailments. The doctor has an Intellect of 3 and 2 ranks in Medicine. He has medical supplies allowing him to perform Medicine checks without penalty. 
+
+[P]• An NPC mechanic who can repair items. droids, and starships and vehicles. The mechanic has an Intellect of 3, 2 ranks in Mechanics, and 2 ranks in Computers. He has a tool kit allowing him to perform Mechanics checks without penalty. 
+
+[P]• An NPC pilot who can pilot ground or space vehicles for the party. The pilot has an Agility of 3, an Intellect of 2 and 2 ranks in Piloting (Planetary). 2 ranks in Piloting (Space), and 2 ranks in Astrogation. 
+
+[P]If the GM needs a full profile for these NPCs, he should assume they have a 2 in all other characteristics, 1 rank in the party career skill determined by the homestead (unless it would be higher due to their selected profile), and no ranks in any additional skills. 
+
+[P]This upgrade may be taken three additional times, with a different NPC being chosen each time.
+
+[P][B]Upgrade Cost:[b] 2,000 credits or + 1 Obligation 
+</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>4</PurchaseCount>
+    <Cost>
+      <Credits>2000</Credits>
+      <Obligation>1</Obligation>
+    </Cost>
+    <Options>
+      <Option>
+        <Key>HOMENPC1</Key>
+        <Name>Merchant NPC</Name>
+        <Description>
+          The homestead gains an NPC merchant.  He can obtain and sell any legal or Restricted item with a modified
+          rarity of 5 or lower to the party.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <LastChanged>0001-01-01T00:00:00</LastChanged>
+            <NotPersisted>false</NotPersisted>
+            <FileName>Adver0.xml</FileName>
+            <Name>NPC Merchant</Name>
+            <Key>b0e83b0d-fa09-4ad8-8847-3ff204f74df0</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Skills>
+              <CharSkill>
+                <Key>NEG</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>SW</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience>
+              <ExperienceRanks />
+              <UsedExperience>0</UsedExperience>
+            </Experience>
+            <Attributes>
+              <SoakValue />
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold />
+              <DefenseRanged />
+              <DefenseMelee />
+              <ForceRating />
+            </Attributes>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>HOMENPC2</Key>
+        <Name>Doctor NPC</Name>
+        <Description>
+          The homestead gains an NPC doctor.  He has medical supplies allowing
+          him to perform Medicine checks without penalty.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <LastChanged>0001-01-01T00:00:00</LastChanged>
+            <NotPersisted>false</NotPersisted>
+            <FileName>Adver0.xml</FileName>
+            <Name>NPC Doctor</Name>
+            <Key>7f627ac2-b808-4c5b-beb2-423f6c3bbc2d</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Skills>
+              <CharSkill>
+                <Key>MED</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience>
+              <ExperienceRanks />
+              <UsedExperience>0</UsedExperience>
+            </Experience>
+            <Attributes>
+              <SoakValue />
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold />
+              <DefenseRanged />
+              <DefenseMelee />
+              <ForceRating />
+            </Attributes>
+            <Gear>
+              <CharGear>
+                <ItemKey>MEDPAC</ItemKey>
+                <Key>5f814d81-040a-43eb-bb9d-0d90c6202223</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+              </CharGear>
+            </Gear>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>HOMENPC3</Key>
+        <Name>Mechanic NPC</Name>
+        <Description>
+          The homestead gains an NPC mechanic who can repair items, droids, and starships and vehicles.  He has a tool kit allowing
+          him to perform Mechanics checks without penalty.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <LastChanged>0001-01-01T00:00:00</LastChanged>
+            <NotPersisted>false</NotPersisted>
+            <FileName>Adver0.xml</FileName>
+            <Name>NPC Mechanic</Name>
+            <Key>894dc101-2e47-437e-b207-851ebca31d8a</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Skills>
+              <CharSkill>
+                <Key>MECH</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>COMP</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience>
+              <ExperienceRanks />
+              <UsedExperience>0</UsedExperience>
+            </Experience>
+            <Attributes>
+              <SoakValue />
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold />
+              <DefenseRanged />
+              <DefenseMelee />
+              <ForceRating />
+            </Attributes>
+            <Gear>
+              <CharGear>
+                <ItemKey>TOOLKIT</ItemKey>
+                <Key>62bc3164-b21c-488f-bd39-a77722128148</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+              </CharGear>
+            </Gear>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>HOMENPC4</Key>
+        <Name>Pilot NPC</Name>
+        <Description>
+          The homestead gains an NPC pilot who can pilot ground or space vehicles for the party.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <LastChanged>0001-01-01T00:00:00</LastChanged>
+            <NotPersisted>false</NotPersisted>
+            <FileName>Adver0.xml</FileName>
+            <Name>NPC Pilot</Name>
+            <Key>c68faede-d0e1-452f-a288-b756e34b0a8c</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Skills>
+              <CharSkill>
+                <Key>ASTRO</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>PILOTPL</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>PILOTSP</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience>
+              <ExperienceRanks />
+              <UsedExperience>0</UsedExperience>
+            </Experience>
+            <Attributes>
+              <SoakValue />
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold />
+              <DefenseRanged />
+              <DefenseMelee />
+              <ForceRating />
+            </Attributes>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>HOMEINF</Key>
+    <Name>Infirmary</Name>
+    <Description>
+      [H4]Infirmary[h4]
+
+[B]Upgrade Description:[b] The homestead includes an infirmary, stocked to handle any major accidents or outbreaks of disease. 
+
+[P]The infirmary includes beds for several patients, medical supplies (allowing characters to perform Medicine checks without penalty), and a bacta tank with a supply of bacta. 
+
+[P]This upgrade can only be taken once.
+
+[P][B]Upgrade Cost:[b] 5,000 credits or +3 Obligation</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>5000</Credits>
+      <Obligation>3</Obligation>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>HOMEMECHGAR</Key>
+    <Name>Mechanic's Garage</Name>
+    <Description>
+      [H4]Mechanic's Garage[h4]
+
+[B]Upgrade Description:[b] The homestead includes a garage where mechanics can make repairs on vehicles and droids. The garage includes a full set of mechanic's tools (allowing characters to perform Mechanics checks to heal droids or repair starships without penalty), and an oil bath for droids. When used to repair starships or vehicles, the character repairs 2 additional hull trauma or 2 additional system strain on a successful check. 
+
+[P]This upgrade can only be taken once.
+
+[P][B]Upgrade Cost:[b] 5,000 credits or +3 Obligation</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>5000</Credits>
+      <Obligation>3</Obligation>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>HOMELANDBAY</Key>
+    <Name>Landing Bay</Name>
+    <Description>
+      [H4]Landing Bay[h4]
+
+[B]Upgrade Description:[b] The homestead includes a landing bay able to hold starships or vehicles. This may bye an open landing bay, an enclosed hanger, or a pressured docking bay with a mag-con field for a space station. 
+
+[P]The landing bay holds a number of vehicles with a combined silhouette of 15, with no single vehicle larger than silhouette 5. 
+
+[P]This upgrade may be taken up to two additional times. If taken additional times, this can either represent additional landing bays, or increase the combined silhouette limit of the original bay by 15 (although the maximum vehicle size remains at silhouette 5). 
+
+[P][B]Upgrade Cost:[b] 3,000 credits or +1 Obligation </Description>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>3000</Credits>
+      <Obligation>1</Obligation>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>BUSCORE</Key>
+    <Name>Increase Core Focus</Name>
+    <Description>
+      [H4]Increase Core Focus[h4]
+
+[B]Upgrade Description:[b] The size and scope of the business grows, increasing the scale of operations and the profits for those invested in it. The size of the building may increase, the business may hire more employees, or it may make investments in infrastructure and technology. 
+
+[P]Once per month, each PC in the party receives 200 credits in profits from the business. 
+
+[P]This upgrade may be taken up to four additional times, each time increasing the profits received by 200 credits.
+
+[P][B]Upgrade Cost:[b] 2,500 credits or +2 Obligation </Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>5</PurchaseCount>
+    <MonthlyProfit>200</MonthlyProfit>
+    <Cost>
+      <Credits>2500</Credits>
+      <Obligation>2</Obligation>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>BUSSEC</Key>
+    <Name>Improve Security</Name>
+    <Description>
+      [H4]Improve Security[h4]
+
+[B]Upgrade Description:[b] The business's security improves, better protecting the people within. When this upgrade is purchased, select one of the following: 
+
+[P]• The business's doors, windows, and outbuildings gain electronic locks that can only be broken with an [B]Hard ([DI][DI][DI]) Computers check[b]. 
+
+[P]• The business gains a security droid (See [B]Edge of the Empire[b] Core Rulebook page 412). 
+
+[P]• The business's main buildings are constructed of heavily reinforced materials, giving it an armor value of 2 (weapons unable to do more than 2 planetary scale damage cannot damage the buildings). 
+
+[P]• The business gains security cameras that can be accessed from a central control room. 
+
+This upgrade may be purchased three additional times, each time selecting a different option.
+
+[P][B]Upgrade Cost:[b] 10,000 credits or +2 Obligation 
+</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>4</PurchaseCount>
+    <Cost>
+      <Credits>10000</Credits>
+      <Obligation>2</Obligation>
+    </Cost>
+    <Options>
+      <Option>
+        <Key>BUSSEC1</Key>
+        <Name>Electronic Locks</Name>
+        <Description>
+          All buildings gain electronic locks that can only
+          be broken with a [B]Hard ([DI][DI][DI]) Computers check[b].
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>BUSSEC2</Key>
+        <Name>Security Droid</Name>
+        <Description>
+          The business gains a security droid.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <LastChanged>0001-01-01T00:00:00</LastChanged>
+            <NotPersisted>false</NotPersisted>
+            <FileName>Adver0.xml</FileName>
+            <Name>Security Droid</Name>
+            <Key>db56adaf-9a4f-4ac2-8d90-31a99a007dcc</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Skills>
+              <CharSkill>
+                <Key>RANGLT</Key>
+                <Rank>
+                  <PurchasedRanks>3</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>VIGIL</Key>
+                <Rank>
+                  <PurchasedRanks>3</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience>
+              <ExperienceRanks />
+              <UsedExperience>0</UsedExperience>
+            </Experience>
+            <Attributes>
+              <SoakValue>
+                <CharRanks>2</CharRanks>
+              </SoakValue>
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+                <CharRanks>2</CharRanks>
+              </WoundThreshold>
+              <StrainThreshold>
+                <CharRanks>1</CharRanks>
+              </StrainThreshold>
+              <DefenseRanged />
+              <DefenseMelee />
+              <ForceRating />
+            </Attributes>
+            <Weapons>
+              <CharWeapon>
+                <ItemKey>BLASTPIS</ItemKey>
+                <Key>ad25a28b-b8ef-4d06-ae11-ab7eb9ac4f4c</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+              </CharWeapon>
+            </Weapons>
+            <Abilities>
+              <AdvAbility>
+                <Key>0</Key>
+                <Name>Droid</Name>
+                <Description>Does not need to breathe, eat, or drink and can survive in vacuum or underwater.  Immune to poisons or toxins.</Description>
+              </AdvAbility>
+            </Abilities>
+            <SpecialWeapons>
+              <AdvWeapon>
+                <Key>0</Key>
+                <Name>Snare Launcher</Name>
+                <SkillKey>RANGLT</SkillKey>
+                <Crit>5</Crit>
+                <Descriptors>
+                  <Descriptor>
+                    <Key>ENSNARE</Key>
+                    <Count>5</Count>
+                  </Descriptor>
+                  <Descriptor>
+                    <Key>LIMITEDAMMO</Key>
+                    <Count>1</Count>
+                  </Descriptor>
+                </Descriptors>
+                <Range>Short</Range>
+                <RangeValue>wrShort</RangeValue>
+              </AdvWeapon>
+            </SpecialWeapons>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>BUSSEC3</Key>
+        <Name>Reinforced Material</Name>
+        <Description>
+          The business's main buildings are constructed of heavily reinforced material, giving it an armor value of 2.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>BUSSEC4</Key>
+        <Name>Security Cameras</Name>
+        <Description>
+          The business gains security cameras that can be accessed from a central control room.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>BUSORDERS</Key>
+    <Name>Special Orders</Name>
+    <Description>
+      [H4]Special Orders[h4]
+
+[B]Upgrade Description:[b] The business increases its ability to obtain hard to find items relating to the business's focus. 
+
+[P]When attempting to find an item that relates to the business (how this applies exactly is up to the GM), the item's rarity decreases by 2 (in addition to other modifiers). 
+
+[P]This upgrade can only be purchased once.
+
+[P][B]Upgrade Cost:[b] 2,000 credits or + 1 Obligation </Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>2000</Credits>
+      <Obligation>1</Obligation>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>BUSWHOLE</Key>
+    <Name>Wholesale Prices</Name>
+    <Description>
+      [H4]Wholesale Prices[h4]
+
+[B]Upgrade Description:[b] The business gains the ability to purchase items in bulk with a discount. 
+
+[P]When purchasing bulk orders of legal items that have a modified rarity of 4 or lower, the total price decreases by 10 percent. The amount constituting a 'bulk order" is up to the GM, but should be at least 10 large items such as speeder bikes or portable entertainment systems, or 100 small items such as pre-packaged meals or comlinks.
+
+[P]This upgrade can only be purchased once.
+
+[P][B]Upgrade Cost:[b] 1,000 credits or + 1 Obligation </Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>1000</Credits>
+      <Obligation>1</Obligation>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>BUSLIC</Key>
+    <Name>Specialized License</Name>
+    <Description>
+      [H4]Specialized License[h4]
+
+[B]Upgrade Description:[b] The business gains a specialized license, allowing it to conduct activity that may normally be restricted, licensed, or illegal. The nature of this license depends on the business and the world the business is located on (as not all worlds find the same activities illegal), but it could include selling Restricted items, weapons, or armor, running a casino, or operating a private security force or mercenary outfit.
+
+[P][B]Upgrade Cost:[b] 2,500 credits or + 2 Obligation 
+</Description>
+    <Source>Far Horizons</Source>
+    <Custom>DescOnly</Custom>
+    <Cost>
+      <Credits>2500</Credits>
+      <Obligation>2</Obligation>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELRES</Key>
+    <Name>Research Library</Name>
+    <Description>
+      [H4]Research Library[h4]
+
+[B]Upgrade Description:[b] The base has a set of computers, databases, or other informational archives that allow its occupants to reference relevant materials as necessary.
+
+[P]A research library contains reference materials on all manner of subjects (allowing characters to make Knowledge checks to acquire information without penalty). 
+
+[P]This upgrade can only be taken once.
+</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>3000</Credits>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELLAB</Key>
+    <Name>Laboratory</Name>
+    <Description>
+      [H4]Laboratory[h4]
+
+[B]Upgrade Description:[b] The base is equipped with lab facilities where scientists and engineers can safely conduct experiments, create new devices, and seek various technological breakthroughs. 
+
+[P]A laboratory includes a full suite of scientific implements (allowing characters to perform Computers, Knowledge, Medicine, and Mechanics checks for experimental purposes without penalty). Additionally, characters in a laboratory add [AD][AD] to such checks thanks to the safety equipment. 
+
+[P]This upgrade can only be taken once.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>5000</Credits>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELCOMMAND</Key>
+    <Name>Command and Control</Name>
+    <Description>
+      [H4]Command and Control[h4]
+
+[B]Upgrade Description:[b] The base possesses a dedicated space from which people can broadcast to the whole base, track the activities of agents in the field, and monitor information about the base and its surroundings. 
+[P]This facility grants occupants [BO] on Computers, Leadership, and Vigilance checks. 
+
+[P]This upgrade can only be taken once.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>4000</Credits>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELARM</Key>
+    <Name>Armory</Name>
+    <Description>
+      [H4]Armory[h4]
+
+[B]Upgrade Description:[b] The base includes a substantial store of weapons, armor, and basic military equipment sufficient to properly outfit a full squad of soldiers for an extended period. 
+
+[P]Equipment and tools necessary to keep gear in good repair are also present (allowing characters to perform Mechanics checks to repair and modify weapons and armor without penalty). The facility is also stocked with any weapons and equipment that would have a modified rarity of 5 or lower. Access to gear with a higher rarity is subject to GM discretion. 
+
+[P]This upgrade can be taken only once.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>9500</Credits>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELTRAIN</Key>
+    <Name>Training Facility</Name>
+    <Description>
+      [H4]Training Facility[h4]
+
+[B]Upgrade Description:[b] The base features living quarters to accommodate a full platoon of soldiers, as well as equipment and facilities necessary to train them to serve in the Rebel Alliance. This includes combat simulators, lecture halls, and gyms. Trainees typically occupy the facility at all times. 
+
+[P]At the GM's discretion, the Player Characters may call upon trainees or instructors to assist with a current mission. In addition, when selecting this upgrade, choose one of the following skills: Brawl, Gunnery, Knowledge (Warfare), Melee, Ranged (Light), or Ranged (Heavy). This skill is the training curriculum's focus, and counts as a career skill for all PCs operating out of the base. 
+
+[P]This upgrade can be taken only once.
+</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>15000</Credits>
+    </Cost>
+    <CareerSkillKeys>
+      <Key>BRAWL</Key>
+      <Key>GUNN</Key>
+      <Key>WARF</Key>
+      <Key>MELEE</Key>
+      <Key>RANGLT</Key>
+      <Key>RANGHVY</Key>
+    </CareerSkillKeys>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELMED</Key>
+    <Name>Medical Facility</Name>
+    <Description>
+      [H4]Medical Facility[h4]
+
+[B]Upgrade Description:[b] The base includes an infirmary, stocked to handle battlefield injuries and any other medical crises. 
+
+[P]The medical facility has cots and treatment space for five patients, medical supplies (allowing characters to perform Medicine checks without penalty), and two bacta tanks with supplies of bacta. 
+
+[P]This upgrade may be taken up to three times, increasing the number of patients it can accommodate by five and the number of baste tanks by one each time.
+
+</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>6000</Credits>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELHANG</Key>
+    <Name>Hangar and Repair Bay</Name>
+    <Description>
+      [H4]Hangar and Repair Bay[h4]
+
+[B]Upgrade Description:[b] The base includes a hangar where mechanics can store and repair vehicles and droids. 
+
+[P]The hangar holds a number of vehicles with a combined silhouette of 30 and no single vehicle larger than silhouette 5. It also includes a full set of mechanics' tools (allowing characters to perform Mechanics checks to heal droids or repair vehicles or starships without penalty), and an oil bath for droids. When used to repair starships or vehicles, the character repairs 2 additional hull trauma or 2 additional system strain on a successful check. 
+
+[P]This upgrade may be taken up to two additional times, either to add additional landing bays or to increase the combined silhouette limit of the original bay by 15 (although the maximum vehicle size remains at silhouette 5).</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>8500</Credits>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELSEC</Key>
+    <Name>Enhanced Security</Name>
+    <Description>
+      [H4]Enhanced Security[h4]
+
+[B]Upgrade Description:[b] Base security improves. better protecting the rebels within (and their secrecy). When this upgrade is purchased, select one of the following, 
+
+[P]• All buildings (or doors within the space station) gain electronic locks that can be opened only with a Hard ([DI][DI][DI]) Computers check. 
+
+[P]• The base gains reinforced armor, giving it an armor value of 2 (weapons unable to inflict more than 2 planetary scale damage cannot damage the buildings).
+
+[P]• The base gains reinforced shields, granting it defense 2 against weapons attacks from outside. 
+
+[P]• The base gains security cameras that can be accessed from a central control room. 
+
+[P]• The base gains a concealed heavy repeating blaster turret that covers the main entrance and has a Gunnery skill of 2 and an Agility of 0 (if unassisted, it rolls [AB][AB] for Gunnery checks). 
+
+[P]This upgrade may be purchased two additional times, each time selecting a different option. </Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>10000</Credits>
+      <Obligation>2</Obligation>
+    </Cost>
+    <Options>
+      <Option>
+        <Key>REBELSEC1</Key>
+        <Name>Electronic Locks</Name>
+        <Description>
+          All buildings (or doors within the space station) gain electronic locks that can only
+          be broken with a [B]Hard ([DI][DI][DI]) Computers check[b].
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>REBELSEC2</Key>
+        <Name>Reinforced Armor</Name>
+        <Description>
+          The base gains an armor value of 2.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>REBELSEC3</Key>
+        <Name>Reinforced Shields</Name>
+        <Description>
+          The base gains reinforced fences, granting it defense 2 against weapon attacks from outside.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>REBELSEC4</Key>
+        <Name>Security Cameras</Name>
+        <Description>
+          The base gains security cameras that can be accessed from a central control room.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>REBELSEC5</Key>
+        <Name>Main Entrance Turret</Name>
+        <Description>
+          The base gains a heavy repeating blaster turret that covers the main entrance.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <LastChanged>0001-01-01T00:00:00</LastChanged>
+            <NotPersisted>false</NotPersisted>
+            <FileName>Adver603.xml</FileName>
+            <Name>Heavy Repeating Blaster Turret</Name>
+            <Key>CA69E28D-7177-4974-AB62-ADC9285C75E1</Key>
+            <Category>Turret</Category>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>-1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>-1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>-1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>-1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>-1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>-1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Skills>
+              <CharSkill>
+                <Key>GUNN</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience>
+              <ExperienceRanks />
+              <UsedExperience>15</UsedExperience>
+            </Experience>
+            <Attributes>
+              <SoakValue />
+              <WoundThreshold />
+              <StrainThreshold />
+              <DefenseRanged />
+              <DefenseMelee />
+              <ForceRating />
+            </Attributes>
+            <Weapons>
+              <CharWeapon>
+                <ItemKey>BLASTHVYREP</ItemKey>
+                <Key>57d02a23-9c7f-42f4-9f7b-3a1fbf984678</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+              </CharWeapon>
+            </Weapons>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELNPC</Key>
+    <Name>NPC Ally</Name>
+    <Description>
+      [H4]NPC Ally[h4]
+
+[B]Upgrade Description:[b] The base includes an NPC ally who can help the party with certain tasks. This might be another member of the Alliance, or a local employed at the base, possibly not realizing the PCs' true motives. 
+
+[P]• An NPC doctor who can heal characters at the base and treat ailments. The doctor has an Intellect of 3 and 2 ranks in Medicine. He has medical supplies allowing him to perform Medicine checks without penalty. 
+
+[P]• An NPC mechanic who can repair items, droids, starships, and vehicles. The mechanic has an Intellect of 3, 2 ranks in Mechanics, and 2 ranks in Computers. He has a tool kit allowing him to perform Mechanics checks without penalty. 
+
+[P]• An NPC pilot who can operate ground or space vehicles. The pilot has an Agility of 3, an Intellect of 2, 2 ranks in Piloting (Planetary), 2 ranks in Piloting (Space), and 2 ranks in Astrogation. 
+
+[P]If the GM needs a full profile for these NPCs, he should assume they have a 2 in all other characteristics and no ranks in any additional skills. 
+
+[P]This upgrade may be taken up to two additional times, with a different NPC being chosen each time.
+</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>2000</Credits>
+    </Cost>
+    <Options>
+      <Option>
+        <Key>HOMENPC1</Key>
+        <Name>Doctor NPC</Name>
+        <Description>
+          An NPC doctor can heal characters at the base and treat ailments.  He has medical supplies allowing him to perform Medicine checks without penalty.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <LastChanged>0001-01-01T00:00:00</LastChanged>
+            <NotPersisted>false</NotPersisted>
+            <FileName>Adver167.xml</FileName>
+            <Name>NPC Doctor</Name>
+            <Key>7f627ac2-b808-4c5b-beb2-423f6c3bbc2d</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Skills>
+              <CharSkill>
+                <Key>MED</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience>
+              <ExperienceRanks />
+              <UsedExperience>0</UsedExperience>
+            </Experience>
+            <Attributes>
+              <SoakValue />
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold />
+              <DefenseRanged />
+              <DefenseMelee />
+              <ForceRating />
+            </Attributes>
+            <Gear>
+              <CharGear>
+                <ItemKey>MEDPAC</ItemKey>
+                <Key>a9a2c8db-60fe-428f-b22b-64be7b088167</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+              </CharGear>
+            </Gear>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>HOMENPC2</Key>
+        <Name>Mechanic NPC</Name>
+        <Description>
+          An NPC mechanic can repair items, droids, starships, and vehicles.  He has a tool kit allowing him to perform Mechanics checks without penalty.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <LastChanged>0001-01-01T00:00:00</LastChanged>
+            <NotPersisted>false</NotPersisted>
+            <FileName>Adver167.xml</FileName>
+            <Name>NPC Mechanic</Name>
+            <Key>894dc101-2e47-437e-b207-851ebca31d8a</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Skills>
+              <CharSkill>
+                <Key>MECH</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>COMP</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience>
+              <ExperienceRanks />
+              <UsedExperience>0</UsedExperience>
+            </Experience>
+            <Attributes>
+              <SoakValue />
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold />
+              <DefenseRanged />
+              <DefenseMelee />
+              <ForceRating />
+            </Attributes>
+            <Gear>
+              <CharGear>
+                <ItemKey>TOOLKIT</ItemKey>
+                <Key>3ae295d0-f986-4c79-991b-d05b9a68c1bc</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+              </CharGear>
+            </Gear>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>HOMENPC3</Key>
+        <Name>Pilot NPC</Name>
+        <Description>
+          An NPC pilot can operate ground or space vehicles.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <LastChanged>0001-01-01T00:00:00</LastChanged>
+            <NotPersisted>false</NotPersisted>
+            <FileName>Adver167.xml</FileName>
+            <Name>NPC Pilot</Name>
+            <Key>c68faede-d0e1-452f-a288-b756e34b0a8c</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Skills>
+              <CharSkill>
+                <Key>ASTRO</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>PILOTPL</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>PILOTSP</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience>
+              <ExperienceRanks />
+              <UsedExperience>0</UsedExperience>
+            </Experience>
+            <Attributes>
+              <SoakValue />
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold />
+              <DefenseRanged />
+              <DefenseMelee />
+              <ForceRating />
+            </Attributes>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELCORE</Key>
+    <Name>Increase Core Focus</Name>
+    <Description>
+      [H4]Increase Core Focus[h4]
+
+[B]Upgrade Description:[b] The size and scope of the Rebel base grows, increasing the scale of operations. If the facility is a safe house, increase the number of rooms available within the facility. If it is focused upon research or training, then increase the number of workers and available technology. A facility devoted to maintaining weapons, vehicles, or other equipment could have its capacity similarly increased. 
+
+[P]Once per month, each PC can leverage the bases new expanded resources when attempting to acquire a piece of equipment. For purposes of that check, the item's rarity is decreased by 1 for each time this upgrade has been selected. This upgrade may be taken up to four additional times.</Description>
+    <Source>Desperate Allies</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>5</PurchaseCount>
+    <Cost>
+      <Credits>2500</Credits>
+    </Cost>
+    <RarityDecrease>1</RarityDecrease>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKSPACE</Key>
+    <Name>Additional Workspace</Name>
+    <Description>
+      [H4]Additional Workspace[h4]
+[B]Upgrade Description:[b] The character chooses one additional focus skill for the workshop. This advanced benefit can be selected any number of times, and its effects are cumulative.</Description>
+    <Source Page="95">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <Cost />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKHOME</Key>
+    <Name>Comforts of Home</Name>
+    <Description>
+      [H4]Comforts of Home[h4]
+      When the PC suffers strain in the workshop, the character suffers 2 less strain, to a minimum of 1. This does not apply to strain suffered voluntarily. This advanced benefit can be selected any number of times and its effects are cumulative.
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <Cost />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKCONT</Key>
+    <Name>Emergency Containment Measures</Name>
+    <Description>
+      [H4]Emergency Containment Measures[h4]
+      Downgrade the difficulty of checks with the workshop's focus skill once. This benefit can only be selected once.
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKRECLAM</Key>
+    <Name>Reclamation Equipment</Name>
+    <Description>
+      [H4]Reclamation Equipment[h4]
+      Whenever the character fails a Crafting check in the workshop, half the Material price is automatically reclaimed. With the proper use of [AD] or auxiliary equipment, the character can reclaim a maximum of the full value of the Material Price. This advanced benefit can only be selected once.
+
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKRES</Key>
+    <Name>Research Records</Name>
+    <Description>
+      [H4]Reclamation Equipment[h4]
+      The character may spend [AD][AD] from any check in the workshop using its focus skill to record data for later use. At the GM's discretion, this grants additional [BO] to similar future checks. This advanced benefit can only be selected once.
+
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKSPARE</Key>
+    <Name>Spare Parts Bin</Name>
+    <Description>
+      [H4]Spare Parts Bin[h4]
+      Reduce the rarity of any materials the character wishes to acquire for a crafting project in the workshop by one (to a minimum of 0). If this reduces the rarity of a material to 0, the character does not need to acquire it and is considered to already have it on hand. This advanced benefit can be slected any number of times, and its effects are cumulative.
+
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <Cost />
+    <RarityDecrease>1</RarityDecrease>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKLOWGRAV</Key>
+    <Name>Low-Grav Workspace</Name>
+    <Description>
+      [H4]Low-Grav Workspace[h4]
+      With access toa  low or zero gravity work area as part of a workshop, a Technician can smelt metals and create pharmaceuticals with unique processes difficult to reproduce under the effects of gravity. The character adds automatic [AD] Mechanics and Medicine checks in the workshop. This advanced benefit can only be selected once.
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <Custom>DescOnly</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>COMC-52</Key>
+    <Name>COM C-52 Modular Command Center</Name>
+    <Description>[H4]Delvin Constructs COM C-52 Modular Command Center[h4]
+
+Setting up one modular base structure requires an [B]Easy ([DI]) Athletics check[b] and roughly 2 hours of narrative time.
+[P]A center can hold roughly twenty depending on its configuration. and grants the occupants [BO] on Computers, Leadership, and Vigilance checks. Only one command center can be purchased per base.
+</Description>
+    <Source Page="45">Fully Operational</Source>
+    <Custom>AddedItem</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>2750</Credits>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>HNGF-304</Key>
+    <Name>HNG F304 Modular Hanger/Motor Pool</Name>
+    <Description>[H4]Delvin Constructs HNG F304 Modular Hanger/Motor Pool[h4]
+Setting up one modular base structure requires an [B]Easy ([DI]) Athletics check[b] and roughly 2 hours of narrative time.
+[P]These facilities usually take the form of simple buildings with an open floor area; a large. lockable bay door wide enough for vehicles to easily move through; and two smaller entry doors. They can hold a number of vehicles with a combined silhouette of 12 and no single vehicle larger than silhouette 4. Each also includes a full set of mechanics' tools (allowing characters to perform Mechanics checks to heal droids or repair vehicles or starships without penalty), and an oil bath for droids. When used to repair starships or vehicles stored inside, the character repairs 1 additional hull trauma or 2 additional system strain on a successful check.
+[P]If purchased multiple times. they can be used as separate vehicle storage facilities. Alternatively, up to two additional units may be combined together with the original one to increase the silhouette limit by 10 per additional unit (although the maximum single vehicle size remains at Silhouette 4).</Description>
+    <Source Page="45">Fully Operational</Source>
+    <Custom>AddedItem</Custom>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>4200</Credits>
+    </Cost>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>MILBARF-221</Key>
+    <Name>MILBAR F-221 Modular Barracks</Name>
+    <Description>[H4]Delvin Constructs MILBAR F-221 Modular Barracks[h4]
+Setting up one modular base structure requires an [B]Easy ([DI]) Athletics check[b] and roughly 2 hours of narrative time.
+[P]Modular barracks come in many configurations for easy tailoring to a unit's specific needs. The F-221 model is a medium-sized building made to hold a platoon-sized unit and that unit's equipment. The barracks include a large common area; smaller rooms for offices, lounges, and refreshers; climate control; and an environmental sealing system proof against chemical and biological attacks.</Description>
+    <Source Page="45">Fully Operational</Source>
+    <Custom>AddedItem</Custom>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>2100</Credits>
+    </Cost>
+  </BaseUpgrade>
+</BaseUpgrades>

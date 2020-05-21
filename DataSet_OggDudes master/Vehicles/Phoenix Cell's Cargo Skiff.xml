@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>PHOENIXCARGO</Key>
+  <Name>Phoenix Cell's Cargo Skiff</Name>
+  <Description>[H3]Phoenix Cell's Cargo Skiff[h3]
+Imperials once used this sturdy cargo skiff to ferry munitions, equipment, and crew around fighter bases. Stolen in one of Phoenix Cell's many daring raids, this skill took some damage during its use as a makeshift escape vehicle. Cell engineers eventually offloaded the skiff at Chopper Base, and Sabine Wren has ensured its previously boring exterior is not a kaleidoscope of color.</Description>
+  <Source Page="22">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Cargo Skiff</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>1200</Price>
+  <Rarity>4</Rarity>
+  <MaxAltitude>2 meters.</MaxAltitude>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot.</Crew>
+  <EncumbranceCapacity>80</EncumbranceCapacity>
+  <Passengers>8</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

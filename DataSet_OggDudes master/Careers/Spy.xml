@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SPY</Key>
+  <Name>Spy</Name>
+  <Description>
+    [H4]Spy[h4]
+
+A Spy's eight career skills are [B]Computers, Cool, Coordination, Deception, Knowledge (Warfare), Perception, Skulduggery,[b] and [B]Stealth[b]. The Spy automatically gains a rank in four of these skills without spending experience, and gains a discount on increasing them with future experience points.
+
+[P][H4]A SPY'S ROLE[h4]
+ 
+[P]Soldiers of a different type, Spies seek out the secrets of the enemy, undo the enemy's plans, and hinder the enemy's ability to do battle effectively. A single Spy, in the right place I at the right moment, can save (or destroy) many thousands of lives, with a single well-timed action. Most military forces (along with governments, criminal factions, and large corporations) place a great deal of emphasis on crafting an effective corps of espionage operatives.
+
+[P]The primary role of any Spy is the gathering of intelligence—information about what is happening in the areas of operation, as well as what the enemy is doing—for those in command of Allied forces. There are many ways to do this, meaning there are many types of Spies with divergent specialties. Some focus on infiltrating the ranks of the enemy and gathering data from within, while others focus on external observations of troop and asset movements. Some take advantage of the dependency of modern military forces on electronic means of data collation, tapping into their opponents' networks and siphoning off everything that can be snagged. 
+
+[P]The Alliance's reliance on Spies cannot be understated. Together with other specialist operatives, Spies are critical to the Rebellion's chance for success. Their skills and talents play a crucial role in balancing the scales against the Empire's overwhelming superiority in both forces and resources. As the war progresses, however, the Alliance can no longer treat its Spies as untouchable assets, never to be unduly risked; more and more, Spies are being called on to make direct strikes against the targets from which they are sent to gain information.</Description>
+  <Source Page="94">Age of Rebellion Core Rulebook</Source>
+  <Custom>CustomItem</Custom>
+  <CareerSkills>
+    <Key>COMP</Key>
+    <Key>COOL</Key>
+    <Key>COORD</Key>
+    <Key>DECEP</Key>
+    <Key>PERC</Key>
+    <Key>SKUL</Key>
+    <Key>STEAL</Key>
+    <Key>WARF</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>COURIER</Key>
+    <Key>FORCEADHERENT</Key>
+    <Key>IMPERIALACADEMYCADET</Key>
+    <Key>INFILTRATOR</Key>
+    <Key>INTERROGATOR</Key>
+    <Key>PADAWANSURVIVOR</Key>
+    <Key>PIRATE</Key>
+    <Key>RETIREDCLONETROOPER</Key>
+    <Key>SCOUT</Key>
+    <Key>SHIPCAPTAIN</Key>
+    <Key>SLEEPERAGENT</Key>
+    <Key>SLICER</Key>
+  </Specializations>
+  <Attributes />
+  <FreeRanks>4</FreeRanks>
+</Career>

@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>VERPINE</Key>
+  <Name>Verpine</Name>
+  <Description>[H4]Verpine[h4]
+
+Verpine are an insectoid sentient species from the Roche asteroids. Best known for their technological aptitude, the Verpine are considered to be among the finest starship engineers in the galaxy.
+
+[P][B]Physiology:[b] Verpine are thin bipedal insectoids, standing 1.9 meters tall on average. Unlike many insectoids, including the Kibnon to which they are distantly related, the Verpine have only four limbs (two arms and two legs), though there are instances of Verpine growing vestigial wings. Their heads are dominated by large compound eyes. They also have two antennae, one located behind each eye. Their hardened carapace, composed of a green chitinous substance called carahide, is as flexible as the skin of other creatures, yet tough enough to deflect a blade or even absorb a glancing blaster bolt. The Verpine circulatory system does not contain a heart — at least, not an organ which Human physiologists would identify as a heart.
+
+[P]Verpine eyes are keen enough to pick out microscopic details. Their antennae contain tympanic nerves which pick up sound. Their antennae are also sensitive to radio waves, giving Verpine the natural ability to sense and transmit radio waves to communicate with another Verpine in their language over distances on the order of one hundred kilometers. Some observers mistake this nearly instant, silent communication for true telepathy. Thanks to their natural radio communication network, their colonies are run as a consensus democracy, with all Verpine instantly consulted on questions affecting the hive. Given their reliance on radio communication, Verpine frequently suffer negative consequences when their antenna are damaged. 
+
+[P]Verpine come in two types—intelligent, hermaphroditic Verpine and unintelligent worker drones. At the time of their entrance into Galactic society, only five percent of Verpine were intelligent, but the demands of technological civilization required the Verpine to restructure their society. After the change, egg-laying Verpine use a special enzyme to ensure all eggs laid develop into intelligent Verpine. Any drones needed by a Verpine hive are produced via cloning.
+
+[P]When a Verpine hive need more members, some of the fertile Verpine will be asked to lay eggs, while others will be assigned to fertilize them. The eggs are cared for in colony incubators, and hatchlings are cared for by the entire hive.
+
+[P]While hermaphrodite, there is evidence to indicate that individual Verpine have definite genders, either permanently or at some point of their existences. 
+
+[P]The fungus Magenge, which grows inside the asteroid colonies of the Verpine, form the basis of the Verpine diet.
+
+[P][B]Society:[b] Verpine have variable naming customs. Some have single names such as Fxz'et, Zix, Ss's, or Moegid. Others have first and last names such as Kuli Ned'lx, Kyli Ned'Ix, or Osos Niskooen. Many, though not all, Verpine names contain sibilant consonants and glottal stops.
+
+[P]Verpines are also known to make highly sought after weapons such as the Verpine shatter gun, the Verpine headband, and the Verpine prototype shield.
+
+[P][B]Homeworld:[b] The Roche asteroid field, sometimes known simply as Roche, is a series of asteroids colonized by the Verpine, including Nickel One (the capital), Slayn, Korpil, Roche G42, and Shantipole.
+
+[P][B]Language:[b] Verpine is the native language of the Verpine species from Roche asteroid field.
+
+[P]Although Verpine language is usually spoken, Verpine can also use radio waves to communicate with other Verpine in their language.
+
+[P]Most Verpine are fluent in both Verpine language and Basic, although they are only literate in their own language.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <DefenseRanged>1</DefenseRanged>
+    <DefenseMelee>1</DefenseMelee>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>MECH</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>VERPINECH1</Key>
+      <Name>Perception</Name>
+      <Options>
+        <Option>
+          <Key>VERPINECH1OP1</Key>
+          <Name>Microscopic Sight</Name>
+          <Description>Verpine add [ADVANTAGE] to all Perception checks.</Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>PERC</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>VERPINECH2</Key>
+      <Name>Defense</Name>
+      <Options>
+        <Option>
+          <Key>VERPINECH2OP1</Key>
+          <Name>Chitin Plating</Name>
+          <Description>Verpine have a natural defense of 1.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

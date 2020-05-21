@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HWK1000LTFREIGHT</Key>
+  <Name>HWK-1000 Light Freighter</Name>
+  <Description>[H3]CEC HWK-1000 Light Freighter[h3]
+
+Though the advent of the Clone Wars virtually doomed sales of the HWK-series of light freighters, designers at Corellian Engineering never abandoned the idea of a sleek, fast transport to match their own love for speed. Encouraged by advances in ion drive technology, CEC instituted plans to revive the HWK-series, constructing several prototypes designated the HWK-1000. While both initial performance and marketing tests delivered promising results for the HWK-290's possible successor, CEC executives scrapped the project after Imperial authorities objected to the speed and performance of the freighter, which rivaled that of some military starfighters. While the HWK-1000 never officially went into production, a clerical error resulted in several hundred prototypes models rolling off the lines of CEC's factory on Halyard 2. To recoup some of their losses, CEC surreptitiously sold the ships through various Outer Rim networks. Most of the prototype freighters ended up in the hands of collectors and smugglers.</Description>
+  <Sources>
+    <Source>Fly Casual</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>120000</Price>
+  <Rarity>10</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/navigator</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>Six months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>5</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

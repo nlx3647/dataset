@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SUPERHAULCARGOSKIFF</Key>
+  <Name>Superhaul Model II Cargo Skiff</Name>
+  <Description>[H3]Superhaul Model II Cargo Skiff[h3]
+
+Used in numerous commercial and industrial applications, Ubrikkian Industries' SuperHaul II is a sturdy and reliable workhorse of a vehicle. An extremely simple vehicle to operate and maintain, the SuperHaul II is a common sight in spaceports and warehouses all across the galaxy. The SuperHaul II has a single, open-topped deck surrounded by a stout safety rail and equipped with a number of tie-down points, cam locks, and mag-netic fastening plates for securing different types of cargo. Mounted in small nacelles on the port and starboard sides of the SuperHaul II are small, low powered magnetic cargo lifters, similar in operation to tractor beams, that are controlled from the operator's station. These cargo lifters allow a single individual to load, organize, and unload cargo without additional help, thus streamlining and speeding up work flows. 
+[P]Lifting power is provided by a UB-911 Sampson Heavy Cargo Lift repulsor drive powered by a high-output power generator. The SuperHaul maneuverability, such as it is, is provided by a number of small, variable vector maneuvering thrusters scattered about the hull, along with two stabilizers located at the aft of the vehicle. Along with a respectable cargo capacity and a reputation for solid construction, the SuperHaul Il is also easily modified to better cope with local planetary conditions. Foreign object filters for air intakes, rain shields, light armor, environmentally sealed decks, and light mounted weapons are all offered as options directly from Ubrikkian or from numerous aftermarket suppliers.</Description>
+  <Source>Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>8000</Price>
+  <Rarity>3</Rarity>
+  <MaxAltitude>50 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>80</EncumbranceCapacity>
+  <Passengers>8</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>3</SystemStrain>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

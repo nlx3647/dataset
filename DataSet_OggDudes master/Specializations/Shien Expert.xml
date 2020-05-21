@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SHIEN</Key>
+  <Name>Shien Expert</Name>
+  <Description>[H4]Shien Expert[h4]
+
+A lightsaber is a potent weapon. When wielded forcefully, it can even overpower an opponent who has a weapon capable of parrying it. Further, its ability to deflect blaster bolts can make it an effective ranged weapon as well. Those who consider themselves Shien Experts—masters of the Shien lightsaber form—embrace the seeming contradiction between those two uses. They know that true lightsaber masters must possess the cunning to use such weapons to their full potential. It takes clever precision to reflect a ranged attack back toward an adversary. but just as much shrewd brilliance to recognize the right time to overpower adversaries through raw force. 
+
+[P]Shien Experts acquire [B]Athletics, Lightsaber, Resilience,[b] and [B]Skulduggery[b] as additional career skills. If this is the characters starting specialization, he may choose two of these skills and gain one free rank in each. without spending starting experience. In order to effectively follow this path, a character needs to be flexible and to recognize the best approaches for different types of physical conflicts. Resilience and Athletics are critical tools for engaging in and enduring a prolonged battle, while  Skulduggery enables the character to case out and prepare possible combat locations ahead of time to exploit the environment against an opponent. 
+
+[P]Whenever possible, a Shien Expert prepares a battleground well in advance of a conflict. Often, these individuals take the time to study a range of different locations soon after they arrive in a city. Once combat begins, they can carefully exploit the environment and trigger any traps they may have prepared to unleash upon their opponents. 
+
+[P]During combat, Shien Experts continue to constantly analyze the situation. While they take advantage of the terrain throughout a battle, they are also selective in choosing the best way to use their training as well as their lightsaber. This can change with each passing instant, in reaction to the armament, position, and stance of their enemies. For these individuals, an extended conflict is a sure route to victory as they react to every move their opponents make with a clever counter or powerful strike.</Description>
+  <Source Page="95">Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>ATHL</Key>
+    <Key>LTSABER</Key>
+    <Key>RESIL</Key>
+    <Key>SKUL</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>SIDESTEP</Key>
+        <Key>CONDITIONED</Key>
+        <Key>STRSMART</Key>
+        <Key>REFLECT</Key>
+      </Talents>
+      <Directions>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>TOUGH</Key>
+        <Key>PARRY</Key>
+        <Key>SHIENTECH</Key>
+        <Key>REFLECT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>PARRY</Key>
+        <Key>COUNTERST</Key>
+        <Key>GRIT</Key>
+        <Key>REFLECTIMP</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>DJEMSODEFL</Key>
+        <Key>DEFSTA</Key>
+        <Key>SABERTHROW</Key>
+        <Key>REFLECT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>FALLAVAL</Key>
+        <Key>DEDI</Key>
+        <Key>DISRUPSTRIKE</Key>
+        <Key>REFLECTSUP</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

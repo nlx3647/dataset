@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ILHKKCITADEL</Key>
+  <Name>ILH-KK Citadel-Class Light Freighter</Name>
+  <Description>
+      [H3]ILH-KK Citadel-Class Light Freighter[h3]
+
+Produced by Koensayr, a company known more for its starfighters and starship components than for cargo ships, the Citadel-class is a small, relatively fast freighter built to compete with CEC's VT and W class of light freighters. Known for their ruggedness and reliability, these ships have a broad, flat hull reminiscent of the Imperial Navy's Lambda-class shuttle with two long, side-mounted vertical stabilizers aft and a short, thick stabilizer mounted between that holds the ship's transponder and comms array. The forward hull section houses the bridge and living quarters for the three-person crew, with more cabins behind for passengers. Quite heavily armored for a ship of this size and class, and equipped with military-grade shields, Citadels have gained a reputation for being able to absorb incredible amounts of punishment and still deliver their passengers and cargo safely.
+
+[P]While Citadels are, on paper, passenger carriers, they are remarkably well armed for their role. Due to their heavy weapons load-out, their powerful KM-440.a1 reactor, and midships external docking clamps that can easily be used to carry two starfighters, many have been re-purposed as fighting ships. Many of these reconfigured ships have found their way into the hands of freebooters and smugglers.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>200000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One Pilot, One Co-Pilot, One Engineer</Crew>
+  <EncumbranceCapacity>95</EncumbranceCapacity>
+  <Passengers>14</Passengers>
+  <Consumables>Six Months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>4</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>16</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>CML</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

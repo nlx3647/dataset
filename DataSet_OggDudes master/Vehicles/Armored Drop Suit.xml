@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ARMDROPSUIT</Key>
+  <Name>Armored Drop Suit</Name>
+  <Description>[H3]Armored Drop Suit[h3]
+Mobility is often a decisive element in any engagement. Combatants from common killers-for-hire to Imperial storrmroopers know that taking a good position and controlling the flow of combat can be better protection than a durasteel blast door. Most armor designs factor this in to some degree, foregoing absolutely maximized plating or coverage to allow normal mobility, but a few suits go above and beyond the concept of allowing “normal mobility.”
+[P]Armored drop suits are a type of light laminate body armor constructed around a powerful repulsorift unit,
+allowing the wearer to fly between firing positions or
+spots of cover, or to rain down attacks from above.
+The arrangement of fabric and composite plating of
+the armor in such suits minimizes air resistance and
+improves maneuverabiIity, while still offering respectable protection against incoming fire.
+[P]As a maneuver, the wearer of an armored drop suit
+can engage his flight systems to function as a Silhouette 0, Speed 2, Handling + 2, System Strain Threshold 5 vehicle that; requires Piloting [Planetary] to
+operate. Further, while the flight systems are engaged
+and the wearer is conscious to guide himself down, he
+does not suffer damage from falling.
+[P][I]Note:  This is the vehicle version of the Armored Drop Suit armor.[i]</Description>
+  <Source Page="49">No Disintegrations</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Drop Suit</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <Price>7500</Price>
+  <Rarity>7</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>While conscious and flight systems are engaged, wearer cannot suffer falling damage.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <MaxAltitude>From orbit</MaxAltitude>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>Armor's wearer</Crew>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <Handling>2</Handling>
+  <SystemStrain>3</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CECWUD500</Key>
+  <Name>WUD-500 Star Yacht</Name>
+  <Description>[H3]CEC WUD-500 Star Yacht[h3]
+
+A luxury craft intended to complement Corellian Engineering Company's extensive line of light freighters, the WUD-500 star yacht was engineered with features and design principles directly inspired by the highly successful YT-series. Smaller than the YT-1300, the WUD-500 has a saucer-shaped hull with an in-line cockpit jutting from the front. Though fast and highly customizable, the WUD-500 proved relatively unpopular outside of the Corellian sector and was unable to compete with more well-known luxury yachts from SoroSuub and Kuat Drive Yards. Eventually discontinued, the WUD-500 found renewed life on the aftermarket among smugglers and free traders.</Description>
+  <Source>Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Yacht</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>98500</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>8</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot/navigator</Crew>
+  <EncumbranceCapacity>65</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>Four months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>1</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>14</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

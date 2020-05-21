@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>INDULGENT</Key>
+  <Name>Indulgent-class Luxury Starliner</Name>
+  <Description>[H3]Indulgent-class Luxury Starliner[h3]
+
+Some of the largest, most exclusive, most flamboyantly luxurious luxury liners in production, the ships of Leonore Luxury Liners Incorporated's Indulgent-class are spacegoing monuments to wealth and flagrant excess. Huge, slow-moving vessels the size of a heavy cruiser, these liners set the standard for luxury accommodations. Designed to provide the ultimate space travel experience, no expense was spared in their building and fitting out, and each ship is brimming with rare and exotic materials, all tailored to exceed each passengers requirements. The Indulgent-class vessels are a limited production run sold exclusively to large cruise lines. They are a common sight in the more well traveled Outer Rim spacelanes, where they cruise a number of scenic areas and stop in the more civilized ports for resupply and a little slumming shore leave for passengers and crew. While they are susceptible to attack, these ships are not completely helpless. They mount sophisticated electronic countermeasures and a number of weapons to deal with all but the most persistent pirates.</Description>
+  <Source>Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Yacht</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>25500000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>850 officers and crew</Crew>
+  <EncumbranceCapacity>3200</EncumbranceCapacity>
+  <Passengers>1500</Passengers>
+  <Consumables>Six months</Consumables>
+  <Silhouette>7</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>85</HullTrauma>
+  <SystemStrain>40</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

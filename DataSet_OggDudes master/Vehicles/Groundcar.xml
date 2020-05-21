@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GROUNDCAR</Key>
+  <Name>Groundcar</Name>
+  <Description>
+    [H3]Groundcar[h3]
+
+The groundcar is as primitive as it is ubiquitous on poor or recently colonized worlds. Instead of using repulsorlifts or even tracks, it moves via four or more powered wheels. Groundcars typically have a slow top speed and are woefully hampered by terrain, tradeoffs that more than counterbalance their inexpensiveness and ease of maintenance.</Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Groundcar</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Wheeled Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>1500</Price>
+  <Rarity>2</Rarity>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>3</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>3</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

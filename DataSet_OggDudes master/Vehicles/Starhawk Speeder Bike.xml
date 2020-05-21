@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>STARHAWKSPEED</Key>
+  <Name>Starhawk Speeder Bike</Name>
+  <Description>[H3]Starhawk Speeder Bike[h3]
+
+A tried and true design, the Ikas-Adno Starhawk speeder bike is popular throughout the galaxy, utilized by everyone from smugglers and swoop gangs to merchants and moisture farmers. Rugged and reliable, Starhawks appeal to those who desire a powerful speeder bike as well as those looking for a relatively inexpensive workhorse. Though technically classified as a speeder bike, the Starhawk's powerful engine pushes it into the swoop category, though it is unable to achieve the altitude of most swoops. The Starhawk has an unusual feature: it can be fitted with a sidecar, allowing it to carry an additional passenger or transport extra cargo. The speeder bike also comes equipped with a rear tractor beam coupler to allow it to tow a repulsorsled for even more cargo capacity.</Description>
+  <Source>Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>2000</Price>
+  <Rarity>3</Rarity>
+  <MaxAltitude>15 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>3</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Key>LTTRACTCOUPLE</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

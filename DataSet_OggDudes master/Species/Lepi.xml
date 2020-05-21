@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LEPI</Key>
+  <Name>Lepi</Name>
+  <Description>[H4]Lepi[h4]
+
+The Lepus carnivorus, more commonly known as Lepi, are a species of sentient rabbit, ranging in color from green to dark blue. Their most distinctive features are long ears and feet and buck teeth. Native to the planet Coachelle Prime, their high reproductive rate forced them to colonize the entire star system to avoid overcrowding. The Lepus carnivorus are typically gregarious individuals, although prone to bursts of anger if their family or species are insulted. Lepi are constantly in motion and are known for their speed.
+
+[P][B]Physiology:[b] The Lepus carnivorus are sentient bipedal lagomorphs with large ears and feet. They have lanky frames, with males averaging 1.9 meters in height, while the smaller females average 1.6 meters. The strong legs of the Lepi are capable of great speeds as well as delivering powerful kicks, often used in fights to bludgeon their opponents. Lepi are covered in short fur that ranged in color from green to dark blue to white. Lepi also have tails, although these differ in length from stubby to quite long.
+
+[P]The Lepus carnivorus have large eyes—likely adapted for dark warrens—which give them sharp vision. That occasionally leads to the misconception that Lepi consume space carrots, which are known to improve eyesight. However, most Lepi prefer various forms of meat, such as hambones. Some Lepi even claim to be carnivorous. A number of long whiskers grow from their short snouts. Long incisors, occasionally referred to as "buck teeth," jut from their jaws, useful in their omnivorous diets. The long ears of the Lepi are very sensitive and occasionally colored in different shades, such as pink fur.
+
+[P]The Lepus carnivorus have a very high metabolism such that they are virtually always in motion, giving them an appearance of flightiness. That skittishness is also influenced by their evolution from high-strung herbivores; their "fight-or-flight" instinct very much favored flight.
+
+[P]Lepus carnivorus sexually mature around age ten, when they are considered young adults. Females give birth in prodigious numbers; mothers often have up to three dozen offspring in their lifespan. Lepi reach old age around sixty to seventy-four, after which they are considered venerable.
+
+[P][B]Society:[b] Lepus carnivorus society revolves around the vast warrens they build under the surface of their planets. Larger families live in their own smaller burrows. Lepi are fiercely loyal and proud of their families. They are quick to anger and prone to violence, especially in reaction to insults to their family or species. Their awkward appearance make them prone to mockery, and they are particularly sensitive to being referred to as rodents. However, as a whole, Lepi are typically a gregarious species, quick witted with a strong sense of humor.
+
+[P]The Lepi are often curious and impulsive, leading many to seek out adventure far from their homeworlds. That also stems from a desire to rise above the insults they often receive. It is common among Lepi to find a determination to achieve great deeds not only for personal fame, but also to redeem their species in the eyes of the galaxy.
+
+[P]Little is known of Lepi religion, but their exclamation "heavenly hutches" suggested belief in an afterlife. Some Lepi also carried lucky charms.
+
+[P]Lepi names were typically one word, with examples including Augdon, Gagen, Javilla, Lupher, Maximort, Nevlin, Roonis, Saper, Zylo, and Trixx.
+
+[P][B]Homeworld:[b] Coachelle Prime is a planet in the Mid Rim, not far from the Centrality.  It is home to the rabbit-like Lepi, who live underground in massive warrens.
+
+[P][B]Language:[b] The native language, both written and oral, of the Lepi is Lepese, or Lepp. However, that quickly became secondary to Basic as the language of preference.  Non-Lepi are capable of learning the language. Lepi are prone to wild gesticulations when talking amongst themselves.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>LEPICH1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>LEPICH1OP1</Key>
+          <Name>Athletics</Name>
+          <Description>Lepi may begin the game with one free rank in Athletics.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>ATHL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>LEPICH1OP2</Key>
+          <Name>Perception</Name>
+          <Description>Lepi may begin the game with one free rank in Perception.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>PERC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

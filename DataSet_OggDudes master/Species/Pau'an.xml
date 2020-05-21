@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>PAUAN</Key>
+  <Name>Pau'an</Name>
+  <Description>[H4]Pau'an[h4]
+Pau'ans are gaunt near-Humans native to the planet Utapau. Also known as Utapauns and Ancients due to their long lifespans, they co-exist on Utapau with the Utai. The two species get along well, with the lanky Pau'ans assuming leadership roles on the planet. Though some view the Pau'ans as frightening, they are friendly, and are more than happy to welcome visitors to their little-known world. Due to Utapau's remoteness in the Outer Rim Territories, the Pau'ans were isolated for most of their history. However, they played a part in galactic events in 19 BBY, when the Confederacy of Independent Systems conquered Utapau. The Pau'ans opposed the Confederacy with the aid of the Republic, and later opposed the Empire, after Imperials took control of their planet following the Declaration of a New Order.
+
+[P][B]Physiology:[b] The average member of the sentient near-Human Pau'an, or Utapaun, as they are sometime called, species stand taller than a Human, at approximately 1.9 meters. They are bald and their head is striped with furrowed gray skin. Pau'ans weigh seventy kilograms on average. Pau'ans have large, sunken black eyes in red eye sockets and jagged, fang-like teeth used for tearing into raw meat, as they are carnivores. The species has pale, wrinkled skin, due to the fact that they live in the sinkholes of Utapau, giving them limited access to light. These traits cause some to view them as frightening. However, Pau'ans as a society are generally friendly, and are happy to welcome guests to their often overlooked world. Pau'ans have long lifespans, living up to 700 years, much longer than the Utai, the other species native to Utapau. This earned them the nickname of "Ancients". Members of the species are able to see well in darkness. Pau'ans have four fingers and toes, but are more mobile than they appeared. They often wear elaborate clothes intended to heighten their impressive stature.
+
+[P][B]Society:[b] The Pau'ans fulfill most of the governmental and administrative duties on Utapau, as the Utai do not desire such work, serving as laborers instead. Most Pau'ans serve as leaders early in their lives, often managing teams of Utai laborers. This gives them experience that would be used later in their life. Pau'ans are kind leaders, and sympathetic to their subordinates. Each city on Utapau is controlled by a Master of Port Administration, a hereditary title reserved for Pau'ans. These administrators are assisted by advisory councils for making important decisions about their city, turning to the Utapauan Security Force when necessary. Each Administrator serves on the Utapauan Committee and oversees planetary governance. However the committee rarely makes crucial decisions, as the cities are able to function on their own most of the time.
+
+[P]Despite the many differences between the Pau'ans and the Utai, the two species are able to co-exist peacefully, although inhabitants of the different Utapaun cities often have conflicts due to philosophical differences. Still, these conflicts rarely develop into bloodshed, and it is more common for the cities to ignore each other. Each city has its own culture, and competition is fierce between the groups. However, they are able to cooperate when the situation necessitated it, such as during the Confederate invasion of the planet in 19 BBY.
+
+[P]Pau'an society is a blend of a variety of styles and cultures, borne from the ancient merger with the Utai. Built into the sinkhole walls, Pau'an settlements such as the Pau City spaceport are divided into different areas, each a mix of architectural styles and other-worldly design. They like art, and enjoy studying sculptures and finding ways to incorporate different artistic styles into their architecture. Pau'ans developed an industrial society, despite their seemingly primitive and natural image, though the Utai were the ones who actually did the hard work. The Utai did not mind, however, and collectively much preferred labor to positions of leadership. They are able to power their city by wind, harnessing it through massive windmills. Over ninety-nine percent of the planet's power comes from these windmills. Most Pau'ans ride living beasts like varactyls and dactillions instead of speeders. Pau'ans, as well as Utai, are known for their love for podracing.
+
+[P]Pau'ans represented 30%—or approximately 28.5 million—of Utapau's total population of 90 million inhabitants.
+
+[P][B]Homeworld:[b] Utapau is an arid sinkhole world in the Utapau system of the Tarabba sector in the Outer Rim Territories. Utapau is the homeworld of the Pau'ans and the Utai, more commonly referred to collectively as Utapauns. These species live in the many giant sinkholes that dotted the planet's scrub-covered surface.
+
+[P][B]Language:[b] Utapese is the language of the Pau'ans on the planet Utapau. Most Pau'ans speak and are literate in both Utapese and Basic. The language once had several different dialects.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>PAUANCH1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>PAUANCH1OP1</Key>
+          <Name>Coercion</Name>
+          <Description>Pau'ans may begin the game with one free rank in Coercion.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>COERC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>PAUANCH1OP2</Key>
+          <Name>Negotiation</Name>
+          <Description>Pau'an may begin the game with one free rank in Negotiation.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>NEG</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

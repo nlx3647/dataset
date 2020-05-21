@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>IAKARU</Key>
+  <Name>Iakaru</Name>
+  <Description>[H4]Iakaru[h4]
+The heavy-browed simian Iakaru are a rare sight in the galaxy, as their species never developed hyperdrive technology, and relatively few ventured offworld until recent years. Most still live in the rain forest canopies of Iakar as they have for thousands of years. However, the invasive presence of pharmaceutical companies (and, more recently, the Empire) has driven many Iakaru deeper into the jungles, or even offworld. It is possible that Iakaru may become a more common presence throughout the galaxy as more escape the continued despoiling of their homeworld.
+[P][B]Physiology:[b] Covered in coarse, dark fur with lighter, softer patches around their face and belly, Iakaru are constantly grooming themselves. Long, bushy eyebrows protect their two dark eyes and provide Iakaru with an instinctive sense of a number of environmental factors, including relative movement, wind speed, and even atmospheric pressure. An incredible sure-footed agility, tuned by millenia of gauging death-defying leaps and swings through the dense jungles of Iakar, complements their keen spatial awareness. Their grip is extremely strong, evolved to brachiate through the rain forest's branches and vines.
+[P][B]Society:[b] The Iakaru organize into tree-clans of fifteen to one hundred members each, led by the eldest females. They usually occupy the top fifty meters of jungle canopy, spending their time in a single home-tree and a few surrounding territory trees. The often-aggressive males occupy outer and lower branches , acting a sentries for females and children in the higher branches and closer to the trunk. Most males remain in the same tree-clan their entire lives, while females often join new clans when they come of age. Iakaru seldom venture to the forest floor, but they do wander to other trees within their territory. Boundary disputes with neighboring tree-clans have led to feudal conflicts, particularly during times of food scarcity.
+[P]In Iakaru culture, everything belongs to the tree-clan, which stores its assets in various cubbyholes along the main trunk. Food is the only exception, and anthropologists often describe Iakaru communal dining as akin to a Corellian bar brawl, except more energetic. Iakaru agriculture focuses on fruit-bearing vines grown above the canopy and insect farming in designated trunks near the home tree.
+[P]Tree-clans near mountains have access to metals and originate most Iakaru technology, which is unique, if obsolete by galactic standards. Iakaru are limited to solar energy, for which they have little storage capacity. Nevertheless, they have developed repulsorlift technology, which they use to expand workspaces along branches and to stretch fruit vines above the canopy during the daytime.
+[P]While early experiences with offworlders have left most Iakaru apprehensive, some of them engage in trade or act as guides, The influx of offworld technology has been a boon to Iakaru society, helping their civilization leap forward in recent decades. However, the coming of the Empire has brought with it mass deforestation, displacement, massacres, and more.
+[P][B]Homeworld:[b] Iakar is lush, green Outer Rim planet not far from the Derilyn system in the Elrood sector. Vast continental rain forests ring Iakar's equatorial latitudes, flanked by oceans and ice caps at the poles. The jungle, dense with kilometer-high trees, is interrupted by the occasional mountain range. The vertical ecosystem here has enabled the Iakaru to dominate their world in the canopy. There, they dine on fruits, seeds, and insects, which they share with a number of avian species. Below the canopy, rodents and insects feed on Iakaru waste while avoiding predatory felines and giant ambush spiders.
+[P][B]Language:[b] Iakaru communicate using a variety of sounds, but most of their complex ideas utilize a rapid stream of chittering and jabbering noises. They bark and screech when arguing over food or being threatened, and they make long, howling calls it they are away from home at night. Iakaru can learn and speak Basic, but their accent is heavy; most teach non-native friends to understand Iakari or suggest that they utilize a protocol droid.
+[P][B]Life under the Empire:[b] After escaping Iakar, most Iakaru fall in with smugglers, mercenaries, or pirates, but some join the growing resistance against the Empire. Their outstanding spatial awareness makes them strong pilots and expert gunners with anything from a sling to a shipboard turret. Those who have abandoned hope for a free Iakar also often find their way to swoop or Podracing circuits.</Description>
+  <Source Page="94">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>PILOTSP</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>IAKARUCH1</Key>
+      <Name>Environment</Name>
+      <Options>
+        <Option>
+          <Key>IAKARUCH1OP1</Key>
+          <Name>Brachiation</Name>
+          <Description>Iakaru suffer no terrian penalties to movement though jungles or similar environments. They also add [BO] to Athletics and Coordination checks related to climbing, swinging, and balancing.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

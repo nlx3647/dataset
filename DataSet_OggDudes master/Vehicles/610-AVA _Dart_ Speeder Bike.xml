@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>610AVA</Key>
+  <Name>610-AVA "Dart" Speeder Bike</Name>
+  <Description>[H3]610-AVA "Dart" Speeder Bike[h3]
+The 610-AVA "Dart" is a civilian version of Aratech's 614-AVA military speeder bike, a predecessor of the famous 74-Y used by the Imperial Army.  Lightweight and relatively sportym the Thunderbolt is an older design commonly found on backwater planets in the Outer Rim. It features a high-output ion engine and sport tuned control surfaces which give it respectable speed and agility. The control layout is simple and elegant, with everything save the pedals contained in a single aerodynamic pod, mounted forward of the pilot. The Dart's most distinctive feature is its collapsible frame rails, which allow the forward contol surfaces and control pod to retract almost entirely into the vehicle's body for ease of storage.
+[P]Collapsing or expanding the Dart speeder bike requires a maneuver. When collapsedm the vehicle is silhouette 1 and cannot be used.</Description>
+  <Source Page="53">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Speeder Bike</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>2400</Price>
+  <Rarity>6</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>Collapsing or expanding the Dart requires a maneuver.  When collapsed, the vehicle is silhouette 1 and cannot be used.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <MaxAltitude>20 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>9</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <Handling>1</Handling>
+  <HullTrauma>2</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

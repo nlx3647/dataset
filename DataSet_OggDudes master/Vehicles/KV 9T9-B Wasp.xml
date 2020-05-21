@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>KV9T9B</Key>
+  <Name>KV 9T9-B Wasp</Name>
+  <Description>[H3]KV 9T9-B Wasp[h3]
+Kelzar-Volvec, a producer of speeder and starship systems headquartered on the Outer Rim world of Temako, has a reputation for producing well-made, sturdy, and woefully bland products that perform well but are otherwise unexciting. Its first foray into the Podracer factory custom market, the 9T9-B Wasp, more that lives up to this reputation for mediocrity. Also known as the Voltec KT9 Wasp amongst serious racing enthusiasts, it is a competent, well-designed racer that is neither the fastest nor the most agile in its class. Aggressively average, this Podracer sits squarely in the middle of its contemporaries, offering a good, solid racer wieht few advanced features at a competitive price. It is powered by a pair of huge KVT Series 400 high-thrust fanjets mounted to a small but well-equpped Podracer cockpit by the usual control cables. The engines provide ample thrust and are equipped with a sophisticated control system that allows the pilot to fine-tune their output on the fly.
+[P]Despite its—perhaps unfair—reputation as a staid and boring Podracer for pilots at the end of their career, the 9T9-B does offer one rare and highly sought after feature—its reliability. The Wasp is an amazingly dependable and user friendly Podracer. It is easy to maintain and has a deep and varied aftermarket of perfomance modifications. In addition, the vehicle was designed around a modular hull and can be modified further than most racers in its class. Boring or not, it has a strong and active fan base in the Podracing community, and a number of Wasp-centric racing series have sprung up as a testament to its surprising popularity.</Description>
+  <Source Page="57">Endless Vigil</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Podracer</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>13450</Price>
+  <Rarity>5</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Easy to Maintain[b]: Decrease difficulty of checks to repair or perform maintenance by 1.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <MaxAltitude>40 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>2</EncumbranceCapacity>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>-1</Handling>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

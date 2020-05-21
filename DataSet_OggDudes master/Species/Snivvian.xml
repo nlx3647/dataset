@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SNIVVIAN</Key>
+  <Name>Snivvian</Name>
+  <Description>[H4]Snivvian[h4]
+
+Snivvians are a mammalian humanoid species native to the world of Cadomai Prime. They are sometimes called Snaggletooths due to their protruding jaws and short fangs. Because they come from a planet with a cold environment, evolution gave them thick skin instead of fur. Due to their oversized snouts, Snivvians make excellent scouts and trackers. Most Snivvians choose to speak Basic as well as a diverse range of secondary languages. Some refuse to let go of their native tongue for symbolic, subtextual, or fashionable reasons.
+
+[P][B]Physiology:[b] Their physiology is indicative of their environment, although it is somewhat unusual. The harsh, frigid conditions on Cadomai have given them thick skin instead of heavy fur. This skin is formed of special membranes that open and close pores to regulate heat loss, in response to temperature differences. Snivvians don't sweat, since their skin doesn't exude moisture. They also don't suffer from frostbite.
+
+[P][B]Society:[b] Snivvians are among the most renowned artists and authors in the galaxy. Their homeworld of Cadomai Prime has extremely cold temperatures and long winters, forcing the Snivvians to live long periods of time in subterranean caverns. During those long days, Snivvians develop their artistic talents and sensibilities. They produce masterpieces in holography, painting, sculpture, music, and the written word. Although technology would eventually lessen the need for this form of hibernation, Snivvians still feel the need—biologically and culturally—to continue the tradition. Many Snivvians travel throughout the galaxy in attempt to live the lives of the subjects of their future artistic works, even when it was dangerous.
+
+[P]Snivvians have a reputation for sociopathic tendencies similar to the Trandoshans, and they try to control their genetics in order to curtail such tendencies. When twin males are born, one of them will invariably display traits of psychotic genius.
+
+[P][B]Homeworld:[b] Cadomai Prime, also known as simply Cadomai, is a planet located in the Outer Rim Territories' Catarlo sector, along the northern end of the major hyperlane known as the Hydian Way. A frigid world with intolerably cold winters, Cadomai's tundra plains are home to the Snivvian species, who are renowned for their art. Cadomai also holds a large system of subterranean caverns, where the Snivvians make their homes during the subfreezing winters. Cadomai Prime possesses a single moon, and is part of the Cadomai system. 
+
+[P][B]Language:[b] Snivvian is the native language of the Snivvian species from Cadomai Prime. Most Snivvians are fluent in both Snivvian and Basic, although they are only literate in their own language, and they have a nasal accent when speaking Basic. Snivvians are fascinated by galactic culture, and thus are happy to speak Basic with non-Snivvians. However, there are some Snivvians who refuse to use Basic because of their personal philosophy. In any case, all Snivvians are delighted to encounter members of other species trying to communicate in Snivvian.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>12</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>SNIVVIANCH1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>SNIVVIANCH1OP1</Key>
+          <Name>Charm</Name>
+          <Description>Snivvian may begin the game with one free rank in Charm.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>CHARM</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>SNIVVIANCH1OP2</Key>
+          <Name>Perception</Name>
+          <Description>Snivvian may begin the game with one free rank in Perception.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>PERC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>SNIVVIANCH2</Key>
+      <Name>Resist</Name>
+      <Options>
+        <Option>
+          <Key>SNIVVIANCH2OP1</Key>
+          <Name>Cold Resistance</Name>
+          <Description>When making skill checks,
+Snivvians may remove [SETBACK][SETBACK]
+imposed due to cold environmental conditions.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>SNIVVIANCH3</Key>
+      <Name>Size</Name>
+      <Options>
+        <Option>
+          <Key>SNIVVIANCH3OP1</Key>
+          <Name>Silhouette</Name>
+          <Description>Snivvians have a Silhouette of 0.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>JTYPEBARGE</Key>
+  <Name>J-Type Diplomatic Barge</Name>
+  <Description>[H3][I]J[i]-Type Diplomatic Barge[h3]
+
+The J-type vessels produced by Nubia Star Drives, Incorporated began as a collaboration with the Theed Palace Space Vessel Engineering Corps serving the royalty and government of the planet Naboo. However, as the power and influence of Naboo's planetary institutions waned with the rise of the Empire, the designs were claimed as proprietary by Nubia Star Drives and put into production for a wider range of customers. The J-type diplomatic barge is one example of a craft produced under the former agreement entering into the greater galactic market. Although its price point reflects the wealth of the royalty who originally commissioned it, the barges grace is considered well worth the cost. 
+
+[P]The J-type diplomatic barge is just under 40 meters in length, but its expansive 91-meter wingspan greatly increases its profile. The craft's amenities, including luxurious passenger cabins, are located in a central envelope between the wings, while reinforced shield generators and powerful engines take up the bulk of the external space. Completely unarmed to better convey an air of diplomacy and peace, the vessel features speed and shielding capable of protecting its crew against most threats.</Description>
+  <Source>Desperate Allies</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Barge</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Price>1000000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>7</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot, one navigator, one-comms operator, one engineer</Crew>
+  <EncumbranceCapacity>180</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>36</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <BuiltInAttachments>
+    <Key>LUXPASSCOMP</Key>
+  </BuiltInAttachments>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

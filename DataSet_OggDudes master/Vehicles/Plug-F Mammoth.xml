@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>PLUGFMAM</Key>
+  <Name>Plug-F Mammoth</Name>
+  <Description>[H3]Collor Pondrat Plug-F Mammoth[h3]
+The massive intimidating Plug-F Mammoth is a triumph of thrust over aerodynamics. Produced by Collor Pondrat, the Mammoth was one of the first factory customs built. Marketed to wealthy, professional Podracing teams, the heart of the Plug-F is the huge Split-X chem-boosted turbojet engine system. These are comng the fastest, most powerful airbreathing turbine engines used in Podracing. they are also perhaps, the most fragile and dangerous to run thanks to their extremely volatile tradium fuel. Using a patented quold runium pressurization system and mixed with an ionized injectrine booster, the Split-X features performance capabilities well beyond anything else in its class. Unfortunately, the tradium fuel is so caustic and prone to spontaneous combustion that the engines wear out quickly, and they must be torn compltely down and rebuilt more often than other comparable engines.
+[P]Control avionics are provided by a licensed Invom Mk. IV Starweaver flight control suite, typically found on combat airspeeders. Equipped with a comprehensive system of maneuvering jets and advanced variable control surfaces, the Mammoth is remarkably easy to fly. It has been on the market for years now, and until recently has maintained a spot in the top five best-selling factory customs. Only in the past few years has the Mammoth been overtaken in popularity and sales—by Collor Pondrat's new Plug-2 Behemoth and Plug-G Gargantua models.</Description>
+  <Source Page="55">Endless Vigil</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Podracer</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>15600</Price>
+  <Rarity>8</Rarity>
+  <MaxAltitude>60 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>1</EncumbranceCapacity>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>-1</Handling>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>9</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

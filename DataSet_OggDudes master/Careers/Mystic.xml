@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MYSTIC</Key>
+  <Name>Mystic</Name>
+  <Description>
+    [H4]Mystic[h4]
+
+The Mystic's six career skills are [B]Charm, Coercion, Knowledge (Lore), Knowledge (Outer Rim), Perception,[b] and [B]Vigilance[b]. A Mystic automatically gains a rank in three of these skills without spending experience and gains a discount on increasing them with future experience points. [B]A Mystic begins play with a Force rating of 1.[b]
+
+[P][H4]A MYSTIC'S ROLE[h4]
+ 
+[P]Characters who follow the Mystic career are typically born to accept this mantle. From the time they first open their eyes, a strong connection to the Force colors their perception of the world surrounding them. They constantly perceive the ebb and flow of its energies between all living things. To many Mystics, the Force is as important a guide and mentor as their family and trusted friends. It teaches them to trust their instincts more than any training or instruction, for those instincts come from the Force.
+
+[P]Because Mystics dwell so deeply in the Force, they often learn to master a broad range of Force powers. Training and practice can, of course, enhance their aptitude, but not all of them require a teacher. Rather, many Mystics simply intuit their powers through experience and their connection to the Force. Many Mystics accept this as the natural way of things. They strongly believe that the Force guides and provides for them as long as they remember to remain open and aware of its presence. 
+
+[P]Many Mystics come from a culture where their connection to the Force has made them a person of importance. In some instances, they might have served as an advisor or even a magistrate. In other cases, their role could have been more religious or shamanic. They are likely to expect a certain degree of deference because of their previous experiences. This means many Mystics develop a powerful charisma and captivating presence. Some Mystics come by this naturally, able to convince others of what they have seen using soft words and persuasive arguments. Others work tirelessly to develop these personality traits, knowing that a compliment (or even a lie) in the right ear at the right time can quickly advance their goals.</Description>
+  <Source Page="78">Force and Destiny Core Rulebook</Source>
+  <Custom>CustomItem</Custom>
+  <CareerSkills>
+    <Key>CHARM</Key>
+    <Key>COERC</Key>
+    <Key>LORE</Key>
+    <Key>OUT</Key>
+    <Key>PERC</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>ADVISOR</Key>
+    <Key>ALCHEMIST</Key>
+    <Key>FORCEADHERENT</Key>
+    <Key>IMPERIALACADEMYCADET</Key>
+    <Key>MAGUS</Key>
+    <Key>MAKASHI</Key>
+    <Key>PADAWANSURVIVOR</Key>
+    <Key>PIRATE</Key>
+    <Key>PROPHET</Key>
+    <Key>RETIREDCLONETROOPER</Key>
+    <Key>SEER</Key>
+    <Key>SHIPCAPTAIN</Key>
+  </Specializations>
+  <Attributes>
+    <ForceRating>1</ForceRating>
+  </Attributes>
+  <FreeRanks>3</FreeRanks>
+</Career>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ROCKETBOOTS</Key>
+  <Name>Rocket Boots</Name>
+  <Description>[H3]Rocket Boots[h3]
+The ability to turn a leap into an extended flight at will offers a tremendous level of tactical versatility. If an opponent fails to recognize this capacity, then the advantage becomes even more substantial. Rocket boots enable an individual to take flight on a whim, without being as bulky or as obvious as a jetpack.
+[P]The convenience of their smaller size comes at a cost, however. Rocket boots cannot operate for extended periods, due to their limited cooling capacity. Furthermore, as they are worn far from a beings center of gravity, they are far more difficult to control.
+[P]Rocket boots enable a person to function as a Silhoette 1, Speed 1, Handling -3, System Strain Threshold 3 vehicle that can only operate in atmosphere, and requires Piloting (Planetary) to operate. At the end of each round of activation, the rocket boots suffer 1 system strain as their fuel depletes.
+[P][I]Note:  This is the vehicle profile of the rocket boots gear item.[i]</Description>
+  <Source Page="53">No Disintegrations</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Rocket Boots</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <Price>2500</Price>
+  <Rarity>8</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>Suffer 1 system strain at the end of each round of activation.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One wearer</Crew>
+  <Silhouette>1</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <SystemStrain>3</SystemStrain>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

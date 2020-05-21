@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>KAZELLISFR</Key>
+  <Name>Kazellis-Class Light Freighter</Name>
+  <Description>[H3][I]Kazellis[i]-Class Light Freighter[h3]
+Fast, agile, graceful, and stylish are the hallmarks of the [I]Kazellis[i]-class light freighter. The sole product of Kazellis Corporation, a small, amitious, tragically short lived shipyard in the Kathol sector, the [I]Kazellis[i]-class is a wonderful example of the shipwright's craft. Kazellis Corp set out to provide small cargo firms with a "pre-customized" vessel that was versatile and useful right off the slips, without need for lengthy and expensive aftermarket modifications. Using  top-of-the-line parts from providers such as Fabritech, Isa Sim, Girodyne, and Phoah Kinsmeyer, the shipwrights at Kazellis produced a multipurpose vessel that could often outfly, outcarry, and outrun anything in its class. [I]Kazellis[i]-class freighters entered the market just months before the outbreak of the Clone Wars to great, fanfare, but political unheaval in the Kathol system combined with some unfortunate business decisions by corporate leadership, ended their production run after only a few short years.
+[P]Today, the [I]Kazellis[i]-class light freighter is a vanishingly rare sight. Many starship enthusiasts lament its limited production, becasuse it is perhaps, on of the loveliest ship classes ever constructed. The ship has a broad hill shaped like a half moon, with its convex edge defining the aft, like the venerable YT-series freighters. The forward light deck emerges gracefully from the main hull, and from above or below, the vessel resembles a large bird in mid-flight. The interiors are well appointed, and the ship's systems are laid out in an intelligent, easy to access manner. The hold is modular, with sliding bulkheads and decks that allow it to be configured to carry nearly any cargo. The downsides, aside from the scarcity of parts and technical information, are its sub-par weapon systems and light shields. In all, though it is an excellent solidly built class that met its end far too soon.    </Description>
+  <Source Page="59">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>70000</Price>
+  <Rarity>8</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <DefFore>1</DefFore>
+  <Armor>3</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASCAN</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

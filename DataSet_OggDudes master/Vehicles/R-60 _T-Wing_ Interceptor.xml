@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>R60TWING</Key>
+  <Name>R-60 "T-Wing" Interceptor</Name>
+  <Description>[H3]R-60 "T-Wing" Interceptor[h3]
+
+The fast, lightweight R-60 T-wing is the latest starfighter offering from Hoersch-Kessel, Incorporated. Built to compete against the A-wing, the T-wing is a small, lightweight, short-range, fast response interceptor designed to operate close to its base of operation. With its sharp-edged, angular, wedge-shaped fuselage, the T-wing is an aggressive-looking little ship. Powered by a trio of H-K 5J Mk.11 afterburning ion engines, two mounted at the tips of the short s-foils and one mounted dorsally on a short pylon delivering thrust through an advanced vectoring system, on paper, the T-wing is a match for any Imperial fighter. In reality, however, the T-wing falls just short of the mark in a number of critical categories. 
+
+[P]While the T-wing isn't actually dangerous to fly, it suffers from the use of cheap, poor quality components and is plagued with a variety of small but infuriating problems. The fighter's shields are too light for its intended role, and have a worrying tendency to fail under moderate enemy fire. While the T-wing is equipped with a hyperdrive, the T-60's navicomputer software is obsolete and full of coding errors that make navigation more an act of faith than anything else. 
+[P]Despite these shortcomings, H-K hasn't slowed production and continues to search for a market for their bargain-basement interceptor. While the leadership of the Rebel Alliance refused to even consider the R-60 for service, a handful of third party operatives in the Outer Rim territories have shown interest in the T-wing, mostly due to its low cost and favorable parts and service packages offered by H-K salesmen.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>95000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Consumables>Two days</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>6</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>2</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

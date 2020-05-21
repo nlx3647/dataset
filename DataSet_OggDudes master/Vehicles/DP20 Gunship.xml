@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DP20</Key>
+  <Name>DP20 Gunship</Name>
+  <Description>
+    [H3]DP20 Gunship[h3]
+
+Known colloquially as the "Corellian Gunship," the DP20 is designed from the keel up as a pure, single-purpose military vessel. Built by CEC for the fleets of the Galactic Republic, DP2Os were deployed in response to increased threats from both droid starfighters and rogue bands of pirates fielding fleets of secondhand snubfighters. Composed of three hull sections strung along a single long reinforced multi-decked corridor, these ships are powered by an oversized ionization reactor giving it significant speed. 
+
+[P]Bristling with turbolasers, quad laser turrets, and concussion missile launchers, these ships are dedicated starfighter killers. They are heavily armed and shielded to protect them from massed fighter attacks, and are equipped with powerful targeting computers that allow the weapons to track and traverse fast and agile starfighters. This means the Corellian Gunship is a consummate anti-starfighter and anti-capital ship vessel. However, despite their utility, few of these ships see active duty with the Imperial Navy of today.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Frigate</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>3200000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>16</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>91 Officers and Enlisted Crew</Crew>
+  <EncumbranceCapacity>300</EncumbranceCapacity>
+  <Consumables>Eight Months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>55</HullTrauma>
+  <SystemStrain>30</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>8</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Retractable>true</Retractable>
+      <Key>LASERQUAD</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>CML</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>CML</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

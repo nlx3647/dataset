@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>EXPLORER</Key>
+  <Name>Explorer</Name>
+  <Description>
+    [H4]Explorer[h4]
+
+[P]The Explorer's eight career skills are [B]Astrogation, Cool, Knowledge (Lore), Knowledge (Outer Rim), Knowledge (Xenology), Perception, Piloting (Space),[b] and [B]Survival[b]. He automatically gains one rank in four of these skills (of his choosing) without spending experience, and he receives a discount when he spends experience to purchase ranks in any of these skills. 
+
+[P][H4]An Explorer's Role[h4]
+
+[P]The Empire is vast, but it is a mere fraction of the galaxy, and the Explorer seeks to uncover the countless mysteries and opportunities the universe contains. Explorers are both vitally important and insidiously dangerous to the New Order; on the one hand, they reveal information, trade routes, and resources that are deeply coveted by the Empire, and on the other hand, they expand the ranges into which rebels, criminals, and iconoclasts can spread out and avoid Imperial might. 
+
+[P]The Empire employs countless scouts and mercantile agents, and there are many more such entities working for the millions of galactic corporations seeking advantage over one another as they expand. The Explorer is a free agent; he makes his own way, tracks his own discoveries, and arranges his own special deals and connections. He will often sell the information he has at a decent price, or arrange to guide those who wish to go where he has been. 
+
+[P]Other Explorers scour the HoloNet and other data services, looking for groups, businesses, or organizations in need. This is why the most well-traveled Explorers are in the greatest demand: they have maps and information about places only a fraction of a percent of the galaxy's population might knows even exist. An Explorer with data about a planet a company wishes to exploit, or with a safe route to a part of the galaxy a group wishes to use for covert operations, can demand top prices. 
+
+[P]Any Explorer relatively new to the trade finds himself in the classic conundrum—he needs experience in order to attain the choicest contracts, yet he cannot gain that experience because he cannot get hired. As such, many Explorers will take on any opportunity to travel and work in the Outer Rim, gathering what knowledge and leads they can in order to build up their contacts. resources, and their library of maps and routes. Most commonly, Explorers are able to parlay their astrogation and pilot skills into work opportunities.</Description>
+  <Source Page="67">Edge of the Empire Core Rulebook</Source>
+  <Custom>CustomItem</Custom>
+  <CareerSkills>
+    <Key>ASTRO</Key>
+    <Key>COOL</Key>
+    <Key>LORE</Key>
+    <Key>OUT</Key>
+    <Key>PERC</Key>
+    <Key>PILOTSP</Key>
+    <Key>SURV</Key>
+    <Key>XEN</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>ARCHEOLOGIST</Key>
+    <Key>BGMHUNTER</Key>
+    <Key>DRIVER</Key>
+    <Key>FORCEADHERENT</Key>
+    <Key>FRINGER</Key>
+    <Key>IMPERIALACADEMYCADET</Key>
+    <Key>PADAWANSURVIVOR</Key>
+    <Key>PIRATE</Key>
+    <Key>RETIREDCLONETROOPER</Key>
+    <Key>SCOUT</Key>
+    <Key>SHIPCAPTAIN</Key>
+    <Key>TRADER</Key>
+  </Specializations>
+  <Attributes />
+  <FreeRanks>4</FreeRanks>
+</Career>

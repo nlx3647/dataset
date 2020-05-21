@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>YQ400</Key>
+  <Name>YQ-400 Monitor-Class System Patrol Ship</Name>
+  <Description>[H3]YQ-400 Monitor-Class System Patrol Ship[h3]
+
+The Monitor-class system patrol ship is a droid operated vessel marketed to planetary and system governmental bodies for patrolling shipping lanes and hyperspace entry points. Roughly the size of a small freighter or large shuttlecraft, the YQ-400 is a curious looking vessel whose design shares little in common with other Corellian Engineering Corporation products. The vessel's largest hull section consists of a single, high-performance ion turbine that looks as if it would be more at home on an Imperial cruiser. This is shrouded in three thin, angular hull plates, one mounted dorsally and two mounted low on the port and starboard sides, that protect the power generators and secondary thrusters. It has a blunt, rounded bow section dominated by a single, massive, deep blue photoreceptor four meters across. This section houses the droid brain that runs the ship, as well as all of its communications, avionics, and sensor systems. While they are well armed with laser cannons and ion weaponry, and are no slouch in a fight, Monitor-class droid ships are programmed to never fire on another vessel unprovoked. 
+[P]The droids that control the YQ-400s have a suspicious, officious personality and are possessed of near endless amounts of low cunning. Those individuals who work with them state that the droids are obsessive, worry about inconsequential details while often missing a larger picture, and have a tendency to speak and act like a peevish middle manager rather than a vigilant watcher. When in service, these vessels typically patrol a pre-determined route using only passive sensors to monitor space traffic, and are under orders to follow any suspicious vessel and report its whereabouts to system traffic control officers immediately. 
+
+[P]These unique ships were conceived and built by the Nerfworks, a semi-secret projects laboratory jointly funded by both Corellian Engineering Corporation and the Loronar Corporation. Located at CEC-L Shipyard Lab 6671-x42, Nerfworks combines the shipbuilding expertise of CEC with the talented programmers and neural engineers of the Loronar Corporation. Largely ignored by higher ups of both companies and given free rein with company expense accounts, Nerfworks is tasked with making breakthroughs in droid/starship interfaces. However, it is unlikely CEC will back a major droid-controlled shipbuilding program in the near future.</Description>
+  <Source>Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Patrol Boat</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Price>200000</Price>
+  <Rarity>8</Rarity>
+  <Crew>None (droid operated)</Crew>
+  <Consumables>Three months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>28</HullTrauma>
+  <SystemStrain>30</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

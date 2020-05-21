@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>JAWA</Key>
+  <Name>Jawa</Name>
+  <Description>[H4]Jawa[h4]
+
+Jawas are short rodent-like natives of Tatooine. They are passionate scavengers, seeking out technology for sale or trade in the deep deserts in their huge sandcrawler transports. They have a reputation for swindling, as they have a penchant for selling old equipment such as outdated faulty droids to moisture farmers. However, they are extremely passive beings, and hardly put up any resistance to colonists of their planet unlike the other natives the Sand people, instead seeing foreigners as an excellent business opportunity.
+
+[P][B]Physiology:[b] Jawas are easily identifiable by their traditional brown hooded robes, though it is not unheard of for them to wear other colors. Other notable features include their glowing yellow eyes, small stature and high pitched, quickly spoken language called Jawaese.
+
+[P]Through the study of corpses and skeletal remains, Baobab xenobiologists discovered that Jawas appear to be gaunt, rodent-like creatures, with shrunken faces and yellow eyes. Conflicting research suggests that Jawas and Tusken Raiders, two native species of Tatooine, originally evolved from the same extinct species, the Kumumgah, as both have common genetic markers, while other research suggests Jawas originated from humans.
+
+[P]At all times, Jawa faces remain obscured by a shroud of cloth to retain moisture, hide their identity and dissipate their body heat. Polished orange gemstones are embedded within the fabric to protect the Jawas’ sensitive vision from the bright sunlight. The only physical parts that are exposed are their hands, which have tufts of fur on the palms. Jawas are renowned for their incredibly potent odor. Repulsive to most species, this odor contains incredible amounts of information such as other Jawas' identity, health, clan lineage, last meal, maturity, arousal and even their mood. Their odor is compounded by a mysterious solution Jawas dip their clothes in to retain moisture, and their view of bathing as being a waste of precious water, which attracts swarms of insects to gather in the recesses of their hoods. Jawas evolved several important survival traits, such as exceptional night vision and a strong immune system. A Jawa’s normal body temperature is 46°C (116 F) which results in a high metabolism and an efficient digestive system that draws all the needed nutrients from the Jawa staple diet of hubba gourd.
+
+[P][B]Society:[b] Jawas are a communal, compulsive scavenger species who spend most of their life devoted to scavenging the deserts of Tatooine in search of any scrap metal, droid or mechanical part left behind from millennia of star travel and technological advancement, where the dry climate of Tatooine preserves almost all debris. Most non-Jawas regard the Jawas as scavengers and thieves, a description that most Jawas actually find pleasing.
+
+[P]The Jawa’s unofficial motto is not to look for uses in a salvaged item, but rather to imagine someone else who might find a use for it. And this is evidenced in their endless search for wares with which to trade with almost any being Jawas encounter. They have a kind of instinctive feel for machinery and electronics, notorious for knowing how to get a piece of equipment functioning just well enough to sell.
+
+[P][B]Homeworld:[b] Tatooine (pronounced /tætu'in/) is a desert world and the first planet in the binary Tatoo star system. It is part of the Arkanis sector in the Outer Rim Territories. It is inhabited by poor locals who mostly farm moisture for a living. Other activities include used equipment retailing and scrap dealing. The planet is on the 5709-DC Shipping Lane, a spur of the Triellus Trade Route, which itself connects to the Sisar Run. The planet is not far from the Corellian Run. It has its own navigation system. The planet acquired a bad reputation, often being viewed as the cesspool of the galaxy due to the large number of criminals who can be found there.
+
+[P][B]Language:[b] Jawaese is the native language of the Jawa species from Tatooine. It is mainly composed of meaningless syllables, supported by pheromone produced scents, which allow it to be understood. Jawa communication is based in these scents to such a high degree that the scent a Jawa gives out can tell others about that Jawa's mood.
+
+[P]Jawas cannot pronounce Basic language or many other extended languages due to several vocal limitations of the species. They can, however, learn to understand most existing languages.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>MECH</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>UTINNI</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>JAWACH1</Key>
+      <Name>Environment</Name>
+      <Options>
+        <Option>
+          <Key>JAWACH1OP1</Key>
+          <Name>Desert Dweller</Name>
+          <Description>Jawas may remove one [SETBACK] imposed due to arid or hot environmental conditions.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>JAWACH2</Key>
+      <Name>Size</Name>
+      <Options>
+        <Option>
+          <Key>JAWACH2OP1</Key>
+          <Name>Reduced Silhouette</Name>
+          <Description>Jawas have a Silhouette of 0.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

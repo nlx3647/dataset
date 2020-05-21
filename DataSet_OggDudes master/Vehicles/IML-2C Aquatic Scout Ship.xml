@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>IML2C</Key>
+  <Name>IML-2C Aquatic Scout Ship</Name>
+  <Description>[H3]IML-2C Aquatic Scout Ship[h3]
+Initially designed and produced to work in conjunction with larger base ships, the aquatic scout ships were designed to scout out possible mining locations. Their durability and endurance resulted in their being sold in small quantities throughout the Core Worlds and beyond. The IML-2c is capable of limited low-altitude flight as well as surface and submarine operations, making it an ideal transport for a wide variety of tasks on water worlds and when dealing with primarily aquatic polities.
+[P]Much mire expensive than less versatile watercraft, the IML-2c is one of the most adaptable watercraft available in the galaxy. A pressurized passenger compartment means that passengers and crew are completely protected from the depths as well as from inclement weather and atmospheres. Most often brought into service as a submarine vessel, the IML-2c outshines its airspeeder and landspeeder competition as it transitions from the depths to the waves, to short flights with ease.
+[P]Diplomats, envoys, and other emissaries whose duties call them to a planet appreciably covered with water often utilize the IML-2c to reach their counterparts beneath the waves. This craft, capable of traveling both along the surface and deep beneath, is ideal for facilitating face-to-face communication and negotiation. When remote communication with the powers who live beneath the waves of a Rim World is diplomatically impractical, the IML-2c offers an alternative that could well mean the difference between success and failure.</Description>
+  <Source Page="58">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Submersible</Type>
+  <Categories>
+    <Category>Watercraft</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>10000</Price>
+  <Rarity>5</Rarity>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, one comms technician</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Handling>1</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

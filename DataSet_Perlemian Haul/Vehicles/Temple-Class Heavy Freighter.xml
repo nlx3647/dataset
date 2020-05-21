@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TEMPLEFREIGHT</Key>
+  <Name>Temple-Class Heavy Freighter</Name>
+  <Description>[H3]Temple-Class Heavy Freighter[h3]
+Please see page 443 of the Age of Rebellion Core Rulebook for details.</Description>
+  <Source>Perlemian Haul</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Heavy  Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>6</HP>
+  <Price>950000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <MaxAltitude />
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>18</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>true</NaviComputer>
+  <SensorRange>Close</SensorRange>
+  <Crew>Fifty crew</Crew>
+  <EncumbranceCapacity>10000</EncumbranceCapacity>
+  <Passengers>150</Passengers>
+  <Consumables>Four months</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>75</HullTrauma>
+  <SystemStrain>24</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons />
+</Vehicle>

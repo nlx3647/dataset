@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATETWALKER</Key>
+  <Name>All-Terrain Exploration Transport</Name>
+  <Description>[H3]All-Terrain Exploration Transport[h3]
+A small variant of Rothana Heavy Engineering's AT-EST Exploration and Survey walker, the All Terrain Exploration Trasport (AT-ET) walker is still being used to traverse new worlds throughout the galaxy. More commonly known as the "strider", it features a central shassis surrounded by six powerful multi-jointed legs terminating in wide, pad like feet. Its legs also feature extending segments that allow the vehicle to safely open, with only the living and stowage area in the rear enclosed in a tough, environmentally sealed fabric  to ward off the elements. The forward hull features an open cockpit and passengers area, granting excellent visibility (and fields of fire when needed).
+[P]The Strider is an excellent choice for short-duration  ventures into areas where the terrain is thought to be hazardous (or is siply unknown). Less a combat vehicle than a light transport, it can carry four passengers as well as a pilot and navigator/communications operator. In a pinch, though, the pilot can assume navicomms duties to allow for an additional passenger. Many tales have been told of this tough vehicle slowly carrying ten or more additional passengers in emergencies, using makeshift handholds and sideboards mounted on the hull.
+[P]It is this level of customization that makes the AT-ET so versatile and beloved in the rougher regions of the galaxy. Its chassis has been endlessly modified to carry more powerful sensors finer passenger accomodations, stronger armor,  and even smuggling compartments. Through adding hull-mounted weapons, owners can also trun the Strider into an effective fighting vehicle, the better to withstand perils greater than those of dangerous terrain—such as rival explorers.</Description>
+  <Source Page="56">Savage Spirits</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>5000</Price>
+  <Rarity>4</Rarity>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, one navigation/comms operator</Crew>
+  <EncumbranceCapacity>25</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>1</Speed>
+  <Armor>1</Armor>
+  <HullTrauma>15</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

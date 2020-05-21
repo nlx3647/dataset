@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>T16SKYHOPPER</Key>
+  <Name>Incom T-16 Skyhopper</Name>
+  <Description>
+      [H3]Incom T-16 Skyhopper[h3]
+
+Beloved of hot-rodders, daredevils, and law enforcement agencies throughout the galaxy, Incom's T-16 skyhopper is as fun as it is dangerous. A tiny, fragile craft with a pyramidal hull and three airfoils arranged in a triangular formation, the skyhopper is fast, nimble, and incredibly demanding of its pilots. Equipped with a pressurized, one-person cockpit and powered by redoubtable E-16/x ion engines, the T-16 is capable of both astonishing straight-line speed and aerial agility from low altitude to the limits of the atmosphere. Built primarily for pleasure and sport flying, armed and lightly armored skyhoppers are used by many law enforcement agencies and paramilitary forces around the galaxy for reconnaissance and patrol. Some even serve as trainers for starfighter pilots, as the control layout and performance share features with starfighters like the Z-95 Headhunter and the new T-65 X-wing.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>7500</Price>
+  <Rarity>2</Rarity>
+  <MaxAltitude>300 kilometers</MaxAltitude>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>12</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Consumables>None</Consumables>
+  <Silhouette>2</Silhouette>
+  <Speed>4</Speed>
+  <Handling>3</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

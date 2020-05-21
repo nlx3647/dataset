@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>RX200FALCHION</Key>
+  <Name>RX-200 "Falchion" Ion Tank</Name>
+  <Description>[H3]RX-200 "Falchion" Ion Tank[h3]
+The RX-200 "Falchion" is a heavy anti-aircraft tank introduced by Rothana Heavy Engineering at the beginning of the Clone Wars. Equipped with a powerful ion cannon typically found on capital ships, the RX-200 is operated by a crew of two. It was typically deployed by the Grand Army of the Republic to defend installations or in support of the larger, heavier SPHA walkers. They have low-profile, lightly armored hulls and a high-output repulsorlift generator that moves the vehicle along at a respectable speed.
+[P]The RX-200's primary armament is a Borstel Galactic Defense NNJ-40 "Thunderbolt" long-range ion cannon. Mounted in a heavily armored turret and powered by its own high-output reactor, this weapon generates an extremely powerful ion blast capable of knocking out shields and frying systems at incredible ranges. When used in conjunction with other air-defense systems, the Falchion can deny a huge area of sky and, when focusing fire, can fell entire squadrons of speeders or starfighters. Falchions also mount a pair of light auto-blasters for close-range defense.
+[P]Still in use by the Empire, the Falchion is an important part of the Imperial Army's order of battle. Imperial Army Falchion squadrons are typically deployed around important installations to protect against incoming ships and fighters, although their appearance in the field in support of IA heavy walkers has turned the tide in more than one battle.</Description>
+  <Source Page="53">Knights of Fate</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Repulsor Tank</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>75000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <MaxAltitude>25 meters.</MaxAltitude>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>One pilot, one gunner, one vehicle commander.</Crew>
+  <EncumbranceCapacity>25</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>25</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>IONHVY</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

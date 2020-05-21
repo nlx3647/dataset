@@ -1,0 +1,781 @@
+<?xml version="1.0"?>
+<Skills xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Skill>
+    <Key>ASTRO</Key>
+    <Name>Astrogation</Name>
+    <Description>[H4]Astrogation (Intellect)[h4]
+There are many billions of stars within the galaxy, all of which are in motion relative to one another. Planets and other smaller masses constantly orbit many of these stars. There are also huge numbers of nebulae and other astronomical anomalies. Traveling between the worlds of the galaxy requires a rudimentary knowledge of the galaxy's organization and composition. It also requires a navicomputer that is well-informed as to the current time and the relative motion of all of these objects. The Astrogation skill represents a character's ability to use his knowledge of the galaxy to most effectively program the hyper-space coordinates for any jump. 
+&lt;ul&gt;
+&lt;li&gt;Any time that a character wishes to program a navicomputer for a hyperspace jump, he must first use Astrogation to program the navicomputer. 
+&lt;li&gt;Astrogation governs a character's basic knowledge of galactic geography. It may be checked any time a character wonders what other systems are nearby. 
+&lt;li&gt;In the event characters arrive in an unknown system, they may use a navicomputer and their Astrogation skill to identify their location. 
+&lt;li&gt;Astrogation also covers familiarity with the galaxy's hyperspace routes and the types of craft and commerce most common along those routes. 
+&lt;/ul&gt;
+The difficulty of a hyperspace jump is based upon the area being targeted and the distance being traveled. Travel to a nearby system along a well-established route is generally an [B]Easy ([DI])[b] check, and the difficulty increases based on the accuracy of navigational information and other factors. See page 246 for more information on hyperspace travel. 
+
+[P]Additional [SU] beyond those required to calculate a hyperspace jump may be used to better target the location. While a single net [SU] reaches the target system without incident, extras might place the character's vessel directly into orbit around the target planet. Alternatively, characters may use additional [SU] to reduce the time spent calculating, when rushed.
+
+[P][AD] rolled as part of an Astrogation check are most commonly used to reduce the travel time. On extended journeys, they might be used to identify convenient stopovers en route, where the vessel can resupply or conduct additional business to help defray the overall cost of the trip. A [TR] could be spent to either complete Astrogation calculations in the minimum amount of time, or greatly reduce the travel time involved. It could also reveal some highly valuable but previously unknown information, such as a much better, alternative travel route. 
+
+[P]Likewise, [TH]generated on an Astrogation check could decrease the accuracy or increase the travel time of a hyperspace jump, or simply cause a character to miss relevant details when analyzing hyperspace routes or galactic maps. [DE] can be spent in the same way but to greater magnitude, or it could trigger something truly awful happening, such as jumping out of hyperspace in the path of an asteroid.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>INT</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>ATHL</Key>
+    <Name>Athletics</Name>
+    <Description>[H4]Athletics (Brawn)[h4]
+Player Characters lead dramatic lives, filled with constant physical confrontations. Often that confrontation comes from an enemy with a blaster, but sometimes it may be a mountain to be scaled, a river to be swum, or a chasm that must be leapt. The Athletics skill governs these actions. It serves as a measure of the character's overall fitness and physical conditioning. Those who actively engage in a regimen of physical training such as survivalists or professional athletes are most likely to have a high rank of Athletics.
+&lt;ul&gt;
+&lt;li&gt;Any aspects of climbing—including rappelling or swinging on a line—fall under the purview of the Athletics skill. The difficulty of these tasks is calculated by the surface and weather conditions during the attempts. 
+&lt;li&gt;Characters who attempt to swim in difficult conditions must check their Athletics. Water conditions—particularly waves, current, and tides—dictate the overall challenge of any efforts to swim. 
+&lt;li&gt;A character's vertical and horizontal jump are both determined through use of an Athletics check. Gravitational conditions and the distance required factor into the difficulty. 
+&lt;li&gt;Any character can run, but sprinting or running for an extended time may fall under the purview of an Athletics check. 
+&lt;/ul&gt;
+The difficulty of an Athletics check is set by the severity of the task and the conditions. Attempting to perform a routine task under normal conditions should never require a check. A more challenging task—jumping more than a person's body length or staying afloat for hours—should require [DI] equal to the equivalent difficulty of the task. Adverse conditions—extreme rain, rough winds, or aggressive pursuit—could impose one or more [SE]. A combination of these elements can make a check significantly more difficult. Extremely adverse conditions—hurricane force winds or a surface covered in oil—and superhuman feats may introduce one or more [CH]. 
+
+[P]Additional [SU] on an Athletics check can either reduce the time required to make the check or increase the distance traveled with that check.
+
+[P][AD][AD] on an Athletics check may be used to grant the character an additional maneuver during the course of his turn that can only be taken to move or perform some sort of physical activity. See page 200 for more information, and remember characters can only take a maximum of two maneuvers in their turn. Advantage can also generate bonus [BO] on other physical checks performed by allies that turn, or on physical checks the character performs later.
+
+[P][TR] results on successful checks should allow the character to perform the check with truly impressive results—instead of heaving a boulder aside, he can hurl it bodily into the air, and instead of grabbing onto the edge of a hovering platform, the character could use his momentum to flip atop it, landing on his feet. 
+
+[P]As Athletics is usually used to perform physical actions, [TH] and [DE] results should most often result in physical penalties. Small amounts of [TH] may cause the character to suffer strain, while larger amounts of [TH] may cause the character to fall prone, or even suffer a wound from sprains and bruises. [TH] could even inflict a Critical Injury, chosen by the GM to be thematic or rolled randomly. </Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>BR</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>CHARM</Key>
+    <Name>Charm</Name>
+    <Description>[H4]Charm (Presence)[h4]
+For a character with a kind smile and a silver tongue, it may be possible to travel the galaxy depending upon the kindness of others. An individual with this knack is capable of giving just the right compliment to his target—often by deciphering the subject's social and cultural background. Note that the use of the Charm skill requires the acting character to maintain a degree of sincerity in his statements. A character who is flagrantly flattering with no basis in reality may be better suited to using the Deception skill. See [B]Social Skill Interactions[b] on page 113 for for more information. Politicians. salesmen, and con artists are all renowned for their Charm.
+&lt;ul&gt;
+[&lt;li&gt;Persuading an individual to make a special exception to his usual practices through flattery, flirting, and grace typically relies upon Charm. 
+&lt;li&gt;Appeals to a targets better nature—even if it does not exist—generally require a character to use Charm. These sorts of requests may often require the target to go out of his way to aid the characters, without any hope of remuneration. 
+&lt;li&gt;Seduction attempts for most species typically rely upon Charm, but for situations where the interest is entirely feigned it is often more appropriate to use Deception. 
+&lt;/ul&gt;
+Charm is often an opposed check, using the subject's Presence and Cool, except in situations where the PC is trying to Charm large groups, in which case it's often a set difficulty. Of course, situational modifiers may also apply based upon the character's style of dress, species, and other characteristics. For instances in which the desired outcome is directly opposed to the target's interests, an additional Difficulty die may be added. 
+
+[P]For situations in which the character is attempting to sway multiple subjects or a target who is already predisposed to react favorably toward the character, the character does not make an opposed check. Instead, the difficulty of the check is determined by the number of subjects and their disposition. Larger crowds or groups who are predisposed against the character's desired outcome require a more difficult check, while Charming those already favorable towards the character may require few, if any, Difficulty dice. 
+
+[P]Extra [SU] on a Charm check may be used to extend the target's support for additional scenes. Each Success spent in this way gains the character an extra scene in which the target is willing to support him.
+
+[P][AD] may be spent to affect unexpected subjects beyond the original target. These may be bystanders or others not directly involved in the scene, but who may aid the character in their own way. With a [TR], the player may choose to have a target NPC become a recurring character who remains predisposed to assist his character. This individual may not join the character's crew, but might offer a better than usual price for fencing goods, or may let certain legal charges slide. 
+
+[P][TH] and [DE] are, in a reverse fashion, harmful to a character's standing with those he is trying to sway. Threat may be spent to reduce the number of people the character is able to influence or to turn those affected negatively against the character. The GM may use [DE] to turn a single NPC against the character and to make him a minor recurring adversary.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>PR</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>COERC</Key>
+    <Name>Coercion</Name>
+    <Description>[H4]Coercion (Willpower)[h4]
+Some people believe that the only way to be respected is to be feared. Others may only grant respect to those whom they fear. When a character attempts to instill obedience in a target through the use of threats or acts of physical intimidation, they utilize Coercion. See [B]Social Skill Interactions[b] on page 113 for more information. Sith, military dictators, and organized crime leaders are all known for their ability to coerce their subjects.
+&lt;ul&gt;
+&lt;li&gt;Any time a character issues a threat, whether or not it is accompanied by hostile actions, he is using Coercion against the subject. An implied threat—such as gesturing or pointing towards a weapon—is sufficient to invoke Coercion.
+&lt;li&gt;If a target is questioned or persuaded under conditions of physical captivity, the acting character should make a Coercion check.
+&lt;li&gt;Acts of physical torture always invoke Coercion. Of course, physical violence may also induce strain or wounds in a subject. Such actions are separate from the actual Coercion attempt.
+&lt;/ul&gt;
+Coercion is an opposed check, resisted by the subject's Willpower and Discipline. Situational modifiers, such as the degree to which a subject is helpless or if the acting character's degree of threat is less significant than expected, may significantly affect the dice pool. Attempting to persuade a subject to betray his core beliefs should always add a Difficulty die to the pool.
+
+[P]In situations in which the character is attempting to intimidate multiple subjects or a target who is already threatened by the character, the character need not make an opposed check. In such circumstances, the difficulty of the check is determined by the number of subjects and their disposition. Larger crowds or groups who are more likely to resist forced authority require a more difficult check, while Coercing those already cowed by the character may require few, if any, Difficulty dice.
+
+[P]Extra [SU] on a Coercion check may be used to inflict strain upon the target at a rate of one strain per [SU][SU].
+
+[P]By spending [AD][AD], the character may affect unexpected subjects beyond the original target. These may be bystanders or others not directly involved in the scene, but who may be cowed by the character as a result of witnessing the Coercion attempt. With [TR], the character may completely break the subject's willpower. The target's allegiance shifts to that of a subjugated ally of the acting character rather than an opponent. The newfound follower may be exploited to gain additional information, assets, or even a spy within the ranks of a former foe. However, if the betrayal is discovered, this forced loyalty may not be permanent.
+
+[P]Intimidation and strong-arm tactics are only as successful as the strength and thought behind the attempt. The GM may spend and to undermine the outcome of a characters Coercion attempt. Extra [TH] may be spent by the GM to represent a building resentment to the Coercing character. Regardless of the success or failure of the Coercion attempt, the subject may grow to despise the character as a result of being strong-armed. [DE], on the other hand, may be spent to represent the character slipping up and revealing something about his goals and motivations to the target. For instance, a character attempting to coerce a target to give up security codes for a Hutt shipping lane may let slip information concerning the cargo he is attempting to smuggle through Hutt space.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>WIL</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>COMP</Key>
+    <Name>Computers</Name>
+    <Description>[H4]Computers (Intellect)[h4]
+The galaxy could scarcely function without the constant assistance of computers. Devices everywhere are linked together and coordinated by computers and droid brains. Those talented with computers can sometimes exploit these resources, or they might know how best to avoid those systems under computer control. Many people are so unconsciously dependent upon computers that those who can cleverly manipulate them may commit crimes without their victims even being aware of the offenses. Even using the HoloNet for communications or entertainment requires the use o computers—particularly if there are forces interfering with the system. This skill also governs the repair of a damaged computer system, defensive actions against an intruding slicer, and routine maintenance necessary to keep the software on a computer or droid running effectively. 
+&lt;ul&gt;
+&lt;li&gt;Attempts to open a locked door, control an elevator, or bypass a security system make use of the Computers skill. 
+&lt;li&gt;Searching through a subject's records, particularly if those notes are encrypted, makes use of Computers to overcome any security measures and interpret the material's organizational structure and any external links. 
+&lt;li&gt;Investigating what actions a slicer might have taken against a computer system requires the Computers skill to identify the files that have been accessed or altered. 
+&lt;li&gt;Efforts to alter a droid's programming or gain access to its memories require the acting character to make a Computers check. 
+&lt;li&gt;Characters must make a Computers check to recover data from a system that has suffered physical damage. 
+&lt;/ul&gt;
+The difficulty for a Computers check is calculated based upon any defenses present within the system and the inherent sophistication of the system against intrusion. Slicing into a tapcafe's systems to alter a transaction might be trivially easy, while a military outpost could be hardened and prepared for a slicer's assault. In general, the more vital the materials protected by the system, the more difficult the system should be to overcome. 
+
+[P]Additional [SU] may be spent to reduce the time required for the action undertaken. This is generally representative of the character's extensive familiarity with systems of the type targeted. 
+
+[P][AD] may be spent to uncover additional information about the system. The character might discover additional assets that could be targeted, the owner's personal journal entries, or the presence of well-concealed defenses. Once the presence of such systems is discovered, a character may attempt to gain access to them with further Computers checks. A [TR] may be spent to obfuscate any actions the character may have taken while slicing the system. Each [TR] may be spent to add [CH] to the check if another slicer should attempt to detect or identify the character's actions with a Computers check. 
+
+[P]The GM may spend [TH] generated on a character's Computers check to represent the character doing a poor job of concealing his presence in the system. Security systems are alerted to the presence of the character within the system, while other slicers attempting to discover evidence of the character's actions may add [BO] to their check for each [TH] generated by the character's initial Computers check.
+
+[P][DE]may be spent by a GM to represent the character leaving behind trace information of his own system in the computer system he was attempting to slice. For each [DE] generated by the character's Computer check, the GM may add [BO] to any future Computer checks in which an NPC uses the target system to slice the character's own computer system. </Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>INT</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>COOL</Key>
+    <Name>Cool</Name>
+    <Description>[H4]Cool (Presence)[h4]
+Life on the fringe is filled with an endless variety of dangers. The ability to stay calm and think as one's life hangs in the balance can be essential for survival among the constant stream of new threats. By remaining emotionally centered, the character is much more likely to be able to effectively prioritize issues and solve the most critical problems first. These characters are also better able to remember and focus upon achieving their goals, allowing outside influences to have much less effect. 
+
+[P]In some combat situations, a character's Initiative may be determined by his Cool skill. This is applicable under circumstances in which the acting character has calmly prepared to take action. See page 199 for the full details. 
+
+[P]A character's Cool may permit him to ignore many of the lies that come as part of a discussion. It is used to resist Charm and Negotiation. See [B]Social Skill Interactions[b] on page 113 for more information. 
+&lt;ul&gt;
+&lt;li&gt;Often, when someone is trying to be overly kind, the truth becomes lost among the niceties. Characters can use Cool to resist these efforts, penetrating through to the truth. 
+&lt;li&gt;If a character has set a trap for a target, carefully lining up a shot on an unsuspecting foe, he may check for Initiative using Cool, as he calmly selects the optimal time to begin the engagement. 
+&lt;li&gt;If multiple characters are engaging a third in a social discussion in which the timing of the argument matters, Cool may be used to determine Initiative, as that character is better prepared. 
+&lt;/ul&gt;
+There is rarely an extra [SU] on a Cool check, as it is generally used to oppose another's actions, or to determine Initiative, which takes all [SU]into account. 
+
+[P]An [AD] from a Cool check may be spent to give the character an additional insight into the situation at hand. He may notice an additional complication before it comes into play against him or identify an object that can be directly used against his opponent. Examples could be a rogue asteroid during a dogfight, a security officer near a sniper's target, or a magistrate's predilection towards a particular style of argument. 
+
+[P]A character who generates a [TR] result during a Cool check has not only stood unflinching as chaos erupts around him, but has actually come away better for it. For each [TR] result on a Cool check, the character may recover 3 strain. 
+
+[P]Sometimes a situation is so frantic that it can overwhelm even the most steadfast of souls. The GM may spend [TH] generated as a result of a Cool check to cause the character to miss a vital detail or event. For instance, if a character generates a [TH] during a duel, he may be so focused on his tar-get that he fails to notice the target's ally on the sidelines pulling a weapon of his own. If the situation goes badly enough, the character may lose all sense of where he is and what he is doing, effectively succumbing to minor shell-shock. The GM may spend any [DE] generated on a Cool check to Stun the character for one round as he is overwhelmed by the chaos around him. </Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>PR</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>COORD</Key>
+    <Name>Coordination</Name>
+    <Description>[H4]Coordination (Agility)[h4]
+When a character needs to go somewhere without being seen, it often requires him to balance upon unstable surfaces, crawl through narrow openings, or even to tumble down from a dangerous height. Overcoming these types of challenges requires a tremendous sense of balance and a heightened degree of flexibility. While both of those abilities depend heavily upon a person's natural characteristics, they can be further developed through regimens of practice and exercise. 
+[P]Any time a character needs to contort his body into an unusual position, Coordination is used to calculate the dice pool. Note that some species may be inherently more flexible than the norm. This benefit is discussed in their species description where applicable.
+
+[P]Many performers, mercenaries, and thieves become known for their natural flexibility and grace. For some, their lives may frequently depend upon their expertise in the skill. For others, the skill serves as an important complement to their other techniques. 
+&lt;ul&gt;
+&lt;li&gt;A character may attempt to reducing damage suffered when falling, diminishing the impact by rolling into a tumble on a successful Coordination action. See [B]Falling[b] on page 215 for more information. 
+&lt;li&gt;Walking across a narrow surface, whether a wide beam or a thin pipe, requires a tremendous sense of balance and a successful Coordination check. 
+&lt;li&gt;Characters can use Coordination to escape from restraints, contorting their limbs at unusual angles so that bindings slip free. 
+&lt;li&gt;Crawling through the twists and turns of a sewage pipe, ventilation duct, or garbage chute may require a successful Coordination check to avoid a sudden fall, or worse yet—becoming stuck in place. 
+&lt;/ul&gt;
+Any additional [SU] received when using Coordination may be spent to increase the distance traveled during the action checked, or decrease the time it takes to perform the action. Each Success spent in this way can increase the distance moved by 25%, up to a maximum of [SU][SU][SU][SU].
+
+[P][AD][AD] on a Coordination check may be used to grant the character an additional maneuver during the course of his turn. (However, during an encounter a character can only use two maneuvers per turn). [TR] on a Coordination check may be spent to accomplish the task with truly impressive results, either with 
+narrative flair, or granting additional benefits in the course of completing it. For example, instead of walking across a rope to get across a chasm, the character could cut the rope, swing across, and in doing so deny anyone the ability to follow him. 
+
+[P]To represent a character doing harm to his body in the process of a Coordination check, the GM could spend [TH] generated during that check to cause the character to lose his free maneuver for one round per Threat. [DE] represents something truly harmful happening to the character during his check. A character could suffer a wound as a result of [DE] during a Coordination check, or could lose a vital piece of equipment.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>AG</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>DECEP</Key>
+    <Name>Deception</Name>
+    <Description>[H4]Deception (Cunning)[h4]
+Sometimes a character needs to persuade someone to act a certain way, but lacks any leverage for the discussion. In times like this, a certain degree of moral flexibility may be necessary. Whether it is an effort to persuade someone to make a purchase, do a favor, or simply be somewhere else, a well-timed and convincing lie can often be the difference between success and failure. When a falsehood plays the central part of a persuasive effort, that character is employing the Deception skill. Con artists, infiltrators, and many less reputable diplomats and merchants are all masters of Deception. Many individuals outside of these fields make use of this skill, but it is seldom a critical focus of their development. 
+
+[P]Attempts to deceive are subject to the perceptions of the target. Deception is opposed by the subject's Discipline. See [B]Social Skill Interactions[b] on page 113 for more information. In situations in which the character is attempting to trick multiple subjects or a target who believes that character to be trustworthy, the character need not make an opposed check. In such circumstances, the difficulty of the check is determined by the number of subjects or their disposition (or both). Larger crowds or groups who are more likely to disbelieve the character require a more difficult check, while deceiving those already fooled by the character may require a lower difficulty. 
+&lt;ul&gt;
+&lt;li&gt;If a character wishes to mislead a buyer or seller about an object's value so that he may adjust the purchase price to his advantage, he uses Deception.
+&lt;li&gt;Any time a character wishes to distract an opponent through guile—even within the context of a physical confrontation—he may make use of Deception.
+&lt;li&gt;When pursued, a character, may choose to use Deception as a means to lay a false trail, in the hopes that the tracker might make a wrong turn, thus leaving the acting character ample time to escape. 
+&lt;/ul&gt;
+Extra [SU] on a Deception attempt may be spent to extend the duration of the Deception action. This could give the acting character ample time to travel off world before the treachery is noticed or might even leave the target less likely to notice the fraud and more susceptible to further deceptions. 
+
+[P][AD] may be used to increase the value of any goods or services gained through the action. The subject might simply believe that he is agreeing to fair terms with the liar. [TR] may be spent to fool the target into believing that the character is a trustworthy sort. Future Deception checks against the target do not require an opposed check, they are simply made at a baseline difficulty depending on the nature of the lie. 
+
+[P][TH] during a Deception check gives away a portion of the lie. Perhaps the target realizes that it has been lied to, but is unable to identify how much of the interaction is false, thereby becoming more suspicious of the character. [DE] may represent a more extreme example of this phenomenon; the target not only distrusts the character, but spreads the word of his deceit and harms his reputation amongst a small community of people. Additionally, the target may realize that he is being lied to and use the situation to his advantage, perhaps to insert some false information of his own. Perhaps the target is able to slip shoddy gear past the character by playing along with the lie.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>CUN</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>DISC</Key>
+    <Name>Discipline</Name>
+    <Description>[H4]Discipline (Willpower)[h4]
+There are boundless horrors present across the span of.the galaxy. Some—like the rancor, the wampa, and the krayt dragon—are natural entities, which are horrifically violent as an outgrowth of their environs. Others, such as Sithspawn horrors or the Death Star, are deliberate creations made by sentient life, which serve little purpose save to spread terror and destruction. Through the course of their adventures, characters may often encounter creatures that seek to dismember or devour them. The ability to maintain their composure and react in an effective manner is governed by their Discipline. This skill represents a character's ability to overcome his biological instincts, so that he can overcome things that might induce utter panic in a person of lesser resolve. 
+
+[P]A character's Discipline may enable him to overcome treachery and threats that others attempt to impose upon him. It is used to resist Leadership, Coercion, and Deception. See [B]Social Skill Interactions[b] on page 113 for more information. 
+
+[P]Discipline plays a key role in the development of Force abilities. See [B]Chapter VIII: The Force[b] for the full explanation. 
+&lt;ul&gt;
+&lt;li&gt;If a character is pinned down by heavy fire, he may need to pass a Discipline check in order to act normally. 
+&lt;li&gt;When confronted by a creature with inherently horrifying aspects, a character's ability to engage the foe rather than flee before its might is governed by the Discipline skill. 
+&lt;li&gt;Sometimes, a business contact might offer a character a deal that seems far too good to be true. The ability to resist such temptations is based upon Discipline. 
+&lt;li&gt;Mentally sorting truth from fiction and determining when someone is lying (and not letting oneself be swayed by those lies), is often a function of Discipline. 
+&lt;/ul&gt;
+Discipline is often used to oppose another's actions—where there is no roll—so it may not always be possible to generate an extra [SU]. In situations where an extra [SU] can be earned, one may be spent to downgrade [CH] to a [DI] on the characters next action. 
+
+[P][AD] from a Discipline check may be spent to give the character an additional insight into the situation at hand. He might notice a particular vulnerability on a seemingly indomitable foe or an unusual pattern to the suppressing fire that gives the character a moment to leap from cover. Often, the sight of an ally looking danger in the eyes and refusing to blink is all it takes to bolster one's resolve. [TR] generated during a Discipline check may be spent to add [BO] to any Discipline checks made by the character's allies during the following round. 
+
+[P]The GM may spend [TH] generated during a Discipline check to undermine the character's resolve, perhaps inflicting a penalty on further actions in the face of distressing circumstances. [DE] may be spent to overwhelm the character entirely. In this case, the character is unable to perform more than a single maneuver during the following round of combat.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>WIL</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>LEAD</Key>
+    <Name>Leadership</Name>
+    <Description>[H4]Leadership (Presence)[h4]
+Even the greatest of heroes may sometimes need the assistance of others to complete their goals. Certainly the most foul of villains consistently use legions of flunkies to assist them in their criminal rampages. The ability to lead such companions and devotees can play a crucial part in the success or failure of any endeavor. While some may follow out of fear or the promise of tremendous riches, ultimately most individuals choose to work with a person in whom they have faith and trust. The Leadership skill represents a characters ability to instill that belief in the people with whom he chooses to interact. Politicians, military officers, and crime bosses all determine their degree of success based upon their abilities to lead others. 
+
+[P]Leadership is a combination of being able to make smart decisions, being firm and decisive when doing so, and instilling a sense of loyalty and respect in one's subordinates. See [B]Social Skill Interactions[b] on page 113 for more information. 
+&lt;ul&gt;
+&lt;li&gt;If a character's allies have become subject to the effects of fear (see page 298), they may be rallied through a Leadership check. 
+&lt;li&gt;When acting in a public venue, a character may use Leadership to sway a crowd to take action, most commonly of a political nature. 
+&lt;li&gt;If a character's underlings have fallen before the guile of an opponent, he may reassert their loyalty to his cause by making a successful Leadership check. 
+&lt;/ul&gt;
+The difficulty of a Leadership check is based on the complexity of the orders a character is attempting to convey and the intelligence and professionalism of the subjects he is attempting to command. Particularly complex orders, or stubborn or particularly dull subjects, require a larger number of Difficulty dice, while a simple order given to a loyal servant may require few, if any, Difficulty dice. 
+
+[P]When a character attempts to command a target to perform an action that could result in his harm or is in some other way against his nature or best interest, an opposed check is required. The character's Leadership check is opposed by the Discipline or Willpower of the target, depending on the particulars of the order given. 
+
+[P]Extra [SU] on a Leadership check may be used to extend the target's support for additional scenes or may increase the efficiency or effectiveness of the target during the ordered actions.
+
+[P][AD]may be used to affect bystanders in addition to the target. With [TR], the player may choose to have the target NPC become a recurring character who decides to faithfully follow the acting character. This individual may decide to join the character's crew, offering his services as a permanent aide de camp. 
+
+[P]The GM may spend [TH] generated during a Leadership check to decrease the efficiency of the ordered actions, causing them to take longer or be done poorly. [DE] may be used to undermine the character's authority, damaging the character's ability to command the target or those who witnessed the attempt. Should a character accrue multiple [DE] on a single leadership check, the target may become a recurring thorn in the character's side, either by refusing future orders outright or turning others against the character. </Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>PR</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>MECH</Key>
+    <Name>Mechanics</Name>
+    <Description>[H4]Mechanics (Intellect)[h4]
+Space travel is fraught with dangers. A failed life support system can leave a crew desperate to find any haven where they might safely land. A failed hyperspace engine might strand them hopelessly far from the nearest repair yard. Individuals who accept these -dangers need to either have tremendous faith in the quality of their craft or the mechanical skills of its crew. Even in those cases where confidence is based upon a craft's quality and maintenance regimen, the presence of a capable mechanic can still be crucial to the ship's ultimate survival. 
+
+[P]Planetary and atmospheric craft, droids, and even a trusty blaster can break down at the least convenient possible moment. These different devices use vastly different technologies, but there are core concepts that any technical expert can carry over from one device to another. The Mechanics skill represents the expertise required for any of these repairs. The skill plays a critical role for any technician, but is also relevant for pilots, survivalists, and anyone else who travels the fringe. 
+&lt;ul&gt;
+&lt;li&gt;Any device that suffers physical damage may be repaired using the Mechanics skill with proper tools. 
+&lt;li&gt;A character may use Mechanics prior to beginning a repair job, so that he can identify the parts and tools necessary for the job along with their approximate cost. This information may be particularly useful to a character seeking to pay for repairs.
+&lt;li&gt;Sometimes, a character may have access to an extensive supply of discrete components or damaged devices. In this situation, attempts to construct a completely new device are dependent upon the Mechanics skill. 
+&lt;/ul&gt;
+At the Game Master's discretion, it may be impossible to complete a repair without the necessary tools or components. Alternatively, the Game Master may choose to apply additional [DI] to represent temporary fixes. 
+
+[P]Additional [SU] on a Mechanics check may be used to increase the efficiency of the action. Each additional [SU] may be used to reduce the time required to make the check by 10-20%. 
+
+[P][AD] generated during a Mechanics check can mean especially high-quality repairs, possibly even making the item even higher quality than it originally was. This may grant [BO] when using the item, or even make it count as having the Superior quality for a session. [TR] earned on a Mechanics check may give a device an additional function, which is only good for a single use. Examples might include a temporary engine speed boost or a more powerful blaster shot. The nature and precise details of this temporary function are subject to the Game Master's discretion. Mechanics checks may have specific rules when applied to repairing starships and vehicles, see page 243. 
+ 
+[P][TH] during a Mechanics check may represent particularly shoddy repairs or temporary measures. The GM may spend [TH] to cause the target object or system to malfunction shortly after the Mechanics check is completed. [DE] may be spent to cause further harm to the target object or system, or to cause other components of the target to begin to malfunction. </Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>INT</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>MED</Key>
+    <Name>Medicine</Name>
+    <Description>[H4]Medicine (Intellect)[h4]
+Through the course of their travels, characters are certain to suffer injuries. Minor injuries may not require medical intervention, but more serious ones may need the attentions of a trained professional. The Medicine skill is that training, and can be used to heal cuts and bruises as well as life-threatening injuries. 
+
+&lt;ul&gt;
+&lt;li&gt;Routine first aid, including medpacs, depend upon a character's abilities in Medicine. Medpacs are mercifully simple to use, but the difficulty may be complicated by the severity of the wound. 
+&lt;li&gt;The ability to treat a poison—or to inflict one—falls under the Medicine skill. This also governs the use of pharmaceutical and recreational drugs. 
+&lt;li&gt;Many planets harbor unique infectious diseases as well as parasites. A well-traveled medical technician may become familiar with both the symptoms and treatments for many such planetary syndromes. 
+&lt;li&gt;More serious treatments—including surgeries, cybernetic augmentations, and psychotherapy—are governed by Medicine, but generally require additional pharmaceuticals and medical instruments. 
+&lt;/ul&gt;
+The difficulty of the check is based on the target's current state of health. See [B]Table 3-2: Medical Check Difficulty[b]. On a successful check, the target recovers a number of wounds equal to the number of successes generated by the Medicine roll, and an amount of strain equal to the number of advantages generated. Note that a character may attempt only one Medicine check per week when helping a character to recover from critical wounds. Note also that droids may not benefit from Medicine, but they may substitute the Mechanics skill for these same healing checks. Characters attempting to treat their own injuries increase the difficulty of the Medicine check by [DI][DI].
+
+[P]Each [SU] on a Medicine check normally heals a single wound, up to the maximum number of wounds the target is currently suffering. Beyond that, additional [SU] have no mechanical effect but may represent particularly competent medical aid. 
+
+[P][AD] generated during a Medicine check may be spent to eliminate one strain from the target. [TR] generated during a Medicine check to heal a Critical Injury may also heal additional wounds, or vice versa.
+
+[P]A GM may use [TH] during a Medicine check to inflict strain on the target to represent the shock of the procedure or to increase the amount of time the procedure takes. [DE] represents a truly terrible accident, perhaps the character unintentionally inflicting further wounds on a target whom he was attempting to heal of a Critical Injury.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>INT</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>NEG</Key>
+    <Name>Negotiation</Name>
+    <Description>[H4]Negotiation (Presence)[h4]
+Often, the easiest way to get someone's cooperation is by giving them exactly what they want. The art of Negotiation deals with determining exactly how much of what a subject wants must be surrendered in order to get a particular good or service in return. A master negotiator might need to make only the most minimal of sacrifices in exchange for a vital service, while a novice could be forced to dramatically overpay—particularly if he lets his desperation show. This skill is essential for anyone who regularly deals in traded goods, but is also vitally important to anyone whose livelihood depends upon selling their services. 
+
+[P]Characters need to effectively negotiate if they ever hope to pay down their Obligations. Negotiation is opposed by the subject's Negotiation or Cool. See [B]Social Skill Interactions[b] on this page for more information. 
+&lt;ul&gt;
+&lt;li&gt;Any time a character wishes to purchase goods or services, he must either pay the seller's asking price or utilize the Negotiation skill.
+&lt;li&gt;If a character wishes to sell goods or services, the final price is determined by a Negotiation check. 
+&lt;li&gt;When two individuals create an agreement or treaty, they may make an opposed or competitive Negotiation check. The winner gains the better end of the resulting agreement. 
+&lt;/ul&gt;
+[P]Negotiation is usually an opposed check, using the target's Cool or Negotiation. Situational modifiers may also apply based upon any past relationship between the characters involved and the overall desirability of the goods and services in question. The cases where this skill may be used without an opposed check are exceedingly rare, but the opportunity may present itself. In such a case, the GM is encouraged to gauge the difficulty of the check by the factors mentioned above. 
+
+[P]Extra [SU] on a Negotiation check may be used to increase the acting character's profit by 5% per [SU]. They may alternatively be used to modify the scope of the agreement, so that the contract can extend for a longer period of time or more goods may be obtained for a given price. 
+
+[P][AD] generated during a Negotiation check may be spent to earn unrelated boons from the target, either concessions if the check is failed, or extra perks if it is passed. With a [TR], the player may choose to have the target NPC become a regular client or specialist vendor. The NPC might thereafter keep an eye out for specific goods the PC may be interested in, or offer referrals to other clients in regards to the quality of his service. 
+
+[P][TH] during a Negotiation check may be spent to increase the cost of goods the character is attempting to purchase, to decrease the value of those he is trying to sell, or to shorten contracts he is trying to negotiate. A GM may spend [DE] to seriously sabotage the character's goals during the interaction; perhaps the character receives counterfeit goods or payment, or agrees to terms that are entirely beyond the scope of the negotiation.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>PR</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>PERC</Key>
+    <Name>Perception</Name>
+    <Description>[H4]Perception (Cunning)[h4]
+Characters must often maintain a careful awareness of their environment. Subtle cues can hint at imminent danger or unexpected advantage. The Perception skill represents the character's constant, passive state of awareness. This is how a character notices concealed or subtle cues when he is not actively seeking them out. The skill is critical for anyone who faces dangers on a regular basis—whether they are in the wilds of a frontier world or among the urban jungle of a sprawling city.
+
+[P]Note that Perception encompasses all of a characters natural senses. Humans without cybernetic augmentation are limited to five. However, many alien races have additional means to perceive their surroundings. 
+&lt;ul&gt;
+&lt;li&gt;If a character is unprepared for a trap or an ambush, he may have an opportunity to make a Perception check to avoid being surprised. Alternatively, this might oppose an attacker's Stealth check. 
+&lt;li&gt;Opposed Skulduggery checks are often opposed by a target's Perception. 
+&lt;li&gt;Perception may be checked any time the character has an opportunity to notice a subtle clue—an overheard conversation, the stink of a Jawa, or a drug introduced to their beverage. 
+&lt;li&gt;Perception can be used in surveillance situations, where the user is trying to observe an unaware target from a distance. 
+&lt;/ul&gt;
+Perception may be opposed by skills used for concealment or might have a difficulty set by the environment. The noise of a loud factory could conceal a conversation just as a spicy drink might prevent a character from noticing a poison. 
+
+[P]Extra [SU] on a Perception check may be spent to reveal additional details. Perhaps the character recognized the speaker's accent, the pigments involved in a counterfeit artwork, or the number of attackers lying in ambush. 
+
+[P]An [AD] may be spent to recall additional information associated with the object noticed. Perhaps a passing familiarity with a field of study represents the reason why the character initially realized that something was out of place. A [TR] may be spent to notice details that can be useful later, so characters can gain [BO] on future interactions with the noticed element. 
+
+[P][TH] resulting from a Perception check may be spent by the GM to conceal a vital detail about the situation or environment from the character. A [DE] may be spent to cause the character to obtain false information about his surroundings or the target in question.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>CUN</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>PILOTPL</Key>
+    <Name>Piloting - Planetary</Name>
+    <Description>[H4]Piloting - Planetary (Agility)[h4]
+When characters travel across the surface of one of the galaxy's numerous worlds, they often stray far from their spacecraft. Smaller craft, particularly ones best suited to a given planet's habitats, are commonly used for surface transportation. This can include repulsorlift vehicles, watercraft, and aircraft. No matter how the vehicle moves—rolling, gliding, walking, flying, or floating—the skill that governs its use is Piloting (Planetary). 
+
+[P]Under normal traffic and environmental conditions, a character should never need to actually check the Piloting (Planetary) skill. Its use is reserved for the most extreme of conditions. This might include a high-speed pursuit, travel in treacherous weather conditions, the use of a failing vehicle, or any combination of these complications. For some, this skill is a passion and a livelihood; for others it is simply a necessity of their lifestyle. 
+&lt;/ul&gt;
+&lt;li&gt;If a character is confronted by a completely foreign type of atmospheric craft, they must make a Piloting (Planetary) check to decipher its basic controls. 
+&lt;li&gt;Any time two characters are involved in a race upon a world's surface, the results are determined by an opposed check using Piloting (Planetary). 
+&lt;li&gt;If a character is either chasing another or being chased, losing the follower or maintaining the tail is done through an opposed Piloting (Planetary) check.
+&lt;/ul&gt;
+The difficulty of a Piloting (Planetary) check may be determined based upon the difficulty of any particular maneuver, the prevailing weather conditions, and any features or failures on the vehicle involved. 
+
+[P]Extra [SU] on a Piloting (Planetary) check allow the acting character to gain insights into the situation. Alternatively, he might deduce a way that his vehicle could be modified so that it could be more effective in the future.
+
+[P][AD] generated during a Piloting (Planetary) check may be spent to reveal a vulnerability in an opponent's piloting style or vehicle, giving the character a benefit in later rounds of combat. [TR] on a Piloting (Planetary) check may be used to let the character take an additional maneuver action while continuing to pilot a vehicle. 
+
+[P]A GM may spend [TH][TH]during a Piloting (Planetary) check to give opponents [BO] on checks against the character and his vehicle to represent a momentary malfunction in one of the vehicle's systems. [TR] may be spent to deal actual damage to the vehicle, as the character strains systems throughout the vehicle during his check.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>AG</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>PILOTSP</Key>
+    <Name>Piloting - Space</Name>
+    <Description>[H4]Piloting - Space (Agility)[h4]
+Those who travel between worlds find their ability to pilot a starship paramount. Some use these craft as weapons of war, working as mercenaries in any of the galaxy's countless conflicts. Others use their vessels to transport desirable goods—either legally or illegally—so that they might be delivered to anxious consumers. Whether a crew is attempting to avoid enemy fire or simply unwanted attention, their success or failure is most often dependent upon the person manning the helm. 
+
+[P]Routine actions—like taking off or landing without additional complications—do not require a Piloting (Space) check. When those actions are complicated by a blinding sandstorm, a failed motivator, or enemy fire, then skill checks come into play. 
+&lt;ul&gt;
+&lt;li&gt;Whenever two or more spaceships race, a competitive Piloting (Space) check determines the results. 
+&lt;li&gt;Chases, whether they are through asteroid belts, within a crowded battlefield, or skirting the edge of a gravimetric instability, are resolved with an opposed Piloting (Space) check. 
+&lt;li&gt;During a space conflict, pilots may often jockey for position to determine which shields face the enemy and which weapons may be brought to bear. When opponents attempt to negate these efforts, the winner is identified through an opposed Piloting (Space) check. 
+&lt;/ul&gt;
+The difficulty of a Piloting (Space) check may be determined based upon the difficulty of any particular maneuver, any unusual navigational hazards, and any features or failures on the spacecraft involved. 
+
+[P]Extra [SU] on a Piloting (Space) check allow the acting character to gain insights into the situation. Alternatively, he might deduce a way that his vehicle could be modified so that it could be more effective in the future.
+
+[P][AD] generated during a Piloting (Space) check may be spent to reveal a vulnerability in an opponent's piloting style or vehicle, giving the character a benefit in later rounds of combat. A [TR] on a Piloting (Space) check may be used to let the character take an additional maneuver action while continuing to pilot a vehicle. 
+
+[P]A GM may spend two [TH] during a Piloting (Space) check to give opponents [BO] on checks against the character and his vehicle to represent a momentary malfunction in one of the vehicle's systems. [DE] may be spent to deal actual damage to the vehicle, as the character strains systems throughout the vehicle during his check. </Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>AG</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>RESIL</Key>
+    <Name>Resilience</Name>
+    <Description>[H4]Resilience (Brawn)[h4]
+The galaxy doesn't stop moving lust because a character needs a break. To achieve their objectives, characters must often have the perseverance to overcome the most challenging obstacles. These can include sleep deprivation, hideous climates, and malnutrition. They might also ingest toxins, either inadvertently when scavenging for food or due to the malicious actions of a competitor. 
+
+[P]Resilience represents a character's physical fortitude against all threats of this sort. This skill reflects the body's ability to be pushed beyond reasonable limits. When characters make a Resilience check, their actions are typically taking them into situations that most would consider bad ideas. 
+&lt;ul&gt;
+&lt;li&gt;When a character attempts to go without sleep for significantly longer than is healthy for his species, he must make a Resilience check to remain awake. 
+&lt;li&gt;If a character ingests a toxin, he uses Resilience to resist its effects.
+&lt;li&gt;When a character endures prolonged exposure to a hostile environment—including heat, cold, or toxic pollution—the consequences may be mitigated with a successful Resilience check. 
+&lt;li&gt;Dehydration and malnutrition can quickly leave a character badly fatigued, and Resistance protects against this. 
+&lt;/ul&gt;
+The difficulty for a Resilience check is based upon the severity of the effects that the character attempts to overcome. Going 24 hours without sleep could add only a single [DI], but traveling through the Tatooine desert with inadequate water at midday should be far more difficult. 
+
+[P]Extra [SU] on a Resilience check may be used to ex-tend the effects of the Success, so that the character may go for a longer period of time prior to making an additional check. 
+
+[P]An [AD] earned on a Resilience check may be used to identify a way for the character and his allies to reduce the difficulty of future checks against the same threat, while a [TR] may be spent to recover three strain as the character resolves to work through the adversity. 
+
+[P]The GM may spend [TH] generated during a Resilience check to overburden the character, inflicting penalties on subsequent checks. [DE] may be spent to inflict a wound or a minor Critical Injury on the character as he succumbs to the harsh conditions.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>BR</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>SKUL</Key>
+    <Name>Skulduggery</Name>
+    <Description>[H4]Skulduggery (Cunning)[h4]
+Skulduggery encompasses a broad range of skills that are crucial to performing criminal actions. These include the physical abilities to perform a crime as well as the mental familiarity with different techniques. This includes picking pockets and locks, breaking into and out of secure facilities, sleight of hand, disguise, setting traps, and other mischievous actions. At the Game Master's discretion, a particular Skulduggery check may use Agility instead of Cunning, to reflect a more physical approach.
+&lt;ul&gt;
+&lt;li&gt;If a character attempts to pick a lock or pocket, he often uses Skulduggery. Some electronic locks could require Computers or Skulduggery, or both. 
+&lt;li&gt;Once an imprisoned character slipped his bonds using Coordination, escaping from a cell depends upon Skulduggery for picking locks and avoiding security. 
+&lt;li&gt;Identifying the most vulnerable aspects of a security scheme can be nearly intuitive for a character that has become practiced in Skulduggery. 
+&lt;/ul&gt;
+Skulduggery is often opposed by a target's Perception. In instances where another character is not directly involved, the quality of the object being overcome should determine the degree of difficulty. 
+
+[P]One or more [SU] on a Skulduggery check should indicate additional insights that the acting character gained about the nature of his opposition. This might suggest that the thief could better plan his strategy against the current foe to avoid future complications. 
+
+[P]A character may spend [AD] earned on a Skulduggery check to identify an additional potential target, or gain additional items. Perhaps as the characters make good their escape, they discover their opponent's cache of antique weapons. A [TR] may be spent to earn the character a boon he had not expected. In such cases, the value of the item stolen might exceed his expectations, and might also provide vital information. When using Skulduggery to pick a lock, the character might devise a near permanent means of overcoming the lock, perhaps by crafting a makeshift key or by getting access to the actual key itself. 
+
+[P]By generating [TH] during a Skulduggery check, a character gives the GM the opportunity to catch him immediately after the act. Depending on the amount of Threat spent by the GM, the character will be in varying degrees of danger; the more Threat, the more immediate the discovery and ensuing danger. The GM may spend [DE] to cause the character to leave behind some evidence of his larceny. Perhaps a recognizable piece of adornment, such as the character's heirloom ring, slips off into the target's pocket as the character attempts to pick it.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>CUN</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>STEAL</Key>
+    <Name>Stealth</Name>
+    <Description>[H4]Stealth (Agility)[h4]
+Often, a character may have business to conduct that is best completed with a certain degree of privacy. It might be that there are powerful individuals—either legal or criminal authorities—who are directly opposed to his choice of actions. Other times, a character might either be collecting or avoiding a bounty. Under such conditions, a successful endeavor may depend entirely upon how talented the character is at not being noticed. The Stealth skill reflects this ability under virtually all situations. 
+
+[P]Any criminal that depends upon physical insertion must be a master of this trade. Similarly, anyone whose skills include espionage needs to be able to avoid notice. Stealth also encompasses wilderness camouflage skills, which may be crucial to any hunter.
+&lt;ul&gt;
+&lt;li&gt;Attempts to hide from all of an opponent's senses are dependent upon Stealth, though difficulties may be modified by ambient conditions and any applicable gear. 
+&lt;li&gt;Stealth can allow characters to shadow or follow individuals without being detected. 
+&lt;li&gt;Characters may attempt to hide people or objects from the attentions of others, either through concealment or misdirection. Such actions are dependent upon their Stealth skill. 
+&lt;/ul&gt;
+The difficulty of a Stealth check often depends on the abilities of those the character is attempting to avoid. Members of species that are more dependent upon smell, hearing, or other senses may be most susceptible to Stealth under different weather conditions or distracted by events that seem trivial to a species focused on visual cues. 
+
+[P]Stealth checks are typically opposed by Perception, based upon whether the opponent is passively or actively searching for the hidden character. 
+
+[P]Extra [SU] on a Stealth check may be used to aid any allied characters that are infiltrating at the same time. Effectively, the successful character points out a factor that might otherwise have caused the ally to fail. 
+
+[P][AD] may be spent to decrease the amount of time required to perform a given task while using the Stealth skill. This could represent the character finding superior cover, giving him the ability to move faster while remaining out of sight, or successfully distracting a key figure to give him access to his target. Under the right circumstances, a character may spend a [TR] to identify a way to completely distract an opponent for the duration of the scene. This could allow the character to drop all pretense of Stealth in favor of completing a task far more swiftly. 
+
+[P]The GM may spend [TH] generated during a Stealth check to hinder the character as he attempts to remain hidden. The character may need to overcome a particularly unpleasant obstacle or take extra time to remain out of sight. The GM may increase the time it takes for the character to perform his desired action while hidden by 25% per [TH] spent in this way. The GM may spend [DE] to cause the character to leave behind some evidence of his passing. While this has no bearing on the success or failure of his Stealth check, some object, clue, or information is left behind concerning the character's identity and possibly even his motive.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>AG</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>SW</Key>
+    <Name>Streetwise</Name>
+    <Description>[H4]Streetwise (Cunning)[h4]
+Life on the galaxy's fringe—and in the less savory portions of the Core Worlds—is filled with treachery. A stranger can seldom be trusted, and a friend might turn traitor for the right compensation. Those who manage to survive in such an environment soon learn to recognize the warning signs that come with danger as well as those that might signal an opportunity. Knowing where to go for help when times are hard can be just as important as knowing how to avoid an unwinnable confrontation. 
+
+[P]The Streetwise skill represents the instinctive understanding that comes from a lifetime of such experiences. While a few manage to learn the signs and develop a gut instinct through careful study and association with those who have lived this hard life, most come about this information through the school of hard knocks. If a character expects to thrive within the complex network of the criminal underworld, he must learn to speak its language and recognize the roles of those involved. 
+&lt;ul&gt;
+&lt;li&gt;If a character is looking for a merchant who specializes in unsavory goods or illicit services, such a merchant may be located through a Streetwise check. 
+&lt;li&gt;Streetwise represents a character's instinct for how to pick up on subtle cues from the language and attitudes of those who operate outside of legal structures. It may be used to understand subtle references within conversations. 
+&lt;li&gt;When dealing with criminals or underworld elements, knowing how to approach them and open a conversation without coming across as a threat uses Streetwise. 
+&lt;/ul&gt;
+Generally, Knowledge (Underworld) governs specific information and facts involving criminals and underworld elements. Streetwise governs how to use that information effectively, and how to operate in [I]any[i] criminal environment. Extra [SU] on a Streetwise check may be used to reduce the time or funds required to obtain the item, service, or information sought. 
+
+[P][AD] may reveal additional rumors or alternative sources that can be used to find something. [TR] may be spent to earn the character a semi-permanent contact on the street, someone to whom the character may turn for information regularly with a reasonable assurance of trust. 
+
+[P]The GM may spend [TH] generated during a Streetwise check to seed the gathered information with minor falsehoods, representing the ever-changing nature of information passed by word of mouth on the street. [DE] may be spent to represent a character letting slip details about himself or the information he seeks, information that may be picked up by an adversary.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>CUN</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>SURV</Key>
+    <Name>Survival</Name>
+    <Description>[H4]Survival (Cunning)[h4]
+It is not uncommon for characters to become isolated far from civilized worlds. Sometimes this is by choice, other times, they could be stranded on a world, hoping for some sort of rescue. Learning to recognize the dangers of the natural environment as well as exploiting its resources is dependent upon the Survival skill. 
+
+[P]Characters who spent their formative years on wilderness planets often have this skill as part of their background. Others may learn it as part of military training. Some may be completely dependent upon it as their job focuses on traveling to untamed worlds so that they may exploit their natural resources. 
+&lt;ul&gt;
+&lt;li&gt;When a character needs to identify safe food, potable water, or shelter in a natural environment, each of these tasks requires a Survival check. 
+&lt;li&gt;Characters who are skilled at Survival understand weather patterns; recognizing the signs of imminent dangerous conditions, and knowing how to prepare. 
+&lt;li&gt;Tracking a subject through the wilderness—whether game or a bounty—is dependent upon, Survival.
+&lt;li&gt;Survival governs a character's ability to handle domesticated animals, so that they may be used as beasts of burden or as transport. 
+&lt;/ul&gt;
+The difficulty for a Survival check is dependent upon the severity of the environment. Key factors are the biocompatibility of a world's native life with the PC, weather conditions, and the basic tools on hand. 
+
+[P][SU]that exceed the difficulty on a Survival check may be used to assist other characters in surviving. Alternatively, the character may choose to stockpile goods so that he may go a longer period of time between checks. 
+
+[P][AD] may be spent to gain an insight into the environment that makes future Survival checks easier. This might be a watering hole where prey is common, an abandoned cave that makes an excellent shelter, or a grove of biocompatible fruit trees. When tracking, an [AD] may be spent to learn a detail about the target, its numbers, its species, or how recently tracks were made. [TR] generated during a Survival check to handle animals may be spent to permanently predispose the target animal towards the character in a positive way, effectively earning the character a loyal companion. While tracking, [TR] may be spent to learn a vital clue about the target, whether his destination, his disposition, or the presence of prisoners or cargo. 
+
+[P]The GM may spend [TH] generated on a Survival check to represent the character spending vital resources during the course of his check, perhaps using food as bait to catch game, or losing fuel in an attempt to make a fire. [DE] may be spent to inflict wounds, Critical Injuries, or high levels of strain on the character as he succumbs to the untamed environments of the galaxy.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>CUN</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>VIGIL</Key>
+    <Name>Vigilance</Name>
+    <Description>[H4]Vigilance (Willpower)[h4]
+In uncertain times, individuals who are constantly prepared to face a variety of challenges are far more likely to succeed than those who simply react to the ever-changing circumstance. This sort of preparedness requires mental discipline, and can require instantaneous decisions when disaster or unexpected events suddenly strike. 
+
+[P]Characters who must remain alert because of the nature of their lifestyles are often particularly vigilant. This includes those who live within hostile environments—either urban jungles or dangerous wilderness—as well as professional soldiers. This skill is often associated with a high degree of self-assuredness. 
+&lt;ul&gt;
+&lt;li&gt;In combat situations, outside of those times when a character has patiently prepared to begin the engagement, Vigilance is used to calculate Initiative. 
+&lt;li&gt;Vigilance represents how fastidious a character is about preparing for unexpected crises. Any time there is a question regarding whether a small piece of gear might be available, a Vigilance check can be made to confirm its presence. 
+&lt;/ul&gt;
+The difficulty for a Vigilance check is typically modified by the likelihood of the incident that occurs. A character might be prepared for an ambush when traveling a darkened alley, but is unlikely to expect a groundquake in the middle of the night. A poor result on such a check might leave the character momentarily unable to act as he mentally attempts to decipher the current situation. 
+
+[P]When calculating Initiative, all [SU] are generally used as part of the calculation. In other situations where this check is critical, extra [SU] may indicate that the character was particularly well-prepared for this sort of conflict. Some important supply might be readily accessible.
+
+[P]Characters may spend [AD] on a Vigilance check to notice an environmental factor that could play a key part in the relevant scene. This might be excellent cover, a convenient escape route, or something that could be used to distract a foe. [TR] may be spent to allow the character to take an extra maneuver during the first round of a combat, as his keen awareness alerts him to a situation before it even arises. See page 200 for more information, and remember characters can only take a maximum of two maneuvers in their turn.
+
+[P]The GM may spend [TH] generated during a Vigilance check to cause the character to miss a key piece of information about the situation or the environment, blinding him to a possible advantage. The GM may spend [DE] to make the character unable to perform more than a single maneuver during the first round of combat.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>WIL</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>BRAWL</Key>
+    <Name>Brawl</Name>
+    <Description>[H4]Brawl (Brawn)[h4]
+During some physical confrontations, a character seeks to incapacitate his foe without seriously injuring him. At other times, a melee erupts with little preparation, and a character may not have any weapon at hand. Some individuals are thoroughly trained in unarmed combat, or have natural weapons that they prefer to use during physical altercations. In any of these situations, Brawl is the skill used to determine success or failure in the combat. 
+
+[P]Most characters who grew up in a hostile environment have some knack for Brawl. All wildlife—particularly those with natural weapons—use Brawl when forced into a confrontation. Anyone who participates in military or law enforcement training learns some basic martial arts, which fall under the Brawl skill. Even more advanced or esoteric martial arts fall under the auspice of this skill. However, improvised weapons—such as a bottle or a table leg—are used with the Melee skill. 
+
+[P]In some conflicts, characters may be bound by the legal or social restrictions into fighting without weapons. Drawing a weapon could quickly escalate matters to a lethal fight and might have other repercussions, forcing the characters to depend upon their Brawl skill. 
+
+[P]Brawl is used in unarmed combat, see page 211 for more details about this. The difficulty of Brawl checks is Average [DI][DI] (the difficulty of all melee attacks) unless the opponent is incapable of resisting (in which case it might be easier at the GM's discretion). See page 204 for more details.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>BR</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>GUNN</Key>
+    <Name>Gunnery</Name>
+    <Description>[H4]Gunnery (Agility)[h4]
+Many weapons are simply too large for a person to carry. In order to bring such a weapon to bear against an opponent, it may be mounted aboard a vehicle, hastily assembled where needed, or even built into a substantial defensive emplacement. Weapons of this sort might require a team to transport, assemble, and ultimately operate.
+
+[P]Characters seldom gain experience with weapons of this magnitude outside of military training. Weapons of this caliber are also difficult to acquire for anything but government entities. Only the most dangerous worlds have natural predators that require a weapon of this power as a proportionate response. Gunnery applies to laser cannons and proton torpedoes mounted on starships. Larger mounted weapon systems like heavy laser turrets and ion cannons are also fired using this skill.
+&lt;ul&gt;
+&lt;li&gt;If a character is piloting a starfighter, it may have weapons that are mounted upon it with a fixed orientation. Prior to making a Gunnery check, the pilot may need to maneuver his craft in order to achieve a firing solution. 
+&lt;li&gt;Characters using Gunnery to fire turret-mounted weapons may need to hold their action until a pilot can drive the vehicle so that targets are within the weapon's firing arc. 
+&lt;li&gt;Complex targeting computers and automated weapons mounts are often used with large scale weapons. Operating this equipment also falls under Gunnery. 
+&lt;/ul&gt;
+Gunnery check difficulties are determined by the distance to the target or relative silhouettes, depending on the weapon fired. The difficulty may be modified by maneuvers the character makes and specific combat situational modifiers as described in [B]Chapter VI: Conflict and Combat[b].</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>AG</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>MELEE</Key>
+    <Name>Melee</Name>
+    <Description>[H4]Melee (Brawn)[h4]
+All ranged weapons require some sort of ammunition and many are loud. They typically have fragile components or require regular maintenance, which may require its own set of tools. By contrast, most melee weapons are inexpensive, virtually silent, and require little maintenance and no power beyond the strength of their wielder's limbs. Virtually any reasonably sturdy object can be used as a makeshift weapon, so a character who has become adept at the Melee skill can often make do with what's available. 
+
+[P]The majority of melee weapons depend upon the wielder's strength to inflict damage, but a few have their own energy sources. These weapons—including stun batons, vibroblades, and force pikes—are much more technically sophisticated than a simple club. However, their core principles remain the same. When a character masters the art of striking with one melee weapon, the core concepts translate effectively to other melee weapons. 
+
+[P]Any military training includes at least a basic course in melee combat preparation. In addition, characters who have spent time on primitive worlds may have learned to defend themselves with melee weapons. Aristocrats and nobles, in some systems, may- also learn a number of melee techniques as part of their cultural traditions. 
+
+[P]The difficulty of Melee checks is Average [DI][DI] (the difficulty of all melee attacks) unless the opponent is incapable of resisting (in which case it might be easier at the GM's discretion). The difficulty may be modified by maneuvers the character makes and specific combat situational modifiers as described in [B]Chapter VI: Conflict and Combat[b].</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>BR</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>RANGHVY</Key>
+    <Name>Ranged - Heavy</Name>
+    <Description>[H4]Ranged - Heavy (Agility)[h4]
+When firing upon a target from range, weapons that are held with two hands offer a more stable firing platform than those which are held in a single hand. These also often have longer barrels, providing a consistent fire pattern out to a much longer range. In the larger space required for such armaments, designers can often include a significantly larger ammunition reserve and may also make the weapon far more potent than smaller weapons. This combination can yield weapons that are substantially more deadly and more accurate. 
+
+[P]There are countless varieties of rifles used throughout the galaxy. Some are simple slugthrowers, while common blaster rifles range in size from carbines to extended barrel sniper rifles. There are also a number of unique weapons, such as the Wookiee bowcaster. Any of these different weapons depend upon the Ranged (Heavy) skill in their operation. 
+
+[P]In addition to combat uses, Ranged (Heavy) weapons are commonly used for hunting purposes. Because of this, these types of weapons are seen on frontier worlds far more frequently than Ranged (Light) weapons. Characters who are focused 'on their wilderness survival skills may prefer the additional range that a rifle offers when confronting predators. 
+&lt;ul&gt;
+&lt;li&gt;Ranged (Heavy) weapons inflict wounds upon targets by default. A subset of the weapons in this category may have a stun option, as do some specialized stun-only weapons.
+&lt;/ul&gt;
+Ranged (Heavy) check difficulties are determined by the distance to the target. The difficulty may be modified by maneuvers the character makes and specific combat situational modifiers as described in [B]Chapter VI: Conflict and Combat[b].</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>AG</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>RANGLT</Key>
+    <Name>Ranged - Light</Name>
+    <Description>[H4]Ranged - Light (Agility)[h4]
+Many characters prefer to wield a weapon that can be effectively held with one hand, rather than carrying something larger. This may be a preference based upon the ease of concealment, or it could be simply a stylistic choice. Alternatively, some individuals feel that they must be able to keep another hand free, allowing them to, for example, pilot a speeder bike and fire a blaster pistol at the same time. 
+
+[P]A broad selection of weapons falls under the category of the Ranged (Light) skill. It includes any weapon that can be fired with one hand, without the benefit of a brace or other support element. Specific examples include countless pistols, but also spears, nets, and thermal detonators. Some are so small as to be easily concealed, while others can only be wielded by the strongest of individuals. 
+
+[P]The Ranged (Light) skill reflects the hand-eye coordination that a character has developed in conjunction with his intuitive grasp of wind resistance, gravity, and distance. Upon first arriving on a planet, an expert in this field may wish to practice his abilities so that he can learn how the world's environs might affect them. 
+&lt;ul&gt;
+&lt;li&gt;The vast majority of Ranged (Light) weapons inflict wounds against targets. Those that are capable of inflicting strain are specifically indicated and typically must be adjusted for use in that firing mode. 
+&lt;li&gt;Characters may wield a Ranged (Light) weapon in each hand, or wield a melee weapon that can reasonably be used one-handed and a Ranged (Light) weapon in the other hand. See page 210 for more information. 
+&lt;/ul&gt;
+Ranged (Light) check difficulties are determined by the distance to the target. The difficulty may be modified by maneuvers the character makes and specific combat situational modifiers as described in [B]Chapter VI: Conflict and Combat[b]. </Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>AG</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>CORE</Key>
+    <Name>Core Worlds</Name>
+    <Description>[H4]Core Worlds (Intellect)[h4]
+Those worlds closest to the Galactic Core are generally considered to represent the pinnacle of galactic culture and civilization—especially by those who dwell within these systems. Cultural traditions vary substantially from system to system and even between planets within a given system. A few notions are particularly common among the worlds of the Core, but even with those, there are distinct exceptions. Perfectly acceptable behavior on one planet may represent grossly disruptive manners on another, even within this culturally distinct region of the galaxy. 
+
+[P]Many hyperlanes connect the Core Worlds with the other portions of the galaxy. Because of this, visitors from foreign worlds are far more common here than in many other places. The Core Worlds represent centers of trade and diplomacy that can connect planets in disparate portions of the galaxy. 
+&lt;ul&gt;
+&lt;li&gt;If a character needs to identify a person's planet of origin without asking, he may make a Core Worlds check to recognize traits of his accent, dress, and mannerisms that are associated with a particular world. 
+&lt;li&gt;When interacting with someone from a Core World, a character might make a Core Worlds check to know what behaviors are considered necessary and polite, as opposed to ones that could be offensive. 
+&lt;li&gt;Characters who specialize in the transport and delivery of goods may make a Core Worlds check to identify which markets are the best places to sell or purchase a particular cargo. They may also recognize any worlds where such goods could be illegal. 
+&lt;/ul&gt;
+The difficulty of a Core Worlds check is generally proportionate to the rarity of the information involved. Common knowledge about Coruscant is far easier to recall than an obscure fact about a subsect on a minor moon.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>INT</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>EDU</Key>
+    <Name>Education</Name>
+    <Description>[H4]Education (Intellect)[h4]
+Among most of the races and cultures of the galaxy, achieving literacy is a crucial first step towards adulthood. Even on the wildest cultural fringes of the Outer Rim, most individuals achieve at least this standard long before they reach physical maturity. Once literacy is attained, an individual's education generally expands to cover additional areas of expertise. 
+
+[P]Typically, this includes at least a basic grounding in the mathematics, the basic sciences, and enough understanding of engineering principles to perform basic repairs. Many also study the basics of philosophy, politics, and galactic history. From there, an understanding of the various dominant species and cultures across the galaxy provides a complement to a well-rounded education. 
+
+[P]Characters must often rely upon these essentials in order to appropriately interact with the broader galaxy. To the uneducated, places beyond their home seldom make sense. Basic cultural variances may become overwhelming challenges. 
+&lt;ul&gt;
+&lt;li&gt;Any time a character needs to interact with a government entity, an Education check may be made to identify the best way to proceed. 
+&lt;li&gt;If a character needs to employ basic scientific knowledge in an analysis, his understanding of this field is represented by his Education skill. 
+&lt;/ul&gt;
+Education also represents a default Knowledge skill. Any time a question comes up that doesn't obviously fall under one of the other Knowledge skills, Education may be used to represent the character's understanding of a particular subject matter. 
+
+[P]The difficulty for an Education check is typically best represented by the rarity of the data in question. Characters who have a reference document at hand may receive substantial bonuses, but even using such a work requires an understanding of core principles. </Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>INT</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>LORE</Key>
+    <Name>Lore</Name>
+    <Description>[H4]Lore (Intellect)[h4]
+Parts of the galaxy have been inhabited for more than a million years. During that time, countless civilizations have arisen and many have gone extinct. Those civilizations that achieved interstellar travel communicated with one another and shared their histories. Over the millennia, some of these tales changed and grew into myths and legends. Many have a strong basis in truth, so much so that some of these stories still conceal a potential for tremendous profit. 
+
+[P]Characters with a particular interest in lost cultures and ancient legends may decide to try to turn this interest into a profession. Forgotten fleets, abandoned mines, and failed ventures all could be the sources of tremendous profits if recovered and restored. Other times, a character might stumble across an artifact connected to one of these legends—an item whose value could far exceed its initial appearance. Knowing enough to exploit that connection—either in selling the item or in tracking down its origins—might enable a character to substantially decrease the severity of his Obligations. 
+&lt;ul&gt;
+&lt;li&gt;Any time a character needs to decipher an ancient piece of writing or identify its context, this requires a Lore check. 
+&lt;li&gt;A character's knowledge of the legends associated with the exploits of an ancient hero is represented by the Lore skill. 
+&lt;/ul&gt;
+A Lore check's difficulty is assigned by the obscurity of the information. Well known legends may not even require a check, but the tales of a race that died out millennia ago may be nearly forgotten.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>INT</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>OUT</Key>
+    <Name>Outer Rim</Name>
+    <Description>[H4]Outer Rim (Intellect)[h4]
+The systems of the Outer Rim are filled with independent worlds, often inhabited by those who enjoy their isolation and relative freedom. Because of this, the varied worlds exhibit an incredibly diverse mix of different cultures and political systems. In many instances, they also exhibit a broad spectrum of different species that have developed a shared community founded on this diversity. 
+
+[P]Because the range of cultures is so great, anything learned about the culture of one world is not necessarily relevant to aspects of other systems in the Outer Rim—even ones that are relatively close. However, there are common attitudes and archetypal settings that are consistent throughout this region of the galaxy. Further, those who travel regularly among these worlds do get to learn of one another, and there are countless dives frequented by those who ply the spacelanes. 
+&lt;ul&gt;
+&lt;li&gt;If a character needs to find a planet with a particular resource or service among the systems of the Outer Rim, he could make an Outer Rim check to identify the most appropriate and closest options. 
+&lt;li&gt;When determining the best location to sell a cargo of goods, an Outer Rim check might reveal locations where the goods are legal, desirable, and socially acceptable. 
+&lt;li&gt;At times when a character must interact with a person from an Outer Rim world, this knowledge skill could be used to determine the most appropriate social actions to take to establish a beneficial relationship. 
+&lt;/ul&gt;
+The difficulty for an Outer Rim check is based upon the obscurity of the world and goods in question. This may also be modified based upon the specificity of the question posed.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>INT</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>UND</Key>
+    <Name>Underworld</Name>
+    <Description>[H4]Underworld (Intellect)[h4]
+In some places, criminal elements control the government through less than legal machinations. In others, the crime families function as the only effective ruling force. In more traditionally governed areas, seedier elements are dependent upon secrecy and deception as the core elements of their practices. Before a character can even begin to establish contacts among a world's criminal elements, he must first understand which of these organizational structures are in play.
+
+[P]Once a character deciphers how he might establish a contact, he must next find out with whom he needs to speak. Different groups or individuals might control different parts of the criminal trade. A contact for gambling is likely different than one who deals in illicit pharmaceuticals, while a third individual is likely the point of contact for military grade weapons. Depending upon a character's needs and the criminal elements active on a world, finding the right contact could be trivial or extremely time-consuming. 
+&lt;ul&gt;
+&lt;li&gt;The Underworld skill may be used to know which nearby worlds are the best locations for a particular type of illegal business. 
+&lt;li&gt;A familiarity with Underworld may be useful if the characters need to determine the most common methods that an opponent might use for a particular type of criminal activity. 
+&lt;/ul&gt;When the criminal nature of a location or individual is well known, recalling the relevant data should be easy. The difficulty of the task should be much more challenging if the individual has gone to lengths to conceal his illegal activities.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>INT</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>XEN</Key>
+    <Name>Xenology</Name>
+    <Description>[H4]Xenology (Intellect)[h4]
+The motivations, biological origins, and philosophies of the galaxy's varied species are hugely divergent. An object that is desirable to members of one species could be repugnant to another. Even within a species, the cultures from different systems can have completely different ideological and social practices. Those who have mentally catalogued the different species of the galaxy and learned their distinctive traits are skilled at Xenology. 
+
+[P]Anyone who must regularly interact with the inhabitants of the galaxy's varied worlds must become adept at Xenology. This is particularly vital for anyone who might need to offer medical treatment to members of varied species, as differences in basic anatomy and biochemistry can make drugs effective in one species lethal to another. Knowledge of the varied cultural traits is also vital for a character who interacts in a social fashion. A bargaining tactic that is perfectly effective against a Twi'lek might be disastrous when used on a Wookiee. 
+&lt;ul&gt;
+&lt;li&gt;When a character first encounters a member of an unfamiliar race, a Xenology check may be made to identify the typical way to interact with that character socially. This may be used to avert any major gaffe. 
+&lt;li&gt;If a character needs to either help or harm a member of another species, Xenology may assist him in identifying a type of injury or in pointing out a characteristic vulnerability. 
+&lt;li&gt;Different species need substantially different environmental conditions and foodstuffs. A Xenology check may allow a character to offer the appropriate considerations to a guest. 
+&lt;/ul&gt;
+The difficulty for a Xenology check should be based upon both how often the acting character interacts with the members of the species in question and the relative rarity of that species.</Description>
+    <Custom>DescOnly</Custom>
+    <CharKey>INT</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>WARF</Key>
+    <Name>Warfare</Name>
+    <Description>[H4]Warfare (Intellect)[h4]
+The Star Wars galaxy has been shaped for millennia by warfare. From the ancient conflicts that established the Galactic Republic to the Clone Wars mere decades ago, warfare has played a large part in the history and lives of beings throughout the galaxy. Now, as the Rebel Alliance engages in its desperate struggle against the Galactic Empire, characters with knowledge on the workings of war are more important than ever before. 
+
+[P]This skill covers a characters knowledge of conflict, both on the ground and in space. Many things factor into this, from training and insight on the strategies and tactics of modern warfare, to an awareness of the personnel and technology of the factions involved in the conflict, to knowledge gained from studying the other great wars throughout galactic history. Having a broad awareness of the workings and history of conflict allows a character to not only to survive, but to thrive in the Rebel Alliance. 
+&lt;ul&gt;
+&lt;li&gt;A character's knowledge of the strategies and tactics of warfare both on the ground and in space is represented by the Warfare skill. 
+&lt;li&gt;Any time a character wants to remember details about a significant event, organization, or individual who played a role in a galactic struggle, he should make a Warfare check. 
+&lt;/ul&gt;
+The difficulty of the Warfare check is based upon how hard it would be to acquire the information the character wishes to know. Classified, highly localized, or ancient information is obviously more obscure, while standardized structures and patterns that the character has encountered before are much easier to remember.</Description>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Custom>DescOnly</Custom>
+    <CharKey>INT</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>LTSABER</Key>
+    <Name>Lightsaber</Name>
+    <Description>[H4]Lightsaber (Brawn*)[h4]
+Lightsabers (and their derivatives) are quite unlike any other weapons in the galaxy. While most close combat weapons have some sort of blade or striking edge attached to a grip or handle, an inactive lightsaber seems to be nothing more than a simple weapon
+hilt. However, when activated, the hilt projects a humming "blade" of intense energy. Such weapons are difficult for even an accomplished swordfighter to use and require a very unique set of skills.
+
+[P]Although the Lightsaber skill is linked to the Brawn characteristic, many characters may have access to talents that can link the skill to a different characteristic instead, representing unique forms and fighting styles. The Lightsaber skill governs melee attacks made with
+lightsabers as well as with derivative weapons such as light whips, guard shotos, and training sabers.
+
+[P]The Lightsaber skill is most often used to make combat checks while using these weapons, though there may be other uses for this skill, at the GM's discretion. The difficulty of Lightsaber combat checks is Average ([DI][DI]), the difficulty of all melee attacks. If the opponent is incapable of resisting, the check might be easier, at the GM's discretion. The difficulty may be modified by maneuvers the character makes and specific combat situational modifiers, as described in [B]Chapter VI : Conflict and Combat[b].
+
+[P][I]* Indicates that talents may change the base characteristic.[i]</Description>
+    <Source>Force and Destiny Core Rulebook</Source>
+    <Custom>DescOnly</Custom>
+    <CharKey>BR</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+  <Skill>
+    <Key>CYBERNETICS</Key>
+    <Name>Cybernetics</Name>
+    <Description>[H4]Cybernetics (Intellect)[h4]
+At the GM's and players' discretion, Cybernetics can be presented as a custom skill rather than as a specific use of Mechanics and Medicine. The introduction of this skill is optional.
+[P]If introduced, Cybernetics is used for building, modifying, and installing cybernetic enhancements and replacements (see page 85 of the [B]Special Modifications[b] Technician Source Book), as well as other checks at the GM's discretion. Talents that apply to Mechanics or Medicine checks might apply to Cybernetics checks at the GM's discretion. The Cyber Tech should recieve Cybernetics as an additional bonus career skill.</Description>
+    <Source>User Data</Source>
+    <Custom>AddedItem</Custom>
+    <CharKey>INT</CharKey>
+    <TypeValue>stGeneral</TypeValue>
+    <Type>General</Type>
+  </Skill>
+</Skills>

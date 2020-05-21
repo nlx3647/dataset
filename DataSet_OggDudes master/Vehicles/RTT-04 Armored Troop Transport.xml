@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>RTT04</Key>
+  <Name>RTT-04 Armored Troop Transport</Name>
+  <Description>[H3]RTT-04 Armored Troop Transport[h3]
+The RTT-04, commonly known as the Republic troop transport, is a lightly armored infantry fighting vehicle first produced by Rothana Heavy Engineering during the Clone Wars. Part of RHE's line of military repulsorcraft designed for the Grand Army of the Republic, the RTT-04 is a small, fast vehicle built to deliver a squad of clone troopers to the battlefield and then provide them with light armor support. Small and light enough to be carried by LAAT/c heavy carriers, RTT-04s were often airdropped into the middle of battlefields, where their mobility and the troopers they carried could quickly change the course of a battle.
+[P]In its role as a troop carrier, the RTI-04 carries a squad of eight fully armed and equipped troopers with all of their necessary combat gear. Also configurable to carry supplies, it is sometimes pressed into use as a heavy hauler by engineering squads. While it is lightly armored for a fighting vehicle and has a reputation for being relatively fragile, the RTT-04 carries a respectable amount of firepower, with a twin light laser cannon and a twin dorsal turret-mounted mass-driver missile launcher like that found on the LAAT/i.
+[P]Thousands of RTT-04s were produced during the Clone Wars, but precious few survived into the Imperial era. The Imperial Army  declined to include them in their order of battle and those that  survived the Clone Wars were stripped of their weapon systems and sold as military surplus to industrial and resource-exploration concerns.</Description>
+  <Source Page="55">Knights of Fate</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Armored Transport</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>42000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>3 meters.</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot/gunner.</Crew>
+  <EncumbranceCapacity>85</EncumbranceCapacity>
+  <Passengers>12</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Armor>2</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>14</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>MASSMISSILESMALL</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

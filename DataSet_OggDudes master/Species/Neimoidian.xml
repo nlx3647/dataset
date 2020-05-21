@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>NEIM</Key>
+  <Name>Neimoidian</Name>
+  <Description>[H4]Neimoidian[h4]
+
+The Neimoidian species is an offshoot of the Duros, diverging physiologically and culturally after long isolation on the world of Neimoidia. Despite their shared ancestry with the ancient spacer culture of the Duros, Neimoidians have little in common with their adventurous cousins. Instead, their ruthless mercantile and colonial efforts earned them a reputation as conniving schemers, which was further cemented by the actions of the Trade Federation during the Clone Wars. 
+
+[P]After years of Neimoidian-backed Separatists waging war on the Republic, the species has an overwhelmingly negative reputation for being cruel, cowardly, and weak-willed. Recently, Neimoidians have attempted to associate themselves with the Duros to redeem themselves in the eyes of the galaxy, but the Duros oppose the scheme at every opportunity. The Neimoidians might likely remain under the shadow of the Clone Wars until they can work alongside the Rebellion to put them right. 
+
+[P][B]Physiology:[b] Neimoidians closely resemble their Duros cousins. Both species are smooth-skinned, hairless humanoids with large red eyes and blue-green skin, and both species hatch from eggs in a larval "grub" stage. A closer look reveals more gray tones in Neimoidian skin. Additionally, Neimoidians' pupils split horizontally, and their distinct skeletal structure creates protrusions on their foreheads. 
+
+[P][B]Society:[b] In the past, Neimoidian upbringing focused on competitive education, starting from the earliest period of youth. Young Neimoidians were typically raised by the government of their homeworld or another Neimoidian colony worlds. This instilled future leaders with the fierce competitive instinct they were thought to need. Food and other essentials were distributed in a communal pool for the young Neimoidians, and there was no oversight to prevent a few greedy individuals from taking all they desired, leaving little to nothing for others. 
+
+[P]The Empire's seizure of most Neimoidian assets after the Clone Wars and the destruction of many grub-hatcheries in battles of that period led some Neimoidian worlds to reconsider their society, shifting away from selfishness and rampant indulgence and toward a more modest and evenly structured system. Skeptics across the galaxy claim this is only because Neimoidians no longer have the resources to support their old lifestyles, but the fact remains that a new generation of Neimoidians was brought up with values different from their forebears. What they do with this new education remains to be seen.
+
+[P][B]Homeworld:[b] The ancient Duros colony world of Neimoidia is far from an ideal habitat. It has a dim sun and high gravity, as well as dismal fogs throughout most of the year. Despite these disadvantages, the colonists eventually developed it into a thriving center of industry and expanded outward to a number of nearby worlds. These secondary colonies—known as the Neimoidian purse worlds—hold as much cultural significance for the species as Neimoidia itself. The most prominent purse worlds are Cato Neimoidia, Deko Neimoidia, and Koru Neimoidia, all of which were eventually developed to the point of becoming more desirable and hospitable destinations than the Neimoidian homeworld. 
+
+[P][B]Language:[b] The Neimoidian language—known as Pak Pak—is commonly used among Neimoidians, but species who lack the throat structure of its native speakers cannot easily replicate the distinctive sharp croaks. Therefore, Neimoidians who spend time among other species learn to speak Basic. Neimoidians have little difficulty with Basic, though like many species with unique vocal structures, some speak it with a thick accent.</Description>
+  <Source>Desperate Allies</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>NEIMCH1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>NEIMCH1OP1</Key>
+          <Name>Negotiation</Name>
+          <Description>
+            Neimoidians may begin the game with one free rank in Negotiation.
+          </Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>NEG</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>NEIMCH1OP2</Key>
+          <Name>Deception</Name>
+          <Description>Neimoidians may begin the game with one free rank in Deception.
+          </Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DECEP</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

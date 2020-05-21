@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>YV666</Key>
+  <Name>YV-666 Light Freighter</Name>
+  <Description>[H3]YV-666 Light Freighter[h3]
+Slab-sided and imposing, Corellian Engineering Corporation's YV-666 light freighter is a radical departure from the company's traditional styling principles. Introduced decades ago, these large, square-shouldered ships have steadily gained a repation as fast, durable, easy to fly freighters that withstand incredible amounts of hard usage. Designed initially as long-range haulers, the YV-666 carries a surprising amount of cargo in its modular, environmentally sealed cargo holds. Thanks to their condiserable fuel tanks and capacious holds, these ships are often the best, most efficient way to ship goods to the far reaches of the galaxy.
+[P]Roughly twice the size of CEC's popular YT-series freighters, the YV-666 pushes the boundaries of what is normally considered a light freighter. It has a tall, narrow, vaguely trapezoidal hull with three interior decks and no visible viewports. A long, reinforced fantail extends the keel from the lowest deck, and is home to the ship's Quadex SuperNova II power core, a pair of high-output CEC Evader-GT ion drives, repulsorlift systems, and two broad, variable-pitch, swept wings with downward-cranked tips. The ship's small flight deck is located in the far-forward compartment of the top deck, and feaures a unique windowless cockpit that uses high-resolution holo-projectors to give the pilot a 180-degree view of his surroundings. While they are not designed for front line combat, these ships do mount a pair of light lasers in a forward mount and a retractable quad laser turret for defensive purposes.
+[P]Like other CEC offerings, the YV-666 is a reliable and versatile ship designed with an eye toward end-user customizaton. The ship's three-decked hull, an excess of redundant systems connections, and a robust aftermarket make it quite popular with medium and heavy haulers throughout the galaxy.
+[P]In addition, these ships have garnered a small but dedicated following among the galaxy's bounty hunters, who find the YV-666's modular design, roomy compartments, and rugged hull a perfect fit for their dangerous line of work. Perhaps the most famous is the [I]Hound's Tooth[i], a highly modified YV-666 owned by the Trandoshan bounty hunter Bossk.</Description>
+  <Source Page="62">No Disintegrations</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>132000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>14</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>On pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>200</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERQUAD</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

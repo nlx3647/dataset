@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATATRETRO</Key>
+  <Name>Retrofitted AT-AT</Name>
+  <Description>
+    [H3]Retrofitted AT-AT[h3]
+Never sparing any expense when it comes to his own
+protection, Moff Dardano has acquired the [I]Armored
+Fist[i], a decommissioned and only slightly damaged All
+Terrain Armored Transport (or AT-AT, in more common
+parlance) for his assault on the base. While the dense
+jungle prevents it from approaching, he uses it as a
+mobile command bunker from which he can lead the
+mercenaries and bodyguards he has brought with him.
+[P]Moff Dardano’s hubris causes him to assume that
+the AT-AT is essentially immune to any weapons that
+infantry could bring to bear, and so he has ordered
+it to be retrofitted to carry anti-air weaponry instead
+of its usual complement. This leaves the AT-AT unable
+to directly fire upon infantry targets (though Moff
+Dardano’s Bodyguards and the Moff himself can certainly
+do so with their own weapons)..
+  </Description>
+  <Source>Operation: Shadowpoint</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Walker</Category>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>3</HP>
+  <Price>100000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods />
+  <MaxAltitude />
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRange>Short</SensorRange>
+  <Crew>One pilot, one co-pilot/gunner, one vehicle commander, one engineer, one loadmaster</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>40</Passengers>
+  <Consumables />
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-4</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>6</Armor>
+  <HullTrauma>37</HullTrauma>
+  <SystemStrain>32</SystemStrain>
+  <Starship>false</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Dorsal</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

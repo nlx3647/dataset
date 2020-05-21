@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>RYN</Key>
+  <Name>Ryn</Name>
+  <Description>[H4]Ryn[h4]
+
+Their home-world long lost from memory and time, the Ryn are a humanoid race of musicians, vagabonds and travelers. 
+
+[P][B]Physiology:[b] The Ryn's bodies are covered in soft, short fur, with a head of white hair which is matched by a tuft of hair at the end of their long dexterous tails. Very uniquely Ryn in nature, are their beak-like noses that contain fluted holes. These holes allow the Ryn to play their 'beaks' like flutes. This talent has been used to communicated between Ryn and has uniquely been observed in communication with droids.
+
+[P][B]Society:[b] Due to their homelessness, musical talent, natural secrecy, and avoidance of written records, Ryn developed a nomadic culture and a reputation for confidence games, leaving many species prejudiced against them. In some sectors it is legal to enslave or hunt Ryn. Their language is outlawed in many locations, and a large number of Ryn women are used as slave breeding stock.
+
+[P]The largest concentration of Ryn is located in the Corporate Sector due to the fact that it is far from those who would persecute them.  The Ryn claim to have invented sabacc, originally as a means of divination. They are a very musical people, being able to play their beaks like flutes. They can even call droids with them, by being able to play pitches very precisely.
+
+[P][B]Homeworld:[b] The Ryn homeworld has been lost in time and space.  Not even the Ryn remember where they came from, and most are vagabonds, living throughout the Core Worlds without a home of their own.
+
+[P][B]Language:[b] The Ryn language is the native language of the Ryn species. It uses tones and inflections and is easily described as melodious by anyone who hear it. Since childhood, Ryns are taught both the Ryn language and Basic, to get more easily integrated into the galactic society, although they are usually only literate in their own language.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>KNOWSOM</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>RYNCH1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>USERSPECIES6CH1OP1</Key>
+          <Name>Deception</Name>
+          <Description>Ryn may begin the game with one
+free rank in Deception.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DECEP</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>RYNCH1OP2</Key>
+          <Name>Streetwise</Name>
+          <Description>Ryn may begin the game with one
+free rank in Streetwise.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>SW</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>RYN6CH2</Key>
+      <Name>Tail</Name>
+      <Options>
+        <Option>
+          <Key>RYNCH2OP1</Key>
+          <Name>Prehensile Tail</Name>
+          <Description>Ryn can use their tails to hold
+and manipulate small items, but cannot use
+that item to make an attack.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

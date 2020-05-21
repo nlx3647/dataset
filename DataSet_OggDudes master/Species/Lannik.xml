@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LANNIK</Key>
+  <Name>Lannik</Name>
+  <Description>[H4]Lannik[h4]
+[P]Though short in stature, Lanniks have done more than their fair share in shaping the galaxy and have produced heroes whose legends still resound from one end of known space to the other. Perhaps the most notable Lannik champion to be lauded across the galaxy in recent history was the Jedi Master Even Piell who served during the Clone Wars, but other Lanniks have also made their way into stories of valor. Their physical appearance makes them instantly recognizable, and although few members venture away from their home planet, thoes who do frequently accomplish noteworthy deeds. The Lannik species has earned a well-deserved reputation for hotheadedness and effectiveness in combat. As a result, the few members of the species who live off their homeworld are frequently in high demand for mercenary and enforement work. However, while some Lanniks do fight for money or glory alone, many Lanniks live by strong ancient principles of honor and prefer to serve a righteous cause.
+[P][B]Physiology:[b] Lanniks are relatively short compared to the majority of sentient species, with an average height of around 1.2 meters. Their most noticeable physical features are their large, droopy ears, which afford the Lanniks acute hearing. Their skin tone varies across a surprisingly broad spectrum, from pink to orange to dark red, and often features strong blue or purple tones. Theoretically, a Lannik's lifespan is considerably longer than a human's, but given the common living conditions and lifestyle, not enough data is available to predict a true average age in ideal conditions.
+[P][B]Society:[b] To outsiders, Lannik society seems incredibly volatile and belligerant. Lanniks have a long hisotry of violence against the large natural predators of their homeworld as well as eachother. Many Lanniks follow warrior traditions or codes of honor that date back centuries, if not millenia, and the Lannik homeworld is constantly in turmoil. As a consequence, most LAnniks can expect a life full of strife and deprivation. Althoigh the world's politics were already highly unstable, the arrival of galactic explorers, bringing with them technology to the militant Lanniks, brought a fresh wave of civil and internecine wars, hastily formed traties and localized skirmishes. The various clans and leaders tried to dictate how the new machinery would be integrated into their society planetwide, without success. The ripples of these early feuds can still be felt thousands of years later, as Lannik society seems no closer to peace.
+[P]Lanniks have traditionally been ruled by a monarchy, with a High Court sitting directly below the reigning ruler. As may be expected, the line of rulers is far fromunbroken, and the ruling family must constantly fear assassins, terrorists, and rival factions sstriving for control by any means. Although a large majority of the population hods tactics such as hostage-taking and bombings to be dishonorable, some Lanniks desire power more than to abide by what they view as archaic taboos.
+[P]The sudden introduction of advanced technology long ago created an opening for criminal elements, and many such organizations still operate on the Lannik homeworld, tracing their roots directly back to that point in history. Although they expend most of their energy working against each other, these gangs still caue enough problems to thwart any efforts to stabilize Lannik society. At this point, these institutions are so deeply entrenched that it seems unlikely they will ever be fully uprooted. It is unsurprising, then, that many Lanniks who venture into the galaxy do so out of frustration at the state of their tumultuous homeworld.
+[P]Warriors in Lannik culture tend to adopt a single topknot as a hairstyle. This leads many outsiders, having encountered only the more warlike members of the species, to falsely believe that the style is common species-wide. Lanniks tend to not give facial cues or expressions when conversingm and their default stance often makes them appear angry to other species. Individuals who befriend Lanniks quickly learn to pay more heed to vocal tone and other cues.
+[P][B]Homeworld:[b] The planet Lannik lies within the Lannik space sector in the Mid Rim, easily accessible by the Bothan Run trade route. The planet is rich in minerals, ores, and other natural resources that have been barely exploited due too the difficulty of establishing safe sites without offending a half-dozen Lannik factions, legitimate or criminal. The planet is well known for both its deserts and its deeply forested mountainos terrain, both of which contain an intimidating number of apex predators. Though Lannik features numerous large cities, oon taverage the development of these metropolises pales in comparison to that of similarly populated planets across the galaxy. Once again, the constant strife has made progress and organized expansion extremely slow. From a technical standpoint, the planet is quite livable, but the behavior of its citizens ensures that few outsiders ever voluntarily visit Lannik.
+[P][B]Language:[b] The Lannik language (simply called "Lannik") is deliberately spoken in soft tones. This often surprises outsiders, who often expect such a warlike society to be full of loud proclamations and noisey arguments, but given the sensitive hearing that Lanniks possess, any increase in volume is considered both uncouth and highly insulting. Thus, their language contains a high proportion of soft and sibilant sounds. The Lanniks themselves find Basic to be relatively easy to learn and use, but they often speak at volumes so low that members of other species strain to understand them. Lanniks who spend enough time offworld usually overcome this tendency given time, but because it is a lifelong habit, it can be all too easy for them to slip back into this lower register. Similarly, Lanniks who have been offworld for years know not to be offended by the boisterous chatter of other species.
+[P][B]Perception of the Force:[b] For a long period of time, the Jedi Order found it challenging to properly test for Force sensitivity among the Lanniks. The ongoing wars and feuds made it extremely difficult to perform any kind of survey of individuals. Eventually, the Jedi found ways to conduct their tests without offending the locals, leading to the emergence of several prominent Lannik Jedi over the years. During the era of the Republic, and even in the age of the Empire, most Lanniks are too concerned with issues on their homeworld to engage in what seems like an intangible, unpredictable phenomenon. Jedi Master Even Piell's martial renown, however, did convince a number of Lanniks that the study of the Force was a worthwhile and noble pursuit.</Description>
+  <Source>Keeping the Peace</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>1</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>8</WoundThreshold>
+    <StrainThreshold>12</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>SW</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>LANNIKCH1</Key>
+      <Name>Remove Setback</Name>
+      <Options>
+        <Option>
+          <Key>LANNIKCH1OP1</Key>
+          <Name>Indomitable</Name>
+          <Description>A Lannik removes up to [SE][SE] caused by Critical Injuries, the disoriented condition, and fear from all checks he makes.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>KIHRAXZLTSTAR</Key>
+  <Name>Kihraxz Light Starfighter</Name>
+  <Description>[H3]Kihraxz Light Starfighter[h3]
+The Kihraxz starfighter is, perhaps, the most versatile starfighter currently on the galactic market. Designed and built by TransGalMeg Incorporated, the KLS was commissioned by the powerful Black Sun organization. Since the fighers would be deployed in a number of roles in various environments throughout the galaxy, Black Sun requested a simple, reliable, lightweight, easy to operate ship that could be easily modified to fit roles ranging from escort to interception to space superiority. Under Black Sun's guidance, and with their nearly bottomless coffers providing ample capital, TransGalMeg produced an extremely potent and versatile fighter of a kind nearly unknown in ship building circles.
+[P]The base model Kihraxz bears a striking resemblance to Incom's X-wing and Z-95 fighters. It has a short, narrow fuselage with a single-position cockpit mounted amidships. Two powerful ion engines are slung in nacelles beneath a pair of sharply-angled dorsal-mounted wings located aft of the cockpit, and a pair of smaller canards mounted to the nose provide extra stability. The fighter's primary weapons—a pair of high-output blaster cannons—are mounted at the wingtips, with an ordnance launcher and ion cannon mounted in the starboard and port wings roots respectively. Although lightly armored and fragile, the base ship's loadtout, speed, and agility make it a formidable opponent, especially when fielded in large groups.
+[P]The Kihraxz's real strength lies in its modification potential. The ship's primary structures and systems—fuselage, wingbox, weapons systems, drives—are all unit-constructed and designed to be easily installed and removed with basic shipyard facilities. This allows the fighters to be tailored to their user's exact specifications. TransGelMeg sells aftermarket modification kits with significant upgrades to the base platform.</Description>
+  <Source Page="60">No Disintegrations</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>65000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>7</EncumbranceCapacity>
+  <Consumables>One day</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>WingMounted</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>CML</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

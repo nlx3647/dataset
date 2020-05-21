@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>YT1760</Key>
+  <Name>YT-1760 Small Transport</Name>
+  <Description>[H3]YT-1760 Small Transport[h3]
+
+Released roughly thirty years before the Battle of Yavin, the VT 1760 is a small, fast, and agile light freighter in the vein of the older HWK-series. CEC's designers packed the new vessel with more powerful engines, upgraded maneuvering thrusters, and a sophisticated avionics package. Unfortunately, in their zeal, the 1760's designers went a little too far with their upgrades and produced a ship that, while fast and agile, was also high-maintenance, difficult to fly, fragile, and had a vastly reduced cargo capacity. 
+
+[P]Never a company to let a few niggling problems hold them back, CEC put the YT-1760 into production despite its obvious shortcomings and poor focus testing. Initially, sales were quite robust. Its speed and small size attracted many small time shipping concerns and budget-minded planetary governments who used it as a courier, VIP shuttle, or for transporting small, delicate cargoes. Eventually, however, many owners discovered that the amount of time and money needed to keep the fragile little ship in space was more than the ship itself was worth, and sales dropped off dramatically. The introduction of the YT-1300 sounded the death knell for the 1760, and within five years, production of the 1760 was shut down.</Description>
+  <Source>Age of Rebellion Beta Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>80000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>n/a</MaxAltitude>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <StarFighters>None</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>70</EncumbranceCapacity>
+  <Passengers>8</Passengers>
+  <Consumables>2 months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <Armor>1</Armor>
+  <HullTrauma>17</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>WEEQUAY</Key>
+  <Name>Weequay</Name>
+  <Description>[H4]Weequay[h4]
+
+[P]Weequays are harsh creatures from a harsh homeworld. They have thick, toughened skin and a dense, powerful bone structure, and are often seen as ideal bodyguards due to this natural resilience and durability. Their cultural structure, idealizing violence and conflict, also makes them more than likely to follow the path of the Hired Gun or other occupations that emphasize martial prowess over more intellectual pursuits. 
+
+[P]Most Weequays tend to be quiet, solitary beings, speaking very little to outsiders. However, this has not stopped some Weequays from rising to prominence as pirates and brigands across the galaxy. There were even a few Weequay Jedi once, and some Weequays fight with the Rebellion against the Galactic Empire. Those who leave their homeworld are generally more gregarious than their fellows, although their personalities tend towards sardonic and biting. 
+
+[P]Weequays can communicate nonverbally through a discharge of pheromones from their bodies, but this form of communication is only possible among members of the same clan across relatively short distances. This trait, however, might help to explain why many view Weequays as taciturn even among their own kind. It's also the likely cause of the bitter, caustic scent most species associate with Weequays. 
+
+[P][B]Physiology:[b] Weequays are humanoids averaging roughly two meters in height. Their desert homeworld results in coarse, hardened skin generally colored in shades of brown to black. Adding to their reputation for grim narrow-mindedness, Weequay faces are rigid and lipless, with a bony frill or crest down either jawline. 
+
+[P]Males encountered off their homeworld keep their hair in a single topknot composed of multiple braids, traditionally one for each of their native years spent away from 'home. Less traditional males, however, might not follow this. Weequays' eyes are sunk deeply in the folds and creases of their weathered faces, providing better protection from harsh sunlight. 
+
+[P][B]Society:[b] Weequay society is complex and brutal. Built around the clan unit, Weequay society is pitilessly impersonal, with each individual striving to honor his various gods in his own way. These gods symbolize both natural forces on Sriluur as well as the spirits of important animals. The two most important gods worshiped by Weequays are Am-Shak the thunder god and Quay, the god of Sriluur's brightest moon. Weequays usually honor their gods in ceremonies that focus on the sacrifice of a worthy opponent, either in hunt or in battle. Generally, this is some large or vicious beast. 
+
+[P]The recently-ended war with the Houk resulted in more Weequay warriors trained in modern equipment and tactics, and also developing dispositions at odds with their clannish origins. Many of these idle warriors eventually chose to leave their homeworld to seek gainful employment elsewhere, most finding positions in mercenary companies or as blasters-for-hire for a wide range of organizations and individuals. 
+
+[P][B]Homeworld:[b] Weequays are native to the planet Sriluur in the Sriluur system. An inhospitable world primarily composed of arid deserts, terrible volcanoes, and corrosive seas, Sriluur is located just Core-ward of Hutt Space along the Sisar Run. The planet is also home to another sentient species, the Houk, who attempted to colonize the planet over 200 years ago. This resulted in a state of restless antagonism lasting centuries, and has recently erupted into open warfare. This Weequay—Houk war lasted for more than ten years, ending in an uneasy peace just before the Battle of Yavin. 
+
+[P]Sriluur has recently been subjected to Imperial occupation for fear of growing criminal activity, Hutt involvement, and civil unrest. A sizable military presence on the planet has not curbed the region's chaotic nature, however, and neither the Weequay nor the Houk are known for their Imperial sympathies. 
+
+[P][B]Language:[b] The Weequays on Sriluur speak their own language, Sriluurian, between clans, but within a clan they often use their pheromone-based communication in near-silence. Although only used between members of the same clan, this habit can make the Weequays seem aloof and forbidding. 
+
+[P]Some more forward-thinking Weequays are quite verbose, often exhibiting a harsh, sardonic sense of humor in their interactions with both friend and foe alike. These Weequays speak fluent Basic and may often rise to positions of power and authority in a variety of organizations and criminal enterprises.</Description>
+  <Source>Dangerous Covenants</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>1</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>WEEQUAYCH1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>WEEQUAYCH1OP1</Key>
+          <Name>One Rank in Resilience</Name>
+          <Description>Weequay may begin the game with one rank in Resilience.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>RESIL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>WEEQUAYCH1OP2</Key>
+          <Name>One Rank in Athletics</Name>
+          <Description>Weequay may begin the game with one rank in Athletics.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>ATHL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>WEEQUAYCH2</Key>
+      <Name>Pheromones</Name>
+      <Options>
+        <Option>
+          <Key>WEEQUAYCH2OP1</Key>
+          <Name>Communicative Pheromones</Name>
+          <Description>Weequay can communicate non-verbally with other Weequays up to Short Range.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

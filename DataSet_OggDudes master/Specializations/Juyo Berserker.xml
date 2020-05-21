@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>JUYOBERSERKER</Key>
+  <Name>Juyo Berserker</Name>
+  <Description>[H4]Juyo Berserker - Controlled Rage[h4]
+
+In the latter days of the Jedi Order, Padawans studied six forms of lightsaber combat, ensuring familiarity with all. Few Jedi, however, were trusted to study the seventh, the highly restricted Juyo form. The Juyo Berserker is a Warrior who fights with this dangerously aggressive and ferocious manner of lightsbaber cmobat. A Juyo Berserker could have formal training in Form VII, but the specialization can also apply to a self-taught fighter who harnesses natural rage and ferocity to overcome foes with an all-out offensive.
+[P]Juyo Berserkers receive [B]Coercion, Discipline, Lightsaber,[b] and [B]Melee[b] as additional career skills. If this is the character's starting specialization, the player chooses two of these sk ills and gains one free rank in each, without spending starting experience. While Juyo is undoubtedly an aggressive form of combat by the standards of the Jedi, it nonetheless requires at least the modicum of control necessary to wield a lightsaber effectively and-reIatively- safeIy. Compared to the other lightsaber forms in use by the Jedi in the latter days of the Republic, however, Juyo is reckless. Walking this fine line is not dissimilar from the way in which Juyo practitioners balance dangerously close to the dark side of the Force. 
+[P]While a Juyo practitioner
+may appear calm , the form
+requ ires intense emotions to fue l its rapid, unpredictof
+ligh tsaber combat. A able, powerful strikes. Some
+Juyo Berserker Juyo Berserkers- particularly adhe rents
+cou ld have formal training
+in Form VII. but the
+specialization can also
+apply to a self-taught fighter
+who harnesses natural rage
+and ferocity to overcome foes
+wi th an all-out offensive
+CONTROLLED
+RAGE
+Juyo Berserkers receive Coer~
+cion , Discipline, lightsaber, and
+Melee as addit ional career skills
+If this is the character's starting
+specializa tion, the player chooses
+two of these sk ills and gains one
+free rank in each, without spending
+starting experience. Wh ile Juyo
+is undoubtedly an aggressive
+form of combat by
+the standa rds of the
+Jedi, it nonetheless
+requ ires at least
+the modicum of
+control necessary
+to 'Nield a
+lightsaber effectively
+and - re I a tivel y- sa fe I y
+Compared to the other
+lightsa ber forms in use by the
+Jedi in the latter days of the
+Repu bl ic, however, Juyo is
+rec kless, Wa lking this fine
+line is not diSS im ilar from
+the way in which Juyo practitioners
+balance da ngerously
+close to the dark side
+of the Force.
+While a Juyo practitioner may appear calm , the form requires intense emotions to fuel its rapid, unpredictable, powerful strikes. Some Juyo Berserkers-particularly adherents of the Jedi Code, which calls for tranquility and detachment-conceal the emotions raging below the surface. Others, including Sith, fully embrace the anger that drives Juyo and grants it power, snarling like frenzied animals as they lay into their opponents.
+[P]For Force sensitives in the age of the Empire, it is all too easy to give in to frustration, anger, and hate when forced into a confrontation. They might unknowingly find themselves mimicking the Juyo style. These sentients might be aware of the conflict raging within them-the struggle between unbridled emotion and stability-or they might remain dangerously ignorant of the path to the dark side of the Force.
+[P]A Juyo Berserker focuses on offense nearly to the exclusion of all else. This approach leaves the Berserker vulnerable should an opponent find the opportunity to counterattack, and so a Juyo practitioner must match the foe's skill in pure ferocity. Juyo fighters particularly risk being overwhelmed by greater numbers; a Berserker must be able to lay about with the blistering relentlessness of many Warriors-or of the deadly predator from which the form draws its name.
+[P]Jedi who practiced Juyo were careful to balance inner darkness with the tranquility offered by the light side of the Force. It was in this way that Mace Windu developed the Vaapad variant, a form that allowed him to channel his inner darkness toward positive outcomes, to harness his anger without allowing it to control him, For Warriors bereft of the doctrines of the Jedi this balance is difficult. Without it, a tragic outcome could be all but inevitable.</Description>
+  <Source Page="26">Knights of Fate</Source>
+  <Custom>AddedItem</Custom>
+  <CareerSkills>
+    <Key>COERC</Key>
+    <Key>DISC</Key>
+    <Key>LTSABER</Key>
+    <Key>MELEE</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>TOUGH</Key>
+        <Key>PARRY</Key>
+        <Key>GRIT</Key>
+        <Key>INTIM</Key>
+      </Talents>
+      <Directions>
+        <Direction />
+        <Direction />
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>INPEACE</Key>
+        <Key>PARRY</Key>
+        <Key>VAAPADCON</Key>
+        <Key>LETHALBL</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>BAL</Key>
+        <Key>LETHALBL</Key>
+        <Key>QUICKST</Key>
+        <Key>EMBHATE</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>INPEACE</Key>
+        <Key>INTIM</Key>
+        <Key>JUYOSAV</Key>
+        <Key>QUICKST</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>PARRY</Key>
+        <Key>EMBHATE</Key>
+        <Key>DEDI</Key>
+        <Key>MULTOPP</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

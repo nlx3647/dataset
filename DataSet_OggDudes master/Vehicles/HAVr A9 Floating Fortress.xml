@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HAVRA9</Key>
+  <Name>HAVr A9 Floating Fortress</Name>
+  <Description>[H3]HAVr A9 Floating Fortress[h3]
+Ubrikkian Industries’ HAVr A9 Floating Fortress bears a strong resemblance to their Imperial Troop Transport, and both vehicles were designed by the same division of the company. The Floating Fortress takes the concept of the ITT and extends it to the extreme. In addition to ferrying Imperial troops between points in the supply
+chain, the Floating Fortress is equipped to function in the outright hostile theater of war. Cone are the sidemounted racks; instead, every surface of the FIAVr A9 is covered with nigh-impenetrable armor. The Floating Fortress’s only overt weapon is a dorsal-mounted laser turret with two barrels that can aim and fire independently, but a quick glance indicates that the Floating
+Fortress's chassis is itself a weapon. The front and rear
+panels are rounded, with heavy impact plates angled
+away from the center of the vehicle, leaving no question
+as to its ability to plow through obstacles. The HAVr A9
+is a favorite of the Imperial Army, especially for urban
+environments, where the HAVr A 9’s advanced sensor
+array and smaller profile make it a more versatile counterpart to the devastating but unwieldy AT-AT walker.</Description>
+  <Source Page="59">Forged in Battle</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Armored Transport</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>130000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <MaxAltitude>20 meters</MaxAltitude>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, two gunners, one sensor operator</Crew>
+  <EncumbranceCapacity>40</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <Armor>4</Armor>
+  <HullTrauma>22</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASCAN</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

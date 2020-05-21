@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>IMPFLOATFORT</Key>
+  <Name>Imperial Floating Fortress</Name>
+  <Description>[H3]Imperial Floating Fortress[h3]
+Designed as an urban counterpart to the AT-AT walker, the Floating Fortress is better at navigating the narrow streets and sharp corners of dense cities. It also has sophisticated sensor software known as a target identification network (TIN). [P]In addition, the Floating Fortress is mounted with comm jammers that require a successful [B]Formidable ([DI] [DI] [DI] [DI]) Computers check[b] to bypass within long range.</Description>
+  <Source Page="85">Friends Like These</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Combat Speeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>90000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Target Identification Network (TIN)[b]: Add [BO] to all Computers checks to use sensors.</MiscDesc>
+    </Mod>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Comm Jammers[b]: Jams all comms traffic within long range.  Requires a successful [B]Formidable ([DI][DI][DI][DI][DI]) Computers check[b] to bypass.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <MaxAltitude>20 meters</MaxAltitude>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, two gunners</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-1</Handling>
+  <Armor>3</Armor>
+  <HullTrauma>41</HullTrauma>
+  <SystemStrain>30</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Key>BLASTCANHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

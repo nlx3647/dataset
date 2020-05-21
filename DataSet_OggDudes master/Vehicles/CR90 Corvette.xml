@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CR90</Key>
+  <Name>CR90 Corvette</Name>
+  <Description>
+    [H3]CR90 Corvette[h3]
+
+A versatile light capital ship, Corellian Engineering's fast, reliable CR90 class corvette is a small multi-purpose vessel popular with both militaries and civilian organizations. Long and sleek, the CR90 has a distinctive, wasp-waisted profile with a narrow midships section flanked by a massive bank of eleven Girodyne ion turbine engines aft and a broad, hammerhead bridge and crew section forward. CR9Os are remarkably fast and agile for ships of their size, and can be configured as a troop carrier, cargo hauler, a passenger liner or consular ship, or even a heavily armed escort vessel. 
+
+[P]The corvettes usually mount a pair of T&amp;B twin turbolasers in dorsal and ventral midships turrets as their main weapons. Along with the turbolasers are four light turbolasers, two to a side, mounted dorsally in turrets on the midships hull section. This makes them well suited to running blockades and acting as heavy escorts for cash-strapped militaries.</Description>
+  <Custom>DescOnly</Custom>
+  <Type>Corvette</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>1200000</Price>
+  <Rarity>5</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <Crew>30-165 Crew</Crew>
+  <EncumbranceCapacity>2500</EncumbranceCapacity>
+  <Passengers>600</Passengers>
+  <Consumables>One Year</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>50</HullTrauma>
+  <SystemStrain>25</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>TURBOLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Key>TURBOLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

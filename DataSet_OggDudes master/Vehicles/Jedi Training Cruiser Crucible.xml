@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>JEDICRUCIBLE</Key>
+  <Name>Jedi Training Cruiser Crucible</Name>
+  <Description>[H3]Jedi Training Cruiser [I]Crucible[i][h3]
+The [I]Crucible[i] was a legendary ship thats served the Jedi Order as a mobile training center and classroom for nearly a millennium. Little is known for certain about the ship, except that it was to carry Jedi younglings to and from various locations during the standard curriculum of their training. The [I]Crucible[i] is believed to have been lost on the planet Florrum during the Clone Wars. Caught in the grip of the wars, the Jedi Council is believed not to have retrieved the wreckage, although no crafter answering to the [I]Crucible's[i] description has ever been found on the planet's surface.
+[P]The [I]Crucible[i] is believed to have been nearly 100 meters in length. It had a distinctive hammered silhouette similar to that of the Correllian Engineering CR90 corvette, although with a flat profile more reminiscint of the Corellian YT-1300 light frieghter. Five massive ion engines housed in independent armatures extended back from the primary hull, providing excellent power and control.
+[P]The interior of the [I]Crucible[i] contained various compartments configured for physical, mental, and academic training as well as younglings dormitories and quarters for instructors and advisors. The Spartan decor was offset with indvidual touches provided by the various instructors, students, and crew members.
+[P]The [I]Crucible[i] appears to have been initially designed to provide the Jedi with a forward command and control base from which to lead military operations in the galactic hinterlands. As such, it would have possessed almost all the tools necessary to make it an excellent traveling classroom abd training vessel. Many records were lost in the destruction of the Jedi Temple on Coruscant, and thus it cannot be known if there were other retrofitted corvettes serving a similar role for the Order at the time of the [I]Crucible's[i] destruction. it does not seem unreasonable, however, to assume that somewhere in the galaxy such a ship continues to exist, serving ideals some consider lost in time. In fact, many tales feature just such a ship, still cruising beyond the Outer Rim.</Description>
+  <Source Page="64">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Patrol Cruiser</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Capital Ship</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>2000000</Price>
+  <Rarity>10</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Workshops[b]: When making Mechanics checks, PCs always count has having the right tool for the job.  Once per session, each character may make a [B]Hard ([DI][DI][DI]) Perception check[b].  If successful, may find one part for constructing a lightsaber worth 1,000 credits or less.</MiscDesc>
+    </Mod>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Ancient Databanks[b]: Add [SU][AD] to all Lore or Astrogation checks.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot, one engineer</Crew>
+  <EncumbranceCapacity>300</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>44</HullTrauma>
+  <SystemStrain>28</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

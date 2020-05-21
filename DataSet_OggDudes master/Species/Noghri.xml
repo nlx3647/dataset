@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>NOGHRI</Key>
+  <Name>Noghri</Name>
+  <Description>[H4]Noghri[h4]
+
+The only remaining sentients native to the planet Honoghr in the Outer Rim, the Noghri are a fierce, bipedal, humanoid species. Their physical stature and lack of social graces, including a sense of humor, has led many to dismiss them as primitive, and as such, they are often underestimated.
+
+[P][B]Physiology:[b] The Noghri have distinct physical features that allow them to be easily differentiated from the other denizens of the galaxy. They are hairless, gray or blue-skinned, and usually grow to be no more than 1.4 meters in height. Their faces are accentuated by a large sloping forehead that ends in a pronounced crest of bone just above their black eyes; this has the effect of causing their eyes to be deep-set. Though generally having the ability to completely cover their teeth with their lips, most Noghri have fangs that protrude from their mouths to some degree. Their clawed hands are another of their more prominent features.
+
+[P]Perhaps one of the most significant characteristics they possess, the Noghri's sense of smell is unlike any other species in the galaxy. It is said that their sense of smell is so acute that they are even able to distinguish among the bloodlines of other sentient beings by scent alone.
+
+[P]Due to the difficulties of life on Honoghr, their bodies have evolved to be lithe and muscular, which provides them not only great strength, but also quick reflexes. This combination of strength and reflexes has allowed the Noghri to become fearsome hunters and deadly warriors.
+
+[P][B]Society:[b] Noghri society is clan based; each member is fiercely loyal to its clan and honor has a preeminent role in their culture. Each clan seems to be born out of the extended family and, as such, has a matriarch who leads the clan and maintains its history through written and oral tradition. Though there are numerous clans, the most notable are Clan Bakh'tor, Clan Baikh'vair, Clan Eikh'mir, Clan Khim'bar, Clan Hakh'khar, and Clan Tlakh'sar.
+
+[P]Loyalty is also another significant aspect of Noghri culture. It is not uncommon for them to sacrifice themselves for their charge if they happen to be bodyguards or to willingly go to their deaths against the enemies of those who they have pledged their allegiance.
+
+[P]As warriors and hunters, most Noghri on Honoghr still prefer hand-held weapons such as knives, spears and other "primitive" weapons due to the fact that they like being up-close-and-personal with their kills. Unlike those who remain on their home world, Noghri who travel throughout the galaxy have also adapted themselves to the use of all manner of warfare technologies from blasters to grenades; as often as not, though, they can still be seen engaging enemies in hand-to-hand combat, armed with either a knife, vibroblade, or merely their claws. Additionally, due to their natural ability of stealthiness, they make excellent assassins and special-forces troops.
+
+[P][B]Homeworld:[b] For generations Noghri have been struggling to survive on the infertile surface of Honoghr, which was scarred and polluted by the poisonous fallout of a battle in orbit. During that conflict, a Lucrehulk-class Core ship, carrying the Trihexalophine1138 toxin on board, crashed into the planet's southern pole. The toxin killed most of the planet's flora, as well as millions of Noghri. To make matters worse, the surface was bombarded countless times by ordinary ship fire and the wildfires they sparked continued to burn off the poisoned plant life for months.
+
+[P]As a direct result of these events Honoghr attained a green-brownish color when viewed from space -- reflecting its dead terrain. In the southern hemisphere there remains a green region known as the "clean land". It became a home for the surviving Noghri following the catastrophe as they settled along the region's borders and cultivated its interior. Before the ecological disaster the Clean Land had been a neutral location for the various Noghri clans where they could discuss matters without worrying about inter-clan rivalries.
+
+[P]In the subsequent decades, natural processes and the efforts of the natives have worked to restore much of the Honoghr's surface. The gradual regrowth has resulted in juvenile forests, swamps and jungles appearing in areas which were once completely inhospitable. The majority of these have taken root near the large ocean which crosses the equator while the planet's capital, open to foreign visitors, lies in its cold and arid north.
+
+[P][B]Language:[b] The languages spoken most frequently by Noghri are their native tongue, Honoghran (sometimes called Noghrese) and Basic. Noghri who speak Basic almost always speak in soft, whispered, chilling voices.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>BRAWL</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>STALK</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>NOGCH1</Key>
+      <Name>Scent</Name>
+      <Options>
+        <Option>
+          <Key>NOGCH1OP1</Key>
+          <Name>Concealment</Name>
+          <Description>Noghri may remove all [SETBACK] imposed due to concealment against a target that is within Short Range.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>NOGCH2</Key>
+      <Name>Combat</Name>
+      <Options>
+        <Option>
+          <Key>NOGCH2OP1</Key>
+          <Name>Claws and Teeth</Name>
+          <Description>
+            When a Noghri makes a
+            Brawl check to deal damage to an opponent,
+            their attack deals +1 point of damage and has
+            a Crit Rating of 3.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers>
+    <WeaponModifier>
+      <AllSkillKey>BRAWL</AllSkillKey>
+      <DamageAdd>1</DamageAdd>
+      <Crit>3</Crit>
+      <Range>Engaged</Range>
+    </WeaponModifier>
+  </WeaponModifiers>
+</Species>

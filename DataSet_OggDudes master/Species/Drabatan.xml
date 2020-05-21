@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DRABATAN</Key>
+  <Name>Drabatan</Name>
+  <Description>[H4]Drabatan[h4]
+Music-obsessed amphibious humanoids, Drabatans come from the freshwater swamps of Pipada. Drabatans are renowned performers, often touring the galaxy on the strength of their skills. Their passionate nature includes a penchant for protest, which resulted in disaster when criticism of the Emporer went too far. Imperial reprisals since have been harsh.
+[P][B]Physiology:[b] Drabatans are amphibious humanoids with grey-green skin, small dark eyes, and a massive mouth. They stand slightly shorter than humans. They are excellent swimmers (though they strongly dislike salt water) and dine on a variety of insects, fish, and algae. To reproduce, Drabatans lay eggs that hatch tadpoles in silty pond soil. Over the course of a year, the tadpoles grow and assume bipedal features before emerging as child-sized Drabatans. They also develop large lungs and strong diaphragms, which enable them to achieve powerful vocals while singing or shouting.
+[P][B]Society:[b] Drabatans are a passionate species dedicated to the performing arts, especially song. Critics describe their music as hauntingly beautiful and insist that Drabatan music requires no translation for anyone to appreciate the ethereal, melancholy tones. Performance troupes throughout the galaxy, particularly Rodian Theater and Mon Cala Opera troupes, count Drabatans, who often play the heel, among their number. Drabatan voices are pitch-perfect, and many beings consider seeing a live performace of the Pipada Symphony Chamber Chorus to be life changing.
+[P]Song is firmly entrenched throughout everyday Drabatan life, in areas ranging from entertainment to education. Drabatan families have unique songs that detail their lineage and history, often performed at gatherings by the family's best vocalist and rearranged for the occasion. School curriculums teach everything through song, and students use jingles as mnemonic devices to help with memorization.
+[P]Drabatan culture values free artistic expression and opposes censorship. It is said that the only thing a Drabatan likes more than a song is a cause. Drabatans can be found at protest marches across the galaxy, often leading chants. Their political views have aligned them ideologically with Alderaan and Chandrila, which has created tension under Imperial rule.
+[P][B]Homeworld:[b] Swamps, bogs, and marshes cover Pipada, making it a warm and humid paradise for acclimated species like the Hutts, Shawda Ubbs, and native Drabatans. Most denizens of Pipada live in single-family homes built in trees, perched on stilts, or floating in ponds. The largest lakes host cities featuring massive towers with fountains plunging deep into the lake bed. Some of the towers support luxurious skyhooks. Anchored to downtown towers are endless strings of bobbing buoy-buildings housing a variety of shops. The are beneath the lake surface is just as busy as that above, and most buildings have entrances both above and below the water.
+[P][B]Language:[b] Satirists and artists love Drabatese for its clever ability to combine small words and syllables to form large unwieldy words with multilayered ideas and very specific meanings. The language itself is difficult to write, as sonic volume determines much of subtext and grammar. When necessary, Drabatans have a simpler, quieter language that utilizes their vocal pouches to emit croaks of varying pitch. Drabatans can also speak Basic and other languages commonly used in the performing arts.
+[P][B]Life under the Empire:[b] Most Drabatans are musicians or actors, or in related fields. Many also pursue careers in politics or advertising, leaning on their gift for strong oration. Since the Empire's crackdown on Pipada, though, many Drabatans have joined resistance groups, using their loud voices to croak battle orders instead of sing.</Description>
+  <Source Page="93">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>DRABATANCH1</Key>
+      <Name>Skill</Name>
+      <Options>
+        <Option>
+          <Key>DRABATANCH1OP1</Key>
+          <Name>Charm</Name>
+          <Description>Drabatan may start the game with one rank in Charm.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>CHARM</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>DRABATANCH1OP2</Key>
+          <Name>Leadership</Name>
+          <Description>Drabatan may start the game with one rank in Leadership.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>LEAD</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DRABATANCH2</Key>
+      <Name>Physiology</Name>
+      <Options>
+        <Option>
+          <Key>DRABATANCH2OP1</Key>
+          <Name>Big Noise</Name>
+          <Description>When making a Leadership or Coercion check, Drabatans can spend [AD][AD] to affect one additional character not originally targeted by the check or affect targets at one range band further than normal.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

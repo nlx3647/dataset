@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BT900</Key>
+  <Name>BT-900 Bulk Transport</Name>
+  <Description>[H3]Corellian Engineering BT-900 Bulk Transport[h3]
+The [I]Icarii-7 [i] is a Corellian Engineering Corporation BT-900 bulk transport, a popular ship that major corporations use to move vast loads of cargo across the galaxy. The 500-meter-long angular hull has a vertical bridge fin on its starboard side, and the Ferrra Sector Shipyard is currently converting its main cargo hold into hanger space. Yard droids have been mounting additional banks of turbolasers, quad laser turrets, and ion cannons to Captain Skahvi Renlow's specifications. The Togruta leads a misfit crew of former slaves and convicts.
+[P]
+The [I]Icarii-7 [i] has made the newsnets for a number of flashy raids targeting Imperial prison barges headed for the Bundil system.</Description>
+  <Source Page="16">Friends Like These</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Bulk Transport</Type>
+  <Categories>
+    <Category>Bulk Transport</Category>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>9900000</Price>
+  <Rarity>4</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <StarFighters>Four shuttles of silhouette 4</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>129</Crew>
+  <EncumbranceCapacity>70000</EncumbranceCapacity>
+  <Passengers>65</Passengers>
+  <Consumables>Two years</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>7</Armor>
+  <HullTrauma>70</HullTrauma>
+  <SystemStrain>50</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Key>TURBOMED</Key>
+      <Count>8</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>TURBOMED</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>TURBOMED</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>IONHVY</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>LASERQUAD</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>LASERQUAD</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

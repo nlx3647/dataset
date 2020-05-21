@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<SigAbility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>UNMATCHEDAUTH</Key>
+  <Name>Unmatched Authority</Name>
+  <Description>Few realize the true strain of command. Balancing
+the lives of one’s troops against the necessity of victory
+is an impossible choice, but the best commanders
+know that even greater stakes rest on their ability
+to make hard decisions quickly. They must make
+complex and difficult decsisions and coordinate
+them on the battlefield efficiently and accurately.
+This requires the soldiers following their orders to
+trust in their commander with the utmost faith.
+Once a commander can guarantee that his troops
+respect his absolute authority on the field of battle,
+he has become a truly dangerous foe. Able to weave
+complex maneuvers and counter-operations with
+unquestioned authority, truly great commanders
+all but erase the fog of war and confusion that can
+bring about the downfall of even the most formidable
+military force.</Description>
+  <Source Page="40">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <AbilityRows>
+    <AbilityRow>
+      <Abilities>
+        <Key>UNMATCHAUTHBASIC</Key>
+        <Key>UNMATCHAUTHBASIC</Key>
+        <Key>UNMATCHAUTHBASIC</Key>
+        <Key>UNMATCHAUTHBASIC</Key>
+      </Abilities>
+      <Directions>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+      </Directions>
+      <AbilitySpan>
+        <Span>4</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>4</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>4</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>4</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+        <Span>0</Span>
+      </AbilitySpan>
+      <Costs>
+        <Cost>30</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>30</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>30</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>30</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+        <Cost>0</Cost>
+      </Costs>
+    </AbilityRow>
+    <AbilityRow>
+      <Abilities>
+        <Key>UNMATCHAUTHDURATION</Key>
+        <Key>UNMATCHAUTHFIRMRESOLVE</Key>
+        <Key>UNMATCHAUTHDURATION</Key>
+        <Key>UNMATCHAUTHMASSCOMBAT</Key>
+      </Abilities>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+      <AbilitySpan>
+        <Span>1</Span>
+        <Span>1</Span>
+        <Span>1</Span>
+        <Span>1</Span>
+      </AbilitySpan>
+      <Costs>
+        <Cost>10</Cost>
+        <Cost>10</Cost>
+        <Cost>10</Cost>
+        <Cost>10</Cost>
+      </Costs>
+    </AbilityRow>
+    <AbilityRow>
+      <Abilities>
+        <Key>UNMATCHAUTHDESTINY</Key>
+        <Key>UNMATCHAUTHENDURANCE</Key>
+        <Key>UNMATCHAUTHINCREASEEFFECT</Key>
+        <Key>UNMATCHAUTHINCREASEEFFECT2</Key>
+      </Abilities>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+      <AbilitySpan>
+        <Span>1</Span>
+        <Span>1</Span>
+        <Span>1</Span>
+        <Span>1</Span>
+      </AbilitySpan>
+      <Costs>
+        <Cost>15</Cost>
+        <Cost>15</Cost>
+        <Cost>15</Cost>
+        <Cost>15</Cost>
+      </Costs>
+    </AbilityRow>
+  </AbilityRows>
+  <Careers>
+    <Key>COMMANDER</Key>
+  </Careers>
+  <MatchingNodes>
+    <Node>true</Node>
+    <Node>false</Node>
+    <Node>true</Node>
+    <Node>false</Node>
+  </MatchingNodes>
+</SigAbility>

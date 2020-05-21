@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>R444SKYSWOOP</Key>
+  <Name>R-444 Imperial Sky Swooper</Name>
+  <Description>[H3]Nen-Carvon R-444 Imperial Sky Swooper[h3]
+[P]The R-444 Sky Swooper is a repulsorlift-assisted hang glider used by Imperial forces, particularly during stealth raids. Based on the para-wing gliders common on Bespin, its design incorporates traditional wing technology with a small repulsorlift generator that assists with long-distance flight. A light blaster cannon mounted above the pilot allows for minimal offensive capability.
+[P]The Sky Swooper is controlled by a combination of hand grips and a bar that also supports the pilot’s feet. Both hands and feet are required to steer the glider, which makes firing the light blaster cannon a tricky proposition when tight maneuvers are called for. The Alliance considers the R-444 an excellent asset when it can be acquired, and a small number are already in the Rebels’ possession.
+</Description>
+  <Source>Strongholds of Resistance</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>1000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <MaxAltitude>10 kilometers</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>2</EncumbranceCapacity>
+  <Silhouette>1</Silhouette>
+  <Speed>2</Speed>
+  <Handling>3</Handling>
+  <HullTrauma>1</HullTrauma>
+  <SystemStrain>3</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

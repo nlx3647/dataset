@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MUNIFICENT</Key>
+  <Name>Munificent-Class Command, Control, and Communications Frigate</Name>
+  <Description>[H3][I]Munificent[i]-Class Command, Control, and Communications Frigate[h3]
+
+A rare sight in modern fleet formations, the Munificentclass
+frigates once formed the backbone of the Confederacy
+of Independent Systems (CIS) Navy. Produced
+by Hoersch-Kessel Drive for the CIS during the Clone
+Wars, the Munificent class filled a number of roles in
+the CIS Navy. Initially designed as “pocket cruisers," the first Munificents off the slips were fast, lightly armored,
+and almost comically overgunned vessels. They were
+designed to hunt in packs to take down powerful dreadnoughts
+and other capital ships. As the Munificents'
+capabilities became more apparent, numerous variants
+appeared, trading some of the powerful weapon systems
+for more effective sensors, sophisticated comms
+suites, and hangars filled to bursting with vulture droids.
+[P]Only a handful of Munificent-class frigates are in commission
+today, almost all with the Alliance Navy. The
+most common surviving variant is the command, control,
+and communications (C3) frigate, most of which
+have seen little direct combat. Instead, these vessels
+were originally equipped with what were, state-of-theart
+C3 suites and operated as fast reconnaissance vessels,
+advanced early warning pickets, fleet communications
+vessels, and command ships for small CIS Navy
+formations. Those in service with the Alliance have
+undergone extensive refits, replacing their droid systems
+and installing pressurized, gravity-controlled compartments
+suitable for organic habitation. Providing
+much-needed comms and command capabilities for
+the credit- and ship-strapped Rebellion, they continue
+to prove their worth even after decades of service.
+</Description>
+  <Source Page="52">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Frigate</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>12300000</Price>
+  <Rarity>9</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Command, Control, and Communications Suite:[b] While active, a force commander on the bridge of a [I]Munificent[i]-class starship upgrades the ability of all Mass Combat checks once.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>10</HyperdriveBackup>
+  <StarFighters>Twelve to thirty-six starfighters</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>1,100 officers, pilots, and enlisted crew</Crew>
+  <EncumbranceCapacity>10000</EncumbranceCapacity>
+  <Passengers>850</Passengers>
+  <Consumables>Two years</Consumables>
+  <Silhouette>7</Silhouette>
+  <Speed>2</Speed>
+  <DefFore>3</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>60</HullTrauma>
+  <SystemStrain>55</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>1</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TURBOHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>IONLONG</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>13</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>13</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>TURBOLT</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Key>TURBOLT</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>FLAKMED</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>FLAKMED</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERLT</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERLT</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERLT</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Retractable>true</Retractable>
+      <Key>LASERLT</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

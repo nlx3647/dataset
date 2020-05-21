@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>PODCOCK</Key>
+  <Name>Podracer Cockpit</Name>
+  <Description>[H3]Podracer Cockpit[h3]
+Podracer cockpits, also known as gondolas, are what pass for a crew compartment on a Podracer. Constucted in a wide variety of styles and colors, they are typically small, open-topped affairs similar in size and shape to one or two person watercraft. They are equipped with a single pilot's chair and restraint harness, a simple avionics and sensor package, control systems for the engines, and low-output repulsorlift generator to provide lift and maneuverablity.
+[P]Podracer cockpits are simply a base upon whihc to build a custom Podracer. Cockpits come only with the listed systems and do not include engines, control cables, or any custom modifications.</Description>
+  <Source Page="61">Endless Vigil</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Podracer</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>8</HP>
+  <Price>2000</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>40 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>2</EncumbranceCapacity>
+  <Silhouette>3</Silhouette>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

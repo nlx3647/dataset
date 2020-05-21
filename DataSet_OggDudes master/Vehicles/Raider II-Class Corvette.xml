@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>RAIDERIICOR</Key>
+  <Name>Raider II-Class Corvette</Name>
+  <Description>[H3][I]Raider II [i]-Class Corvette[h3]
+Designed six years before the Battle of Yavin by famed shipwright Lira Wessex to counter starfighters and other attack craft, the [I]Raider[i]-class corvette was panned by Imperial strategists as an ineffective frontline warship. However its role as an anti-starfighter platform proved invaluable in campaigns against pirates and the Rebel Alliance. Around the time of the Battle of Yavin, an updated model saw large-scale production. [I]Raiders [i] were used in backwater systems as patrol craft, often operating in pairs alongside escort frigates like the [I]Victory- [i] and [I]Gladiator-[i]class Star Destroyers.
+[P]
+At 150 meters long, the familiar wedge-shaped hull of the Imperial [I]Raider [i] features three massive solar panel wings instead of an on-board reactor. This design minimizes space for power generation and storage onboard, allowing room for additional systems. The [I]Raider's [i] deadly accurate double laser cannons feature state-of-the-art tracking sensors. Most models also carry an experimental jammer that confounds enemy sensors and comms, making it difficult for nearby starfighters to coordinate their efforts. Earlier models designed with engaging Rebel Alliance starfighters in mind trade the ion cannon for cluster missiles.</Description>
+  <Source Page="79">Friends Like These</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Corvette</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>3000000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>15 officers and 77 enlisted crew</Crew>
+  <EncumbranceCapacity>300</EncumbranceCapacity>
+  <Passengers>30</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>45</HullTrauma>
+  <SystemStrain>25</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Chin</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Retractable>true</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERHVY</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Retractable>true</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERHVY</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Chin</Location>
+      <Key>IONBATT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TIESABINE</Key>
+  <Name>Sabine's TIE Fighter</Name>
+  <Description>[H3]Sabine's TIE Fighter[h3]
+Sabine considers the vibrant paint job she gave to a TIE fighter the Spectres stole to be perhaps her finest work. She has also applied her skills to allow it to carry a passenger (or two in a tight squeeze) as well as have customization potential for specialized missions.</Description>
+  <Source Page="79">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>60000</Price>
+  <Rarity>4</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]EMP Blast:[b] Sabine has been known to rig her TIE fighter with a multitude of stolen EMP grenades, enough to disable even a Star Destroyer. Activating the grenades must be done via remote detonation (as it would be extremely unhealthy to be in the cockpit when they go off).
+[P]Once detonated, all ships within Close range on a planetary scale suffer 50 system strain; those within short range suffer 25 system strain. At the GM’s discretion, the effects may be far more catastrophic on any starship the TIE fighter is within. Characters inside an affected ship wearing stormtrooper armor or using electronics are knocked unconscious. These effects last for 12 rounds or 30 minutes of narrative time. This blast has the Limited Ammo 1 rule, and takes at least a month of narrative time to steal enough grenades to create another EMP cluster of sufficient power.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <Crew>One pilot.</Crew>
+  <EncumbranceCapacity>4</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Consumables>Two days.</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>3</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

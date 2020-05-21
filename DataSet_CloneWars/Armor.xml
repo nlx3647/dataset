@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Armors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Armor>
+    <Key>CF9REPFLIGHTS</Key>
+    <Name>CF-9 Republic Naval Flight Suit</Name>
+    <Description>[H3]CF-9 Republic Naval Flight Suit[h3]
+Clones assigned to operate starfighters, combat airspeeders, and similar vehicles are not typically issued full bodysuits of armor like their brethren in the infantry. Instead, the Republic Navy has developed new flight suits appropriate for combat missions. The CF-9 model flight suit  an attempt to offer everything a pilot needed for missions without exacerbating the already substantial cost of supplying fighter wings.
+The protect has been a mixed success in both regards  but it serves enough to satisfy the Senate.[P]
+The CF-9 is lightly armored—just enough to provide basic protection in case the wearer is separated from their craft and to improve survival chances in the case of a crash or ejection. It lacks many of the features of full armor, relying instead on basic subsystems, an environmental seal, and the communication systems of the piloted craft rather than having such features built in. The suit's design instead focuses on regulating a clone's physiology during combat maneuvers through Its specialized respirator and other systems flight systems. 
+[P]CF-9  Flight suits include a built-in respirator. Characters wearing CF-9 Republic naval flight suits remove [SE] from Piloting (Space) and Piloting (Planetary) added due to the danger or physical stress of the action
+</Description>
+    <Source Page="57">Rise of Sep</Source>
+    <Custom>AddedItem</Custom>
+    <Categories>
+      <Category>Full Body</Category>
+    </Categories>
+    <Encumbrance>5</Encumbrance>
+    <HP>2</HP>
+    <Price>1200</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+</Armors>

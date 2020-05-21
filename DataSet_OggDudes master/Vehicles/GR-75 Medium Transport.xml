@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GR75</Key>
+  <Name>GR-75 Medium Transport</Name>
+  <Description>
+      [H3]GR-75 Medium Transport[h3]
+
+Inexpensive and reliable, Gallofree Yards' GR-75- class medium transport is one of the most common bulk freighters found in the spacelanes. Used the galaxy over by both military and commercial concerns as a heavy lifter and long-haul transport, the GR-75 has a unique hull design consisting of a central spar or keel holding the ship's reactor core connecting a vast network of automated cargo racks that can be easily adapted to carry containerized cargo of any size. The cargo containers (or even passenger pods) are locked into place with heavy magnetic shields that keep them secure and protect them from the dangerous enA2nment of deep space, and the entire skeleton is covered in a heavy armored durasteel clamshell containing the ship's engines. With the majority of the ship's space given over to its cargo, the seven crew are relegated to a cramped command pod perched along the spine.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Transport</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>180000</Price>
+  <Rarity>4</Rarity>
+  <HyperdrivePrimary>4</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One Pilot, One Co-Pilot, One Engineer, One Cargo Master, Three Crew</Crew>
+  <EncumbranceCapacity>1000</EncumbranceCapacity>
+  <Passengers>100</Passengers>
+  <Consumables>Six Months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-3</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

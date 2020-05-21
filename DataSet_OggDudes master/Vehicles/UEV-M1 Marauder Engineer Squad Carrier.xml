@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>UEVM1MAR</Key>
+  <Name>UEV-M1 Marauder Engineer Squad Carrier</Name>
+  <Description>[H3]UEV-M1 Marauder Engineer Squad Carrier[h3]
+The Marauder engineer squad carrier by SoroSuub is a medium armored repulsorlift vehicle designed to carry a squad of twelve combat engineers and their attendant gear into the field with armor support. Developed from a line of SoroSuub light armored vehicles designed for police and security use, the Marauder has a long, tapering hull with a sloped front and a blunt aft with a drop-down loading and unloading ramp. The ventral surface of the hull is heavily armored and steeply angled to protect it from mines and other explosive devices, and the dorsal armor gives the vehicle respectable protection from infantry weapons, shrapnel, and light anti-vehicle weapons. A pilot and co-pilot operate the vehicle from a cramped, environmentally sealed cockpit, and the rear passenger compartment holds twelve humanoid-sized individuals on bench seats mounted to the inner hull.
+[P]Along with transporting combat engineers safely into the field, this durable vehicle can provide anti-personnel and light anti-vehicle support with its built-in weapon systems. Its standard load-out includes a forward -mounted fixed-position auto-blaster, a pintle-mounted heavy repeating blaster forward of the dorsal hatch, and a retractable turret-mounted rapid-fire concussion grenade launcher operated by the co-pilot. In addition, each side of the hull has firing ports from which the embarked personnel can fire their personal weapons in the case of heavy enemy activity.
+[P]Marauders are often outfitted with large, articulated excavator blades like those used on the T2-E and AT-CE, and an optional repulsor trailer can be towed to haul extra tools and engineering equipment.</Description>
+  <Source Page="55">Fully Operational</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Armored Personnel Carrier</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>98000</Price>
+  <Rarity>8</Rarity>
+  <Restricted>true</Restricted>
+  <MaxAltitude>3 meters</MaxAltitude>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>60</EncumbranceCapacity>
+  <Passengers>12</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <DefFore>2</DefFore>
+  <Armor>5</Armor>
+  <HullTrauma>15</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Key>BLASTHVYREP</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>CONGRENLAUNCH</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

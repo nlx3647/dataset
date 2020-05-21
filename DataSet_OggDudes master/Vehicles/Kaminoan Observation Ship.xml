@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>KAMOBS</Key>
+  <Name>Kaminoan Observation Ship</Name>
+  <Description>[H3]Kaminoan Observation Ship[h3]
+First developed by the cloners on Kamino to maintasin oversight of their charges during training and deployment, these large ships were purpose-built to provide a mobile platform from which detailed, scientific observations could be made under a variety of circumstances. These ships were capable of following the operations of their clone armies into the field, assuring that the latest and most detailed data could be brought to bear in future training and cloning programs. With a state-of-the-art sensor suite, a navicomputer, and a full repulsorlift array beneath its hull for suborbital deployments, the Kaminoan observation ship was ideal for maintaining a watch over any sort of landscape, in combat conditions or in peacetime.
+[P]After the rise of the Galactic Empire the Impersial Special Training Corps assumed the duties of quality control and training, and the Kaminoan observation ships quickly fell out of use. However, such assets could not be forgotten, and soon explorers, academies, and universities around the galaxy were clamoring for these mobile observation centers. The observation ships are ideal for tracking celestial phenomena, observing flora and fauna on a planet's surface, or tracking the actions and movements of study subjects across any terrain. The observation deck of one these great ships, suspended beneath the bulbous outer hull has become one of the most sought-after classrooms in the galaxy.</Description>
+  <Source Page="65">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Science Vessel</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>750000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>14</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srExtreme</SensorRangeValue>
+  <Crew>Six crew</Crew>
+  <EncumbranceCapacity>2500</EncumbranceCapacity>
+  <Passengers>20</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>50</HullTrauma>
+  <SystemStrain>25</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Extreme</SensorRange>
+</Vehicle>

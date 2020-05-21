@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>E7EWING</Key>
+  <Name>E-7 E-Wing Multi-Role Starfighter</Name>
+  <Description>[H3]E-7 E-Wing Multi-Role Starfighter[h3]
+
+Produced by FreiTek, a recently formed offshoot of Incom, the E-wing multi-role fighter is the newest starfighter in the Rebellion's arsenal. Similar in size and appearance to the T-65, the E-wing has a long, narrow fuselage with a steeply sloped nose. Two fixed position s-foils slant down from ventral port and starboard wing roots aft of the centrally mounted cockpit. Mounted beneath each s-foil is a FreiTek J8LF fusial thrust engine, a copy of Incom's famous 4L4 FTE which powers the X-wing, and a Taim &amp; Bak IX9 medium laser cannon. A third IX9 is mounted dorsally above the cockpit and just forward of a sealed astromech droid compartment, an awkward placement that requires the cannon's barrel be unshipped every time the cockpit canopy is opened. The E-wing also mounts two proton torpedo launchers in a tandem modular weapons bay located amidships on the fighter's ventral surface. The avionics and fire control systems are modern or upgraded versions of the systems found in current X-wing models. 
+
+[P]As it was to be a multi-role fighter like the X-wing, the E-wing was designed with a good balance of strike and space superiority capabilities. The lightens armor and shields were equal to or better than anything in its class, and the mix of energy weapons and ordnance gave it a nearly unparalleled tactical versatility. Unfortunately, supply problems and a short-sighted rush to production led to some teething issues among the first group of E-wings. Within the first few months of service, the new fighters gained a reputation as finicky, unreliable maintenance hogs and hangar queens that spent as much or more time standing still as they did flying. Eventually, however, most of the issues with these new fighters were ironed out. </Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>160000</Price>
+  <Rarity>8</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <Crew>One pilot, one astromech</Crew>
+  <EncumbranceCapacity>8</EncumbranceCapacity>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>14</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>2</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

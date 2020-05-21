@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HYP1000XTC</Key>
+  <Name>Hyperfoil 1000-XTC (Landspeeder)</Name>
+  <Description>[H3]Hyperfoil 1000-XTC (Landspeeder)[h3]
+
+The Hyperfoil 1000-XTC's unusual hybrid design combines repulsorlift drives and air-cushioned hovercraft engines. Capable of true vertical take-off and landing, the Hyperfoil can achieve a moderately high altitude for a landspeeder and boasts powerful engines, smooth handling, and an impressive cargo capacity. </Description>
+  <Source>Fly Casual</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>7000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>50 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>25</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

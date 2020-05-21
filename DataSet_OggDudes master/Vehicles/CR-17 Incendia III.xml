@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CR17INCIII</Key>
+  <Name>CR-17 Incendia III</Name>
+  <Description>[H3]CR-17 Incendia III[h3]
+The new Incendia III is Czerka's latest entry in the competitive facotry custom Podracer market. it is the Podracer pilot's Podracer; light, fast, and simple, with plenty of style and power to spare. Thrust is provided by a pair of Czerka CK-H.2 liquid-injected turbofan engines, usually found on high performance combat airspeeders. A combination of small attitude jets and variable control surfaces provides decent high-speed handling, but the Incendia suggers at lower speeds due to the heaviness of the CK-H.2 engines. The cockpit is one of the most basic offered on a factory custom Podracer. It consists of little more than an acceleration seat with harness, a rudimentary instrument panel, a HOTAS control setup sourced from Czerka's Marauder racing swoop, and a single coil repulsorlift generator. No concessions for pilot comfort were designed into the Incendia's Podracer, and it possesses only the most basic safety features.
+[P]The Invendia is among the cheaper factory customs on the market today. It is marketed squarely to budget-minded racign teams and cash-strapped racers just starting their careers. Despite its reputation as a "starter" Podracer, the Incendia has a broad following in the galactic Podracing scene, especially among those racers who appreciate its simplicity and purity.</Description>
+  <Source Page="56">Endless Vigil</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Podracer</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>11000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>30 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>1</EncumbranceCapacity>
+  <Silhouette>3</Silhouette>
+  <Speed>5</Speed>
+  <Handling>-2</Handling>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>NAGAI</Key>
+  <Name>Nagai</Name>
+  <Description>[H4]Nagai[h4]
+
+The Nagai, also called the N'Gai and the Knives, are a species from the satellite galaxy Firefist who invaded the wider galaxy in 4 ABY.
+
+[P][B]Physiology:[b] The Nagai are near-Humans with pale skin, jet-black hair, gray eyes, and angular features. Their appearance gives the impression that they are dead rather than alive. They believe strongly in honor and battle and craft small, short-bladed weapons called Tehk'la blades. They live on the planet Nagi, beyond the borders of both the Galactic Republic and the Galactic Empire in the satellite galaxy known as Firefist. Despite their isolation, a number of Nagai ventured into the wider galaxy, with some becoming Jedi Padawans in the days of the Republic.
+
+[P][B]Society:[b] Nagai are driven by a strong sense of personal honor, tempered by their own individualities. They fear nothing aside from losing their freedom and have little concerns for individuals outside of their own families, only aiding others when bound by honor or seeking personal gain.
+
+[P][B]Homeworld:[b] Nagi is a planet in the Unknown Regions, located in the dwarf galaxy known as Firefist that orbits the known galaxy. Even by 130 ABY, few non-Nagai knew the world's location. It is one of five planets in its solar system.
+
+[P]Nagi is an arid world, and quite mountainous, characterized by very high mountain peaks separated by deep, wide valleys. The thin upper atmosphere is relatively ineffective at blocking solar radiation, and the high peaks of the world are bathed in it. As a result, the deep valleys, which are often cast in shadow by the towering mountains, are the site of the Nagai's cities. At the height of their civilization just prior to the Tof invasion, Nagai cities were composed of wire and crystal, and were perceived as beautiful.
+
+[P][B]Language:[b] Nagaian is the native language of the Nagai species from Nagi. It is a language characterized by slight variations of tone and pitch, resulting in what some regarded as a musical, lilting quality.
+
+[P]Most Nagai are fluent in both Nagaian and Basic, although they are only literate in their own language. While other species are capable of learning the language, few are able to master it.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>KILL</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>NAGAICH1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>NAGAICH1OP1</Key>
+          <Name>Charm</Name>
+          <Description>Nagai may begin the game with one free rank in Charm.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>CHARM</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>NAGAICH1OP2</Key>
+          <Name>Coordination</Name>
+          <Description>Nagai may begin the game with one free rank in Coordination</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>COORD</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

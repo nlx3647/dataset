@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>YT1200</Key>
+  <Name>YT-1200 Light Freighter</Name>
+  <Description>[H3]YT-1200 Light Freighter[h3]
+
+Built to replace Corellian Engineering Corporation's revolutionary YT-1000 modular light freighter, the YT-1200 was supposed to redefine the light freighter concept. It featured the iconic saucer-shaped hull of its predecessor, along with the trademark CEC modular design features and reliable ship systems. Improvements on the older ship's design included an offset, side-mounted cockpit, more powerful engines, better sensors, and a more efficient cargo handling system. Unfortunately, as is the case with many sophomore efforts, the VT-1200 fell well short of its predecessor in a number of important areas. 
+
+[P]In a clear-cut case of trying too hard, CEC designers net out not to build a well-built freighter, but to build "the next YT-1000.° They looked at market analysis and customer feedback, identified what they believed made the YT-1000 so successful, and designed the new ship to simply do what the YT-1000 did in the hopes of another wild success. Initial sales were very good, but as customers became more familiar with these new ships, complaints came pouring in. The YT-1200 was seen as not enough of its own ship to be really distinguished from the YT-1000. Customers also reported the engines weren't powerful enough, the internal systems were buggy, and the stock power generators were prone to power surges and short circuits. Sales fell off sharply, and CEC eventually can-celed production of the YT-1200 and retrofitted the remaining stock with better systems, releasing those refit ships as the YT-1210 and the YT-1250. Despite their dismal commercial failure and lingering bad reputations, the YT-1200 series freighters can still be found on the used ship market.</Description>
+  <Source>Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>90000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>n/a</MaxAltitude>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <StarFighters>n/a</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>150</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>19</HullTrauma>
+  <SystemStrain>11</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SYLIUREHYPER</Key>
+  <Name>Syliure-25 Hyperdrive Sled</Name>
+  <Description>[H3]Syliure-25 Hyperdrive Sled[h3]
+
+Designed to add hyperspace capabilities to smaller ships without hyperdrives like starfighters and some patrol boats, TransGalMeg Industries Syliure-25 is one example of a number of similar sleds and hyperspace rings in use throughout the galaxy. Equipped with a class 2 hyperdrive and either an R1 or R2 astromech droid, the Sylurie-25 is good for five hyperspace jumps. It attaches to the starfighter (any starship with silhouette 3) and reduces its handling by 2 and speed by 1, but can be jettisoned and reattached in space. A Syliure-25 costs 10,000 credits.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Hyperdrive Sled</Type>
+  <Categories />
+  <Price>10000</Price>
+  <Rarity>4</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <StarFighters>Gives jump capability to starfighters. Reduces handling by 2 and speed by 1.</StarFighters>
+  <Crew>One R1- or R2-Series Astromech</Crew>
+  <Silhouette>3</Silhouette>
+  <HullTrauma>1</HullTrauma>
+  <SystemStrain>1</SystemStrain>
+  <Starship>true</Starship>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

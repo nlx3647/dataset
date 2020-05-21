@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LIFEBOAT</Key>
+  <Name>Life Boat</Name>
+  <Description>[H3]Life Boat[h3]
+Please see page 14 of the Dead in the Water Adventure Module (from the Age of Rebellion Game Master's Kit) for details.
+</Description>
+  <Source>Dead in the Water</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Life Boat</Type>
+  <Categories />
+  <Encumbrance>0</Encumbrance>
+  <HP>2</HP>
+  <Price>15000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <MaxAltitude />
+  <HyperdrivePrimary>12</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRange>Long</SensorRange>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>0</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>12</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>false</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons />
+</Vehicle>

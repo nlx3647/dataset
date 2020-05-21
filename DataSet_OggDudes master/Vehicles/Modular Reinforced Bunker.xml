@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>B70MOD</Key>
+  <Name>Modular Reinforced Bunker</Name>
+  <Description>[H3]BKR B-70 Modular Reinforced Bunker[h3]
+
+The
+B-70 MRB is made from far sturdier materials
+than are Delvin’s other modular structures.
+Constructed of reinforced, armorplast-faced ferrocrete,
+the MRB can be configured as a sealed
+bunker, open-topped fortification, or weapon
+emplacement, or as a protective structure to
+house power generators, shield generators, or
+other important base structures. The B-70 can
+hold six average-sized humanoids or one large
+piece of equipment like a turbolaser emplacement
+or shield generator. It provides 2 ranged
+defense to any individual or materiel inside.
+[P][I]Disclaimer: This is a piece of field equipment found in the Lead by Example Sourcebook.  It is created as a stationary "vehicle" because it is the most appropriate format.  While any mods or benefits are per the official source, the actual vehicle stats are an interpretation only and are not official.  Feel free to modify them if you think any changes are required.[i]</Description>
+  <Source Page="48">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Field Equipment</Type>
+  <Categories />
+  <Price>4900</Price>
+  <Rarity>3</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>Provides Ranged Defense of 2 to anything inside.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Silhouette>4</Silhouette>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>16</SystemStrain>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

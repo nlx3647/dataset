@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AV21SPEEDER</Key>
+  <Name>AV-21 Landspeeder</Name>
+  <Description>[H3]AV-21 Landspeeder[h3]
+
+A hot-rodder's dream ride, Mobquet's AV-21 is a limited-production landspeeder built for raw, straight-line speed rather than delicate handling. Long, low, and lean, the AV-21 has a striking wasp-waisted profile that makes the speeder look fast even while standing still. From the front, the speeder looks like a small starfighter, with a forward hull section that resembles a smaller, narrower Y-wing cockpit. A small, well-appointed, two-seat cockpit is located in the middle of the vehicle, and the vehicle's aft section is dominated by razor-thin control surfaces and two massive ion thrusters in streamlined outboard nacelles. Every panel is precision-made and handfitted to make as smooth and aerodynamically effi-cient a surface as possible in an effort to squeeze every ounce of speed out of the powerful engines. 
+
+[P]The AV-21 is highly sought after by speed freaks, racing aficionados, and various stripes of wealthy elite as both a status symbol and as a stunning example of the landspeeder builder's art. As each AV-21 is almost completely hand-built in a special Mobquet facility, these speeders are quite rare. The waiting list to purchase a new one is over a standard year long; if one can be found, it sells for twice to four times the standard price.</Description>
+  <Source>Stay on Target</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>6500</Price>
+  <Rarity>7</Rarity>
+  <MaxAltitude>3 meters</MaxAltitude>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

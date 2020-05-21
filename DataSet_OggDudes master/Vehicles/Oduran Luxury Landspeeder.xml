@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ODURANLAND</Key>
+  <Name>Oduran Luxury Landspeeder</Name>
+  <Description>[H3]Oduran Luxury Landspeeder[h3]
+Ubrikkan Industries is mostly known for its cargo skiffs and cloud cars, but its moderately successful line of luxury speeders has also been rising in popularity in recent years. Produced by a semi-independent subsidiary under th Ubrikkan name, these gorgeous craft are hand-built works of art, and priced accordingly.
+[P]The Oduran owes its name to a mythical spacer and explorer, but the vehicle is not at all designed for exploration. Instead, this six-seat speeder is as luxurious as it is ostentatious, with greel leather seats, crystaline vertex windscreens, and gold detailing inlaid into authentic onyx tratis wood. The steep price tag ensures that only the ludicrously rich can afford to own an Oduran. However, they a popular status symbol for planetary governments for that same reason. Many planets transport visiting dignitaries and heads of state in an Oduran as a not-so-subtle statement about the host's wealth and power.</Description>
+  <Source Page="59">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <Price>25000</Price>
+  <Rarity>4</Rarity>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>25</EncumbranceCapacity>
+  <Passengers>5</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

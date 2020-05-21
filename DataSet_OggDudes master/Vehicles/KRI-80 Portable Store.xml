@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>KRI80</Key>
+  <Name>KRI-80 Portable Store</Name>
+  <Description>[H3]SoroSuub KRI-80 Portable Store[h3]
+The Portable Store is a mobile showroom and store that is a favourite of nomadic traders and interstellar merchants. The KRI-80 is a large , disk-shaped land speeder, with a bubble cockpit located at the top front of the vehicle. The disk is approximately three meters tall and thirteen meters in diameter in travel mode. In showroom mode, three-meter deep sections of the vehicles expanded outward, increasing the overall diameter to about nineteen meters.
+[P]A circular room in the centre of the vehicle serves as a combined storeroom and display counter. The expanded sections create alcoves that contain specialised display or storage areas. The shelving containers, bins, and storage units are all closable and built to hold the sales inventory in place while the store is in motion. Many also feature custom foam padding or other methods of securing delicate items within their display cases. The alcoves feature large transparent panels that usually serve as display windows for advertising the goods inside. Large skylights also brighten the interior. All windows and skylights have retractable shades to allow the owner to further customize the shopping experience.
+[P]The Portable Store is sleek and aerodynamic. It's size is useful for bringing a pleasant shopping experience to distant worlds and isolated settlements, but its bulk makes it challenging to navigate double-lane streets and compact city centers. Depending on the local government, special permits and official escorts may be needed when moving the vehicle.</Description>
+  <Source Page="60">Special Modifications</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>60000</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>10 meters</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>400</EncumbranceCapacity>
+  <Passengers>24</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-4</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BTLA4</Key>
+  <Name>BTL-A4 Y-Wing Attack Starfighter</Name>
+  <Description>
+      [H3]BTL-A4 Y-Wing Attack Starfighter[h3]
+
+Koensayr's Y-wing is a dedicated heavy attack and bomber starfighter. Known affectionately as the wishbone by its pilots, the Y-wing consists of a central fuselage section flanked by two drive nacelles mounted to reinforced pylons. The central section houses a heavily armored cockpit with full life support and pilot support systems, as well as all of the ship's weapon systems, with an astromech socket directly abaft. The Novaldex power generator, along with the fighter's shield generator, hyperdrive, and numerous other essential systems, is mounted amidships with engine nacelles on either side. Each contains a powerful Koensayr-produced R200 ion engine. 
+
+[P]In keeping with their role as ship killers, Y-wings have thick armor and heavy shields to protect them while they close with targets. With their slim cross-section, sturdy protection, and powerful weapons, they are well suited to a role that requires them to fight their way to a target, deliver their ordnance, and fight their way back. Despite their reputation for reliability, Y-wings possess some quirks that make them relatively high maintenance. This has led to frustrated crews and technicians permanently removing the largely cosmetic hull plating for ease of constant access to the fighter's internal systems; it's a rare Y-wing that flies with its hull plates intact. 
+
+[P]The BTL-A4 Y-wing is a single-seat variant, While the BTL-S3 has a second seat for a sensor officer/gunner behind the pilot. In the BTL-S3, the gunner fires the ion cannon turrets, while in the BTL-A4, they are fixed forward and controlled by the pilot. This profile covers both variants, as them are almost no additional differences.</Description>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>80000</Price>
+  <Rarity>4</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Consumables>One Week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>12</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

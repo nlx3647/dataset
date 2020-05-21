@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ZH25QUEST</Key>
+  <Name>ZH-25 Questor Light Freighter</Name>
+  <Description>
+    [H3]ZH-25 Questor Light Freighter[h3]
+
+Spurred by the success of the Z-10 Seeker-class scout ship, the ZH-25 Ouestor-class is Starfeld Industries' first foray into the light freighter market. Essentially a Seeker writ large, the ZH-25 is a fast, reliable, easily modifiable freighter designed to compete against Corellian Engineering Corporation's YT- and YV-series freighters. With a hull that resembles a pair of magnoculars in planform, the ZH-25 consists of a central hull section of a vaguely hourglass shape with a CEC-style cockpit forward and a bank of powerful Novaldex JV-74 engines in the stern. The port and starboard hull sections contain crew quarters, common areas, and escape pods for crew and passengers. The aft two-thirds of the ship is given over to a massive open cargo hold equipped with all the usual modern cargo-handling systems. In addition, two external cargo pods are slung beneath the hull and serve to extend both the ship's carer) and storage capacity. 
+
+[P]From the factory, Starfeld fits out the Questor with a single medium laser cannon in a ventral-mounted turret, good carbon-durasteel armor, and a reliable Sirplex shield generator, which together provide the vessel with respectable defensive capabilities. The crew and passenger areas, while utilitarian, are comfortable and designed to alleviate the stresses of long-distance travel in hyperspace. Like most light freighters from CEC, SoroSuub, and Ghtroc, the ZH-25 was built with an eye toward end-user modification and the use of aftermarket parts. To that end, these ships feature modular power fittings and numerous redundant systems that allow owners to easily customize their ships to their own tastes and needs. While still a relative newcomer to the freighter market, the ZH-25 is quick y gaining popularity among private shipping concerns, single owner-operators, and smugglers thanks to its reliability and smart design.</Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>115000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

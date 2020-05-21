@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HERGLIC</Key>
+  <Name>Herglic</Name>
+  <Description>[H4]Herglic[h4]
+
+The Herglics, alternatively known as Koodans, are a race native to the planet Giju. They are water-based mammals, and developed hyperdrive and a trade based empire in the Colonies Region before encountering the Duros. Herglics are pleasant and peaceful, but they have an addiction to gambling and games of chance. Herglics are a very large species and are sensitive about their size.
+
+[P][B]Physiology:[b] Herglics are large bipeds that appear to have evolved from water-dwelling mammals. Most of the evidence of their water borne ancestry has been bred out so that, for example, fins and flukes have been replaced with arms and legs. They do, however, still breathe through a blowhole on the top of their heads. The hauum sound of a Herglic clearing their blowhole is a common Herglese word throughout the Tapani sector where it is used with emphasis to preface a significant remark.
+
+[P]They are tall, extremely wide, and have smooth, hairless skin that ranged in color from pale blue to black although some have pale pink skin. A few Herglics display white stripes down the sides of their head and arms.
+
+[P]Herglics are generally quite sensitive about their large size. Since most other sentient species in the galaxy are smaller than they are and most facilities are designed to accommodate Human dimensions, Herglics tend to feel somewhat self-conscious and out of place when removed from their community or their ships. Their bulky size means that typically a Herglic will take up two seats in a restaurant and the majority of doorways require some maneuvering. Despite this they are typically easygoing in nature and enjoy meeting new people and visiting exotic locations.
+
+[P][B]Society:[b] The Herglics of Giju were a technologically advanced race early in galactic history, reaching the stars of neighboring systems and began colonization in about the same time period as the Corellians reached theirs. There is some archaeological evidence that an early Herglic trading Empire achieved a superior level of technology that was not paralleled during the Rebellion era.
+
+[P]Ruins are found on some Herglic colony worlds that contained non-functioning machines that appeared to harness gravity to perform an unfathomed function. This early Empire, however, collapsed a millennium before the Herglics made contact with the wider galaxy and most records were lost.
+
+[P]The Herglics are natural explorers and traders. During the early days of the Galactic Republic the angular freighters characteristic of Herglic trading vessels became a common sight throughout the galaxy but contact with the Republic remained minimal. They have an inquisitive but practical nature and calm persona that help them interact with other species and make them a welcome member of the Galactic community.
+
+[P]With the rise of the Galactic Empire Giju's manufacturing centers were among the first to be nationalized by the Emperor's New Order. The normally docile Herglics tried to fight the subjugators but after significant slaughter and realizing that their resistance was in vain they decided to be pragmatic and submit totally to the will of the Emperor. Fortunately they stopped resisting and surrendered before the destruction of Giju's infrastructure. During the Galactic Civil War period a number of Herglics purchased their way into the Tapani nobility when House Cadriaan began selling titles to nonhumans.
+
+[P][B]Homeworld:[b] Giju is the Herglic homeworld. Located in the Colonies, it is on the Rimma Trade Route and is one endpoint of the Giju Run. Giju is an aquatic-type world with large bodies of water and associated terrain including: expansive oceans, islands, marshes, and glaciers. Giju has many spaceports and manufacturing centers.
+
+[P][B]Language:[b] Herglese or Herglic is the language of the Herglics from the planet Giju. Most Herglics also learn to speak Basic, so Herglese is not quite extended.
+
+[P]Due to the influence of Herglic trading within the Tapani sector several Herglic words have been incorporated into the local vocabulary.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>14</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>CHARM</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+</Species>

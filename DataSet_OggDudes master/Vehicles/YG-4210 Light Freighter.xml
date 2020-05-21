@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>YG4210</Key>
+  <Name>YG-4210 Light Freighter</Name>
+  <Description>
+    [H3]YG-4210 Light Freighter[h3]
+
+Among the oldest ships still plying the hyperspace lanes, Corellian Engineering Corporation's VG-4210 is a throwback to another generation of ship design. Originally built as a deep-space exploration vessel more than two centuries ago, these ships were quite well regarded in their time. Equipped with efficient engines, strong shields, long-range sensors, automated maintenance and resource-recycling systems, and deep cargo holds to carry provisions, the VG-4210 series ships could stay operational in deep space for months or even years at a time without refit or resupply. In the years since they first came on the market, these stalwart old ships have been supplanted by better, more modern, and more powerful ships. Most of those that weren't lost in space or to simple fatigue were scrapped and their hulls and systems recycled for their base materials. 
+
+[P]A few survived, however, passing from owner to owner, until their original scouting role gave way to that of a humble light freighter. Now, those few YG-4210s still active serve small-time traders and smugglers in the Outer Rim. Perfect for the newly formed or budget-minded mercantile concern, these ships are still quite useful after all these generations in space, and many can even keep up with the latest offerings from CEC, Incom, and TransGalMeg. 
+[P]The YG-4210 is, like all of the ancient YG-series ships, unlike anything Corellian Engineering has on the market today. It has a flat, single-decked, spade-shaped hull with a dorsally mounted command deck covered by an armored blister canopy. It has three subspace engines located in the trefoil-shaped engineering section that is connected to the main hull by a small passage. Crew and passenger facilities are in the main hull along with the cargo hold, which can be loaded either from a ventral loading ramp or by crane through dorsally mounted port and starboard loading hatches. 
+
+[P]Like most ships operating in the Outer Rim, especially those as old as the antique YG-series ships, they bear only a passing resemblance to the ships that first flew off the slips all those decades ago. Over the course of their lifespans, VG-4210 freighters have passed through scores of owners, each one modifying the ship to his tastes and needs. There is no such thing as a stock YG-4210 anymore. If there is a lonesome, unsold, and unmodified YG-4210 moldering away in some forgotten shipyard or hangar bay, it would fetch quite a price from those who know quality ships when they see them.</Description>
+  <Source>Enter the Unknown</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>85000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>13</HyperdriveBackup>
+  <StarFighters>None</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One pilot, one copilot</Crew>
+  <EncumbranceCapacity>120</EncumbranceCapacity>
+  <Passengers>12</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>3</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

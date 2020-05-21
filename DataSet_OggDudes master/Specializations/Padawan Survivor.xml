@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>PADAWANSURVIVOR</Key>
+  <Name>Padawan Survivor</Name>
+  <Description>[H4]Padawan Survivor - Fugitive Apprentices[h4]
+Order 66 effectively erased the Jedi from existence, but a small handful of Padawans across the stars managed to escape. These young apprentices watched their closest allies suddenly turn and cut down Jedi and Padawans without warning. The remaining Padawan Surivivors have been forced to hide their burgeoning abilities and enter a hostile galaxy alone and unprepared for life outside of the Jedi Order. However, a few have begun to emerge to fight back against the Empire that betrayed them.
+[P]The Padawan Surivivor universal specialization does not have any career skills associated with it. When characters purchase this specialization, they automatically recieve a Force rating of 1. If such characters already have a Force rating of 1 or higher, it does not improve when they purchase the Padawan Surivivor specialization. Wary of a galaxy that has turned hostile, Padawan Surivivors still put their faith in the Force as they were trained to do so from a young age.
+[P]As former apprentices, these Padawans had been on the path to becoming Jedi Knights. They received training in using the Force and in a range of fighting techniques. Unfortunately, their training was dominated with classroom lessons, and few had actual practical field experience unless they were allowed to join their masters in the Clone Wars. Not only was their formal training abruptly cut short, but the availabilty of Jedi knowledge was severly limited after the issuing of Order 66. That day was one of the darkest in the galaxy's history, and it devastated the rare Padawans that lived through it.
+[P]When the Jedi were branded as traitors and their order destroyed, those rare Padawans still alive were stranded with no resources and no support: their mentors were slain, their former clone trooper allies were hunting them as the Empire's behest, and they had no one from whom they could seek aid. In order to survive, these former apprentices were forced to seek no-questions-asked jobs or to subsist off a life of crime. If any Imperial informant began to suspect their Force abilities, they would be forced to flee.
+[P]As a result, many of the remaining Padawans abandoned their Jedi ideals and began nomadic lives. Many actively pursued any way to blend in, hide their abilities, and subsist on their own. Not all managed to remain hidden, though, with the might of the Empire and the newly-formed Inquisitorius after them at every turn.
+[P]While on the run, temporary allegiances were often all that was practical, as lasting bonds proved nearly impossible to maintain, especially when Padawans revealed their abilities. Saving a friend with the Force would frequently result in the friend's abandonment out of fear of the Empire. Only those already willing to defy the Empire would take that chance. A rebel cell, for instance, could take in Force users because the lives of its members were forfeit already. For Padawan Survivors, whose likes had been shattered by the Empire, rebellion was an exceptionally tempting opportunity.
+[P]Having access to an almost-extinguished source of power, Padawan Survivors are capable of unbelieveable acts. Capable fighters and practiced at disappearing, they are able to effectively supplement a covert squad of rebel fighters or smuggles alike. The Force is a powerful ally, and these former Padawans are eager to again use it openly if it means honoring their dead masters and tearing down Imperial rule.</Description>
+  <Source Page="102">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>PARRY</Key>
+        <Key>CONSTVIGIL</Key>
+        <Key>STRSMART</Key>
+        <Key>NOBFOOL</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>TOUGH</Key>
+        <Key>REFLECT</Key>
+        <Key>SLEIGHTMIND</Key>
+        <Key>SECRETJEDI</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>PARRY</Key>
+        <Key>BAL</Key>
+        <Key>SMOOTHTALK</Key>
+        <Key>MASSHAD</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>DISSTRIKE</Key>
+        <Key>UNCANREAC</Key>
+        <Key>SMOOTHTALK</Key>
+        <Key>TRUSTNO</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>IMPSECRETJEDI</Key>
+        <Key>TEMPTRAIN</Key>
+        <Key>FORCERAT</Key>
+        <Key>DEDI</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+  <Universal>true</Universal>
+  <Attributes>
+    <ForceRating>1</ForceRating>
+  </Attributes>
+</Specialization>

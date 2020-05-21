@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>NE4CLOUDCAR</Key>
+  <Name>Ne-4 Cloud Car Interceptor</Name>
+  <Description>
+    [H3]Ne-4 Cloud Car Interceptor[h3]
+
+The Needle is a surprisingly speedy, high-altitude patrol ship designed to arrive on target absolutely as fast as possible. True to its name, it has a narrow, tapered profile and a low bubble canopy. Its powerful engines are notoriously temperamental. The ship trades speed for maneuverability and armor, and takes catastrophic damage at a much higher rate as a result. 
+
+[P]Bespin and high-altitude stations and cities deploy the Needle as a counter to smugglers and criminals flying vessels faster than the average cloud car or patrol ship. However, the criminals and smugglers themselves have taken a liking to the ship's speed, and are known to fly a few of their own. An illegal racing circuit has also sprung up, with contestants racing around and through massive cloud structures and storms on gas giants.</Description>
+  <Source>Dangerous Covenants</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Cloud Car</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>28000</Price>
+  <Rarity>4</Rarity>
+  <MaxAltitude>120 km</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>3</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>5</Speed>
+  <Handling>1</Handling>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

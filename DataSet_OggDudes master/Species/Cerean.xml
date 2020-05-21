@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CEREAN</Key>
+  <Name>Cerean</Name>
+  <Description>
+    [H4]Cerean[h4]
+
+Cereans are a distinctive species. Though they are similar in appearance to humans, their one noticeable difference comprises their extended, almost cone-like skulls, which house large, binary brains (in essence, two brains closely linked together). Because of their binary brains, members of this humanoid species can simultaneously pursue multiple lines of thought and have extraordinary mental aptitude. The species is also known for attention to detail as well as a cultural tendency toward extended contemplation. 
+
+[P][B]Physiology:[b] Cereans are mammalian, with anatomy very similar to that of humans. The most notable differences are the presence of the enlarged, conical cranium—to accommodate the binary brain structure—as well as a pair of hearts to improve blood circulation. Cereans are generally regarded as somewhat less physically coordinated than humans. 
+
+[P]Cereans exhibit an unusual sexual dimorphism. Female births outnumber male births by a ratio of twenty to one. Further, males age more rapidly than females. Consequently, female Cereans dominate the world's population. 
+
+[P][B]Society:[b] Cerean culture is focused on preserving the undamaged portions of their homeworid and living in harmony with the natural world. Meditation is a central part of their lives, often in conjunction with kasha crystals. These stones aid in calming and cleansing the mind, helping users to harness their natural energies. 
+[P]Partly due to their imbalanced sexual ratio. Cerean society is primarily matriarchal. The government is ruled by a president who works with a Council of Elders. Decisions are made only after lengthy discussions that thoroughly analyze both sides of an issue, with concerted efforts toward achieving objectivity. Notably, once the council makes a resolution, its decision is final, with no opportunity for appeal. Cereans believe so absolutely in their infallibility that they assume all decisions made by the council are correct. Revisiting such a decision may only happen due to changing circumstances or new. previously unknown information. 
+
+[P]Tradition plays a major role in Cerean life. This begins with an individual's name. Most Cereans have three names, derived from their parents and grandparents. Clothing styles are also highly traditional, established over centuries. Many Cereans train in the use of an ancient, curved sword known as the shyam. Duelists often focus on a highly artistic and stylized combat style as a means of releasing their aggression. Some argue that this catharsis plays a critical role in maintaining their peaceful society. 
+
+[P][B]Homeworld:[b] Cerea is a Mid Rim world with strong isolationist tendencies. Historically a verdant paradise, Cerea chose a neutral stance during the Clone Wars. However, it allowed large numbers of refugees displaced by the fighting to settle in its enclaves, creating tremendous population pressures and cultural clashes. Since the Clone Wars. Cerea has attempted to remain isolated from the galaxy at large. 
+
+[P][B]Language:[b] All Cereans learn Basic during their childhood, as well as native Cerean. Cerean uses glottal stops and a large number of lengthy compound words. </Description>
+  <Source>Force and Destiny Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>1</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>13</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>VIGIL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+    <SkillModifier>
+      <isCareer>true</isCareer>
+      <SkillType>Knowledge</SkillType>
+    </SkillModifier>
+  </SkillModifiers>
+</Species>

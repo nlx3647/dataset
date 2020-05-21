@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ASCENDFLY</Key>
+  <Name>Ascendant Personal Stealth Flyer</Name>
+  <Description>[H3]Ascendant Personal Stealth Flyer[h3]
+First produced by Sienar Design Systems as a proof of concept model, the Ascendant personl flyer was the predecessor to an experimental starship designed to defy blockades during the Clone Wars. The project was eventually scrapped when the prototype of the corvette-sized full version was destroyed over the planet Christophsis. However, a limited number of the smaller flyers still exist for those lucky enough to finde one.
+[P]Equipped with an advanced cloaking device that renders the craft nearly invisible, the Ascendant model is perfect for espionage and infiltration but has also seen use in various theaters of operation when an important ambassador or trade envoy needed to be inserted into a volatile situation without drawing undue attention from other parties. Many a negotiator owers it successful conclusion to the timely use of an Ascendant flyer in a moment of extreme tension.</Description>
+  <Source Page="57">Disciples of Harmony</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>35000</Price>
+  <Rarity>9</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Stealth Systems[b]: Vessel will not register on passive scanners at short range or farther.  Increase difficulty of any checks made to detect vessel by two.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <MaxAltitude>6000 meters</MaxAltitude>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>One pilot, one observer</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

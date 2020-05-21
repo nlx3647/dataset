@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SU42RS</Key>
+  <Name>SU-42RS Flashblind Aerial Reconnaissance Airspeeder</Name>
+  <Description>[H3]SU-42RS Flashblind Aerial Reconnaissance Airspeeder[h3]
+
+The SU-42RS Flashblind, a militarized version of Soro-
+Suub’s SU-40 high-performance airspeeder, is built for
+high-altitude penetration and aerial reconnaissance.
+Using the plans for a basic, preorder SU-40 civilian airspeeder
+as its base, SoroSuub engineers with Alliance
+sympathies produce the SU-42RS in small numbers.
+The vehicles are distributed to Rebel cells through various
+black market channels. This highly illegal act of corporate
+largesse provides the Rebellion with a fast and
+reliable reconnaissance speeder packed with technologies
+that it would otherwise not have access to.
+[P]Like its civilian cousin, the SU-42RS is built around
+SoroSuub’s powerful, high-performance IN-780 ion
+turbofan engine. Whereas the IN-780s used in the
+SU-40 are tuned for all-around performance, those in
+the SU-42RS are tuned for straight-line speed and
+maximum lifting thrust. This reduces the Flashblind’s
+overall agility, but allows the airspeeder to climb to altitude
+quickly and to outrun nearly any fighter or missile
+sent to intercept it. The Flashblind retains the long, graceful, needlelike fuselage, short, razor-thin wings,
+and two-position cockpit of its civilian cousin. It is
+slightly larger, however, featuring a stiffened, lengthened
+fuselage and light, anti-splinter armor around the
+cockpit, the engine, and the sensor systems bay.</Description>
+  <Source Page="50">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <Price>32000</Price>
+  <Rarity>7</Rarity>
+  <MaxAltitude>130 km</MaxAltitude>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>One pilot, one sensor/comms officer</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>6</Speed>
+  <Armor>1</Armor>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>AUTOBLAST</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

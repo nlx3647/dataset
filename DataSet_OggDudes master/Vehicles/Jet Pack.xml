@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>JETPACK</Key>
+  <Name>Jet Pack</Name>
+  <Description>[H3]Jet Pack[h3]
+
+A jet pack is ideal for fast maneuverability and surprise
+attacks. Most use small thrusters to blast into the air
+for short periods, though some augment this with anti-grav devices. Their only drawbacks are their large size and weight, limited fuel, and the not inconsiderable skill needed to pilot them safely. 
+[P]The Z-6 uses an air-breathing jet turbine to propel the user, maintaining stability via directional exhaust nozzles and a gyro-stabilizer. The pilot uses a verbal control interface and wrist controls to fly the jet pack.
+[P]A jet pack allows a person to function as a Silhouette 1, Speed 2, Handling 0, System Strain Threshold 3 vehicle that can only operate in atmosphere, and requires Piloting (Planetary) to operate.
+[P][B]Models Include:[b] Mitrinomon Z-6 Jet Pack.
+</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Jet Pack</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <Price>4500</Price>
+  <Rarity>7</Rarity>
+  <MaxAltitude>70 meters</MaxAltitude>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <Silhouette>1</Silhouette>
+  <Speed>2</Speed>
+  <SystemStrain>3</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

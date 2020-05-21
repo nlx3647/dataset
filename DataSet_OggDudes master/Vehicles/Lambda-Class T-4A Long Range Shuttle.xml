@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>T4A</Key>
+  <Name>Lambda-Class T-4A Long Range Shuttle</Name>
+  <Description>
+      [H3]Lambda-Class T-4A Long Range Shuttle[h3]
+
+A common utility shuttle used by the Imperial Navy, Sienar Fleet Systems' Lambda-class shuttles are a common sight at Imperial installations. Slow and sturdy, these shuttles were designed to haul both passengers and cargo, and can be configured as troop carriers, heavy cargo shuttles, and even luxury VIP transports. Lambda-class shuttles have a heavily armored square hull with a single tall vertical stabilizer mounted to the dorsal part of the main hull. Two additional fold-ing wings with an inverted gull wing design help stabilize the vessel. 
+
+[P]Lambda-class shuttles are driven by two SFS-204 ion engines with an SFS S/ig-37 hyperdrive providing long-range capabilities. Incredibly well-armed for a shuttle, they are equipped with a number of laser and blaster cannons in both forward and aft hard points that give the ship good fire coverage. Instead of standard escape pods, the entire forward bridge section detaches from the hull as a lifeboat in case of emergency. Incredibly useful and surprisingly versatile for a military design, these ships are often the target of ship thieves and pirates and can, on occasion, be purchased at staggering cost from the black market.</Description>
+  <Custom>DescOnly</Custom>
+  <Type>Shuttle</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>140000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>10</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>One Pilot, One Co-Pilot, One Navigator, One Gunner, One Comms Operator, One Engineer</Crew>
+  <EncumbranceCapacity>200</EncumbranceCapacity>
+  <Passengers>20</Passengers>
+  <Consumables>Two month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>4</Armor>
+  <HullTrauma>25</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Aft>true</Aft>
+      </FiringArcs>
+      <Location>Aft</Location>
+      <Retractable>true</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

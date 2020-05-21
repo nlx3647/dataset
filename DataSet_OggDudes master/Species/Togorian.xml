@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TOGORIAN</Key>
+  <Name>Togorian</Name>
+  <Description>[H4]Togorian[h4]
+
+The Togorian people are a feline warrior species native to the planet Togoria. They are known for their association with the Mandalorians, and the unique cultural divisions between their sexes. Both male and female Togorians are also noted for their strong sense of honor.
+
+[P][B]Physiology:[b] As a species, they are large bipeds, with retractable claws on their hands and feet. Female Togorians are up to 2.2 meters tall, while adult males ranged up to 3.0 meters. They are covered in gray-white to black fur, often with more colorful spots or stripes. They have extremely dense bone tissue, allowing them to endure greater physical trauma than beings with similar physiques.
+
+[P][B]Society:[b] Togorians evolved as nomadic hunters of creatures like the bist and etelo. In turn, flying reptiles called liphons preyed upon the Togorians. Primitive Togorians noticed that slightly smaller flying reptiles, mosgoths, were also targeted by liphons who attacked their nests and stole their eggs. Togorians began camping near the mosgoths for mutual protection, eventually domesticating them as mounts. Soon, a rift in their society developed—while males wanted to continue their lifestyle as nomads, females wanted the comfort and safety of permanent camps. In other species, the conflict would have led to one lifestyle winning over the other, but both male and female Togorians are too stubborn.
+
+[P]Eventually, the males continued their nomadic ways, riding their mosgoths and hunting, and competing in contests of prowess. Meanwhile, the females stayed in villages with pre-pubescent children, with those communes eventually growing into cities. While the males continued to hunt in the wilderness, the females tended domesticated herds and developed technology. Males would visit their mates for about a month each year, but the sexes lived completely separate lives otherwise. Whether in spite of the separation of the sexes, or because of it, Togorians are monogamous, and devoted to their chosen mates.
+
+[P][B]Homeworld:[b] Togoria is a planet in the Mid Rim and the homeworld of the Togorians.
+
+[P][B]Language:[b] Togorian is the native language of the Togorian species from Togoria. It is a harsh-sounding language. Most Togorians are fluent in both Togorian language and Basic, although they are only literate in their own language.</Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>1</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>14</WoundThreshold>
+    <StrainThreshold>8</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>COERC</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>TOGORIANCH1</Key>
+      <Name>Claws</Name>
+      <Options>
+        <Option>
+          <Key>TOGORIANCH1OP1</Key>
+          <Name>May use claws when brawling</Name>
+          <Description>When a Togorian makes a Brawl check
+to deal damage to an opponent, their attack
+deals +1 point of damage and has a Crit Rating
+of 3.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers>
+    <WeaponModifier>
+      <AllSkillKey>BRAWL</AllSkillKey>
+      <DamageAdd>1</DamageAdd>
+      <Crit>3</Crit>
+      <Range>Engaged</Range>
+    </WeaponModifier>
+  </WeaponModifiers>
+</Species>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LANCERPURS</Key>
+  <Name>Lancer-Class Pursuit Craft</Name>
+  <Description>[H3][I]Lancer[i]-Class Pursuit Craft[h3]
+Borrowing liberally from Corellian Engineering's design language and philosophy, the [I]Lancer[i]-class rides the line between civilian freighter and warship. The latest release from MandalMotors, created on special commission for the Black Sun, the [I]Lancer[i] is more an interdiction and patrol vessel than it is a workaday cargo hauler. Designed to chase down fleeing  cargo vessels or outrun other patrol ships, these vessels are fast, tough, and able to withstand hard use with irregular maintenance. They were designed to fly, fight, and survive in the most dangerous and remote parts of the galaxy from understocked, often improvised facilities. To that end, they have numerous redundant systems and are quite easy to maintain. In addition, they are highly modular, allowing for a broad array of modifications to fit the needs of nearly any user. This makes them extremely attactive to smugglers, bouny hunters, and many backwater planetary governments looking for a fast, cheap, and well-armed patrol ship.
+[P]Roughly the size of a YT-1200, the [I]Lancer[i]-class has a thin, suacer-like main hull reminiscent of many of CEC's more popular ships. A narrow, two-position tandem cockpit protrudes from the sucer's forward leading edge, and seats a pilot and co-pilot in cramped but well laid-out surroundings. A bank of powerful sublight engines mounted aft proves the primary thrust, and a pair of high perfromance ion engines are mounted on two short, squat, midships-mounted sponsons, providing a powerful boost when needed. While not as agile as a starfighter, the [I]Lancer[i]'s drives five it exceptional straight-line speed, enough to run down nearly anuthing in its class. While its shields are minimal and its armor is light, the [I]Lancer[i]'s speed and narrow silhoette make it a difficult target to track and hit in the heat of a battle. The ship's primary armament is relatively light—a pair of fire-linked light blaster cannons, a triple light laser turret, and a tractor beam emitter—but a state of the art fire control sustem makes them incredibly potent.</Description>
+  <Source Page="61">No Disintegrations</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Light Freighter</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>120000</Price>
+  <Rarity>8</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B][U]Mk.IV Fire Control System[u][b]: As a maneuver, pilot may activate or deactivate the FCS.  When active, ship's twin light laser cannon's Linked quality increases to 4 and it gains Tractor 2 quality, but only this weapon may be fired.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot</Crew>
+  <EncumbranceCapacity>60</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>5</Speed>
+  <Handling>-2</Handling>
+  <DefFore>1</DefFore>
+  <Armor>2</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>2</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Location>Ventral</Location>
+      <Key>TRACTLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

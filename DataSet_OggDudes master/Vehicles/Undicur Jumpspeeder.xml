@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>UNDICURJUMP</Key>
+  <Name>Undicur Jumpspeeder</Name>
+  <Description>[H3]Undicur Jumpspeeder[h3]
+The Undicur jumpspeeder was produced by the now-defunct Kuat Vehicles during the final years of the Republic. These compact speeder bikes were originally designed to be packed aboard starships for use as utility vehicles for light hauling, local transportation, and even search and rescue duties. Small, simple, and durable, the Undicur is little more than a low-output repulsor engine fitted with a saddle and rudimentary controls. For storage aboard starships, these vehicles can be folded up and easily stowed out of the way until they are needed. Undicurs were most commonly sold with [I]Eta[i]-class shuttles, and many veteran pilots still associate them together.</Description>
+  <Source Page="62">Endless Vigil</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Speeder Bike</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <Price>3000</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>150 meters</MaxAltitude>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One</Crew>
+  <EncumbranceCapacity>2</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <HullTrauma>2</HullTrauma>
+  <SystemStrain>2</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

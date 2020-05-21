@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>L120MOD</Key>
+  <Name>Modular Motor Pool</Name>
+  <Description>[H3]Fac L-120 Modular Motor Pool[h3]
+
+A combination
+garage, workshop, fabrication facility, and
+shelter, the L-120 modular motor pool is designed to hold ground vehicles and their support
+equipment. Little more than a large, lowceilinged
+open space with a large door taking
+up one long wall, the L-1 20 model modular
+motor pool can hold a number of land vehicles
+with silhouettes totaling no more than 6 and all
+the tools, lifts, and heavy equipment required to
+keep them in working order.
+[P][I]Disclaimer: This is a piece of field equipment found in the Lead by Example Sourcebook.  It is created as a stationary "vehicle" because it is the most appropriate format.  While any mods or benefits are per the official source, the actual vehicle stats are an interpretation only and are not official.  Feel free to modify them if you think any changes are required.[i]</Description>
+  <Source Page="48">Lead by Example</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Field Equipment</Type>
+  <Categories />
+  <Price>1200</Price>
+  <Rarity>2</Rarity>
+  <StarFighters>Land vehicles totalling up to silhouette 6</StarFighters>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One to ten mechanics</Crew>
+  <EncumbranceCapacity>200</EncumbranceCapacity>
+  <Silhouette>4</Silhouette>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

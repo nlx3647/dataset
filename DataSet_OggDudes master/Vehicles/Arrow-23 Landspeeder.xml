@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ARROW23LANDSPEEDER</Key>
+  <Name>Arrow-23 Landspeeder</Name>
+  <Description>[H3]Arrow-23 Landspeeder[h3]
+The galactic frontier is a huge place, with thousands upon thousands of planets that are lightly colonized with small settlements dotting the surface between vast swaths of wilderness. Still, other planets are not colonized at all, aside from native species that may or may not be friendly. Recognizing the need for a way to traverse surface distances, teh Aratech Repulsor Company built the adventure-friendly Arrow-23 landspeeder a versatile craft that could endure a wide vaiety of weather and terrain conditions. The surprisingly roomy interior craft fits six, including the driver, as well as a decent array of hunting, camping, and survival gear.
+[P]The Arrow-23 has a forward-sitting cockpit with transparisteel windows that slant up from the pointed nose, where the forward repulsor engine sits. The craft widens up in a roughly triangular shape, with sliding doors on either side leading to the passenger compartment. An optional turret can be mounted in the roof toward the rear of the cargo compartment, but models tend to vary greatly since each Arrow-23 is modified individually with slightly different equipment. The rear of the craft houses twin repulsor engines, angled down and backwards, covered by a large plascrete debris shield that helps reduce the spray of dust, snow, or turf kicked up by the vehicle at high speed.</Description>
+  <Source Page="58">Forged in Battle</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>10800</Price>
+  <Rarity>3</Rarity>
+  <MaxAltitude>5 meters</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot/gunner</Crew>
+  <EncumbranceCapacity>20</EncumbranceCapacity>
+  <Passengers>4</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

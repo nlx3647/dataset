@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DIPLOMAT</Key>
+  <Name>Diplomat</Name>
+  <Description>
+    [H4]Diplomat[h4]
+
+A Diplomat's eight career skills are [B]Charm, Deception, Knowledge (Core Worlds), Knowledge (Lore), Knowledge (Outer Rim), Knowledge (Xenology), Leadership,[b] and [B]Negotiation[b]. He automatically gains a rank in four of these skills without spending experience, and gains a discount on increasing them with future experience points. 
+
+[P][H4]A DIPLOMAT'S ROLE[h4]
+ 
+[P]The single most important resource in any war is people, and the Diplomat is the procurer of this resource, as well as the one who guides its use. Diplomats may not directly wage the war, but they ensure there is a chance for victory, and they are utterly indispensable for arranging and managing the peace to follow. 
+
+[P]While many of the Rebellion's heroes wage war with weapons, Diplomats are masters of employing words for strategic gain. If the stylus is stronger than the sword, then it is the Diplomat who must wield it with the skill and finesse necessary to achieve victory without spilling a drop of blood. Whether overseeing a treaty with a potential ally or arranging the terms for an enemy's equitable surrender, a Diplomat's battlefield is the negotiating table. 
+
+[P]In the halls of the Senate, on the streets of a planet rife with political discord, or in a warehouse full of desperately needed medical supplies, the Diplomat struggles to gain the upper hand and achieve a favorable—and perhaps peaceful—outcome for his people. No matter his methods, the Diplomat's success or failure has dramatic impact on a great many lives, and this drives him to passionately pursue his own form of victory at all costs.</Description>
+  <Source Page="76">Age of Rebellion Core Rulebook</Source>
+  <Custom>CustomItem</Custom>
+  <CareerSkills>
+    <Key>CHARM</Key>
+    <Key>CORE</Key>
+    <Key>DECEP</Key>
+    <Key>LEAD</Key>
+    <Key>LORE</Key>
+    <Key>NEG</Key>
+    <Key>OUT</Key>
+    <Key>XEN</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>ADVOCATE</Key>
+    <Key>AGITATOR</Key>
+    <Key>AMBASSADOR</Key>
+    <Key>ANALYST</Key>
+    <Key>FORCEADHERENT</Key>
+    <Key>IMPERIALACADEMYCADET</Key>
+    <Key>PADAWANSURVIVOR</Key>
+    <Key>PIRATE</Key>
+    <Key>PROPAGANDIST</Key>
+    <Key>QUARTERMASTER</Key>
+    <Key>RETIREDCLONETROOPER</Key>
+    <Key>SHIPCAPTAIN</Key>
+  </Specializations>
+  <Attributes />
+  <FreeRanks>4</FreeRanks>
+</Career>

@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>VICTSTARDEST</Key>
+  <Name>Victory-Class Star Destroyer</Name>
+  <Description>
+    [H3]Victory-Class Star Destroyer[h3]
+
+Old, slow, weak, and roundly despised by most, if not all, officers and enlisted crewmen who have served aboard them over their long service to the Imperial Navy, the Victory-class Star Destroyers are considered the first true Star Destroyers produced by KDY. Built during the height of the Clone Wars, the Victory-class was designed as an all-purpose heavy line of battle ship meant to support planetary landings and take part in fleet actions. While considered fine ships at the time, they were rushed to production after many delays and political wrangling within the Navy and KDY, and the resulting ships required more maintenance and dry dock time than was considered right even in the heavily bureaucratic Republic. They suffered from a rash of problems (from burned-out hyperdrive couplings to a disturbing tendency to electrocute crewmen in their bunks) and the entire class quickly gained a reputation as unlucky ships and spacegoing coffins. When the Emperor ascended the throne and overthrew the Old Republic, the Victory-class ships were given a service life extension program, becoming the Victory //-class and promising increased combat performance and longevity and the elimination of all the old ships' problems. 
+
+[P]This was not to be the case, however. Despite thorough rebuilds, the Victory II-class never eliminated all of its predecessor's issues. In addition, the development of new heavy cruisers and the Imperial and Imperial II-class Star Destroyers quickly rendered the old Victories obsolete despite their upgrades. Unloved by nearly everyone, many Victories were relegated to planetary garrison and light patrol duty in the farthest reaches of the Empire, and command of or assignment to one of the old Victories was seen as death to a Navy man's career. Those that weren't sent out to the galactic backwater were sold out of the Imperial Navy to private organizations (such as the Corporate Sector Authority) or broken up for salvage. At the beginning of the Rebellion, a handful of Victory II-class ships were purchased or seized and used to great effect against the Empire. The location and condition of these vessels is currently unknown, and most are presumed to have been lost or captured.</Description>
+  <Sources>
+    <Source>Age of Rebellion Core Rulebook</Source>
+    <Source>Force and Destiny Core Rulebook</Source>
+  </Sources>
+  <Custom>DescOnly</Custom>
+  <Type>Star Destroyer</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>50000000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <StarFighters>24 starfighters</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <Crew>6107 officers, pilots, and enlisted</Crew>
+  <EncumbranceCapacity>6500</EncumbranceCapacity>
+  <Passengers>1600</Passengers>
+  <Consumables>One year</Consumables>
+  <Silhouette>8</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>9</Armor>
+  <HullTrauma>120</HullTrauma>
+  <SystemStrain>50</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>1</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOMED</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Dorsal</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOMED</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Key>ACML</Key>
+      <Count>20</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Location>Hull</Location>
+      <Key>TURBOHVY</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

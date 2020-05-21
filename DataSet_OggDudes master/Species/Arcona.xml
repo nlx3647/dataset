@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ARCONA</Key>
+  <Name>Arcona</Name>
+  <Description>[H4]Arcona[h4]
+
+The Arcona are slim-framed reptilian humanoids with clawed hands and feet. They have compound eyes, which are large, green, and luminous. Their hairless, scaleless skin has a wood-like texture, and green, brown, or near-black in color. The Arconan head-shape is distinctive, akin to an inverted triangle, and tapers into the neck, giving them a snakelike appearance. 
+
+[P]The Arcona rely on ammonia supplements while away from their homeworld of Cona, they have poor eyesight, and their claws developed for digging rather than combat. However, they are hardier than they appear. Cona is a dangerous world, so the Arcona am used to surviving against the odds. Their vigilance and adaptability compensate for any physical weakness. They are strong-willed, effective team players, and always alert for danger. 
+
+[P]Family is of the utmost importance to the Arcona, and they have a strong sense of community. They often travel in groups, and their wanderlust takes these groups all over the galaxy. A peaceful and composed species, the Arcona are welcome residents on many worlds. Their powers of observation combined with their natural community spirit facilitate social interactions with other species. 
+
+[P][B]Physiology:[b] The Arcona come from the hot, dry planet of Cona, where the blistering temperatures stretch from pole to pole and remain unchanged throughout the year. While they do survive in cooler climates, they show a preference for a temperature similar to that of their homeworld. 
+
+[P]The protuberance between an Arcona's eyes is an incredibly sensitive infrared sensory organ, able to detect minute changes in the heat signatures of other beings. The Arcona smell via their tongues, which is why they often expose this slender appendage to the air in a flicking gesture that some other species might find annoying or even insulting. Working in concert, these senses are exact enough to discern moods and emotions in other species. 
+
+[P]The atmosphere on Cona contains high concentrations of ammonia vapor. Ammonia produces enzymes in the Arconan body that are necessary for their survival. As a result, the Arcona are dependent upon the presence of ammonia, and when traveling offworld must take ammonia supplements. These supplements must be ingested in roughly the same quantities as a human may need vitamin supplements, and an Arconan can survive for long periods without them (though this can have long term health effects). 
+
+[P][B]Society:[b] The Arcona have a sense of community so strong that they think of themselves in the collective sense. They consider raising a family to be both a duty and a privilege. The Arcona expect each member of society to put the good of his community before his own, and in most cases he does so. On their homeworld, the Arcona live in family-orientated nests, clustered around a Grand Nest where the Nest Leader oversees communal decisions. In families, the males are the primary caregivers, since the females of the species are, by Arconan standards, too flighty and unreliable. 
+
+[P]Any Arcona who travels alone, for whatever reason, faces a period of adjustment as he adapts to life away from his hive-like community. Fortunately, the Arcona are ready and able to adapt to survive, as they have proven time and again. 
+
+[P][B]Homeworld:[b] The Arconan homeworld of Cona lies within the Inner Rim. As it orbits a blue star, Teke Ro, Cona is as hot and dry as any desert planet. It is abundant in vegetation that leaches oxygen and ammonia from the surrounding environment, breaking it down to create water. This phenomenon is essential to the survival of the Arcona. The atmosphere of Cona consists of nitrogen, hydrogen, and high levels of ammonia. Most species require a breathing aid to visit the surface, and even then the stink of ammonia is prevalent. 
+
+[P]Cona is also rich in minerals and metals, which has been a mixed blessing for its inhabitants. These resources attracted prospectors and traders who originally exchanged water for mining rights, but then discovered the Arconan susceptibility to sodium chloride addiction. This compound acts as a hallucinogen to the Arcona, and addiction is ultimately fatal. Unfortunately, traders found it easier and cheaper to transport than water, so they imported it, putting the whole of Arconan society at risk. Swift intervention by the Republic and the Arconan government became necessary to prevent a complete breakdown of society. 
+
+[P][B]Language:[b] The Arcona are more practical than proud. OffworId, many teach their children Basic first, even before their own language of Arconese. While most adult Arcona speak both fluently, their snake-like tongues add a hissing resonance to their speech. They also struggle sometimes with personal pronouns, using "we" rather than "1." This reflects their community-based outlook, rather than grammatical inaccuracy. </Description>
+  <Source>Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>VIGIL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>ARCONAOC1</Key>
+      <Name>Environment</Name>
+      <Options>
+        <Option>
+          <Key>ARCONAOC1OP1</Key>
+          <Name>Environment</Name>
+          <Description>Arcona may remove [SETBACK] imposed due to arid or hot environmental conditions.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>ARCONAOC2</Key>
+      <Name>Mood</Name>
+      <Options>
+        <Option>
+          <Key>ARCONAOC2OP1</Key>
+          <Name>Mood Readers</Name>
+          <Description>
+            Arcona add [ADVANTAGE] to any Charm or Negotiation checks they make.
+          </Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>CHARM</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+            <DieModifier>
+              <SkillKey>NEG</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>J15</Key>
+  <Name>J-15 Rapid Service Speeder</Name>
+  <Description>[H3]SoroSuub J-15 Rapid Service Speeder[h3]
+The SoroSuub Rapid Service Speeder is a mobile emergency workshop designed to rush to a disabled vehicle in virutally any location and get it back up and running as quickly as possible. Larger repair services in urbanized areas often utilize a fleet of these craft for rapid response services, which they sell to companies and individuals looking for a bit of extra help in a pinch. Some small settlements rely on a J-15 as their general technical service station and for field repairs/
+[P]The J-15 is a large, bulky airspeeder with oversized engines. It carries basic repair gear, torches, welding equipment, cutting tools, and electronic repair stations. Some of the machinery is quite heavy, which means that even though the deisigners kept the speeder relatively fast for its type, the weight and bulk makes maneuverability  difficult, especially at high speed. Improving maneuverability is the first order of business for anyone who depends on the J-15 regularly, especially in urban and other congested settiings. Notably, the speeder has no built-in cables or standard towing ability, as it's designed for repair, rather than salvage.</Description>
+  <Source Page="61">Special Modifications</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>25000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>3,000 meters</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>230</EncumbranceCapacity>
+  <Passengers>24</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-3</Handling>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>RUFCARGO</Key>
+  <Name>Rufescent Cargo Hauler</Name>
+  <Description>[H3][I]Rufescent[i] Cargo Hauler[h3]
+A widely produced bipedal heavy loader, TaggeCo's [I]Rufescent[i]-class cargo hauler has achieved popularity due to its modular nature and ease of modification. Uts large number of anchor points and sturdy construction have made it a particular favorite of certain criminal groups and desperate vigilantes, who employ it as a mobile heavy weapons platform by attaching ranged armaments to the cargo arms. Though offering minimal protection to the rider, the [I]Rufescent[i] has proven an effective makeshift support vehicle in urban combat, especially for those who cannot afford military-grade walkers. While it is no match for Imperial armor on the battlefield, its small profile makes it extremely useful in environments where heavier walkers cannot easily operate.</Description>
+  <Source>Keeping the Peace</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Heavy Cargo Loader</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Walker</Category>
+  </Categories>
+  <HP>6</HP>
+  <Price>4000</Price>
+  <Rarity>3</Rarity>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One operator</Crew>
+  <EncumbranceCapacity>50</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-2</Handling>
+  <HullTrauma>6</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

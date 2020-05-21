@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>TRAILBLAZER</Key>
+  <Name>Trailblazer</Name>
+  <Description>[H4]Trailblazer - Unseen Paths[h4]
+When facing a numerically superior enemy with access to better weapons, armor, and supplies,
+an army must leverage absolutely every advantage
+possible. The Soldiers of the Alliance to Restore the
+Republic have grown accustomed to fighting while outnumbered and outgunned, and have honed their wits
+to compensate and regain the advantage against the
+Empire. One area in which rebel Soldiers frequently
+have the edge is in knowledge of the terrain and how
+to use it. Even storm troopers, the supposed elite of the
+Empire, frequently fall prey to its rigid modes of thinking, and Trailblazers can use their superior knowledge
+of the terrain and unorthodox tactics to surprise and
+overwhelm their foes.
+[P]Catching the enemy off guard is one of the oldest and most diverse tactics in the galaxy, and Trailblazers seek to turn it to their advantage at every turn. To this end, a Trailblazer recieves [B]Knowledge (Outer Rim)[b], [B]Perception[b], [B]Stealth[b] and [B]Survival[b] as additional career skills. If this is a character's starting specialization, he may choose two of these skills and gain on free rank in each, without spending starting experience. Survival makes the Trailblazer better at tracking foes and setting clever traps, while Stealth helps in avoiding enemies who might uncover the Trailblazer's presence.
+[P]Trailblazers tend to favor patience and indirect solutions, pitting the foe against the wilderness or using the features of the terrain to eliminate enemy advantages. Heavy walkers cannot function in the confines of a forest, for instance nor can massive infantry surges push through urban environments without exposing themselves to risk. Trailblazers work to make the best of cover and prefer to fight on their own turf, where they can turn every piece of their knowledge to their advantage. The Cunning Snare talent, in particular, shnes here, giving the Trailblazer the ability to set up a devasting trap for unsuspecting foes. while this talent takes some setup to use, the payout can be considerable, levelling a fight with a numerically superior or better-equipped foe. The Trailblazer can even use this talent without advanced supplies, using cleverness and woodcraft to overcome dire situations if the PCs are ever stranded without access to optimal gear—and on the shifting battlefields of the Galactic Civil War, Soldiers of the Rebellion can find themselves cut off and without support in an instant.
+[P]Trailblazers often act as guides to other members of their squads, helping them to avoid the dangers of the wild and the battlefield alike as the group moves to the most advantageous position possible.  A skilled Trailblazer can not only allow a group of PCs to win difficult battles through subterfuge and trickery, but also to avoid unnecessary battles entirely. The Rebel Alliance frequently needs to achieve objectives without the Empire noticing, and so the best battle is often the one that was never fought. A Trailblazer can be a substantial boon to any [B]Age of Rebellion[b] group in other contexts, too whether the PCs are moving through the wilds or the streets of a city.</Description>
+  <Source Page="30">Forged in Battle</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>OUT</Key>
+    <Key>PERC</Key>
+    <Key>STEAL</Key>
+    <Key>SURV</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>STALK</Key>
+        <Key>TOUGH</Key>
+        <Key>OUTDOOR</Key>
+        <Key>EXTRACK</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>DISOR</Key>
+        <Key>PRIMEPOS</Key>
+        <Key>CUNNSNARE</Key>
+        <Key>OUTDOOR</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>GRIT</Key>
+        <Key>DODGE</Key>
+        <Key>BLINDSPOT</Key>
+        <Key>TOUGH</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>DODGE</Key>
+        <Key>PREYWEAK</Key>
+        <Key>EXTRACK</Key>
+        <Key>ONENAT</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>DEDI</Key>
+        <Key>AMBUSH</Key>
+        <Key>DISOR</Key>
+        <Key>PREYWEAK</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

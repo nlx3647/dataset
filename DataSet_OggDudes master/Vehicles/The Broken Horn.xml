@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BROKENHORN</Key>
+  <Name>The Broken Horn</Name>
+  <Description>[H3]The [I]Broken Horn[i][h3]
+This C-ROC [I]Gozanti[i]-class cruiser serves as Vizago's personal transport. It is only lightly armored, relying on surprising speed and maneuverability to avoid trouble. The [I]Broken Horn[i] has several modifications, including smuggling compartments and power stations for up to a dozen droids, all of which are keyed to Vizago's droid remote for activation at a moment's notice. The ship's extensive reconfiguration allows the Devaronian to fly the ship without the aid of a co-pilot, if necessary.</Description>
+  <Source Page="83">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Armored Transport</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>4</HP>
+  <Price>450000</Price>
+  <Rarity>6</Rarity>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>One pilot, up to 25 hired crew.</Crew>
+  <EncumbranceCapacity>1500</EncumbranceCapacity>
+  <Passengers>12</Passengers>
+  <Consumables>Three months.</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>3</DefFore>
+  <DefAft>3</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>38</HullTrauma>
+  <SystemStrain>22</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

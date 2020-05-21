@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GPE3130</Key>
+  <Name>GPE-3130</Name>
+  <Description>[H3]GPE-3130[h3]
+Galactic Power Engineering's 3130-series  factory custom is one of the stranger Podracers currently on the market. Designed for straight-line speed and little else, the 3130 is powered by a pair of GPE ThrustMaster 9000 aerospike rocket engines augmented by a pair of smaller ramjet engines on nacelle-mounted outriggers. The aerospike engines provide primary thrust, thile the ramjets provide short burst of boost and power the multitude of attitude jets scattered around the racers's hull. It is an awkward-looking vehicle with its flat nosed, wedge-shaped engines and almost comical smaller outrigger-mounted ramjets, but its looks are decieving. The 3130 is an absolute terror on open, high-speed tracks with long straightways and broad, gentle curves.
+[P]Despite its blistering speed and an aggressive marketing campaign by GPE, the 3130 is relatively unpopular. The rocket engines are maintenance hogs that burn an extremely volatile fuel that detonates at the slightest provacation. The raw speed and the power control curve of the engines make the 3130 incredibly hard to control, especially in sharp turns and tight spaces, and the attitude thrusters do little more than make noise. The cockpit is uncomfortable and the control layout is an unintuitive mess seemingly deisnged to keep the important detials of the racer's operation—altitude, airspeed, and so on—a  secret from the pilot. It is swift and affordable, however, being among the fastest and least expensive of the current factory customs and a number of smaller racing teams field them for just those reasons.</Description>
+  <Source Page="56">Endless Vigil</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Podracer</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>11500</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>50 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>1</EncumbranceCapacity>
+  <Silhouette>3</Silhouette>
+  <Speed>6</Speed>
+  <Handling>-3</Handling>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>4</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

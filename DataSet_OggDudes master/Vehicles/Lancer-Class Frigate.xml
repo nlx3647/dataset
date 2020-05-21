@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>LANCERFRIG</Key>
+  <Name>Lancer-Class Frigate</Name>
+  <Description>
+    [H3]Lancer-Class Frigate[h3]
+
+The Imperial Navy's Lancer-class frigate, a dedicated anti-starfighter vessel with an impressive reputation for power and reliability, has been in service since the end of the Clone Wars. A rarity in the Imperial order of battle, Lancers are armed with a number of accurate and deadly quad laser cannons that can fill every centimeter of space around them with crackling energy. Although frightfully effective, Lancers are expensive and have inordinately large crews. They are also a bit of a failed experiment, as with their light armament they can't take on ships of equal class, and their slow speed and poor maneuverability means that most fighters can simply outrun them. This, combined with the fact that most Imperial captains are happy to throw their TIE fighters away screening enemy fighters instead of filling a slot in their formation with a dedicated anti-starfighter vessel, means that the majority of Lancers currently in service are only active in and around the Outer Rim, where they fill interdiction and anti-piracy roles.</Description>
+  <Source>Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Frigate</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+    <Category>Capital Ship</Category>
+  </Categories>
+  <Price>4760000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>true</Restricted>
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <Crew>800 officers and enlisted</Crew>
+  <EncumbranceCapacity>200</EncumbranceCapacity>
+  <Passengers>40</Passengers>
+  <Consumables>Six months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>52</HullTrauma>
+  <SystemStrain>34</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Key>LASERQUAD</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Key>LASERQUAD</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>LASERQUAD</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Key>LASERQUAD</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Forward</Location>
+      <Key>LASERQUAD</Key>
+      <Count>4</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

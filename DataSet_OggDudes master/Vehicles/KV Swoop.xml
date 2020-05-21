@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>KVSWOOP</Key>
+  <Name>KV Swoop</Name>
+  <Description>
+    [H3]KV Swoop[h3]
+
+Perhaps the most common personal transport vehicle in the Outer Rim, the ubiquitous KV by Kuat Vehicles is the purest expression of the swoop concept available today. Spartan even by swoop standards, the KV is based around a Kuat Drive Yards Bansidhe ion drive. Aside from the powerful ion drive, the requisite backup repulsor system, and the simple controls, there is little to the KV aside from a reclining saddle. KV riders sit at the very rear of the craft, slightly reclined in a form-fitting full-backed seat that hugs the rider to keep him well seated during maneuvering. The hand controls are set close to the rider with intuitive switch gears that control most of the KV's rudimentary engine-management systems, and the foot controls are forward of the rider, which presents an even greater sense of reclining in a chair when astride the vehicle. KV swoops have no weapons and no capacity to add them. Their simple electrical systems are totally consumed with operating the engine, flight controls, and control surfaces to keep the KV running and the pilot alive.</Description>
+  <Source>Enter the Unknown</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Swoop</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <Price>4800</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>50 meters</MaxAltitude>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>3</EncumbranceCapacity>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Handling>1</Handling>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>3</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

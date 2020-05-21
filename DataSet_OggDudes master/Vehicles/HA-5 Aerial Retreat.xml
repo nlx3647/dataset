@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HA5RETREAT</Key>
+  <Name>HA-5 Aerial Retreat</Name>
+  <Description>[H3]HA-5 Aerial Retreat[h3]
+
+More mobile dwelling than vehicle, the HA-5 aerial retreat is an unusual repulsorcraft, resembling nothing so much as a square, three-story building lifted into the sky. The massive repulsorlift drives, necessary to keep the unlikely craft aloft, take up the full bottom level. Other facilities include a large galley, heating and cooling units, and storage for supplies and tools occupy the center level. The topmost level of the craft, along with the vessel's open roof, are devoted to the daily lives of those aboard. Quarters for crew, staff, and residents or guests are accompanied by a lounge equipped with dejarik boards, a bar, and other luxuries. The layout of the upper levels is easily reconfigurable, to better suit the comfort of those aboard. Facilities ranging from net-ball courts to speeder garages have been set up aboard HA-5s across the galaxy. Since these craft rarely land, a small dock extends off of the retreat's roof to allow access. 
+
+[P]Although the HA-5 usually serves as an idle getaway for vacationing tourists or rich nobles, the vessel is also ideal for diplomatic summits. This craft grants comfortable privacy, while the comm arrays in the control room enable negotiators to keep in touch with the concerns of their constituents. The bulky aerial retreats are far from stealthy, but without a reason for suspicion, outside interests are unlikely to interfere with the business conducted inside. Therefore, the Rebellion has occasionally arranged for meetings to take place in HA-5 craft owned by sympathizers to their cause.</Description>
+  <Source>Desperate Allies</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>750000</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>10 kilometers</MaxAltitude>
+  <Crew>One helmsman, three engineers, up to 12 wait staff</Crew>
+  <EncumbranceCapacity>250</EncumbranceCapacity>
+  <Passengers>16</Passengers>
+  <Silhouette>5</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-5</Handling>
+  <Armor>3</Armor>
+  <HullTrauma>55</HullTrauma>
+  <SystemStrain>28</SystemStrain>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

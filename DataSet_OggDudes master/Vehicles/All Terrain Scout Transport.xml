@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ATST</Key>
+  <Name>All Terrain Scout Transport</Name>
+  <Description>
+    [H3]All Terrain Scout Transport[h3]
+
+The Imperial Army's AT-ST is a medium-sized bipedal walker designed as a fast force reconnaissance vehicle. Unlike their larger, heavier AT-AT siblings, AT-STs are quite fast and agile. Deployed either in tandem for long range reconnaissance or in squadrons when supporting troops or armor, the AT-ST consists of a lightly armored, slab-sided command pod set atop a pair of thin reverse-articulated legs. The command pod can rotate through 180 degrees, allowing the walker to bring its weapons quickly to bear without having to change the position of its legs, an extremely useful feature when fighting in rough or broken terrain. They are armed with a versatile mix of blasters and ordnance, and can fill both antipersonnel and light anti-armor roles with ease. While certainly capable, AT-STs have a reputation as relatively fragile, high-maintenance vehicles. Their drive systems are especially finicky, requiring many, many hours of maintenance, and an inattentive pilot can easily become entangled in obstacles or heavy ground cover.</Description>
+  <Source>Age of Rebellion Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Walker</Category>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>1</HP>
+  <Price>75000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <Crew>One pilot, one gunner</Crew>
+  <EncumbranceCapacity>18</EncumbranceCapacity>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Armor>3</Armor>
+  <HullTrauma>15</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>BLASTCANLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>CONGRENLAUNCH</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Chin</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANHVY</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

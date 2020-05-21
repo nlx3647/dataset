@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AGGASSFIGHT</Key>
+  <Name>Aggressor Assault Fighter</Name>
+  <Description>[H3]Aggressor Assault Fighter[h3]
+Trilpm Incorporated's Aggressor Assault Fighter blurs the line between partrol boat and starfighter.  A relatively new entry into the market, and the first purpose-built combat vessel designed by TI, the Aggressor is a fast, potent ship optimized for patrol and medium combat duties. It has a narrow, lightly-armored, V-shaped hill with articulated S-foils mounted port and starboard that act as precision control surfaces. The two-position tendem cockpit is located between the forward-facing arms of the V, and a single, powerful, KDY Sol-Mk. VI ion engine is mounted at the point.
+[P]Because of the Aggressor's incredible acceleration, the craft's desingers found it necessary to add numerous limiters and safety features to the craft, stacking inertial dampeners and similar devices to keep the pilot conscious and alive while performing high-speed maneuvers. These features worsen the craft's handling, but also prevent pilots from incapacitating themselves while flying it.</Description>
+  <Source Page="57">No Disintegrations</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Patrol Boat</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>160000</Price>
+  <Rarity>6</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Safety Limiters[b]: As a maneuver, can change to Handling +3, but each character aboard suffers 4 strain when pilot maneuvers are performed (1 strain for droids and characters with 4+ cybernetics).</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>8</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot, one co-pilot</Crew>
+  <Consumables>Three months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>5</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <Armor>2</Armor>
+  <HullTrauma>25</HullTrauma>
+  <SystemStrain>15</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONMED</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>TRACTLT</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

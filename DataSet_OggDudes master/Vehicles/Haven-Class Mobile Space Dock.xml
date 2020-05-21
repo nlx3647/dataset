@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HAVENDOCK</Key>
+  <Name>Haven-Class Mobile Space Dock</Name>
+  <Description>[H3][I]Haven[i]-Class Mobile Space Dock[h3]
+Rendili StarDrive's [I]Haven[i]-class ship is a true rarity: a hyperspace-capable mobile space dock. Designed as a traveling dry dock and starship maintenance facility, each is a thin vessel of impressive size, appearing more like an elegant building than a starship. Long docking arms with many ports project from the vertical main hull, along with huge horizontal support frames to aid in drydock repairs. A huge superstructure like a small city rises above the docking facilities and houses the ship's crew, passengers, and support facilities. Each docking facility can handle a frigate- or cruiser-sized vessel of up to sihouette 6, and the ship houses enough technicians, workshops, fabrication facilities, laboratories, and other facilities to repair even seriously damaged ships or maintain a small fleet or battle group in space.
+[P]Neither fast nor agile, [I]Haven[i]-class ships are extremely vulnerable to attack. While they have thick armor and a respectable weapons load-out, their weapons are more anti-fighter and anti-boarding weapons than for assault. Due to their vulnerability, these ships are typically escorted by one or more frigates to provide combat support, or are part of a larger battle group and rely on the strength of the other ships to defend them. Although they often have starfighters aboard trom visiting ships that can be scrambled in an emergency, [I]Haven[i]-class ships are not set up to launch and recover fighters; doing so can be a chaotic and dangerous affair. Few of these valuable vessels exist, and almost all of them are in the Imperial Navy. The Alliance Navy currently owns two: a fully operational ship called [I]Sanctum[i], and a heavily damaged recent capture that was known in the Imperial Navy called [I]Reserve[i], currently undergoing repair and refit at an Alliance-controlled shipyard.</Description>
+  <Source Page="59">Fully Operational</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Mobile Space Dock</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+    <Category>Station</Category>
+  </Categories>
+  <HP>10</HP>
+  <Price>38000000</Price>
+  <Rarity>9</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>16</HyperdriveBackup>
+  <StarFighters>Numerous shuttlecraft and short-range runabouts</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>4,500 officers, engineers, and enlisted crew</Crew>
+  <EncumbranceCapacity>30000</EncumbranceCapacity>
+  <Passengers>8000</Passengers>
+  <Consumables>Two years</Consumables>
+  <Silhouette>7</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-3</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>6</Armor>
+  <HullTrauma>100</HullTrauma>
+  <SystemStrain>75</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>2</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Port>true</Port>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Key>LASERQUAD</Key>
+      <Count>30</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Key>LASERQUAD</Key>
+      <Count>30</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Hull</Location>
+      <Key>TRACTHVY</Key>
+      <Count>10</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Long</SensorRange>
+</Vehicle>

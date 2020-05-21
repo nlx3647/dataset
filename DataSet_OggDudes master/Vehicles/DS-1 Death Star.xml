@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DEATHSTAR1</Key>
+  <Name>DS-1 Death Star</Name>
+  <Description>[H3]DS-1 Death Star[h3]
+The Death Star is equal parts starship, space station, and siege engine. Its power and versatility are unlike anything seen before, and it promises to change the face of warfare. The battle station's self-sufficiency, hyperspace capability, and ability to operate without escort or support vessels allow it to bring its terrifying superlaser to bear anywhere in the galaxy. Grand Moff Tarkin believes that the constant fear of it appearing in orbit over their planet will keep rebellion-minded citizens in line. He himself fears nothing and no one in the galaxy could possibly harm the Death Star.
+[H4]Death Star Fire Arcs[h4]
+The shape and sheer size of the Death Star makes determining fire arcs for its weapons a tricky proposition. At any angle of attack, an incoming ship has hundred-perhaps thousands- of turbolasers, ordnance launchers, point defense weapons, and tractor beam emitters pointed at it, following its every move. Weapons in the Death Star's profile, save for the unique superlaser, thus do not have fire arcs as part of their description. If Game Masters choose to have their players tangle with the Death Star, taking fire from the massive battle station should be even more narrative than usual.
+[P]One way to handle such an encounter is for the Game Master to describe the scene-space around the players' ship filled with turbolaser bolts, crackling ion blasts, the glowing warheads of concussion missiles, etc.-and then pick out one or two of the Death Star's weapon systems to target the players' ship specifically. This gives the players an idea of the strength of the battle station as a general threat as well as presenting a concrete threat from weapons that are actually targeting them. This suggestion, of course, is not definitive. Game Masters are encouraged to find their own creative (and deadly) solutions to dealing with the Death Star.</Description>
+  <Source Page="32">Dawn of Rebellion</Source>
+  <Custom>AddedItem</Custom>
+  <Type>Space Station</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+    <Category>Station</Category>
+  </Categories>
+  <Price>2147483647</Price>
+  <Rarity>10</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Silhouette:[b] 20.</MiscDesc>
+    </Mod>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Price/Rarity:[b] Very few know how many trillions of credits have been consumed in DS-1's construction. Almost all of them also believe the gigantic battle station to be unique.</MiscDesc>
+    </Mod>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Weapons:[b] Superlaser[P]12,000 heavy turbolaser batteries[P]15,000 turret-mounted twin light turbolaser batteries[P]10,000 battleship ion cannon batteries[P]10,000 turret-mounted twin medium ion cannon batteries[P]10,000 turret-mounted light ion cannons[P]20,000 turret-mounted point defense concussion missile launchers[P]50,000 turret-mounted twin heavy laser cannons[P]50,000 turret-mounted quad laser cannons[P]1,000 heavy tractor beam emitters</MiscDesc>
+    </Mod>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Massive 8:[b] When making an attack targeting this station, the critical rating of any weapons used counts as 8 higher.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <HyperdrivePrimary>4</HyperdrivePrimary>
+  <HyperdriveBackup>20</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srExtreme</SensorRangeValue>
+  <Crew>1,200,000.</Crew>
+  <EncumbranceCapacity>500000</EncumbranceCapacity>
+  <Passengers>750000</Passengers>
+  <Consumables>Four years.</Consumables>
+  <Silhouette>10</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-5</Handling>
+  <Armor>20</Armor>
+  <HullTrauma>1000</HullTrauma>
+  <SystemStrain>800</SystemStrain>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Key>SUPERLASER</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Key>TURBOHVY</Key>
+      <Count>100</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>100</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Key>IONBATT</Key>
+      <Count>100</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>IONMED</Key>
+      <Count>100</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Turret>true</Turret>
+      <Key>IONLT</Key>
+      <Count>100</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+      <Count>100</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Turret>true</Turret>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERHVY</Key>
+      <Count>100</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Turret>true</Turret>
+      <Key>LASERQUAD</Key>
+      <Count>100</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs />
+      <Key>TRACTHVY</Key>
+      <Count>100</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Extreme</SensorRange>
+</Vehicle>

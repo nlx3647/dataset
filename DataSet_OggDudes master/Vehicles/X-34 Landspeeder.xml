@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>X34SPEEDER</Key>
+  <Name>X-34 Landspeeder</Name>
+  <Description>
+      [H3]X-34 Landspeeder[h3]
+
+SoroSuub's X-34 is a two-passenger, coupe-styled civilian landspeeder known for its solid reputation for reliability. Powered by SoroSuub's Twinstar repulsorlift engine and supplemented by a trio of low-output turbofan engines, the X-34 provides utility and respectable performance, if not a large amount of style or dash, in a sturdy, affordable package. More utilitarian than many offerings from SoroSuub, this speeder has little in the way of amenities. It has a snug cockpit with two form-fitting seats covered in hard-wearing rubberized fabric. The controls are simple and the speeder is easy to drive, making it a useful utility speeder.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>2</HP>
+  <Price>4500</Price>
+  <Rarity>2</Rarity>
+  <MaxAltitude>1 meters</MaxAltitude>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>15</EncumbranceCapacity>
+  <Passengers>1</Passengers>
+  <Consumables>None</Consumables>
+  <Silhouette>2</Silhouette>
+  <Speed>2</Speed>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Close</SensorRange>
+</Vehicle>

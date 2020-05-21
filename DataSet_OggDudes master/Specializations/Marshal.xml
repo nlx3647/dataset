@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MARSHAL</Key>
+  <Name>Marshal</Name>
+  <Description>[H4]Marshal - The Burden of Peace[h4]
+
+[P]Criminals might run and criminals might hide, but the Marshal won't rest until he drags them back to town in binders. The presence of a strong Marshal is often the only thing keeping a colony from plunging into chaos. The Marshal has a gift for extracting information from witnesses and confessions from criminals. and separating lies and irrelevant information from the truth. Should suspects turn violent, the Marshal is equally adept at talking criminals into a pair of binders or blasting them into oblivion.
+
+[P]Marshals receive [B]Coercion, Knowledge (Underworld), Ranged (Light)[b] and [B]Vigilance[b] as additional career skills. If this is the character's starting specialization, he gains one free rank in each of two of these skills of his choice, without spending experience. Where most Colonists are forced to rely on talking their way out of trouble, the Marshal finds that his blaster speaks almost as well as he does. Most law officers know that holding the weight of the law over a potential witness is the quickest way to modify his attitude. Marshals can throw the weight of their authority around to get answers. There is little government oversight on the fringe, and often a Marshal's word is the law. 
+
+[P]Equally as important is the Marshal's knowledge of crime and criminal elements, especially those operating within his jurisdiction. A Marshal who doesn't take the time to familiarize himself with the local malcontents isn't going to be very good at his job. And when it comes time to go toe to toe with those criminals, the Marshal is ready. Most Marshals know how to use the blasters at their hips. 
+
+The Marshal makes for a great leader in combat-oriented groups, or can provide some muscle to non-combat groups while still participating in social and investigative encounters. Marshals strike a great balance between social skills and combat, allowing them to speak on behalf of combat-oriented parties without being a liability when blaster bolts start flying. Their ability to sort fact from fiction makes them difficult to manipulate, and their gritty determination can carry an entire group that would have otherwise given up hope of success.</Description>
+  <Source Page="28">Far Horizons</Source>
+  <Custom>DescOnly</Custom>
+  <CareerSkills>
+    <Key>COERC</Key>
+    <Key>RANGLT</Key>
+    <Key>UND</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <TalentRows>
+    <TalentRow>
+      <Cost>5</Cost>
+      <Talents>
+        <Key>HARDHD</Key>
+        <Key>GRIT</Key>
+        <Key>STRSMART</Key>
+        <Key>TOUGH</Key>
+      </Talents>
+      <Directions>
+        <Direction />
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>10</Cost>
+      <Talents>
+        <Key>DURA</Key>
+        <Key>GOODCOP</Key>
+        <Key>BADCOP</Key>
+        <Key>QUICKDR</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Right>true</Right>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>15</Cost>
+      <Talents>
+        <Key>HARDHD</Key>
+        <Key>GRIT</Key>
+        <Key>GOODCOP</Key>
+        <Key>POINTBL</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>20</Cost>
+      <Talents>
+        <Key>DURA</Key>
+        <Key>UNRELSKEP</Key>
+        <Key>BADCOP</Key>
+        <Key>POINTBL</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+      </Directions>
+    </TalentRow>
+    <TalentRow>
+      <Cost>25</Cost>
+      <Talents>
+        <Key>HARDHDIMP</Key>
+        <Key>UNRELSKEPIMP</Key>
+        <Key>DEDI</Key>
+        <Key>NATMAR</Key>
+      </Talents>
+      <Directions>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Right>true</Right>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
+          <Left>true</Left>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+      </Directions>
+    </TalentRow>
+  </TalentRows>
+</Specialization>

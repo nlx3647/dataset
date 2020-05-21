@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>WAR</Key>
+  <Name>Warrior</Name>
+  <Description>
+    [H4]Warrior[h4]
+
+The Warriors six career skills are [B]Athletics, Brawl, Cool, Melee, Perception, and Survival[b]. Characters with this career automatically gain a rank in three of these skills without spending experience and gain a discount on increasing them with future experience points. [B]Warriors begin the game with a Force rating of 1.[b]
+
+[P][H4]A WARRIOR'S ROLE[h4]
+ 
+[P]Though the lightsaber is an iconic weapon for many Force users. some dedicate themselves wholly to becoming paragons of strife. These dangerous individuals are known as Warriors.
+
+[P]At their most basic, Warriors are focused combatants who use the Force to augment their prodigious martial prowess. Whether flying in the pilot's seat of a starfighter, wielding a lightsaber on the field of battle, or blazing away with a blaster pistol. Warriors excel in combat of all types. 
+
+[P]Legends indicate that the Jedi Order's origins began with warriors who worked to integrate Force techniques into their physical training. Even in the absence of the Old Republic's guardians, this association remains. The Force can give strength to those who need it, and Warriors excel at exploiting that strength. They become a physical manifestation of the Force, willing and ready to overcome those who would inflict harm. 
+
+[P]The Warrior's greatest strength, however, can also be his most dangerous weakness. Endless aggression can be a path toward the dark side. A wise individual must recognize that violence has its place but is not the only possible answer. A Warrior can inflict substantial and precise damage. However, even carefully applied attacks can still have far-reaching consequences. Because of this, it can be every bit as important for a Warrior to recognize when it is more appropriate not to attack. Some individuals who follow this career consider this sense of judgment to be the most important aspect of their training. 
+[P]Warriors can come from a broad range of different cultures and environments. Physical conflict is every bit as common within the civilized and technologically advanced worlds of the Core as it Is within the less structured societies of the Outer Rim. Combat styles and the tools employed within conflicts may change. but the motivations and final outcomes are often similar. Ultimately, Warriors must be willing to risk their own lives so that they can overcome threats to themselves and to those they hold most dear.</Description>
+  <Source Page="96">Force and Destiny Core Rulebook</Source>
+  <Custom>CustomItem</Custom>
+  <CareerSkills>
+    <Key>ATHL</Key>
+    <Key>BRAWL</Key>
+    <Key>COOL</Key>
+    <Key>MELEE</Key>
+    <Key>PERC</Key>
+    <Key>SURV</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>AGGRES</Key>
+    <Key>COLOSSUS</Key>
+    <Key>FORCEADHERENT</Key>
+    <Key>IMPERIALACADEMYCADET</Key>
+    <Key>JUYOBERSERKER</Key>
+    <Key>PADAWANSURVIVOR</Key>
+    <Key>PIRATE</Key>
+    <Key>RETIREDCLONETROOPER</Key>
+    <Key>SHIICHO</Key>
+    <Key>SHIPCAPTAIN</Key>
+    <Key>STARACE</Key>
+    <Key>STEELHANDADEPT</Key>
+  </Specializations>
+  <Attributes>
+    <ForceRating>1</ForceRating>
+  </Attributes>
+  <FreeRanks>3</FreeRanks>
+</Career>

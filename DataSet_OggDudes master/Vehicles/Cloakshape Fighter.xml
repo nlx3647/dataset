@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CLOAKSHAPE</Key>
+  <Name>Cloakshape Fighter</Name>
+  <Description>
+      [H3]Cloakshape Fighter[h3]
+
+The KSE CloakShape is an aerospace fighter first built by the now-defunct Kuat Systems Engineering in the decades leading up to the Clone Wars. With their relatively aerodynamic, lifting body fuselages, CloakShapes were designed as aerospace superiority fighters with an emphasis on atmospheric and near-orbital combat. They are powered by a pair of KSE 807b/9 afterburning ion engines backed up by a light repulsorlift, a setup that gives the fighter respectable speed but marginal agility. They have no hyperdrive and carry no shields; to compensate, CloakShape fighters have reinforced, heavily armored hulls, which makes them incredibly durable. Despite their lackluster performance, short range, and limited scope, CloakShape fighters have soldiered on for decades now thanks to two important features: they are inexpensive and are easily customizable. 
+
+[P]It's often said that there's no such thing as a stock Cloak-Shape fighter. The fighter's simple design, modular components, and plethora of universal power and computer couplings make these ships prime candidates for modification. Over the decades, numerous aftermarket systems have been designed and sold for the CloakShape, and their ease of installation and use has allowed these fighters to compete against modern starfighters with some success. The most common are upgraded powerplants, hyperdrives and navicomputers, shield generators, heavier weapons, and more sophisticated communications and sensor systems. This makes the nominally obsolete starfighter an attractive option to budget-minded individuals.</Description>
+  <Source>Edge of the Empire Core Rulebook</Source>
+  <Custom>DescOnly</Custom>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>38000</Price>
+  <Rarity>4</Rarity>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>12</EncumbranceCapacity>
+  <Consumables>None</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Armor>3</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>6</Count>
+        </Quality>
+      </Qualities>
+      <Key>CML</Key>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <SensorRange>Close</SensorRange>
+</Vehicle>
