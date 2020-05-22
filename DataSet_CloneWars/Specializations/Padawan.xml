@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>JEDPAD</Key>
+  <Key>PADAWAN</Key>
   <Name>Padawan</Name>
   <Description>[H4]Padawan[h4]
 "Padawan" means "learner," suggesting a deep philosophical foundation, encouraging Jedi to continually strive to learn and understand. A Padawan studies not only facts and information, but also the ideas of fluidity and flexibility, and the act of learning itself, so as to be open to understanding. Some Jedi scholars consider "Padawan" to be a state of mind rather than a title. Many a Knight has found themself revisiting the path of the Padawan to recover the balance they lost or never really had in the first place.[P]
@@ -149,4 +149,7 @@ Padawans receive [B]Coordination, Knowledge (Education), Mechanics[b], and[B] Vi
       </Directions>
     </TalentRow>
   </TalentRows>
+  <AddlCareerSkills>
+    <Type />
+  </AddlCareerSkills>
 </Specialization>

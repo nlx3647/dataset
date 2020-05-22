@@ -182,8 +182,8 @@
   </Talent>
   <Talent>
     <Key>GUARDREP</Key>
-    <Name>Gaurdian of the Republic</Name>
-    <Description>After the charaacter uses Parry or Reflect to reduce damage to an ally, that ally cannot be targeted by combat checks for the remainder of the round
+    <Name>Guardian of the Republic</Name>
+    <Description>After the character uses Parry or Reflect to reduce damage to an ally, that ally cannot be targeted by combat checks for the remainder of the round
 </Description>
     <Source Page="26">Rise of the Separatists</Source>
     <Custom>AddedItem</Custom>
@@ -802,36 +802,6 @@
     <Key>ENDPRES</Key>
     <Name>Enduring Presence</Name>
     <Description>Once per session the character may upgrade a Mass Combat check even if the characer is not present or is prevented from communicating with their troops
-</Description>
-    <Source Page="21">Collapse of the Republic</Source>
-    <Custom>AddedItem</Custom>
-    <ActivationValue>taPassive</ActivationValue>
-    <ChooseCareerSkills>
-      <ChooseByType>true</ChooseByType>
-      <TypeValue>stGeneral</TypeValue>
-      <Type>General</Type>
-    </ChooseCareerSkills>
-    <Activation>Passive</Activation>
-  </Talent>
-  <Talent>
-    <Key>FORMTACTS</Key>
-    <Name>Formation Tactics</Name>
-    <Description>Make a [B]Hard ([DI][DI][DI]) Leadership check[b]. If successful choose a number of allies within short range equal to [SU]. Upgrade the difficulty of attacks against these allies until the end of character's next turn.
-</Description>
-    <Source Page="21">Collapse of the Republic</Source>
-    <Custom>AddedItem</Custom>
-    <ActivationValue>taAction</ActivationValue>
-    <ChooseCareerSkills>
-      <ChooseByType>true</ChooseByType>
-      <TypeValue>stGeneral</TypeValue>
-      <Type>General</Type>
-    </ChooseCareerSkills>
-    <Activation>Action</Activation>
-  </Talent>
-  <Talent>
-    <Key>FORMTACTSIMP</Key>
-    <Name>Formation Tactics (Improved)</Name>
-    <Description>The difficulty of Formation Tactics is reudced to [B]Average ([DI][DI]). [b] May spend [TR] or [AD][AD][AD][AD][AD][AD] to have effect last until the end of encounter
 </Description>
     <Source Page="21">Collapse of the Republic</Source>
     <Custom>AddedItem</Custom>

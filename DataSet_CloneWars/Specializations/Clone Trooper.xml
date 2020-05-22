@@ -147,4 +147,7 @@ Standard infantry make up the largest portion to
       </Directions>
     </TalentRow>
   </TalentRows>
+  <AddlCareerSkills>
+    <Type />
+  </AddlCareerSkills>
 </Specialization>

@@ -155,4 +155,7 @@ Clone Pilots serve as members of a squadron under the command of a Clone Officer
       </Directions>
     </TalentRow>
   </TalentRows>
+  <AddlCareerSkills>
+    <Type />
+  </AddlCareerSkills>
 </Specialization>

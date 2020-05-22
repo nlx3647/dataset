@@ -145,4 +145,7 @@ Every military organization depends upon its officers t to function effectively.
       </Directions>
     </TalentRow>
   </TalentRows>
+  <AddlCareerSkills>
+    <Type />
+  </AddlCareerSkills>
 </Specialization>

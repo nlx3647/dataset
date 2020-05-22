@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>JKNIGHT</Key>
+  <Key>JEDIKNIGHT</Key>
   <Name>Knight</Name>
   <Description>[H4]Knight[h4]
 A Jedi Knight serves as warrior, diplomat, ambassador, and scholar, leading clone troopers to repel the droid army of the Confederacy of Independent Systems. In many ways, Knights act as the face and symbol of the Republic, more so than the clone troopers, and perhaps even more than the Senators and representatives in the Galactic Senate. While their numbers are few compared to the total population of the galaxy, the Jedi, as a whole, affect billions of lives.
@@ -144,4 +144,7 @@ Jedi Knights are guardians of peace and justice. Through acts of charity, assist
       </Directions>
     </TalentRow>
   </TalentRows>
+  <AddlCareerSkills>
+    <Type />
+  </AddlCareerSkills>
 </Specialization>

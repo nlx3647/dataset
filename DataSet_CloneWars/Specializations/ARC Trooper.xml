@@ -152,4 +152,7 @@ Focused on tactics for quick strikes, careful Infiltration. or overwhelming forc
       </Directions>
     </TalentRow>
   </TalentRows>
+  <AddlCareerSkills>
+    <Type />
+  </AddlCareerSkills>
 </Specialization>

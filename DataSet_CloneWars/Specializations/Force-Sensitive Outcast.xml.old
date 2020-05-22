@@ -1,31 +1,28 @@
 <?xml version="1.0"?>
 <Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>REPREP</Key>
-  <Name>Republic Representative</Name>
-  <Description>[H4]Republic Representative[h4]
+  <Key>FORCEOUTCAST</Key>
+  <Name>Force-Sensitive Outcast</Name>
+  <Description>[H4]Force-Sensitive Outcast[h4]
 </Description>
-  <Source Page="33">Rise of the Separatists</Source>
+  <Source Page="41">Rise of the Separatists</Source>
   <Custom>AddedItem</Custom>
-  <CareerSkills>
-    <Key>CHARM</Key>
-    <Key>COOL</Key>
-    <Key>NEG</Key>
-  </CareerSkills>
   <TalentRows>
     <TalentRow>
       <Cost>5</Cost>
       <Talents>
+        <Key>UNCANREAC</Key>
+        <Key>SENSDEMO</Key>
         <Key>GRIT</Key>
-        <Key>LEVRG</Key>
-        <Key>KILL</Key>
-        <Key>RESPDEL</Key>
+        <Key>UNCANSENS</Key>
       </Talents>
       <Directions>
-        <Direction />
-        <Direction />
         <Direction>
           <Down>true</Down>
         </Direction>
+        <Direction>
+          <Down>true</Down>
+        </Direction>
+        <Direction />
         <Direction>
           <Down>true</Down>
         </Direction>
@@ -34,28 +31,25 @@
     <TalentRow>
       <Cost>10</Cost>
       <Talents>
-        <Key>NOBFOOL</Key>
-        <Key>KILL</Key>
-        <Key>RESPDEL</Key>
-        <Key>SMOOTHTALK</Key>
+        <Key>QUICKDR</Key>
+        <Key>QUICKST</Key>
+        <Key>DISOR</Key>
+        <Key>SECFORCE</Key>
       </Talents>
       <Directions>
         <Direction>
-          <Right>true</Right>
+          <Up>true</Up>
           <Down>true</Down>
         </Direction>
         <Direction>
-          <Left>true</Left>
-          <Right>true</Right>
-          <Down>true</Down>
-        </Direction>
-        <Direction>
-          <Left>true</Left>
           <Right>true</Right>
           <Up>true</Up>
+          <Down>true</Down>
         </Direction>
         <Direction>
           <Left>true</Left>
+        </Direction>
+        <Direction>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
@@ -64,10 +58,10 @@
     <TalentRow>
       <Cost>15</Cost>
       <Talents>
-        <Key>TRANSERROR</Key>
-        <Key>LEVRG</Key>
-        <Key>SMOOTHTALK</Key>
-        <Key>NOBFOOL</Key>
+        <Key>DISOR</Key>
+        <Key>PREYWEAK</Key>
+        <Key>RENFORM</Key>
+        <Key>PARRY</Key>
       </Talents>
       <Directions>
         <Direction>
@@ -81,9 +75,11 @@
           <Down>true</Down>
         </Direction>
         <Direction>
+          <Right>true</Right>
           <Down>true</Down>
         </Direction>
         <Direction>
+          <Left>true</Left>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
@@ -92,28 +88,25 @@
     <TalentRow>
       <Cost>20</Cost>
       <Talents>
-        <Key>CONSOPTS</Key>
-        <Key>STNERV</Key>
-        <Key>INTENSPRE</Key>
-        <Key>LEVRG</Key>
+        <Key>PREYWEAK</Key>
+        <Key>SORRYMESS</Key>
+        <Key>PARRY</Key>
+        <Key>REFLECT</Key>
       </Talents>
       <Directions>
         <Direction>
-          <Up>true</Up>
-          <Down>true</Down>
-        </Direction>
-        <Direction>
-          <Right>true</Right>
-          <Up>true</Up>
-          <Down>true</Down>
-        </Direction>
-        <Direction>
-          <Left>true</Left>
           <Right>true</Right>
           <Up>true</Up>
         </Direction>
         <Direction>
           <Left>true</Left>
+          <Up>true</Up>
+          <Down>true</Down>
+        </Direction>
+        <Direction>
+          <Up>true</Up>
+        </Direction>
+        <Direction>
           <Up>true</Up>
           <Down>true</Down>
         </Direction>
@@ -122,16 +115,17 @@
     <TalentRow>
       <Cost>25</Cost>
       <Talents>
-        <Key>CONSOPTSIMP</Key>
-        <Key>NATNEG</Key>
         <Key>DEDI</Key>
-        <Key>BACKRDE</Key>
+        <Key>RAVG</Key>
+        <Key>GRIT</Key>
+        <Key>FORCERAT</Key>
       </Talents>
       <Directions>
         <Direction>
-          <Up>true</Up>
+          <Right>true</Right>
         </Direction>
         <Direction>
+          <Left>true</Left>
           <Right>true</Right>
           <Up>true</Up>
         </Direction>
@@ -147,6 +141,9 @@
     </TalentRow>
   </TalentRows>
   <Universal>true</Universal>
+  <Attributes>
+    <ForceRating>1</ForceRating>
+  </Attributes>
   <AddlCareerSkills>
     <Type />
   </AddlCareerSkills>

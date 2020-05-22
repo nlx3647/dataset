@@ -144,4 +144,7 @@
     </TalentRow>
   </TalentRows>
   <Universal>true</Universal>
+  <AddlCareerSkills>
+    <Type />
+  </AddlCareerSkills>
 </Specialization>

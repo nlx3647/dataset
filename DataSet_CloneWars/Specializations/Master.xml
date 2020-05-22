@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>JMAST</Key>
+  <Key>JEDIMASTER</Key>
   <Name>Master</Name>
   <Description>[H4]Master[h4]
 A Jedi cannot ignore the binding principle that connects the galaxy, especially at a time of war. While a civilian may not see any utility in silent contemplation of the Force, a Master understands that wisdom can come from anywhere and everywhere. Although the title of "Master" requires the approval of the Jedi Council, this  specialization covers overall wisdom, self-reflection, and mastery of the Force. A true Jedi Master requires no for mal title. The Force recognizes their ability.[P]
@@ -159,4 +159,7 @@ Masters gain the career skills [B]Charm, Knowledge (Core Worlds), Knowledge (Edu
       </Directions>
     </TalentRow>
   </TalentRows>
+  <AddlCareerSkills>
+    <Type />
+  </AddlCareerSkills>
 </Specialization>

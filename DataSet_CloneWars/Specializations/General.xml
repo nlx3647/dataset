@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Specialization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Key>JGEN</Key>
+  <Key>JEDIGEN</Key>
   <Name>General</Name>
   <Description>[H4]General[h4]
 A Jedi's connection to the
@@ -157,4 +157,7 @@ skills [B]Knowledge (Warfare), Leadership, Piloting (Planetary), and Vigilance[b
       </Directions>
     </TalentRow>
   </TalentRows>
+  <AddlCareerSkills>
+    <Type />
+  </AddlCareerSkills>
 </Specialization>
